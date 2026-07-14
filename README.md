@@ -40,6 +40,24 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
+## Test
+
+```bash
+pip install -r requirements.txt
+pytest -q
+streamlit run app.py
+```
+
+GitHub Actions runs syntax checks and the JSON parser tests after every push.
+
+## Deploy on Streamlit Community Cloud
+
+1. Sign in at `share.streamlit.io` with GitHub.
+2. Select **Create app** and choose `purushothaman-98/building-up`.
+3. Choose branch `master` and entrypoint `app.py`.
+4. Deploy without secrets to test the JSON-upload mode.
+5. Add the `[reddit]` secrets later only if live OAuth scanning is required.
+
 Local CSV snapshots are stored under `data/` and ignored by Git. Streamlit Cloud's local filesystem is not durable; a later scheduled match monitor should write snapshots to a proper database.
 
 ### No-credential mode
