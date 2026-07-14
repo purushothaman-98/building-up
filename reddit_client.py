@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import re
+import json
 from dataclasses import asdict, dataclass
 from datetime import datetime, timezone
 from typing import Iterable
@@ -139,3 +140,57 @@ def scan_subreddit(reddit: praw.Reddit, name: str, sort: str, limit: int) -> lis
         "scanned_at": scanned_at,
     } for item in listing]
 
+
+def parse_reddit_json(raw: bytes) -> tuple[dict, list[dict]]:
+    """Parse a user-supplied Reddit submission JSON export without network access."""
+    payload = json.loads(raw.decode("utf-8-sig"))
+    if not isinstance(payload, list) or len(payload) < 2:
+        raise ValueError("Expected the JSON returned by a Reddit comments page.")
+    post_children = payload[0].get("data", {}).get("children", [])
+    if not post_children:
+        raise ValueError("The file does not contain a Reddit submission.")
+    source = post_children[0].get("data", {})
+    scanned_at = datetime.now(timezone.utc).isoformat()
+    post_id = str(source.get("id", ""))
+    post = {
+        "post_id": post_id,
+        "title": source.get("title", "Untitled Reddit post"),
+        "subreddit": source.get("subreddit", "Unknown"),
+        "author": source.get("author") if source.get("author") not in PRIVATE_MARKERS else None,
+        "created_utc": _iso(source.get("created_utc")),
+        "score": int(source.get("score") or 0),
+        "upvote_ratio": float(source.get("upvote_ratio") or 0),
+        "num_comments_public": int(source.get("num_comments") or 0),
+        "permalink": "https://www.reddit.com" + str(source.get("permalink", "")),
+        "scanned_at": scanned_at,
+    }
+    rows: list[dict] = []
+
+    def walk(children: list, depth: int = 0) -> None:
+        for child in children:
+            if child.get("kind") != "t1":
+                continue  # "more" placeholders require a separate authenticated request.
+            data = child.get("data", {})
+            body, state = _safe_body(data.get("body"))
+            permalink = str(data.get("permalink", ""))
+            rows.append({
+                "comment_id": str(data.get("id", "")),
+                "parent_id": str(data.get("parent_id", "")),
+                "post_id": post_id,
+                "author": data.get("author") if state == "visible" else None,
+                "body": body,
+                "created_utc": _iso(data.get("created_utc")) or scanned_at,
+                "edited_utc": _iso(data.get("edited")),
+                "score": int(data.get("score") or 0),
+                "depth": int(data.get("depth", depth) or depth),
+                "permalink": "https://www.reddit.com" + permalink,
+                "state": state,
+                "scanned_at": scanned_at,
+            })
+            replies = data.get("replies")
+            if isinstance(replies, dict):
+                walk(replies.get("data", {}).get("children", []), depth + 1)
+
+    walk(payload[1].get("data", {}).get("children", []))
+    post["comments_collected"] = len(rows)
+    return post, rows
