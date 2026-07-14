@@ -16,6 +16,7 @@ PRAW is the maintained Python Reddit API wrapper. It authenticates with OAuth, o
 - deduplication-ready stable Reddit IDs
 - deleted/removed bodies are not stored, and later deletion observations erase historical local text
 - CSV download and a ten-minute publication timeline
+- credential-free local analysis of a user-supplied Reddit comments JSON file
 
 ## Configure Reddit access
 
@@ -40,6 +41,10 @@ streamlit run app.py
 ```
 
 Local CSV snapshots are stored under `data/` and ignored by Git. Streamlit Cloud's local filesystem is not durable; a later scheduled match monitor should write snapshots to a proper database.
+
+### No-credential mode
+
+The app can parse a Reddit comments JSON file saved manually in a browser. This mode performs no automated request to Reddit. It cannot expand JSON `more` placeholders, so a large thread may contain fewer comments than Reddit's public counter. Automatic refresh and reliable 200+ comment collection require approved OAuth access.
 
 ## Planned match-monitor layer
 
