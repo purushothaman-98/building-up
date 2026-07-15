@@ -6,7 +6,7 @@ on:
       - "arxiv_scanner.py"
       - ".github/workflows/scan-arxiv.yml"
   schedule:
-    - cron: "17 5,17 * * *"
+    - cron: "17 1,9,17 * * *"
   workflow_dispatch:
 permissions:
   contents: write
@@ -22,7 +22,14 @@ jobs:
         with:
           python-version: "3.12"
       - name: Query official arXiv API
-        run: python arxiv_scanner.py --output data/papers.json --max-results 300
+        shell: bash
+        run: |
+          if [ "${{ github.event_name }}" = "schedule" ]; then
+            SINCE="$(date -u -d '21 days ago' +%F)"
+          else
+            SINCE="2026-01-01"
+          fi
+          python arxiv_scanner.py --output data/papers.json --since "$SINCE" --max-results 2000
       - name: Commit archive changes
         run: |
           if git diff --quiet -- data/papers.json; then
@@ -33,4 +40,5 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/papers.json
           git commit -m "data: update arXiv exciton archive"
+          git pull --rebase origin master
           git push
