@@ -1,12 +1,105 @@
 {
-  "schema_version": 1,
-  "last_scan": "2026-07-15T21:51:24.553458+00:00",
+  "schema_version": 2,
+  "last_scan": "2026-07-15T22:08:09.034044+00:00",
   "counts": {
-    "total": 44,
-    "new_this_scan": 44,
+    "total": 73,
+    "new_this_scan": 29,
     "updated_this_scan": 0
   },
   "papers": [
+    {
+      "arxiv_id": "2602.23925",
+      "version": "v3",
+      "versioned_id": "2602.23925v3",
+      "title": "Phonon-Assisted Photoluminescence and Ultrafast Exciton Dynamics in Two-Dimensional Silicon Carbide",
+      "authors": [
+        "Afreen Anamul Haque",
+        "Rishabh Saraswat",
+        "Aniket Singha",
+        "Rekha Verma",
+        "Sitangshu Bhattacharya"
+      ],
+      "abstract": "Phonon assisted photoluminescence provides a direct window into exciton phonon interactions in semiconductors. Using fully ab initio many-body perturbation theory, including finite momentum Bethe Salpeter calculations, we investigate phonon-assisted emission and exciton dynamics in two dimensional (2D) hexagonal silicon carbide (hSiC) and benchmark its response against 2D h boron nitride (hBN). By explicitly resolving exciton phonon matrix elements, we identify an electron-phonon scattering channel mediated by A$^\\prime$ high energy longitudinal and transverse optical phonons as the dominant contributors to sideband formation and quantify their spectral weights. We find that h SiC exhibits pronounced phonon-assisted sidebands comparable to hBN, despite a smaller exciton phonon energy separation and fewer resolved replicas. The bright \\textbf{K}\\textbf{K} exciton governs near UV zero phonon emission, while intervalley excitons acquire radiative character through symmetry allowed optical phonon coupling. Temperature dependent scattering rates reveal an ultrashort bright exciton lifetime of approximately 300 fs at 10 K, highlighting rapid exciton relaxation driven by intrinsic phonon channels.",
+      "submitted": "2026-02-27T11:21:24Z",
+      "updated": "2026-07-13T06:46:09Z",
+      "categories": [
+        "cond-mat.str-el",
+        "cond-mat.mtrl-sci"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2602.23925v3",
+      "arxiv_url": "https://arxiv.org/abs/2602.23925",
+      "study_type": "Computational",
+      "materials": [
+        "hBN",
+        "SiC",
+        "UV"
+      ],
+      "methods": [
+        "Photoluminescence",
+        "Exciton lifetime / dynamics",
+        "DFT"
+      ],
+      "matched_keywords": [
+        "ab initio",
+        "exciton",
+        "exciton dynamics",
+        "exciton lifetime",
+        "photoluminescence"
+      ],
+      "evidence": {
+        "experimental": false,
+        "computational": true
+      },
+      "versions_seen": [
+        "v3"
+      ]
+    },
+    {
+      "arxiv_id": "2602.19438",
+      "version": "v2",
+      "versioned_id": "2602.19438v2",
+      "title": "Excitonic pattern formation from a wrinkling instability in a van der Waals heterostructure",
+      "authors": [
+        "Zhiwen Zhou",
+        "L. H. Fowler-Gerace",
+        "W. J. Brunner",
+        "E. A. Szwed",
+        "Michael M. Fogler",
+        "Daniel E. Parker",
+        "L. V. Butov"
+      ],
+      "abstract": "We studied photoluminescence of spatially indirect excitons (IXs) in a MoSe$_2$/WSe$_2$ van der Waals heterostructure. We observed a quasi-periodic triangular pattern of IXs with a characteristic spatial wavelength $\\sim{}2.6\\,μ\\mathrm{m}$. Our theoretical analysis using a Föppl-von Kármán theory finds an elastic instability that produces triangular patterns with micrometer-scale wavelengths. This mechanism is consistent with the wavelength, symmetry, excitation power dependence, and temperature dependence of the observed IX pattern.",
+      "submitted": "2026-02-23T02:16:34Z",
+      "updated": "2026-07-12T04:34:37Z",
+      "categories": [
+        "cond-mat.mes-hall"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2602.19438v2",
+      "arxiv_url": "https://arxiv.org/abs/2602.19438",
+      "study_type": "Experimental",
+      "materials": [
+        "2D materials",
+        "IXs",
+        "MoSe",
+        "WSe",
+        "IX"
+      ],
+      "methods": [
+        "Photoluminescence"
+      ],
+      "matched_keywords": [
+        "exciton",
+        "excitonic",
+        "photoluminescence"
+      ],
+      "evidence": {
+        "experimental": true,
+        "computational": false
+      },
+      "versions_seen": [
+        "v2"
+      ]
+    },
     {
       "arxiv_id": "2603.10966",
       "version": "v2",
@@ -377,6 +470,45 @@
       ]
     },
     {
+      "arxiv_id": "2602.02064",
+      "version": "v2",
+      "versioned_id": "2602.02064v2",
+      "title": "Atomistic Approach to Exciton-Phonon Couplings in Semiconductor Quantum Dots",
+      "authors": [
+        "Yasser Saleem",
+        "Moritz Cygorek"
+      ],
+      "abstract": "We present a fully atomistic approach to exciton-phonon coupling in semiconductor quantum dots that bridges microscopic electronic-structure calculations with non-Markovian open-quantum-system dynamics. On the example of an InAsP quantum dot embedded in an InP matrix, we compute single-particle states using an ab initio-parametrized tight-binding model, then obtain correlated many-body wave functions of neutral excitons, biexcitons, and charged trions via the configuration-interaction method. Using these correlated states, we compute the exciton-phonon coupling matrix elements. The resulting phonon spectral densities for different excitonic complexes are compared with the widely used analytical super-Ohmic form and reveal deviations at higher energies originating from the realistic dot geometry and atomistic wave functions, whereas configuration mixing is found to play only a minor role. Furthermore, we extract radiative lifetimes comparable to values experimentally measured. As a direct application, we simulate the emission brightness of a pulsed-driven quantum dot and demonstrate that the atomistically derived spectral density substantially broadens the region of efficient off-resonant excitation compared to the analytical model. The presented framework provides a nearly parameter-free route to simulate the non-Markovian open quantum dynamics in semiconductor quantum dots.",
+      "submitted": "2026-02-02T13:04:21Z",
+      "updated": "2026-06-15T13:34:41Z",
+      "categories": [
+        "cond-mat.mes-hall"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2602.02064v2",
+      "arxiv_url": "https://arxiv.org/abs/2602.02064",
+      "study_type": "Computational",
+      "materials": [
+        "quantum dots",
+        "InAsP",
+        "InP"
+      ],
+      "methods": [
+        "DFT"
+      ],
+      "matched_keywords": [
+        "ab initio",
+        "exciton",
+        "excitonic"
+      ],
+      "evidence": {
+        "experimental": false,
+        "computational": true
+      },
+      "versions_seen": [
+        "v2"
+      ]
+    },
+    {
       "arxiv_id": "2606.14527",
       "version": "v1",
       "versioned_id": "2606.14527v1",
@@ -657,6 +789,50 @@
       },
       "versions_seen": [
         "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2601.20259",
+      "version": "v2",
+      "versioned_id": "2601.20259v2",
+      "title": "Roles of individual pigments in ultrafast excitation dynamics of light-harvesting phycobiliproteins revealed by recombinant techniques and two-dimensional electronic spectroscopy",
+      "authors": [
+        "Masaaki Tsubouchi",
+        "Takatoshi Fujita",
+        "Motoyasu Adachi",
+        "Ryuji Itakura"
+      ],
+      "abstract": "Phycobiliproteins serve as highly efficient light-harvesting antennae in cyanobacteria, yet the molecular factors governing their ultrafast energy relaxation and coherence dynamics remain incompletely understood. In this study, we investigate the role of pigment arrangement and pigment-protein interactions by combining recombinant protein engineering with two-dimensional electronic spectroscopy (2D-ES). In addition to wild-type allophycocyanin (APC) and C-phycocyanin (CPC), we artificially synthesized a β153 phycocyanobilin (PCB)-deficient CPC mutant, enabling direct experimental isolation of the contribution of this peripheral pigment. The absorption and fluorescence spectra show that removal of the β153 pigment primarily eliminates its spectral contribution without significantly altering the excitonic coupling between the α84 and β84 pigments. Time-resolved 2D-ES reveals the close similarity between the dynamics of wild-type and β153-deficient CPCs, which demonstrate that the β153 pigment plays a minor role in ultrafast relaxation dynamics. Instead, the difference between APC and CPC arise primarily from pigment-protein interactions that modulate pigment geometry and vibronic structure. These results highlight the critical importance of local protein environments in controlling energy relaxation and coherence in photosynthetic light-harvesting proteins.",
+      "submitted": "2026-01-28T05:13:54Z",
+      "updated": "2026-06-03T06:59:49Z",
+      "categories": [
+        "physics.bio-ph",
+        "physics.chem-ph"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2601.20259v2",
+      "arxiv_url": "https://arxiv.org/abs/2601.20259",
+      "study_type": "Experimental",
+      "materials": [
+        "ES",
+        "APC",
+        "CPC",
+        "PCB",
+        "CPCs"
+      ],
+      "methods": [
+        "Time-resolved spectroscopy"
+      ],
+      "matched_keywords": [
+        "exciton",
+        "excitonic",
+        "time-resolved"
+      ],
+      "evidence": {
+        "experimental": true,
+        "computational": false
+      },
+      "versions_seen": [
+        "v2"
       ]
     },
     {
@@ -1597,6 +1773,48 @@
       ]
     },
     {
+      "arxiv_id": "2602.18259",
+      "version": "v2",
+      "versioned_id": "2602.18259v2",
+      "title": "Phonon assisted light absorption and emission in cubic-Boron Nitride",
+      "authors": [
+        "Ashwin Pillai",
+        "Elena Cannuccia",
+        "Aurelien Manchon",
+        "Fulvio Paleari",
+        "Claudio Attaccalite"
+      ],
+      "abstract": "Cubic boron nitride (cBN) is a wide-bandgap polymorph of boron nitride whose optical response remains only partially understood due to the coexistence of indirect electronic transitions and strong exciton-phonon coupling. Using first-principles many-body perturbation theory, we investigate the optical properties of cBN by combining GW quasiparticle corrections with Bethe-Salpeter equation calculations of excitonic effects. Phonon-assisted absorption and emission processes are explicitly included through the exciton-phonon coupling formalism. We find that phonon-mediated optical transitions provide a dominant contribution to both absorption and luminescence spectra, partially reconciling the discrepancy between the theoretical optical gap ($\\simeq$ 11 eV) and experimental emission around 6-7 eV. Our results demonstrate the importance of including exciton-phonon interactions for the correct interpretation of experimental spectra, offering new insights into light emission in wide-bandgap materials.",
+      "submitted": "2026-02-20T14:43:51Z",
+      "updated": "2026-03-27T14:25:48Z",
+      "categories": [
+        "cond-mat.mtrl-sci"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2602.18259v2",
+      "arxiv_url": "https://arxiv.org/abs/2602.18259",
+      "study_type": "Computational",
+      "materials": [],
+      "methods": [
+        "DFT",
+        "Bethe–Salpeter equation",
+        "Quasiparticle / optical gaps"
+      ],
+      "matched_keywords": [
+        "bethe-salpeter",
+        "exciton",
+        "excitonic",
+        "first-principles",
+        "optical gap"
+      ],
+      "evidence": {
+        "experimental": false,
+        "computational": true
+      },
+      "versions_seen": [
+        "v2"
+      ]
+    },
+    {
       "arxiv_id": "2603.26294",
       "version": "v1",
       "versioned_id": "2603.26294v1",
@@ -1817,6 +2035,45 @@
         "first-principles",
         "photoluminescence",
         "time-resolved"
+      ],
+      "evidence": {
+        "experimental": false,
+        "computational": true
+      },
+      "versions_seen": [
+        "v2"
+      ]
+    },
+    {
+      "arxiv_id": "2602.12466",
+      "version": "v2",
+      "versioned_id": "2602.12466v2",
+      "title": "Re-evaluating photoluminescent defects in Cu$_2$O",
+      "authors": [
+        "Alistair Brewin",
+        "Matthew P A Jones",
+        "Stewart J Clark"
+      ],
+      "abstract": "Defects in cuprous oxide (Cu$_2$O) strongly influence its performance in applications ranging from photovoltaics to emerging quantum technologies based on Rydberg excitons where microscopic crystal purity is essential. Photoluminescence (PL) spectroscopy is widely used as a diagnostic of material quality yet the origins of the sub-band-gap PL lines remain controversial despite decades of study. Using density functional theory we systematically evaluate native point defects in Cu$_2$O and identify which produce robust electronic states within the band gap. By combining supercell-size convergence criteria and cross-functional consistency checks we show that the widely accepted assignments of the 1.35\\,eV, 1.5\\,eV, and 1.7\\,eV PL lines to copper and oxygen vacancies are unsupported. Instead we find that oxygen interstitials, copper interstitials and one form of split copper vacancy are the only native defects that consistently introduce true in-gap states. These results provide a revised framework for interpreting PL spectra and offer a more reliable basis for diagnosing crystal quality in Cu$_2$O-based quantum-device platforms.",
+      "submitted": "2026-02-12T22:52:29Z",
+      "updated": "2026-03-18T11:48:07Z",
+      "categories": [
+        "cond-mat.mtrl-sci",
+        "cond-mat.mes-hall"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2602.12466v2",
+      "arxiv_url": "https://arxiv.org/abs/2602.12466",
+      "study_type": "Computational",
+      "materials": [],
+      "methods": [
+        "Photoluminescence",
+        "DFT"
+      ],
+      "matched_keywords": [
+        "density functional theory",
+        "exciton",
+        "photoluminescence",
+        "pl spectra"
       ],
       "evidence": {
         "experimental": false,
@@ -2056,6 +2313,1106 @@
       "versions_seen": [
         "v1"
       ]
+    },
+    {
+      "arxiv_id": "2603.02967",
+      "version": "v1",
+      "versioned_id": "2603.02967v1",
+      "title": "Intrinsic Electric Field Driven High Sensitive Photodetection in Alloy TMDC MoSSe",
+      "authors": [
+        "Chumki Nayak",
+        "Suvadip Masanta",
+        "Shubhadip Moulick",
+        "Manotosh Pramanik",
+        "Atanu Kabiraj",
+        "Satchidananda Rath",
+        "Sukanya Ghosh",
+        "Atindra Nath Pal",
+        "Bipul Pal",
+        "Achintya Singha"
+      ],
+      "abstract": "Alloying offers an effective way to improve the functionality of transition metal dichalcogenides (TMDCs) in both fundamental research and optoelectronic applications, as it allows for engineering their electronic and optical properties. This study investigates the optoelectronic properties of CVD-synthesized alloy MoSSe, which exhibits an inherent out-of-plane dipole moment, arising from asymmetry in S and Se atoms on either side of the Mo layer, as confirmed by piezoelectric force microscopy, polarization-resolved second harmonic generation studies and theoretical first-principles calculations. Time-resolved photoluminescence measurements reveal an extended exciton radiative recombination lifetime in MoSSe, attributed to electron-hole wavefunction separation by the dipole moment, which improves photodetection by facilitating enhanced electron-hole separation before recombination. The device demonstrates significant responsivity over broad spectral range. By employing the photogating effect, the device response can be switched from slow to fast modes. These findings are further supported by illumination intensity-dependent photoluminescence and Raman measurements, underscoring the potential of polar TMDCs in future optoelectronic devices.",
+      "submitted": "2026-03-03T13:19:07Z",
+      "updated": "2026-03-03T13:19:07Z",
+      "categories": [
+        "cond-mat.mtrl-sci",
+        "cond-mat.mes-hall"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2603.02967v1",
+      "arxiv_url": "https://arxiv.org/abs/2603.02967",
+      "study_type": "Theory + Experiment",
+      "materials": [
+        "transition-metal dichalcogenides",
+        "TMDC",
+        "MoSSe",
+        "TMDCs",
+        "CVD"
+      ],
+      "methods": [
+        "Photoluminescence",
+        "Time-resolved spectroscopy",
+        "DFT"
+      ],
+      "matched_keywords": [
+        "exciton",
+        "first-principles",
+        "photoluminescence",
+        "time-resolved"
+      ],
+      "evidence": {
+        "experimental": true,
+        "computational": true
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2602.22112",
+      "version": "v1",
+      "versioned_id": "2602.22112v1",
+      "title": "Phase-Dependent Excitonic Light Harvesting and Photovoltaic Limits in Monolayer Y2TeO2 MOenes",
+      "authors": [
+        "Bill D. A. Huacarpuma",
+        "Jose A. dos S. Laranjeira",
+        "Nicolas F. Martins",
+        "Julio R. Sambrano",
+        "Kleuton A. L. Lima",
+        "Santosh K. Tiwari",
+        "Alexandre C. Dias",
+        "Luiz A. Ribeiro"
+      ],
+      "abstract": "We investigate phase-dependent electronic and excitonic phenomena in monolayer Y2TeO2 MOenes in the 1T and 2H polymorphs using first-principles theory and an effective many-body framework. Phonon spectra and elastic stability criteria establish both phases as dynamically and mechanically stable. Quasiparticle band structures reveal direct gaps in the near-infrared to visible range, with gap values increasing systematically from semilocal to hybrid exchange treatments. Optical spectra computed using a tight-binding Bethe-Salpeter approach demonstrate pronounced excitonic resonances arising from reduced dimensionality and weak dielectric screening. The exciton binding energies reach 152 meV in the 1T phase and 126 meV in the 2H phase, reflecting enhanced quantum confinement in the structurally denser phase. Our results identify Y2TeO2monolayers as a rare class of stable, direct-gap MOenes with strong excitonic effects, providing a platform for exploring many-body physics in low-dimensional oxychalcogenide systems especially for photovoltaic applications.",
+      "submitted": "2026-02-25T16:58:51Z",
+      "updated": "2026-02-25T16:58:51Z",
+      "categories": [
+        "physics.comp-ph",
+        "cond-mat.mtrl-sci"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2602.22112v1",
+      "arxiv_url": "https://arxiv.org/abs/2602.22112",
+      "study_type": "Computational",
+      "materials": [
+        "Y2TeO2"
+      ],
+      "methods": [
+        "DFT",
+        "Bethe–Salpeter equation"
+      ],
+      "matched_keywords": [
+        "bethe-salpeter",
+        "exciton",
+        "excitonic",
+        "first-principles"
+      ],
+      "evidence": {
+        "experimental": false,
+        "computational": true
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2602.19693",
+      "version": "v1",
+      "versioned_id": "2602.19693v1",
+      "title": "Optical properties of single CsPbBr3 perovskite quantum dots synthesized by a modified ligand-assisted reprecipitation method",
+      "authors": [
+        "Marina Cagnon Trouche",
+        "Ernest Ruby",
+        "Margaux Cartier",
+        "Christophe Voisin",
+        "Maxime Vallet",
+        "Yannick Chassagneux",
+        "Cédric R. Mayer",
+        "Carole Diederichs"
+      ],
+      "abstract": "Colloidal perovskite quantum dots (pQDs) are promising quantum light emitters, and investigations at the single pQD scale have so far relied mostly on hot-injection synthesis, which requires precise temperature control and an inert atmosphere. While alternative synthesis routes under milder conditions are often associated with structural and surface defects that may have limited impact in ensemble measurements, demonstrating high optical quality at the level of individual pQDs constitutes the most stringent benchmark for a new synthesis protocol. Here, we demonstrate that a modified ligand-assisted reprecipitation (LARP) approach yields CsPbBr3 pQDs showing state-of-the-art optical properties at the scale of single emitters. By combining an amine-mediated post-synthetic size-trimming strategy with didodecyldimethylammonium bromide (DDAB) ligands for enhanced surface passivation and colloidal stability, we obtain isolated pQDs with stable emission and minimal spectral diffusion at cryogenic temperatures. Micro-photoluminescence experiments resolve the characteristic fine structure of the bright exciton, its low-energy optical phonon replicas, and the trion and biexciton states. Time-resolved and photon correlation measurements show a ~90 ps lifetime and high purity single photon emission, respectively. These results demonstrate that modified LARP synthesis constitutes an accessible alternative to hot injection, preserving the intrinsic excitonic and quantum optical properties of individual pQDs while offering greater flexibility for post-synthetic ligand engineering, as exemplified here by the use of DDAB for surface passivation.",
+      "submitted": "2026-02-23T10:39:46Z",
+      "updated": "2026-02-23T10:39:46Z",
+      "categories": [
+        "cond-mat.mes-hall",
+        "cond-mat.mtrl-sci"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2602.19693v1",
+      "arxiv_url": "https://arxiv.org/abs/2602.19693",
+      "study_type": "Experimental",
+      "materials": [
+        "perovskites",
+        "quantum dots",
+        "CsPbBr3",
+        "LARP",
+        "DDAB"
+      ],
+      "methods": [
+        "Photoluminescence",
+        "Time-resolved spectroscopy"
+      ],
+      "matched_keywords": [
+        "exciton",
+        "excitonic",
+        "photoluminescence",
+        "time-resolved"
+      ],
+      "evidence": {
+        "experimental": true,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2602.15465",
+      "version": "v1",
+      "versioned_id": "2602.15465v1",
+      "title": "Hydrostatic Pressure-enhanced correlated magnetism and Chern insulator in moir'e WSe2",
+      "authors": [
+        "Pengfei Jiao",
+        "Chenghao Qian",
+        "Ning Mao",
+        "Xumin Chang",
+        "Jiayong Xiao",
+        "Feng Liu",
+        "Shaozheng Wang",
+        "Xiaokai Wu",
+        "Di Peng",
+        "Cheng Xu",
+        "Hongliang Dong",
+        "Yuchen Zheng",
+        "Juncai Wu",
+        "Tong Zheng",
+        "Kenji Watanabe",
+        "Takashi Taniguchi",
+        "Jinfeng Jia",
+        "Xiaoxue Liu",
+        "Zhiwen Shi",
+        "Shiyong Wang",
+        "Guorui Chen",
+        "Tingxin Li",
+        "Ruidan Zhong",
+        "Yang Zhang",
+        "Dong Qian",
+        "Zhiqiang Chen",
+        "Shengwei Jiang"
+      ],
+      "abstract": "Moiré semiconductors offer flat bands where Coulomb interactions and band topology intertwine, while interlayer coupling plays a central role in forming the moiré potential. However, limited interlayer coupling strength and the lack of efficient tuning methods hinder further exploration of correlated phenomena in moiré semiconductors. Here we introduce a cryogenic dual-gated diamond-anvil platform using helium as a pressure medium, enabling reversible hydrostatic tuning together with magneto-optical spectroscopy in twisted bilayer WSe2. Pressure enhances the moiré potential, redshifts excitons, and stabilizes Stoner ferromagnetism otherwise absent at a 3.1-degree twist. Simultaneously, the half-filled C = 1 Chern insulating state strengthens, exhibiting a reduced saturation field. Moreover, we observe a topological phase transition from a Chern insulator to a Mott insulator at around 2 GPa. First-principles calculations reveal that a Gamma-to-K valence-band-maximum switching drives this transition by converting an Ising-like topological K-valley miniband into a spin-degenerate trivial Gamma miniband. Our findings demonstrate hydrostatic pressure as a powerful, continuous control axis for correlated magnetism and topological band engineering in moiré materials.",
+      "submitted": "2026-02-17T10:06:47Z",
+      "updated": "2026-02-17T10:06:47Z",
+      "categories": [
+        "cond-mat.mtrl-sci",
+        "cond-mat.mes-hall"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2602.15465v1",
+      "arxiv_url": "https://arxiv.org/abs/2602.15465",
+      "study_type": "Computational",
+      "materials": [
+        "WSe2",
+        "GPa"
+      ],
+      "methods": [
+        "Magneto-optical measurements",
+        "DFT"
+      ],
+      "matched_keywords": [
+        "exciton",
+        "first-principles",
+        "magneto-optical"
+      ],
+      "evidence": {
+        "experimental": false,
+        "computational": true
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2602.14114",
+      "version": "v1",
+      "versioned_id": "2602.14114v1",
+      "title": "An accurate theoretical framework for the optical and electronic properties of paracyclophanes",
+      "authors": [
+        "Vladislav Slama",
+        "Camila Negrete-Vergara",
+        "Elnaz Zyaee",
+        "Silvio Decurtins",
+        "Pascal Manuel Hanzi",
+        "Thomas Feurer",
+        "Shi-Xia Liu",
+        "Ursula Rothlisberger"
+      ],
+      "abstract": "Aromatic $π$-stacking interactions play an important role in both natural and artificial systems, influencing processes such as charge separation in photosynthesis and charge transport in organic semiconductors. Controlling the geometry and distance between aromatic units is therefore crucial for tuning intermolecular interactions and charge-transfer efficiency. Due to their well-defined stacking geometry, paracyclophanes (PCPs) composed of two or more aromatic units connected by rigid linkers, provide an ideal platform for a systematic study of such effects. Despite extensive experimental studies of PCPs, a comprehensive and quantitatively validated theoretical description linking the structure with the electronic and optical properties is still missing. Here, we present an extensive computational and experimental investigation of the electronic and optical properties of homo-PCPs containing naphthalene diimide (NDI) or pyrene chromophores linked by bridges of varying length and rigidity. We introduce a robust methodology for an accurate simulation of the absorption and fluorescence spectra of PCPs based on a combined TD-DFT and CC2 approach, achieving excellent quantitative agreement with experiment. We also present and validate a fragment-based description of PCPs using the Frenkel exciton model. Such approach is valuable not only for interpretation of the electronic and optical properties of PCPs, but it can also significantly reduce the cost of the calculation while maintaining the accuracy of the supermolecular approach. This work establishes a quantitatively reliable framework linking structure, excitonic coupling, and charge-transfer interactions in PCPs with optical properties, providing design principles for next-generation optoelectronic materials.",
+      "submitted": "2026-02-15T12:22:11Z",
+      "updated": "2026-02-15T12:22:11Z",
+      "categories": [
+        "physics.chem-ph"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2602.14114v1",
+      "arxiv_url": "https://arxiv.org/abs/2602.14114",
+      "study_type": "Computational",
+      "materials": [
+        "PCPs",
+        "NDI",
+        "TD",
+        "CC2"
+      ],
+      "methods": [
+        "DFT"
+      ],
+      "matched_keywords": [
+        "dft",
+        "exciton",
+        "excitonic"
+      ],
+      "evidence": {
+        "experimental": false,
+        "computational": true
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2602.11119",
+      "version": "v1",
+      "versioned_id": "2602.11119v1",
+      "title": "Floquet Control of Electron and Exciton Transport in Kekulé-Distorted Graphene",
+      "authors": [
+        "Sita Kandel",
+        "Godfrey Gumbs"
+      ],
+      "abstract": "This work investigates the Floquet dynamics of electrons and excitons (particle-hole pairs) in a Dirac material referred to as Kekulé-distorted graphene. Specifically, we examine the role played by a high frequency driving electromagnetic field on the tunneling and blocking by a potential barrier on both the charged single particles as well as the neutral composite particles. We demonstrate that the small effective masses of the electron and hole for the energy spectrum of this Kekulé distorted graphene leads to practically almost perfect transmission across a symmetric potential barrier for any angle of incidence of impinging excitons. However, this unexpected Klein paradox for excitons does not hold for the single-particle electrons. The reduced total transmission of electron due to Kekulé distortion is more suppressed due to irradiation. Additionally, we calculate and investigate the exciton binding energy since the quantum tunneling of a bound electron-hole pair across a potential barrier is governed by its mass measured in the center of mass and binding energy of the composite pair. Thus, irradiation with circularly polarized light fundamentally modifies exciton formation, coherence and transport properties, thereby producing unusual topological behaviors. These behaviors are unlike conventional Dirac materials. Possible technical applications of the results arising from our investigation include valleytronics due to the folding of the valleys, thereby making intervalley coupling feasible. Other practical applications include optoelectronics due to Floquet tuning of energy spectrum and transport properties.",
+      "submitted": "2026-02-11T18:32:34Z",
+      "updated": "2026-02-11T18:32:34Z",
+      "categories": [
+        "cond-mat.mes-hall",
+        "quant-ph"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2602.11119v1",
+      "arxiv_url": "https://arxiv.org/abs/2602.11119",
+      "study_type": "Computational",
+      "materials": [],
+      "methods": [
+        "Exciton binding energy"
+      ],
+      "matched_keywords": [
+        "exciton",
+        "exciton binding energy"
+      ],
+      "evidence": {
+        "experimental": false,
+        "computational": true
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2602.09858",
+      "version": "v1",
+      "versioned_id": "2602.09858v1",
+      "title": "Refined DFT recipe and renormalisation of band-edge parameters for electrons in monolayer MoS$_2$ informed by the measured spin-orbit splitting",
+      "authors": [
+        "Igor Rozhansky",
+        "Michele Masseroni",
+        "Ricardo Pisoni",
+        "Suad Alshammari",
+        "Xue Li",
+        "Thomas Ihn",
+        "Klaus Ensslin",
+        "James McHugh",
+        "Vladimir Fal'ko"
+      ],
+      "abstract": "Conduction band-edge spin-orbit splitting (SOS) in monolayer transition metal dichalcogenides determines a competition between bright and dark excitons and sets conditions for spintronics applications of these semiconductors. Here, we report the SOS measurement for electrons in monolayer MoS$_2$, found from the threshold density, $n_*$, for the upper spin-orbit-split band population, which exceeds by an order of magnitude the values expected from the conventional density functional theory (DFT). Theoretically, half of the observed value can be attributed to the exchange enhancement of SOS in a finite-density electron gas, but explaining the rest requires refining the DFT approach. As the conduction band SOS in MoS$_2$ is set by a delicate balance between the contribution of sulphur $p_x$ and $p_y$ orbitals and $d_{z^2}-d_{xz}$ and $d_{z^2}-d_{yz}$ mixing in molybdenum, we use a DFT+U+V framework for fine-tuning the orbital composition of the relevant band-edge states. An optimised choice of Hubbard U/V parameters produces close agreement with the experimentally observed conduction band SOS in MoS$_2$, simultaneously resulting in the valence-band SOS and the quasi-particle band gap which are closer to their values established in the earlier-published experiments.",
+      "submitted": "2026-02-10T15:02:46Z",
+      "updated": "2026-02-10T15:02:46Z",
+      "categories": [
+        "cond-mat.mes-hall",
+        "cond-mat.mtrl-sci"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2602.09858v1",
+      "arxiv_url": "https://arxiv.org/abs/2602.09858",
+      "study_type": "Computational",
+      "materials": [
+        "transition-metal dichalcogenides",
+        "MoS",
+        "SOS"
+      ],
+      "methods": [
+        "DFT"
+      ],
+      "matched_keywords": [
+        "density functional theory",
+        "dft",
+        "exciton"
+      ],
+      "evidence": {
+        "experimental": false,
+        "computational": true
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2602.09844",
+      "version": "v1",
+      "versioned_id": "2602.09844v1",
+      "title": "Exciton fine structure in CdSe nanoplatelets using a quasi-2D screened configuration-interaction framework",
+      "authors": [
+        "Sumanti Patra",
+        "Gabriel Bester"
+      ],
+      "abstract": "We compute exciton binding energies and fine-structure splittings in CdSe nanoplatelets with two zincblende geometries and one wurtzite geometry, finding that the wurtzite structure exhibits the largest bright-bright splitting due to its intrinsic in-plane anisotropy, while the zincblende structures show smaller but finite splittings arising from atomistic symmetry breaking at edges and corners. These results are obtained using a theoretical framework that we developed, which combines DFT single-particle states with screened configuration interaction, a quasi-2D dielectric screening model, and an efficient Coulomb-cutoff scheme that eliminates periodic-image interactions and enables accurate Coulomb and exchange integrals at low computational cost. This methodology provides a transferable and practical route for studying excitons in CdSe nanoplatelets and other quasi-two-dimensional nanomaterials.",
+      "submitted": "2026-02-10T14:48:54Z",
+      "updated": "2026-02-10T14:48:54Z",
+      "categories": [
+        "cond-mat.mtrl-sci"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2602.09844v1",
+      "arxiv_url": "https://arxiv.org/abs/2602.09844",
+      "study_type": "Computational",
+      "materials": [
+        "CdSe"
+      ],
+      "methods": [
+        "DFT"
+      ],
+      "matched_keywords": [
+        "dft",
+        "exciton"
+      ],
+      "evidence": {
+        "experimental": false,
+        "computational": true
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2602.09688",
+      "version": "v1",
+      "versioned_id": "2602.09688v1",
+      "title": "High Photovoltaic Efficiency in Bulk-Stacked One-Dimensional GeSe$_{2}$ van der Waals Crystal",
+      "authors": [
+        "Seoung-Hun Kang",
+        "Youngjae Kim",
+        "Bo Gyu Jang",
+        "Sejoong Kim"
+      ],
+      "abstract": "Germanium diselenide (GeSe$_{2}$) has recently attracted substantial interest as a rare example of one-dimensional (1D) van der Waals material. Here, we investigate the photovoltaic potential of bulk-stacked GeSe$_{2}$ chains using first-principles calculations within the $GW0$ approximation and the Bethe-Salpeter equation (BSE) to capture quasiparticle and excitonic effects. The bulk GeSe$_{2}$ exhibits indirect GW band gaps of 1.92 eV (type-I) and 1.08 eV (type-II). Optical calculations show markedly stronger visible-light absorption in type-II, yielding a spectroscopically limited maximum efficiency (SLME) of ~25.6% at a 0.5 $μ$m thickness. Phonon and room-temperature ab initio molecular dynamics analyses indicate that type-II is dynamically stable, whereas type-I shows imaginary phonon modes, suggesting a propensity for structural distortion. These results identify type-II GeSe2 as a promising stable absorber for thin-film photovoltaics with enhanced flexibility compared to typical 2D vdW systems.",
+      "submitted": "2026-02-10T11:44:19Z",
+      "updated": "2026-02-10T11:44:19Z",
+      "categories": [
+        "cond-mat.mtrl-sci"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2602.09688v1",
+      "arxiv_url": "https://arxiv.org/abs/2602.09688",
+      "study_type": "Computational",
+      "materials": [
+        "GeSe",
+        "GW0",
+        "II",
+        "SLME"
+      ],
+      "methods": [
+        "DFT",
+        "Bethe–Salpeter equation"
+      ],
+      "matched_keywords": [
+        "ab initio",
+        "bethe-salpeter",
+        "exciton",
+        "excitonic",
+        "first-principles"
+      ],
+      "evidence": {
+        "experimental": false,
+        "computational": true
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2602.06140",
+      "version": "v1",
+      "versioned_id": "2602.06140v1",
+      "title": "Highly-Indistinguishable Single-Photons at 1550 nm from a Two-photon Resonantly Excited Purcell-enhanced Quantum Dot",
+      "authors": [
+        "Robert Behrends",
+        "Martin v. Helversen",
+        "Pratim K. Saha",
+        "Lucas Rickert",
+        "Koray Kaymazlar",
+        "Mareike Lach",
+        "Nils D. Kewitz",
+        "Jochen Kaupp",
+        "Yorick Reum",
+        "Tobias Huber-Loyola",
+        "Sven Höfling",
+        "Andreas Pfenning",
+        "Tobias Heindel"
+      ],
+      "abstract": "In this work we present a cavity-enhanced InAs/$\\mathrm{In_{0.53}Al_{0.23}Ga_{0.24}As}$ quantum dot (QD) single-photon source in the telecom C-band with a record-low biexciton emitter decay time of \\SI{67.4(2)}{ps} under resonant two-photon excitation (TPE). We observe strong multiphoton suppression associated with $g^{(2)}_\\mathrm{X}(0) = 0.006(1)$ and $g^{(2)}_\\mathrm{XX}(0) = 0.007(1)$ for the exciton (X) and biexciton (XX) emission, respectively. Due to a asymmetric Purcell enhancement of the XX-X cascade, the two-photon interference (TPI) visibility of XX photons under $π$-pulse excitation of $V_{\\rm{TPI}} = 90(3)\\%$ reaches the theoretical limit and clearly exceeds the $\\sim60\\%$ expected for standard XX-X cascades without photonic engineering. Furthermore, adding a second timed laser pulse coinciding with XX emission energy, we demonstrate stimulated TPE in the telecom C-Band. The result is an improved TPI visibility of the X photons of $V_{\\rm{TPI}}=0.69(3)$ compared to TPE with $V_{\\rm{TPI}}=0.61(4)$, with both being reduced compared to the theoretical values due to present dephasing effects. The advances presented in this work hold important promises for the implementation of advanced schemes of quantum communication using deterministic quantum light sources.",
+      "submitted": "2026-02-05T19:20:23Z",
+      "updated": "2026-02-05T19:20:23Z",
+      "categories": [
+        "cond-mat.mes-hall",
+        "quant-ph"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2602.06140v1",
+      "arxiv_url": "https://arxiv.org/abs/2602.06140",
+      "study_type": "Experimental",
+      "materials": [
+        "quantum dots",
+        "InAs",
+        "QD",
+        "SI",
+        "TPE",
+        "XX",
+        "TPI"
+      ],
+      "methods": [
+        "Exciton lifetime / dynamics"
+      ],
+      "matched_keywords": [
+        "decay time",
+        "exciton"
+      ],
+      "evidence": {
+        "experimental": true,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2602.03780",
+      "version": "v1",
+      "versioned_id": "2602.03780v1",
+      "title": "Polytype-Dependent Upconversion Photoluminescence in 3R-MoS2",
+      "authors": [
+        "Omri Meron",
+        "Idan Kizel",
+        "Dror Hershkovitz",
+        "Youngki Yeo",
+        "Nirmal Roy",
+        "Wei Cao",
+        "Moshe Ben Shalom",
+        "Haim Suchowski"
+      ],
+      "abstract": "Ferroelectric van der Waals materials offer switchable polarization states, yet optical readout of their stacking configurations remains challenging. Building on the resonant exciton-exciton annihilation (EEA) mechanism in 2H-phase TMDs, we report the first observation of upconversion photoluminescence (UPL) in rhombohedral MoS2 and demonstrate that this many-body process is strongly polytype-dependent. Using low-temperature spectroscopy, we observe anti-Stokes emission with superlinear power dependence. Beyond serving as a layer-number sensor, UPL provides a sensitive probe of stacking order. Trilayer ABA and BAB polytypes, indistinguishable by surface potential measurements and second harmonic generation, exhibit markedly different UPL intensities, and this persists in thicker samples. First-principles calculations attribute this polytype dependence to modulation of the Gamma-point conduction manifold, which controls energy-matching conditions for the annihilation process. Power-dependent spectroscopy further disentangles two distinct annihilation channels originating from different dark exciton valleys, identified through their contrasting intensity scaling and opposite density-induced energy shifts. Crucially, the annihilation process doubles the energy separation of nearly degenerate dark excitons while converting their weak emission into bright signal, providing experimental access to valley-specific responses that are obscured in direct dark-exciton spectroscopy. Our findings demonstrate that ferroelectric configurations provide a new degree of freedom for controlling nonlinear optical processes, with implications for all-optical ferroelectric readout and electrically switchable wavelength conversion in two-dimensional materials.",
+      "submitted": "2026-02-03T17:41:11Z",
+      "updated": "2026-02-03T17:41:11Z",
+      "categories": [
+        "cond-mat.mtrl-sci"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2602.03780v1",
+      "arxiv_url": "https://arxiv.org/abs/2602.03780",
+      "study_type": "Theory + Experiment",
+      "materials": [
+        "MoS2",
+        "2D materials",
+        "EEA",
+        "TMDs",
+        "UPL",
+        "ABA",
+        "BAB"
+      ],
+      "methods": [
+        "Photoluminescence",
+        "DFT"
+      ],
+      "matched_keywords": [
+        "exciton",
+        "first-principles",
+        "photoluminescence"
+      ],
+      "evidence": {
+        "experimental": true,
+        "computational": true
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2602.02871",
+      "version": "v1",
+      "versioned_id": "2602.02871v1",
+      "title": "CVD Grown Hybrid MoSe$_2$-WSe$_2$ Lateral/Vertical Heterostructures with Strong Interlayer Exciton Emission",
+      "authors": [
+        "Md Tarik Hossain",
+        "Sai Shradha",
+        "Axel Printschler",
+        "Julian Picker",
+        "Luc F. Oswald",
+        "Julian Fuehrer",
+        "Nicole Engel",
+        "Honey J. Shah",
+        "Christof Neumann",
+        "Daria I. Markina",
+        "Moritz Quincke",
+        "Johannes Biskupek",
+        "Kenji Watanabe",
+        "Takashi Taniguchi",
+        "Ute Kaiser",
+        "Bernhard Urbaszek",
+        "Andrey Turchanin"
+      ],
+      "abstract": "Lateral heterostructures of 2D transition metal dichalcogenide offer a powerful platform to investigate photonic and electronic phenomena at atomically sharp interfaces. However, their controlled engineering, including tuning lateral domain size and integration into vertical van der Waals heterostructures with other 2D materials, remains challenging. Here, we present a facile route for the synthesis of two types of heterostructures consisting of monolayers of MoSe$_2$ and WSe$_2$ - purely lateral (HS I) and hybrid lateral/vertical (HS II) - using liquid precursors of transition metal salts and chemical vapor deposition (CVD). Depending on the growth parameters, the heterostructure type and their lateral dimensions can be adjusted. We characterized properties of the HS I and HS II by complementary spectroscopic and microscopic techniques including Raman and photoluminescence spectroscopy, and optical and atomic force microscopy, and scanning electron and transmission electron microscopy. The photoluminescence measurements reveal strong interlayer exciton emission in the MoSe$_2$/WSe$_2$ region of HS II, which dominates the spectrum at 4 K and persisting up to room temperature. These results demonstrate high optical quality of the grown heterostructures which in combination with scalability of the developed approach paves the way for fundamental studies and device applications based on these unique 2D quantum materials.",
+      "submitted": "2026-02-02T22:29:46Z",
+      "updated": "2026-02-02T22:29:46Z",
+      "categories": [
+        "cond-mat.mtrl-sci",
+        "cond-mat.mes-hall"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2602.02871v1",
+      "arxiv_url": "https://arxiv.org/abs/2602.02871",
+      "study_type": "Experimental",
+      "materials": [
+        "transition-metal dichalcogenides",
+        "2D materials",
+        "CVD",
+        "MoSe",
+        "WSe",
+        "HS",
+        "II"
+      ],
+      "methods": [
+        "Photoluminescence"
+      ],
+      "matched_keywords": [
+        "exciton",
+        "photoluminescence"
+      ],
+      "evidence": {
+        "experimental": true,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2602.00692",
+      "version": "v1",
+      "versioned_id": "2602.00692v1",
+      "title": "Momentum- and frequency-resolved collective electronic excitations in solids: insights from spectroscopy and first-principles calculations",
+      "authors": [
+        "Dario A. Leon",
+        "Kristian Berland"
+      ],
+      "abstract": "Collective electronic excitations, including plasmons, excitons, and intra- and interband transitions, play a central role in determining the dynamic screening, optical response, and energy transport properties of materials. Recent advances in momentum- and frequency-resolved spectroscopies, such as electron energy-loss spectroscopy (EELS) and inelastic x-ray scattering (IXS), together with progress in first-principles many-body perturbation theory (MBPT) calculations, now allow collective excitations to be mapped with considerable precision across the Brillouin zone. This topical review surveys current developments in the representation and interpretation of both experimental and theoretical dielectric-response spectra. Particular emphasis is placed on recent ways of representing spectral band structures (SBS) of the direct and inverse dielectric functions, such as analytical approaches based on multipole-Padé approximants in momentum and frequency (MPA($\\q$)), which provide a combined band-like description of the dispersion of the main collective excitations. We discuss how features observed in metals, semiconductors, and low dimensional systems reflect the interplay between electronic structure, screening strength, and local-field effects, and how post-processing procedures can improve the quantitative comparison between experiment and theory. Finally, we provide perspectives on open challenges and potential developments in quantitative dielectric-function analyses.",
+      "submitted": "2026-01-31T12:28:47Z",
+      "updated": "2026-01-31T12:28:47Z",
+      "categories": [
+        "cond-mat.mtrl-sci"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2602.00692v1",
+      "arxiv_url": "https://arxiv.org/abs/2602.00692",
+      "study_type": "Computational",
+      "materials": [
+        "EELS",
+        "IXS",
+        "MBPT",
+        "SBS",
+        "MPA"
+      ],
+      "methods": [
+        "DFT"
+      ],
+      "matched_keywords": [
+        "exciton",
+        "first-principles"
+      ],
+      "evidence": {
+        "experimental": false,
+        "computational": true
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2601.22022",
+      "version": "v1",
+      "versioned_id": "2601.22022v1",
+      "title": "Molecular structure, binding, and disorder in TDBC-Ag plexcitonic assemblies",
+      "authors": [
+        "J. Baños-Gutiérrez",
+        "R. Bercy",
+        "Y. García Jomaso",
+        "S. Balci",
+        "G. Pirruccio",
+        "J. Halldin Stenlid",
+        "M. J. Llansola-Portoles",
+        "D. Finkelstein-Shapiro"
+      ],
+      "abstract": "Plexcitonic assemblies are hybrid materials composed of a plasmonic nanoparticle and molecular or semiconducting emitters whose electronic transitions are strongly coupled to the plasmonic mode. This coupling hybridizes the system modes into upper and lower polariton branches. The strength of the interaction depends on the number of emitters and on their orientation and spatial arrangement relative to the metallic surface. These structural factors have profound consequences for the ensuing photoexcited dynamics. Despite the extensive spectroscopic work on plexcitonic systems, direct understanding of the molecular geometry at the metal interface remains limited. In this work, we present a comprehensive structural characterization of one of the most widely studied plexcitons formed by the cyanine dye 5,5',6,6'-tetrachloro-1,1'-diethyl-3,3'-di(4-sulfobutyl)-benzimidazolocarbocyanine (TDBC) and silver nanoprisms using a combination of NMR, THz-Raman spectroscopy, and DFT calculations. By comparing the signals from the monomeric and aggregated forms of TDBC with that of the plexciton, we identify shared spectral fingerprints that reveal how molecular packing is modified when the aggregate adsorbs on the silver surface. We observe Raman modes specific to plexciton systems, and identify NOESY cross-peaks in the aliphatic region, that along with THz-Raman modes in the 10-400 cm$^{-1}$ region are sensitive indicators of aggregation geometry and adsorption. We find that isolated TDBC monomers adopt an asymmetric conformation in which both sulfobutyl chains lie on the same side of the chromophore, while J-aggregates adopt a symmetric up-down alternation of the chains from molecule to molecule. This work establishes the molecular geometry of a prototypical TDBC-silver plexciton, providing a structural benchmark for understanding geometry-dependent photophysics in hybrid exciton-plasmon systems.",
+      "submitted": "2026-01-29T17:30:09Z",
+      "updated": "2026-01-29T17:30:09Z",
+      "categories": [
+        "physics.chem-ph",
+        "cond-mat.mtrl-sci"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2601.22022v1",
+      "arxiv_url": "https://arxiv.org/abs/2601.22022",
+      "study_type": "Computational",
+      "materials": [
+        "TDBC",
+        "NMR",
+        "THz",
+        "NOESY"
+      ],
+      "methods": [
+        "DFT"
+      ],
+      "matched_keywords": [
+        "dft",
+        "exciton",
+        "excitonic"
+      ],
+      "evidence": {
+        "experimental": false,
+        "computational": true
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2601.11914",
+      "version": "v2",
+      "versioned_id": "2601.11914v2",
+      "title": "Exciton-polaron Umklapp scattering in Wigner crystals",
+      "authors": [
+        "Erfu Liu",
+        "Matthew Wilson",
+        "Jenny Hu",
+        "Alexandra Zimmerman",
+        "Amal Mathew",
+        "Tianyi Ouyang",
+        "Ao Shi",
+        "Takashi Taniguchi",
+        "Kenji Watanabe",
+        "Tony F. Heinz",
+        "Yia-Chung Chang",
+        "Chun Hung Lui"
+      ],
+      "abstract": "Strong Coulomb interactions in two-dimensional (2D) semiconductors give rise to tightly bound excitons, exciton polarons, and correlated electronic phases such as Wigner crystals (WCs), yet their mutual interplay remains poorly understood. Here we report the observation of multi-branch excitonic Umklapp scattering in both electron and hole WCs realized in ultraclean monolayer WSe$_2$, exhibiting exceptionally high melting temperatures (T$_c$ $\\approx$ 20-30 K). Robust Wigner crystallization activates multiple finite-momentum optical resonances, including quasilinearly dispersing, light-like excitons and exciton polarons, extending far beyond the single excitonic Umklapp feature reported previously. Helicity-resolved magneto-optical measurements reveal a pronounced valley dependence of the scattering processes. Combined experiment and theory identify a polaron-induced brightening mechanism in which exciton polarons transfer oscillator strength from bright zero-momentum states to otherwise dark finite-momentum states, explaining the emergence of multiple Umklapp branches where conventional exciton-WC scattering is ineffective. These results establish WC polarons as a new quasiparticle paradigm and introduce polaron-induced Umklapp scattering as a general route to accessing finite-momentum many-body excitations in 2D quantum materials.",
+      "submitted": "2026-01-17T05:32:25Z",
+      "updated": "2026-01-24T15:29:12Z",
+      "categories": [
+        "cond-mat.mes-hall"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2601.11914v2",
+      "arxiv_url": "https://arxiv.org/abs/2601.11914",
+      "study_type": "Experimental",
+      "materials": [
+        "WCs",
+        "WSe",
+        "WC"
+      ],
+      "methods": [
+        "Magneto-optical measurements"
+      ],
+      "matched_keywords": [
+        "exciton",
+        "excitonic",
+        "magneto-optical"
+      ],
+      "evidence": {
+        "experimental": true,
+        "computational": false
+      },
+      "versions_seen": [
+        "v2"
+      ]
+    },
+    {
+      "arxiv_id": "2601.16786",
+      "version": "v1",
+      "versioned_id": "2601.16786v1",
+      "title": "Unified First-Principles Formula for Time-Resolved ARPES Spectra of Coherent and Incoherent Excitons",
+      "authors": [
+        "Gianluca Stefanucci",
+        "Enrico Perfetto"
+      ],
+      "abstract": "Despite major experimental progresses in time-resolved and angle-resolved photoemission spectroscopy, a quantitative, microscopic framework for interpreting exciton-induced modifications of electronic band structures -- applicable even beyond the low-density limit -- is still lacking. Here we close this gap by introducing a unified approach that links the dynamics of coherent and incoherent excitons to distinct and experimentally observable excitonic sidebands. Our central result is a general, first-principles formula for time-resolved photoemission spectra, applicable across a broad range of temperatures, excitation densities, and pump-probe delays. This advance provides a predictive tool for quantitatively tracking excitonic dynamics in complex materials.",
+      "submitted": "2026-01-23T14:32:21Z",
+      "updated": "2026-01-23T14:32:21Z",
+      "categories": [
+        "cond-mat.mtrl-sci"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2601.16786v1",
+      "arxiv_url": "https://arxiv.org/abs/2601.16786",
+      "study_type": "Experimental",
+      "materials": [
+        "ARPES"
+      ],
+      "methods": [
+        "Pump–probe spectroscopy",
+        "Time-resolved spectroscopy",
+        "DFT"
+      ],
+      "matched_keywords": [
+        "exciton",
+        "excitonic",
+        "first-principles",
+        "pump-probe",
+        "time-resolved"
+      ],
+      "evidence": {
+        "experimental": true,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2601.16404",
+      "version": "v1",
+      "versioned_id": "2601.16404v1",
+      "title": "Photoinduced metastable cation disorder in metal halide double perovskites",
+      "authors": [
+        "Shunran Li",
+        "Burak Guzelturk",
+        "Conrad A. Kocoj",
+        "Donald A. Walko",
+        "Du Chen",
+        "Haidan Wen",
+        "Xian Xu",
+        "Xiaoming Wang",
+        "Bongjun Choi",
+        "Borui Li",
+        "Zhibo Kang",
+        "Cunming Liu",
+        "Suchismita Sarker",
+        "Benjamin T. Diroll",
+        "Xiaoyi Zhang",
+        "Yong Q. Cai",
+        "Yu He",
+        "Deep Jariwala",
+        "Yanfa Yan",
+        "Diana Y. Qiu",
+        "Peijun Guo"
+      ],
+      "abstract": "Lead-free perovskites have emerged as environmentally benign alternatives to lead-halide counterparts for optoelectronics. Among them, the double perovskite Cs2AgInCl6 family exhibits remarkable white-light emission with proper composition engineering, enabled by strong electron-phonon coupling and the formation of self-trapped excitons (STEs). Despite these advantages, the fundamental photo- and structural dynamics governing their excited-state behavior remain poorly understood. Here, we report a long-lived metastable phase in the Cs2AgInCl6 double perovskite family and unravel this process and the concomitant electronic and structural evolution using a suite of tools including transient optical spectroscopy, time-resolved X-ray diffraction (TR-XRD) and X-ray absorption (TR-XAS). We show that the photoinduced, transient metastable phase is associated with B-site (Ag-In) disorder, which induces a dramatically reduced optical bandgap. Supported by TR-XRD and first-principles calculations, the Ag-In disorder drives the formation of Ag-rich and In-rich domains with millisecond lifetimes, with lifetimes increasing at lower temperatures. TR-XAS further reveals that photogenerated STEs oxidize Ag+ to Ag2+, facilitating this highly temporally asymmetric order-disorder transition. Our findings demonstrate a new mechanism, mediated by hole-localized STE formation, that enables prolongation of transient light-induced states to the multi-millisecond regime in double perovskites, opening possibilities to harvesting the functional properties of metastable phases of these materials.",
+      "submitted": "2026-01-23T02:30:47Z",
+      "updated": "2026-01-23T02:30:47Z",
+      "categories": [
+        "cond-mat.mtrl-sci"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2601.16404v1",
+      "arxiv_url": "https://arxiv.org/abs/2601.16404",
+      "study_type": "Computational",
+      "materials": [
+        "perovskites",
+        "Cs2AgInCl6",
+        "STEs",
+        "TR",
+        "XRD",
+        "XAS"
+      ],
+      "methods": [
+        "Time-resolved spectroscopy",
+        "DFT"
+      ],
+      "matched_keywords": [
+        "exciton",
+        "first-principles",
+        "time-resolved"
+      ],
+      "evidence": {
+        "experimental": false,
+        "computational": true
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2601.12237",
+      "version": "v1",
+      "versioned_id": "2601.12237v1",
+      "title": "Enhanced Interlayer Coupling and Excitons in Twin-Stacked Two-Dimensional Magnetic CrSBr Bilayers",
+      "authors": [
+        "Sijia Ke",
+        "Yusuf Shaidu",
+        "Jeffrey B. Neaton"
+      ],
+      "abstract": "The degree of electronic coupling between individual layers in few-layer van der Waals heterostructures offers a route to engineer their magnetic, electronic, and optical functionalities. Using state-of-the-art first-principles calculations, we demonstrate that the electronic coupling between two monolayers of CrSBr, an anisotropic two-dimensional magnetic semiconductor, is highly nonlinear and nonmonotonic with respect to their relative twist angle, exhibiting a pronounced maximum at the twin-stacking configuration. The coupling strength scales with both the degree of overlap of Br orbitals adjacent to the van der Waals gap and the cosine of half of the interlayer spin angle. This enhanced interlayer electronic coupling gives rise to excitons delocalized across the two layers with a strong polarization dependence that reflects the details of the interlayer spin alignment. Our results reveal a sensitive interplay between twist angle, magnetism, and excitonic properties in twin-stacked CrSBr bilayers, and they establish twin stacking as an effective route to engineering interlayer coupling and optical response in anisotropic two-dimensional magnets with rectangular lattices.",
+      "submitted": "2026-01-18T03:26:20Z",
+      "updated": "2026-01-18T03:26:20Z",
+      "categories": [
+        "cond-mat.mtrl-sci"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2601.12237v1",
+      "arxiv_url": "https://arxiv.org/abs/2601.12237",
+      "study_type": "Computational",
+      "materials": [
+        "2D materials",
+        "CrSBr"
+      ],
+      "methods": [
+        "DFT"
+      ],
+      "matched_keywords": [
+        "exciton",
+        "excitonic",
+        "first-principles"
+      ],
+      "evidence": {
+        "experimental": false,
+        "computational": true
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2601.11993",
+      "version": "v1",
+      "versioned_id": "2601.11993v1",
+      "title": "Magnetoexcitons and Massive Dirac Fermions in Monolayers of Transition Metal Dichalcogenides in a High Magnetic Field",
+      "authors": [
+        "Katarzyna Sadecka",
+        "Marek Korkusinski",
+        "Ludmiła Szulakowska",
+        "Paweł Hawrylak"
+      ],
+      "abstract": "We present a theory of the emission spectrum of magnetoexcitons interacting with a $ν= 1$ quantum Hall state of massive Dirac fermions in monolayer transition metal dichalcogenides in high magnetic fields. Using an ab initio-parametrized massive Dirac fermion model including valley and spin degrees of freedom, combined with exact diagonalization techniques, we show that interband emission from the massive Dirac Fermion magnetoexciton interacting with $ν= 1$ state directly probes intra-conduction-band excitations of the $ν= 1$. Many-body interactions with the filled massive Dirac fermion $ν= 1$ level yield a strong renormalization of the emission spectrum, including fully polarized emission, a pronounced redshift, and broadening relative to neutral and charged excitons. The calculated spectra are consistent with recent experiments [1-3], establishing magneto-spectroscopy as a probe of finite carrier densities in massive Dirac systems.",
+      "submitted": "2026-01-17T10:04:32Z",
+      "updated": "2026-01-17T10:04:32Z",
+      "categories": [
+        "cond-mat.mes-hall"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2601.11993v1",
+      "arxiv_url": "https://arxiv.org/abs/2601.11993",
+      "study_type": "Computational",
+      "materials": [
+        "transition-metal dichalcogenides"
+      ],
+      "methods": [
+        "DFT"
+      ],
+      "matched_keywords": [
+        "ab initio",
+        "exciton"
+      ],
+      "evidence": {
+        "experimental": false,
+        "computational": true
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2601.11726",
+      "version": "v1",
+      "versioned_id": "2601.11726v1",
+      "title": "Chemical Vapor Deposition Growth and Characterization of ReSe2",
+      "authors": [
+        "Jowon Onasanyab",
+        "Mourad Benamara",
+        "Kanagaraj Moorthi",
+        "H. O. H. Churchill",
+        "Bothina Hamad",
+        "M. O. Manasreh"
+      ],
+      "abstract": "Two-dimensional (2D) flakes of ReSe2 structure were grown by chemical vapor deposition and investigated at room temperature using Raman, photoluminescence, and absorption spectroscopies. The Raman spectra revealed eighteen phonon modes in the range of 100-300 cm-1 that were found in good agreement with the density functional theory (DFT) calculations. The thickness profiles of the ReSe2 flakes are in the range of 5-50 nm. The ReSe2 crystal structure and morphology were investigated using XRD, atomic force microscopy and scanning electron microscopy. The energy dispersion spectroscopy confirmed the 1:2 elemental composition. The absorption spectra were obtained for ReSe2 flakes and found to exhibit excitonic peaks in the spectral region of 885 - 942 nm. These peaks are used to define the band gap of the material. The DFT calculations predicted an indirect bandgap of 0.88 eV for the bulk structure, while a direct bandgap of 1.26 eV was predicted for the monolayer.",
+      "submitted": "2026-01-16T19:19:46Z",
+      "updated": "2026-01-16T19:19:46Z",
+      "categories": [
+        "cond-mat.mtrl-sci"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2601.11726v1",
+      "arxiv_url": "https://arxiv.org/abs/2601.11726",
+      "study_type": "Computational",
+      "materials": [
+        "ReSe2",
+        "XRD"
+      ],
+      "methods": [
+        "Photoluminescence",
+        "Absorption / reflectance",
+        "DFT"
+      ],
+      "matched_keywords": [
+        "absorption spectra",
+        "density functional theory",
+        "dft",
+        "exciton",
+        "excitonic",
+        "photoluminescence"
+      ],
+      "evidence": {
+        "experimental": false,
+        "computational": true
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2601.11381",
+      "version": "v1",
+      "versioned_id": "2601.11381v1",
+      "title": "Chemical Origin of Exciton Self-trapping in Cs$_3$Cu$_2$X$_5$ Cesium Copper Halides",
+      "authors": [
+        "Zijin Wu",
+        "Shuxia Tao",
+        "Geert Brocks"
+      ],
+      "abstract": "Copper halides Cs3Cu2X5 (X=Cl, Br, I) are promising materials for optoelectronic applications due to their high photoluminescence efficiency, stability, and large Stokes shifts. In this work, we uncover the chemical bonding origin of the Stokes shift in these materials using density functional theory calculations. Upon excitation, one [Cu2X5]3- anion undergoes sizeable local distortions, driven by Cu-X and Cu-Cu bond formation. These structural changes coincide with the formation of a self-trapped exciton, where particularly the hole is strongly localized on one anion. Analysis of the electronic structure and bonding reveals reduced antibonding interactions and enhanced bonding character in the excited state, stabilizing the distorted geometry. Our results establish a direct link between orbital-specific hole localization and bond formation. It provides a fundamental understanding of the excitation mechanism in Cs3Cu2X5 and offers design principles to tune optical properties in 0D copper halides.",
+      "submitted": "2026-01-16T15:39:13Z",
+      "updated": "2026-01-16T15:39:13Z",
+      "categories": [
+        "cond-mat.mtrl-sci",
+        "physics.chem-ph"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2601.11381v1",
+      "arxiv_url": "https://arxiv.org/abs/2601.11381",
+      "study_type": "Computational",
+      "materials": [
+        "Cs3Cu2X5",
+        "Cu2X5"
+      ],
+      "methods": [
+        "Photoluminescence",
+        "DFT"
+      ],
+      "matched_keywords": [
+        "density functional theory",
+        "exciton",
+        "photoluminescence"
+      ],
+      "evidence": {
+        "experimental": false,
+        "computational": true
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2601.05413",
+      "version": "v1",
+      "versioned_id": "2601.05413v1",
+      "title": "Magnetic switching of exciton lifetime in CrSBr",
+      "authors": [
+        "Ina V. Kalitukha",
+        "Ilya A. Akimov",
+        "Mikhail O. Nestoklon",
+        "Torsten Geirsson",
+        "Alejandro Molina-Sánchez",
+        "Eyüp Yalcin",
+        "Claudia Ruppert",
+        "Daniel A. Mayoh",
+        "Geetha Balakrishnan",
+        "Muthumalai Karuppasamy",
+        "Zdeněk Sofer",
+        "Yadong Wang",
+        "Daniel J. Gillard",
+        "Xuerong Hu",
+        "Alexander I. Tartakovskii",
+        "Manfred Bayer"
+      ],
+      "abstract": "Exciton dynamics in layered magnetic semiconductors provide a sensitive probe of the interplay between spin order and light-matter interaction. Here, we study thin CrSBr layers using time-resolved photoluminescence spectroscopy in an external magnetic field, revealing a step-like reduction in the exciton lifetime from 11 to 7 ps, during the magnetization flip from the antiferromagnetic to the ferromagnetic phase. The reduction of the exciton lifetime in the ferromagnetic phase persists below the Néel temperature, as evidenced by its strong magnetic-field dependence that disappears in the paramagnetic phase. Ab initio calculations reveal a one-dimensional nature of free excitons accompanied by a pronounced change in the oscillator strength across the magnetic phase transition predicting a shorter radiative lifetime of free excitons in the antiferromagnetic phase of CrSBr contradicting the experimental observations. This discrepancy is explained by strong localization of excitons at low tempature. We show both experimentally and theoretically that the observed magnetic switching of the exciton lifetime is attributed to a larger exciton localization volume leading to a larger oscillator strength in the ferromagnetic phase. The results show that disorder-induced localization effects play a key role in exciton dynamics in CrSBr.",
+      "submitted": "2026-01-08T22:33:11Z",
+      "updated": "2026-01-08T22:33:11Z",
+      "categories": [
+        "cond-mat.mes-hall"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2601.05413v1",
+      "arxiv_url": "https://arxiv.org/abs/2601.05413",
+      "study_type": "Theory + Experiment",
+      "materials": [
+        "CrSBr"
+      ],
+      "methods": [
+        "Photoluminescence",
+        "Time-resolved spectroscopy",
+        "Exciton lifetime / dynamics",
+        "DFT"
+      ],
+      "matched_keywords": [
+        "ab initio",
+        "exciton",
+        "exciton dynamics",
+        "exciton lifetime",
+        "photoluminescence",
+        "time-resolved"
+      ],
+      "evidence": {
+        "experimental": true,
+        "computational": true
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2601.04816",
+      "version": "v1",
+      "versioned_id": "2601.04816v1",
+      "title": "Electric-Field Modulated Optical Transitions in Monolayer CrI3 and Its Nanoribbons",
+      "authors": [
+        "Xianzhe Zhu",
+        "Pu Liu",
+        "Wence Ding",
+        "Benhu Zhou",
+        "Xiaoying Zhou",
+        "Guanghui Zhou"
+      ],
+      "abstract": "The successful synthesis of few-layer CrI3 has opened new avenues for research in two-dimensional magnetic materials. Owing to its simple crystal structure and excellent physical properties, layered CrI3 has been extensively studied in magneto-optical effects, excitons, tunneling transport, and novel memory devices. However, the most current theoretical studies rely heavily on the first-principles calculations, and a general analytical theoretical framework, particularly for electric-field modulation and transport properties, is still lacking. In this work, using a 28-band tight-binding model combined with linear response theory, we systematically investigate the optoelectronic response for monolayer CrI3 and its nanoribbons. The results demonstrate that: (1) a vertical electric field can selectively close the band gap of one spin channel while the other remains insulating, resulting a transition to an half-metallic state; (2) the electric field dynamically shifts the optical transition peaks, providing a theoretical basis for extracting band parameters from experimental photoconductivity spectra; (3) nanoribbons with different edge morphologies exhibit distinct edge-state distributions and electronic properties, indicating that optical transition can be dynamically modualted through edge design. The theoretical model developed in this study, which can describe external electric field effect, offers an efficient and flexible approach for analytically investigating the CrI3 family and related materials. This model overcomes the limitations of first-principles methods and provides a solid foundation for designing spintronic and optoelectronic devices controlled by electric fields and edge effect.",
+      "submitted": "2026-01-08T10:49:01Z",
+      "updated": "2026-01-08T10:49:01Z",
+      "categories": [
+        "cond-mat.mtrl-sci",
+        "cond-mat.mes-hall"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2601.04816v1",
+      "arxiv_url": "https://arxiv.org/abs/2601.04816",
+      "study_type": "Computational",
+      "materials": [
+        "CrI3"
+      ],
+      "methods": [
+        "Magneto-optical measurements",
+        "DFT"
+      ],
+      "matched_keywords": [
+        "exciton",
+        "first-principles",
+        "magneto-optical"
+      ],
+      "evidence": {
+        "experimental": false,
+        "computational": true
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    }
+  ],
+  "scans": [
+    {
+      "scanned_at": "2026-07-15T22:08:09.034044+00:00",
+      "since": "2026-01-01",
+      "fetched": 434,
+      "classified": 73,
+      "new": 29,
+      "updated": 0,
+      "total": 73
     }
   ]
 }
