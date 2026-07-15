@@ -131,7 +131,9 @@ def main():
     for attempt in range(3):
         try:
             fetched=fetch_since(args.since,args.max_results,args.page_size)
-            papers=[x for x in fetched if x["study_type"]!="Unclassified"]
+            # Preserve every arXiv record returned by the scoped exciton query.
+            # Classification is descriptive metadata, never an ingestion gate.
+            papers=fetched
             result=merge_archive(args.output,papers,len(fetched),args.since)
             print(json.dumps({"scan":result["scans"][-1],"counts":result["counts"]})); return
         except Exception:
