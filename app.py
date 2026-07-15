@@ -12,6 +12,8 @@ import pandas as pd
 import streamlit as st
 
 DATA = Path("data/papers.json")
+AI_DATA = Path("data/ai_classifications.json")
+AI_OVERRIDES = Path("data/ai_overrides.json")
 SUBSCRIPTS = str.maketrans("0123456789", "₀₁₂₃₄₅₆₇₈₉")
 COLORS = {
     "Experimental": "#1d8a68",
@@ -81,6 +83,9 @@ color:#155540!important;font-weight:750!important}.stButton>button:hover{backgro
 def load_archive() -> dict:
     return json.loads(DATA.read_text(encoding="utf-8")) if DATA.exists() else {"papers": [], "scans": []}
 
+def load_json(path: Path, default):
+    return json.loads(path.read_text(encoding="utf-8")) if path.exists() else default
+
 
 def pretty(value: str) -> str:
     value = re.sub(r"\$_(\d+)\$", lambda m: m.group(1).translate(SUBSCRIPTS), value)
@@ -99,7 +104,8 @@ def paper_card(paper: dict) -> None:
     kind = paper.get("study_type") or "Unclassified"
     kind_class = kind.lower().replace(" + ", "-plus-").replace(" ", "-")
     label = "Unclassified" if kind == "Unclassified" else kind
-    relevance = paper.get("relevance", "Uncertain")
+    decision = paper.get("ai_decision")
+    relevance = paper.get("relevance", "Pending AI review" if not decision else "Uncertain")
     badge_items = [(relevance, "relevance core" if relevance == "Core exciton paper" else "relevance adjacent" if relevance == "Exciton-adjacent" else "relevance"), (label, "kind"), (paper.get("paper_nature", "Unclassified nature"), "nature")]
     material_labels = [*paper.get("material_families", [])[:1], *paper.get("materials", [])[:1]]
     badge_items.extend((x, "material") for x in material_labels)
@@ -124,6 +130,15 @@ def paper_card(paper: dict) -> None:
     with st.expander("Abstract, complete metadata and why classified"):
         st.write(abstract)
         st.caption(f'Updated {paper.get("updated", "")[:10]} · Categories: {", ".join(paper.get("categories", []))} · Versions: {", ".join(paper.get("versions_seen", [paper.get("version", "v1")]))}')
+        if decision:
+            st.markdown("**Full-metadata AI assessment**")
+            st.markdown(f'- **Decision:** {"Include in final feed" if decision.get("include_in_feed") else "Exclude from final feed"}')
+            st.markdown(f'- **Confidence:** {float(decision.get("confidence", 0)):.0%}')
+            st.markdown(f'- **Reason:** {html.escape(decision.get("reason", ""))}')
+            if decision.get("evidence"):
+                st.markdown(f'- **Supporting abstract evidence:** {html.escape("; ".join(decision["evidence"][:5]))}')
+            st.caption(f'Model: {decision.get("model", "unknown")} · Prompt: {decision.get("prompt_version", "unknown")} · Classified: {decision.get("classified_at", "unknown")}')
+            return
         evidence = paper.get("classification_evidence", {})
         st.markdown("**Why classified**")
         rows = [
@@ -142,7 +157,28 @@ def paper_card(paper: dict) -> None:
 
 
 archive = load_archive()
-raw_papers = sorted(archive.get("papers", []), key=lambda p: (p.get("submitted", ""), p.get("updated", "")), reverse=True)
+ai_store = load_json(AI_DATA, {"records": {}, "runs": []})
+ai_records = ai_store.get("records", {})
+ai_overrides = load_json(AI_OVERRIDES, {})
+effective_decisions = {**ai_records, **ai_overrides}
+
+def apply_ai_decision(paper: dict) -> dict:
+    merged = dict(paper)
+    decision = effective_decisions.get(paper.get("arxiv_id"))
+    if not decision:
+        merged["ai_decision"] = None
+        return merged
+    merged["ai_decision"] = decision
+    merged["relevance"] = decision.get("relevance", merged.get("relevance"))
+    merged["study_type"] = decision.get("research_type", merged.get("study_type"))
+    merged["paper_nature"] = decision.get("paper_nature", merged.get("paper_nature"))
+    merged["materials"] = decision.get("materials") or merged.get("materials", [])
+    merged["material_families"] = decision.get("material_families") or merged.get("material_families", [])
+    merged["methods"] = list(dict.fromkeys(decision.get("experimental_methods", []) + decision.get("computational_methods", []))) or merged.get("methods", [])
+    merged["exciton_properties"] = decision.get("exciton_properties") or merged.get("exciton_properties", [])
+    return merged
+
+raw_papers = sorted((apply_ai_decision(p) for p in archive.get("papers", [])), key=lambda p: (p.get("submitted", ""), p.get("updated", "")), reverse=True)
 last_scan = archive.get("last_scan")
 latest_date = raw_papers[0]["submitted"][:10] if raw_papers else None
 latest_count = sum(p.get("submitted", "")[:10] == latest_date for p in raw_papers) if latest_date else 0
@@ -181,7 +217,7 @@ material_counts = Counter(
 method_counts = Counter(x for p in raw_papers for x in p.get("methods", []))
 property_counts = Counter(x for p in raw_papers for x in p.get("exciton_properties", []))
 
-FILTER_KEYS = ["search_filter", "relevance_filter", "study_filter", "nature_filter", "material_filter", "method_filter", "property_filter"]
+FILTER_KEYS = ["search_filter", "feed_mode", "relevance_filter", "study_filter", "nature_filter", "material_filter", "method_filter", "property_filter"]
 def clear_filters() -> None:
     for key in FILTER_KEYS:
         st.session_state.pop(key, None)
@@ -190,6 +226,7 @@ def clear_filters() -> None:
 with st.sidebar:
     st.header("Explore the archive")
     st.caption("Filter the complete feed without removing papers from the database.")
+    feed_mode = st.radio("Feed", ["AI-approved final feed", "Pending AI review", "Complete raw archive"], key="feed_mode")
     search_text = st.text_input(
         "Search",
         placeholder="Title, abstract, author, arXiv ID…",
@@ -225,8 +262,14 @@ def material_match(paper: dict) -> bool:
     return bool(available.intersection(selected_materials))
 
 query_terms = search_text.lower().split()
+if feed_mode == "AI-approved final feed":
+    source_papers = [p for p in raw_papers if (p.get("ai_decision") or {}).get("include_in_feed") is True]
+elif feed_mode == "Pending AI review":
+    source_papers = [p for p in raw_papers if not p.get("ai_decision")]
+else:
+    source_papers = raw_papers
 papers = [
-    paper for paper in raw_papers
+    paper for paper in source_papers
     if (not query_terms or all(term in searchable_text(paper) for term in query_terms))
     and (not study_types or paper.get("study_type", "Unclassified") in study_types)
     and (not selected_relevance or paper.get("relevance", "Uncertain") in selected_relevance)
@@ -235,7 +278,7 @@ papers = [
     and (not selected_methods or bool(set(selected_methods).intersection(paper.get("methods", []))))
     and (not selected_properties or bool(set(selected_properties).intersection(paper.get("exciton_properties", []))))
 ]
-active_count = bool(search_text or selected_relevance or study_types or paper_natures or selected_materials or selected_methods or selected_properties)
+active_count = bool(feed_mode != "Complete raw archive" or search_text or selected_relevance or study_types or paper_natures or selected_materials or selected_methods or selected_properties)
 with st.sidebar:
     st.markdown(f"**{len(papers)} matching papers**")
     st.caption("Filters active" if active_count else "Showing the complete archive")
@@ -243,6 +286,9 @@ st.markdown(
     f'<div class="result-strip"><strong>{len(papers)} matching papers</strong><span>{"Filters active" if active_count else "Complete chronological archive"}</span></div>',
     unsafe_allow_html=True,
 )
+reviewed_count = sum(bool(p.get("ai_decision")) for p in raw_papers)
+approved_count = sum((p.get("ai_decision") or {}).get("include_in_feed") is True for p in raw_papers)
+st.caption(f"AI review progress: {reviewed_count} of {len(raw_papers)} papers · {approved_count} currently approved for the final feed · cached decisions are reused until metadata changes.")
 
 selected_view = st.radio(
     "Choose view",
