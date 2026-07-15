@@ -1,7 +1,7 @@
 from __future__ import annotations
 import argparse, json, re, time, urllib.parse, urllib.request
 import xml.etree.ElementTree as ET
-from datetime import datetime, timezone
+from datetime import date, datetime, timezone
 from pathlib import Path
 
 API_URL = "https://export.arxiv.org/api/query"
@@ -73,14 +73,25 @@ def parse_feed(xml):
           "pdf_url":links.get("application/pdf",f"https://arxiv.org/pdf/{base}"),"arxiv_url":f"https://arxiv.org/abs/{base}",**analyze(title,abstract)})
     return papers
 
-def fetch_recent(max_results=300):
+def fetch_since(since="2026-01-01", max_results=2000, page_size=200):
     cats=" OR ".join(f"cat:{x}" for x in CATEGORIES)
-    params=urllib.parse.urlencode({"search_query":f"({cats}) AND (all:exciton OR all:excitonic)","start":0,"max_results":max_results,"sortBy":"submittedDate","sortOrder":"descending"})
-    request=urllib.request.Request(f"{API_URL}?{params}",headers={"User-Agent":"ExcitonResearchScanner/0.1 (arXiv metadata research scanner)"})
-    with urllib.request.urlopen(request,timeout=45) as response: return parse_feed(response.read())
+    start_stamp=date.fromisoformat(since).strftime("%Y%m%d0000")
+    end_stamp=datetime.now(timezone.utc).strftime("%Y%m%d%H%M")
+    query=f"({cats}) AND (all:exciton OR all:excitonic) AND submittedDate:[{start_stamp} TO {end_stamp}]"
+    papers=[]
+    for start in range(0,max_results,page_size):
+        params=urllib.parse.urlencode({"search_query":query,"start":start,"max_results":min(page_size,max_results-start),"sortBy":"submittedDate","sortOrder":"descending"})
+        request=urllib.request.Request(f"{API_URL}?{params}",headers={"User-Agent":"ExcitonResearchScanner/0.2 (arXiv metadata research scanner)"})
+        with urllib.request.urlopen(request,timeout=60) as response:
+            page=parse_feed(response.read())
+        papers.extend(page)
+        if len(page)<page_size:
+            break
+        time.sleep(3.1)
+    return papers
 
-def merge_archive(path,incoming):
-    archive=json.loads(path.read_text(encoding="utf-8")) if path.exists() else {"schema_version":1,"papers":[]}
+def merge_archive(path,incoming,fetched_count=None,since=None):
+    archive=json.loads(path.read_text(encoding="utf-8")) if path.exists() else {"schema_version":2,"papers":[],"scans":[]}
     existing={x["arxiv_id"]:x for x in archive.get("papers",[])}; new=updated=0
     for paper in incoming:
         old=existing.get(paper["arxiv_id"])
@@ -89,16 +100,22 @@ def merge_archive(path,incoming):
             versions=list(dict.fromkeys(old.get("versions_seen",[old.get("version","v1")])+[paper["version"]]))
             if paper["updated"]>old.get("updated",""): paper["versions_seen"]=versions; existing[paper["arxiv_id"]]=paper; updated+=1
             else: old["versions_seen"]=versions
-    archive.update({"last_scan":datetime.now(timezone.utc).isoformat(),"papers":sorted(existing.values(),key=lambda x:x.get("updated",""),reverse=True),"counts":{"total":len(existing),"new_this_scan":new,"updated_this_scan":updated}})
+    scanned_at=datetime.now(timezone.utc).isoformat()
+    scan={"scanned_at":scanned_at,"since":since,"fetched":fetched_count if fetched_count is not None else len(incoming),"classified":len(incoming),"new":new,"updated":updated,"total":len(existing)}
+    scans=archive.get("scans",[])
+    scans.append(scan)
+    archive.update({"schema_version":2,"last_scan":scanned_at,"papers":sorted(existing.values(),key=lambda x:x.get("updated",""),reverse=True),"scans":scans[-500:],"counts":{"total":len(existing),"new_this_scan":new,"updated_this_scan":updated}})
     path.parent.mkdir(parents=True,exist_ok=True); path.write_text(json.dumps(archive,indent=2,ensure_ascii=False)+"\n",encoding="utf-8")
     return archive
 
 def main():
-    parser=argparse.ArgumentParser(); parser.add_argument("--output",type=Path,default=Path("data/papers.json")); parser.add_argument("--max-results",type=int,default=300); args=parser.parse_args()
+    parser=argparse.ArgumentParser(); parser.add_argument("--output",type=Path,default=Path("data/papers.json")); parser.add_argument("--since",default="2026-01-01"); parser.add_argument("--max-results",type=int,default=2000); parser.add_argument("--page-size",type=int,default=200); args=parser.parse_args()
     for attempt in range(3):
         try:
-            papers=[x for x in fetch_recent(args.max_results) if x["study_type"]!="Unclassified"]
-            print(json.dumps(merge_archive(args.output,papers)["counts"])); return
+            fetched=fetch_since(args.since,args.max_results,args.page_size)
+            papers=[x for x in fetched if x["study_type"]!="Unclassified"]
+            result=merge_archive(args.output,papers,len(fetched),args.since)
+            print(json.dumps({"scan":result["scans"][-1],"counts":result["counts"]})); return
         except Exception:
             if attempt==2: raise
             time.sleep(3*(attempt+1))
