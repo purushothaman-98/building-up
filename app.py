@@ -45,11 +45,11 @@ margin-right:8px;color:#145944;text-decoration:none;font-size:.8rem;font-weight:
 [data-testid="stMetric"]{background:linear-gradient(145deg,#fff,#f6faf8);border:1px solid #d5ddd9;border-top:4px solid #1d8a68;padding:14px 17px;border-radius:15px;box-shadow:0 5px 16px #193d300b}
 [data-testid="stMetricLabel"],[data-testid="stMetricValue"]{color:#17352c!important}
 details{background:#fafbf9!important;border-radius:12px!important}
-.stTabs [data-baseweb="tab-list"]{gap:7px;border:1px solid #d6ded9;background:#edf2ef;padding:5px;border-radius:14px;margin-top:18px;width:max-content}
-.stTabs [data-baseweb="tab"]{height:42px;padding:0 18px;border-radius:10px}
-.stTabs [data-baseweb="tab"] *{color:#38534a!important}
-.stTabs [aria-selected="true"]{background:#17684f!important;font-weight:800!important}
-.stTabs [aria-selected="true"] *{color:white!important}
+.stRadio [role="radiogroup"]{display:inline-flex!important;gap:6px;background:#e5ece8;border:1px solid #c8d7d1;padding:6px;border-radius:14px;margin:18px 0 8px}
+.stRadio [role="radiogroup"] label{background:#fff!important;border:1px solid #b8cbc3!important;border-radius:10px!important;padding:8px 15px!important}
+.stRadio [role="radiogroup"] label p{color:#174f3f!important;font-weight:750!important}
+.stRadio [role="radiogroup"] label:has(input:checked){background:#17684f!important;border-color:#17684f!important}
+.stRadio [role="radiogroup"] label:has(input:checked) p{color:#fff!important}
 .date-band{display:flex;align-items:center;justify-content:space-between;margin:30px 0 10px;padding:11px 15px;
 background:#e8eee9;border-left:4px solid #17684f;border-radius:0 12px 12px 0}
 .date-band h2{font-size:1.18rem;margin:0;color:#173d31}.date-band span{font-size:.82rem;color:#62726b}
@@ -87,7 +87,7 @@ def paper_card(paper: dict) -> None:
     kind = paper.get("study_type") or "Unclassified"
     kind_class = kind.lower().replace(" + ", "-plus-").replace(" ", "-")
     label = "General / unclassified" if kind == "Unclassified" else kind
-    tags = [label, *paper.get("materials", [])[:4], *paper.get("methods", [])[:5]]
+    tags = [label, *paper.get("materials", [])[:3], *paper.get("applications", [])[:3], *paper.get("methods", [])[:5]]
     badges = "".join(
         f'<span class="tag {"kind" if i == 0 else ""}">{html.escape(tag)}</span>'
         for i, tag in enumerate(tags)
@@ -120,7 +120,12 @@ metrics[1].metric("Latest arXiv day", latest_count)
 metrics[2].metric("Newest submission", latest_date or "—")
 metrics[3].metric("Pipeline scans", len(archive.get("scans", [])))
 
-feed_tab, analysis_tab = st.tabs(["Daily paper feed", "Time series & analysis"])
+selected_view = st.radio(
+    "Choose view",
+    ["Daily paper feed", "Time series & analysis"],
+    horizontal=True,
+    label_visibility="collapsed",
+)
 
 
 def polished(chart: alt.Chart) -> alt.Chart:
@@ -139,7 +144,7 @@ def select_week(label: str) -> None:
     st.session_state.week_picker = label
 
 
-with feed_tab:
+if selected_view == "Daily paper feed":
     st.caption("One week per page. Page 1 is always the latest available arXiv week; papers remain grouped by day.")
     grouped_weeks = {}
     for paper in papers:
@@ -208,7 +213,7 @@ with feed_tab:
         for paper in day_papers:
             paper_card(paper)
 
-with analysis_tab:
+if selected_view == "Time series & analysis":
     st.markdown('<div class="section-head"><h2>Submission time series</h2><span>Daily and weekly activity</span></div>', unsafe_allow_html=True)
     if papers:
         daily = pd.DataFrame({"date": pd.to_datetime([p["submitted"][:10] for p in papers])})
@@ -222,8 +227,10 @@ with analysis_tab:
         insight_cols = st.columns(4)
         insight_cols[0].metric("Peak day", int(peak_daily["papers"]))
         insight_cols[1].metric("Peak date", peak_daily["date"].strftime("%d %b"))
-        insight_cols[2].metric("Largest group", classification_counts.most_common(1)[0][0])
-        insight_cols[3].metric("Top category", category_counts.most_common(1)[0][0])
+        largest_group = classification_counts.most_common(1)[0][0].replace("General / unclassified", "General")
+        top_category = category_counts.most_common(1)[0][0].replace("cond-mat.", "")
+        insight_cols[2].metric("Largest group", largest_group)
+        insight_cols[3].metric("Top category", top_category)
         daily_chart = (
             alt.Chart(daily).mark_line(point=True, color="#17684f", strokeWidth=2.5).encode(
                 x=alt.X("date:T", title="Submission date"),
