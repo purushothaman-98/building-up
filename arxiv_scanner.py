@@ -40,6 +40,31 @@ MATERIALS={
  "MOFs":("metal-organic framework","metal organic framework","mof"),
  "organic semiconductors":("organic semiconductor","molecular crystal"),
 }
+MATERIAL_FAMILIES={
+ "TMDs / 2D chalcogenides":("transition metal dichalcogenide","transition-metal dichalcogenide","tmds","mos2","ws2","mose2","wse2","molybdenum disulfide","tungsten disulfide","molybdenum diselenide","tungsten diselenide"),
+ "Other 2D / van der Waals materials":("two-dimensional material","two dimensional material","2d material","van der waals","heterobilayer","monolayer","hbn","hexagonal boron nitride","black phosphorus","phosphorene"),
+ "Perovskites / halide semiconductors":("perovskite","halide semiconductor","lead halide"),
+ "Organic / molecular materials":("organic semiconductor","molecular crystal","molecular aggregate","j-aggregate"),
+ "Porous frameworks (COFs / MOFs)":("covalent organic framework","covalent-organic framework","metal-organic framework","metal organic framework"," cof "," mof "),
+ "Quantum-confined structures":("quantum dot","quantum well","nanocrystal"),
+ "Biological / light-harvesting systems":("photosynthetic","photosynthesis","light-harvesting complex","chromophore"),
+}
+EXCITON_PROPERTIES={
+ "Binding energy":("exciton binding energy","excitonic binding energy","binding energies"),
+ "Lifetime / relaxation":("exciton lifetime","excitonic lifetime","radiative lifetime","nonradiative lifetime","relaxation dynamics","decay time"),
+ "Linewidth / dephasing":("exciton linewidth","excitonic linewidth","line width","linewidth","dephasing","homogeneous broadening"),
+ "g-factor / Zeeman splitting":("exciton g-factor","exciton g factor","g-factor","g factor","zeeman splitting","zeeman effect"),
+ "Fine structure / bright-dark splitting":("fine-structure splitting","fine structure splitting","bright-dark","bright dark","dark exciton","bright exciton"),
+ "Transport / diffusion":("exciton transport","exciton diffusion","diffusion length","energy transfer","exciton migration"),
+ "Coherence":("exciton coherence","excitonic coherence","coherent exciton","coherence time"),
+ "Valley / spin physics":("valley polarization","valley coherence","valley exciton","spin-valley","spin polarized","spin-polarised"),
+ "Oscillator strength / optical activity":("oscillator strength","transition dipole","optical activity","radiative rate"),
+ "Exciton-phonon coupling":("exciton-phonon","exciton phonon","electron-phonon coupling","phonon-assisted"),
+ "Many-exciton interactions":("exciton-exciton","exciton exciton","biexciton","exciton annihilation","many-exciton"),
+ "Strain response":("strain dependence","strained system","under strain","strain engineering","biaxial strain","uniaxial strain"),
+ "Defects / trapping":("defect-bound exciton","defect bound exciton","exciton trapping","self-trapped exciton","self trapped exciton","trap state"),
+ "Light-matter strong coupling":("exciton-polariton","exciton polariton","strong light-matter coupling","strong light–matter coupling","rabi splitting"),
+}
 APPLICATIONS={
  "Exciton polaritons":("exciton-polariton","exciton polariton","excitonic polariton"),
  "Light–matter coupling":("light-matter coupling","light–matter coupling","strong coupling","optical cavity","microcavity"),
@@ -93,8 +118,14 @@ def analyze(title, abstract):
         ))
     kind="Theory + Experiment" if exp_ok and comp_ok else "Computational" if comp_ok else "Experimental" if exp_ok else "Unclassified"
     materials=[name for name,aliases in MATERIALS.items() if any(x in text for x in aliases)]
+    material_families=[name for name,aliases in MATERIAL_FAMILIES.items() if any(x in f" {text} " for x in aliases)]
+    properties=[name for name,aliases in EXCITON_PROPERTIES.items() if any(x in text for x in aliases)]
     applications=[name for name,aliases in APPLICATIONS.items() if any(x in text for x in aliases)]
-    return {"study_type":kind,"materials":list(dict.fromkeys(materials)),"applications":applications,"methods":list(dict.fromkeys(exp+comp)),"matched_keywords":sorted(set(exp_words+comp_words+[x for x in ("exciton","excitonic","polariton") if x in text])),"evidence":{"experimental":exp_ok,"computational":comp_ok}}
+    review_signals=("review","perspective","critical assessment","comprehensive assessment","we survey","we review","landscape of","overview of","status and outlook")
+    method_signals=("new method","novel method","we develop a method","software package","code implementation","computational framework","workflow")
+    benchmark_signals=("benchmark","dataset","database","high-throughput screening","high throughput screening")
+    paper_nature="Review / perspective" if any(x in text for x in review_signals) else "Methods / software" if any(x in text for x in method_signals) else "Dataset / benchmark" if any(x in text for x in benchmark_signals) else "Original research"
+    return {"study_type":kind,"paper_nature":paper_nature,"materials":list(dict.fromkeys(materials)),"material_families":material_families,"exciton_properties":properties,"applications":applications,"methods":list(dict.fromkeys(exp+comp)),"matched_keywords":sorted(set(exp_words+comp_words+[x for x in ("exciton","excitonic","polariton") if x in text])),"evidence":{"experimental":exp_ok,"computational":comp_ok}}
 
 def parse_feed(xml):
     papers=[]
