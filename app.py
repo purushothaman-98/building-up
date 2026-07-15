@@ -7,6 +7,8 @@ from collections import Counter
 from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
+import altair as alt
+import pandas as pd
 import streamlit as st
 
 DATA = Path("data/papers.json")
@@ -30,6 +32,11 @@ padding:4px 9px;margin:3px 4px 3px 0;font-size:.75rem}.type{background:#e2b43b;c
 [data-testid="stMetric"]{background:white;border:1px solid #ded9ce;padding:13px;border-radius:14px}
 [data-testid="stMetricLabel"],[data-testid="stMetricValue"]{color:#17352c!important}
 [data-testid="stSidebar"]{background:#17231f}.small-note{color:#68736e;font-size:.82rem}
+.stTabs [data-baseweb="tab-list"]{gap:8px;border-bottom:1px solid #dcd8ce}
+.stTabs [data-baseweb="tab"]{height:42px;padding:0 14px;color:#4f5e58!important;border-radius:10px 10px 0 0}
+.stTabs [aria-selected="true"]{background:#e2eee9!important;color:#0f5b46!important;font-weight:750}
+.stButton>button,.stDownloadButton>button{border-radius:999px!important;border:1px solid #b9c9c2!important;color:#174f40!important;background:#f8fbfa!important;font-weight:700!important}
+.stButton>button:hover,.stDownloadButton>button:hover{border-color:#157158!important;color:white!important;background:#157158!important}
 </style>
 <div class="hero"><div class="eyebrow">EXCITON DISCOVERY · UPDATED TWICE DAILY</div>
 <h1>Exciton Research Scanner</h1>
@@ -204,8 +211,9 @@ def paper_card(paper: dict, section_key: str) -> None:
         st.write("arXiv categories:", ", ".join(paper.get("categories", [])))
 
 
-tabs = st.tabs(["Explore", "Experimental", "Computational", "Theory + Experiment"])
-for tab, kind in zip(tabs, (None, *KINDS)):
+tabs = st.tabs(["Explore", "Research Pulse", "Experimental", "Computational", "Theory + Experiment"])
+paper_tabs = [tabs[0], *tabs[2:]]
+for tab, kind in zip(paper_tabs, (None, *KINDS)):
     with tab:
         subset = sorted_papers([p for p in papers if is_visible(p, kind)])
         shown = subset[:page_size]
@@ -215,5 +223,79 @@ for tab, kind in zip(tabs, (None, *KINDS)):
         section_key = (kind or "explore").lower().replace(" ", "-").replace("+", "plus")
         for paper in shown:
             paper_card(paper, section_key)
+
+with tabs[1]:
+    st.subheader("Research Pulse")
+    st.caption("Weekly publication activity in the collected 2026 exciton literature and the output of each automated scan.")
+    if papers:
+        weekly = pd.DataFrame({
+            "week": pd.to_datetime([p["submitted"] for p in papers], utc=True).to_period("W").start_time,
+            "study_type": [p["study_type"] for p in papers],
+        })
+        weekly = weekly.groupby(["week", "study_type"], as_index=False).size().rename(columns={"size": "papers"})
+        weekly_chart = (
+            alt.Chart(weekly)
+            .mark_bar(cornerRadiusTopLeft=3, cornerRadiusTopRight=3)
+            .encode(
+                x=alt.X("week:T", title="Submission week"),
+                y=alt.Y("papers:Q", title="Papers collected"),
+                color=alt.Color(
+                    "study_type:N",
+                    title="Study type",
+                    scale=alt.Scale(
+                        domain=list(KINDS),
+                        range=["#1d8a68", "#315f9b", "#d6a21f"],
+                    ),
+                ),
+                tooltip=[
+                    alt.Tooltip("week:T", title="Week"),
+                    alt.Tooltip("study_type:N", title="Type"),
+                    alt.Tooltip("papers:Q", title="Papers"),
+                ],
+            )
+            .properties(height=360)
+        )
+        st.altair_chart(weekly_chart, use_container_width=True)
+
+        pulse_cols = st.columns(3)
+        pulse_cols[0].metric("Active weeks", weekly["week"].nunique())
+        pulse_cols[1].metric("Peak week", int(weekly.groupby("week")["papers"].sum().max()))
+        pulse_cols[2].metric("2026 papers", len(papers))
+
+    scans = archive.get("scans", [])
+    st.markdown("#### Pipeline scan history")
+    if scans:
+        scan_frame = pd.DataFrame(scans)
+        scan_frame["scanned_at"] = pd.to_datetime(scan_frame["scanned_at"], utc=True)
+        scan_long = scan_frame.melt(
+            id_vars=["scanned_at"], value_vars=["fetched", "classified", "new", "updated"],
+            var_name="metric", value_name="papers",
+        )
+        scan_chart = (
+            alt.Chart(scan_long)
+            .mark_line(point=True, strokeWidth=2.5)
+            .encode(
+                x=alt.X("scanned_at:T", title="Scan time (UTC)"),
+                y=alt.Y("papers:Q", title="Paper count"),
+                color=alt.Color(
+                    "metric:N",
+                    scale=alt.Scale(
+                        domain=["fetched", "classified", "new", "updated"],
+                        range=["#83948d", "#315f9b", "#1d8a68", "#d6a21f"],
+                    ),
+                ),
+                tooltip=["scanned_at:T", "metric:N", "papers:Q"],
+            )
+            .properties(height=280)
+        )
+        st.altair_chart(scan_chart, use_container_width=True)
+        st.dataframe(
+            scan_frame[["scanned_at", "since", "fetched", "classified", "new", "updated", "total"]]
+            .sort_values("scanned_at", ascending=False),
+            hide_index=True,
+            use_container_width=True,
+        )
+    else:
+        st.info("Scan-by-scan history begins with the new 2026 backfill pipeline run.")
 
 st.caption("Inspired by modern research-discovery tools such as alphaXiv. Independent project; not affiliated with alphaXiv or arXiv.")
