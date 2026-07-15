@@ -4,7 +4,7 @@ import html
 import json
 import re
 from collections import Counter
-from datetime import date, datetime, timedelta, timezone
+from datetime import datetime, timezone
 from pathlib import Path
 
 import altair as alt
@@ -12,292 +12,141 @@ import pandas as pd
 import streamlit as st
 
 DATA = Path("data/papers.json")
-KINDS = ("Experimental", "Computational", "Theory + Experiment")
 SUBSCRIPTS = str.maketrans("0123456789", "₀₁₂₃₄₅₆₇₈₉")
+COLORS = {
+    "Experimental": "#1d8a68",
+    "Computational": "#4169a1",
+    "Theory + Experiment": "#d59f20",
+    "Unclassified": "#7b8581",
+}
 
 st.set_page_config(page_title="Exciton Research Scanner", page_icon="◌", layout="wide")
 st.markdown("""
 <style>
-.stApp{background:#f6f4ee;color:#17201d}.block-container{max-width:1380px;padding-top:1.45rem}
-.hero{background:#103f34;color:white;border-radius:24px;padding:36px 42px;margin-bottom:18px;
-background-image:radial-gradient(circle at 90% 8%,#e0ad2d 0,transparent 30%)}
-.hero h1{font-size:3rem;letter-spacing:-.05em;margin:.18rem 0}.hero p{max-width:790px;color:#dce9e3;font-size:1.04rem}
-.eyebrow{font-size:.76rem;font-weight:800;letter-spacing:.08em}.paper{background:white;border:1px solid #ded9ce;
-border-radius:17px;padding:21px 24px 18px;margin:12px 0 5px;box-shadow:0 5px 18px #192d250c}
-.paper h3{margin:0 0 7px;font-size:1.22rem;line-height:1.35}.meta{color:#66726c;font-size:.84rem;line-height:1.55}
-.signal{border-left:3px solid #d8a838;padding-left:11px;color:#294139;margin:13px 0 8px;font-size:.9rem}
-.abstract{color:#35413c;line-height:1.58}.tag{display:inline-block;border-radius:999px;background:#e9efeb;
-padding:4px 9px;margin:3px 4px 3px 0;font-size:.75rem}.type{background:#e2b43b;color:#18231e;font-weight:750}
-.new{background:#d9eee6;color:#125943;font-weight:750}.links a{color:#11614b;font-weight:750;margin-right:16px;text-decoration:none}
-[data-testid="stMetric"]{background:white;border:1px solid #ded9ce;padding:13px;border-radius:14px}
+.stApp{background:#f5f3ed;color:#17221e}.block-container{max-width:1320px;padding-top:1.3rem}
+[data-testid="stSidebar"]{display:none}
+.hero{position:relative;overflow:hidden;background:#102f27;color:white;border-radius:26px;padding:42px 48px 38px;margin-bottom:20px}
+.hero:after{content:"";position:absolute;width:440px;height:440px;border-radius:50%;right:-90px;top:-260px;
+background:radial-gradient(circle,#e4b82f 0,#7f782c 36%,transparent 68%);opacity:.95}
+.hero h1{font-size:3.15rem;letter-spacing:-.055em;margin:.25rem 0;position:relative;z-index:1}
+.hero p{max-width:760px;color:#dce9e3;font-size:1.05rem;line-height:1.55;position:relative;z-index:1}
+.eyebrow{font-size:.75rem;font-weight:800;letter-spacing:.1em;color:#e8c451;position:relative;z-index:1}
+.section-head{display:flex;align-items:end;justify-content:space-between;margin:30px 0 8px}
+.section-head h2{font-size:1.65rem;letter-spacing:-.025em;margin:0}.section-head span{color:#6d7873;font-size:.86rem}
+.paper{background:#fff;border:1px solid #dedbd2;border-radius:17px;padding:20px 23px;margin:10px 0 4px;box-shadow:0 4px 16px #192d2509}
+.paper:hover{border-color:#a9bdb5;box-shadow:0 8px 24px #193d3012}.paper h3{font-size:1.17rem;line-height:1.38;margin:0 0 7px}
+.paper h3 a{color:#14251f;text-decoration:none}.paper h3 a:hover{color:#126149}.meta{color:#68756f;font-size:.83rem;line-height:1.55}
+.preview{color:#34423c;line-height:1.58;margin:12px 0}.tag{display:inline-block;border-radius:999px;background:#edf1ef;
+padding:4px 9px;margin:7px 4px 2px 0;font-size:.73rem}.kind{background:#e5eee9;color:#164f3f;font-weight:750}
+.links{margin-top:12px}.links a{display:inline-block;border:1px solid #b7c9c1;border-radius:999px;padding:6px 12px;
+margin-right:8px;color:#145944;text-decoration:none;font-size:.8rem;font-weight:750}.links a:hover{background:#145944;color:white}
+[data-testid="stMetric"]{background:#fff;border:1px solid #dedbd2;padding:14px 17px;border-radius:15px}
 [data-testid="stMetricLabel"],[data-testid="stMetricValue"]{color:#17352c!important}
-[data-testid="stSidebar"]{background:#17231f}.small-note{color:#68736e;font-size:.82rem}
-.stTabs [data-baseweb="tab-list"]{gap:8px;border-bottom:1px solid #dcd8ce}
-.stTabs [data-baseweb="tab"]{height:42px;padding:0 14px;color:#4f5e58!important;border-radius:10px 10px 0 0}
-.stTabs [aria-selected="true"]{background:#e2eee9!important;color:#0f5b46!important;font-weight:750}
-.stButton>button,.stDownloadButton>button{border-radius:999px!important;border:1px solid #b9c9c2!important;color:#174f40!important;background:#f8fbfa!important;font-weight:700!important}
-.stButton>button:hover,.stDownloadButton>button:hover{border-color:#157158!important;color:white!important;background:#157158!important}
+details{background:#fafbf9!important;border-radius:12px!important}
 </style>
-<div class="hero"><div class="eyebrow">EXCITON DISCOVERY · UPDATED EVERY EIGHT HOURS</div>
+<div class="hero"><div class="eyebrow">ARXIV EXCITON FEED · DAILY UPDATE</div>
 <h1>Exciton Research Scanner</h1>
-<p>Find recent exciton experiments, first-principles calculations, and studies that connect both—classified from the authors’ own abstracts.</p></div>
+<p>A transparent, date-ordered feed of every paper returned by the scoped arXiv exciton query. Classification labels describe the abstracts but never decide whether a paper is kept.</p>
+</div>
 """, unsafe_allow_html=True)
 
 
 def load_archive() -> dict:
-    # Always read the Git-tracked archive from the deployed checkout. The JSON is
-    # small, and avoiding a process-level cache prevents stale counts after a
-    # GitHub Actions data update.
-    return json.loads(DATA.read_text(encoding="utf-8")) if DATA.exists() else {"papers": []}
+    return json.loads(DATA.read_text(encoding="utf-8")) if DATA.exists() else {"papers": [], "scans": []}
 
 
-def pretty_text(value: str) -> str:
-    """Make common arXiv TeX fragments readable without pretending to be a TeX renderer."""
+def pretty(value: str) -> str:
     value = re.sub(r"\$_(\d+)\$", lambda m: m.group(1).translate(SUBSCRIPTS), value)
     value = re.sub(r"\$_\{(\d+)\}\$", lambda m: m.group(1).translate(SUBSCRIPTS), value)
-    value = re.sub(r"\$\^\{?([+-])\}?\$", lambda m: m.group(1), value)
     value = re.sub(r"_\{(\d+)\}", lambda m: m.group(1).translate(SUBSCRIPTS), value)
-    value = value.replace("\\textendash", "–").replace("~", " ")
+    value = value.replace("~", " ")
     return re.sub(r"\s+", " ", value).strip()
 
 
-def research_signal(paper: dict) -> str:
-    methods = paper.get("methods", [])
-    materials = paper.get("materials", [])
-    method_text = ", ".join(methods[:3]) if methods else "abstract-level exciton evidence"
-    material_text = ", ".join(materials[:2]) if materials else "the reported material system"
-    prefix = {
-        "Experimental": "Experimental signal",
-        "Computational": "Computational signal",
-        "Theory + Experiment": "Cross-validation signal",
-    }.get(paper.get("study_type"), "Research signal")
-    return f"{prefix}: {method_text} applied to {material_text}."
-
-
-def bibtex(paper: dict) -> str:
-    first_author = paper.get("authors", ["unknown"])[0].split()[-1].lower()
-    key = re.sub(r"\W+", "", f"{first_author}{paper['submitted'][:4]}{paper['arxiv_id'].split('.')[-1]}")
-    authors = " and ".join(paper.get("authors", []))
-    return (
-        f"@misc{{{key},\n"
-        f"  title = {{{pretty_text(paper['title'])}}},\n"
-        f"  author = {{{authors}}},\n"
-        f"  year = {{{paper['submitted'][:4]}}},\n"
-        f"  eprint = {{{paper['arxiv_id']}}},\n"
-        f"  archivePrefix = {{arXiv}},\n"
-        f"  primaryClass = {{{paper.get('categories', [''])[0]}}}\n"
-        f"}}"
+def paper_card(paper: dict) -> None:
+    title = pretty(paper["title"])
+    abstract = pretty(paper.get("abstract", ""))
+    preview = abstract[:420].rsplit(" ", 1)[0] + ("…" if len(abstract) > 420 else "")
+    authors = ", ".join(paper.get("authors", []))
+    if len(authors) > 210:
+        authors = authors[:207] + "…"
+    kind = paper.get("study_type") or "Unclassified"
+    label = "General / unclassified" if kind == "Unclassified" else kind
+    tags = [label, *paper.get("materials", [])[:4], *paper.get("methods", [])[:5]]
+    badges = "".join(
+        f'<span class="tag {"kind" if i == 0 else ""}">{html.escape(tag)}</span>'
+        for i, tag in enumerate(tags)
     )
+    st.markdown(f"""
+    <article class="paper">
+      <h3><a href="{paper["arxiv_url"]}" target="_blank">{html.escape(title)}</a></h3>
+      <div class="meta">{html.escape(authors)}</div>
+      <div class="meta">{paper["submitted"][:10]} · updated {paper["updated"][:10]} ·
+      arXiv:{paper["arxiv_id"]} · {", ".join(paper.get("categories", []))}</div>
+      <div>{badges}</div><p class="preview">{html.escape(preview)}</p>
+      <div class="links"><a href="{paper["arxiv_url"]}" target="_blank">arXiv page ↗</a>
+      <a href="{paper["pdf_url"]}" target="_blank">PDF ↗</a></div>
+    </article>
+    """, unsafe_allow_html=True)
+    with st.expander("Full abstract and detected metadata"):
+        st.write(abstract)
+        st.caption("Matched keywords: " + (", ".join(paper.get("matched_keywords", [])) or "none"))
 
 
 archive = load_archive()
-papers = archive.get("papers", [])
-st.session_state.setdefault("reading_list", set())
-
-search_query = st.text_input(
-    "Search the exciton archive",
-    placeholder="Try: WSe2 GW-BSE, pump-probe lifetime, perovskite photoluminescence…",
-    label_visibility="collapsed",
-)
+papers = sorted(archive.get("papers", []), key=lambda p: (p.get("submitted", ""), p.get("updated", "")), reverse=True)
+today = datetime.now(timezone.utc).date().isoformat()
+todays_papers = [paper for paper in papers if paper.get("submitted", "")[:10] == today]
+last_scan = archive.get("last_scan")
 
 metrics = st.columns(4)
-metrics[0].metric("Indexed papers", len(papers))
-for column, kind in zip(metrics[1:], KINDS):
-    column.metric(kind, sum(p.get("study_type") == kind for p in papers))
+metrics[0].metric("All raw papers", len(papers))
+metrics[1].metric("Submitted today", len(todays_papers))
+metrics[2].metric("Newest submission", papers[0]["submitted"][:10] if papers else "—")
+metrics[3].metric("Pipeline scans", len(archive.get("scans", [])))
 
-with st.sidebar:
-    st.header("Refine results")
-    materials = sorted({x for p in papers for x in p.get("materials", [])})
-    methods = sorted({x for p in papers for x in p.get("methods", [])})
-    material = st.selectbox("Material", ["All materials", *materials])
-    method = st.selectbox("Method", ["All methods", *methods])
-    date_mode = st.selectbox("Date", ["Any date", "Last 7 days", "Last 30 days", "Last 90 days", "This year"])
-    sort_mode = st.selectbox("Sort", ["Newest submitted", "Recently updated", "Title A–Z"])
-    page_size = st.select_slider("Papers per section", [10, 20, 30, 50], value=20)
-    reading_only = st.toggle(f"Reading list ({len(st.session_state.reading_list)})")
-    st.divider()
-    material_counts = Counter(x for p in papers for x in p.get("materials", []))
-    if material_counts:
-        st.markdown("##### Active material topics")
-        st.caption(" · ".join(f"{name} ({count})" for name, count in material_counts.most_common(6)))
-    if archive.get("last_scan"):
-        stamp = datetime.fromisoformat(archive["last_scan"].replace("Z", "+00:00"))
-        st.caption(f"Last scan: {stamp:%d %b %Y, %H:%M} UTC")
-    st.caption("Uses arXiv metadata and author abstracts only.")
+st.markdown(
+    f'<div class="section-head"><h2>Today’s papers</h2><span>{today} UTC · {len(todays_papers)} papers</span></div>',
+    unsafe_allow_html=True,
+)
+if todays_papers:
+    for paper in todays_papers:
+        paper_card(paper)
+else:
+    st.info("No new arXiv submissions have appeared today in the monitored exciton query. The complete feed continues below.")
 
+st.markdown(
+    f'<div class="section-head"><h2>Complete chronological feed</h2><span>Newest first · all {len(papers)} records</span></div>',
+    unsafe_allow_html=True,
+)
+for paper in papers:
+    paper_card(paper)
 
-def is_visible(paper: dict, kind: str | None) -> bool:
-    query = search_query.strip().lower()
-    haystack = " ".join([
-        paper.get("title", ""), paper.get("abstract", ""), *paper.get("authors", []),
-        *paper.get("materials", []), *paper.get("methods", []), *paper.get("matched_keywords", []),
-    ]).lower()
-    submitted = date.fromisoformat(paper["submitted"][:10])
-    today = datetime.now(timezone.utc).date()
-    cutoffs = {
-        "Last 7 days": today - timedelta(days=7), "Last 30 days": today - timedelta(days=30),
-        "Last 90 days": today - timedelta(days=90), "This year": date(today.year, 1, 1),
-    }
-    return (
-        (kind is None or paper.get("study_type") == kind)
-        and (not query or all(term in haystack for term in query.split()))
-        and (material == "All materials" or material in paper.get("materials", []))
-        and (method == "All methods" or method in paper.get("methods", []))
-        and (date_mode == "Any date" or submitted >= cutoffs[date_mode])
-        and (not reading_only or paper["arxiv_id"] in st.session_state.reading_list)
+st.markdown('<div class="section-head"><h2>Weekly research activity</h2><span>Based on submission dates in the raw archive</span></div>', unsafe_allow_html=True)
+if papers:
+    frame = pd.DataFrame({
+        "week": pd.to_datetime([p["submitted"] for p in papers], utc=True).tz_convert(None).to_period("W").start_time,
+        "classification": [
+            "General / unclassified" if p.get("study_type") == "Unclassified" else p.get("study_type")
+            for p in papers
+        ],
+    })
+    weekly = frame.groupby(["week", "classification"], as_index=False).size().rename(columns={"size": "papers"})
+    chart = (
+        alt.Chart(weekly).mark_bar(cornerRadiusTopLeft=3, cornerRadiusTopRight=3).encode(
+            x=alt.X("week:T", title="Submission week"),
+            y=alt.Y("papers:Q", title="Papers"),
+            color=alt.Color("classification:N", title="Abstract classification"),
+            tooltip=["week:T", "classification:N", "papers:Q"],
+        ).properties(height=340)
     )
+    st.altair_chart(chart, use_container_width=True)
 
+with st.expander("Collection scope and latest pipeline run"):
+    st.write("Query: exciton OR excitonic, limited to the six configured arXiv physics and condensed-matter categories.")
+    st.write("Ordering: submission date, newest first. No material, method, classification, or date filter is applied to this feed.")
+    st.write(f"Last scan: {last_scan or 'not yet recorded'}")
+    if archive.get("scans"):
+        st.json(archive["scans"][-1])
 
-def sorted_papers(items: list[dict]) -> list[dict]:
-    if sort_mode == "Title A–Z":
-        return sorted(items, key=lambda p: p["title"].lower())
-    field = "updated" if sort_mode == "Recently updated" else "submitted"
-    return sorted(items, key=lambda p: p.get(field, ""), reverse=True)
-
-
-def paper_card(paper: dict, section_key: str) -> None:
-    title = pretty_text(paper["title"])
-    authors = ", ".join(paper.get("authors", []))
-    if len(authors) > 190:
-        authors = authors[:187] + "…"
-    abstract = pretty_text(paper.get("abstract", ""))
-    preview = abstract[:430].rsplit(" ", 1)[0] + ("…" if len(abstract) > 430 else "")
-    tags = [paper["study_type"], *paper.get("materials", [])[:4], *paper.get("methods", [])[:5]]
-    age = (datetime.now(timezone.utc).date() - date.fromisoformat(paper["submitted"][:10])).days
-    badges = "".join(
-        f'<span class="tag {"type" if i == 0 else ""}">{html.escape(tag)}</span>' for i, tag in enumerate(tags)
-    )
-    if age <= 7:
-        badges = '<span class="tag new">NEW</span>' + badges
-    versions = ", ".join(paper.get("versions_seen", [paper.get("version", "v1")]))
-    st.markdown(f"""
-    <article class="paper">
-      <h3>{html.escape(title)}</h3>
-      <div class="meta">{html.escape(authors)}</div>
-      <div class="meta">Submitted {paper["submitted"][:10]} · updated {paper["updated"][:10]}
-      · {paper["arxiv_id"]} · versions {versions}</div>
-      <p>{badges}</p>
-      <div class="signal">{html.escape(research_signal(paper))}</div>
-      <p class="abstract">{html.escape(preview)}</p>
-      <div class="links"><a href="{paper["arxiv_url"]}" target="_blank">arXiv page ↗</a>
-      <a href="{paper["pdf_url"]}" target="_blank">Open PDF ↗</a></div>
-    </article>
-    """, unsafe_allow_html=True)
-    actions = st.columns([1.1, 1.1, 5])
-    saved = paper["arxiv_id"] in st.session_state.reading_list
-    if actions[0].button(
-        "★ Saved" if saved else "☆ Save",
-        key=f"save-{section_key}-{paper['arxiv_id']}",
-        use_container_width=True,
-    ):
-        if saved:
-            st.session_state.reading_list.remove(paper["arxiv_id"])
-        else:
-            st.session_state.reading_list.add(paper["arxiv_id"])
-        st.rerun()
-    actions[1].download_button(
-        "Cite", bibtex(paper), file_name=f"{paper['arxiv_id'].replace('/', '-')}.bib",
-        mime="application/x-bibtex",
-        key=f"cite-{section_key}-{paper['arxiv_id']}",
-        use_container_width=True,
-    )
-    with st.expander("Paper details · full abstract · classification evidence"):
-        st.markdown(f"**Full abstract**\n\n{abstract}")
-        st.markdown("**Why it was classified this way**")
-        evidence = paper.get("evidence", {})
-        st.write(
-            f"Experimental evidence: {'detected' if evidence.get('experimental') else 'not detected'} · "
-            f"Computational evidence: {'detected' if evidence.get('computational') else 'not detected'}"
-        )
-        st.write("Matched terms:", ", ".join(paper.get("matched_keywords", [])) or "None recorded")
-        st.write("arXiv categories:", ", ".join(paper.get("categories", [])))
-
-
-tabs = st.tabs(["Explore", "Research Pulse", "Experimental", "Computational", "Theory + Experiment"])
-paper_tabs = [tabs[0], *tabs[2:]]
-for tab, kind in zip(paper_tabs, (None, *KINDS)):
-    with tab:
-        subset = sorted_papers([p for p in papers if is_visible(p, kind)])
-        shown = subset[:page_size]
-        st.caption(f"Showing {len(shown):,} of {len(subset):,} matching papers")
-        if not shown:
-            st.info("No papers match these filters. Broaden the query or clear one of the filters.")
-        section_key = (kind or "explore").lower().replace(" ", "-").replace("+", "plus")
-        for paper in shown:
-            paper_card(paper, section_key)
-
-with tabs[1]:
-    st.subheader("Research Pulse")
-    st.caption("Weekly publication activity in the collected 2026 exciton literature and the output of each automated scan.")
-    if papers:
-        weekly = pd.DataFrame({
-            "week": pd.to_datetime([p["submitted"] for p in papers], utc=True).to_period("W").start_time,
-            "study_type": [p["study_type"] for p in papers],
-        })
-        weekly = weekly.groupby(["week", "study_type"], as_index=False).size().rename(columns={"size": "papers"})
-        weekly_chart = (
-            alt.Chart(weekly)
-            .mark_bar(cornerRadiusTopLeft=3, cornerRadiusTopRight=3)
-            .encode(
-                x=alt.X("week:T", title="Submission week"),
-                y=alt.Y("papers:Q", title="Papers collected"),
-                color=alt.Color(
-                    "study_type:N",
-                    title="Study type",
-                    scale=alt.Scale(
-                        domain=list(KINDS),
-                        range=["#1d8a68", "#315f9b", "#d6a21f"],
-                    ),
-                ),
-                tooltip=[
-                    alt.Tooltip("week:T", title="Week"),
-                    alt.Tooltip("study_type:N", title="Type"),
-                    alt.Tooltip("papers:Q", title="Papers"),
-                ],
-            )
-            .properties(height=360)
-        )
-        st.altair_chart(weekly_chart, use_container_width=True)
-
-        pulse_cols = st.columns(3)
-        pulse_cols[0].metric("Active weeks", weekly["week"].nunique())
-        pulse_cols[1].metric("Peak week", int(weekly.groupby("week")["papers"].sum().max()))
-        pulse_cols[2].metric("2026 papers", len(papers))
-
-    scans = archive.get("scans", [])
-    st.markdown("#### Pipeline scan history")
-    if scans:
-        scan_frame = pd.DataFrame(scans)
-        scan_frame["scanned_at"] = pd.to_datetime(scan_frame["scanned_at"], utc=True)
-        scan_long = scan_frame.melt(
-            id_vars=["scanned_at"], value_vars=["fetched", "classified", "new", "updated"],
-            var_name="metric", value_name="papers",
-        )
-        scan_chart = (
-            alt.Chart(scan_long)
-            .mark_line(point=True, strokeWidth=2.5)
-            .encode(
-                x=alt.X("scanned_at:T", title="Scan time (UTC)"),
-                y=alt.Y("papers:Q", title="Paper count"),
-                color=alt.Color(
-                    "metric:N",
-                    scale=alt.Scale(
-                        domain=["fetched", "classified", "new", "updated"],
-                        range=["#83948d", "#315f9b", "#1d8a68", "#d6a21f"],
-                    ),
-                ),
-                tooltip=["scanned_at:T", "metric:N", "papers:Q"],
-            )
-            .properties(height=280)
-        )
-        st.altair_chart(scan_chart, use_container_width=True)
-        st.dataframe(
-            scan_frame[["scanned_at", "since", "fetched", "classified", "new", "updated", "total"]]
-            .sort_values("scanned_at", ascending=False),
-            hide_index=True,
-            use_container_width=True,
-        )
-    else:
-        st.info("Scan-by-scan history begins with the new 2026 backfill pipeline run.")
-
-st.caption("Inspired by modern research-discovery tools such as alphaXiv. Independent project; not affiliated with alphaXiv or arXiv.")
+st.caption("Metadata and author abstracts from the official arXiv API. Classification is descriptive and may require manual correction.")
