@@ -13,7 +13,7 @@ def test_combined_requires_both_evidence_types():
 def test_review_with_own_gw_bse_is_computational_not_combined():
     result=analyze(
         "Excitonic Landscape of Monolayer Transition-Metal Dichalcogenides",
-        "We integrate prior photoluminescence measurements with theoretical insights. "
+        "We present a comprehensive and critical assessment and integrate prior photoluminescence measurements with theoretical insights. "
         "We highlight our state-of-the-art GW-BSE calculations for strained systems.",
     )
     assert result["study_type"]=="Computational"
@@ -27,6 +27,19 @@ def test_specific_material_maps_to_broad_family_and_property():
     assert "MoS2" in result["materials"]
     assert "TMDs / 2D chalcogenides" in result["material_families"]
     assert {"Binding energy", "Strain response"}.issubset(result["exciton_properties"])
+
+def test_explicit_numerical_language_is_computational():
+    result=analyze("Excitonic enhancement", "Here, we numerically investigate the optical response of an excitonic monolayer.")
+    assert result["study_type"]=="Computational"
+    assert "numerically investigate" in result["classification_evidence"]["computational_actions"]
+
+def test_generic_polariton_is_not_core_exciton_relevance():
+    result=analyze("Magnetic polariton resonance", "We model an optical cavity supporting magnetic polaritons.")
+    assert result["relevance"]=="Exciton-adjacent"
+
+def test_landscape_alone_does_not_imply_review():
+    result=analyze("Exciton landscape in a monolayer", "We calculate the exciton spectrum using GW-BSE calculations.")
+    assert result["paper_nature"]=="Original research"
 
 def test_instrument_acronyms_are_not_materials():
     result=analyze(
