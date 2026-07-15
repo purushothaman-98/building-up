@@ -10,6 +10,14 @@ def test_combined_requires_both_evidence_types():
     assert result["study_type"]=="Theory + Experiment"
     assert "WSe2" in result["materials"]
 
+def test_review_with_own_gw_bse_is_computational_not_combined():
+    result=analyze(
+        "Excitonic Landscape of Monolayer Transition-Metal Dichalcogenides",
+        "We integrate prior photoluminescence measurements with theoretical insights. "
+        "We highlight our state-of-the-art GW-BSE calculations for strained systems.",
+    )
+    assert result["study_type"]=="Computational"
+
 def test_feed_and_version_merge(tmp_path: Path):
     xml=b'''<feed xmlns="http://www.w3.org/2005/Atom"><entry><id>http://arxiv.org/abs/2607.12345v2</id>
     <updated>2026-07-15T12:00:00Z</updated><published>2026-07-14T12:00:00Z</published>
