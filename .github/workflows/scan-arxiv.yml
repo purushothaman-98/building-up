@@ -1,0 +1,31 @@
+name: Scan arXiv for exciton papers
+on:
+  schedule:
+    - cron: "17 5,17 * * *"
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: arxiv-metadata-scan
+  cancel-in-progress: false
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Query official arXiv API
+        run: python arxiv_scanner.py --output data/papers.json --max-results 300
+      - name: Commit archive changes
+        run: |
+          if git diff --quiet -- data/papers.json; then
+            echo "No metadata changes"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/papers.json
+          git commit -m "data: update arXiv exciton archive"
+          git push

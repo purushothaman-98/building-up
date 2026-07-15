@@ -1,12 +1,7 @@
-name: Test Streamlit app
-
-on:
-  push:
-  pull_request:
-
+name: Test Exciton Scanner
+on: [push, pull_request]
 permissions:
   contents: read
-
 jobs:
   test:
     runs-on: ubuntu-latest
@@ -16,7 +11,6 @@ jobs:
         with:
           python-version: "3.12"
           cache: pip
-      - run: pip install -r requirements.txt pytest
-      - run: python -m py_compile app.py reddit_client.py storage.py
+      - run: pip install -r requirements.txt
+      - run: python -m py_compile app.py arxiv_scanner.py
       - run: pytest -q
-
