@@ -44,7 +44,7 @@ margin-right:8px;color:#145944;text-decoration:none;font-size:.8rem;font-weight:
 [data-testid="stMetricLabel"],[data-testid="stMetricValue"]{color:#17352c!important}
 details{background:#fafbf9!important;border-radius:12px!important}
 </style>
-<div class="hero"><div class="eyebrow">ARXIV EXCITON FEED · DAILY UPDATE</div>
+<div class="hero"><div class="eyebrow">ARXIV EXCITON FEED · DAILY AT 05:17 UTC</div>
 <h1>Exciton Research Scanner</h1>
 <p>A transparent, date-ordered feed of every paper returned by the scoped arXiv exciton query. Classification labels describe the abstracts but never decide whether a paper is kept.</p>
 </div>
