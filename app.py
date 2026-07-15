@@ -44,7 +44,9 @@ def load_archive() -> dict:
 
 def pretty_text(value: str) -> str:
     """Make common arXiv TeX fragments readable without pretending to be a TeX renderer."""
+    value = re.sub(r"\$_(\d+)\$", lambda m: m.group(1).translate(SUBSCRIPTS), value)
     value = re.sub(r"\$_\{(\d+)\}\$", lambda m: m.group(1).translate(SUBSCRIPTS), value)
+    value = re.sub(r"\$\^\{?([+-])\}?\$", lambda m: m.group(1), value)
     value = re.sub(r"_\{(\d+)\}", lambda m: m.group(1).translate(SUBSCRIPTS), value)
     value = value.replace("\\textendash", "–").replace("~", " ")
     return re.sub(r"\s+", " ", value).strip()
@@ -144,7 +146,7 @@ def sorted_papers(items: list[dict]) -> list[dict]:
     return sorted(items, key=lambda p: p.get(field, ""), reverse=True)
 
 
-def paper_card(paper: dict) -> None:
+def paper_card(paper: dict, section_key: str) -> None:
     title = pretty_text(paper["title"])
     authors = ", ".join(paper.get("authors", []))
     if len(authors) > 190:
@@ -174,7 +176,11 @@ def paper_card(paper: dict) -> None:
     """, unsafe_allow_html=True)
     actions = st.columns([1.1, 1.1, 5])
     saved = paper["arxiv_id"] in st.session_state.reading_list
-    if actions[0].button("★ Saved" if saved else "☆ Save", key=f"save-{paper['arxiv_id']}", use_container_width=True):
+    if actions[0].button(
+        "★ Saved" if saved else "☆ Save",
+        key=f"save-{section_key}-{paper['arxiv_id']}",
+        use_container_width=True,
+    ):
         if saved:
             st.session_state.reading_list.remove(paper["arxiv_id"])
         else:
@@ -182,7 +188,9 @@ def paper_card(paper: dict) -> None:
         st.rerun()
     actions[1].download_button(
         "Cite", bibtex(paper), file_name=f"{paper['arxiv_id'].replace('/', '-')}.bib",
-        mime="application/x-bibtex", key=f"cite-{paper['arxiv_id']}", use_container_width=True,
+        mime="application/x-bibtex",
+        key=f"cite-{section_key}-{paper['arxiv_id']}",
+        use_container_width=True,
     )
     with st.expander("Paper details · full abstract · classification evidence"):
         st.markdown(f"**Full abstract**\n\n{abstract}")
@@ -204,7 +212,8 @@ for tab, kind in zip(tabs, (None, *KINDS)):
         st.caption(f"Showing {len(shown):,} of {len(subset):,} matching papers")
         if not shown:
             st.info("No papers match these filters. Broaden the query or clear one of the filters.")
+        section_key = (kind or "explore").lower().replace(" ", "-").replace("+", "plus")
         for paper in shown:
-            paper_card(paper)
+            paper_card(paper, section_key)
 
 st.caption("Inspired by modern research-discovery tools such as alphaXiv. Independent project; not affiliated with alphaXiv or arXiv.")
