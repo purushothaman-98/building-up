@@ -1,0 +1,49 @@
+name: Classify papers with GitHub Models
+on:
+  push:
+    branches: [master]
+    paths:
+      - "ai_classifier.py"
+      - ".github/workflows/classify-ai.yml"
+  schedule:
+    # Small resumable batches for the initial archive; completed papers are cached.
+    - cron: "23 */3 * * *"
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: Maximum papers to classify in this run
+        required: false
+        default: "20"
+permissions:
+  contents: write
+  models: read
+concurrency:
+  group: exciton-ai-classification
+  cancel-in-progress: false
+jobs:
+  classify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Read complete metadata and classify pending papers
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          AI_MODEL: openai/gpt-4o-mini
+          INPUT_LIMIT: ${{ inputs.limit }}
+        run: python ai_classifier.py --limit "${INPUT_LIMIT:-20}" --delay 7
+      - name: Commit classification progress
+        run: |
+          if git diff --quiet -- data/ai_classifications.json; then
+            echo "No classification changes"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/ai_classifications.json
+          git commit -m "data: update AI paper classifications"
+          git pull --rebase origin master
+          git push
