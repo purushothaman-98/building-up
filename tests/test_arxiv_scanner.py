@@ -17,6 +17,16 @@ def test_review_with_own_gw_bse_is_computational_not_combined():
         "We highlight our state-of-the-art GW-BSE calculations for strained systems.",
     )
     assert result["study_type"]=="Computational"
+    assert result["paper_nature"]=="Review / perspective"
+
+def test_specific_material_maps_to_broad_family_and_property():
+    result=analyze(
+        "Strain-dependent exciton binding energy in monolayer MoS2",
+        "Using GW-BSE calculations, we compute the exciton binding energy under biaxial strain.",
+    )
+    assert "MoS2" in result["materials"]
+    assert "TMDs / 2D chalcogenides" in result["material_families"]
+    assert {"Binding energy", "Strain response"}.issubset(result["exciton_properties"])
 
 def test_instrument_acronyms_are_not_materials():
     result=analyze(
