@@ -4,7 +4,7 @@ import html
 import json
 import re
 from collections import Counter
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 import altair as alt
@@ -49,6 +49,10 @@ details{background:#fafbf9!important;border-radius:12px!important}
 .date-band{display:flex;align-items:center;justify-content:space-between;margin:30px 0 10px;padding:11px 15px;
 background:#e8eee9;border-left:4px solid #17684f;border-radius:0 12px 12px 0}
 .date-band h2{font-size:1.18rem;margin:0;color:#173d31}.date-band span{font-size:.82rem;color:#62726b}
+.week-summary{background:#143d31;color:white;border-radius:16px;padding:18px 22px;margin:16px 0 8px}
+.week-summary strong{font-size:1.18rem}.week-summary span{float:right;color:#d8e6df}
+.stButton>button{border-radius:999px!important;border:1px solid #abc1b8!important;background:#fff!important;
+color:#155540!important;font-weight:750!important}.stButton>button:hover{background:#155540!important;color:white!important}
 </style>
 <div class="hero"><div class="eyebrow">ARXIV EXCITON FEED · DAILY AT 05:17 UTC</div>
 <h1>Exciton Research Scanner</h1>
@@ -113,11 +117,70 @@ metrics[3].metric("Pipeline scans", len(archive.get("scans", [])))
 
 feed_tab, analysis_tab = st.tabs(["Daily paper feed", "Time series & analysis"])
 
+def select_week(label: str) -> None:
+    st.session_state.week_picker = label
+
+
 with feed_tab:
-    st.caption("Every raw record, grouped by its arXiv submission date. Newest day first.")
-    grouped_dates = {}
+    st.caption("One week per page. Page 1 is always the latest available arXiv week; papers remain grouped by day.")
+    grouped_weeks = {}
     for paper in papers:
-        grouped_dates.setdefault(paper["submitted"][:10], []).append(paper)
+        submitted_date = datetime.strptime(paper["submitted"][:10], "%Y-%m-%d").date()
+        week_start = submitted_date - timedelta(days=submitted_date.weekday())
+        grouped_weeks.setdefault(week_start, []).append(paper)
+    week_starts = sorted(grouped_weeks, reverse=True)
+    week_labels = []
+    for week_start in week_starts:
+        week_end = week_start + timedelta(days=6)
+        week_labels.append(
+            f"{week_start:%d %b}–{week_end:%d %b %Y} · {len(grouped_weeks[week_start])} papers"
+        )
+
+    if week_labels:
+        st.session_state.setdefault("week_picker", week_labels[0])
+        if st.session_state.week_picker not in week_labels:
+            st.session_state.week_picker = week_labels[0]
+        selected_label = st.selectbox(
+            "Jump to a week",
+            week_labels,
+            key="week_picker",
+        )
+        page_index = week_labels.index(selected_label)
+        nav_left, nav_middle, nav_right = st.columns([1, 3, 1])
+        nav_left.button(
+            "← Newer week",
+            disabled=page_index == 0,
+            use_container_width=True,
+            on_click=select_week,
+            args=(week_labels[max(0, page_index - 1)],),
+        )
+        nav_middle.markdown(
+            f"<div style='text-align:center;padding:.55rem;color:#65736d'>"
+            f"Week {page_index + 1} of {len(week_labels)}</div>",
+            unsafe_allow_html=True,
+        )
+        nav_right.button(
+            "Older week →",
+            disabled=page_index == len(week_labels) - 1,
+            use_container_width=True,
+            on_click=select_week,
+            args=(week_labels[min(len(week_labels) - 1, page_index + 1)],),
+        )
+
+        selected_start = week_starts[page_index]
+        selected_end = selected_start + timedelta(days=6)
+        week_papers = grouped_weeks[selected_start]
+        st.markdown(
+            f'<div class="week-summary"><strong>{selected_start:%d %B}–{selected_end:%d %B %Y}</strong>'
+            f'<span>{len(week_papers)} papers · page {page_index + 1}</span></div>',
+            unsafe_allow_html=True,
+        )
+        grouped_dates = {}
+        for paper in week_papers:
+            grouped_dates.setdefault(paper["submitted"][:10], []).append(paper)
+    else:
+        grouped_dates = {}
+
     for submission_date, day_papers in grouped_dates.items():
         display_date = datetime.strptime(submission_date, "%Y-%m-%d").strftime("%A, %d %B %Y")
         st.markdown(
