@@ -55,6 +55,10 @@ background:#e8eee9;border-left:4px solid #17684f;border-radius:0 12px 12px 0}
 .date-band h2{font-size:1.18rem;margin:0;color:#173d31}.date-band span{font-size:.82rem;color:#62726b}
 .week-summary{background:#143d31;color:white;border-radius:16px;padding:18px 22px;margin:16px 0 8px}
 .week-summary strong{font-size:1.18rem}.week-summary span{float:right;color:#d8e6df}
+.filter-panel{margin-top:22px;background:#e9efec;border:1px solid #cad8d2;border-radius:18px;padding:17px 20px 5px}
+.filter-panel h2{font-size:1.25rem;margin:0;color:#173d31}.filter-panel p{margin:.3rem 0 .6rem;color:#65736d;font-size:.86rem}
+.result-strip{display:flex;justify-content:space-between;align-items:center;background:#173d31;color:white;border-radius:12px;padding:11px 15px;margin:12px 0}
+.result-strip span{color:#cfe0d8;font-size:.82rem}
 .stButton>button{border-radius:999px!important;border:1px solid #abc1b8!important;background:#fff!important;
 color:#155540!important;font-weight:750!important}.stButton>button:hover{background:#155540!important;color:white!important}
 </style>
@@ -87,7 +91,7 @@ def paper_card(paper: dict) -> None:
     kind = paper.get("study_type") or "Unclassified"
     kind_class = kind.lower().replace(" + ", "-plus-").replace(" ", "-")
     label = "General / unclassified" if kind == "Unclassified" else kind
-    tags = [label, *paper.get("materials", [])[:3], *paper.get("applications", [])[:3], *paper.get("methods", [])[:5]]
+    tags = [label, paper.get("paper_nature", "Unclassified nature"), *paper.get("material_families", [])[:1], *paper.get("materials", [])[:2], *paper.get("methods", [])[:4], *paper.get("exciton_properties", [])[:3]]
     badges = "".join(
         f'<span class="tag {"kind" if i == 0 else ""}">{html.escape(tag)}</span>'
         for i, tag in enumerate(tags)
@@ -109,16 +113,71 @@ def paper_card(paper: dict) -> None:
 
 
 archive = load_archive()
-papers = sorted(archive.get("papers", []), key=lambda p: (p.get("submitted", ""), p.get("updated", "")), reverse=True)
+raw_papers = sorted(archive.get("papers", []), key=lambda p: (p.get("submitted", ""), p.get("updated", "")), reverse=True)
 last_scan = archive.get("last_scan")
-latest_date = papers[0]["submitted"][:10] if papers else None
-latest_count = sum(p.get("submitted", "")[:10] == latest_date for p in papers) if latest_date else 0
+latest_date = raw_papers[0]["submitted"][:10] if raw_papers else None
+latest_count = sum(p.get("submitted", "")[:10] == latest_date for p in raw_papers) if latest_date else 0
 
 metrics = st.columns(4)
-metrics[0].metric("All raw papers", len(papers))
+metrics[0].metric("All raw papers", len(raw_papers))
 metrics[1].metric("Latest arXiv day", latest_count)
 metrics[2].metric("Newest submission", latest_date or "—")
 metrics[3].metric("Pipeline scans", len(archive.get("scans", [])))
+
+st.markdown('<div class="filter-panel"><h2>Explore the archive</h2><p>Broad scientific categories preserve the specific terms detected in each abstract.</p></div>', unsafe_allow_html=True)
+search_text = st.text_input(
+    "Search",
+    placeholder="Title, abstract, author, arXiv ID, material or method…",
+)
+filter_row_1 = st.columns(3)
+study_types = filter_row_1[0].multiselect(
+    "Research type",
+    ["Experimental", "Computational", "Theory + Experiment", "Unclassified"],
+)
+paper_natures_available = sorted({p.get("paper_nature", "Unclassified nature") for p in raw_papers})
+paper_natures = filter_row_1[1].multiselect("Paper nature", paper_natures_available)
+family_options = sorted({x for p in raw_papers for x in p.get("material_families", [])})
+specific_options = sorted({x for p in raw_papers for x in p.get("materials", [])})
+material_options = [f"Family · {x}" for x in family_options] + [f"Material · {x}" for x in specific_options]
+selected_materials = filter_row_1[2].multiselect("Material", material_options)
+
+filter_row_2 = st.columns(2)
+method_options = sorted({x for p in raw_papers for x in p.get("methods", [])})
+selected_methods = filter_row_2[0].multiselect("Method", method_options)
+property_options = sorted({x for p in raw_papers for x in p.get("exciton_properties", [])})
+selected_properties = filter_row_2[1].multiselect("Exciton property", property_options)
+
+def searchable_text(paper: dict) -> str:
+    values = [
+        paper.get("title", ""), paper.get("abstract", ""), paper.get("arxiv_id", ""),
+        " ".join(paper.get("authors", [])), " ".join(paper.get("materials", [])),
+        " ".join(paper.get("material_families", [])), " ".join(paper.get("methods", [])),
+        " ".join(paper.get("exciton_properties", [])),
+    ]
+    return " ".join(values).lower()
+
+def material_match(paper: dict) -> bool:
+    if not selected_materials:
+        return True
+    available = {f"Family · {x}" for x in paper.get("material_families", [])}
+    available.update(f"Material · {x}" for x in paper.get("materials", []))
+    return bool(available.intersection(selected_materials))
+
+query_terms = search_text.lower().split()
+papers = [
+    paper for paper in raw_papers
+    if (not query_terms or all(term in searchable_text(paper) for term in query_terms))
+    and (not study_types or paper.get("study_type", "Unclassified") in study_types)
+    and (not paper_natures or paper.get("paper_nature", "Unclassified nature") in paper_natures)
+    and material_match(paper)
+    and (not selected_methods or bool(set(selected_methods).intersection(paper.get("methods", []))))
+    and (not selected_properties or bool(set(selected_properties).intersection(paper.get("exciton_properties", []))))
+]
+active_count = bool(search_text or study_types or paper_natures or selected_materials or selected_methods or selected_properties)
+st.markdown(
+    f'<div class="result-strip"><strong>{len(papers)} matching papers</strong><span>{"Filters active" if active_count else "Complete chronological archive"}</span></div>',
+    unsafe_allow_html=True,
+)
 
 selected_view = st.radio(
     "Choose view",
