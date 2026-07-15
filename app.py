@@ -38,14 +38,16 @@ padding:4px 9px;margin:3px 4px 3px 0;font-size:.75rem}.type{background:#e2b43b;c
 .stButton>button,.stDownloadButton>button{border-radius:999px!important;border:1px solid #b9c9c2!important;color:#174f40!important;background:#f8fbfa!important;font-weight:700!important}
 .stButton>button:hover,.stDownloadButton>button:hover{border-color:#157158!important;color:white!important;background:#157158!important}
 </style>
-<div class="hero"><div class="eyebrow">EXCITON DISCOVERY · UPDATED TWICE DAILY</div>
+<div class="hero"><div class="eyebrow">EXCITON DISCOVERY · UPDATED EVERY EIGHT HOURS</div>
 <h1>Exciton Research Scanner</h1>
 <p>Find recent exciton experiments, first-principles calculations, and studies that connect both—classified from the authors’ own abstracts.</p></div>
 """, unsafe_allow_html=True)
 
 
-@st.cache_data(ttl=300)
 def load_archive() -> dict:
+    # Always read the Git-tracked archive from the deployed checkout. The JSON is
+    # small, and avoiding a process-level cache prevents stale counts after a
+    # GitHub Actions data update.
     return json.loads(DATA.read_text(encoding="utf-8")) if DATA.exists() else {"papers": []}
 
 
