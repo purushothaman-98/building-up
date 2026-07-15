@@ -43,6 +43,12 @@ margin-right:8px;color:#145944;text-decoration:none;font-size:.8rem;font-weight:
 [data-testid="stMetric"]{background:#fff;border:1px solid #dedbd2;padding:14px 17px;border-radius:15px}
 [data-testid="stMetricLabel"],[data-testid="stMetricValue"]{color:#17352c!important}
 details{background:#fafbf9!important;border-radius:12px!important}
+.stTabs [data-baseweb="tab-list"]{gap:10px;border-bottom:1px solid #d9d6ce;margin-top:18px}
+.stTabs [data-baseweb="tab"]{height:46px;padding:0 18px;color:#52625b!important}
+.stTabs [aria-selected="true"]{background:#e3eee9!important;color:#105a44!important;font-weight:800;border-radius:11px 11px 0 0}
+.date-band{display:flex;align-items:center;justify-content:space-between;margin:30px 0 10px;padding:11px 15px;
+background:#e8eee9;border-left:4px solid #17684f;border-radius:0 12px 12px 0}
+.date-band h2{font-size:1.18rem;margin:0;color:#173d31}.date-band span{font-size:.82rem;color:#62726b}
 </style>
 <div class="hero"><div class="eyebrow">ARXIV EXCITON FEED · DAILY AT 05:17 UTC</div>
 <h1>Exciton Research Scanner</h1>
@@ -95,58 +101,123 @@ def paper_card(paper: dict) -> None:
 
 archive = load_archive()
 papers = sorted(archive.get("papers", []), key=lambda p: (p.get("submitted", ""), p.get("updated", "")), reverse=True)
-today = datetime.now(timezone.utc).date().isoformat()
-todays_papers = [paper for paper in papers if paper.get("submitted", "")[:10] == today]
 last_scan = archive.get("last_scan")
+latest_date = papers[0]["submitted"][:10] if papers else None
+latest_count = sum(p.get("submitted", "")[:10] == latest_date for p in papers) if latest_date else 0
 
 metrics = st.columns(4)
 metrics[0].metric("All raw papers", len(papers))
-metrics[1].metric("Submitted today", len(todays_papers))
-metrics[2].metric("Newest submission", papers[0]["submitted"][:10] if papers else "—")
+metrics[1].metric("Latest arXiv day", latest_count)
+metrics[2].metric("Newest submission", latest_date or "—")
 metrics[3].metric("Pipeline scans", len(archive.get("scans", [])))
 
-st.markdown(
-    f'<div class="section-head"><h2>Today’s papers</h2><span>{today} UTC · {len(todays_papers)} papers</span></div>',
-    unsafe_allow_html=True,
-)
-if todays_papers:
-    for paper in todays_papers:
-        paper_card(paper)
-else:
-    st.info("No new arXiv submissions have appeared today in the monitored exciton query. The complete feed continues below.")
+feed_tab, analysis_tab = st.tabs(["Daily paper feed", "Time series & analysis"])
 
-st.markdown(
-    f'<div class="section-head"><h2>Complete chronological feed</h2><span>Newest first · all {len(papers)} records</span></div>',
-    unsafe_allow_html=True,
-)
-for paper in papers:
-    paper_card(paper)
+with feed_tab:
+    st.caption("Every raw record, grouped by its arXiv submission date. Newest day first.")
+    grouped_dates = {}
+    for paper in papers:
+        grouped_dates.setdefault(paper["submitted"][:10], []).append(paper)
+    for submission_date, day_papers in grouped_dates.items():
+        display_date = datetime.strptime(submission_date, "%Y-%m-%d").strftime("%A, %d %B %Y")
+        st.markdown(
+            f'<div class="date-band"><h2>{display_date}</h2><span>{len(day_papers)} papers</span></div>',
+            unsafe_allow_html=True,
+        )
+        for paper in day_papers:
+            paper_card(paper)
 
-st.markdown('<div class="section-head"><h2>Weekly research activity</h2><span>Based on submission dates in the raw archive</span></div>', unsafe_allow_html=True)
-if papers:
-    frame = pd.DataFrame({
-        "week": pd.to_datetime([p["submitted"] for p in papers], utc=True).tz_convert(None).to_period("W").start_time,
-        "classification": [
+with analysis_tab:
+    st.markdown('<div class="section-head"><h2>Submission time series</h2><span>Daily and weekly activity</span></div>', unsafe_allow_html=True)
+    if papers:
+        daily = pd.DataFrame({"date": pd.to_datetime([p["submitted"][:10] for p in papers])})
+        daily = daily.groupby("date", as_index=False).size().rename(columns={"size": "papers"})
+        daily_chart = (
+            alt.Chart(daily).mark_line(point=True, color="#17684f", strokeWidth=2.5).encode(
+                x=alt.X("date:T", title="Submission date"),
+                y=alt.Y("papers:Q", title="Papers per day"),
+                tooltip=[alt.Tooltip("date:T", title="Date"), alt.Tooltip("papers:Q", title="Papers")],
+            ).properties(height=300)
+        )
+        st.altair_chart(daily_chart, use_container_width=True)
+
+        frame = pd.DataFrame({
+            "week": pd.to_datetime([p["submitted"] for p in papers], utc=True).tz_convert(None).to_period("W").start_time,
+            "classification": [
+                "General / unclassified" if p.get("study_type") == "Unclassified" else p.get("study_type")
+                for p in papers
+            ],
+        })
+        weekly = frame.groupby(["week", "classification"], as_index=False).size().rename(columns={"size": "papers"})
+        weekly_chart = (
+            alt.Chart(weekly).mark_bar(cornerRadiusTopLeft=3, cornerRadiusTopRight=3).encode(
+                x=alt.X("week:T", title="Submission week"),
+                y=alt.Y("papers:Q", title="Papers"),
+                color=alt.Color("classification:N", title="Abstract classification"),
+                tooltip=["week:T", "classification:N", "papers:Q"],
+            ).properties(height=330)
+        )
+        st.altair_chart(weekly_chart, use_container_width=True)
+
+        left, right = st.columns(2)
+        classification_counts = Counter(
             "General / unclassified" if p.get("study_type") == "Unclassified" else p.get("study_type")
             for p in papers
-        ],
-    })
-    weekly = frame.groupby(["week", "classification"], as_index=False).size().rename(columns={"size": "papers"})
-    chart = (
-        alt.Chart(weekly).mark_bar(cornerRadiusTopLeft=3, cornerRadiusTopRight=3).encode(
-            x=alt.X("week:T", title="Submission week"),
-            y=alt.Y("papers:Q", title="Papers"),
-            color=alt.Color("classification:N", title="Abstract classification"),
-            tooltip=["week:T", "classification:N", "papers:Q"],
-        ).properties(height=340)
-    )
-    st.altair_chart(chart, use_container_width=True)
+        )
+        composition = pd.DataFrame(
+            [{"classification": key, "papers": value} for key, value in classification_counts.items()]
+        )
+        donut = (
+            alt.Chart(composition).mark_arc(innerRadius=58, outerRadius=105).encode(
+                theta=alt.Theta("papers:Q"),
+                color=alt.Color("classification:N", title="Classification"),
+                tooltip=["classification:N", "papers:Q"],
+            ).properties(title="Classification composition", height=310)
+        )
+        left.altair_chart(donut, use_container_width=True)
 
-with st.expander("Collection scope and latest pipeline run"):
-    st.write("Query: exciton OR excitonic, limited to the six configured arXiv physics and condensed-matter categories.")
-    st.write("Ordering: submission date, newest first. No material, method, classification, or date filter is applied to this feed.")
-    st.write(f"Last scan: {last_scan or 'not yet recorded'}")
-    if archive.get("scans"):
-        st.json(archive["scans"][-1])
+        category_counts = Counter(category for p in papers for category in p.get("categories", []))
+        categories = pd.DataFrame(
+            [{"category": key, "papers": value} for key, value in category_counts.most_common(12)]
+        )
+        category_chart = (
+            alt.Chart(categories).mark_bar(color="#416f91", cornerRadiusEnd=3).encode(
+                x=alt.X("papers:Q", title="Papers"),
+                y=alt.Y("category:N", sort="-x", title=None),
+                tooltip=["category:N", "papers:Q"],
+            ).properties(title="Top arXiv categories", height=310)
+        )
+        right.altair_chart(category_chart, use_container_width=True)
+
+    st.markdown('<div class="section-head"><h2>Pipeline history</h2><span>What each automated scan produced</span></div>', unsafe_allow_html=True)
+    scans = archive.get("scans", [])
+    if scans:
+        scan_frame = pd.DataFrame(scans)
+        scan_frame["scanned_at"] = pd.to_datetime(scan_frame["scanned_at"], utc=True)
+        scan_long = scan_frame.melt(
+            id_vars=["scanned_at"], value_vars=["fetched", "new", "updated", "total"],
+            var_name="metric", value_name="papers",
+        )
+        scan_chart = (
+            alt.Chart(scan_long).mark_line(point=True, strokeWidth=2.4).encode(
+                x=alt.X("scanned_at:T", title="Scan time (UTC)"),
+                y=alt.Y("papers:Q", title="Paper count"),
+                color=alt.Color("metric:N", title="Metric"),
+                tooltip=["scanned_at:T", "metric:N", "papers:Q"],
+            ).properties(height=290)
+        )
+        st.altair_chart(scan_chart, use_container_width=True)
+        st.dataframe(
+            scan_frame[["scanned_at", "since", "fetched", "new", "updated", "total"]]
+            .sort_values("scanned_at", ascending=False),
+            hide_index=True, use_container_width=True,
+        )
+
+    with st.expander("Collection scope and latest pipeline run"):
+        st.write("Query: exciton OR excitonic, limited to the six configured arXiv physics and condensed-matter categories.")
+        st.write("The feed applies no material, method, classification, or date filter.")
+        st.write(f"Last scan: {last_scan or 'not yet recorded'}")
+        if scans:
+            st.json(scans[-1])
 
 st.caption("Metadata and author abstracts from the official arXiv API. Classification is descriptive and may require manual correction.")
