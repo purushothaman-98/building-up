@@ -18,6 +18,13 @@ def test_review_with_own_gw_bse_is_computational_not_combined():
     )
     assert result["study_type"]=="Computational"
 
+def test_instrument_acronyms_are_not_materials():
+    result=analyze(
+        "Exciton imaging",
+        "We use ARPES, AFM, MEMS and LiDAR to discuss an exciton.",
+    )
+    assert not {"ARPES","AFM","MEMS","LiDAR"}.intersection(result["materials"])
+
 def test_feed_and_version_merge(tmp_path: Path):
     xml=b'''<feed xmlns="http://www.w3.org/2005/Atom"><entry><id>http://arxiv.org/abs/2607.12345v2</id>
     <updated>2026-07-15T12:00:00Z</updated><published>2026-07-14T12:00:00Z</published>
