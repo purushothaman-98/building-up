@@ -24,7 +24,11 @@ st.set_page_config(page_title="Exciton Research Scanner", page_icon="◌", layou
 st.markdown("""
 <style>
 .stApp{background:#f5f3ed;color:#17221e}.block-container{max-width:1320px;padding-top:1.3rem}
-[data-testid="stSidebar"]{display:none}
+[data-testid="stSidebar"]{background:#112b24;border-right:1px solid #28463d}
+[data-testid="stSidebar"] *{color:#eef6f2}
+[data-testid="stSidebar"] [data-baseweb="select"]>div,[data-testid="stSidebar"] input{background:#0d1714!important;border-color:#35564b!important}
+[data-testid="stSidebar"] h2{color:#fff!important;margin-bottom:.15rem}
+[data-testid="stSidebar"] .stCaption{color:#b9cbc4!important}
 .hero{position:relative;overflow:hidden;background:#102f27;color:white;border-radius:26px;padding:42px 48px 38px;margin-bottom:20px}
 .hero:after{content:"";position:absolute;width:440px;height:440px;border-radius:50%;right:-90px;top:-260px;
 background:radial-gradient(circle,#e4b82f 0,#7f782c 36%,transparent 68%);opacity:.95}
@@ -124,28 +128,28 @@ metrics[1].metric("Latest arXiv day", latest_count)
 metrics[2].metric("Newest submission", latest_date or "—")
 metrics[3].metric("Pipeline scans", len(archive.get("scans", [])))
 
-st.markdown('<div class="filter-panel"><h2>Explore the archive</h2><p>Broad scientific categories preserve the specific terms detected in each abstract.</p></div>', unsafe_allow_html=True)
-search_text = st.text_input(
-    "Search",
-    placeholder="Title, abstract, author, arXiv ID, material or method…",
-)
-filter_row_1 = st.columns(3)
-study_types = filter_row_1[0].multiselect(
-    "Research type",
-    ["Experimental", "Computational", "Theory + Experiment", "Unclassified"],
-)
 paper_natures_available = sorted({p.get("paper_nature", "Unclassified nature") for p in raw_papers})
-paper_natures = filter_row_1[1].multiselect("Paper nature", paper_natures_available)
 family_options = sorted({x for p in raw_papers for x in p.get("material_families", [])})
 specific_options = sorted({x for p in raw_papers for x in p.get("materials", [])})
 material_options = [f"Family · {x}" for x in family_options] + [f"Material · {x}" for x in specific_options]
-selected_materials = filter_row_1[2].multiselect("Material", material_options)
-
-filter_row_2 = st.columns(2)
 method_options = sorted({x for p in raw_papers for x in p.get("methods", [])})
-selected_methods = filter_row_2[0].multiselect("Method", method_options)
 property_options = sorted({x for p in raw_papers for x in p.get("exciton_properties", [])})
-selected_properties = filter_row_2[1].multiselect("Exciton property", property_options)
+
+with st.sidebar:
+    st.header("Explore the archive")
+    st.caption("Filter the complete feed without removing papers from the database.")
+    search_text = st.text_input(
+        "Search",
+        placeholder="Title, abstract, author, arXiv ID…",
+    )
+    study_types = st.multiselect(
+        "Research type",
+        ["Experimental", "Computational", "Theory + Experiment", "Unclassified"],
+    )
+    paper_natures = st.multiselect("Paper nature", paper_natures_available)
+    selected_materials = st.multiselect("Material", material_options)
+    selected_methods = st.multiselect("Method", method_options)
+    selected_properties = st.multiselect("Exciton property", property_options)
 
 def searchable_text(paper: dict) -> str:
     values = [
@@ -202,66 +206,25 @@ def polished(chart: alt.Chart) -> alt.Chart:
 def select_week(label: str) -> None:
     st.session_state.week_picker = label
 
+def set_page(page: int) -> None:
+    st.session_state.paper_page = page
+
 
 if selected_view == "Daily paper feed":
-    st.caption("One week per page. Page 1 is always the latest available arXiv week; papers remain grouped by day.")
-    grouped_weeks = {}
-    for paper in papers:
-        submitted_date = datetime.strptime(paper["submitted"][:10], "%Y-%m-%d").date()
-        week_start = submitted_date - timedelta(days=submitted_date.weekday())
-        grouped_weeks.setdefault(week_start, []).append(paper)
-    week_starts = sorted(grouped_weeks, reverse=True)
-    week_labels = []
-    for week_start in week_starts:
-        week_end = week_start + timedelta(days=6)
-        week_labels.append(
-            f"{week_start:%d %b}–{week_end:%d %b %Y} · {len(grouped_weeks[week_start])} papers"
-        )
-
-    if week_labels:
-        st.session_state.setdefault("week_picker", week_labels[0])
-        if st.session_state.week_picker not in week_labels:
-            st.session_state.week_picker = week_labels[0]
-        selected_label = st.selectbox(
-            "Jump to a week",
-            week_labels,
-            key="week_picker",
-        )
-        page_index = week_labels.index(selected_label)
-        nav_left, nav_middle, nav_right = st.columns([1, 3, 1])
-        nav_left.button(
-            "← Newer week",
-            disabled=page_index == 0,
-            use_container_width=True,
-            on_click=select_week,
-            args=(week_labels[max(0, page_index - 1)],),
-        )
-        nav_middle.markdown(
-            f"<div style='text-align:center;padding:.55rem;color:#65736d'>"
-            f"Week {page_index + 1} of {len(week_labels)}</div>",
-            unsafe_allow_html=True,
-        )
-        nav_right.button(
-            "Older week →",
-            disabled=page_index == len(week_labels) - 1,
-            use_container_width=True,
-            on_click=select_week,
-            args=(week_labels[min(len(week_labels) - 1, page_index + 1)],),
-        )
-
-        selected_start = week_starts[page_index]
-        selected_end = selected_start + timedelta(days=6)
-        week_papers = grouped_weeks[selected_start]
-        st.markdown(
-            f'<div class="week-summary"><strong>{selected_start:%d %B}–{selected_end:%d %B %Y}</strong>'
-            f'<span>{len(week_papers)} papers · page {page_index + 1}</span></div>',
-            unsafe_allow_html=True,
-        )
-        grouped_dates = {}
-        for paper in week_papers:
-            grouped_dates.setdefault(paper["submitted"][:10], []).append(paper)
-    else:
-        grouped_dates = {}
+    page_size = 20
+    total_pages = max(1, (len(papers) + page_size - 1) // page_size)
+    filter_signature = (search_text, tuple(study_types), tuple(paper_natures), tuple(selected_materials), tuple(selected_methods), tuple(selected_properties))
+    if st.session_state.get("filter_signature") != filter_signature:
+        st.session_state.filter_signature = filter_signature
+        st.session_state.paper_page = 1
+    current_page = min(max(1, st.session_state.get("paper_page", 1)), total_pages)
+    st.session_state.paper_page = current_page
+    start = (current_page - 1) * page_size
+    page_papers = papers[start:start + page_size]
+    st.caption(f"Newest first · 20 papers per page · page {current_page} of {total_pages}")
+    grouped_dates = {}
+    for paper in page_papers:
+        grouped_dates.setdefault(paper["submitted"][:10], []).append(paper)
 
     for submission_date, day_papers in grouped_dates.items():
         display_date = datetime.strptime(submission_date, "%Y-%m-%d").strftime("%A, %d %B %Y")
@@ -271,6 +234,17 @@ if selected_view == "Daily paper feed":
         )
         for paper in day_papers:
             paper_card(paper)
+
+    if total_pages > 1:
+        window_start = max(1, min(current_page - 1, total_pages - 2))
+        page_window = list(range(window_start, min(total_pages, window_start + 2) + 1))
+        nav_left, nav_pages, nav_right = st.columns([1, 3, 1])
+        nav_left.button("← Previous", disabled=current_page == 1, use_container_width=True, on_click=set_page, args=(current_page - 1,), key="previous_page")
+        selected_page = nav_pages.radio("Page", page_window, index=page_window.index(current_page), horizontal=True, label_visibility="collapsed", key=f"page_choice_{window_start}")
+        if selected_page != current_page:
+            st.session_state.paper_page = selected_page
+            st.rerun()
+        nav_right.button("Next →", disabled=current_page == total_pages, use_container_width=True, on_click=set_page, args=(current_page + 1,), key="next_page")
 
 if selected_view == "Time series & analysis":
     st.markdown('<div class="section-head"><h2>Submission time series</h2><span>Daily and weekly activity</span></div>', unsafe_allow_html=True)
