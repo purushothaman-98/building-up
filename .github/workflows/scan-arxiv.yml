@@ -1,5 +1,10 @@
 name: Scan arXiv for exciton papers
 on:
+  push:
+    branches: [master]
+    paths:
+      - "arxiv_scanner.py"
+      - ".github/workflows/scan-arxiv.yml"
   schedule:
     - cron: "17 5,17 * * *"
   workflow_dispatch:
