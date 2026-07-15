@@ -29,7 +29,8 @@ COMPUTATIONAL = {
  "Quasiparticle / optical gaps":("quasiparticle gap","optical gap","quasiparticle band gap"),
  "Oscillator strength":("oscillator strength","transition dipole")}
 EXP_ACTIONS=("we measure","we measured","we observe","we observed","we use","we employ","we perform","we report","experimentally","experimental results","measurements reveal","spectroscopy reveals")
-COMP_ACTIONS=("we calculate","we calculated","we compute","we computed","we perform","we employ","we use","using","calculations show","simulations show","first-principles calculations","ab initio calculations","theoretical calculations")
+EXP_ACTIONS+=("we demonstrate experimentally","we fabricate and characterize","we fabricated","we characterize","we measured coherent","we acquire","we record")
+COMP_ACTIONS=("we calculate","we calculated","we compute","we computed","we perform","we employ","we use","using","calculations show","simulations show","first-principles calculations","ab initio calculations","theoretical calculations","numerically investigate","we simulate","we model","we develop a theoretical framework","we present a theoretical framework","first-principles approach","first principles approach","numerical simulations","theoretical model")
 MATERIALS={
  "MoS2":("mos2","molybdenum disulfide"),"WS2":("ws2","tungsten disulfide"),
  "MoSe2":("mose2","molybdenum diselenide"),"WSe2":("wse2","tungsten diselenide"),
@@ -92,6 +93,12 @@ def near_action(text, terms, actions, radius=180):
             if any(action in window for action in actions): return True
     return False
 
+def hit_terms(text, groups):
+    return {label:[term for term in terms if term in text] for label,terms in groups.items() if any(term in text for term in terms)}
+
+def action_hits(text, actions):
+    return [action for action in actions if action in text]
+
 def analyze(title, abstract):
     text=clean(f"{title}. {abstract}").lower()
     exp,exp_words=matches(text,EXPERIMENTAL); comp,comp_words=matches(text,COMPUTATIONAL)
@@ -109,6 +116,10 @@ def analyze(title, abstract):
         "our calculations","our theoretical","theoretical framework",
         "theoretical insights","many-body calculations","we predict",
     ))
+    # Explicit original-work language can classify theory even when the named
+    # technique is domain-specific and not yet in the controlled method list.
+    comp_ok |= any(x in text for x in ("numerically investigate","we simulate","we model","we develop a theoretical framework","we present a theoretical framework","first-principles approach","first principles approach"))
+    exp_ok |= any(x in text for x in ("we measured","we demonstrate experimentally","we fabricate and characterize","we fabricated and measured","we record the spectra"))
     # Experimental methods mentioned only as prior literature do not make a paper
     # combined. Original measurement language is still required for exp_ok.
     if not exp_ok and exp and not comp:
@@ -121,11 +132,23 @@ def analyze(title, abstract):
     material_families=[name for name,aliases in MATERIAL_FAMILIES.items() if any(x in f" {text} " for x in aliases)]
     properties=[name for name,aliases in EXCITON_PROPERTIES.items() if any(x in text for x in aliases)]
     applications=[name for name,aliases in APPLICATIONS.items() if any(x in text for x in aliases)]
-    review_signals=("review","perspective","critical assessment","comprehensive assessment","we survey","we review","landscape of","overview of","status and outlook")
+    review_signals=("review article","this review","we review","we survey","perspective article","critical assessment","comprehensive review","status and outlook")
     method_signals=("new method","novel method","we develop a method","software package","code implementation","computational framework","workflow")
     benchmark_signals=("benchmark","dataset","database","high-throughput screening","high throughput screening")
     paper_nature="Review / perspective" if any(x in text for x in review_signals) else "Methods / software" if any(x in text for x in method_signals) else "Dataset / benchmark" if any(x in text for x in benchmark_signals) else "Original research"
-    return {"study_type":kind,"paper_nature":paper_nature,"materials":list(dict.fromkeys(materials)),"material_families":material_families,"exciton_properties":properties,"applications":applications,"methods":list(dict.fromkeys(exp+comp)),"matched_keywords":sorted(set(exp_words+comp_words+[x for x in ("exciton","excitonic","polariton") if x in text])),"evidence":{"experimental":exp_ok,"computational":comp_ok}}
+    has_exciton=bool(re.search(r"\bexciton(?:s|ic|ically)?\b|exciton[-–]polariton",text))
+    has_generic_polariton="polariton" in text
+    relevance="Core exciton paper" if has_exciton else "Exciton-adjacent" if has_generic_polariton and any(x in text for x in ("light-matter","light–matter","semiconductor","optical","cavity")) else "Uncertain"
+    classification_evidence={
+      "experimental_actions":action_hits(text,EXP_ACTIONS),
+      "computational_actions":action_hits(text,COMP_ACTIONS),
+      "experimental_methods":hit_terms(text,EXPERIMENTAL),
+      "computational_methods":hit_terms(text,COMPUTATIONAL),
+      "materials":hit_terms(text,{**MATERIALS,**MATERIAL_FAMILIES}),
+      "properties":hit_terms(text,EXCITON_PROPERTIES),
+      "relevance":["exciton/excitonic stated in title or abstract"] if has_exciton else (["polariton context without an explicit exciton term"] if has_generic_polariton else []),
+    }
+    return {"study_type":kind,"relevance":relevance,"paper_nature":paper_nature,"materials":list(dict.fromkeys(materials)),"material_families":material_families,"exciton_properties":properties,"applications":applications,"methods":list(dict.fromkeys(exp+comp)),"matched_keywords":sorted(set(exp_words+comp_words+[x for x in ("exciton","excitonic","polariton") if x in text])),"classification_evidence":classification_evidence,"evidence":{"experimental":exp_ok,"computational":comp_ok}}
 
 def parse_feed(xml):
     papers=[]
@@ -147,7 +170,7 @@ def fetch_since(since="2026-01-01", max_results=2000, page_size=200):
     cats=" OR ".join(f"cat:{x}" for x in CATEGORIES)
     start_stamp=date.fromisoformat(since).strftime("%Y%m%d0000")
     end_stamp=datetime.now(timezone.utc).strftime("%Y%m%d%H%M")
-    concepts="ti:exciton OR abs:exciton OR ti:excitonic OR abs:excitonic OR ti:polariton OR abs:polariton"
+    concepts='ti:exciton OR abs:exciton OR ti:excitonic OR abs:excitonic OR ti:"exciton polariton" OR abs:"exciton polariton"'
     query=f"({cats}) AND ({concepts}) AND submittedDate:[{start_stamp} TO {end_stamp}]"
     papers=[]
     for start in range(0,max_results,page_size):
