@@ -8,21 +8,45 @@ API_URL = "https://export.arxiv.org/api/query"
 CATEGORIES = ("cond-mat.mtrl-sci","cond-mat.mes-hall","physics.optics","physics.comp-ph","physics.app-ph","physics.chem-ph")
 EXPERIMENTAL = {
  "Photoluminescence":("photoluminescence","pl spectra","pl spectrum"),
- "Absorption / reflectance":("absorption spectrum","absorption spectra","reflectance","reflectivity"),
+ "Absorption / reflectance":("absorption spectrum","absorption spectra","reflectance","reflectivity","reflectance contrast"),
  "Pump–probe spectroscopy":("pump-probe","pump–probe","transient absorption"),
  "Time-resolved spectroscopy":("time-resolved","time resolved","ultrafast spectroscopy"),
  "Magneto-optical measurements":("magneto-optical","magneto optical","magneto-photoluminescence"),
- "Exciton lifetime / dynamics":("exciton lifetime","exciton dynamics","carrier dynamics","decay time")}
+ "Raman spectroscopy":("raman spectroscopy","raman scattering"),
+ "Photoemission / photocurrent":("arpes","photoemission spectroscopy","photocurrent spectroscopy"),
+ "Coherent / THz spectroscopy":("two-dimensional coherent spectroscopy","2d coherent spectroscopy","terahertz spectroscopy","thz spectroscopy"),
+ "Exciton lifetime / dynamics":("exciton lifetime","exciton dynamics","carrier dynamics","decay time","exciton diffusion"),
+ "Linewidth / fine structure":("exciton linewidth","excitonic linewidth","linewidth","line width","fine-structure splitting","fine structure splitting"),
+ "Exciton g-factor":("exciton g-factor","exciton g factor","excitonic g-factor","g-factor","g factor")}
 COMPUTATIONAL = {
  "DFT":("density functional theory","first-principles","first principles","ab initio","dft"),
  "GW":("g0w0","gw calculation","gw calculations","gw approximation","gw-bse","gw+bse"),
  "Bethe–Salpeter equation":("bethe-salpeter","bethe–salpeter","bse calculation","bse calculations"),
  "TDDFT":("time-dependent density functional theory","time dependent density functional theory","tddft"),
+ "Model Hamiltonian":("tight-binding","tight binding","effective-mass model","effective mass model","model hamiltonian"),
+ "Quantum Monte Carlo":("quantum monte carlo","diffusion monte carlo"),
  "Exciton binding energy":("exciton binding energy","excitonic binding energy"),
- "Quasiparticle / optical gaps":("quasiparticle gap","optical gap","quasiparticle band gap")}
-EXP_ACTIONS=("we measure","we measured","we observe","we observed","experimentally","experimental results","measurements reveal","spectroscopy reveals")
+ "Quasiparticle / optical gaps":("quasiparticle gap","optical gap","quasiparticle band gap"),
+ "Oscillator strength":("oscillator strength","transition dipole")}
+EXP_ACTIONS=("we measure","we measured","we observe","we observed","we use","we employ","we perform","we report","experimentally","experimental results","measurements reveal","spectroscopy reveals")
 COMP_ACTIONS=("we calculate","we calculated","we compute","we computed","we perform","we employ","we use","using","calculations show","simulations show","first-principles calculations","ab initio calculations","theoretical calculations")
-MATERIALS={"MoS2":("mos2","molybdenum disulfide"),"WS2":("ws2","tungsten disulfide"),"MoSe2":("mose2","molybdenum diselenide"),"WSe2":("wse2","tungsten diselenide"),"hBN":("hbn","hexagonal boron nitride"),"perovskites":("perovskite",),"transition-metal dichalcogenides":("transition metal dichalcogenide","tmd monolayer"),"2D materials":("two-dimensional material","2d material","van der waals heterostructure"),"quantum dots":("quantum dot",)}
+MATERIALS={
+ "MoS2":("mos2","molybdenum disulfide"),"WS2":("ws2","tungsten disulfide"),
+ "MoSe2":("mose2","molybdenum diselenide"),"WSe2":("wse2","tungsten diselenide"),
+ "hBN":("hbn","hexagonal boron nitride"),"black phosphorus":("black phosphorus","phosphorene"),
+ "perovskites":("perovskite",),"transition-metal dichalcogenides":("transition metal dichalcogenide","transition-metal dichalcogenide","tmd monolayer","tmds"),
+ "2D materials":("two-dimensional material","two dimensional material","2d material","van der waals heterostructure"),
+ "quantum dots":("quantum dot",),"COFs":("covalent organic framework","covalent-organic framework","cof"),
+ "MOFs":("metal-organic framework","metal organic framework","mof"),
+ "organic semiconductors":("organic semiconductor","molecular crystal"),
+}
+APPLICATIONS={
+ "Exciton polaritons":("exciton-polariton","exciton polariton","excitonic polariton"),
+ "Light–matter coupling":("light-matter coupling","light–matter coupling","strong coupling","optical cavity","microcavity"),
+ "Photosynthesis":("photosynthesis","photosynthetic","light-harvesting complex"),
+ "Photovoltaics":("photovoltaic","solar cell","organic solar"),
+ "Photocatalysis":("photocatalysis","photocatalytic","photoelectrochemical"),
+}
 NS={"atom":"http://www.w3.org/2005/Atom"}
 ID_RE=re.compile(r"(?:abs/)?((?:[a-z-]+/)?\d{4}\.\d{4,5})(v\d+)?$",re.I)
 FORMULA_RE=re.compile(r"\b(?:[A-Z][a-z]?\d*){2,5}\b")
@@ -69,8 +93,8 @@ def analyze(title, abstract):
         ))
     kind="Theory + Experiment" if exp_ok and comp_ok else "Computational" if comp_ok else "Experimental" if exp_ok else "Unclassified"
     materials=[name for name,aliases in MATERIALS.items() if any(x in text for x in aliases)]
-    formulas=[x for x in FORMULA_RE.findall(f"{title} {abstract}") if x not in {"DFT","GW","BSE","TDDFT","PL"}]
-    return {"study_type":kind,"materials":list(dict.fromkeys(materials+formulas[:8])),"methods":list(dict.fromkeys(exp+comp)),"matched_keywords":sorted(set(exp_words+comp_words+[x for x in ("exciton","excitonic") if x in text])),"evidence":{"experimental":exp_ok,"computational":comp_ok}}
+    applications=[name for name,aliases in APPLICATIONS.items() if any(x in text for x in aliases)]
+    return {"study_type":kind,"materials":list(dict.fromkeys(materials)),"applications":applications,"methods":list(dict.fromkeys(exp+comp)),"matched_keywords":sorted(set(exp_words+comp_words+[x for x in ("exciton","excitonic","polariton") if x in text])),"evidence":{"experimental":exp_ok,"computational":comp_ok}}
 
 def parse_feed(xml):
     papers=[]
@@ -92,7 +116,8 @@ def fetch_since(since="2026-01-01", max_results=2000, page_size=200):
     cats=" OR ".join(f"cat:{x}" for x in CATEGORIES)
     start_stamp=date.fromisoformat(since).strftime("%Y%m%d0000")
     end_stamp=datetime.now(timezone.utc).strftime("%Y%m%d%H%M")
-    query=f"({cats}) AND (all:exciton OR all:excitonic) AND submittedDate:[{start_stamp} TO {end_stamp}]"
+    concepts="ti:exciton OR abs:exciton OR ti:excitonic OR abs:excitonic OR ti:polariton OR abs:polariton"
+    query=f"({cats}) AND ({concepts}) AND submittedDate:[{start_stamp} TO {end_stamp}]"
     papers=[]
     for start in range(0,max_results,page_size):
         params=urllib.parse.urlencode({"search_query":query,"start":start,"max_results":min(page_size,max_results-start),"sortBy":"submittedDate","sortOrder":"descending"})
