@@ -52,6 +52,21 @@ def analyze(title, abstract):
     comp_ok=bool(comp) and near_action(text,comp_terms,COMP_ACTIONS)
     exp_ok |= bool(exp) and any(x in text for x in ("measurements show","spectra show","measured at"))
     comp_ok |= bool(comp) and any(x in text for x in ("calculated band","computed exciton","predicted binding"))
+    # Strong theory signals are substantive even in review-style wording such as
+    # “we highlight our GW-BSE calculations”. A lone DFT mention remains insufficient.
+    strong_theory={"GW","Bethe–Salpeter equation","TDDFT"}
+    comp_ok |= bool(strong_theory.intersection(comp))
+    comp_ok |= bool(comp) and any(x in text for x in (
+        "our calculations","our theoretical","theoretical framework",
+        "theoretical insights","many-body calculations","we predict",
+    ))
+    # Experimental methods mentioned only as prior literature do not make a paper
+    # combined. Original measurement language is still required for exp_ok.
+    if not exp_ok and exp and not comp:
+        exp_ok=any(x in text for x in (
+            "we report","we demonstrate","we investigate experimentally",
+            "measured spectra","experimental study",
+        ))
     kind="Theory + Experiment" if exp_ok and comp_ok else "Computational" if comp_ok else "Experimental" if exp_ok else "Unclassified"
     materials=[name for name,aliases in MATERIALS.items() if any(x in text for x in aliases)]
     formulas=[x for x in FORMULA_RE.findall(f"{title} {abstract}") if x not in {"DFT","GW","BSE","TDDFT","PL"}]
@@ -98,8 +113,11 @@ def merge_archive(path,incoming,fetched_count=None,since=None):
         if old is None: paper["versions_seen"]=[paper["version"]]; existing[paper["arxiv_id"]]=paper; new+=1
         else:
             versions=list(dict.fromkeys(old.get("versions_seen",[old.get("version","v1")])+[paper["version"]]))
-            if paper["updated"]>old.get("updated",""): paper["versions_seen"]=versions; existing[paper["arxiv_id"]]=paper; updated+=1
-            else: old["versions_seen"]=versions
+            paper["versions_seen"]=versions
+            # Re-run and persist current classification rules on every scan, even
+            # when arXiv metadata itself has not changed.
+            if paper["updated"]>old.get("updated",""): updated+=1
+            existing[paper["arxiv_id"]]=paper
     scanned_at=datetime.now(timezone.utc).isoformat()
     scan={"scanned_at":scanned_at,"since":since,"fetched":fetched_count if fetched_count is not None else len(incoming),"classified":len(incoming),"new":new,"updated":updated,"total":len(existing)}
     scans=archive.get("scans",[])
