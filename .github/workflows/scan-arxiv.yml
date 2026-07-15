@@ -6,7 +6,7 @@ on:
       - "arxiv_scanner.py"
       - ".github/workflows/scan-arxiv.yml"
   schedule:
-    - cron: "17 1,9,17 * * *"
+    - cron: "17 5 * * *"
   workflow_dispatch:
 permissions:
   contents: write
@@ -25,7 +25,7 @@ jobs:
         shell: bash
         run: |
           if [ "${{ github.event_name }}" = "schedule" ]; then
-            SINCE="$(date -u -d '21 days ago' +%F)"
+            SINCE="$(date -u -d '14 days ago' +%F)"
           else
             SINCE="2026-01-01"
           fi
