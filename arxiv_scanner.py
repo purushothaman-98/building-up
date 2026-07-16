@@ -166,10 +166,10 @@ def parse_feed(xml):
           "pdf_url":links.get("application/pdf",f"https://arxiv.org/pdf/{base}"),"arxiv_url":f"https://arxiv.org/abs/{base}",**analyze(title,abstract)})
     return papers
 
-def fetch_since(since="2026-01-01", max_results=2000, page_size=200):
+def fetch_since(since="2026-01-01", max_results=2000, page_size=200, until=None):
     cats=" OR ".join(f"cat:{x}" for x in CATEGORIES)
     start_stamp=date.fromisoformat(since).strftime("%Y%m%d0000")
-    end_stamp=datetime.now(timezone.utc).strftime("%Y%m%d%H%M")
+    end_stamp=(date.fromisoformat(until).strftime("%Y%m%d2359") if until\n               else datetime.now(timezone.utc).strftime("%Y%m%d%H%M"))
     concepts='ti:exciton OR abs:exciton OR ti:excitonic OR abs:excitonic OR ti:"exciton polariton" OR abs:"exciton polariton"'
     query=f"({cats}) AND ({concepts}) AND submittedDate:[{start_stamp} TO {end_stamp}]"
     papers=[]
@@ -206,10 +206,10 @@ def merge_archive(path,incoming,fetched_count=None,since=None):
     return archive
 
 def main():
-    parser=argparse.ArgumentParser(); parser.add_argument("--output",type=Path,default=Path("data/papers.json")); parser.add_argument("--since",default="2026-01-01"); parser.add_argument("--max-results",type=int,default=2000); parser.add_argument("--page-size",type=int,default=200); args=parser.parse_args()
+    parser=argparse.ArgumentParser(); parser.add_argument("--output",type=Path,default=Path("data/papers.json")); parser.add_argument("--since",default="2026-01-01"); parser.add_argument("--until"); parser.add_argument("--max-results",type=int,default=2000); parser.add_argument("--page-size",type=int,default=200); args=parser.parse_args()
     for attempt in range(3):
         try:
-            fetched=fetch_since(args.since,args.max_results,args.page_size)
+            fetched=fetch_since(args.since,args.max_results,args.page_size,args.until)
             # Preserve every arXiv record returned by the scoped exciton query.
             # Classification is descriptive metadata, never an ingestion gate.
             papers=fetched
