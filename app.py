@@ -363,13 +363,12 @@ if selected_view == "Daily paper feed":
             paper_card(paper)
 
     if total_pages > 1:
-        pages = page_window(current_page, total_pages)
-        nav_left, nav_pages, nav_right = st.columns([1, 3, 1])
+        nav_left, nav_middle, nav_right = st.columns([1, 3, 1])
         nav_left.button("← Previous", disabled=current_page == 1, use_container_width=True, on_click=set_page, args=(current_page - 1,), key="previous_page")
-        selected_page = nav_pages.radio("Page", pages, index=pages.index(current_page), horizontal=True, label_visibility="collapsed", key=f"page_choice_{pages[0]}")
-        if selected_page != current_page:
-            st.session_state.paper_page = selected_page
-            st.rerun()
+        nav_middle.markdown(
+            f"<div style='text-align:center;padding:.45rem;color:#65736d'>Page {current_page} of {total_pages}</div>",
+            unsafe_allow_html=True,
+        )
         nav_right.button("Next →", disabled=current_page == total_pages, use_container_width=True, on_click=set_page, args=(current_page + 1,), key="next_page")
 
 if selected_view == "Time series & analysis":
