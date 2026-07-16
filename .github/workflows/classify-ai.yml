@@ -39,7 +39,8 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           AI_MODEL: openai/gpt-4o-mini
           INPUT_LIMIT: ${{ inputs.limit }}
-          INPUT_DAYS: ${{ inputs.days }}\n          TRIGGER_WORKFLOW: ${{ github.event.workflow_run.name }}
+          INPUT_DAYS: ${{ inputs.days }}
+          TRIGGER_WORKFLOW: ${{ github.event.workflow_run.name }}
         run: |
           if [ "$GITHUB_EVENT_NAME" = "push" ]; then
             # Workflow/code changes perform a complete recovery pass.
