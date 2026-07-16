@@ -13,6 +13,7 @@ from pathlib import Path
 
 API_URL = "https://models.github.ai/inference/chat/completions"
 PROMPT_VERSION = "4.0"
+# A prompt-version fingerprint ensures stale classifications are re-queued safely.
 DEFAULT_MODEL = "openai/gpt-4o-mini"
 RELEVANCE = {"Core exciton paper", "Exciton-adjacent", "Uncertain", "Not relevant"}
 RESEARCH_TYPES = {"Experimental", "Computational", "Theory + Experiment", "Unclassified"}
