@@ -44,8 +44,8 @@ jobs:
         run: |
           if [ "$GITHUB_EVENT_NAME" = "push" ]; then
             # Workflow/code changes perform a complete recovery pass.
-            LIMIT=50
-            DAYS=31
+            LIMIT=100
+            DAYS=60
           elif [ "$TRIGGER_WORKFLOW" = "Backfill June 2026 exciton papers" ]; then
             LIMIT=50
             DAYS=60
