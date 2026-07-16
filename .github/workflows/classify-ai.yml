@@ -45,6 +45,9 @@ jobs:
             # Workflow/code changes perform a complete recovery pass.
             LIMIT=50
             DAYS=31
+          elif [ "$TRIGGER_WORKFLOW" = "Backfill June 2026 exciton papers" ]; then
+            LIMIT=50
+            DAYS=60
           else
             LIMIT="${INPUT_LIMIT:-50}"
             DAYS="${INPUT_DAYS:-7}"
