@@ -11,7 +11,7 @@ import altair as alt
 import pandas as pd
 import streamlit as st
 
-from ai_classifier import EXPERIMENTAL_METHODS
+from ai_classifier import EXPERIMENTAL_METHODS, PROMPT_VERSION
 
 DATA = Path("data/papers.json")
 AI_DATA = Path("data/ai_classifications.json")
@@ -165,8 +165,15 @@ effective_decisions = {**ai_records, **ai_overrides}
 def apply_ai_decision(paper: dict) -> dict:
     merged = dict(paper)
     decision = effective_decisions.get(paper.get("arxiv_id"))
-    if not decision:
+    if not decision or decision.get("prompt_version") != PROMPT_VERSION:
         merged["ai_decision"] = None
+        merged["relevance"] = "Pending AI review"
+        merged["study_type"] = "Unclassified"
+        merged["paper_nature"] = "Uncertain"
+        merged["materials"] = []
+        merged["material_families"] = []
+        merged["methods"] = []
+        merged["exciton_properties"] = []
         return merged
     merged["ai_decision"] = decision
     merged["relevance"] = decision.get("relevance", merged.get("relevance"))
