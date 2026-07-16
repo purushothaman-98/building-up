@@ -2,7 +2,11 @@ import json
 
 import pytest
 
-from ai_classifier import SYSTEM_PROMPT, fingerprint, latest_window, parse_json_response, pending_papers, user_prompt, validate
+from ai_classifier import (
+    COMPUTATIONAL_METHODS, EXCITON_OBSERVABLES, EXPERIMENTAL_METHODS, MATERIAL_FAMILIES,
+    OUTPUT_SCHEMA, SYSTEM_PROMPT, fingerprint, latest_window, parse_json_response,
+    pending_papers, user_prompt, validate,
+)
 
 
 def paper(version="v1", abstract="We calculate excitons with GW-BSE."):
@@ -17,9 +21,9 @@ def valid_decision():
     return {
         "include_in_feed": True, "relevance": "Core exciton paper",
         "research_type": "Computational", "paper_nature": "Original research",
-        "materials": ["monolayer"], "material_families": ["2D materials"],
-        "experimental_methods": [], "computational_methods": ["GW", "BSE"],
-        "exciton_properties": ["binding energy"], "confidence": 0.93,
+        "materials": ["MoS₂ monolayer"], "material_families": ["TMDs / 2D chalcogenides"],
+        "experimental_methods": [], "computational_methods": ["GW quasiparticle calculations", "Bethe–Salpeter equation"],
+        "exciton_properties": ["Binding energy / Rydberg series"], "confidence": 0.93,
         "reason": "Original GW-BSE exciton calculations are reported.",
         "evidence": ["calculate excitons with GW-BSE"],
     }
@@ -83,6 +87,8 @@ def test_prompt_encodes_scientific_scope_and_conservative_screening():
         "At title/abstract screening, preserve uncertain records",
         "COFs",
         "g-factors",
+        "PL or absorption peak position",
+        "multi-label and hierarchical",
     ]
     assert all(phrase in SYSTEM_PROMPT for phrase in required_guidance)
 
@@ -97,4 +103,19 @@ def test_feed_decision_must_agree_with_relevance():
     decision = valid_decision()
     decision.update({"include_in_feed": False, "relevance": "Core exciton paper"})
     with pytest.raises(ValueError, match="contradicts"):
+        validate(decision)
+
+
+def test_grouped_fields_are_constrained_to_canonical_vocabularies():
+    properties = OUTPUT_SCHEMA["schema"]["properties"]
+    assert set(properties["material_families"]["items"]["enum"]) == MATERIAL_FAMILIES
+    assert set(properties["experimental_methods"]["items"]["enum"]) == EXPERIMENTAL_METHODS
+    assert set(properties["computational_methods"]["items"]["enum"]) == COMPUTATIONAL_METHODS
+    assert set(properties["exciton_properties"]["items"]["enum"]) == EXCITON_OBSERVABLES
+
+
+def test_free_form_keyword_fragments_are_rejected_from_grouped_fields():
+    decision = valid_decision()
+    decision["experimental_methods"] = ["we measured a beautiful spectrum"]
+    with pytest.raises(ValueError, match="Non-canonical experimental_methods"):
         validate(decision)
