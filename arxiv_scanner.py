@@ -207,6 +207,8 @@ def merge_archive(path,incoming,fetched_count=None,since=None):
 
 def main():
     parser=argparse.ArgumentParser(); parser.add_argument("--output",type=Path,default=Path("data/papers.json")); parser.add_argument("--since",default="2026-01-01"); parser.add_argument("--until"); parser.add_argument("--max-results",type=int,default=2000); parser.add_argument("--page-size",type=int,default=200); args=parser.parse_args()
+    if args.until and date.fromisoformat(args.until) < date.fromisoformat(args.since):
+        parser.error("--until must be on or after --since")
     for attempt in range(3):
         try:
             fetched=fetch_since(args.since,args.max_results,args.page_size,args.until)
