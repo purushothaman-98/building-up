@@ -231,7 +231,7 @@ def clear_filters() -> None:
 with st.sidebar:
     st.header("Explore the archive")
     st.caption("Filter the latest available arXiv week. Historical records remain stored for deduplication.")
-    feed_mode = st.radio("Feed", ["AI-approved final feed", "Pending AI review", "All papers this week"], key="feed_mode")
+    feed_mode = st.radio("Feed", ["All papers this week", "AI-approved final feed", "Pending AI review"], key="feed_mode")
     search_text = st.text_input(
         "Search",
         placeholder="Title, abstract, author, arXiv ID…",
