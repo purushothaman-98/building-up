@@ -5,8 +5,6 @@ on:
     paths:
       - ".github/workflows/backfill-june.yml"
       - "scripts/run_backfill.py"
-  schedule:
-    - cron: "17 7 * * *"
   workflow_dispatch:
 permissions:
   contents: write
