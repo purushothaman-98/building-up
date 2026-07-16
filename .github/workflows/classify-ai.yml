@@ -4,6 +4,7 @@ on:
     branches: [master]
     paths:
       - "ai_classifier.py"
+      - ".github/workflows/classify-ai.yml"
   schedule:
     # Once daily, after the 05:17 UTC arXiv metadata scan has completed.
     - cron: "17 6 * * *"
@@ -35,7 +36,8 @@ jobs:
           INPUT_LIMIT: ${{ inputs.limit }}
         run: |
           if [ "$GITHUB_EVENT_NAME" = "push" ]; then
-            LIMIT=3
+            # One-time recovery: finish reclassifying the current prompt-version window.
+            LIMIT=20
           else
             LIMIT="${INPUT_LIMIT:-20}"
           fi
