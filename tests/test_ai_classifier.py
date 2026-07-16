@@ -21,9 +21,9 @@ def valid_decision():
     return {
         "include_in_feed": True, "relevance": "Core exciton paper",
         "research_type": "Computational", "paper_nature": "Original research",
-        "materials": ["MoS₂ monolayer"], "material_families": ["TMDs / 2D chalcogenides"],
-        "experimental_methods": [], "computational_methods": ["GW quasiparticle calculations", "Bethe–Salpeter equation"],
-        "exciton_properties": ["Binding energy / Rydberg series"], "confidence": 0.93,
+        "materials": ["MoS₂ monolayer"], "material_families": ["TMDs"],
+        "experimental_methods": [], "computational_methods": ["DFT + GW/BSE"],
+        "exciton_properties": ["Binding energy"], "confidence": 0.93,
         "reason": "Original GW-BSE exciton calculations are reported.",
         "evidence": ["calculate excitons with GW-BSE"],
     }
@@ -88,7 +88,7 @@ def test_prompt_encodes_scientific_scope_and_conservative_screening():
         "COFs",
         "g-factors",
         "PL or absorption peak position",
-        "multi-label and hierarchical",
+        "exactly one broad class",
     ]
     assert all(phrase in SYSTEM_PROMPT for phrase in required_guidance)
 
@@ -118,4 +118,11 @@ def test_free_form_keyword_fragments_are_rejected_from_grouped_fields():
     decision = valid_decision()
     decision["experimental_methods"] = ["we measured a beautiful spectrum"]
     with pytest.raises(ValueError, match="Non-canonical experimental_methods"):
+        validate(decision)
+
+
+def test_exactly_one_primary_material_class_is_required():
+    decision = valid_decision()
+    decision["material_families"] = ["TMDs", "Other 2D materials"]
+    with pytest.raises(ValueError, match="exactly one"):
         validate(decision)
