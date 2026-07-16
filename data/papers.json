@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_scan": "2026-07-16T08:09:28.293120+00:00",
+  "last_scan": "2026-07-16T08:22:44.973803+00:00",
   "papers": [
     {
       "arxiv_id": "2607.14025",
@@ -1451,6 +1451,82 @@
       ]
     },
     {
+      "arxiv_id": "2606.22014",
+      "version": "v2",
+      "versioned_id": "2606.22014v2",
+      "title": "Stacking-Directed Polarization and Excitonic Engineering in MoS$_2$/MoSe$_2$ van der Waals Heterostructures",
+      "authors": [
+        "Mohammed El Amine Miloudi",
+        "Oliver Kühn"
+      ],
+      "abstract": "The stacking-dependent polarization and excitonic response of MoS$_2$/MoSe$_2$ heterostructures were investigated using GW+BSE many-body perturbation theory. While homobilayer MoS$_2$ exhibited a switchable interlayer dipole driven by registry-induced symmetry breaking, the MoS$_2$/MoSe$_2$ hetero-interface remained pinned by the intrinsic chemical potential mismatch between sulfur and selenium. In 2L-MoS$_2$/MoSe$_2$ trilayers, the stacking sequence enabled a deterministic control of photogenerated electrons between the central and bottom MoS$_2$ layers, governed by internal electric fields and quasiparticle band-edge shifts of 60--70~meV. Our calculations predicted a 36~meV interlayer excitonic shift, in remarkable agreement with recent experiments. These results elucidate the microscopic link between atomic registry and many-body interactions, establishing transition metal dichalcogenide trilayers as a potential platform for sliding ferroelectricity and programmable optoelectronic functionalities.",
+      "submitted": "2026-06-20T12:38:23Z",
+      "updated": "2026-07-07T10:00:52Z",
+      "categories": [
+        "cond-mat.mtrl-sci"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2606.22014v2",
+      "arxiv_url": "https://arxiv.org/abs/2606.22014",
+      "study_type": "Computational",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [
+        "transition-metal dichalcogenides",
+        "2D materials"
+      ],
+      "material_families": [
+        "TMDs / 2D chalcogenides",
+        "Other 2D / van der Waals materials"
+      ],
+      "exciton_properties": [],
+      "applications": [],
+      "methods": [
+        "GW"
+      ],
+      "matched_keywords": [
+        "exciton",
+        "excitonic",
+        "gw+bse"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [
+          "using"
+        ],
+        "experimental_methods": {},
+        "computational_methods": {
+          "GW": [
+            "gw+bse"
+          ]
+        },
+        "materials": {
+          "transition-metal dichalcogenides": [
+            "transition metal dichalcogenide"
+          ],
+          "2D materials": [
+            "van der waals heterostructure"
+          ],
+          "TMDs / 2D chalcogenides": [
+            "transition metal dichalcogenide"
+          ],
+          "Other 2D / van der Waals materials": [
+            "van der waals"
+          ]
+        },
+        "properties": {},
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": true
+      },
+      "versions_seen": [
+        "v2"
+      ]
+    },
+    {
       "arxiv_id": "2607.05564",
       "version": "v1",
       "versioned_id": "2607.05564v1",
@@ -2405,6 +2481,3716 @@
             "exciton-polariton"
           ]
         },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2606.31775",
+      "version": "v1",
+      "versioned_id": "2606.31775v1",
+      "title": "Energy-time entanglement from a monolithically integrated quantum dot on silicon",
+      "authors": [
+        "Marcel Hohn",
+        "Imad Limame",
+        "Peter Ludewig",
+        "Chirag C. Palekar",
+        "Aris Koulas-Simos",
+        "Kerstin Volz",
+        "Stephan Reitzenstein"
+      ],
+      "abstract": "Scalable quantum photonic technologies require deterministic sources of entangled photons that are compatible with established semiconductor manufacturing platforms. While self-assembled III--V semiconductor quantum dots are among the most promising sources of on-demand entanglement generation, their integration with silicon-based architectures remains a central challenge. Here, we demonstrate energy--time entanglement from a single InGaAs/GaAs quantum dot monolithically grown on a silicon substrate. Under coherent two-photon excitation, we achieve coherent control of the biexciton--exciton cascade, evidenced by Rabi oscillations and dressed-state formation. Using a four-channel Franson interferometer, we observe phase-dependent two-photon interference with visibilities up to $(64.0 \\pm 7.0)\\%$ for an 80 ps integration window (and $(49.4 \\pm 1.9)\\%$ for a 1600 ps window), approaching the threshold for Bell inequality violation at short time scales. These results establish monolithically integrated III--V-on-silicon quantum dots as promising sources of energy--time entangled photons for scalable quantum photonic technologies.",
+      "submitted": "2026-06-30T14:58:06Z",
+      "updated": "2026-06-30T14:58:06Z",
+      "categories": [
+        "cond-mat.mes-hall"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2606.31775v1",
+      "arxiv_url": "https://arxiv.org/abs/2606.31775",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [
+        "quantum dots"
+      ],
+      "material_families": [
+        "Quantum-confined structures"
+      ],
+      "exciton_properties": [
+        "Many-exciton interactions"
+      ],
+      "applications": [],
+      "methods": [],
+      "matched_keywords": [
+        "exciton"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [
+          "we observe"
+        ],
+        "computational_actions": [
+          "using"
+        ],
+        "experimental_methods": {},
+        "computational_methods": {},
+        "materials": {
+          "quantum dots": [
+            "quantum dot"
+          ],
+          "Quantum-confined structures": [
+            "quantum dot"
+          ]
+        },
+        "properties": {
+          "Many-exciton interactions": [
+            "biexciton"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2606.30585",
+      "version": "v1",
+      "versioned_id": "2606.30585v1",
+      "title": "Excitons in Large Disordered Boron-Nitride Layer using Linear-Scaling Bethe-Salpeter Simulations",
+      "authors": [
+        "Thomas Galvani",
+        "Lorenzo Sponza",
+        "Hakim Amara",
+        "Sylvain Latil",
+        "Stephan Roche"
+      ],
+      "abstract": "We introduce a real-space, linear-scaling Bethe-Salpeter framework that enables excitonic spectroscopy in large and possibly disordered boron-nitride-derived systems. Thanks to the use of a sublattice-resolved perturbative decoupling that maps localized electron-hole pairs onto a sparse tight-binding model, we implement the Kernel Polynomial Method to compute absorption spectra with O(N) cost. To illustrate the capabilities of our method, we apply it to Anderson-disordered monolayer hexagonal boron nitride with up to $10^{5}$ orbitals. The method reveals a disorder-induced asymmetric broadening of bright excitons, a crossover from quadratic to linear redshift of the main absorption peak, and Anderson localization of the exciton center of mass. This approach extends excitonic calculations beyond the reach of conventional ab initio Green's function methods (GW approximation and Bethe-Salpeter equation), opening optical spectroscopy to large-scale, disordered, moiré, quasicrystalline, and structurally complex quantum materials.",
+      "submitted": "2026-06-29T17:30:02Z",
+      "updated": "2026-06-29T17:30:02Z",
+      "categories": [
+        "cond-mat.mtrl-sci"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2606.30585v1",
+      "arxiv_url": "https://arxiv.org/abs/2606.30585",
+      "study_type": "Computational",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [
+        "hBN"
+      ],
+      "material_families": [
+        "Other 2D / van der Waals materials"
+      ],
+      "exciton_properties": [
+        "Fine structure / bright-dark splitting"
+      ],
+      "applications": [],
+      "methods": [
+        "Absorption / reflectance",
+        "DFT",
+        "GW",
+        "Bethe–Salpeter equation",
+        "Model Hamiltonian"
+      ],
+      "matched_keywords": [
+        "ab initio",
+        "absorption spectra",
+        "bethe-salpeter",
+        "exciton",
+        "excitonic",
+        "gw approximation",
+        "tight-binding"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [
+          "using"
+        ],
+        "experimental_methods": {
+          "Absorption / reflectance": [
+            "absorption spectra"
+          ]
+        },
+        "computational_methods": {
+          "DFT": [
+            "ab initio"
+          ],
+          "GW": [
+            "gw approximation"
+          ],
+          "Bethe–Salpeter equation": [
+            "bethe-salpeter"
+          ],
+          "Model Hamiltonian": [
+            "tight-binding"
+          ]
+        },
+        "materials": {
+          "hBN": [
+            "hexagonal boron nitride"
+          ],
+          "Other 2D / van der Waals materials": [
+            "monolayer",
+            "hexagonal boron nitride"
+          ]
+        },
+        "properties": {
+          "Fine structure / bright-dark splitting": [
+            "bright exciton"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": true
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2606.30424",
+      "version": "v1",
+      "versioned_id": "2606.30424v1",
+      "title": "Connecting Density Matrix Spectroscopy to Biexciton Entanglement Dynamics",
+      "authors": [
+        "Yusuke Masaki",
+        "Takashi Otaki",
+        "Hiroaki Matsueda"
+      ],
+      "abstract": "Quantum entanglement is one of the most intriguing features of quantum mechanics. To investigate the entanglement between two excitons in a biexciton, an experimental technique called density matrix spectroscopy (DMS) has recently been developed. DMS combines stimulated emission tomography and pump-probe techniques to obtain a time-resolved density matrix of the polarization state of a photon pair emitted from the biexciton. The reconstructed density matrix is expected to encode information about the biexciton state and its entanglement dynamics, but the precise nature of this connection has remained unclear. In this paper, we derive an analytical relationship between the density matrix obtained by DMS and the biexciton state. In addition, we perform numerical simulations to compare the entanglement dynamics obtained by DMS with the biexciton's entanglement dynamics in a two-dimensional electron-hole system using an extended ionic Hubbard model. We find that DMS can partially capture the entanglement in the biexciton, in particular, the dynamics of the difference $S_{\\mathrm{bi}} - S_k$, where $S_{\\mathrm{bi}}$ is the entanglement entropy of the biexciton and $S_k$ is the entanglement in terms of the wavevectors of the excitons that constitute the biexciton. These results demonstrate the validity of DMS for obtaining information about the entanglement dynamics of the biexciton.",
+      "submitted": "2026-06-29T15:07:49Z",
+      "updated": "2026-06-29T15:07:49Z",
+      "categories": [
+        "quant-ph",
+        "cond-mat.mes-hall",
+        "cond-mat.str-el",
+        "physics.optics"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2606.30424v1",
+      "arxiv_url": "https://arxiv.org/abs/2606.30424",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [],
+      "material_families": [],
+      "exciton_properties": [
+        "Many-exciton interactions"
+      ],
+      "applications": [],
+      "methods": [
+        "Pump–probe spectroscopy",
+        "Time-resolved spectroscopy"
+      ],
+      "matched_keywords": [
+        "exciton",
+        "pump-probe",
+        "time-resolved"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [
+          "we perform"
+        ],
+        "computational_actions": [
+          "we perform",
+          "using",
+          "numerical simulations"
+        ],
+        "experimental_methods": {
+          "Pump–probe spectroscopy": [
+            "pump-probe"
+          ],
+          "Time-resolved spectroscopy": [
+            "time-resolved"
+          ]
+        },
+        "computational_methods": {},
+        "materials": {},
+        "properties": {
+          "Many-exciton interactions": [
+            "biexciton"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2606.29262",
+      "version": "v1",
+      "versioned_id": "2606.29262v1",
+      "title": "Electron Delocalization versus Emission Coherence of Quantum Dot Superlattices",
+      "authors": [
+        "Lanfang Hou",
+        "Zijian He",
+        "Kexin Wang",
+        "Kai Wang",
+        "Shun Wang",
+        "Butian Zhang"
+      ],
+      "abstract": "Cooperative emission is a collective quantum optical process that requires macroscopic phase coherence among coupled emitters. Recent observations of cooperative emission in QD superlattices have renewed interest in how such coherence emerges in nanostructured solids. Meanwhile, theoretical studies have long discussed the relationship between electronic delocalization and coherence, particularly whether delocalized states necessarily give rise to cooperative emission. This study addresses this question through power-dependent steady-state PL and time-resolved PL decay measurements. The findings indicate that, although the quantum resonance peak exhibits delocalized excitonic characteristics, it shows no signatures of cooperative radiation. In particular, neither superlinear intensity scaling nor power-dependent emission delay was observed, indicating the absence of cooperative-radiation signatures. This can be understood from two disorder-related aspects. Temperature-dependent spectroscopy reveals pronounced inhomogeneous broadening and low-temperature dark-exciton participation, pointing to intra-domain static disorder and exciton-state mixing. These effects collectively hinder the establishment of macroscopic coherence. The temperature dependence of the quantum resonance peak decay lifetime is consistent with two-dimensional exciton dynamics. This work provides direct experimental evidence that electronic delocalization can be decoupled from cooperative coherence in CdSe quantum dot superlattices.",
+      "submitted": "2026-06-28T08:17:02Z",
+      "updated": "2026-06-28T08:17:02Z",
+      "categories": [
+        "cond-mat.mes-hall",
+        "cond-mat.mtrl-sci"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2606.29262v1",
+      "arxiv_url": "https://arxiv.org/abs/2606.29262",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [
+        "quantum dots"
+      ],
+      "material_families": [
+        "Quantum-confined structures"
+      ],
+      "exciton_properties": [
+        "Linewidth / dephasing"
+      ],
+      "applications": [],
+      "methods": [
+        "Time-resolved spectroscopy",
+        "Exciton lifetime / dynamics"
+      ],
+      "matched_keywords": [
+        "exciton",
+        "exciton dynamics",
+        "excitonic",
+        "time-resolved"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [
+          "spectroscopy reveals"
+        ],
+        "computational_actions": [],
+        "experimental_methods": {
+          "Time-resolved spectroscopy": [
+            "time-resolved"
+          ],
+          "Exciton lifetime / dynamics": [
+            "exciton dynamics"
+          ]
+        },
+        "computational_methods": {},
+        "materials": {
+          "quantum dots": [
+            "quantum dot"
+          ],
+          "Quantum-confined structures": [
+            "quantum dot"
+          ]
+        },
+        "properties": {
+          "Linewidth / dephasing": [
+            "homogeneous broadening"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2606.28591",
+      "version": "v1",
+      "versioned_id": "2606.28591v1",
+      "title": "Graphene as a Tunable Nonradiative Bath for Moiré Excitons",
+      "authors": [
+        "Katsunori Wakabayashi"
+      ],
+      "abstract": "A minimal theory for the nonradiative transfer of energy from a two-dimensional (2D) exciton -- especially a moiré-localized exciton -- to a nearby graphene layer is presented. Starting from Fermi's golden rule, the transfer rate is written as the overlap between the exciton near-field spectrum and the long-wavelength electronic loss function of graphene, weighted by an exciton form factor. In the point-dipole limit the framework reproduces the established $\\GET\\propto z^{-4}$ law for energy transfer to graphene. Including the finite spatial extent of a moiré exciton through a Gaussian form factor with localization length $\\lX$, we show that high-momentum components of the near field are filtered out for $z\\lesssim\\lX$, so that the transfer rate -- and hence the photoluminescence (PL) quenching -- can serve as a probe of exciton localization. Treating graphene as a gate-tunable bath, a Pauli-blocking model predicts that interband electron-hole excitations are strongly suppressed once $2|\\muF|$ approaches $\\hbarω$, partially restoring PL intensity and lifetime. Benchmarking against the full random-phase-approximation loss function of doped graphene confirms the minimal model to within a few percent over the relevant distance range for representative near-infrared exciton parameters. We map the resulting PL observables over experimentally relevant ranges of spacer thickness, localization length, emission energy, and Fermi level, and identify when graphene-induced quenching dominates the optical response of transition-metal dichalcogenide/hexagonal boron nitride/graphene heterostructures. A graphene gate thus acts not as a passive electrostatic element but as a tunable 2D electronic reservoir whose long-wavelength response can be probed through exciton PL quenching.",
+      "submitted": "2026-06-26T20:36:14Z",
+      "updated": "2026-06-26T20:36:14Z",
+      "categories": [
+        "cond-mat.mes-hall"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2606.28591v1",
+      "arxiv_url": "https://arxiv.org/abs/2606.28591",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Dataset / benchmark",
+      "materials": [
+        "hBN",
+        "transition-metal dichalcogenides"
+      ],
+      "material_families": [
+        "TMDs / 2D chalcogenides",
+        "Other 2D / van der Waals materials"
+      ],
+      "exciton_properties": [
+        "Transport / diffusion"
+      ],
+      "applications": [],
+      "methods": [
+        "Photoluminescence"
+      ],
+      "matched_keywords": [
+        "exciton",
+        "photoluminescence"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [
+          "experimentally"
+        ],
+        "computational_actions": [],
+        "experimental_methods": {
+          "Photoluminescence": [
+            "photoluminescence"
+          ]
+        },
+        "computational_methods": {},
+        "materials": {
+          "hBN": [
+            "hexagonal boron nitride"
+          ],
+          "transition-metal dichalcogenides": [
+            "transition-metal dichalcogenide"
+          ],
+          "TMDs / 2D chalcogenides": [
+            "transition-metal dichalcogenide"
+          ],
+          "Other 2D / van der Waals materials": [
+            "hexagonal boron nitride"
+          ]
+        },
+        "properties": {
+          "Transport / diffusion": [
+            "energy transfer"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2606.28185",
+      "version": "v1",
+      "versioned_id": "2606.28185v1",
+      "title": "Moiré Phonons and Emergent Exciton-Phonon Coupling in a Moiré Heterobilayer",
+      "authors": [
+        "Can B. Uzundal",
+        "Woochang Kim",
+        "Zhiyuan Cui",
+        "Yuxuan Wei",
+        "Zheyu Lu",
+        "Qixin Feng",
+        "Francis L. Hong",
+        "Indrajit Maity",
+        "Takashi Taniguchi",
+        "Kenji Watanabe",
+        "Manish Jain",
+        "Mit H. Naik",
+        "Yoseob Yoon",
+        "Michael F. Crommie",
+        "Steven G. Louie",
+        "Feng Wang"
+      ],
+      "abstract": "Moiré superlattices have emerged as a new platform for engineering electronic and optical properties in van der Waals heterostructures, enabling control over correlated and excitonic phenomena. Yet the impact of moiré superlattices on exciton-phonon coupling remains largely unexplored. Here we demonstrate emergent, layer-selective coupling between moiré phonons and moiré excitons in angle-aligned WS2/WSe2 heterobilayers. Using a broadband terahertz phonon transducer, we coherently launch moiré phonons that resonantly perturb the excitonic states. We show that the exciton-phonon coupling is intrinsically modified by the moiré superlattice in a layer-selective manner. A driven oscillator model captures the dynamics, revealing three moiré phonon resonances with distinct coupling to the moiré excitons. First principles calculations show that many moiré phonon modes can arise with distinct strongly hybridized in-plane and out-of-plane vibrations in the moiré unit cells. The calculations further identify the three experimentally observed moiré phonons and their emergent characteristic coupling to the moiré excitons.",
+      "submitted": "2026-06-26T15:30:22Z",
+      "updated": "2026-06-26T15:30:22Z",
+      "categories": [
+        "cond-mat.mtrl-sci",
+        "cond-mat.mes-hall"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2606.28185v1",
+      "arxiv_url": "https://arxiv.org/abs/2606.28185",
+      "study_type": "Computational",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [
+        "WS2",
+        "WSe2",
+        "2D materials"
+      ],
+      "material_families": [
+        "TMDs / 2D chalcogenides",
+        "Other 2D / van der Waals materials"
+      ],
+      "exciton_properties": [
+        "Exciton-phonon coupling"
+      ],
+      "applications": [],
+      "methods": [
+        "DFT"
+      ],
+      "matched_keywords": [
+        "exciton",
+        "excitonic",
+        "first principles"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [
+          "experimentally"
+        ],
+        "computational_actions": [
+          "using",
+          "calculations show"
+        ],
+        "experimental_methods": {},
+        "computational_methods": {
+          "DFT": [
+            "first principles"
+          ]
+        },
+        "materials": {
+          "WS2": [
+            "ws2"
+          ],
+          "WSe2": [
+            "wse2"
+          ],
+          "2D materials": [
+            "van der waals heterostructure"
+          ],
+          "TMDs / 2D chalcogenides": [
+            "ws2",
+            "wse2"
+          ],
+          "Other 2D / van der Waals materials": [
+            "van der waals",
+            "heterobilayer"
+          ]
+        },
+        "properties": {
+          "Exciton-phonon coupling": [
+            "exciton-phonon"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": true
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2606.27963",
+      "version": "v1",
+      "versioned_id": "2606.27963v1",
+      "title": "Hidden valley dynamics behind vanishing circular polarization in moiré excitons",
+      "authors": [
+        "Yuto Urano",
+        "Lata Chouhan",
+        "Nurul Fariha Ahmad",
+        "Kenji Watanabe",
+        "Takashi Taniguchi",
+        "Daichi Kozawa",
+        "Ryo Kitaura"
+      ],
+      "abstract": "Optically addressable valley degrees of freedom in transition-metal dichalcogenide heterostructures provide a powerful platform for valleytronic and quantum-optical functionalities. In moiré superlattices, interlayer excitons inherit valley-contrasting optical selection rules while acquiring long lifetimes, electric dipoles, and site-dependent optical responses. However, because conventional measurements typically probe time-integrated valley polarization, the dynamical origin of vanishing polarization has remained elusive. Here, we show that a nearly zero steady-state valley polarization in electrically tunable moiré excitons does not necessarily indicate fast valley relaxation. Helicity-resolved time-resolved photoluminescence reveals a temporal crossing between co- and cross-circularly polarized emission, indicating that helicity-opposite dynamical components coexist and compensate after time integration. A minimal two-channel model, representing A-like and B-like moiré emission channels with opposite optical selection rules and distinct effective decay/depolarization rates, reproduces the observed helicity crossing without invoking a single rapid valley relaxation process. Furthermore, two-dimensional gate-field maps show that the crossing time evolves systematically with electrostatic tuning, demonstrating that the hidden valley dynamics are electrically controllable. These results show that time-integrated circular polarization can give a false-negative indication of valley polarization in multichannel valley emitters.",
+      "submitted": "2026-06-26T11:05:58Z",
+      "updated": "2026-06-26T11:05:58Z",
+      "categories": [
+        "cond-mat.mes-hall",
+        "cond-mat.mtrl-sci"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2606.27963v1",
+      "arxiv_url": "https://arxiv.org/abs/2606.27963",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [
+        "transition-metal dichalcogenides"
+      ],
+      "material_families": [
+        "TMDs / 2D chalcogenides"
+      ],
+      "exciton_properties": [
+        "Valley / spin physics"
+      ],
+      "applications": [],
+      "methods": [
+        "Photoluminescence",
+        "Time-resolved spectroscopy"
+      ],
+      "matched_keywords": [
+        "exciton",
+        "photoluminescence",
+        "time-resolved"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [],
+        "experimental_methods": {
+          "Photoluminescence": [
+            "photoluminescence"
+          ],
+          "Time-resolved spectroscopy": [
+            "time-resolved"
+          ]
+        },
+        "computational_methods": {},
+        "materials": {
+          "transition-metal dichalcogenides": [
+            "transition-metal dichalcogenide"
+          ],
+          "TMDs / 2D chalcogenides": [
+            "transition-metal dichalcogenide"
+          ]
+        },
+        "properties": {
+          "Valley / spin physics": [
+            "valley polarization"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2606.27770",
+      "version": "v1",
+      "versioned_id": "2606.27770v1",
+      "title": "Confined exciton polaron in MoS$_2$ on twisted-hBN",
+      "authors": [
+        "Garima Gupta",
+        "Mayank Chhaperwal",
+        "Pankaj Kumar",
+        "Pushkar Dasika",
+        "Kenji Watanabe",
+        "Takashi Taniguchi",
+        "Archana Raja",
+        "Kausik Majumdar"
+      ],
+      "abstract": "The simple electrostatic picture of a trion is that of an excess charge inducing an exciton polarization and binding closer (farther) to the hole (electron) side of it. Trion formation can be forbidden when such spontaneous rearrangement of charges is not allowed by the application of external perturbation, such as electric field. Here we test this hypothesis experimentally using a non-monotonic electric field. We realize this scenario by imprinting the ferroelectric domains at the AA-stacked twisted-hBN (t-hBN) interface onto a monolayer of MoS2 placed over it. The spatially varying in-plane electric field around the domain wall serves the dual purpose of (a) confining and polarizing the 2D exciton in the domain wall, and (b) depleting the free charge carriers from the domain wall. We observe a large quantized exciton splitting confirming strong exciton confinement in the domain wall. Forced by the confining potential, the electron side of the polarized exciton lies closer to the domain with accumulated free electrons, which should ideally prevent any trion formation. Contrary to the laid hypothesis, we observe signatures of quantized charged exciton emission, with an inter-level splitting that mimics the level-splitting of the quantized excitons. This paradox is explained using the many-body picture of exciton polaron, where a conduction band hole attractively binds the polarized exciton and the electron Fermi sea. The results provide a definitive way to unambiguously discern exciton polaron from trion.",
+      "submitted": "2026-06-26T06:56:38Z",
+      "updated": "2026-06-26T06:56:38Z",
+      "categories": [
+        "cond-mat.mes-hall",
+        "cond-mat.mtrl-sci"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2606.27770v1",
+      "arxiv_url": "https://arxiv.org/abs/2606.27770",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [
+        "MoS2",
+        "hBN"
+      ],
+      "material_families": [
+        "TMDs / 2D chalcogenides",
+        "Other 2D / van der Waals materials"
+      ],
+      "exciton_properties": [],
+      "applications": [],
+      "methods": [],
+      "matched_keywords": [
+        "exciton"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [
+          "we observe",
+          "experimentally"
+        ],
+        "computational_actions": [
+          "using"
+        ],
+        "experimental_methods": {},
+        "computational_methods": {},
+        "materials": {
+          "MoS2": [
+            "mos2"
+          ],
+          "hBN": [
+            "hbn"
+          ],
+          "TMDs / 2D chalcogenides": [
+            "mos2"
+          ],
+          "Other 2D / van der Waals materials": [
+            "monolayer",
+            "hbn"
+          ]
+        },
+        "properties": {},
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2606.27673",
+      "version": "v1",
+      "versioned_id": "2606.27673v1",
+      "title": "Circularly Polarized Magneto-Photoluminescence in Two-Dimensional Chiral Perovskites R- and S-(C4H9NH3)2PbI4 under High Magnetic Fields",
+      "authors": [
+        "D. Y. Park",
+        "S. Park",
+        "Yongmin Kim",
+        "N. Myoung",
+        "Z. Yang",
+        "Y. Kohama",
+        "Y. H. Matsuda"
+      ],
+      "abstract": "We report circularly polarized magneto-photoluminescence (MPL) measurements on the enantiomeric pair of two-dimensional chiral perovskites R- and S-(C4H9NH3)2PbI4 in pulsed magnetic fields up to 50 T at 4.2 K. The R-form exhibits strong preferential emission into the RC channel (I_RC/I_LC = 10:1), with the S-form showing the opposite sense, robust against the applied field. Three key observations are reported: (i) an anomalous redshift of all exciton transition energies with increasing field-contrasting with the normal diamagnetic blueshift of achiral perovskites-with a non-monotonic initial blueshift to 7.6 T in the dominant RC channel of the R-form; (ii) complete invariance of PL peak positions upon reversal of the field direction, consistent with Rashba-induced mixing of the bright exciton with a nearby m_x = 0 dark state; and (iii) field-induced increase in PL intensity and narrowing of the linewidth, attributed to suppression of disorder scattering as the cyclotron orbit contracts. These results are interpreted in the framework of Rashba spin-splitting and polaron formation in the chiral two-dimensional perovskite lattice.",
+      "submitted": "2026-06-26T03:12:16Z",
+      "updated": "2026-06-26T03:12:16Z",
+      "categories": [
+        "cond-mat.mtrl-sci"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2606.27673v1",
+      "arxiv_url": "https://arxiv.org/abs/2606.27673",
+      "study_type": "Experimental",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [
+        "perovskites"
+      ],
+      "material_families": [
+        "Perovskites / halide semiconductors"
+      ],
+      "exciton_properties": [
+        "Linewidth / dephasing",
+        "Fine structure / bright-dark splitting"
+      ],
+      "applications": [],
+      "methods": [
+        "Photoluminescence",
+        "Magneto-optical measurements",
+        "Linewidth / fine structure"
+      ],
+      "matched_keywords": [
+        "exciton",
+        "linewidth",
+        "magneto-photoluminescence",
+        "photoluminescence"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [
+          "we report"
+        ],
+        "computational_actions": [],
+        "experimental_methods": {
+          "Photoluminescence": [
+            "photoluminescence"
+          ],
+          "Magneto-optical measurements": [
+            "magneto-photoluminescence"
+          ],
+          "Linewidth / fine structure": [
+            "linewidth"
+          ]
+        },
+        "computational_methods": {},
+        "materials": {
+          "perovskites": [
+            "perovskite"
+          ],
+          "Perovskites / halide semiconductors": [
+            "perovskite"
+          ]
+        },
+        "properties": {
+          "Linewidth / dephasing": [
+            "linewidth"
+          ],
+          "Fine structure / bright-dark splitting": [
+            "bright exciton"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": true,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2606.26708",
+      "version": "v1",
+      "versioned_id": "2606.26708v1",
+      "title": "Perfect Absorption in the Strong Coupling Regime via Degenerate Critical Coupling",
+      "authors": [
+        "Eleonora P. Kraus",
+        "Jamie M. Fitzgerald",
+        "Carlos Maciel-Escudero",
+        "Ermin Malic"
+      ],
+      "abstract": "Perfect absorption (PA) represents a fundamental limit of light-matter interaction and a means to maximize nanoscale energy conversion. While PA is now a well-established phenomenon, both the theoretical feasibility and a practical mechanism for achieving it under single-beam excitation within the strong coupling regime is unknown. Through rigorous solution of Maxwells equations for a compact photonic crystal (PhC) architecture incorporating a two-dimensional semiconductor, we present a general method based on degenerate critical coupling for single-port PA of exciton-polaritons. At the crossing of two polariton branches, we achieve near-unity absorption exceeding 99.8 \\% in a structure thinner than $100\\,$nm. This effect is robust under realistic Gaussian beam excitation, and can be realized across different temperatures and excitonic materials by tailoring the PhC geometry. Our results establish a strategy for enabling efficient light-matter coupling, with direct implications for the development of metal-free, ultra-compact polaritonic logic devices, sensors, and energy-harvesting platforms.",
+      "submitted": "2026-06-25T07:37:59Z",
+      "updated": "2026-06-25T07:37:59Z",
+      "categories": [
+        "cond-mat.mes-hall",
+        "physics.optics"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2606.26708v1",
+      "arxiv_url": "https://arxiv.org/abs/2606.26708",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [],
+      "material_families": [],
+      "exciton_properties": [
+        "Light-matter strong coupling"
+      ],
+      "applications": [
+        "Exciton polaritons",
+        "Light–matter coupling"
+      ],
+      "methods": [],
+      "matched_keywords": [
+        "exciton",
+        "excitonic",
+        "polariton"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [],
+        "experimental_methods": {},
+        "computational_methods": {},
+        "materials": {},
+        "properties": {
+          "Light-matter strong coupling": [
+            "exciton-polariton"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2606.26063",
+      "version": "v1",
+      "versioned_id": "2606.26063v1",
+      "title": "Quantum Back-Action Expands the Excitonic Hilbert Space in a Soft Polar Semiconductor",
+      "authors": [
+        "Arnab Ghosh",
+        "Patrick Brosseau",
+        "Priya Nagpal",
+        "Dmitry N. Dirin",
+        "Rui Tao",
+        "Maksym V. Kovalenko",
+        "Patanjali Kambhampati"
+      ],
+      "abstract": "Electronic excitations in solids are commonly described within a hierarchy in which the excitonic Hamiltonian is defined first and the lattice acts later through renormalization, relaxation, and dephasing. This picture assumes that the optically accessible excitonic manifold is already present at the moment of photoexcitation. Here we show that this assumption fails in a soft polar semiconductor. Using femtosecond coherent multidimensional spectroscopy on lead-halide perovskite nanocrystals, we observe quantum back-action between an electronic excitation and a collective lattice-polarization field that expands the excitonic Hilbert space in real time. The optical pulse first prepares an excitonic polarization, X1. A second configuration, X2, emerges only after the polaron field develops, while coherent X1-X2 coupling appears at later times. State formation and coherence formation are therefore resolved as distinct stages of quasiparticle formation. In contrast, CdSe quantum dots exhibit the conventional limit in which excitonic states and couplings are present at time zero and are only weakly perturbed by phonons. The observed diagonal and anti-diagonal splittings increase with nanocrystal size and correlate with radiative oscillator strength, opposite to expectations from simple quantum confinement. A dynamical polaron-field model describes the lattice polarization as an order parameter that expands the optically accessible manifold and generates time-dependent coherent coupling. These results show that strong system-bath coupling can actively create excitonic states and the coherent manifold in which they evolve.",
+      "submitted": "2026-06-24T17:40:38Z",
+      "updated": "2026-06-24T17:40:38Z",
+      "categories": [
+        "cond-mat.mes-hall",
+        "cond-mat.mtrl-sci",
+        "physics.chem-ph"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2606.26063v1",
+      "arxiv_url": "https://arxiv.org/abs/2606.26063",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [
+        "perovskites",
+        "quantum dots"
+      ],
+      "material_families": [
+        "Perovskites / halide semiconductors",
+        "Quantum-confined structures"
+      ],
+      "exciton_properties": [
+        "Linewidth / dephasing",
+        "Oscillator strength / optical activity"
+      ],
+      "applications": [],
+      "methods": [
+        "Oscillator strength"
+      ],
+      "matched_keywords": [
+        "exciton",
+        "excitonic",
+        "oscillator strength"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [
+          "we observe"
+        ],
+        "computational_actions": [
+          "using"
+        ],
+        "experimental_methods": {},
+        "computational_methods": {
+          "Oscillator strength": [
+            "oscillator strength"
+          ]
+        },
+        "materials": {
+          "perovskites": [
+            "perovskite"
+          ],
+          "quantum dots": [
+            "quantum dot"
+          ],
+          "Perovskites / halide semiconductors": [
+            "perovskite"
+          ],
+          "Quantum-confined structures": [
+            "quantum dot",
+            "nanocrystal"
+          ]
+        },
+        "properties": {
+          "Linewidth / dephasing": [
+            "dephasing"
+          ],
+          "Oscillator strength / optical activity": [
+            "oscillator strength"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2606.26000",
+      "version": "v1",
+      "versioned_id": "2606.26000v1",
+      "title": "Strong coupling regimes of an organic exciton mirror in a microcavity",
+      "authors": [
+        "Christoph Bennenhei",
+        "Lukas Lackner",
+        "Moritz Gittinger",
+        "Falk Eilenberger",
+        "Marvin F. Schumacher",
+        "Arne Lützen",
+        "Ivan Shelykh",
+        "Christoph Lienau",
+        "Martin Esmann",
+        "Christian Schneider"
+      ],
+      "abstract": "The coherent, periodic energy transfer between light- and matter excitations characterizes the strong coupling regime of cavity exciton-polaritons, resulting, in the simplest case, in a Rabi-doublet in the spectral domain. We demonstrate a peculiar regime of strong light-matter coupling, which arises when photonic cavity modes couple to an ultra-thin excitonic mirror. We embed a 12 nm J-aggregated thin film in an open microcavity and tune the coupling strength from weak to the onset of ultrastrong coupling. At resonance, the excitonic mirror selectively changes dielectric to metallic field boundary conditions adding a 2π phase, which links optical cavity modes of different order. Our work gives an exciting perspective to ultra-fast cavity switches and photonic devices based on excitonic optical elements.",
+      "submitted": "2026-06-24T16:17:16Z",
+      "updated": "2026-06-24T16:17:16Z",
+      "categories": [
+        "cond-mat.mes-hall",
+        "physics.optics"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2606.26000v1",
+      "arxiv_url": "https://arxiv.org/abs/2606.26000",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [],
+      "material_families": [
+        "Organic / molecular materials"
+      ],
+      "exciton_properties": [
+        "Transport / diffusion",
+        "Light-matter strong coupling"
+      ],
+      "applications": [
+        "Exciton polaritons",
+        "Light–matter coupling"
+      ],
+      "methods": [],
+      "matched_keywords": [
+        "exciton",
+        "excitonic",
+        "polariton"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [],
+        "experimental_methods": {},
+        "computational_methods": {},
+        "materials": {
+          "Organic / molecular materials": [
+            "j-aggregate"
+          ]
+        },
+        "properties": {
+          "Transport / diffusion": [
+            "energy transfer"
+          ],
+          "Light-matter strong coupling": [
+            "exciton-polariton",
+            "strong light-matter coupling"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2606.25071",
+      "version": "v1",
+      "versioned_id": "2606.25071v1",
+      "title": "Layer-tunable Hubbard bands probed via moiré excitons in MoSe$_2$/WS$_2$ heterostructures",
+      "authors": [
+        "Hongyu Yao",
+        "Qiao Li",
+        "Chih-En Hsu",
+        "Takashi Taniguchi",
+        "Kenji Watanabe",
+        "Hung-Chung Hsueh",
+        "Zhenglu Li",
+        "Andrew Y. Joe"
+      ],
+      "abstract": "Moiré superlattices in transition metal dichalcogenide heterostructures provide a highly tunable platform for engineering strongly interacting states at the nanoscale. However, quantitatively determining and in-situ tuning of the underlying Hubbard parameters remains experimentally challenging. Here, we report electric-field-driven reordering of layer-specific Hubbard bands by performing optical spectroscopy on a dual-gated, 60°-aligned MoSe$_2$/WS$_2$ heterobilayer. Using two spatially distinct moiré excitons as local optical probes and tracking them as a function of carrier filling and vertical electric field, we quantitatively extract the layer-dependent on-site Coulomb repulsions, U$_M$~60 meV in MoSe$_2$ and U$_W$~30 meV in WS$_2$. Furthermore, we stabilize generalized Wigner crystal and stripe phases by electrostatically tuning the system to a type-II band alignment, shifting the ground state into the WS$_2$ layer where reduced on-site repulsion allows inter-site Coulomb interactions to dominate. Our results establish vertical electric fields as a deterministic tuning knob for layer-selective Hubbard physics, enabling device-level control of complex many-body phases.",
+      "submitted": "2026-06-23T18:28:21Z",
+      "updated": "2026-06-23T18:28:21Z",
+      "categories": [
+        "cond-mat.mes-hall"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2606.25071v1",
+      "arxiv_url": "https://arxiv.org/abs/2606.25071",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [
+        "transition-metal dichalcogenides"
+      ],
+      "material_families": [
+        "TMDs / 2D chalcogenides",
+        "Other 2D / van der Waals materials"
+      ],
+      "exciton_properties": [],
+      "applications": [],
+      "methods": [],
+      "matched_keywords": [
+        "exciton"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [
+          "we report",
+          "experimentally"
+        ],
+        "computational_actions": [
+          "using"
+        ],
+        "experimental_methods": {},
+        "computational_methods": {},
+        "materials": {
+          "transition-metal dichalcogenides": [
+            "transition metal dichalcogenide"
+          ],
+          "TMDs / 2D chalcogenides": [
+            "transition metal dichalcogenide"
+          ],
+          "Other 2D / van der Waals materials": [
+            "heterobilayer"
+          ]
+        },
+        "properties": {},
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2606.24252",
+      "version": "v1",
+      "versioned_id": "2606.24252v1",
+      "title": "Precise one-dimensional nanochannels in transition metal dichalcogenides as building blocks for advanced nanophotonics",
+      "authors": [
+        "Abhay V. Agrawal",
+        "Wouter Holman",
+        "Betül Küçüköz",
+        "Tomasz J. Antosiewicz",
+        "Timur O. Shegai"
+      ],
+      "abstract": "Atomically sharp edges are essential for future high-index nanophotonic structures, yet conventional lithography and dry etching methods inevitably introduce edge roughness that limits optical confinement and reproducibility. Recently, anisotropic wet etching of multilayer van der Waals crystals, such as transition metal dichalcogenides (TMDs), has enabled crystallographically defined, atomically sharp zigzag edges, eliminating the edge-roughness problem. However, the process is intrinsically limited to confined geometries such as isolated triangular or hexagonal features dictated by crystal stacking symmetry. Here, we demonstrate a lithography-guided anisotropic etching framework that drives TMDs etching beyond isolated confined geometries by enforcing controlled interaction of neighboring etched nanoholes regions. In multilayer 2H-WS2, merging of anisotropic etch fronts enables sustained long-range propagation of zigzag facets, introducing a previously inaccessible 180-degree edge alignment and a crystallographically defined design space combining 120-degree and 180-degree junctions. Using this approach, we fabricate extended nanophotonic structures with ultrasharp sidewalls, including sub-100-nm-gap one-dimensional gratings, waveguides, defect-engineered photonic cavities, angle programmed photonic lattices, and diffractive zone plates. Back-focal-plane reflection spectroscopy of atomically sharp 1D periodic 2H-WS2 gratings demonstrates their photonic functionality, revealing symmetry-protected bound states in the continuum (SP-BICs) and strong exciton-photon coupling in multilayer WS2. Finally, we fabricate ultrathin, ultranarrow, and ultralong nanoribbons with record-high aspect ratios. Together, these results demonstrate edge merging as a generic route to fabricate edge-defined, atomically sharp nanophotonic and nanoelectronic architectures in layered van der Waals platforms.",
+      "submitted": "2026-06-23T07:40:59Z",
+      "updated": "2026-06-23T07:40:59Z",
+      "categories": [
+        "physics.optics",
+        "physics.app-ph"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2606.24252v1",
+      "arxiv_url": "https://arxiv.org/abs/2606.24252",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [
+        "WS2",
+        "transition-metal dichalcogenides"
+      ],
+      "material_families": [
+        "TMDs / 2D chalcogenides",
+        "Other 2D / van der Waals materials"
+      ],
+      "exciton_properties": [],
+      "applications": [],
+      "methods": [],
+      "matched_keywords": [
+        "exciton"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [
+          "using"
+        ],
+        "experimental_methods": {},
+        "computational_methods": {},
+        "materials": {
+          "WS2": [
+            "ws2"
+          ],
+          "transition-metal dichalcogenides": [
+            "transition metal dichalcogenide",
+            "tmds"
+          ],
+          "TMDs / 2D chalcogenides": [
+            "transition metal dichalcogenide",
+            "tmds",
+            "ws2"
+          ],
+          "Other 2D / van der Waals materials": [
+            "van der waals"
+          ]
+        },
+        "properties": {},
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2606.23598",
+      "version": "v1",
+      "versioned_id": "2606.23598v1",
+      "title": "Quantum Geometry Driven Finite-Momentum Exciton Fluctuations in Flat-Band Systems",
+      "authors": [
+        "Yi-Chun Hung",
+        "Xiaoting Zhou",
+        "Arun Bansil"
+      ],
+      "abstract": "Quantum geometry is instrumental in stabilizing exotic phenomena in systems ranging from topological insulators to superconductors. In dispersionless flat bands, where the kinetic energy is quenched, the quantum metric emerges as the fundamental driver of macroscopic collective phenomena. Here, we theoretically demonstrate that lattice-geometry-induced flat bands, such as those in kagome and Lieb lattices, provide a fertile platform for realizing a purely quantum-geometry-driven excitonic insulator (EI) phase. By applying an out-of-plane Zeeman field to lift spin degeneracy without spin-orbit coupling, we establish a Ginzburg-Landau framework in which the electron-hole wavefunction-overlap directly maps the flat-band quantum metric onto the macroscopic free energy. This mapping plays a key role in both the EI and the associated superfluid phases, with the coherence length and phase stiffness emerging directly from the quantum metric. Our analysis reveals that under strong interactions, the quantum metric induces a negative effective kinetic coefficient for the amplitude mode. Rather than destabilizing the uniform condensate, this softens the amplitude fluctuations at a finite momentum, giving rise to a finite-momentum superfluid density fluctuation (FMSDF) state. This state is observable as a periodically modulated magnitude of in-plane magnetization fluctuations. Our findings establish a rigorous link between flat-band quantum geometry and dynamic collective excitonic states, with promising pathways for realization in covalent-organic frameworks (COFs).",
+      "submitted": "2026-06-22T17:03:05Z",
+      "updated": "2026-06-22T17:03:05Z",
+      "categories": [
+        "cond-mat.mes-hall",
+        "cond-mat.mtrl-sci",
+        "cond-mat.str-el"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2606.23598v1",
+      "arxiv_url": "https://arxiv.org/abs/2606.23598",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [
+        "COFs"
+      ],
+      "material_families": [
+        "Porous frameworks (COFs / MOFs)"
+      ],
+      "exciton_properties": [],
+      "applications": [],
+      "methods": [],
+      "matched_keywords": [
+        "exciton",
+        "excitonic"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [],
+        "experimental_methods": {},
+        "computational_methods": {},
+        "materials": {
+          "COFs": [
+            "covalent-organic framework",
+            "cof"
+          ],
+          "Porous frameworks (COFs / MOFs)": [
+            "covalent-organic framework"
+          ]
+        },
+        "properties": {},
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2606.23311",
+      "version": "v1",
+      "versioned_id": "2606.23311v1",
+      "title": "Synchronization in coherently and dissipatively coupled spinor polariton time crystals",
+      "authors": [
+        "I. Carraro-Haddad",
+        "A. Ramos-Pérez",
+        "G. Usaj",
+        "A. Bruchhausen",
+        "K. Biermann",
+        "P. V. Santos",
+        "A. S. Kuznetsov",
+        "A. A. Reynoso",
+        "A. Fainstein"
+      ],
+      "abstract": "The spinor degree of freedom associated to exciton-polariton condensates can spontaneously self-oscillate breaking time translation symmetry, thus showing a continuous time-crystal (CTC) behavior. An open question in such driven-dissipative and non-linear quantum open systems is what happens when CTCs are brought together to interact. Here we experimentally study polariton condensates in coupled traps, evidencing mutual induction and synchronization of the pseudospin temporal GHz dynamics in the CTC phase. The individual and relative orientation of the (limit cycle) precessing pseudospins can be tuned by the optical excitation power, displaying both ferro and anti-ferro dynamical configurations. We theoretically show that the exciton reservoir, and both the coherent and long-range dissipative inter-trap coupling, play important roles in the CTC dynamics. The investigation of time-broken symmetry is thus extended here to more complex non-hermitian systems opening the path to study self-sustained collective dynamics in lattices of non-linear quantum condensates.",
+      "submitted": "2026-06-22T13:25:55Z",
+      "updated": "2026-06-22T13:25:55Z",
+      "categories": [
+        "cond-mat.other",
+        "physics.optics"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2606.23311v1",
+      "arxiv_url": "https://arxiv.org/abs/2606.23311",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [],
+      "material_families": [],
+      "exciton_properties": [
+        "Light-matter strong coupling"
+      ],
+      "applications": [
+        "Exciton polaritons"
+      ],
+      "methods": [],
+      "matched_keywords": [
+        "exciton",
+        "polariton"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [
+          "experimentally"
+        ],
+        "computational_actions": [],
+        "experimental_methods": {},
+        "computational_methods": {},
+        "materials": {},
+        "properties": {
+          "Light-matter strong coupling": [
+            "exciton-polariton"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2606.23033",
+      "version": "v1",
+      "versioned_id": "2606.23033v1",
+      "title": "Strongly anisotropic Rytova-Keldysh interaction and the ground state of 2D excitons",
+      "authors": [
+        "Andrei Galiautdinov"
+      ],
+      "abstract": "The classic Rytova-Keldysh potential describes the non-local dielectric screening of Coulomb interactions in ultrathin two-dimensional (2D) materials. Recently, the corresponding potential for arbitrary in-plane anisotropy was derived in integral form, with numerical studies suggesting that an effective isotropic approximation remains robust for highly directional systems. In this paper we provide the analytical foundation for these observations by mapping the complete spatial landscape of the strongly anisotropic Rytova-Keldysh interaction. By applying the method of steepest descent and momentum-space coordinate scaling to the exact one-dimensional integral representation, we derive closed-form asymptotic expressions for the potential across all spatial regimes. We find that the intermediate-range screening exhibits a non-trivial amplitude scaling driven by the direction of weakest polarizability, while the short-range limit produces an anisotropic logarithmic well governed by the geometric mean of the principal polarizabilities. Finally, utilizing this short-range confinement, we implement an anisotropic Gaussian variational ansatz to solve the Wannier equation, providing a closed-form analytical expression for the exciton ground-state binding energy that explicitly captures the competition between the effective mass and dielectric tensors.",
+      "submitted": "2026-06-22T08:43:26Z",
+      "updated": "2026-06-22T08:43:26Z",
+      "categories": [
+        "cond-mat.mes-hall"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2606.23033v1",
+      "arxiv_url": "https://arxiv.org/abs/2606.23033",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [],
+      "material_families": [],
+      "exciton_properties": [],
+      "applications": [],
+      "methods": [],
+      "matched_keywords": [
+        "exciton"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [],
+        "experimental_methods": {},
+        "computational_methods": {},
+        "materials": {},
+        "properties": {},
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2606.22242",
+      "version": "v1",
+      "versioned_id": "2606.22242v1",
+      "title": "Keldysh field theory of spin- and valley-distinguished polariton nonlinearities in transition-metal dichalcogenide monolayers",
+      "authors": [
+        "Anna M. Grudinina",
+        "Nina S. Voronova"
+      ],
+      "abstract": "Electrons in transition-metal dichalcogenides (TMDs) possess valley and spin degrees of freedom, which leads to rich exciton and exciton-polariton physics with nontrivial scattering dynamics and enhanced nonlinearities, presenting a key mechanism for photonic devices. Yet, existing descriptions of bosonization and polariton interactions in TMD-based systems overlook the valley degree of freedom as well as the various particles' spins combinations. In this work, we derive a nonequilibrium field-theory approach in the path integral formalism that allows to track all the polariton nonlinearities in the strong coupling regime. We demonstrate that, when all the bright and dark exciton species are considered, the TMD monolayer-based polariton systems feature sixteen different nonlinear contributions due to interactions and even more saturation-related terms. Strikingly, while the interactions of excitons within one valley are overall dominant, we show that the contribution to the blueshift from spin-dark excitons is much higher than that from bright intravalley excitons.",
+      "submitted": "2026-06-20T22:00:23Z",
+      "updated": "2026-06-20T22:00:23Z",
+      "categories": [
+        "cond-mat.mes-hall"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2606.22242v1",
+      "arxiv_url": "https://arxiv.org/abs/2606.22242",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [
+        "transition-metal dichalcogenides"
+      ],
+      "material_families": [
+        "TMDs / 2D chalcogenides",
+        "Other 2D / van der Waals materials"
+      ],
+      "exciton_properties": [
+        "Fine structure / bright-dark splitting",
+        "Valley / spin physics",
+        "Light-matter strong coupling"
+      ],
+      "applications": [
+        "Exciton polaritons",
+        "Light–matter coupling"
+      ],
+      "methods": [],
+      "matched_keywords": [
+        "exciton",
+        "polariton"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [],
+        "experimental_methods": {},
+        "computational_methods": {},
+        "materials": {
+          "transition-metal dichalcogenides": [
+            "transition-metal dichalcogenide",
+            "tmd monolayer",
+            "tmds"
+          ],
+          "TMDs / 2D chalcogenides": [
+            "transition-metal dichalcogenide",
+            "tmds"
+          ],
+          "Other 2D / van der Waals materials": [
+            "monolayer"
+          ]
+        },
+        "properties": {
+          "Fine structure / bright-dark splitting": [
+            "dark exciton"
+          ],
+          "Valley / spin physics": [
+            "valley exciton"
+          ],
+          "Light-matter strong coupling": [
+            "exciton-polariton"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2606.21652",
+      "version": "v1",
+      "versioned_id": "2606.21652v1",
+      "title": "Trial wavefunction for fractional quantum spin Hall insulators",
+      "authors": [
+        "Omri Lesser",
+        "Chao-Ming Jian"
+      ],
+      "abstract": "Fermions with opposite spins occupying half-filled conjugate Chern bands exhibit interaction physics distinct from their multi-component Landau-level counterparts with the same chirality. This is largely due to unavoidable inter-species collisions that preclude the Halperin-type wavefunctions available in multi-component Landau levels. In this work, we propose and evaluate a variational wavefunction for a fractional quantum spin Hall state with Z_4 topological order in a pair of conjugate Landau levels. This Z_4 topological order has previously been shown to be the minimal topological order compatible with charge conservation, $S_z$ conservation, time-reversal symmetry, and the fractional spin Hall conductance 1/2 suggested by previous twisted MoTe$_2$ experiments. Our construction is based on the condensation of an anyonic exciton formed by the neutral fermionic excitations in a decoupled pair of Moore-Read Pfaffian state and its conjugate. By coupling the chiral and anti-chiral Ising conformal field theories associated with the two spin species, we introduce a variational mass parameter in the Z_4 trial wavefunction that captures the inter-spin-species s-wave pairing of composite fermions alongside the intra-spin-species p-wave pairing. We assess the energetics of this trial state using Monte Carlo sampling on a spherical geometry. Because the coupled state intrinsically involves Landau-level mixing, we explicitly evaluate the resulting kinetic energy penalty. Our phase diagram reveals that the proposed Z_4 state becomes energetically favorable in a sizable region of parameter space, over both the decoupled pair of conjugate Pfaffian states and an alternative exciton condensate state. These results provide a concrete microscopic wavefunction realization of this Z_4 fractional quantum spin Hall phase, and propose a route to constructing additional families of such states.",
+      "submitted": "2026-06-19T18:00:01Z",
+      "updated": "2026-06-19T18:00:01Z",
+      "categories": [
+        "cond-mat.str-el",
+        "cond-mat.mes-hall"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2606.21652v1",
+      "arxiv_url": "https://arxiv.org/abs/2606.21652",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [],
+      "material_families": [],
+      "exciton_properties": [],
+      "applications": [],
+      "methods": [],
+      "matched_keywords": [
+        "exciton"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [
+          "using"
+        ],
+        "experimental_methods": {},
+        "computational_methods": {},
+        "materials": {},
+        "properties": {},
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2606.21630",
+      "version": "v1",
+      "versioned_id": "2606.21630v1",
+      "title": "Coherent Control of a Polariton Continuous Time Crystal",
+      "authors": [
+        "I. Carraro-Haddad",
+        "G. Usaj",
+        "A. Fainstein",
+        "K. Biermann",
+        "P. V. Santos",
+        "A. S. Kuznetsov"
+      ],
+      "abstract": "Spontaneous breaking of time-translation symmetry and the emergence of self-sustained oscillations in quantum driven-dissipative systems is the hallmark of continuous time crystals (CTCs). An outstanding challenge is to achieve precise, coherent control of such dynamical phases, whose complex nonlinear dynamics makes them inherently difficult to manipulate. Here, we experimentally demonstrate coherent control of a solid-state CTC realized in a non-resonantly excited spin-polarized exciton-polariton condensate in a Ga(Al)As microcavity. We exploit two complementary control channels: an additional weak control laser and the optomechanical interaction with confined GHz phonons. By tuning the control laser energy and power, we stabilize distinct dynamical regimes, including frequency pushing, injection locking with continuous tuning of the limit-cycle frequency, and full suppression of the autonomous dynamics via phase locking. Under appropriate detuning conditions, the control excitation generates coherent mechanical self-oscillation through the polariton--phonon deformation-potential interaction, evidenced by spectral sidebands. The resulting dynamical back-action provides a phonon-mediated locking channel that fixes the frequency of the CTC. Together, the two channels dramatically enhance the temporal coherence of the GHz limit-cycle dynamics, as established through linewidth narrowing and time-resolved first-order correlation measurements $\\gone(τ)$. Our work establishes a way to harness the unique aspects of CTCs for practical applications in the GHz-range.",
+      "submitted": "2026-06-19T17:34:18Z",
+      "updated": "2026-06-19T17:34:18Z",
+      "categories": [
+        "physics.optics"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2606.21630v1",
+      "arxiv_url": "https://arxiv.org/abs/2606.21630",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [],
+      "material_families": [],
+      "exciton_properties": [
+        "Linewidth / dephasing",
+        "Light-matter strong coupling"
+      ],
+      "applications": [
+        "Exciton polaritons",
+        "Light–matter coupling"
+      ],
+      "methods": [
+        "Time-resolved spectroscopy",
+        "Linewidth / fine structure"
+      ],
+      "matched_keywords": [
+        "exciton",
+        "linewidth",
+        "polariton",
+        "time-resolved"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [
+          "experimentally"
+        ],
+        "computational_actions": [],
+        "experimental_methods": {
+          "Time-resolved spectroscopy": [
+            "time-resolved"
+          ],
+          "Linewidth / fine structure": [
+            "linewidth"
+          ]
+        },
+        "computational_methods": {},
+        "materials": {},
+        "properties": {
+          "Linewidth / dephasing": [
+            "linewidth"
+          ],
+          "Light-matter strong coupling": [
+            "exciton-polariton"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2606.21469",
+      "version": "v1",
+      "versioned_id": "2606.21469v1",
+      "title": "Hyperfine versus exchange interaction in the spin dynamics of spatially indirect excitons in CsPbI$_{3}$ perovskite nanocrystals",
+      "authors": [
+        "Timur S. Shamirzaev",
+        "Nataliia E. Kopteva",
+        "Dmitry S. Smirnov",
+        "Dmitri R. Yakovlev",
+        "Elena V. Kolobkova",
+        "Maria S. Kuznetsova",
+        "Eugeniyus L. Ivchenko",
+        "Yan E. Maidebura",
+        "Evgeny A. Zhukov",
+        "Manfred Bayer"
+      ],
+      "abstract": "We study the dynamics of recombination, optical orientation, and optical alignment of excitons in ensembles of CsPbI$_{3}$ nanocrystals (NCs), synthesized in a glass matrix. In large NCs with size exceeding 16 nm, the low-energy photoluminescence is contributed by the emission of indirect in real space excitons formed by spatially separated electrons and holes, which are localized at the NC/glass interface. The recombination dynamics of an ensemble of such excitons extends from tens of nanoseconds to microseconds and exhibits a power-law dependence. Their optical alignment and optical orientation reveal a peculiar spin dynamics caused by excitons influenced by the exchange interaction, varying by orders of magnitude. We develop a theory of the polarized photoluminescence of triplet excitons, taking into account the interplay between the electron-hole exchange interaction, their Zeeman effect, and their hyperfine interaction with the nuclei. This model reveals that for the excitons with the smallest exchange splitting we reach the regime, where the exciton fine structure becomes dominated by the hyperfine interaction with the random nuclear spin fluctuations in the NCs.",
+      "submitted": "2026-06-19T14:19:53Z",
+      "updated": "2026-06-19T14:19:53Z",
+      "categories": [
+        "cond-mat.mes-hall"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2606.21469v1",
+      "arxiv_url": "https://arxiv.org/abs/2606.21469",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [
+        "perovskites"
+      ],
+      "material_families": [
+        "Perovskites / halide semiconductors",
+        "Quantum-confined structures"
+      ],
+      "exciton_properties": [
+        "g-factor / Zeeman splitting"
+      ],
+      "applications": [],
+      "methods": [
+        "Photoluminescence"
+      ],
+      "matched_keywords": [
+        "exciton",
+        "photoluminescence"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [],
+        "experimental_methods": {
+          "Photoluminescence": [
+            "photoluminescence"
+          ]
+        },
+        "computational_methods": {},
+        "materials": {
+          "perovskites": [
+            "perovskite"
+          ],
+          "Perovskites / halide semiconductors": [
+            "perovskite"
+          ],
+          "Quantum-confined structures": [
+            "nanocrystal"
+          ]
+        },
+        "properties": {
+          "g-factor / Zeeman splitting": [
+            "zeeman effect"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2606.21219",
+      "version": "v1",
+      "versioned_id": "2606.21219v1",
+      "title": "Bose-Einstein Condensation of Three-Dimensional Exciton-Polaritons",
+      "authors": [
+        "Junhui Cao",
+        "Alexey Kavokin"
+      ],
+      "abstract": "We develop a band-structure-based theory of exciton-polaritons in a three-dimensional inverse-opal photonic crystal doped with semiconductor quantum dots. Starting from a symmetry-selected bright photonic branch near the photonic gap edge, we construct an exciton-photon Hamiltonian and obtain a lower-polariton band with a W-point global minimum and a nearby X-point van-Hove-enhanced density of states. We show that the W valleys determine the equilibrium Bose-Einstein condensation threshold, while the X-point saddle provides a finite excited-state capacity that renormalizes the critical temperature when the W-X offset is thermally accessible. By tuning the exciton resonance and the light-matter coupling, the relative W-X ordering can be reconstructed, leading to a strong variation of the critical temperature. We further formulate a momentum-resolved Boltzmann model for driven-dissipative kinetics. Under non-resonant pumping, reservoir feeding, radiative decay, and inter-sector relaxation can produce either W-dominated condensation, a mixed W-X regime, or an X-dominated nonequilibrium coherent state. Our results establish three-dimensional photonic-crystal polaritons as a platform where condensation is controlled not only by the band minimum but also by valley geometry, van-Hove-enhanced phase space, and relaxation pathways.",
+      "submitted": "2026-06-19T08:35:29Z",
+      "updated": "2026-06-19T08:35:29Z",
+      "categories": [
+        "cond-mat.mes-hall"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2606.21219v1",
+      "arxiv_url": "https://arxiv.org/abs/2606.21219",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [
+        "quantum dots"
+      ],
+      "material_families": [
+        "Quantum-confined structures"
+      ],
+      "exciton_properties": [
+        "Light-matter strong coupling"
+      ],
+      "applications": [
+        "Exciton polaritons",
+        "Light–matter coupling"
+      ],
+      "methods": [],
+      "matched_keywords": [
+        "exciton",
+        "polariton"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [],
+        "experimental_methods": {},
+        "computational_methods": {},
+        "materials": {
+          "quantum dots": [
+            "quantum dot"
+          ],
+          "Quantum-confined structures": [
+            "quantum dot"
+          ]
+        },
+        "properties": {
+          "Light-matter strong coupling": [
+            "exciton-polariton"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2606.20928",
+      "version": "v1",
+      "versioned_id": "2606.20928v1",
+      "title": "Cavity-Mediated Long-Range Cooperative Coupling between Localized Plasmons and Molecular Excitons",
+      "authors": [
+        "Livin Paul",
+        "Alona Vidishcheva",
+        "Gal Sandik",
+        "Adina Golombek",
+        "Tal Schwartz"
+      ],
+      "abstract": "Strong coupling between molecules and electromagnetic fields has emerged as a powerful strategy to modify the physical and chemical properties of molecules, enabled by the formation of hybridized energy levels through strong light-matter interactions. Rather than purely photonic or plasmonic modes, hybrid cavity fields that integrate plasmonic and photonic contributions provide versatile platforms with distinct advantages for tailoring light-matter interactions. Here, we present hybrid modes formed through the coupling between localized surface plasmon resonances of Au nanoparticles and Fabry-Perot microcavity modes. Furthermore, by using this hybrid platform, we demonstrate that the cavity field can give rise to cooperative coherent coupling between the spatially separated plasmonic nanoparticles and the molecules by mediating long-range dipole-dipole interactions. As we show, this cavity-mediated coupling also enhances the plasmon-exciton mixing, as compared to their direct interaction. This configuration opens new avenues for tailoring light-matter interactions at the nanoscale by supporting novel hybrid plexcitonic states that incorporate contributions from plasmons, excitons, and extended cavity fields.",
+      "submitted": "2026-06-18T20:43:21Z",
+      "updated": "2026-06-18T20:43:21Z",
+      "categories": [
+        "physics.optics",
+        "cond-mat.mes-hall"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2606.20928v1",
+      "arxiv_url": "https://arxiv.org/abs/2606.20928",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [],
+      "material_families": [],
+      "exciton_properties": [],
+      "applications": [
+        "Light–matter coupling"
+      ],
+      "methods": [],
+      "matched_keywords": [
+        "exciton",
+        "excitonic"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [
+          "using"
+        ],
+        "experimental_methods": {},
+        "computational_methods": {},
+        "materials": {},
+        "properties": {},
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2606.20349",
+      "version": "v1",
+      "versioned_id": "2606.20349v1",
+      "title": "Effective masses, Burstein-Moss shift, and bandgap renormalization in degenerate Al-doped ZnO from broadband ellipsometry and Hall measurements",
+      "authors": [
+        "S. Mishra",
+        "L. A. Enrique",
+        "D. Cespedes",
+        "E. Perez",
+        "E. Serquen",
+        "F. Bravo",
+        "P. Llontop",
+        "F. Ruske",
+        "L. Korte",
+        "J. A. Guerra"
+      ],
+      "abstract": "A comprehensive methodology is developed to extract electron and hole effective masses in degenerate semiconductors through a simultaneous global fit of carrier concentration dependence of bandgap and plasma energy, explicitly incorporating band nonparabolicity. Broadband spectroscopic ellipsometry combined with Hall effect analyses enables accurate determination of the bandgap, plasma energy and carrier concentrations. The dielectric function of sputtered Al-doped ZnO thin films are modeled in the fundamental absorption region using an Elliott based model with overlapping excitonic transitions and Urbach tails, while free carrier absorption is described by a modified sernelius formula. Wide carrier concentrations are achieved via controlled deposition and post-annealing, revealing changes in electron effective masses and deviations from parabolic dispersion. Two nonparabolic models are compared, Pisarkiewicz, assuming spherically symmetric band with a step-function approximation of the Fermi-Dirac distribution and Nilsson, incorporating thermal and impurity effects. The latter is shown to capture accurately band nonparabolicity, yielding effective masses and nonparabolicity parameter consistent with bandgap evolution. This approach quantitatively separates Burstein-Moss shift and bandgap renormalization, reproducing carrier dependent bandgap shifts across a wide concentration range. Neglecting valence band contributions introduces systematic bias. Bandgap renormalization is further evaluated using plasmon pole and random phase approximations, underscoring the importance of many-body screening. This framework also enables determination of the Mott critical concentration and the fundamental absorption edge onset. Collectively, these results establish a reliable methodology for extracting band-structure parameters and bandgap shifts, extendable to other transparent conducting oxides.",
+      "submitted": "2026-06-18T15:17:18Z",
+      "updated": "2026-06-18T15:17:18Z",
+      "categories": [
+        "cond-mat.mtrl-sci"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2606.20349v1",
+      "arxiv_url": "https://arxiv.org/abs/2606.20349",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [],
+      "material_families": [],
+      "exciton_properties": [],
+      "applications": [],
+      "methods": [],
+      "matched_keywords": [
+        "exciton",
+        "excitonic"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [
+          "using"
+        ],
+        "experimental_methods": {},
+        "computational_methods": {},
+        "materials": {},
+        "properties": {},
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2606.20275",
+      "version": "v1",
+      "versioned_id": "2606.20275v1",
+      "title": "Exciton Transport in Disordered Perovskite Nanocrystal Solids",
+      "authors": [
+        "Simon Solari",
+        "Enrique Arévalo Rodríguez",
+        "Antonella Cutrupi",
+        "Amalia Coro",
+        "Marc Meléndez",
+        "Alicia De Andrés",
+        "Almudena Torres-Pardo",
+        "Beatriz H. Juárez",
+        "Ferry Prins"
+      ],
+      "abstract": "Solution-processed thin films of colloidal lead halide perovskite (LHP) nanocrystals (NCs) show great potential for the implementation into optoelectronic devices such as light-emitting diodes (LEDs), lasers, and solar cells. However, these hybrid LHP NC solids exhibit non-negligible size and shape polydispersity, which introduces both structural and energetic disorder. Here, we resolve the exciton dynamics in space, time, and energy to elucidate the impact of different forms of disorder (structural and energetic) on exciton transport. We show that the disorder depends sensitively on the length of the alkylamine ligand used in the synthesis. While shorter alkyl chain lengths lead to high polydispersity, longer alkyl chains lead to more monodispersed and smaller particles where quantum confinement becomes more pronounced and, consequently, lead to increased energetic disorder. Strikingly, we find that exciton transport is less efficient in NC solids with long alkyl chain ligands, despite having a significantly more monodisperse ensemble. This demonstrates that energetic disorder, rather than structural disorder, is the dominant factor for predicting exciton transport within these materials. These findings reveal the critical role of ligand engineering in designing high-performance optoelectronic devices based on hybrid LHP NCs, providing new insights into energy transport dynamics in disordered systems and highlighting the versatility of these materials for advanced photonic and optoelectronic applications.",
+      "submitted": "2026-06-18T14:19:18Z",
+      "updated": "2026-06-18T14:19:18Z",
+      "categories": [
+        "cond-mat.mtrl-sci"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2606.20275v1",
+      "arxiv_url": "https://arxiv.org/abs/2606.20275",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [
+        "perovskites"
+      ],
+      "material_families": [
+        "Perovskites / halide semiconductors",
+        "Quantum-confined structures"
+      ],
+      "exciton_properties": [
+        "Transport / diffusion"
+      ],
+      "applications": [
+        "Photovoltaics"
+      ],
+      "methods": [
+        "Exciton lifetime / dynamics"
+      ],
+      "matched_keywords": [
+        "exciton",
+        "exciton dynamics"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [],
+        "experimental_methods": {
+          "Exciton lifetime / dynamics": [
+            "exciton dynamics"
+          ]
+        },
+        "computational_methods": {},
+        "materials": {
+          "perovskites": [
+            "perovskite"
+          ],
+          "Perovskites / halide semiconductors": [
+            "perovskite",
+            "lead halide"
+          ],
+          "Quantum-confined structures": [
+            "nanocrystal"
+          ]
+        },
+        "properties": {
+          "Transport / diffusion": [
+            "exciton transport"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2606.20262",
+      "version": "v1",
+      "versioned_id": "2606.20262v1",
+      "title": "Anomalous magneto-optical response at $\\mathrm{RuO_2 / WSe_2}$ van der Waals interface",
+      "authors": [
+        "Muhammad Hassan Shaikh",
+        "Abhijith Puthiya Veettil",
+        "Collin Maurtua",
+        "Dai Q. Ho",
+        "Subhash Bhatt",
+        "David T. Plouff",
+        "Malitha Gulawita",
+        "Kenji Watanabe",
+        "Takashi Taniguchi",
+        "John Q. Xiao",
+        "Anderson Janotti",
+        "Chitraleema Chakraborty"
+      ],
+      "abstract": "Ruthenium dioxide ($\\mathrm{RuO_2}$) has been proposed as an altermagnetic candidate, although its magnetic ground state remains controversial. Here, we probe weak interfacial magnetic states at the surface of (001)-oriented $\\mathrm{RuO_2}$ films using the magnetic proximity effect (MPE) in a van der Waals heterostructure consisting of monolayer tungsten diselenide ($\\mathrm{WSe_2}$) atop $\\mathrm{RuO_2}$. Temperature-dependent magneto-optical spectroscopy reveals an anomalous excitonic energy shift and a deviation from conventional Varshni behavior below 55 K that are absent in an encapsulated $\\mathrm{WSe_2}$ control sample. The anomalous shift reverses sign upon field cooling with opposite magnetic field polarity, indicating a magnetic origin. Polarization-resolved measurements further show a nearly field-independent and fluctuating valley splitting in $\\mathrm{WSe_2 / RuO_2}$ in strong contrast to the conventional linear Zeeman splitting observed in the control bare $\\mathrm{WSe_2}$ sample. These results suggest that the valley states are governed predominantly by interfacial exchange fields associated with weak surface magnetic states in $\\mathrm{RuO_2}$, which do not produce a conventional linear Zeeman response within the applied magnetic field range. Importantly, this approach enables direct optical probing of emergent surface magnetism without introducing an additional ferromagnetic layer, positioning MPE-based optical probing as a tool for investigating weak surface magnetism and offering new possibilities for studying magnetic materials with controversial magnetic states.",
+      "submitted": "2026-06-18T14:11:11Z",
+      "updated": "2026-06-18T14:11:11Z",
+      "categories": [
+        "cond-mat.mtrl-sci",
+        "cond-mat.mes-hall",
+        "physics.optics",
+        "quant-ph"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2606.20262v1",
+      "arxiv_url": "https://arxiv.org/abs/2606.20262",
+      "study_type": "Experimental",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [
+        "WSe2",
+        "2D materials"
+      ],
+      "material_families": [
+        "TMDs / 2D chalcogenides",
+        "Other 2D / van der Waals materials"
+      ],
+      "exciton_properties": [
+        "g-factor / Zeeman splitting"
+      ],
+      "applications": [],
+      "methods": [
+        "Magneto-optical measurements"
+      ],
+      "matched_keywords": [
+        "exciton",
+        "excitonic",
+        "magneto-optical"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [
+          "spectroscopy reveals"
+        ],
+        "computational_actions": [
+          "using"
+        ],
+        "experimental_methods": {
+          "Magneto-optical measurements": [
+            "magneto-optical"
+          ]
+        },
+        "computational_methods": {},
+        "materials": {
+          "WSe2": [
+            "tungsten diselenide"
+          ],
+          "2D materials": [
+            "van der waals heterostructure"
+          ],
+          "TMDs / 2D chalcogenides": [
+            "tungsten diselenide"
+          ],
+          "Other 2D / van der Waals materials": [
+            "van der waals",
+            "monolayer"
+          ]
+        },
+        "properties": {
+          "g-factor / Zeeman splitting": [
+            "zeeman splitting"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": true,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2606.20159",
+      "version": "v1",
+      "versioned_id": "2606.20159v1",
+      "title": "Electric-field-driven magnetic switching and tightly bound interlayer excitons in bilayer CrSBr",
+      "authors": [
+        "Xiubin Li",
+        "Yu Sun",
+        "Xuanji Wang",
+        "Chunyan Wang",
+        "Kenji Watanabe",
+        "Takashi Taniguchi",
+        "Sheng Liu",
+        "Ting Yu",
+        "Liang Li",
+        "Tao Zhang",
+        "Jing Li"
+      ],
+      "abstract": "Electric field control of magnetic order in two-dimensional (2D) van der Waals magnets is a central goal for low-power spin-based technologies. In the ambient-stable antiferromagnet CrSBr, strong magnetic anisotropy and robust exciton-spin coupling provide a favorable platform, yet deterministic electric field control of its magnetic phases has not been achieved. Here we demonstrate electric-field-driven reversible switching between antiferromagnetic and ferromagnetic states in dual-gated bilayer CrSBr without intentional carrier doping. In parallel, photoluminescence measurements resolve a tightly bound interlayer exciton with an intrinsic dipole moment of only ~1 e angstrom. The electric field dependence of the magnetic phase transition reveals two coexisting mechanisms: a linear magnetoelectric effect in the antiferromagnetic state and an electric-field-modulated interlayer exchange coupling. Their interplay accounts for the asymmetric evolution of the critical magnetic field. Our results establish bilayer CrSBr as a promising 2D material for electrically controlled spin-optoelectronic functionalities.",
+      "submitted": "2026-06-18T12:23:08Z",
+      "updated": "2026-06-18T12:23:08Z",
+      "categories": [
+        "cond-mat.mes-hall",
+        "cond-mat.mtrl-sci"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2606.20159v1",
+      "arxiv_url": "https://arxiv.org/abs/2606.20159",
+      "study_type": "Experimental",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [
+        "2D materials"
+      ],
+      "material_families": [
+        "Other 2D / van der Waals materials"
+      ],
+      "exciton_properties": [],
+      "applications": [],
+      "methods": [
+        "Photoluminescence"
+      ],
+      "matched_keywords": [
+        "exciton",
+        "photoluminescence"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [],
+        "experimental_methods": {
+          "Photoluminescence": [
+            "photoluminescence"
+          ]
+        },
+        "computational_methods": {},
+        "materials": {
+          "2D materials": [
+            "2d material"
+          ],
+          "Other 2D / van der Waals materials": [
+            "2d material",
+            "van der waals"
+          ]
+        },
+        "properties": {},
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": true,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2606.20039",
+      "version": "v1",
+      "versioned_id": "2606.20039v1",
+      "title": "Quantitative prediction of excitons in lattice-mismatched van der Waals heterostructures",
+      "authors": [
+        "Jakob Kjærulff Svaneborg",
+        "Mikkel Ohm Sauer",
+        "Amalie Helena Svaneborg",
+        "Kristian Sommer Thygesen"
+      ],
+      "abstract": "Accurate modeling of dielectric screening in van der Waals (vdW) heterostructures is essential for predicting photonic and optoelectronic properties - yet conventional first-principles methods are often hindered by incommensurate lattices and prohibitive computational costs. In this work, we introduce the microscopic Quantum Electrostatic Heterostructure (mQEH) method. mQEH employs a hierarchical and systematically improvable basis set to describe potentials and induced densities, eliminating the need for arbitrary geometric cutoffs and ensuring accurate screening descriptions at all length scales. The mQEH method is combined with a layer projected Bethe-Salpeter Equation (BSE) to enable calculations of optical spectra of experimentally relevant lattice-mismatched vdW heterostructures. Applying the mQEH-BSE framework to a series of transition-metal dichalcogenide (TMD) heterobilayers, we obtain absorption spectra and momentum-indirect exciton energies in excellent agreement with experiment. The framework provides a computationally efficient route to predictive modeling and design of vdW heterostructures with tailored optical properties.",
+      "submitted": "2026-06-18T10:15:11Z",
+      "updated": "2026-06-18T10:15:11Z",
+      "categories": [
+        "cond-mat.mtrl-sci"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2606.20039v1",
+      "arxiv_url": "https://arxiv.org/abs/2606.20039",
+      "study_type": "Theory + Experiment",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [
+        "transition-metal dichalcogenides",
+        "2D materials"
+      ],
+      "material_families": [
+        "TMDs / 2D chalcogenides",
+        "Other 2D / van der Waals materials"
+      ],
+      "exciton_properties": [],
+      "applications": [],
+      "methods": [
+        "Absorption / reflectance",
+        "DFT",
+        "Bethe–Salpeter equation"
+      ],
+      "matched_keywords": [
+        "absorption spectra",
+        "bethe-salpeter",
+        "exciton",
+        "first-principles"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [
+          "experimentally"
+        ],
+        "computational_actions": [],
+        "experimental_methods": {
+          "Absorption / reflectance": [
+            "absorption spectra"
+          ]
+        },
+        "computational_methods": {
+          "DFT": [
+            "first-principles"
+          ],
+          "Bethe–Salpeter equation": [
+            "bethe-salpeter"
+          ]
+        },
+        "materials": {
+          "transition-metal dichalcogenides": [
+            "transition-metal dichalcogenide"
+          ],
+          "2D materials": [
+            "van der waals heterostructure"
+          ],
+          "TMDs / 2D chalcogenides": [
+            "transition-metal dichalcogenide"
+          ],
+          "Other 2D / van der Waals materials": [
+            "van der waals",
+            "heterobilayer"
+          ]
+        },
+        "properties": {},
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": true,
+        "computational": true
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2606.18077",
+      "version": "v2",
+      "versioned_id": "2606.18077v2",
+      "title": "Highly nonlinear Moiré exciton and trion polaritons",
+      "authors": [
+        "Arnab Barman Ray",
+        "Trevor Ollis",
+        "Fei Cheng",
+        "Adam L. Freidman",
+        "Aubrey T. Hanbicki",
+        "Anthony Nickolas Vamivakas"
+      ],
+      "abstract": "Moiré multi-layers of transition metal dichalcogenides have been shown to exhibit optical responses that are endowed with a richness that is absent in single monolayers. Much of this can be attributed to the Moiré superlattice that modulates the electronic landscape of these heterostructures. Strongly coupled layer-hybridized excitons in $\\text{MoSe}_2 / \\text{WS}_2$ heterobilayers have been shown to exhibit enhanced optical nonlinearities. In this work we strongly couple layer hybridized excitons and trions in n-doped $\\text{MoSe}_2 / \\text{WS}_2$ heterobilayers inside an optical microcavity. We find that the additional Lindhard screening from dopant electrons and the formation of trions result in a strikingly non-monotonic nonlinear response. The absence of electron capture in the Moiré superlattice plays a crucial role, promising very large second-order nonlinearities. In this work, trion polaritons manifest as high velocity hot polaritons, reaching nominal diffusion lengths approaching 100 microns.",
+      "submitted": "2026-06-16T15:45:01Z",
+      "updated": "2026-06-17T11:26:02Z",
+      "categories": [
+        "cond-mat.mes-hall",
+        "cond-mat.mtrl-sci"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2606.18077v2",
+      "arxiv_url": "https://arxiv.org/abs/2606.18077",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [
+        "transition-metal dichalcogenides"
+      ],
+      "material_families": [
+        "TMDs / 2D chalcogenides",
+        "Other 2D / van der Waals materials"
+      ],
+      "exciton_properties": [
+        "Transport / diffusion"
+      ],
+      "applications": [
+        "Light–matter coupling"
+      ],
+      "methods": [],
+      "matched_keywords": [
+        "exciton",
+        "polariton"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [],
+        "experimental_methods": {},
+        "computational_methods": {},
+        "materials": {
+          "transition-metal dichalcogenides": [
+            "transition metal dichalcogenide"
+          ],
+          "TMDs / 2D chalcogenides": [
+            "transition metal dichalcogenide"
+          ],
+          "Other 2D / van der Waals materials": [
+            "heterobilayer",
+            "monolayer"
+          ]
+        },
+        "properties": {
+          "Transport / diffusion": [
+            "diffusion length"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v2"
+      ]
+    },
+    {
+      "arxiv_id": "2606.18939",
+      "version": "v1",
+      "versioned_id": "2606.18939v1",
+      "title": "Thermodynamic-Kinetic Decoupling Enables Stable Excitonic Emission in Defect-Tolerant Cu-Based Quantum Dots",
+      "authors": [
+        "Haoran Chen",
+        "Zhipeng Xu",
+        "Chunjian Li",
+        "Lei Hou",
+        "Dechao Yu",
+        "Xiaobin Xie",
+        "Yue Liu",
+        "Bohua Dong",
+        "Lixin Cao",
+        "Chenghui Xia"
+      ],
+      "abstract": "Colloidal quantum dots that simultaneously offer room-temperature single-photon purity and high photoluminescence quantum yield are sought for quantum optics, but remain elusive in environmentally benign materials. We introduce a thermodynamic-kinetic decoupling strategy that transforms defect-tolerant CuInS2 quantum dots into bright, narrowband, and photostable single-photon emitters. Zn2+ alloying strains the lattice, thermodynamically suppressing native copper vacancies and narrowing the emission from a broad defect band of approximately 300 meV to an excitonic line of approximately 120 meV. Ga3+ incorporation then kinetically pins the cation sublattice against Cu+ migration, preventing defect regeneration during ZnS shell growth. The resulting Cd-free core/shell dots achieve near-unity quantum yield of approximately 98% while retaining narrow excitonic emission. Critically, room-temperature single-dot spectroscopy reveals homogeneous linewidths as low as approximately 58 meV, strongly suppressed blinking, and high-purity single-photon emission with g2(0) = 0.06. This stabilized excitonic emission directly reduces reabsorption losses in luminescent solar concentrators, yielding an external optical efficiency of 12.68%. Our work establishes a generalizable framework to unlock intrinsic excitonic photophysics in ion-mobile, defect-prone semiconductors, opening a viable path toward high-performance heavy-metal-free emitters for quantum light sources.",
+      "submitted": "2026-06-17T11:21:45Z",
+      "updated": "2026-06-17T11:21:45Z",
+      "categories": [
+        "physics.optics",
+        "cond-mat.mes-hall"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2606.18939v1",
+      "arxiv_url": "https://arxiv.org/abs/2606.18939",
+      "study_type": "Experimental",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [
+        "quantum dots"
+      ],
+      "material_families": [
+        "Quantum-confined structures"
+      ],
+      "exciton_properties": [
+        "Linewidth / dephasing"
+      ],
+      "applications": [],
+      "methods": [
+        "Photoluminescence",
+        "Linewidth / fine structure"
+      ],
+      "matched_keywords": [
+        "exciton",
+        "excitonic",
+        "linewidth",
+        "photoluminescence"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [
+          "spectroscopy reveals"
+        ],
+        "computational_actions": [],
+        "experimental_methods": {
+          "Photoluminescence": [
+            "photoluminescence"
+          ],
+          "Linewidth / fine structure": [
+            "linewidth"
+          ]
+        },
+        "computational_methods": {},
+        "materials": {
+          "quantum dots": [
+            "quantum dot"
+          ],
+          "Quantum-confined structures": [
+            "quantum dot"
+          ]
+        },
+        "properties": {
+          "Linewidth / dephasing": [
+            "linewidth"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": true,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2606.18647",
+      "version": "v1",
+      "versioned_id": "2606.18647v1",
+      "title": "Trion Hall effect in electron-hole double layers",
+      "authors": [
+        "Raghav Chaturvedi",
+        "Phuong X. Nguyen",
+        "Patrick Knüppel",
+        "Kenji Watanabe",
+        "Takashi Taniguchi",
+        "Kin Fai Mak",
+        "Jie Shan"
+      ],
+      "abstract": "The realization of Coulomb coupled electron-hole double layers in 2D semiconductor heterostructures has enabled the thermodynamic and transport studies of equilibrium exciton fluids without a magnetic field. By doping the exciton fluid with additional electrons/holes, an equilibrium fluid of trions - three particle bound states of electrons and holes - further emerge, providing the platform to explore new transport phenomena associated with such composite particles. Here we report the observation of a Hall effect for trions in MoSe2/WSe2 heterobilayers, which support Coulomb-coupled electron and hole fluids with tunable densities. The Hall effect arises from a Lorentz force on trions under a perpendicular magnetic field. It is manifested in both Hall drag measurements and standard Hall effect measurements on just one of the semiconductor layers. For negatively charged trions, an electron Hall effect is observed even in a hole doped WSe2 monolayer due to the presence of trion drags. The trion Hall effect also disappears when the trions are ionized at elevated temperatures and/or high trion densities. Our work opens the door for realizing quantum oscillations and the quantum Hall effect for trions.",
+      "submitted": "2026-06-17T03:31:58Z",
+      "updated": "2026-06-17T03:31:58Z",
+      "categories": [
+        "cond-mat.mes-hall",
+        "cond-mat.other",
+        "cond-mat.str-el",
+        "quant-ph"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2606.18647v1",
+      "arxiv_url": "https://arxiv.org/abs/2606.18647",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [
+        "MoSe2",
+        "WSe2"
+      ],
+      "material_families": [
+        "TMDs / 2D chalcogenides",
+        "Other 2D / van der Waals materials"
+      ],
+      "exciton_properties": [],
+      "applications": [],
+      "methods": [],
+      "matched_keywords": [
+        "exciton"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [
+          "we report"
+        ],
+        "computational_actions": [],
+        "experimental_methods": {},
+        "computational_methods": {},
+        "materials": {
+          "MoSe2": [
+            "mose2"
+          ],
+          "WSe2": [
+            "wse2"
+          ],
+          "TMDs / 2D chalcogenides": [
+            "mose2",
+            "wse2"
+          ],
+          "Other 2D / van der Waals materials": [
+            "heterobilayer",
+            "monolayer"
+          ]
+        },
+        "properties": {},
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2606.18401",
+      "version": "v1",
+      "versioned_id": "2606.18401v1",
+      "title": "Negative diffusivity of excitons in electron-hole plasmas",
+      "authors": [
+        "H. Terças",
+        "V. N. Mantsevich"
+      ],
+      "abstract": "We develop a minimal hydrodynamic framework to describe exciton transport in the presence of an electron hole plasma in 2D semiconductors. Treating excitons, electrons, and holes as coupled fluids, we show that exciton diffusion is strongly renormalized by momentum exchange with the plasma. In the collisional regime, mutual diffusion leads to a nontrivial redistribution of transport coefficients but preserves the positivity of the exciton diffusivity. In contrast, when plasma inertia and collective charge oscillations are accounted for, the exciton diffusive mode hybridizes with acoustic plasma modes, giving rise to a dynamical instability manifested as an effective negative diffusion coefficient. We demonstrate that this instability originates from the nonequilibrium coupling between slow excitons and fast plasma degrees of freedom, rather than from nonlinear diffusion or thermodynamic effects. Our results provide a unified physical mechanism for negative exciton diffusivity reported in recent experiments and establish collective plasma dynamics as a key control parameter of exciton transport in 2D materials.",
+      "submitted": "2026-06-16T18:48:33Z",
+      "updated": "2026-06-16T18:48:33Z",
+      "categories": [
+        "cond-mat.mes-hall",
+        "cond-mat.quant-gas"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2606.18401v1",
+      "arxiv_url": "https://arxiv.org/abs/2606.18401",
+      "study_type": "Experimental",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [
+        "2D materials"
+      ],
+      "material_families": [
+        "Other 2D / van der Waals materials"
+      ],
+      "exciton_properties": [
+        "Transport / diffusion"
+      ],
+      "applications": [],
+      "methods": [
+        "Exciton lifetime / dynamics"
+      ],
+      "matched_keywords": [
+        "exciton",
+        "exciton diffusion"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [],
+        "experimental_methods": {
+          "Exciton lifetime / dynamics": [
+            "exciton diffusion"
+          ]
+        },
+        "computational_methods": {},
+        "materials": {
+          "2D materials": [
+            "2d material"
+          ],
+          "Other 2D / van der Waals materials": [
+            "2d material"
+          ]
+        },
+        "properties": {
+          "Transport / diffusion": [
+            "exciton transport",
+            "exciton diffusion"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": true,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2606.17407",
+      "version": "v1",
+      "versioned_id": "2606.17407v1",
+      "title": "Bistable topological edge states in polariton microcavities with unpaired Dirac cones",
+      "authors": [
+        "Zhuo Zhang",
+        "Yaroslav V. Kartashov",
+        "Yongdong Li",
+        "Zhen-Nan Tian",
+        "Qi-Dai Chen",
+        "Yiqi Zhang"
+      ],
+      "abstract": "Among the most intriguing properties of honeycomb lattices is the presence of Dirac points that typically emerge in pairs, which can be destroyed by physical effects breaking certain symmetries of the system and leading to nontrivial band topology. We propose a nonlinear microcavity system supporting condensate of exciton-polaritons, where simultaneous breakup of inversion and time-reversal symmetries results in unusual spectrum with unpaired Dirac cones, profoundly affecting the properties of unidirectional edge states. Realized as an array of microcavity pillars, the inversion symmetry is broken by fission of pillar belonging to one of sublattices of honeycomb array into three pillars, while time-reversal symmetry is broken due to interplay of Zeeman splitting in the external magnetic field and spin-orbit coupling. Despite the absence of complete spectral gap, unidirectional edge states may still emerge that can circumvent array corners. Resonant optical pumping leads to reach bistability effects and allow selective excitation of the edge states. We obtain first example of stable localized dissipative edge soliton that circulates along the periphery of insulator over indefinitely long times without radiation. Our results suggest a new platform for nonlinear topological photonics and reveal nontrivial interplay between unpaired Dirac cones and nonlinear effects.",
+      "submitted": "2026-06-16T01:42:09Z",
+      "updated": "2026-06-16T01:42:09Z",
+      "categories": [
+        "physics.optics",
+        "nlin.PS"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2606.17407v1",
+      "arxiv_url": "https://arxiv.org/abs/2606.17407",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [],
+      "material_families": [],
+      "exciton_properties": [
+        "g-factor / Zeeman splitting",
+        "Light-matter strong coupling"
+      ],
+      "applications": [
+        "Exciton polaritons",
+        "Light–matter coupling"
+      ],
+      "methods": [],
+      "matched_keywords": [
+        "exciton",
+        "polariton"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [],
+        "experimental_methods": {},
+        "computational_methods": {},
+        "materials": {},
+        "properties": {
+          "g-factor / Zeeman splitting": [
+            "zeeman splitting"
+          ],
+          "Light-matter strong coupling": [
+            "exciton-polariton"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2606.16702",
+      "version": "v1",
+      "versioned_id": "2606.16702v1",
+      "title": "Activated Migration of Localized Ligand-Field Excitons in Atomically Thin CrCl3",
+      "authors": [
+        "Hyesun Kim",
+        "Renlong Liu",
+        "Sangho Yoon",
+        "Hyunjong Lim",
+        "Takashi Taniguchi",
+        "Kenji Watanabe",
+        "Jonghwan Kim",
+        "Changgu Lee",
+        "Sunmin Ryu"
+      ],
+      "abstract": "Two-dimensional crystals with densely packed atoms exhibit a range of emerging properties, particularly a wide variety of excitonic behaviors. Thickness-variable layered chromium trihalides with finite surface recombination sites provide an ideal system for understanding how excitons confined in octahedral ligand fields migrate on nanometer length scales, a regime that defies conventional transport probes. In this work, we demonstrate that Cr3+-derived photoluminescence in CrCl3 is spectrally thickness-independent, but its relaxation dynamics are strongly sensitive to thickness and temperature, thereby indicating significant activated migration. A diffusion-coupled surface recombination model reveals an effective out-of-plane diffusivity of 4.5 x 10-6 cm2/s for the ligand-field excitons and a diffusion activation energy of 130 meV. The latter is comparable to the reorganization energy independently estimated from optical Stokes shifts, suggesting that exciton transport is coupled to local lattice relaxation. Furthermore, we show that the relaxation dynamics can be systematically tuned by either enhancing or suppressing surface recombination through controlled surface reactions or encapsulation. This work not only reveals the nanoscopic transport of localized ligand-field excitons but also establishes a spectroscopic transport probe applicable to various 2D materials.",
+      "submitted": "2026-06-15T13:36:01Z",
+      "updated": "2026-06-15T13:36:01Z",
+      "categories": [
+        "cond-mat.mtrl-sci",
+        "physics.chem-ph"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2606.16702v1",
+      "arxiv_url": "https://arxiv.org/abs/2606.16702",
+      "study_type": "Experimental",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [
+        "2D materials"
+      ],
+      "material_families": [
+        "Other 2D / van der Waals materials"
+      ],
+      "exciton_properties": [
+        "Lifetime / relaxation",
+        "Transport / diffusion"
+      ],
+      "applications": [],
+      "methods": [
+        "Photoluminescence"
+      ],
+      "matched_keywords": [
+        "exciton",
+        "excitonic",
+        "photoluminescence"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [],
+        "experimental_methods": {
+          "Photoluminescence": [
+            "photoluminescence"
+          ]
+        },
+        "computational_methods": {},
+        "materials": {
+          "2D materials": [
+            "2d material"
+          ],
+          "Other 2D / van der Waals materials": [
+            "2d material"
+          ]
+        },
+        "properties": {
+          "Lifetime / relaxation": [
+            "relaxation dynamics"
+          ],
+          "Transport / diffusion": [
+            "exciton transport"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": true,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2606.16557",
+      "version": "v1",
+      "versioned_id": "2606.16557v1",
+      "title": "Moiré trapping of quadrupolar excitons in van der Waals trilayers",
+      "authors": [
+        "Indrajit Maity",
+        "Arash A. Mostofi",
+        "Ángel Rubio",
+        "Johannes Lischner"
+      ],
+      "abstract": "Quadrupolar excitons in van der Waals heterostructures - quantum superpositions of anti-aligned dipolar excitons - offer a novel platform to explore exotic many-body physics, with applications to quantum sensing and photonic devices. Yet their internal structure, symmetry, and real-space localisation remain largely unknown. Here, we reveal the atomic-scale structure of quadrupolar excitons in twisted WSe2/WS2/WSe2 trilayers by solving the Bethe-Salpeter equation within a large-scale atomistic framework. We discover that large atomic relaxations at small twist angles give rise to two distinct quadrupolar excitons trapped at moiré lattice sites, differing in the in-plane symmetry of the electron density about the hole: one azimuthally symmetric, with the density maximal at the hole, and one threefold symmetric, with a node at the hole. Moiré trapping, neglected in commonly used models of quadrupolar exciton formation, is critical to their many-exciton phases. Without moiré trapping, quadrupolar excitons transition into anti-parallel dipolar excitons on a bipartite square lattice, while with trapping, the same dipoles are confined to a triangular lattice and experience geometric frustration. Our study uncovers the highly non-trivial nature of quadrupolar excitons, with direct implications for simulating frustrated quantum magnetism in a fully tunable excitonic platform.",
+      "submitted": "2026-06-15T10:57:36Z",
+      "updated": "2026-06-15T10:57:36Z",
+      "categories": [
+        "cond-mat.mtrl-sci"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2606.16557v1",
+      "arxiv_url": "https://arxiv.org/abs/2606.16557",
+      "study_type": "Computational",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [
+        "WS2",
+        "WSe2",
+        "2D materials"
+      ],
+      "material_families": [
+        "TMDs / 2D chalcogenides",
+        "Other 2D / van der Waals materials"
+      ],
+      "exciton_properties": [
+        "Many-exciton interactions"
+      ],
+      "applications": [],
+      "methods": [
+        "Bethe–Salpeter equation"
+      ],
+      "matched_keywords": [
+        "bethe-salpeter",
+        "exciton",
+        "excitonic"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [],
+        "experimental_methods": {},
+        "computational_methods": {
+          "Bethe–Salpeter equation": [
+            "bethe-salpeter"
+          ]
+        },
+        "materials": {
+          "WS2": [
+            "ws2"
+          ],
+          "WSe2": [
+            "wse2"
+          ],
+          "2D materials": [
+            "van der waals heterostructure"
+          ],
+          "TMDs / 2D chalcogenides": [
+            "ws2",
+            "wse2"
+          ],
+          "Other 2D / van der Waals materials": [
+            "van der waals"
+          ]
+        },
+        "properties": {
+          "Many-exciton interactions": [
+            "many-exciton"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": true
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2606.16397",
+      "version": "v1",
+      "versioned_id": "2606.16397v1",
+      "title": "Quantum oscillations in proximity to high-angular-momentum band inversion",
+      "authors": [
+        "Jiahao Yang",
+        "Gang v. Chen"
+      ],
+      "abstract": "Quantum oscillations provide a fundamental probe of electronic structure in magnetic fields, revealing the Fermi surface topology in metals, and/or the quasiparticle properties even in the insulating regimes. Here we study quantum oscillations in minimal models of high-angular-momentum (HAM) band inversion for both a chiral two-band model and a time-reversal-invariant four-band model. In the former case, finite oscillations can appear at the hybridized Chern-insulating regime due to thermal-activated excitations. In the latter case, interference between the two time-reversal-related blocks drives a strong deviation from the Lifshitz-Kosevich form, producing a non-monotonic temperature dependence of the oscillation amplitude and characteristic suppression temperatures whose number follows the angular momentum $l$. These results identify experimentally accessible signatures of HAM band inversion and provide a framework for other discrete-symmetry-related hybridizations and excitonic pairings.",
+      "submitted": "2026-06-15T08:36:11Z",
+      "updated": "2026-06-15T08:36:11Z",
+      "categories": [
+        "cond-mat.str-el",
+        "cond-mat.mes-hall",
+        "cond-mat.mtrl-sci"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2606.16397v1",
+      "arxiv_url": "https://arxiv.org/abs/2606.16397",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [],
+      "material_families": [],
+      "exciton_properties": [],
+      "applications": [],
+      "methods": [],
+      "matched_keywords": [
+        "exciton",
+        "excitonic"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [
+          "experimentally"
+        ],
+        "computational_actions": [],
+        "experimental_methods": {},
+        "computational_methods": {},
+        "materials": {},
+        "properties": {},
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2606.16233",
+      "version": "v1",
+      "versioned_id": "2606.16233v1",
+      "title": "Hidden chirality and half-vortex formation in exciton-polariton condensates",
+      "authors": [
+        "A. N. Osipov",
+        "I. Y. Chestnov",
+        "P. G. Lagoudakis",
+        "A. V. Yulin"
+      ],
+      "abstract": "We show that a radially symmetric, nonresonantly pumped spinor exciton-polariton condensate can acquire chirality without a rotating drive, chiral geometry, or pump orbital angular momentum. Spin relaxation in a two-reservoir system shifts the reservoir-induced blueshift relative to the gain profile, creating an effective non-Hermitian chiral potential. A reduced angular-mode theory reveals tunable exceptional points and non-reciprocal coupling between counter-rotating modes. Full driven-dissipative Gross-Pitaevskii simulations show that this hidden chirality enables all-optical formation of spin-selective half-vortices.",
+      "submitted": "2026-06-15T05:31:16Z",
+      "updated": "2026-06-15T05:31:16Z",
+      "categories": [
+        "cond-mat.mes-hall",
+        "physics.optics"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2606.16233v1",
+      "arxiv_url": "https://arxiv.org/abs/2606.16233",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [],
+      "material_families": [],
+      "exciton_properties": [
+        "Light-matter strong coupling"
+      ],
+      "applications": [
+        "Exciton polaritons"
+      ],
+      "methods": [],
+      "matched_keywords": [
+        "exciton",
+        "polariton"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [
+          "simulations show"
+        ],
+        "experimental_methods": {},
+        "computational_methods": {},
+        "materials": {},
+        "properties": {
+          "Light-matter strong coupling": [
+            "exciton-polariton"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2606.15344",
+      "version": "v1",
+      "versioned_id": "2606.15344v1",
+      "title": "Generative modelling powered by room-temperature polariton condensates",
+      "authors": [
+        "Yuan Wang",
+        "Marcin Muszynski",
+        "Avinash Dash",
+        "Rishabh Kaurav",
+        "Vinod M. Menon",
+        "Oleksandr Kyriienko"
+      ],
+      "abstract": "Generative modelling requires efficient stochastic nonlinear transformations and physical platforms that can naturally realise them. We experimentally demonstrate that nonlinear optical systems operating in the strong light-matter coupling regime can serve as physical transformation layers for conditional generative modelling. Specifically, we develop a workflow in which room-temperature exciton-polariton condensates formed in organic dye microcavities act as a physical stochastic transform within a generative adversarial network and enable conditional digit-to-image translation. By using the nonlinear many-body dynamics and intrinsic stochasticity of polariton condensates, the workflow outperforms baseline approaches based on digitally injected perturbations. We find that polariton-enabled sampling via generative adversarial network (Polariton GAN) yields improved inception score, digit preservation accuracy and structural similarity compared with both digital sampling and laser-based systems. We further show that spatially correlated output variations can naturally regularise adversarial training and enhance output diversity. Our results establish polariton condensation as a new computational resource for generative modelling, opening a pathway towards physics-enhanced machine learning systems.",
+      "submitted": "2026-06-13T15:07:27Z",
+      "updated": "2026-06-13T15:07:27Z",
+      "categories": [
+        "cond-mat.dis-nn",
+        "cs.LG",
+        "physics.optics",
+        "quant-ph"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2606.15344v1",
+      "arxiv_url": "https://arxiv.org/abs/2606.15344",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Methods / software",
+      "materials": [],
+      "material_families": [],
+      "exciton_properties": [
+        "Light-matter strong coupling"
+      ],
+      "applications": [
+        "Exciton polaritons",
+        "Light–matter coupling"
+      ],
+      "methods": [],
+      "matched_keywords": [
+        "exciton",
+        "polariton"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [
+          "experimentally"
+        ],
+        "computational_actions": [
+          "using"
+        ],
+        "experimental_methods": {},
+        "computational_methods": {},
+        "materials": {},
+        "properties": {
+          "Light-matter strong coupling": [
+            "exciton-polariton",
+            "strong light-matter coupling"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2606.17086",
+      "version": "v1",
+      "versioned_id": "2606.17086v1",
+      "title": "Excitonic Condensation in an Asymmetric Electron-Hole Biwire",
+      "authors": [
+        "Gautam Shah",
+        "Vinod Ashokan",
+        "N. D. Drummond",
+        "K. N. Pathak"
+      ],
+      "abstract": "We study a mass-asymmetric one-dimensional electron-hole biwire system at zero temperature using the diffusion quantum Monte Carlo method. Pair correlation functions and condensate fraction are obtained over a wide range of carrier densities $r_{\\rm s}$ and interwire separations $d$, allowing us to construct the phase diagram. We identify regimes corresponding to a two-component electron-hole plasma, an excitonic fluid with quasicondensation, and a Wigner-correlated phase at various densities. Owing to reduced dimensionality, strong electron-hole correlations favor excitonic quasicondensation even in the high-density limit, persisting down to $r_{\\rm s} = 0.3$ a.u. These results provide a microscopic characterization of correlation-driven phases in electron-hole systems in one dimension.",
+      "submitted": "2026-06-12T16:04:05Z",
+      "updated": "2026-06-12T16:04:05Z",
+      "categories": [
+        "cond-mat.mes-hall",
+        "cond-mat.quant-gas",
+        "cond-mat.str-el"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2606.17086v1",
+      "arxiv_url": "https://arxiv.org/abs/2606.17086",
+      "study_type": "Computational",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [],
+      "material_families": [],
+      "exciton_properties": [],
+      "applications": [],
+      "methods": [
+        "Quantum Monte Carlo"
+      ],
+      "matched_keywords": [
+        "exciton",
+        "excitonic",
+        "quantum monte carlo"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [
+          "using"
+        ],
+        "experimental_methods": {},
+        "computational_methods": {
+          "Quantum Monte Carlo": [
+            "quantum monte carlo"
+          ]
+        },
+        "materials": {},
+        "properties": {},
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": true
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2606.14527",
+      "version": "v1",
+      "versioned_id": "2606.14527v1",
+      "title": "Extreme-ultraviolet optical response of atomically-thin molybdenum disulfide",
+      "authors": [
+        "G. Fiorentini",
+        "N. Di Palo",
+        "G. Inzani",
+        "G. L. Dolso",
+        "S. Bonetti",
+        "Q. Li",
+        "F. Liu",
+        "X. Zhu",
+        "A. Giglia",
+        "N. Mahne",
+        "L. Pasquali",
+        "M. D'Alessandro",
+        "M. Malakhov",
+        "M. Camarasa-Gómez",
+        "J. J. Esteve-Paredes",
+        "J. J. Palacios",
+        "R. Borrego-Varillas",
+        "M. Nisoli",
+        "A. Picón",
+        "D. Sangalli",
+        "M. Lucchini"
+      ],
+      "abstract": "We report multi-angle reflectivity measurements in the extreme-ultraviolet (XUV) range for mono- and bilayer MoS$_2$ on a Si$_3$N$_4$ substrate. Using a single-sheet 2D conductivity model, we extract the complex optical response of the MoS$_2$ bilayer between 25 and 90 eV and derive an effective refractive index by introducing a thickness equal to the interlayer spacing. The MoS$_2$ monolayer response is consistently reproduced either by halving the 2D conductivity or the effective thickness, indicating a robust scaling with layer number. The resulting optical constants display a broad resonance at the Mo N$_{2,3}$ edge with no signatures of sharp core-exciton features despite the reduced dimensionality. First-principles calculations reproduce the experimental results and show that local-field (Hartree) effects dominate the XUV response, while screened-exchange (SEX) contributions remain weak and mainly induce spectral shifts. Our analysis demonstrates that excitonic effects play a minor role in the XUV optical response of atomically thin MoS$_2$, highlighting key differences with respect to the visible and infrared regimes, and calling for a reassessment of the use of Mo-based transition metal dichalcogenides in attosecond spectroscopy and XUV excitonics.",
+      "submitted": "2026-06-12T15:01:41Z",
+      "updated": "2026-06-12T15:01:41Z",
+      "categories": [
+        "physics.optics"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2606.14527v1",
+      "arxiv_url": "https://arxiv.org/abs/2606.14527",
+      "study_type": "Theory + Experiment",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [
+        "MoS2",
+        "transition-metal dichalcogenides"
+      ],
+      "material_families": [
+        "TMDs / 2D chalcogenides",
+        "Other 2D / van der Waals materials"
+      ],
+      "exciton_properties": [],
+      "applications": [],
+      "methods": [
+        "Absorption / reflectance",
+        "DFT"
+      ],
+      "matched_keywords": [
+        "exciton",
+        "excitonic",
+        "first-principles",
+        "reflectivity"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [
+          "we report",
+          "experimental results"
+        ],
+        "computational_actions": [
+          "using",
+          "first-principles calculations"
+        ],
+        "experimental_methods": {
+          "Absorption / reflectance": [
+            "reflectivity"
+          ]
+        },
+        "computational_methods": {
+          "DFT": [
+            "first-principles"
+          ]
+        },
+        "materials": {
+          "MoS2": [
+            "molybdenum disulfide"
+          ],
+          "transition-metal dichalcogenides": [
+            "transition metal dichalcogenide"
+          ],
+          "TMDs / 2D chalcogenides": [
+            "transition metal dichalcogenide",
+            "molybdenum disulfide"
+          ],
+          "Other 2D / van der Waals materials": [
+            "monolayer"
+          ]
+        },
+        "properties": {},
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": true,
+        "computational": true
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2606.13424",
+      "version": "v1",
+      "versioned_id": "2606.13424v1",
+      "title": "Dopant-induced modifications of the optical properties of GaSe",
+      "authors": [
+        "Jakub Sójka",
+        "Katarzyna Olkowska-Pucko",
+        "Kacper Walczyk",
+        "Zakhar R. Kudrynskyi",
+        "Volodymyr Boledzjuk",
+        "Adam Babiński",
+        "Maciej R. Molas",
+        "Grzegorz Krasucki"
+      ],
+      "abstract": "Doping plays a crucial role in tailoring the electronic, optical, and magnetic properties of semiconductors, enabling control of carrier dynamics and the formation of functional states for optoelectronic applications. We investigate the influence of Fe dopants on the optical properties of GaSe crystals using photoluminescence (PL) spectroscopy under varying excitation power, temperature, and magnetic field. Fe incorporation introduces multiple sharp emission lines in addition to intrinsic excitonic transitions, including free and localised excitons. Power- and temperature-dependent measurements indicate that these emission features are associated with Fe-related dopant centres (Fe-bound excitons). Magneto-PL measurements reveal two distinct families of $g$-factors, enabling the identification of intrinsic excitonic transitions and Fe-induced defect states. These results demonstrate that Fe doping creates optically and magnetically active centres in GaSe, providing insight into defect-related excitonic processes and their potential relevance for magneto-optoelectronic and quantum photonic applications.",
+      "submitted": "2026-06-11T14:53:29Z",
+      "updated": "2026-06-11T14:53:29Z",
+      "categories": [
+        "cond-mat.mtrl-sci"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2606.13424v1",
+      "arxiv_url": "https://arxiv.org/abs/2606.13424",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [],
+      "material_families": [],
+      "exciton_properties": [],
+      "applications": [],
+      "methods": [
+        "Photoluminescence",
+        "Exciton lifetime / dynamics"
+      ],
+      "matched_keywords": [
+        "carrier dynamics",
+        "exciton",
+        "excitonic",
+        "photoluminescence"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [
+          "measurements reveal"
+        ],
+        "computational_actions": [
+          "using"
+        ],
+        "experimental_methods": {
+          "Photoluminescence": [
+            "photoluminescence"
+          ],
+          "Exciton lifetime / dynamics": [
+            "carrier dynamics"
+          ]
+        },
+        "computational_methods": {},
+        "materials": {},
+        "properties": {},
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2606.13365",
+      "version": "v1",
+      "versioned_id": "2606.13365v1",
+      "title": "Bandedge-state-limited single-photon emission from volumetric quantum design of 2D colloidal quantum wells",
+      "authors": [
+        "Xiao Liang",
+        "Bo Wang",
+        "Yue Yu",
+        "Pedro Ludwig Hernandez-Martinez",
+        "Zengshan Xing",
+        "Lu Ding",
+        "Vijay Kumar Sharma",
+        "Tze Chien Sum",
+        "Hilmi Volkan Demir"
+      ],
+      "abstract": "Present-day solution-processable single-photon sources are dominated by three-dimensionally confined colloidal quantum dot emitters, yet their particle-to-particle variation in single-exciton properties limits reproducibility and scalability. Here, to avoid such heterogeneity, we demonstrate reliable room-temperature single-photon emission from atomically flat two-dimensional (2D) colloidal quantum wells (CQWs) with inherently uniform one-dimensional quantum confinement, despite their long-standing limitations of efficient multiexciton emission and pronounced exciton-surface susceptibility. We resolve these challenges through volumetric quantum design (VQD) of CQWs, yielding a highly localized, single bandedge state. This design laterally confines the bandedge excitonic domain within the exciton coherent area and vertically decouples it from surface states via a thick, strain-relieved quantum-barrier shell that preserves strong confinement, overcoming the daunting thickness-confinement trade-off in 2D CQWs. Statistical single-particle spectroscopy reveals that VQD-CQWs deliver near-blinking-free (on-time >99.5%) and fluence-insensitive antibunching (g(2)(0): 0.041), protected by a bandedge-state-filling bottleneck, together with linear polarization of up to 73% under cavity-free conditions, originating from synergistic transition-dipole and electric-field anisotropies. These advances establish 2D CQWs as a viable, homogenous and scalable platform for quantum technologies.",
+      "submitted": "2026-06-11T13:50:18Z",
+      "updated": "2026-06-11T13:50:18Z",
+      "categories": [
+        "physics.app-ph"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2606.13365v1",
+      "arxiv_url": "https://arxiv.org/abs/2606.13365",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [
+        "quantum dots"
+      ],
+      "material_families": [
+        "Quantum-confined structures"
+      ],
+      "exciton_properties": [],
+      "applications": [],
+      "methods": [],
+      "matched_keywords": [
+        "exciton",
+        "excitonic"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [
+          "spectroscopy reveals"
+        ],
+        "computational_actions": [],
+        "experimental_methods": {},
+        "computational_methods": {},
+        "materials": {
+          "quantum dots": [
+            "quantum dot"
+          ],
+          "Quantum-confined structures": [
+            "quantum dot",
+            "quantum well"
+          ]
+        },
+        "properties": {},
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2606.12525",
+      "version": "v1",
+      "versioned_id": "2606.12525v1",
+      "title": "Composite Quantum Geometry and Semiclassical Dynamics",
+      "authors": [
+        "Henry Davenport",
+        "Yoonseok Hwang",
+        "Johannes Knolle",
+        "Frank Schindler"
+      ],
+      "abstract": "We derive semiclassical equations of motion for general composite bound states in insulators and semiconductors, covering excitations such as excitons and trions. For neutral composites we find that a uniform external electric field does not couple to a Berry curvature term, contrary to the naive expectation from single-electron dynamics. Instead, a distinct quantum geometric quantity appears generically in the equations of motion. This quantity is the difference between inequivalent Berry connections that can be defined for the composite, generalising the concept of the quantum geometric dipole previously studied for excitons. In the case of charged composites such as trions, we find an additional Berry curvature contribution to the equations of motion. As we demonstrate, however, there is an infinite family of inequivalent composite Berry curvatures, and so care must be taken to make the correct choice that describes the physical dynamics. We explain how this choice should be made dependent on the definition of a spatial centre for the composite. We end by discussing composite dynamics that have no single-electron counterpart. We find that trions in magic-angle twisted bilayer graphene undergo a transverse drift under an applied electric field and that this is driven not only by the Berry curvature contribution but also by the quantum geometric dipole. The interplay of these two geometric contributions further imprints itself on the trion's internal dynamics, causing its dipole moment to oscillate in time.",
+      "submitted": "2026-06-10T18:00:02Z",
+      "updated": "2026-06-10T18:00:02Z",
+      "categories": [
+        "cond-mat.mes-hall",
+        "cond-mat.str-el"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2606.12525v1",
+      "arxiv_url": "https://arxiv.org/abs/2606.12525",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [],
+      "material_families": [],
+      "exciton_properties": [],
+      "applications": [],
+      "methods": [],
+      "matched_keywords": [
+        "exciton"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [
+          "using"
+        ],
+        "experimental_methods": {},
+        "computational_methods": {},
+        "materials": {},
+        "properties": {},
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2606.12221",
+      "version": "v1",
+      "versioned_id": "2606.12221v1",
+      "title": "Quantum dynamic simulation of triplet formation in an effective model of Y6 (BTP-4F)",
+      "authors": [
+        "Isabel Creed",
+        "Lucy J. F. Hart",
+        "Pranay Venkatesh",
+        "Tom Ward",
+        "Jarvist Moore Frost"
+      ],
+      "abstract": "We construct a five-state model for photoexcitation in Y6 (BTP-4F) dimers, and then solve the non-adiabtic dynamics using the Hierarchical Equations of Motion (HEOM) method. We find that triplets are populated mainly via a transiently excited \\textit{intermolecular} charge-transfer singlet to triplet Frenkel exciton route; this route is not available to the monomer. Analysis of one-particle transition density matrices suggests that the charge-transfer states are spatially distinct to the Frenkel exciton states, indicating that the large spin-orbit-coupling for this transition is due to it being permitted by an associated change in orbital character. Aggregation in Y6 therefore directly enables fast and high-yield intersystem crossing. We selenise our model dimers, significantly enhancing spin-orbit-coupling, which then accelerates this charge-transfer mediated route. Looking forwards to simulations on larger aggregates, we show that, though Marcus theory gives qualitatively correct dynamics, the long-time yields are incorrect due to it missing quantum recurrences. Instead, we show that the recently developed memory-kernel projector\\cite{Gestsson2025-ez} method can produce semi-classical rates directly from the HEOM equations which lead to quantitatively correct dynamics and yields.",
+      "submitted": "2026-06-10T15:32:33Z",
+      "updated": "2026-06-10T15:32:33Z",
+      "categories": [
+        "cond-mat.mtrl-sci"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2606.12221v1",
+      "arxiv_url": "https://arxiv.org/abs/2606.12221",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [],
+      "material_families": [],
+      "exciton_properties": [],
+      "applications": [],
+      "methods": [],
+      "matched_keywords": [
+        "exciton"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [
+          "using"
+        ],
+        "experimental_methods": {},
+        "computational_methods": {},
+        "materials": {},
+        "properties": {},
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2606.12053",
+      "version": "v1",
+      "versioned_id": "2606.12053v1",
+      "title": "Heisenberg-Langevin theory of an exciton mirror",
+      "authors": [
+        "Sergueï V. Andreev"
+      ],
+      "abstract": "We develop a Heisenberg-Langevin theory of an exciton mirror accounting for the retardation and the long-range electron-hole exchange. A particular case of a strong transverse magnetic field is analyzed in detail. The optical bistability due to repulsion between the excitons inside the light cone appears to be prone to a modulational instability towards the non-radiative surface polariton modes. Above the corresponding threshold, the pumped 2D exciton gas acts as an optical parametric generator of twin polariton beams. Conversely, below the threshold, the mirror acquires the phase-conjugating properties.",
+      "submitted": "2026-06-10T13:17:03Z",
+      "updated": "2026-06-10T13:17:03Z",
+      "categories": [
+        "cond-mat.mes-hall",
+        "cond-mat.quant-gas"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2606.12053v1",
+      "arxiv_url": "https://arxiv.org/abs/2606.12053",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [],
+      "material_families": [],
+      "exciton_properties": [],
+      "applications": [],
+      "methods": [],
+      "matched_keywords": [
+        "exciton",
+        "polariton"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [],
+        "experimental_methods": {},
+        "computational_methods": {},
+        "materials": {},
+        "properties": {},
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2606.11441",
+      "version": "v1",
+      "versioned_id": "2606.11441v1",
+      "title": "Screening of the Coulomb interaction in Carbon Nanotubes: A First-Principles cRPA study",
+      "authors": [
+        "Mohadese Rezayi",
+        "Hanif Hadipour"
+      ],
+      "abstract": "We investigate the electronic screening of long-range Coulomb interactions in carbon nanotubes with different chiralities using first-principles calculations within the random-phase approximation. Depending on their wrapping vector, carbon nanotubes exhibit either metallic or semiconducting behavior, providing an ideal platform to explore how reduced dimensionality and electronic structure govern screening in one-dimensional systems. The strength of on-site Coulomb interactions in these compounds falls within the range of 3.5 to 5 eV, which is approximately 2-3 eV smaller than the corresponding values in nanoribbon compounds. This reduction subsequently affects the value of long-range interactions, consistent with experimental results regarding the smaller binding energy of excitons in nanotubes. Despite their common carbon backbone, we find that the effective interaction landscape depends not only on metallicity but also sensitively on chirality and band topology. In particular, armchair and zigzag nanotubes with similar electronic character exhibit markedly different screening efficiencies. Our results establish a unified microscopic picture of electronic screening in carbon nanotubes and place them in direct context with previous first-principles studies of low-dimensional carbon nanostructures.",
+      "submitted": "2026-06-09T20:51:35Z",
+      "updated": "2026-06-09T20:51:35Z",
+      "categories": [
+        "cond-mat.mtrl-sci"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2606.11441v1",
+      "arxiv_url": "https://arxiv.org/abs/2606.11441",
+      "study_type": "Computational",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [],
+      "material_families": [],
+      "exciton_properties": [],
+      "applications": [],
+      "methods": [
+        "DFT"
+      ],
+      "matched_keywords": [
+        "exciton",
+        "first-principles"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [
+          "experimental results"
+        ],
+        "computational_actions": [
+          "using",
+          "first-principles calculations"
+        ],
+        "experimental_methods": {},
+        "computational_methods": {
+          "DFT": [
+            "first-principles"
+          ]
+        },
+        "materials": {},
+        "properties": {},
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": true
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2606.10482",
+      "version": "v1",
+      "versioned_id": "2606.10482v1",
+      "title": "Strain-programmable exciton diffusion in moiré heterostructures",
+      "authors": [
+        "Chiho Song",
+        "Chiranjit Mondal",
+        "Jaebin Lee",
+        "Kenji Watanabe",
+        "Takashi Taniguchi",
+        "Bohm-Jung Yang",
+        "Jieun Lee"
+      ],
+      "abstract": "Moiré superlattices in van der Waals heterostructures have recently gained significant attention as an intriguing platform for studying correlated electronic systems and exotic excitonic properties. Previous reports, however, focused on creating and modulating moiré heterostructures through interlayer twisting or lattice constant mismatches, limiting controls on symmetry of heterostructures. In this work, we show that strain significantly alters the geometry of moiré superlattices by breaking the C3 rotational symmetry. We realize strain-induced moiré superlattices by intentionally regulating interlayer strain in WSe2-MoSe2 heterostructures, which is manifested by linearly polarized interlayer exciton emission coupled to the strain direction. Furthermore, interlayer exciton diffusion was preferentially guided along the stretched moiré superlattice orientations over a wide spatial range, reflecting the strain-modified moiré potentials. Our work highlights strain tuning as a versatile tool for designing moiré superlattices and programming excitonic transport, which opens pathways for van der Waals logic and information processing devices.",
+      "submitted": "2026-06-09T06:51:26Z",
+      "updated": "2026-06-09T06:51:26Z",
+      "categories": [
+        "cond-mat.mes-hall"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2606.10482v1",
+      "arxiv_url": "https://arxiv.org/abs/2606.10482",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [
+        "MoSe2",
+        "WSe2",
+        "2D materials"
+      ],
+      "material_families": [
+        "TMDs / 2D chalcogenides",
+        "Other 2D / van der Waals materials"
+      ],
+      "exciton_properties": [
+        "Transport / diffusion"
+      ],
+      "applications": [],
+      "methods": [
+        "Exciton lifetime / dynamics"
+      ],
+      "matched_keywords": [
+        "exciton",
+        "exciton diffusion",
+        "excitonic"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [],
+        "experimental_methods": {
+          "Exciton lifetime / dynamics": [
+            "exciton diffusion"
+          ]
+        },
+        "computational_methods": {},
+        "materials": {
+          "MoSe2": [
+            "mose2"
+          ],
+          "WSe2": [
+            "wse2"
+          ],
+          "2D materials": [
+            "van der waals heterostructure"
+          ],
+          "TMDs / 2D chalcogenides": [
+            "mose2",
+            "wse2"
+          ],
+          "Other 2D / van der Waals materials": [
+            "van der waals"
+          ]
+        },
+        "properties": {
+          "Transport / diffusion": [
+            "exciton diffusion"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2606.09277",
+      "version": "v1",
+      "versioned_id": "2606.09277v1",
+      "title": "Layer-parity-defined surface polarization in Nb$_3$Cl$_8$ for excitonic modulation at van der Waals interfaces",
+      "authors": [
+        "Xinyue Huang",
+        "Hansheng Xu",
+        "Yuchen Gao",
+        "Yushen Zhou",
+        "Zhijie Ma",
+        "Kenji Watanabe",
+        "Takashi Taniguchi",
+        "Zuxin Chen",
+        "Jianqi Huang",
+        "Jianpeng Liu",
+        "Teng Yang",
+        "Youguo Shi",
+        "Yu Ye"
+      ],
+      "abstract": "The intrinsic symmetry breaking in the breathing kagome lattice of layered Nb$_3$Cl$_8$ provides a unique mechanism for realizing electrically polar surfaces. In each monolayer, the trimerization of Nb atoms breaks inversion and mirror symmetries, generating an out-of-plane electric dipole. The AB-stacked $α$ phase arranges adjacent layer dipoles antiferroelectrically, leaving the uncompensated surface polarization strictly governed by layer parity. Here, using atomic force microscopy operated in Kelvin probe force microscopy mode, we directly visualize layer-dependent polarization states in exfoliated Nb$_3$Cl$_8$ flakes and resolve a pronounced odd-even oscillation of the surface electrostatic potential. Beyond this parity-locked antiferroelectric order, we further identify intralayer polar domains in which local atomic reconstructions of the breathing kagome network reverse the out-of-plane dipole of the surface layer, producing ferroelectric-like stacking configurations. By interfacing monolayer MoSe$_2$ with Nb$_3$Cl$_8$, we demonstrate that these surface-polarization textures effectively modulate adjacent excitonic emission through domain-dependent interfacial band alignment and charge transfer. Our findings establish Nb$_3$Cl$_8$ as an intrinsic layer-polarized van der Waals platform and show that layer parity provides powerful structural degree of freedom for programming excitonic and optoelectronic responses at van der Waals interfaces.",
+      "submitted": "2026-06-08T09:44:12Z",
+      "updated": "2026-06-08T09:44:12Z",
+      "categories": [
+        "cond-mat.mtrl-sci",
+        "cond-mat.mes-hall"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2606.09277v1",
+      "arxiv_url": "https://arxiv.org/abs/2606.09277",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [],
+      "material_families": [
+        "Other 2D / van der Waals materials"
+      ],
+      "exciton_properties": [],
+      "applications": [],
+      "methods": [],
+      "matched_keywords": [
+        "exciton",
+        "excitonic"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [
+          "using"
+        ],
+        "experimental_methods": {},
+        "computational_methods": {},
+        "materials": {
+          "Other 2D / van der Waals materials": [
+            "van der waals",
+            "monolayer"
+          ]
+        },
+        "properties": {},
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2606.09192",
+      "version": "v1",
+      "versioned_id": "2606.09192v1",
+      "title": "BSE+ calculations for 2D materials: a unified description of excitons and plasmons",
+      "authors": [
+        "Amalie H. Svaneborg",
+        "and Kristian S. Thygesen"
+      ],
+      "abstract": "The Bethe-Salpeter equation (BSE) accurately describes low-energy optical spectra in materials with strong excitonic effects, but its high computational cost limits the number of electron-hole transitions that can be included. Neglecting high-energy transitions leads to an underestimation of the real part of the dielectric function, often producing a spurious plasmon peak in the BSE electron energy loss spectrum (EELS). The recently introduced BSE+ method addresses this by combining a four-point BSE-like equation for the irreducible polarisability with a two-point Dyson equation that includes the high-energy transitions at the Random Phase Approximation (RPA) level. Here, we present a detailed account of the method, extend it to two-dimensional materials, and apply it to a set of transition metal dichalcogenide monolayers. BSE+ preserves the excitonic features of the BSE at low energies while reproducing the plasmonic structure of the RPA at higher energies, yielding good agreement with experimental EELS data across the full energy range and strongly suppressing the spurious plasmon. BSE+ converges much faster than BSE with respect to the electron-hole basis size, at a comparable computational cost, and is implemented in the GPAW code.",
+      "submitted": "2026-06-08T08:28:12Z",
+      "updated": "2026-06-08T08:28:12Z",
+      "categories": [
+        "cond-mat.mtrl-sci"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2606.09192v1",
+      "arxiv_url": "https://arxiv.org/abs/2606.09192",
+      "study_type": "Computational",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [
+        "transition-metal dichalcogenides",
+        "2D materials"
+      ],
+      "material_families": [
+        "TMDs / 2D chalcogenides",
+        "Other 2D / van der Waals materials"
+      ],
+      "exciton_properties": [],
+      "applications": [],
+      "methods": [
+        "Bethe–Salpeter equation"
+      ],
+      "matched_keywords": [
+        "bethe-salpeter",
+        "exciton",
+        "excitonic"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [],
+        "experimental_methods": {},
+        "computational_methods": {
+          "Bethe–Salpeter equation": [
+            "bethe-salpeter"
+          ]
+        },
+        "materials": {
+          "transition-metal dichalcogenides": [
+            "transition metal dichalcogenide"
+          ],
+          "2D materials": [
+            "two-dimensional material",
+            "2d material"
+          ],
+          "TMDs / 2D chalcogenides": [
+            "transition metal dichalcogenide"
+          ],
+          "Other 2D / van der Waals materials": [
+            "two-dimensional material",
+            "2d material",
+            "monolayer"
+          ]
+        },
+        "properties": {},
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": true
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2606.09097",
+      "version": "v1",
+      "versioned_id": "2606.09097v1",
+      "title": "Helicity-Resolved Spatiotemporal Mapping of Chiral Plexcitons in Helicoids",
+      "authors": [
+        "Jeong Hyun Han",
+        "Sankaran Ramesh",
+        "Jaeyeon Jo",
+        "Pavel Chabera",
+        "Ryeong Myeong Kim",
+        "Sung Hoon Cho",
+        "In Han Ha",
+        "Amitav Sahu",
+        "Yoonsang Tak",
+        "Jiawei Lv",
+        "Miyoung Kim",
+        "Ki Tae Nam",
+        "Tönu Pullerits"
+      ],
+      "abstract": "Plasmon-exciton hybrids, or plexcitons, offer deeply subwavelength light-matter interactions with versatile pathways for energy redistribution. Incorporating chirality into such systems is particularly compelling, enabling spin-sensitive optical functionality that can operate on ultrafast timescales and within ultracompact volumes. Despite recent progress in chiral plexcitonic systems, how structural chirality and plasmon-exciton coupling determine chiroptical spectra and ultrafast energy flow remains elusive. Here we realize chiral plexcitons by functionalizing intrinsically chiral gold helicoid nanoparticles with molecular J-aggregates. Within a non-Hermitian framework, we trace the microscopic origin of the helicoid chiroptical response and its coupling to the excitonic transition, revealing how the helicity of light selectively addresses distinct hybrid responses. At the spatiotemporal extreme, we find that the gap-localized response not only enhances polarization-sensitive contrast but also strengthens the local hybrid interaction, leading to accelerated ultrafast relaxation. Together, these space-, time-, and polarization-resolved measurements provide a physically grounded and experimentally benchmarked picture of chiral plexcitonic coupling, identifying chirality as a practical control parameter for selectively steering nanoscale energy pathways and dynamics.",
+      "submitted": "2026-06-08T06:47:14Z",
+      "updated": "2026-06-08T06:47:14Z",
+      "categories": [
+        "physics.optics",
+        "cond-mat.mes-hall",
+        "physics.chem-ph"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2606.09097v1",
+      "arxiv_url": "https://arxiv.org/abs/2606.09097",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Dataset / benchmark",
+      "materials": [],
+      "material_families": [
+        "Organic / molecular materials"
+      ],
+      "exciton_properties": [],
+      "applications": [],
+      "methods": [],
+      "matched_keywords": [
+        "exciton",
+        "excitonic"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [
+          "experimentally"
+        ],
+        "computational_actions": [],
+        "experimental_methods": {},
+        "computational_methods": {},
+        "materials": {
+          "Organic / molecular materials": [
+            "j-aggregate"
+          ]
+        },
+        "properties": {},
         "relevance": [
           "exciton/excitonic stated in title or abstract"
         ]
@@ -4090,11 +7876,47 @@
       "new": 23,
       "updated": 0,
       "total": 53
+    },
+    {
+      "scanned_at": "2026-07-16T08:22:29.309365+00:00",
+      "since": "2026-06-08",
+      "fetched": 13,
+      "classified": 13,
+      "new": 13,
+      "updated": 0,
+      "total": 66
+    },
+    {
+      "scanned_at": "2026-07-16T08:22:34.547213+00:00",
+      "since": "2026-06-15",
+      "fetched": 21,
+      "classified": 21,
+      "new": 21,
+      "updated": 0,
+      "total": 87
+    },
+    {
+      "scanned_at": "2026-07-16T08:22:39.754737+00:00",
+      "since": "2026-06-22",
+      "fetched": 14,
+      "classified": 14,
+      "new": 14,
+      "updated": 0,
+      "total": 101
+    },
+    {
+      "scanned_at": "2026-07-16T08:22:44.973803+00:00",
+      "since": "2026-06-29",
+      "fetched": 3,
+      "classified": 3,
+      "new": 3,
+      "updated": 0,
+      "total": 104
     }
   ],
   "counts": {
-    "total": 53,
-    "new_this_scan": 23,
+    "total": 104,
+    "new_this_scan": 3,
     "updated_this_scan": 0
   }
 }

@@ -1,13 +1,29 @@
 {
   "range_start": "2026-06-01",
   "range_end": "2026-06-30",
-  "next_since": "2026-06-08",
+  "next_since": "2026-07-01",
   "chunk_days": 7,
-  "complete": false,
+  "complete": true,
   "completed_windows": [
     {
       "since": "2026-06-01",
       "until": "2026-06-07"
+    },
+    {
+      "since": "2026-06-08",
+      "until": "2026-06-14"
+    },
+    {
+      "since": "2026-06-15",
+      "until": "2026-06-21"
+    },
+    {
+      "since": "2026-06-22",
+      "until": "2026-06-28"
+    },
+    {
+      "since": "2026-06-29",
+      "until": "2026-06-30"
     }
   ]
 }
