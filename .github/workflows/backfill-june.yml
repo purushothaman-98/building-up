@@ -2,7 +2,9 @@ name: Backfill June 2026 exciton papers
 on:
   push:
     branches: [master]
-    paths: [".github/workflows/backfill-june.yml"]
+    paths:
+      - ".github/workflows/backfill-june.yml"
+      - "scripts/run_backfill.py"
   schedule:
     - cron: "17 7 * * *"
   workflow_dispatch:
@@ -20,62 +22,18 @@ jobs:
       - uses: actions/setup-python@v6
         with:
           python-version: "3.12"
-      - name: Select next seven-day window
+      - name: Process bounded June windows
         shell: bash
         run: |
-          python - <<'PY' >> "$GITHUB_ENV"
-          import json
-          from datetime import date, timedelta
-          from pathlib import Path
-
-          state = json.loads(Path("data/backfill_state.json").read_text())
-          start = date.fromisoformat(state["next_since"])
-          final = date.fromisoformat(state["range_end"])
-          if state.get("complete") or start > final:
-              print("BACKFILL_SKIP=true")
-          else:
-              end = min(start + timedelta(days=state.get("chunk_days", 7) - 1), final)
-              print("BACKFILL_SKIP=false")
-              print(f"BACKFILL_SINCE={start.isoformat()}")
-              print(f"BACKFILL_UNTIL={end.isoformat()}")
-          PY
-      - name: Query one bounded arXiv window
-        if: env.BACKFILL_SKIP != 'true'
-        run: |
-          python arxiv_scanner.py \
-            --output data/papers.json \
-            --since "$BACKFILL_SINCE" \
-            --until "$BACKFILL_UNTIL" \
-            --max-results 500 \
-            --page-size 100
-      - name: Advance backfill checkpoint
-        if: env.BACKFILL_SKIP != 'true'
-        run: |
-          python - <<'PY'
-          import json
-          import os
-          from datetime import date, timedelta
-          from pathlib import Path
-
-          path = Path("data/backfill_state.json")
-          state = json.loads(path.read_text())
-          start = date.fromisoformat(os.environ["BACKFILL_SINCE"])
-          end = date.fromisoformat(os.environ["BACKFILL_UNTIL"])
-          windows = state.setdefault("completed_windows", [])
-          window = {"since": start.isoformat(), "until": end.isoformat()}
-          if window not in windows:
-              windows.append(window)
-          next_day = end + timedelta(days=1)
-          final = date.fromisoformat(state["range_end"])
-          state["next_since"] = next_day.isoformat()
-          state["complete"] = next_day > final
-          path.write_text(json.dumps(state, indent=2) + "\n")
-          PY
-      - name: Publish backfill slice
-        if: env.BACKFILL_SKIP != 'true'
+          if [ "$GITHUB_EVENT_NAME" = "schedule" ]; then
+            python scripts/run_backfill.py
+          else
+            python scripts/run_backfill.py --all --pause 5
+          fi
+      - name: Publish backfill progress
         run: |
           if git diff --quiet -- data/papers.json data/backfill_state.json; then
-            echo "No backfill changes"
+            echo "June backfill is already complete"
             exit 0
           fi
           git config user.name "github-actions[bot]"
@@ -86,5 +44,3 @@ jobs:
           git commit -m "data: backfill June 2026 exciton papers"
           git pull --rebase origin master
           git push
-
-# Backfill trigger version: 1
