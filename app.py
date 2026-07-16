@@ -1,8 +1,11 @@
 from __future__ import annotations
 
 import html
+import hmac
 import json
 import re
+import urllib.error
+import urllib.request
 from collections import Counter
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
@@ -85,6 +88,36 @@ def load_archive() -> dict:
 
 def load_json(path: Path, default):
     return json.loads(path.read_text(encoding="utf-8")) if path.exists() else default
+
+
+def configured_secret(name: str) -> str | None:
+    try:
+        value = st.secrets.get(name)
+    except Exception:
+        return None
+    return str(value) if value else None
+
+
+def dispatch_live_scan(token: str, since: str) -> None:
+    payload = json.dumps({
+        "ref": "master",
+        "inputs": {"since": since},
+    }).encode("utf-8")
+    request = urllib.request.Request(
+        "https://api.github.com/repos/purushothaman-98/building-up/actions/workflows/scan-arxiv.yml/dispatches",
+        data=payload,
+        method="POST",
+        headers={
+            "Accept": "application/vnd.github+json",
+            "Authorization": f"Bearer {token}",
+            "X-GitHub-Api-Version": "2022-11-28",
+            "Content-Type": "application/json",
+            "User-Agent": "ExcitonResearchScanner/1.0",
+        },
+    )
+    with urllib.request.urlopen(request, timeout=20) as response:
+        if response.status != 204:
+            raise RuntimeError(f"GitHub returned status {response.status}")
 
 
 def pretty(value: str) -> str:
@@ -256,6 +289,37 @@ with st.sidebar:
     selected_methods = st.multiselect("Method", method_options, key="method_filter", format_func=lambda x: f"{x} — {method_counts.get(x, 0)}")
     selected_properties = st.multiselect("Exciton property", property_options, key="property_filter", format_func=lambda x: f"{x} — {property_counts.get(x, 0)}")
     st.button("Clear all filters", use_container_width=True, on_click=clear_filters)
+
+    st.divider()
+    with st.expander("Owner live scan"):
+        st.caption("Starts the arXiv scan now; AI review follows automatically.")
+        actions_token = configured_secret("GITHUB_ACTIONS_TOKEN")
+        admin_password = configured_secret("SCAN_ADMIN_PASSWORD")
+        if not actions_token or not admin_password:
+            st.info("Owner setup required in Streamlit Secrets.")
+        else:
+            supplied_password = st.text_input(
+                "Admin passcode", type="password", key="live_scan_password"
+            )
+            if st.button("Run live scan now", use_container_width=True, type="primary"):
+                if not hmac.compare_digest(supplied_password, admin_password):
+                    st.error("Incorrect admin passcode.")
+                else:
+                    since = (datetime.now(timezone.utc).date() - timedelta(days=14)).isoformat()
+                    try:
+                        dispatch_live_scan(actions_token, since)
+                    except urllib.error.HTTPError as error:
+                        st.error(f"GitHub rejected the scan request ({error.code}).")
+                    except (urllib.error.URLError, TimeoutError, RuntimeError):
+                        st.error("The scan request could not reach GitHub. Please try again.")
+                    else:
+                        st.session_state["live_scan_requested_at"] = datetime.now(timezone.utc).isoformat()
+                        st.success("Live scan started. AI review will begin after metadata collection.")
+            st.link_button(
+                "View workflow status",
+                "https://github.com/purushothaman-98/building-up/actions/workflows/scan-arxiv.yml",
+                use_container_width=True,
+            )
 
 def searchable_text(paper: dict) -> str:
     values = [
