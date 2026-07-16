@@ -23,7 +23,7 @@ permissions:
   models: read
 concurrency:
   group: exciton-ai-classification
-  cancel-in-progress: false
+  cancel-in-progress: true
 jobs:
   classify:
     if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
