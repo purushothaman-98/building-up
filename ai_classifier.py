@@ -8,11 +8,11 @@ import random
 import time
 import urllib.error
 import urllib.request
-from datetime import datetime, timezone
+from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
 API_URL = "https://models.github.ai/inference/chat/completions"
-PROMPT_VERSION = "1.0"
+PROMPT_VERSION = "1.1"
 DEFAULT_MODEL = "openai/gpt-4o-mini"
 RELEVANCE = {"Core exciton paper", "Exciton-adjacent", "Not relevant"}
 RESEARCH_TYPES = {"Experimental", "Computational", "Theory + Experiment", "Unclassified"}
@@ -44,14 +44,9 @@ def fingerprint(paper: dict) -> str:
 
 def user_prompt(paper: dict) -> str:
     metadata = {
-        "arxiv_id": paper.get("arxiv_id"),
-        "version": paper.get("version"),
         "title": paper.get("title"),
         "authors": paper.get("authors", []),
         "abstract": paper.get("abstract"),
-        "submitted": paper.get("submitted"),
-        "updated": paper.get("updated"),
-        "categories": paper.get("categories", []),
     }
     schema = {
         "include_in_feed": "boolean",
@@ -70,6 +65,33 @@ def user_prompt(paper: dict) -> str:
     return "Classify this paper.\nOUTPUT SCHEMA:\n" + json.dumps(schema, ensure_ascii=False) + "\nPAPER METADATA:\n" + json.dumps(metadata, ensure_ascii=False)
 
 
+OUTPUT_SCHEMA = {
+    "name": "exciton_paper_classification",
+    "strict": True,
+    "schema": {
+        "type": "object",
+        "additionalProperties": False,
+        "properties": {
+            "include_in_feed": {"type": "boolean"},
+            "relevance": {"type": "string", "enum": sorted(RELEVANCE)},
+            "research_type": {"type": "string", "enum": sorted(RESEARCH_TYPES)},
+            "paper_nature": {"type": "string", "enum": sorted(PAPER_NATURES)},
+            **{field: {"type": "array", "items": {"type": "string"}} for field in (
+                "materials", "material_families", "experimental_methods",
+                "computational_methods", "exciton_properties", "evidence",
+            )},
+            "confidence": {"type": "number", "minimum": 0, "maximum": 1},
+            "reason": {"type": "string"},
+        },
+        "required": [
+            "include_in_feed", "relevance", "research_type", "paper_nature",
+            "materials", "material_families", "experimental_methods",
+            "computational_methods", "exciton_properties", "confidence", "reason", "evidence",
+        ],
+    },
+}
+
+
 def parse_json_response(text: str) -> dict:
     text = text.strip()
     if text.startswith("```"):
@@ -77,7 +99,28 @@ def parse_json_response(text: str) -> dict:
     return json.loads(text)
 
 
+def normalize_result(result: dict) -> dict:
+    """Normalize common model deviations before applying the strict validator."""
+    result = dict(result)
+    for field in ("relevance", "research_type", "paper_nature"):
+        value = result.get(field)
+        if isinstance(value, list) and value:
+            result[field] = value[0]
+    value = result.get("include_in_feed")
+    if isinstance(value, str):
+        lowered = value.strip().lower()
+        if lowered in {"true", "yes", "include", "included"}:
+            result["include_in_feed"] = True
+        elif lowered in {"false", "no", "exclude", "excluded"}:
+            result["include_in_feed"] = False
+    for field in ("materials", "material_families", "experimental_methods", "computational_methods", "exciton_properties", "evidence"):
+        if isinstance(result.get(field), str):
+            result[field] = [result[field]] if result[field].strip() else []
+    return result
+
+
 def validate(result: dict) -> dict:
+    result = normalize_result(result)
     required = {"include_in_feed", "relevance", "research_type", "paper_nature", "materials", "material_families", "experimental_methods", "computational_methods", "exciton_properties", "confidence", "reason", "evidence"}
     missing = required.difference(result)
     if missing:
@@ -99,7 +142,7 @@ def call_model(paper: dict, token: str, model: str, attempts: int = 3) -> dict:
         "model": model,
         "temperature": 0.0,
         "max_tokens": 900,
-        "response_format": {"type": "json_object"},
+        "response_format": {"type": "json_schema", "json_schema": OUTPUT_SCHEMA},
         "messages": [
             {"role": "system", "content": SYSTEM_PROMPT},
             {"role": "user", "content": user_prompt(paper)},
@@ -146,6 +189,20 @@ def pending_papers(papers: list[dict], records: dict, overrides: dict) -> list[d
     return pending
 
 
+def latest_window(papers: list[dict], days: int = 7) -> tuple[list[dict], date | None, date | None]:
+    dated = []
+    for paper in papers:
+        try:
+            dated.append((date.fromisoformat(paper.get("submitted", "")[:10]), paper))
+        except ValueError:
+            continue
+    if not dated:
+        return [], None, None
+    end = max(item[0] for item in dated)
+    start = end - timedelta(days=max(1, days) - 1)
+    return [paper for submitted, paper in dated if start <= submitted <= end], start, end
+
+
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--papers", type=Path, default=Path("data/papers.json"))
@@ -153,6 +210,7 @@ def main() -> None:
     parser.add_argument("--overrides", type=Path, default=Path("data/ai_overrides.json"))
     parser.add_argument("--limit", type=int, default=20)
     parser.add_argument("--delay", type=float, default=7.0)
+    parser.add_argument("--days", type=int, default=7)
     parser.add_argument("--model", default=os.getenv("AI_MODEL", DEFAULT_MODEL))
     args = parser.parse_args()
     token = os.getenv("GITHUB_TOKEN")
@@ -163,7 +221,8 @@ def main() -> None:
     store = load_json(args.output, {"schema_version": 1, "records": {}, "runs": []})
     overrides = load_json(args.overrides, {})
     records = store.setdefault("records", {})
-    queue = pending_papers(archive.get("papers", []), records, overrides)
+    eligible, window_start, window_end = latest_window(archive.get("papers", []), args.days)
+    queue = pending_papers(eligible, records, overrides)
     selected = queue[: max(0, args.limit)]
     succeeded = failed = 0
 
@@ -194,6 +253,9 @@ def main() -> None:
         "prompt_version": PROMPT_VERSION, "attempted": len(selected),
         "succeeded": succeeded, "failed": failed,
         "remaining": max(0, len(queue) - succeeded), "total_records": len(records),
+        "eligible": len(eligible),
+        "window_start": window_start.isoformat() if window_start else None,
+        "window_end": window_end.isoformat() if window_end else None,
     }
     store.setdefault("runs", []).append(run)
     store["runs"] = store["runs"][-200:]
