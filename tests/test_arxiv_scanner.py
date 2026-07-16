@@ -58,3 +58,15 @@ def test_feed_and_version_merge(tmp_path: Path):
     archive=merge_archive(tmp_path/"papers.json",papers)
     assert archive["counts"]["new_this_scan"]==1
     assert archive["papers"][0]["versions_seen"]==["v2"]
+
+
+def test_bounded_fetch_uses_end_of_until_day():
+    class Response:
+        def __enter__(self): return self
+        def __exit__(self,*args): return False
+        def read(self): return b'<feed xmlns="http://www.w3.org/2005/Atom"></feed>'
+    with patch("arxiv_scanner.urllib.request.urlopen",return_value=Response()) as opened:
+        fetch_since("2026-06-01",max_results=100,page_size=100,until="2026-06-07")
+    url=opened.call_args.args[0].full_url
+    assert "202606010000" in url
+    assert "202606072359" in url
