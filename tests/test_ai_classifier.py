@@ -2,7 +2,7 @@ import json
 
 import pytest
 
-from ai_classifier import fingerprint, latest_window, parse_json_response, pending_papers, user_prompt, validate
+from ai_classifier import SYSTEM_PROMPT, fingerprint, latest_window, parse_json_response, pending_papers, user_prompt, validate
 
 
 def paper(version="v1", abstract="We calculate excitons with GW-BSE."):
@@ -71,3 +71,30 @@ def test_latest_window_uses_latest_available_submission_date():
     assert [item["arxiv_id"] for item in selected] == ["2601.00001"]
     assert start.isoformat() == "2026-07-08"
     assert end.isoformat() == "2026-07-14"
+
+
+def test_prompt_encodes_scientific_scope_and_conservative_screening():
+    required_guidance = [
+        "A keyword hit is never sufficient",
+        "ground-state DFT",
+        "phonon-polaritons",
+        "AUTHORS' ORIGINAL WORK ONLY",
+        "separate evidence for both",
+        "At title/abstract screening, preserve uncertain records",
+        "COFs",
+        "g-factors",
+    ]
+    assert all(phrase in SYSTEM_PROMPT for phrase in required_guidance)
+
+
+def test_uncertain_relevance_is_retained_for_human_review():
+    decision = valid_decision()
+    decision.update({"include_in_feed": True, "relevance": "Uncertain", "confidence": 0.45})
+    assert validate(decision)["relevance"] == "Uncertain"
+
+
+def test_feed_decision_must_agree_with_relevance():
+    decision = valid_decision()
+    decision.update({"include_in_feed": False, "relevance": "Core exciton paper"})
+    with pytest.raises(ValueError, match="contradicts"):
+        validate(decision)
