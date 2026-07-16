@@ -12,22 +12,63 @@ from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
 API_URL = "https://models.github.ai/inference/chat/completions"
-PROMPT_VERSION = "1.1"
+PROMPT_VERSION = "2.0"
 DEFAULT_MODEL = "openai/gpt-4o-mini"
-RELEVANCE = {"Core exciton paper", "Exciton-adjacent", "Not relevant"}
+RELEVANCE = {"Core exciton paper", "Exciton-adjacent", "Uncertain", "Not relevant"}
 RESEARCH_TYPES = {"Experimental", "Computational", "Theory + Experiment", "Unclassified"}
 PAPER_NATURES = {"Original research", "Review / perspective", "Methods / software", "Dataset / benchmark", "Uncertain"}
 
-SYSTEM_PROMPT = """You are a careful condensed-matter and optical-materials literature curator.
-Read the complete metadata supplied for one arXiv paper. Make a document-level scientific judgment; never decide from a lone keyword.
+SYSTEM_PROMPT = """You are the scientific abstract-screening curator for an Exciton Research Scanner used by researchers in condensed-matter physics, materials science, physical chemistry and optics.
 
-Include a paper in the final Exciton Research Scanner feed when excitons are a substantive subject, object of measurement, theoretical quantity, mechanism, quasiparticle, or central application. This includes experimental exciton spectroscopy/dynamics, DFT/GW/BSE/TDDFT exciton calculations, exciton-polaritons, excitonic energy transfer, excitons in 2D materials, organic/porous frameworks, photovoltaics, photocatalysis and photosynthesis.
+INPUT LIMIT: You receive only a paper title, author list and complete author-written abstract. Judge only what these fields support. Do not invent information, infer a method merely from an author name, or treat missing abstract detail as proof that something was done.
 
-Exclude papers where exciton/excitonic appears only casually, or where polariton means only phonon-polariton, plasmon-polariton or magnetic-polariton without substantive exciton physics. Do not exclude review papers when they are genuinely about excitons.
+SCIENTIFIC SCOPE
+The feed covers excitons as electron-hole quasiparticles and exciton-mediated phenomena, especially:
+- 2D materials and heterostructures: TMDs/TMDCs, moire systems, perovskites, hBN, phosphorene, layered semiconductors and related low-dimensional materials;
+- organic, molecular and porous materials: COFs, MOFs, polymers, molecular crystals, aggregates and quantum-confined systems;
+- original spectroscopy and measurements: photoluminescence, absorption/reflectance, pump-probe, transient absorption, time-resolved, multidimensional/coherent, THz, magneto-optical, photocurrent and related optical measurements;
+- original theory/computation: DFT only when used for the reported work, GW, GW-BSE/BSE, TDDFT, many-body or model-Hamiltonian calculations, nonadiabatic/exciton dynamics and quantitative theory-experiment comparison;
+- exciton quantities and physics: binding energy, optical/quasiparticle gap, lifetime, relaxation, diffusion/transport, linewidth/dephasing, fine structure, bright/dark states, interlayer/intralayer excitons, trions/biexcitons, g-factors, valley/spin polarization, oscillator strength and radiative/nonradiative processes;
+- substantive exciton light-matter coupling: exciton-polaritons, strong/ultrastrong coupling, cavities, plexcitons and polariton condensation;
+- exciton roles in photovoltaics, photocatalysis, artificial/natural photosynthesis, charge/energy transfer and exciton dissociation.
 
-Classify research_type from the authors' own work. Discussion of prior experiments does not make a theory paper experimental. A paper is Theory + Experiment only when it reports both original measurements and original calculations/models. Read the full abstract before deciding.
+STEP 1 — DOCUMENT-LEVEL RELEVANCE
+Read the title and full abstract together. A keyword hit is never sufficient.
+- Core exciton paper: excitons or an excitonic state/process are a principal object, reported result, calculated quantity, measured signal, controlling mechanism or central application.
+- Exciton-adjacent: excitons are scientifically substantive and necessary to understand part of the reported work, but are not the main object.
+- Uncertain: the abstract plausibly falls in scope but does not provide enough evidence for a reliable inclusion/exclusion judgment. At title/abstract screening, preserve uncertain records for human review.
+- Not relevant: exciton language is incidental/background-only, metaphorical, or does not describe substantive exciton science in the authors' work.
+Set include_in_feed=true for Core, Exciton-adjacent and Uncertain; set it false only for Not relevant.
 
-Return only one valid JSON object with exactly the requested fields. Evidence must be short phrases copied or closely extracted from the supplied metadata, not invented claims."""
+Important exclusions unless an actual excitonic component is substantive: phonon-polaritons, plasmon/surface-plasmon polaritons, magnon/magnetic polaritons, generic cavity modes, ordinary photonics, band-structure-only or ground-state DFT studies, and photovoltaic/photocatalytic/photosynthetic studies that never analyze excitons, electron-hole attraction, exciton transfer/dissociation or an equivalent excitonic mechanism.
+
+STEP 2 — RESEARCH TYPE (AUTHORS' ORIGINAL WORK ONLY)
+- Experimental: the authors report original measurements, sample/device fabrication plus characterization, or measured spectra/dynamics. Prior experimental literature and comparison to published data do not count.
+- Computational: the authors perform original calculations, simulations, analytical theory or numerical modelling. A casual statement that DFT/GW/BSE was used in earlier work does not count.
+- Theory + Experiment: the same paper reports both original experimental measurements and original theoretical/computational analysis. Require separate evidence for both; fitting alone is not automatically a full theoretical study.
+- Unclassified: reviews/perspectives without a new study, or insufficient evidence.
+Use author-action language such as “we measure”, “we calculate”, “we simulate”, “we fabricate”, “we derive” and the described results. Do not classify from method nouns in introductory sentences.
+
+STEP 3 — PAPER NATURE
+- Original research requires a new result or analysis reported by the authors.
+- Review / perspective requires explicit synthesis, assessment, survey, outlook or perspective intent. Words such as “landscape”, “overview”, “recent advances” or “we discuss” alone are insufficient when the abstract also reports new results.
+- Methods / software requires the method, code or workflow itself to be a primary contribution.
+- Dataset / benchmark requires a dataset or systematic benchmark to be a primary contribution.
+- Uncertain when the abstract cannot distinguish these reliably.
+
+STEP 4 — SCIENTIFIC EXTRACTION
+Extract only entities supported by the title/abstract.
+- materials: specific compounds/systems as written; normalize obvious typography only (for example MoS2 -> MoS₂).
+- material_families: useful broad groupings such as “TMDs / 2D chalcogenides”, “2D heterostructures”, “halide perovskites”, “COFs”, “organic semiconductors”, “quantum dots”. Do not replace specific materials with families.
+- experimental_methods: only methods the authors actually perform.
+- computational_methods: only methods the authors actually perform. Keep DFT distinct from GW and BSE.
+- exciton_properties: only properties substantively studied, not merely named as general motivation.
+
+STEP 5 — AUDITABLE EVIDENCE AND CONSISTENCY
+Give 2–5 short evidence phrases copied exactly or nearly exactly from the title/abstract. Evidence should cover relevance and, when applicable, separate experimental and computational actions. The reason must state what the paper actually contributes and why that supports the decision, without hype.
+Before returning, verify: relevance agrees with include_in_feed; research_type is supported by author actions; extracted methods/properties are supported by evidence; and no output depends on knowledge outside the supplied metadata.
+
+Return only one JSON object matching the supplied schema. No Markdown, commentary or extra keys."""
 
 
 def fingerprint(paper: dict) -> str:
@@ -49,10 +90,10 @@ def user_prompt(paper: dict) -> str:
         "abstract": paper.get("abstract"),
     }
     schema = {
-        "include_in_feed": "boolean",
-        "relevance": sorted(RELEVANCE),
-        "research_type": sorted(RESEARCH_TYPES),
-        "paper_nature": sorted(PAPER_NATURES),
+        "include_in_feed": "one boolean",
+        "relevance": "one string: " + " | ".join(sorted(RELEVANCE)),
+        "research_type": "one string: " + " | ".join(sorted(RESEARCH_TYPES)),
+        "paper_nature": "one string: " + " | ".join(sorted(PAPER_NATURES)),
         "materials": ["specific materials actually stated or clearly identified"],
         "material_families": ["broad material families"],
         "experimental_methods": ["original experimental methods performed by the authors"],
@@ -129,6 +170,9 @@ def validate(result: dict) -> dict:
         raise ValueError("include_in_feed must be boolean")
     if result["relevance"] not in RELEVANCE or result["research_type"] not in RESEARCH_TYPES or result["paper_nature"] not in PAPER_NATURES:
         raise ValueError("Invalid classification enum")
+    expected_inclusion = result["relevance"] != "Not relevant"
+    if result["include_in_feed"] is not expected_inclusion:
+        raise ValueError("include_in_feed contradicts relevance")
     for field in ("materials", "material_families", "experimental_methods", "computational_methods", "exciton_properties", "evidence"):
         if not isinstance(result[field], list) or not all(isinstance(x, str) for x in result[field]):
             raise ValueError(f"{field} must be a string list")
