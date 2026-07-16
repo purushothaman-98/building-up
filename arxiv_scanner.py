@@ -169,7 +169,8 @@ def parse_feed(xml):
 def fetch_since(since="2026-01-01", max_results=2000, page_size=200, until=None):
     cats=" OR ".join(f"cat:{x}" for x in CATEGORIES)
     start_stamp=date.fromisoformat(since).strftime("%Y%m%d0000")
-    end_stamp=(date.fromisoformat(until).strftime("%Y%m%d2359") if until\n               else datetime.now(timezone.utc).strftime("%Y%m%d%H%M"))
+    end_stamp=(date.fromisoformat(until).strftime("%Y%m%d2359") if until
+               else datetime.now(timezone.utc).strftime("%Y%m%d%H%M"))
     concepts='ti:exciton OR abs:exciton OR ti:excitonic OR abs:excitonic OR ti:"exciton polariton" OR abs:"exciton polariton"'
     query=f"({cats}) AND ({concepts}) AND submittedDate:[{start_stamp} TO {end_stamp}]"
     papers=[]
