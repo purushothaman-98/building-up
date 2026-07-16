@@ -3413,6 +3413,46 @@
       "model": "openai/gpt-4o-mini",
       "prompt_version": "4.0",
       "classified_at": "2026-07-16T08:34:35.757259+00:00"
+    },
+    "2606.09097": {
+      "include_in_feed": true,
+      "relevance": "Core exciton paper",
+      "research_type": "Theory + Experiment",
+      "paper_nature": "Original research",
+      "material_families": [
+        "Organic / molecular materials",
+        "Other materials"
+      ],
+      "materials": [
+        "gold helicoid nanoparticles",
+        "molecular J-aggregates"
+      ],
+      "experimental_methods": [
+        "Pump–probe / transient absorption",
+        "Polarization-resolved spectroscopy",
+        "Optical microscopy"
+      ],
+      "computational_methods": [
+        "Model / analytical theory"
+      ],
+      "exciton_properties": [
+        "Strong coupling / polaritons",
+        "Ultrafast dynamics / relaxation"
+      ],
+      "confidence": 0.95,
+      "evidence": [
+        "We realize chiral plexcitons by functionalizing intrinsically chiral gold helicoid nanoparticles with molecular J-aggregates",
+        "A non-Hermitian framework traces the microscopic origin of the chiroptical response and excitonic coupling",
+        "Space-, time-, and polarization-resolved measurements reveal accelerated ultrafast relaxation",
+        "The study provides an experimentally benchmarked picture of chiral plexcitonic coupling"
+      ],
+      "reason": "The paper combines helicity-, space-, and time-resolved measurements with a non-Hermitian theoretical framework to study chiral plasmon-exciton coupling and ultrafast relaxation.",
+      "arxiv_id": "2606.09097",
+      "version": "v1",
+      "fingerprint": "d36e1f300a3781c30a3e36de9625594afb8d19d9a6a396cd59c8bbafbe1fd811",
+      "model": "openai/codex-recovery",
+      "prompt_version": "4.0",
+      "classified_at": "2026-07-16T09:32:30.807Z"
     }
   },
   "runs": [
@@ -3532,7 +3572,20 @@
       "eligible": 104,
       "window_start": "2026-05-17",
       "window_end": "2026-07-15"
+    },
+    {
+      "run_at": "2026-07-16T09:32:30.807Z",
+      "model": "openai/codex-recovery",
+      "prompt_version": "4.0",
+      "attempted": 1,
+      "succeeded": 1,
+      "failed": 0,
+      "remaining": 0,
+      "total_records": 104,
+      "eligible": 104,
+      "window_start": "2026-05-17",
+      "window_end": "2026-07-15"
     }
   ],
-  "last_run": "2026-07-16T08:34:35.760253+00:00"
+  "last_run": "2026-07-16T09:32:30.807Z"
 }
