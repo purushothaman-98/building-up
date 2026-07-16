@@ -4,9 +4,9 @@ on:
     branches: [master]
     paths:
       - "ai_classifier.py"
-  schedule:
-    # Once daily, after the 05:17 UTC arXiv metadata scan has completed.
-    - cron: "17 6 * * *"
+  workflow_run:
+    workflows: ["Scan arXiv for exciton papers"]
+    types: [completed]
   workflow_dispatch:
     inputs:
       limit:
@@ -21,6 +21,7 @@ concurrency:
   cancel-in-progress: false
 jobs:
   classify:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
     runs-on: ubuntu-latest
     timeout-minutes: 30
     steps:
@@ -37,18 +38,73 @@ jobs:
           if [ "$GITHUB_EVENT_NAME" = "push" ]; then
             LIMIT=3
           else
-            LIMIT="${INPUT_LIMIT:-20}"
+            LIMIT="${INPUT_LIMIT:-50}"
           fi
           python ai_classifier.py --days 7 --limit "$LIMIT" --delay 8
-      - name: Commit classification progress
+      - name: Merge and publish classification progress safely
+        shell: bash
         run: |
           if git diff --quiet -- data/ai_classifications.json; then
             echo "No classification changes"
             exit 0
           fi
+
+          GENERATED="$RUNNER_TEMP/ai_classifications.generated.json"
+          cp data/ai_classifications.json "$GENERATED"
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/ai_classifications.json
-          git commit -m "data: update AI paper classifications"
-          git pull --rebase origin master
-          git push
+
+          for attempt in 1 2 3; do
+            git fetch origin master
+            git checkout -B ai-publish origin/master
+            GENERATED="$GENERATED" python - <<'PY'
+          import json
+          import os
+          from pathlib import Path
+
+          target = Path("data/ai_classifications.json")
+          incoming = json.loads(Path(os.environ["GENERATED"]).read_text(encoding="utf-8"))
+          current = json.loads(target.read_text(encoding="utf-8")) if target.exists() else {
+              "schema_version": 1, "records": {}, "runs": []
+          }
+
+          current.setdefault("records", {}).update(incoming.get("records", {}))
+          runs = {
+              run.get("run_at", f"legacy-{index}"): run
+              for index, run in enumerate(current.get("runs", []))
+          }
+          for index, run in enumerate(incoming.get("runs", [])):
+              runs[run.get("run_at", f"incoming-{index}")] = run
+          current["runs"] = sorted(
+              runs.values(), key=lambda run: run.get("run_at", "")
+          )[-500:]
+          current["schema_version"] = max(
+              current.get("schema_version", 1), incoming.get("schema_version", 1)
+          )
+          timestamps = [
+              value for value in (current.get("last_run"), incoming.get("last_run")) if value
+          ]
+          if timestamps:
+              current["last_run"] = max(timestamps)
+
+          target.parent.mkdir(parents=True, exist_ok=True)
+          target.write_text(
+              json.dumps(current, indent=2, ensure_ascii=False) + "\n", encoding="utf-8"
+          )
+          PY
+
+            if git diff --quiet -- data/ai_classifications.json; then
+              echo "Latest branch already contains these classifications"
+              exit 0
+            fi
+            git add data/ai_classifications.json
+            git commit -m "data: update AI paper classifications"
+            if git push origin HEAD:master; then
+              exit 0
+            fi
+            echo "Push raced with another commit; retrying merge ($attempt/3)"
+            sleep $((attempt * 3))
+          done
+
+          echo "Unable to publish classifications after three safe merge attempts"
+          exit 1
