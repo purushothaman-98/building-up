@@ -6,7 +6,7 @@ on:
       - "ai_classifier.py"
       - ".github/workflows/classify-ai.yml"
   workflow_run:
-    workflows: ["Scan arXiv for exciton papers"]
+    workflows: ["Scan arXiv for exciton papers", "Backfill June 2026 exciton papers"]
     types: [completed]
   workflow_dispatch:
     inputs:
@@ -39,7 +39,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           AI_MODEL: openai/gpt-4o-mini
           INPUT_LIMIT: ${{ inputs.limit }}
-          INPUT_DAYS: ${{ inputs.days }}
+          INPUT_DAYS: ${{ inputs.days }}\n          TRIGGER_WORKFLOW: ${{ github.event.workflow_run.name }}
         run: |
           if [ "$GITHUB_EVENT_NAME" = "push" ]; then
             # Workflow/code changes perform a complete recovery pass.
