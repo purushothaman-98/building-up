@@ -4,10 +4,9 @@ on:
     branches: [master]
     paths:
       - "ai_classifier.py"
-      - ".github/workflows/classify-ai.yml"
   schedule:
-    # Small resumable batches for the initial archive; completed papers are cached.
-    - cron: "23 */3 * * *"
+    # Once daily, after the 05:17 UTC arXiv metadata scan has completed.
+    - cron: "17 6 * * *"
   workflow_dispatch:
     inputs:
       limit:
@@ -29,12 +28,18 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Read complete metadata and classify pending papers
+      - name: Classify the latest arXiv week with rate control
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           AI_MODEL: openai/gpt-4o-mini
           INPUT_LIMIT: ${{ inputs.limit }}
-        run: python ai_classifier.py --limit "${INPUT_LIMIT:-20}" --delay 7
+        run: |
+          if [ "$GITHUB_EVENT_NAME" = "push" ]; then
+            LIMIT=3
+          else
+            LIMIT="${INPUT_LIMIT:-20}"
+          fi
+          python ai_classifier.py --days 7 --limit "$LIMIT" --delay 8
       - name: Commit classification progress
         run: |
           if git diff --quiet -- data/ai_classifications.json; then
