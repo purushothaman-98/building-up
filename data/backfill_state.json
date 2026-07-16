@@ -1,8 +1,13 @@
 {
   "range_start": "2026-06-01",
   "range_end": "2026-06-30",
-  "next_since": "2026-06-01",
+  "next_since": "2026-06-08",
   "chunk_days": 7,
   "complete": false,
-  "completed_windows": []
+  "completed_windows": [
+    {
+      "since": "2026-06-01",
+      "until": "2026-06-07"
+    }
+  ]
 }
