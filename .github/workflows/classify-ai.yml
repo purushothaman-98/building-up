@@ -35,8 +35,7 @@ jobs:
           INPUT_LIMIT: ${{ inputs.limit }}
         run: |
           if [ "$GITHUB_EVENT_NAME" = "push" ]; then
-            # Recovery batch; restored to 3 after the classifier trigger commit.
-            LIMIT=20
+            LIMIT=3
           else
             LIMIT="${INPUT_LIMIT:-20}"
           fi
