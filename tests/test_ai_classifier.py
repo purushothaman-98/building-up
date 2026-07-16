@@ -2,13 +2,14 @@ import json
 
 import pytest
 
-from ai_classifier import fingerprint, parse_json_response, pending_papers, validate
+from ai_classifier import fingerprint, latest_window, parse_json_response, pending_papers, user_prompt, validate
 
 
 def paper(version="v1", abstract="We calculate excitons with GW-BSE."):
     return {
         "arxiv_id": "2601.00001", "version": version, "title": "Excitons in a monolayer",
-        "abstract": abstract, "categories": ["cond-mat.mtrl-sci"],
+        "abstract": abstract, "authors": ["A. Author"], "submitted": "2026-07-14T00:00:00Z",
+        "categories": ["cond-mat.mtrl-sci"],
     }
 
 
@@ -48,3 +49,25 @@ def test_invalid_enum_is_rejected():
     decision["relevance"] = "maybe"
     with pytest.raises(ValueError):
         validate(decision)
+
+
+def test_common_model_scalar_deviations_are_normalized():
+    decision = valid_decision()
+    decision.update({"include_in_feed": "true", "relevance": ["Core exciton paper"], "research_type": ["Computational"]})
+    normalized = validate(decision)
+    assert normalized["include_in_feed"] is True
+    assert normalized["research_type"] == "Computational"
+
+
+def test_only_title_authors_and_abstract_are_sent_to_model():
+    prompt = user_prompt(paper())
+    metadata = json.loads(prompt.split("PAPER METADATA:\n", 1)[1])
+    assert set(metadata) == {"title", "authors", "abstract"}
+
+
+def test_latest_window_uses_latest_available_submission_date():
+    papers = [paper(), {**paper(), "arxiv_id": "old", "submitted": "2026-07-07T00:00:00Z"}]
+    selected, start, end = latest_window(papers, 7)
+    assert [item["arxiv_id"] for item in selected] == ["2601.00001"]
+    assert start.isoformat() == "2026-07-08"
+    assert end.isoformat() == "2026-07-14"
