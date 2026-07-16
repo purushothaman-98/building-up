@@ -86,3 +86,5 @@ jobs:
           git commit -m "data: backfill June 2026 exciton papers"
           git pull --rebase origin master
           git push
+
+# Backfill trigger version: 1
