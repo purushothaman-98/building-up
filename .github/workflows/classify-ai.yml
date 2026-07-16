@@ -4,6 +4,7 @@ on:
     branches: [master]
     paths:
       - "ai_classifier.py"
+      - ".github/workflows/classify-ai.yml"
   workflow_run:
     workflows: ["Scan arXiv for exciton papers"]
     types: [completed]
@@ -12,7 +13,11 @@ on:
       limit:
         description: Maximum papers to classify in this run
         required: false
-        default: "20"
+        default: "50"
+      days:
+        description: Number of days back from the latest arXiv submission
+        required: false
+        default: "7"
 permissions:
   contents: write
   models: read
@@ -34,13 +39,17 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           AI_MODEL: openai/gpt-4o-mini
           INPUT_LIMIT: ${{ inputs.limit }}
+          INPUT_DAYS: ${{ inputs.days }}
         run: |
           if [ "$GITHUB_EVENT_NAME" = "push" ]; then
-            LIMIT=3
+            # Workflow/code changes perform a complete recovery pass.
+            LIMIT=50
+            DAYS=31
           else
             LIMIT="${INPUT_LIMIT:-50}"
+            DAYS="${INPUT_DAYS:-7}"
           fi
-          python ai_classifier.py --days 7 --limit "$LIMIT" --delay 8
+          python ai_classifier.py --days "$DAYS" --limit "$LIMIT" --delay 8
       - name: Merge and publish classification progress safely
         shell: bash
         run: |
