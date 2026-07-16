@@ -1,5 +1,6 @@
 from pathlib import Path
-from arxiv_scanner import analyze, merge_archive, parse_feed
+from unittest.mock import patch
+from arxiv_scanner import analyze, fetch_since, merge_archive, parse_feed
 
 def test_casual_dft_mention_is_not_computational():
     result=analyze("Photoluminescence of excitons in MoS2","We measured photoluminescence spectra and observe an exciton. Earlier DFT work is discussed.")
