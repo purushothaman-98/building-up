@@ -27,17 +27,17 @@ COLORS = {
 st.set_page_config(page_title="Exciton Research Scanner", page_icon="◌", layout="wide")
 st.markdown("""
 <style>
-.stApp{background:#f5f3ed;color:#17221e}.block-container{max-width:1320px;padding-top:1.3rem}
+.stApp{background:#f5f3ed;color:#17221e}.block-container{max-width:1320px;padding-top:.65rem}
 [data-testid="stSidebar"]{background:#112b24;border-right:1px solid #28463d}
 [data-testid="stSidebar"] *{color:#eef6f2}
 [data-testid="stSidebar"] [data-baseweb="select"]>div,[data-testid="stSidebar"] input{background:#0d1714!important;border-color:#35564b!important}
 [data-testid="stSidebar"] h2{color:#fff!important;margin-bottom:.15rem}
 [data-testid="stSidebar"] .stCaption{color:#b9cbc4!important}
-.hero{position:relative;overflow:hidden;background:#102f27;color:white;border-radius:24px;padding:34px 42px 30px;margin-bottom:18px}
+.hero{position:relative;overflow:hidden;background:#102f27;color:white;border-radius:22px;padding:22px 34px 18px;margin-bottom:12px}
 .hero:after{content:"";position:absolute;width:440px;height:440px;border-radius:50%;right:-90px;top:-260px;
 background:radial-gradient(circle,#e4b82f 0,#7f782c 36%,transparent 68%);opacity:.95}
-.hero h1{font-size:2.75rem;letter-spacing:-.05em;margin:.2rem 0;position:relative;z-index:1}
-.hero p{max-width:760px;color:#dce9e3;font-size:1.05rem;line-height:1.55;position:relative;z-index:1}
+.hero h1{font-size:2.25rem;letter-spacing:-.05em;margin:.2rem 0;position:relative;z-index:1}
+.hero p{max-width:760px;color:#dce9e3;font-size:.95rem;line-height:1.4;position:relative;z-index:1}
 .eyebrow{font-size:.75rem;font-weight:800;letter-spacing:.1em;color:#e8c451;position:relative;z-index:1}
 .section-head{display:flex;align-items:end;justify-content:space-between;margin:30px 0 8px}
 .section-head h2{font-size:1.65rem;letter-spacing:-.025em;margin:0}.section-head span{color:#6d7873;font-size:.86rem}
@@ -52,22 +52,22 @@ background:radial-gradient(circle,#e4b82f 0,#7f782c 36%,transparent 68%);opacity
 .tag.relevance{background:#e7ecea;color:#3f5049}.tag.core{background:#d8f0e5;color:#126143}.tag.adjacent{background:#fff0cb;color:#795500}
 .links{margin-top:12px}.links a{display:inline-block;border:1px solid #b7c9c1;border-radius:999px;padding:6px 12px;
 margin-right:8px;color:#145944;text-decoration:none;font-size:.8rem;font-weight:750}.links a:hover{background:#145944;color:white}
-[data-testid="stMetric"]{background:linear-gradient(145deg,#fff,#f6faf8);border:1px solid #d5ddd9;border-top:4px solid #1d8a68;padding:14px 17px;border-radius:15px;box-shadow:0 5px 16px #193d300b}
+[data-testid="stMetric"]{background:linear-gradient(145deg,#fff,#f6faf8);border:1px solid #d5ddd9;border-top:4px solid #1d8a68;padding:9px 14px;border-radius:14px;box-shadow:0 5px 16px #193d300b}
 [data-testid="stMetricLabel"],[data-testid="stMetricValue"]{color:#17352c!important}
 details{background:#fafbf9!important;border-radius:12px!important}
-.stRadio [role="radiogroup"]{display:inline-flex!important;gap:6px;background:#e5ece8;border:1px solid #c8d7d1;padding:6px;border-radius:14px;margin:18px 0 8px}
+.stRadio [role="radiogroup"]{display:inline-flex!important;gap:6px;background:#e5ece8;border:1px solid #c8d7d1;padding:5px;border-radius:13px;margin:8px 0 3px}
 .stRadio [role="radiogroup"] label{background:#fff!important;border:1px solid #b8cbc3!important;border-radius:10px!important;padding:8px 15px!important}
 .stRadio [role="radiogroup"] label p{color:#174f3f!important;font-weight:750!important}
 .stRadio [role="radiogroup"] label:has(input:checked){background:#17684f!important;border-color:#17684f!important}
 .stRadio [role="radiogroup"] label:has(input:checked) p{color:#fff!important}
-.date-band{display:flex;align-items:center;justify-content:space-between;margin:30px 0 10px;padding:11px 15px;
+.date-band{display:flex;align-items:center;justify-content:space-between;margin:13px 0 8px;padding:9px 14px;
 background:#e8eee9;border-left:4px solid #17684f;border-radius:0 12px 12px 0}
 .date-band h2{font-size:1.18rem;margin:0;color:#173d31}.date-band span{font-size:.82rem;color:#62726b}
 .week-summary{background:#143d31;color:white;border-radius:16px;padding:18px 22px;margin:16px 0 8px}
 .week-summary strong{font-size:1.18rem}.week-summary span{float:right;color:#d8e6df}
 .filter-panel{margin-top:22px;background:#e9efec;border:1px solid #cad8d2;border-radius:18px;padding:17px 20px 5px}
 .filter-panel h2{font-size:1.25rem;margin:0;color:#173d31}.filter-panel p{margin:.3rem 0 .6rem;color:#65736d;font-size:.86rem}
-.result-strip{display:flex;justify-content:space-between;align-items:center;background:#173d31;color:white;border-radius:12px;padding:11px 15px;margin:12px 0}
+.result-strip{display:flex;justify-content:space-between;align-items:center;background:#173d31;color:white;border-radius:12px;padding:8px 13px;margin:8px 0 5px}
 .result-strip span{color:#cfe0d8;font-size:.82rem}
 .back-top{position:fixed;right:24px;bottom:22px;z-index:99;background:#173d31;color:white!important;text-decoration:none;padding:9px 13px;border-radius:999px;box-shadow:0 5px 18px #0003;font-size:.78rem;font-weight:800}
 .stButton>button{border-radius:999px!important;border:1px solid #abc1b8!important;background:#fff!important;
@@ -295,11 +295,9 @@ with st.sidebar:
     st.markdown(f"**{len(papers)} matching papers**")
     st.caption("Filters active" if active_count else "Showing the complete seven-day feed")
 st.markdown(
-    f'<div class="result-strip"><strong>{len(papers)} matching papers</strong><span>{"Filters active" if active_count else "Latest seven-day feed"}</span></div>',
+    f'<div class="result-strip"><strong>{len(papers)} matching papers</strong><span>{reviewed_count}/{len(raw_papers)} AI reviewed · {approved_count} approved{" · filters active" if active_count else ""}</span></div>',
     unsafe_allow_html=True,
 )
-st.caption(f"AI review progress: {reviewed_count} of {len(raw_papers)} papers · {approved_count} currently approved for the final feed · cached decisions are reused until metadata changes.")
-
 selected_view = st.radio(
     "Choose view",
     ["Daily paper feed", "Time series & analysis"],
