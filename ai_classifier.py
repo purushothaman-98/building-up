@@ -12,11 +12,53 @@ from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
 API_URL = "https://models.github.ai/inference/chat/completions"
-PROMPT_VERSION = "2.0"
+PROMPT_VERSION = "3.0"
 DEFAULT_MODEL = "openai/gpt-4o-mini"
 RELEVANCE = {"Core exciton paper", "Exciton-adjacent", "Uncertain", "Not relevant"}
 RESEARCH_TYPES = {"Experimental", "Computational", "Theory + Experiment", "Unclassified"}
 PAPER_NATURES = {"Original research", "Review / perspective", "Methods / software", "Dataset / benchmark", "Uncertain"}
+MATERIAL_FAMILIES = {
+    "TMDs / 2D chalcogenides", "Other layered chalcogenides", "2D elemental materials / Xenes",
+    "hBN / 2D wide-gap insulators", "2D heterostructures", "Moiré / twisted systems",
+    "2D magnets", "2D oxides / nitrides", "MXenes", "2D perovskites",
+    "3D / bulk perovskites", "Organic semiconductors / molecular crystals",
+    "COFs / MOFs / porous frameworks", "Polymers / molecular aggregates",
+    "Quantum dots / nanocrystals", "Carbon nanotubes / carbon nanostructures",
+    "Conventional semiconductors / quantum wells", "Other low-dimensional materials",
+}
+EXPERIMENTAL_METHODS = {
+    "Steady-state photoluminescence", "Time-resolved photoluminescence",
+    "Absorption / reflectance / transmission", "Photoluminescence excitation / two-photon spectroscopy",
+    "Ultrafast pump–probe / transient absorption", "Coherent multidimensional / four-wave mixing",
+    "Raman / resonant Raman", "THz / microwave spectroscopy", "Magneto-optical spectroscopy",
+    "Polarization / valley-resolved optical spectroscopy", "Photoemission / momentum microscopy",
+    "Scanning probe / tunneling spectroscopy", "Photocurrent / electrical transport",
+    "Near-field / single-particle optical microscopy", "Cathodoluminescence / EELS",
+    "Cavity / angle-resolved polariton spectroscopy", "Other experimental exciton probe",
+}
+COMPUTATIONAL_METHODS = {
+    "Ground-state DFT / electronic structure", "GW quasiparticle calculations",
+    "Bethe–Salpeter equation", "TDDFT / real-time TDDFT",
+    "Semiconductor Bloch / density-matrix equations", "Effective-mass / Wannier / Rytova–Keldysh model",
+    "Tight-binding / model Hamiltonian", "Quantum Monte Carlo",
+    "Configuration interaction / wavefunction method", "Nonadiabatic molecular dynamics",
+    "Real-time GW/BSE / nonequilibrium Green functions", "Exciton-phonon / electron-phonon calculation",
+    "Classical electrodynamics / transfer matrix / FDTD", "Kinetic / rate-equation / diffusion model",
+    "Machine learning / surrogate model", "Other computational exciton method",
+}
+EXCITON_OBSERVABLES = {
+    "Exciton resonance / transition energy", "Binding energy / Rydberg series",
+    "Optical / quasiparticle gap", "Population lifetime / decay", "Coherence / dephasing time",
+    "Homogeneous linewidth", "Inhomogeneous broadening / spectral disorder",
+    "Diffusion / transport length", "Formation / thermalization / relaxation",
+    "Energy transfer", "Charge transfer / exciton dissociation", "Radiative / nonradiative recombination",
+    "Oscillator strength / absorption strength", "Bright-dark splitting / fine structure",
+    "g-factor / Zeeman splitting", "Valley / spin polarization or coherence",
+    "Exciton-phonon coupling", "Exciton-exciton interaction / annihilation",
+    "Trion / biexciton / charged complexes", "Interlayer / intralayer character",
+    "Wavefunction / radius / spatial extent", "Momentum dispersion / exciton band structure",
+    "Rabi splitting / strong-coupling strength", "Condensation / many-body exciton phase",
+}
 
 SYSTEM_PROMPT = """You are the scientific abstract-screening curator for an Exciton Research Scanner used by researchers in condensed-matter physics, materials science, physical chemistry and optics.
 
@@ -57,12 +99,26 @@ STEP 3 — PAPER NATURE
 - Uncertain when the abstract cannot distinguish these reliably.
 
 STEP 4 — SCIENTIFIC EXTRACTION
-Extract only entities supported by the title/abstract.
-- materials: specific compounds/systems as written; normalize obvious typography only (for example MoS2 -> MoS₂).
-- material_families: useful broad groupings such as “TMDs / 2D chalcogenides”, “2D heterostructures”, “halide perovskites”, “COFs”, “organic semiconductors”, “quantum dots”. Do not replace specific materials with families.
-- experimental_methods: only methods the authors actually perform.
-- computational_methods: only methods the authors actually perform. Keep DFT distinct from GW and BSE.
-- exciton_properties: only properties substantively studied, not merely named as general motivation.
+Extract only entities supported by the title/abstract. Use the canonical labels supplied in the output schema; do not create synonyms or copy arbitrary noun phrases into grouped fields.
+
+MATERIALS AND MATERIAL FAMILIES
+- materials contains specific studied systems as concise normalized names (for example MoS2 -> MoS₂, WSe2/MoSe2 heterobilayer -> WSe₂/MoSe₂ heterobilayer). Do not include abbreviations, techniques, functionals, substrates or generic words such as “monolayer” as materials.
+- material_families is multi-label and hierarchical. A twisted WSe₂/MoSe₂ heterobilayer should receive “TMDs / 2D chalcogenides”, “2D heterostructures”, and “Moiré / twisted systems” when each is supported. A specific compound remains in materials.
+- Map graphene, phosphorene/black phosphorus, silicene, germanene, borophene and related elemental sheets to “2D elemental materials / Xenes”. Map MoS₂, WS₂, MoSe₂, WSe₂ and related MX₂ semiconductors to “TMDs / 2D chalcogenides”. Use “Other layered chalcogenides” for group-IV/III-VI chalcogenides and related layered chalcogenides that are not TMDs.
+- Keep 2D and bulk perovskites distinct. Group covalent and metal-organic frameworks together only under “COFs / MOFs / porous frameworks”. MXenes are transition-metal carbides/nitrides/carbonitrides, not generic TMDs.
+
+METHOD GROUPS
+- experimental_methods describes instruments/protocols actually used by the authors. Map synonyms to one canonical group: PL/micro-PL -> “Steady-state photoluminescence”; TRPL/streak-camera PL -> “Time-resolved photoluminescence”; differential transmission/transient reflectance/transient absorption -> “Ultrafast pump–probe / transient absorption” when time resolved; MOKE/Faraday/field-dependent PL -> “Magneto-optical spectroscopy”; trARPES/photoemission electron microscopy -> “Photoemission / momentum microscopy”.
+- Add multiple experimental groups when genuinely performed, but do not turn measured quantities into methods. “Lifetime”, “linewidth”, “binding energy”, “g-factor” and “polarization” are observables. Polarization-resolved PL may receive both the PL group and “Polarization / valley-resolved optical spectroscopy”.
+- computational_methods describes calculations actually performed by the authors. Map G0W0/evGW/scGW to “GW quasiparticle calculations”; BSE/GW-BSE to “Bethe–Salpeter equation” plus GW only when GW is actually performed; real-time BSE/NEGF to the corresponding nonequilibrium group; NAMD/surface hopping to “Nonadiabatic molecular dynamics”.
+- Ground-state DFT is supporting electronic-structure work, not by itself an exciton calculation. Include “Ground-state DFT / electronic structure” only when the authors perform it, and never infer it from a named functional such as PBE/HSE alone in background text.
+- Classical cavity simulations (FDTD, transfer matrix, coupled oscillators) count only when used to analyze substantive exciton light-matter coupling.
+
+EXCITON OBSERVABLES / PROPERTIES
+- exciton_properties contains canonical physical outputs actually measured, extracted, calculated or quantitatively analyzed—not every phenomenon mentioned in motivation.
+- Keep population lifetime distinct from coherence/dephasing; homogeneous linewidth distinct from inhomogeneous broadening; energy transfer distinct from charge transfer/dissociation; binding energy distinct from optical/quasiparticle gap.
+- A fitted decay constant supports “Population lifetime / decay”; spatially resolved propagation supports “Diffusion / transport length”; magnetic-field splitting supports “g-factor / Zeeman splitting”; polarization/helicity contrast supports “Valley / spin polarization or coherence”; anticrossing supports “Rabi splitting / strong-coupling strength”.
+- PL or absorption peak position supports “Exciton resonance / transition energy”, but does not alone prove binding energy. Binding energy requires an explicit value/extraction or evidence relating an exciton level/Rydberg series to a quasiparticle or continuum gap.
 
 STEP 5 — AUDITABLE EVIDENCE AND CONSISTENCY
 Give 2–5 short evidence phrases copied exactly or nearly exactly from the title/abstract. Evidence should cover relevance and, when applicable, separate experimental and computational actions. The reason must state what the paper actually contributes and why that supports the decision, without hype.
@@ -95,10 +151,10 @@ def user_prompt(paper: dict) -> str:
         "research_type": "one string: " + " | ".join(sorted(RESEARCH_TYPES)),
         "paper_nature": "one string: " + " | ".join(sorted(PAPER_NATURES)),
         "materials": ["specific materials actually stated or clearly identified"],
-        "material_families": ["broad material families"],
-        "experimental_methods": ["original experimental methods performed by the authors"],
-        "computational_methods": ["original theoretical/computational methods performed by the authors"],
-        "exciton_properties": ["exciton properties substantively studied"],
+        "material_families": ["zero or more canonical material-family labels from the JSON schema"],
+        "experimental_methods": ["zero or more canonical experimental-method labels from the JSON schema"],
+        "computational_methods": ["zero or more canonical computational-method labels from the JSON schema"],
+        "exciton_properties": ["zero or more canonical observable/property labels from the JSON schema"],
         "confidence": "number from 0 to 1",
         "reason": "one concise scientific sentence",
         "evidence": ["two to five short supporting phrases from the metadata"],
@@ -117,10 +173,12 @@ OUTPUT_SCHEMA = {
             "relevance": {"type": "string", "enum": sorted(RELEVANCE)},
             "research_type": {"type": "string", "enum": sorted(RESEARCH_TYPES)},
             "paper_nature": {"type": "string", "enum": sorted(PAPER_NATURES)},
-            **{field: {"type": "array", "items": {"type": "string"}} for field in (
-                "materials", "material_families", "experimental_methods",
-                "computational_methods", "exciton_properties", "evidence",
-            )},
+            "materials": {"type": "array", "items": {"type": "string"}},
+            "material_families": {"type": "array", "items": {"type": "string", "enum": sorted(MATERIAL_FAMILIES)}},
+            "experimental_methods": {"type": "array", "items": {"type": "string", "enum": sorted(EXPERIMENTAL_METHODS)}},
+            "computational_methods": {"type": "array", "items": {"type": "string", "enum": sorted(COMPUTATIONAL_METHODS)}},
+            "exciton_properties": {"type": "array", "items": {"type": "string", "enum": sorted(EXCITON_OBSERVABLES)}},
+            "evidence": {"type": "array", "items": {"type": "string"}},
             "confidence": {"type": "number", "minimum": 0, "maximum": 1},
             "reason": {"type": "string"},
         },
@@ -176,6 +234,16 @@ def validate(result: dict) -> dict:
     for field in ("materials", "material_families", "experimental_methods", "computational_methods", "exciton_properties", "evidence"):
         if not isinstance(result[field], list) or not all(isinstance(x, str) for x in result[field]):
             raise ValueError(f"{field} must be a string list")
+    controlled_fields = {
+        "material_families": MATERIAL_FAMILIES,
+        "experimental_methods": EXPERIMENTAL_METHODS,
+        "computational_methods": COMPUTATIONAL_METHODS,
+        "exciton_properties": EXCITON_OBSERVABLES,
+    }
+    for field, vocabulary in controlled_fields.items():
+        invalid = set(result[field]).difference(vocabulary)
+        if invalid:
+            raise ValueError(f"Non-canonical {field}: {sorted(invalid)}")
     result["confidence"] = max(0.0, min(1.0, float(result["confidence"])))
     result["reason"] = str(result["reason"]).strip()
     return result
