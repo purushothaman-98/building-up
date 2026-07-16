@@ -8,6 +8,11 @@ on:
   schedule:
     - cron: "17 5 * * *"
   workflow_dispatch:
+    inputs:
+      since:
+        description: Earliest submission date for a manual rebuild
+        required: false
+        default: "2026-07-01"
 permissions:
   contents: write
 concurrency:
@@ -28,7 +33,7 @@ jobs:
           if [ "${{ github.event_name }}" = "schedule" ]; then
             SINCE="$(date -u -d '14 days ago' +%F)"
           else
-            SINCE="2026-01-01"
+            SINCE="${{ inputs.since || '2026-07-01' }}"
           fi
           python arxiv_scanner.py --output data/papers.json --since "$SINCE" --max-results 2000
       - name: Commit archive changes
