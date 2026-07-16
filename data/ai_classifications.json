@@ -6,102 +6,93 @@
       "confidence": 0.9,
       "evidence": [
         "we demonstrate a bright, charge-tunable single-photon source",
-        "we use a modified circular Bragg grating",
+        "we provide a conductive pathway to the central disk",
         "we demonstrate a lifetime of $44.3 \\pm 0.2$ ps",
-        "resolving distinct emission plateaus ranging from the single negatively charged trion ($X^-$) to triply negatively charged excitons ($X^{3-}$)",
-        "the device is blinking-free with very low multi-photon contribution"
+        "we demonstrate precise charge-state control",
+        "resolving distinct emission plateaus ranging from the single negatively charged trion ($X^-$) to triply negatively charged excitons ($X^{3-}$)"
       ],
       "exciton_properties": [
-        "lifetime",
-        "trions"
+        "Population lifetime / decay",
+        "Trion / biexciton / charged complexes"
       ],
-      "experimental_methods": [
-        "demonstrate a bright, charge-tunable single-photon source",
-        "use a modified circular Bragg grating",
-        "demonstrate a lifetime of $44.3 \\pm 0.2$ ps",
-        "demonstrate precise charge-state control"
-      ],
+      "experimental_methods": [],
       "include_in_feed": true,
       "material_families": [
-        "quantum dots"
+        "TMDs / 2D chalcogenides"
       ],
       "materials": [
         "InAs",
         "GaAs"
       ],
       "paper_nature": "Original research",
-      "reason": "The paper reports on the experimental demonstration of a single-photon source utilizing quantum dots, with a focus on excitonic states and their properties.",
+      "reason": "The paper reports on the development of a single-photon source utilizing InAs quantum dots and discusses excitonic states, specifically negatively charged trions and triply negatively charged excitons, which are central to the findings.",
       "relevance": "Core exciton paper",
       "research_type": "Experimental",
       "arxiv_id": "2607.11495",
       "version": "v2",
-      "fingerprint": "fc4632559a076f80cfe44265198b38f597b57d523e10c3703354873cce5b779a",
+      "fingerprint": "d7716df699bf0457fe1b5a4b810783df882f47a238f23d51d92a7de623515d95",
       "model": "openai/gpt-4o-mini",
-      "prompt_version": "2.0",
-      "classified_at": "2026-07-16T00:23:35.674096+00:00"
+      "prompt_version": "3.0",
+      "classified_at": "2026-07-16T00:33:42.115846+00:00"
     },
     "2607.12754": {
       "computational_methods": [],
       "confidence": 0.8,
       "evidence": [
         "twist has emerged as a powerful geometric degree of freedom that reconfigures interlayer coupling",
-        "we survey twist-engineered optical and optoelectronic devices",
+        "we survey twist-engineered optical and optoelectronic devices spanning van der Waals materials",
         "we first review the current landscape of twist-angle metrology"
       ],
       "exciton_properties": [],
-      "experimental_methods": [
-        "atomic force microscopy (AFM)-assisted manipulation",
-        "quantum twisting microscopy (QTM)",
-        "microelectromechanical systems (MEMS)"
-      ],
+      "experimental_methods": [],
       "include_in_feed": false,
       "material_families": [
-        "van der Waals materials",
-        "photonic platforms"
+        "2D heterostructures",
+        "Moiré / twisted systems"
       ],
       "materials": [],
       "paper_nature": "Review / perspective",
-      "reason": "The paper reviews existing technologies and methods related to twist engineering in optical and optoelectronic devices but does not present original research findings.",
+      "reason": "The paper reviews twist-engineered devices and does not present original research on excitons or their properties.",
       "relevance": "Not relevant",
       "research_type": "Unclassified",
       "arxiv_id": "2607.12754",
       "version": "v1",
-      "fingerprint": "fa94e4b5bcde1eca29c7590de5b13dc2ee71e7d2af26a458112f198355a12c07",
+      "fingerprint": "eb008bbc6109a602eab0c327a8304b5164b537bcb4459ed1dbad5850da0ff63f",
       "model": "openai/gpt-4o-mini",
-      "prompt_version": "2.0",
-      "classified_at": "2026-07-16T00:23:46.870878+00:00"
+      "prompt_version": "3.0",
+      "classified_at": "2026-07-16T00:33:53.377874+00:00"
     },
     "2607.12325": {
-      "computational_methods": [
-        "grid-Bayesian inverse"
-      ],
+      "computational_methods": [],
       "confidence": 0.9,
       "evidence": [
         "hyperspectral photoluminescence (PL) of moiré transition-metal dichalcogenide heterobilayers encodes spatially varying exciton landscapes",
         "we develop a peak-decomposition-free inverse framework for quantitative optical metrology",
         "we infer effective disorder coordinates",
         "descriptor-based hyperspectral PL as a practical, minimal-assumption route to optical disorder diagnostics",
-        "applicable to two-dimensional and moiré materials"
+        "directly applicable to two-dimensional and moiré materials"
       ],
-      "exciton_properties": [
-        "spatially varying exciton landscapes"
-      ],
+      "exciton_properties": [],
       "experimental_methods": [],
       "include_in_feed": true,
       "material_families": [
+        "TMDs / 2D chalcogenides",
+        "2D heterostructures",
+        "Moiré / twisted systems"
+      ],
+      "materials": [
         "moiré transition-metal dichalcogenide heterobilayers"
       ],
-      "materials": [],
       "paper_nature": "Original research",
-      "reason": "The paper presents a new method for analyzing exciton landscapes in moiré materials using hyperspectral photoluminescence data.",
+      "reason": "The paper presents a new method for analyzing exciton landscapes in moiré materials through hyperspectral photoluminescence, establishing its relevance to exciton research.",
       "relevance": "Core exciton paper",
-      "research_type": "Computational",
+      "research_type": "Theory + Experiment",
       "arxiv_id": "2607.12325",
       "version": "v1",
-      "fingerprint": "0b85157e6ad173a5b61efa058c7788347d20a34965fcfa4d9289b54f16dc8433",
+      "fingerprint": "ce8a0bcea94e208bd30ee73cfdb44e7205c1bc017d6912e5f3c00566738e1c8f",
       "model": "openai/gpt-4o-mini",
-      "prompt_version": "2.0",
-      "classified_at": "2026-07-16T00:23:58.953881+00:00"
+      "prompt_version": "3.0",
+      "classified_at": "2026-07-16T00:34:05.615993+00:00"
     },
     "2607.11768": {
       "computational_methods": [],
@@ -655,7 +646,20 @@
       "eligible": 18,
       "window_start": "2026-07-08",
       "window_end": "2026-07-14"
+    },
+    {
+      "run_at": "2026-07-16T00:34:05.616544+00:00",
+      "model": "openai/gpt-4o-mini",
+      "prompt_version": "3.0",
+      "attempted": 3,
+      "succeeded": 3,
+      "failed": 0,
+      "remaining": 15,
+      "total_records": 18,
+      "eligible": 18,
+      "window_start": "2026-07-08",
+      "window_end": "2026-07-14"
     }
   ],
-  "last_run": "2026-07-16T00:23:58.954723+00:00"
+  "last_run": "2026-07-16T00:34:05.616544+00:00"
 }
