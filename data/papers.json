@@ -1,10 +1,10 @@
 {
   "schema_version": 2,
-  "last_scan": "2026-07-15T23:42:00.319077+00:00",
+  "last_scan": "2026-07-16T01:06:54.672136+00:00",
   "counts": {
-    "total": 577,
-    "new_this_scan": 0,
-    "updated_this_scan": 0
+    "total": 580,
+    "new_this_scan": 3,
+    "updated_this_scan": 2
   },
   "scans": [
     {
@@ -33,9 +33,416 @@
       "new": 0,
       "updated": 0,
       "total": 577
+    },
+    {
+      "scanned_at": "2026-07-16T01:06:54.672136+00:00",
+      "since": "2026-01-01",
+      "fetched": 437,
+      "classified": 437,
+      "new": 3,
+      "updated": 2,
+      "total": 580
     }
   ],
   "papers": [
+    {
+      "arxiv_id": "2607.14025",
+      "version": "v1",
+      "versioned_id": "2607.14025v1",
+      "title": "The WEST code for large-scale excited-state materials simulations",
+      "authors": [
+        "Victor Wen-zhe Yu",
+        "Siyuan Chen",
+        "Yu Jin",
+        "Vrindaa Somjit",
+        "Stefano Paolo Villani",
+        "Jiawei Zhan",
+        "Marco Govoni",
+        "Giulia Galli"
+      ],
+      "abstract": "We present WEST, an open-source plane-wave pseudopotential code for large-scale excited-state materials simulations, and describe its theoretical foundations, software architecture, and capabilities. WEST implements full-frequency GW, quantum defect embedding theory, the Bethe-Salpeter equation, and time-dependent density functional theory within a common algorithmic framework that avoids the explicit computation of virtual electronic states. By combining density functional and density matrix perturbation theory, low-rank representations of the dielectric screening and exact exchange, and localization techniques, WEST achieves favorable computational scaling with system size. The code supports the calculation of quasi-particle and neutral excitation energies, optical and photoluminescence spectra, excited-state forces, and non-adiabatic couplings, with interoperable workflows connecting to quantum chemistry, vibronic coupling, and quantum computing packages. A hierarchical parallelization strategy and GPU acceleration deliver near-ideal strong scaling to thousands of GPUs, enabling accurate excited-state simulations of systems with more than a thousand atoms. Representative applications, spanning the full optical cycle of solid-state spin defects, self-trapped excitons in metal-halide perovskites, and the optical response of liquid water and ice, demonstrate the accuracy and versatility of the code across diverse material classes. The capabilities implemented in WEST establish the code as a scalable platform for predictive excited-state simulations, high-throughput materials discovery, and the generation of high-fidelity datasets for machine learning in computational materials science.",
+      "submitted": "2026-07-15T16:56:46Z",
+      "updated": "2026-07-15T16:56:46Z",
+      "categories": [
+        "cond-mat.mtrl-sci"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2607.14025v1",
+      "arxiv_url": "https://arxiv.org/abs/2607.14025",
+      "study_type": "Computational",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Methods / software",
+      "materials": [
+        "perovskites"
+      ],
+      "material_families": [
+        "Perovskites / halide semiconductors"
+      ],
+      "exciton_properties": [
+        "Defects / trapping"
+      ],
+      "applications": [],
+      "methods": [
+        "Photoluminescence",
+        "DFT",
+        "Bethe–Salpeter equation",
+        "TDDFT"
+      ],
+      "matched_keywords": [
+        "bethe-salpeter",
+        "density functional theory",
+        "exciton",
+        "photoluminescence",
+        "time-dependent density functional theory"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [],
+        "experimental_methods": {
+          "Photoluminescence": [
+            "photoluminescence"
+          ]
+        },
+        "computational_methods": {
+          "DFT": [
+            "density functional theory"
+          ],
+          "Bethe–Salpeter equation": [
+            "bethe-salpeter"
+          ],
+          "TDDFT": [
+            "time-dependent density functional theory"
+          ]
+        },
+        "materials": {
+          "perovskites": [
+            "perovskite"
+          ],
+          "Perovskites / halide semiconductors": [
+            "perovskite"
+          ]
+        },
+        "properties": {
+          "Defects / trapping": [
+            "self-trapped exciton"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": true
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2607.13957",
+      "version": "v1",
+      "versioned_id": "2607.13957v1",
+      "title": "Temporal Fourier Optics Reveals Hidden Hybridized Light-Matter States",
+      "authors": [
+        "Juan-Feng Zhu",
+        "Wenjie Zhou",
+        "Shihao Feng",
+        "Zicheng Song",
+        "Ruicong Zhang",
+        "Cheng-Wei Qiu",
+        "Rengming Liu",
+        "Lin Wu"
+      ],
+      "abstract": "Spectral measurements provide fundamental insights into wave systems by revealing resonances, mode hybridization, and light-matter interactions. However, intrinsic dissipation and measurement-induced spectral broadening often conceal the underlying hybridized light-matter states that give rise to measured spectra. Here, we establish a space-time Fourier correspondence that interprets spectral broadening as an effective temporal attenuation, giving rise to a temporal Fourier optics framework for recovering hidden spectral information. Implemented through a temporal point-spread-function (TPSF) reconstruction method, the framework compensates the effective temporal decay before Fourier transformation, directly reconstructing intrinsic spectral responses from experimentally measured spectra without repeated frequency synthesis or model-dependent fitting. We experimentally validate the approach in deterministic single-molecule Au nanosphere dimers and open Au@Ag nanorod- and nanotriangle-based plasmonic nanocavities coupled to J-aggregate excitons. Across these diverse platforms, TPSF consistently reconstructs hidden upper and lower polaritonic branches, thereby revealing the underlying hybridized light-matter states and strong coupling that remain unresolved in conventional scattering spectra. The reconstructed spectra agree closely with the recently developed complex-frequency formalism while offering a considerably simpler and more experimentally accessible implementation. Beyond strong light-matter coupling, temporal Fourier optics establishes a general framework for uncovering physical states hidden by dissipation, opening new opportunities for spectroscopy, imaging, sensing, and inverse wave measurements across photonics and wave physics.",
+      "submitted": "2026-07-15T15:45:39Z",
+      "updated": "2026-07-15T15:45:39Z",
+      "categories": [
+        "physics.optics",
+        "physics.app-ph",
+        "quant-ph"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2607.13957v1",
+      "arxiv_url": "https://arxiv.org/abs/2607.13957",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [],
+      "material_families": [
+        "Organic / molecular materials"
+      ],
+      "exciton_properties": [
+        "Light-matter strong coupling"
+      ],
+      "applications": [
+        "Light–matter coupling"
+      ],
+      "methods": [],
+      "matched_keywords": [
+        "exciton",
+        "polariton"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [
+          "experimentally"
+        ],
+        "computational_actions": [],
+        "experimental_methods": {},
+        "computational_methods": {},
+        "materials": {
+          "Organic / molecular materials": [
+            "j-aggregate"
+          ]
+        },
+        "properties": {
+          "Light-matter strong coupling": [
+            "strong light-matter coupling"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2603.06446",
+      "version": "v2",
+      "versioned_id": "2603.06446v2",
+      "title": "Real-time exciton dynamics in two-dimensional materials under ultrashort laser pulses",
+      "authors": [
+        "Dmitry Tumakov",
+        "Daria Popova-Gorelova"
+      ],
+      "abstract": "The optical response of two-dimensional materials is often significantly impacted by excitonic effects due to the reduced screening of attractive Coulomb interactions in low-dimensional systems. Accurate modeling of exciton formation and real-time dynamics is essential to understanding their ultrafast optical properties. In this study, we theoretically investigate the exciton dynamics in a two-dimensional hexagonal boron nitride (h-BN) and a germanium sulfide (GeS) monolayers exposed to an ultrashort laser pulse. We analyze the system's response to the external field in one- and two-photon excitation regimes. For our calculations, we combine a state-of-the-art ab initio approach to study exciton dynamics with a highly precise numerical scheme. We incorporate electron-hole interactions through a non-local self-energy operator derived from the many-body perturbation theory (MBPT) within the time-dependent adiabatic $GW$ (TD-a$GW$) approximation. We implement this approach using the full-electron LAPW+lo method in the all-electron exciting package. Our results elucidate the role of many-body effects in shaping ultrafast excitonic processes in two-dimensional materials, contributing to the fundamental understanding necessary for optoelectronic and photonic applications.",
+      "submitted": "2026-03-06T16:38:52Z",
+      "updated": "2026-07-15T08:45:18Z",
+      "categories": [
+        "cond-mat.mtrl-sci"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2603.06446v2",
+      "arxiv_url": "https://arxiv.org/abs/2603.06446",
+      "study_type": "Computational",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [
+        "hBN",
+        "2D materials"
+      ],
+      "material_families": [
+        "Other 2D / van der Waals materials"
+      ],
+      "exciton_properties": [],
+      "applications": [],
+      "methods": [
+        "Exciton lifetime / dynamics",
+        "DFT"
+      ],
+      "matched_keywords": [
+        "ab initio",
+        "exciton",
+        "exciton dynamics",
+        "excitonic"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [
+          "using"
+        ],
+        "experimental_methods": {
+          "Exciton lifetime / dynamics": [
+            "exciton dynamics"
+          ]
+        },
+        "computational_methods": {
+          "DFT": [
+            "ab initio"
+          ]
+        },
+        "materials": {
+          "hBN": [
+            "hexagonal boron nitride"
+          ],
+          "2D materials": [
+            "two-dimensional material"
+          ],
+          "Other 2D / van der Waals materials": [
+            "two-dimensional material",
+            "monolayer",
+            "hexagonal boron nitride"
+          ]
+        },
+        "properties": {},
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": true
+      },
+      "versions_seen": [
+        "v1",
+        "v2"
+      ]
+    },
+    {
+      "arxiv_id": "2607.13211",
+      "version": "v1",
+      "versioned_id": "2607.13211v1",
+      "title": "Multiwavelength Raman investigation of mono- and few-layer MoS2 grown by Pulsed Laser Deposition on SiO2",
+      "authors": [
+        "Alice Cartoceti",
+        "Paolo D'Agosta",
+        "Francesco Tumino",
+        "Valeria Russo",
+        "Carlo S. Casari",
+        "Andrea Li Bassi"
+      ],
+      "abstract": "Molybdenum disulfide (MoS$_2$) is a semiconductor whose vibrational and excitonic properties are highly sensitive to layer number and structural disorder. We demonstrate the growth of MoS$_2$ monolayers on inert, electronics-compatible SiO$_2$ substrates using room-temperature pulsed laser deposition (PLD). Control of the process parameters enables tuning from monolayer to multilayer films, which we investigate by multiwavelength Raman spectroscopy. The evolution of the Raman-shift difference between the $E_{2g}^{1}$ and $A_{1g}$ modes, combined with an assessment of defect density, tracks film growth as a function of the number of deposition laser pulses. Although excitonic effects strongly influence the optical response of two-dimensional transition-metal dichalcogenides, experimental reports of symmetry-selective exciton-phonon coupling remain limited. We provide experimental evidence of symmetry-dependent exciton-phonon coupling in PLD-grown monolayer MoS$_2$. Specifically, we observe modulation of the resonant behaviour of the out-of-plane $A_{1g}$ and in-plane $E_{2g}^{1}$ modes, related to their different coupling to A excitons, predominantly derived from Mo $d_{z^2}$ orbitals, and C excitons, characterized by mixed orbital contributions from Mo $d_{z^2}$ and S $p_x$ and $p_y$ states. Comparison with mechanically exfoliated monolayers reveals the role of growth-induced defects in modulating these interactions. These findings establish room-temperature PLD as a viable approach for growing two-dimensional MoS$_2$ on inert, electronics-compatible substrates and provide insight into the interplay between excitonic resonances and growth-induced disorder in two-dimensional MoS$_2$.",
+      "submitted": "2026-07-14T19:10:50Z",
+      "updated": "2026-07-14T19:10:50Z",
+      "categories": [
+        "cond-mat.mtrl-sci",
+        "physics.chem-ph"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2607.13211v1",
+      "arxiv_url": "https://arxiv.org/abs/2607.13211",
+      "study_type": "Experimental",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [
+        "MoS2",
+        "transition-metal dichalcogenides"
+      ],
+      "material_families": [
+        "TMDs / 2D chalcogenides",
+        "Other 2D / van der Waals materials"
+      ],
+      "exciton_properties": [
+        "Exciton-phonon coupling"
+      ],
+      "applications": [],
+      "methods": [
+        "Raman spectroscopy"
+      ],
+      "matched_keywords": [
+        "exciton",
+        "excitonic",
+        "raman spectroscopy"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [
+          "we observe"
+        ],
+        "computational_actions": [
+          "using"
+        ],
+        "experimental_methods": {
+          "Raman spectroscopy": [
+            "raman spectroscopy"
+          ]
+        },
+        "computational_methods": {},
+        "materials": {
+          "MoS2": [
+            "mos2",
+            "molybdenum disulfide"
+          ],
+          "transition-metal dichalcogenides": [
+            "transition-metal dichalcogenide"
+          ],
+          "TMDs / 2D chalcogenides": [
+            "transition-metal dichalcogenide",
+            "mos2",
+            "molybdenum disulfide"
+          ],
+          "Other 2D / van der Waals materials": [
+            "monolayer"
+          ]
+        },
+        "properties": {
+          "Exciton-phonon coupling": [
+            "exciton-phonon"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": true,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2602.18194",
+      "version": "v4",
+      "versioned_id": "2602.18194v4",
+      "title": "Correlated phases of moat-band excitons in two dimensions",
+      "authors": [
+        "L. Maisel Licerán",
+        "S. H. Boeve",
+        "H. T. C. Stoof"
+      ],
+      "abstract": "We study dilute two-dimensional systems of interacting excitons with a moat dispersion, whose ground-state manifold consists of a set of discrete or continuously degenerate energy minima. At low densities and in the presence of contact interactions, it is known that the bosons can undergo statistical transmutation and give rise to a chiral spin liquid. Here, we show that long-range interactions such as those expected in excitonic systems introduce a rich competition between the chiral spin liquid and different kinds of Bose-Einstein condensates. The moat dispersion can favor Bose-Einstein condensation into states occupying multiple momenta, leading to inhomogeneous and supersolid phases with a highly anisotropic superfluid response. We demonstrate that a proper $T$-matrix renormalization of the exciton-exciton interaction is essential for describing these phases and show that they can arise even from purely repulsive interactions. This formalism is employed to obtain the phase diagram of competing homogeneous and stripe condensates with the chiral spin liquid in an electron-hole bilayer model. In addition, we show how the $T$ matrix enters the familiar Gross-Pitaevskii framework and map out extended phase diagrams within a pseudopotential approximation. We place our findings in the context of real excitonic systems by discussing the roles of finite lifetimes, disorder, band-structure warping, and nonzero temperatures. We conclude that moat bands can drive Bose-Einstein condensation and supersolidity already at weak coupling, in contrast to the case of a standard parabolic dispersion.",
+      "submitted": "2026-02-20T13:02:36Z",
+      "updated": "2026-07-14T18:05:29Z",
+      "categories": [
+        "cond-mat.quant-gas",
+        "cond-mat.mes-hall",
+        "cond-mat.other",
+        "cond-mat.str-el",
+        "quant-ph"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2602.18194v4",
+      "arxiv_url": "https://arxiv.org/abs/2602.18194",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [],
+      "material_families": [],
+      "exciton_properties": [
+        "Many-exciton interactions"
+      ],
+      "applications": [],
+      "methods": [],
+      "matched_keywords": [
+        "exciton",
+        "excitonic"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [],
+        "experimental_methods": {},
+        "computational_methods": {},
+        "materials": {},
+        "properties": {
+          "Many-exciton interactions": [
+            "exciton-exciton"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v3",
+        "v4"
+      ]
+    },
     {
       "arxiv_id": "2603.25439",
       "version": "v2",
@@ -8289,65 +8696,6 @@
       },
       "versions_seen": [
         "v1"
-      ]
-    },
-    {
-      "arxiv_id": "2602.18194",
-      "version": "v3",
-      "versioned_id": "2602.18194v3",
-      "title": "Correlated phases of moat-band excitons in two dimensions",
-      "authors": [
-        "L. Maisel Licerán",
-        "S. H. Boeve",
-        "H. T. C. Stoof"
-      ],
-      "abstract": "We study dilute two-dimensional systems of interacting excitons with a moat dispersion, whose ground-state manifold consists of a set of discrete or continuously degenerate energy minima. At low densities and in the presence of contact interactions, it is known that the bosons can undergo statistical transmutation and stabilize a chiral spin liquid. Here, we show that long-range interactions such as those expected in excitonic systems introduce a rich competition between the chiral spin liquid and different kinds of Bose-Einstein condensates. The moat dispersion can favor Bose-Einstein condensation into states occupying multiple momenta, leading to inhomogeneous and supersolid phases with a highly anisotropic superfluid response. We demonstrate that a proper $T$-matrix renormalization of the exciton-exciton interaction is essential for describing these phases and show that they can arise even from purely repulsive interactions. This formalism is employed to obtain the phase diagram of competing homogeneous and stripe condensates with the chiral spin liquid in an electron-hole bilayer model. In addition, we show how the $T$ matrix enters the familiar Gross-Pitaevskii framework and map extended phase diagrams within a pseudopotential approximation. We place our findings in the context of real excitonic systems by discussing the roles of finite lifetimes, disorder, band-structure warping, and finite temperatures. We conclude that moat bands can drive Bose-Einstein condensation and supersolidity already at weak coupling, in contrast to systems with a standard parabolic dispersion.",
-      "submitted": "2026-02-20T13:02:36Z",
-      "updated": "2026-06-06T03:15:07Z",
-      "categories": [
-        "cond-mat.quant-gas",
-        "cond-mat.mes-hall",
-        "cond-mat.other",
-        "cond-mat.str-el",
-        "quant-ph"
-      ],
-      "pdf_url": "https://arxiv.org/pdf/2602.18194v3",
-      "arxiv_url": "https://arxiv.org/abs/2602.18194",
-      "study_type": "Unclassified",
-      "relevance": "Core exciton paper",
-      "paper_nature": "Original research",
-      "materials": [],
-      "material_families": [],
-      "exciton_properties": [
-        "Many-exciton interactions"
-      ],
-      "applications": [],
-      "methods": [],
-      "matched_keywords": [
-        "exciton",
-        "excitonic"
-      ],
-      "classification_evidence": {
-        "experimental_actions": [],
-        "computational_actions": [],
-        "experimental_methods": {},
-        "computational_methods": {},
-        "materials": {},
-        "properties": {
-          "Many-exciton interactions": [
-            "exciton-exciton"
-          ]
-        },
-        "relevance": [
-          "exciton/excitonic stated in title or abstract"
-        ]
-      },
-      "evidence": {
-        "experimental": false,
-        "computational": false
-      },
-      "versions_seen": [
-        "v3"
       ]
     },
     {
@@ -28165,86 +28513,6 @@
       "evidence": {
         "experimental": false,
         "computational": false
-      },
-      "versions_seen": [
-        "v1"
-      ]
-    },
-    {
-      "arxiv_id": "2603.06446",
-      "version": "v1",
-      "versioned_id": "2603.06446v1",
-      "title": "Real-time exciton dynamics in two-dimensional materials under ultrashort laser pulses",
-      "authors": [
-        "Dmitry Tumakov",
-        "Daria Popova-Gorelova"
-      ],
-      "abstract": "The optical response of two-dimensional materials is often significantly impacted by excitonic effects due to the reduced screening of attractive Coulomb interactions in low-dimensional systems. Accurate modeling of exciton formation and real-time dynamics is essential to understanding their ultrafast optical properties. In this study, we theoretically investigate the exciton dynamics in a two-dimensional hexagonal boron nitride (h-BN) and a germanium sulfide (GeS) monolayers exposed to an ultrashort laser pulse. We analyze the system's response to the external field in one- and two-photon excitation regimes. For our calculations, we combine a state-of-the-art ab initio approach to study exciton dynamics with a highly precise numerical scheme. We incorporate electron-hole interactions through a non-local self-energy operator derived from the many-body perturbation theory (MBPT) within the time-dependent adiabatic $GW$ (TD-a$GW$) approximation. We implement this approach using the full-electron LAPW+lo method in the all-electron exciting package. Our results elucidate the role of many-body effects in shaping ultrafast excitonic processes in two-dimensional materials, contributing to the fundamental understanding necessary for optoelectronic and photonic applications.",
-      "submitted": "2026-03-06T16:38:52Z",
-      "updated": "2026-03-06T16:38:52Z",
-      "categories": [
-        "cond-mat.mtrl-sci"
-      ],
-      "pdf_url": "https://arxiv.org/pdf/2603.06446v1",
-      "arxiv_url": "https://arxiv.org/abs/2603.06446",
-      "study_type": "Computational",
-      "relevance": "Core exciton paper",
-      "paper_nature": "Original research",
-      "materials": [
-        "hBN",
-        "2D materials"
-      ],
-      "material_families": [
-        "Other 2D / van der Waals materials"
-      ],
-      "exciton_properties": [],
-      "applications": [],
-      "methods": [
-        "Exciton lifetime / dynamics",
-        "DFT"
-      ],
-      "matched_keywords": [
-        "ab initio",
-        "exciton",
-        "exciton dynamics",
-        "excitonic"
-      ],
-      "classification_evidence": {
-        "experimental_actions": [],
-        "computational_actions": [
-          "using"
-        ],
-        "experimental_methods": {
-          "Exciton lifetime / dynamics": [
-            "exciton dynamics"
-          ]
-        },
-        "computational_methods": {
-          "DFT": [
-            "ab initio"
-          ]
-        },
-        "materials": {
-          "hBN": [
-            "hexagonal boron nitride"
-          ],
-          "2D materials": [
-            "two-dimensional material"
-          ],
-          "Other 2D / van der Waals materials": [
-            "two-dimensional material",
-            "monolayer",
-            "hexagonal boron nitride"
-          ]
-        },
-        "properties": {},
-        "relevance": [
-          "exciton/excitonic stated in title or abstract"
-        ]
-      },
-      "evidence": {
-        "experimental": false,
-        "computational": true
       },
       "versions_seen": [
         "v1"
