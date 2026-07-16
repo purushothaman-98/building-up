@@ -229,7 +229,7 @@ material_counts = Counter(
 method_counts = Counter(x for p in raw_papers for x in p.get("methods", []))
 property_counts = Counter(x for p in raw_papers for x in p.get("exciton_properties", []))
 
-FILTER_KEYS = ["search_filter", "feed_mode", "relevance_filter", "study_filter", "nature_filter", "material_filter", "method_filter", "property_filter"]
+FILTER_KEYS = ["search_filter", "archive_feed_mode", "relevance_filter", "study_filter", "nature_filter", "material_filter", "method_filter", "property_filter"]
 def clear_filters() -> None:
     for key in FILTER_KEYS:
         st.session_state.pop(key, None)
@@ -238,7 +238,7 @@ def clear_filters() -> None:
 with st.sidebar:
     st.header("Explore the archive")
     st.caption("Filter the complete stored archive. Newest papers appear first.")
-    feed_mode = st.radio("Feed", ["All archived papers", "AI-approved final feed", "Pending AI review"], key="feed_mode")
+    feed_mode = st.radio("Feed", ["All archived papers", "AI-approved final feed", "Pending AI review"], key="archive_feed_mode")
     search_text = st.text_input(
         "Search",
         placeholder="Title, abstract, author, arXiv ID…",
