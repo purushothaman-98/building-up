@@ -24,6 +24,8 @@ jobs:
           python-version: "3.12"
       - name: Process bounded June windows
         shell: bash
+        env:
+          PYTHONPATH: .
         run: |
           if [ "$GITHUB_EVENT_NAME" = "schedule" ]; then
             python scripts/run_backfill.py
