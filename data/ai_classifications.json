@@ -595,6 +595,107 @@
       "model": "openai/gpt-4o-mini",
       "prompt_version": "4.0",
       "classified_at": "2026-07-16T00:58:02.024678+00:00"
+    },
+    "2607.14025": {
+      "computational_methods": [
+        "BSE / exciton equation",
+        "DFT + GW/BSE"
+      ],
+      "confidence": 0.9,
+      "evidence": [
+        "We present WEST, an open-source plane-wave pseudopotential code for large-scale excited-state materials simulations",
+        "WEST implements full-frequency GW, quantum defect embedding theory, the Bethe-Salpeter equation, and time-dependent density functional theory",
+        "The code supports the calculation of quasi-particle and neutral excitation energies, optical and photoluminescence spectra, excited-state forces, and non-adiabatic couplings",
+        "Representative applications...self-trapped excitons in metal-halide perovskites"
+      ],
+      "exciton_properties": [
+        "Exciton energy / optical spectrum"
+      ],
+      "experimental_methods": [],
+      "include_in_feed": true,
+      "material_families": [
+        "Perovskites"
+      ],
+      "materials": [
+        "metal-halide perovskites"
+      ],
+      "paper_nature": "Methods / software",
+      "reason": "The paper describes the development of a computational code for simulating excited states, including excitonic effects, and demonstrates its application to systems involving excitons.",
+      "relevance": "Exciton-adjacent",
+      "research_type": "Computational",
+      "arxiv_id": "2607.14025",
+      "version": "v1",
+      "fingerprint": "034dc5e83b06155385dbf7b033f85ba2152c125832476b646b7494c084404a58",
+      "model": "openai/gpt-4o-mini",
+      "prompt_version": "4.0",
+      "classified_at": "2026-07-16T01:07:11.590939+00:00"
+    },
+    "2607.13957": {
+      "computational_methods": [],
+      "confidence": 0.8,
+      "evidence": [
+        "we experimentally validate the approach",
+        "coupled to J-aggregate excitons",
+        "revealing the underlying hybridized light-matter states and strong coupling"
+      ],
+      "exciton_properties": [
+        "Strong coupling / polaritons"
+      ],
+      "experimental_methods": [
+        "Other experimental method"
+      ],
+      "include_in_feed": true,
+      "material_families": [
+        "Other materials"
+      ],
+      "materials": [
+        "Au nanosphere dimers",
+        "Au@Ag nanorod",
+        "nanotriangle"
+      ],
+      "paper_nature": "Original research",
+      "reason": "The paper investigates hybridized light-matter states involving excitons, demonstrating strong coupling through experimental validation.",
+      "relevance": "Exciton-adjacent",
+      "research_type": "Experimental",
+      "arxiv_id": "2607.13957",
+      "version": "v1",
+      "fingerprint": "534c1131cd8067acc0bd16c65b2bf84cc7833eae78bcbb62c9e61b9d2b69e645",
+      "model": "openai/gpt-4o-mini",
+      "prompt_version": "4.0",
+      "classified_at": "2026-07-16T01:07:23.003028+00:00"
+    },
+    "2607.13211": {
+      "computational_methods": [],
+      "confidence": 0.9,
+      "evidence": [
+        "we investigate by multiwavelength Raman spectroscopy",
+        "we provide experimental evidence of symmetry-dependent exciton-phonon coupling",
+        "the evolution of the Raman-shift difference...tracks film growth as a function of the number of deposition laser pulses",
+        "we observe modulation of the resonant behaviour of the out-of-plane $A_{1g}$ and in-plane $E_{2g}^{1}$ modes"
+      ],
+      "exciton_properties": [
+        "Exciton-phonon coupling"
+      ],
+      "experimental_methods": [
+        "Raman spectroscopy"
+      ],
+      "include_in_feed": true,
+      "material_families": [
+        "TMDs"
+      ],
+      "materials": [
+        "MoS₂"
+      ],
+      "paper_nature": "Original research",
+      "reason": "The paper reports original experimental findings on exciton-phonon coupling in MoS₂, making excitons a central aspect of the study.",
+      "relevance": "Core exciton paper",
+      "research_type": "Experimental",
+      "arxiv_id": "2607.13211",
+      "version": "v1",
+      "fingerprint": "7cb2058d2b588f5b91c414b2f6162d809aa38554f6602e0f894b1477b0548c7c",
+      "model": "openai/gpt-4o-mini",
+      "prompt_version": "4.0",
+      "classified_at": "2026-07-16T01:07:34.607681+00:00"
     }
   },
   "runs": [
@@ -662,7 +763,20 @@
       "eligible": 18,
       "window_start": "2026-07-08",
       "window_end": "2026-07-14"
+    },
+    {
+      "run_at": "2026-07-16T01:07:34.608627+00:00",
+      "model": "openai/gpt-4o-mini",
+      "prompt_version": "4.0",
+      "attempted": 3,
+      "succeeded": 3,
+      "failed": 0,
+      "remaining": 0,
+      "total_records": 21,
+      "eligible": 16,
+      "window_start": "2026-07-09",
+      "window_end": "2026-07-15"
     }
   ],
-  "last_run": "2026-07-16T00:58:02.025479+00:00"
+  "last_run": "2026-07-16T01:07:34.608627+00:00"
 }
