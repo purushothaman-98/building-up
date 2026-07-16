@@ -188,8 +188,8 @@ def apply_ai_decision(paper: dict) -> dict:
 all_papers = sorted((apply_ai_decision(p) for p in archive.get("papers", [])), key=lambda p: (p.get("submitted", ""), p.get("updated", "")), reverse=True)
 last_scan = archive.get("last_scan")
 latest_date = all_papers[0]["submitted"][:10] if all_papers else None
-week_start = (datetime.strptime(latest_date, "%Y-%m-%d") - timedelta(days=6)).strftime("%Y-%m-%d") if latest_date else None
-raw_papers = [p for p in all_papers if week_start <= p.get("submitted", "")[:10] <= latest_date] if week_start else []
+earliest_date = all_papers[-1]["submitted"][:10] if all_papers else None
+raw_papers = all_papers
 latest_count = sum(p.get("submitted", "")[:10] == latest_date for p in raw_papers) if latest_date else 0
 last_scan_display = "—"
 if last_scan:
@@ -201,11 +201,11 @@ if last_scan:
 metrics = st.columns(4)
 reviewed_count = sum(bool(p.get("ai_decision")) for p in raw_papers)
 approved_count = sum((p.get("ai_decision") or {}).get("include_in_feed") is True for p in raw_papers)
-metrics[0].metric("Papers this week", len(raw_papers))
+metrics[0].metric("Papers in archive", len(raw_papers))
 metrics[1].metric("AI reviewed", reviewed_count)
 metrics[2].metric("AI approved", approved_count)
 metrics[3].metric("Pending review", len(raw_papers) - reviewed_count)
-st.caption(f"Latest available arXiv week: {week_start or '—'} to {latest_date or '—'} · Last metadata scan: {last_scan_display}")
+st.caption(f"Archive coverage: {earliest_date or '—'} to {latest_date or '—'} · Last metadata scan: {last_scan_display}")
 
 paper_natures_available = sorted({p.get("paper_nature", "Unclassified nature") for p in raw_papers})
 family_options = sorted({x for p in raw_papers for x in p.get("material_families", [])})
@@ -237,8 +237,8 @@ def clear_filters() -> None:
 
 with st.sidebar:
     st.header("Explore the archive")
-    st.caption("Filter the latest available arXiv week. Historical records remain stored for deduplication.")
-    feed_mode = st.radio("Feed", ["All papers this week", "AI-approved final feed", "Pending AI review"], key="feed_mode")
+    st.caption("Filter the complete stored archive. Newest papers appear first.")
+    feed_mode = st.radio("Feed", ["All archived papers", "AI-approved final feed", "Pending AI review"], key="feed_mode")
     search_text = st.text_input(
         "Search",
         placeholder="Title, abstract, author, arXiv ID…",
@@ -290,10 +290,10 @@ papers = [
     and (not selected_methods or bool(set(selected_methods).intersection(paper.get("methods", []))))
     and (not selected_properties or bool(set(selected_properties).intersection(paper.get("exciton_properties", []))))
 ]
-active_count = bool(feed_mode != "All papers this week" or search_text or selected_relevance or study_types or paper_natures or selected_materials or selected_methods or selected_properties)
+active_count = bool(feed_mode != "All archived papers" or search_text or selected_relevance or study_types or paper_natures or selected_materials or selected_methods or selected_properties)
 with st.sidebar:
     st.markdown(f"**{len(papers)} matching papers**")
-    st.caption("Filters active" if active_count else "Showing the complete seven-day feed")
+    st.caption("Filters active" if active_count else "Showing the complete archive")
 st.markdown(
     f'<div class="result-strip"><strong>{len(papers)} matching papers</strong><span>{reviewed_count}/{len(raw_papers)} AI reviewed · {approved_count} approved{" · filters active" if active_count else ""}</span></div>',
     unsafe_allow_html=True,
