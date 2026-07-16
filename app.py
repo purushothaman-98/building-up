@@ -11,6 +11,8 @@ import altair as alt
 import pandas as pd
 import streamlit as st
 
+from ai_classifier import EXPERIMENTAL_METHODS
+
 DATA = Path("data/papers.json")
 AI_DATA = Path("data/ai_classifications.json")
 AI_OVERRIDES = Path("data/ai_overrides.json")
@@ -21,8 +23,6 @@ COLORS = {
     "Theory + Experiment": "#d59f20",
     "Unclassified": "#7b8581",
 }
-EXPERIMENTAL_METHODS = {"Photoluminescence", "Absorption / reflectance", "Pump–probe spectroscopy", "Time-resolved spectroscopy", "Magneto-optical measurements", "Raman spectroscopy", "Photoemission / photocurrent", "Coherent / THz spectroscopy", "Exciton lifetime / dynamics", "Linewidth / fine structure", "Exciton g-factor"}
-COMPUTATIONAL_METHODS = {"DFT", "GW", "Bethe–Salpeter equation", "TDDFT", "Model Hamiltonian", "Quantum Monte Carlo", "Exciton binding energy", "Quasiparticle / optical gaps", "Oscillator strength"}
 
 st.set_page_config(page_title="Exciton Research Scanner", page_icon="◌", layout="wide")
 st.markdown("""
