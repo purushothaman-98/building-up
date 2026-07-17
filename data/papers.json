@@ -1,7 +1,246 @@
 {
   "schema_version": 2,
-  "last_scan": "2026-07-16T08:22:44.973803+00:00",
+  "last_scan": "2026-07-17T07:29:18.749469+00:00",
   "papers": [
+    {
+      "arxiv_id": "2607.14723",
+      "version": "v1",
+      "versioned_id": "2607.14723v1",
+      "title": "Tunable Magneto-Excitonic Coupling in Alloyed van der Waals Antiferromagnet",
+      "authors": [
+        "Maciej Smiertka",
+        "Oliwia Janikowska",
+        "Katarzyna Olkowska-Pucko",
+        "Grzegorz Krasucki",
+        "Katarzyna Posmyk",
+        "Paulina Peksa",
+        "Alessandro Surrente",
+        "Dimitar Pashov",
+        "Kseniia Mosina",
+        "Zdenek Sofer",
+        "Mark van Schilfgaarde",
+        "Adam Babinski",
+        "Maciej R. Molas",
+        "Gabriela Komorowska",
+        "Esteban Zamora-Amo",
+        "Andres Castellanos-Gomez",
+        "Federico Mompean",
+        "Mar Garcia-Hernandez",
+        "Michal Baranowski",
+        "Swagata Acharya",
+        "Paulina Plochocka"
+      ],
+      "abstract": "The unique coupling between magnetic order and photo-generated excitons, electron-hole pairs bound by Coulomb interaction, in layered magnetic semiconductors offers a powerful mechanism for controlling light-matter interactions. In the van der Waals antiferromagnet CrSBr, this coupling is exceptionally strong and manifests distinctly between two coexisting excitonic states: the localised, Frenkel-like XA exciton and the more delocalised, Wannier-Mott-like XB exciton, providing a unique playground for the optical control of magnetism. Here, we reveal how chlorine incorporation reshapes the magneto-optical interplay in CrSBr1-xClx by simultaneously modifying its electronic structure, excitonic properties, and magnetic interactions. Combining magneto-optical spectroscopy up to 85 T with state-of-the-art quasiparticle self-consistent GW (QSGW) calculations on alloy supercells, we show that Cl insertion progressively localises the excitonic wavefunctions and drives both states toward a more Frenkel-like regime. This evolution is accompanied by a systematic reduction of the magnetic-field-induced energy renormalisation, most prominently for the XB exciton. Our work connects exciton character directly to magneto-excitonic coupling. Furthermore, it establishes compositional alloying as an effective strategy for engineering the coupling between magnetic and optical properties in van der Waals magnetic semiconductors.",
+      "submitted": "2026-07-16T08:52:16Z",
+      "updated": "2026-07-16T08:52:16Z",
+      "categories": [
+        "cond-mat.mtrl-sci",
+        "cond-mat.mes-hall"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2607.14723v1",
+      "arxiv_url": "https://arxiv.org/abs/2607.14723",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [],
+      "material_families": [
+        "Other 2D / van der Waals materials"
+      ],
+      "exciton_properties": [],
+      "applications": [],
+      "methods": [
+        "Magneto-optical measurements"
+      ],
+      "matched_keywords": [
+        "exciton",
+        "excitonic",
+        "magneto-optical"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [],
+        "experimental_methods": {
+          "Magneto-optical measurements": [
+            "magneto-optical"
+          ]
+        },
+        "computational_methods": {},
+        "materials": {
+          "Other 2D / van der Waals materials": [
+            "van der waals"
+          ]
+        },
+        "properties": {},
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2607.14712",
+      "version": "v1",
+      "versioned_id": "2607.14712v1",
+      "title": "Direct observation of anisotropic exciton dispersion in the 2D semiconductor CrSBr",
+      "authors": [
+        "Yiwen Song",
+        "Peiyi He",
+        "Weizhe Zhang",
+        "Wenyuan Ouyang",
+        "Wenjing Liu",
+        "Jinlong Du",
+        "Zuxin Chen",
+        "Jiuyu Sun",
+        "Peng Gao",
+        "Yu Ye"
+      ],
+      "abstract": "We report momentum-resolved measurements of exciton dispersion in multilayer CrSBr using defocus-engineered electron energy-loss spectroscopy, supported by first-principles calculations. A pronounced in-plane anisotropy is observed, with the exciton exhibiting a linear dispersion along $Γ$Y within $\\lvert \\boldsymbol{q} \\rvert$ < 0.007 Å$^{-1}$, while remaining nearly dispersionless along $Γ$X. The slope reaches 7.02 eV Å, among the largest reported in low-dimensional systems. The calculations reproduce the experimentally observed linear dispersion, confirming its intrinsic origin. We attribute the anisotropic dispersion to the long-range electron--hole exchange interaction, enhanced by strong out-of-plane confinement and governed by the directional selection rules of the transition dipole moment. Comparative measurements across the magnetic phase transition from the paramagnetic to the A-type antiferromagnetic state show that the dispersion remains essentially unchanged, indicating negligible coupling between exciton propagation and magnetic order. These results establish CrSBr as a model system for investigating anisotropic exciton dynamics in low-symmetry layered semiconductors.",
+      "submitted": "2026-07-16T08:22:11Z",
+      "updated": "2026-07-16T08:22:11Z",
+      "categories": [
+        "cond-mat.mtrl-sci"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2607.14712v1",
+      "arxiv_url": "https://arxiv.org/abs/2607.14712",
+      "study_type": "Computational",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [],
+      "material_families": [],
+      "exciton_properties": [
+        "Oscillator strength / optical activity"
+      ],
+      "applications": [],
+      "methods": [
+        "Exciton lifetime / dynamics",
+        "DFT",
+        "Oscillator strength"
+      ],
+      "matched_keywords": [
+        "exciton",
+        "exciton dynamics",
+        "first-principles",
+        "transition dipole"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [
+          "we report",
+          "experimentally"
+        ],
+        "computational_actions": [
+          "using",
+          "first-principles calculations"
+        ],
+        "experimental_methods": {
+          "Exciton lifetime / dynamics": [
+            "exciton dynamics"
+          ]
+        },
+        "computational_methods": {
+          "DFT": [
+            "first-principles"
+          ],
+          "Oscillator strength": [
+            "transition dipole"
+          ]
+        },
+        "materials": {},
+        "properties": {
+          "Oscillator strength / optical activity": [
+            "transition dipole"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": true
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2607.14678",
+      "version": "v1",
+      "versioned_id": "2607.14678v1",
+      "title": "Vortex-Beam Transient Absorption Microspectroscopy Resolves Ultrafast Free-Exciton and Polaron Diffusion in 2D Perovskites",
+      "authors": [
+        "Ju-Young Kim",
+        "Anirban Mondal",
+        "Gi Rim Han",
+        "Kwang Jin Lee",
+        "Jong Min Lim",
+        "Myeongsam Jen",
+        "Minhaeng Cho"
+      ],
+      "abstract": "Two-dimensional (2D) Ruddlesden Popper perovskites are promising optoelectronic materials with strongly confined excitonic properties; however, probing their ultrafast carrier transport dynamics, particularly the initial nonequilibrium diffusion regime, remains challenging because conventional transient absorption microscopy requires complex spatial imaging and lacks sufficient temporal sensitivity to resolve early time diffusion dynamics. Here, we demonstrate a vortex beam based transient absorption microspectroscopy platform (VTAM) enabling imaging free measurement of carrier transport by encoding spatial diffusion information into the mode dependent pump probe signal. By employing vortex probes with different topological charges, VTAM provides mode selective spatial sensitivity to excitonic dynamics with subpicosecond temporal resolution. Using VTAM, we resolved rapid free exciton (FE) diffusion followed by relaxation toward a slower steady state transport regime. A theoretically derived time dependent diffusion model separated transient and steady state transport contributions, yielding a transient diffusion enhancement (68.84 cm2 per s) and a steady state diffusion coefficient (1.85 cm2 per s), thus providing an initial diffusion coefficient (70.69 cm2 per s), and a cooling time of 0.35 ps. Measurements at the exciton-polaron (EP) resonance revealed strongly suppressed diffusion with nearly time independent signal ratios, indicating lattice-coupled EP transport. These parameters were extracted without spatial scanning or image reconstruction, establishing V-TAM as a powerful imaging free platform for investigating carrier transport in perovskites and other semiconductor systems.",
+      "submitted": "2026-07-16T07:42:39Z",
+      "updated": "2026-07-16T07:42:39Z",
+      "categories": [
+        "physics.optics"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2607.14678v1",
+      "arxiv_url": "https://arxiv.org/abs/2607.14678",
+      "study_type": "Experimental",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [
+        "perovskites"
+      ],
+      "material_families": [
+        "Perovskites / halide semiconductors"
+      ],
+      "exciton_properties": [],
+      "applications": [],
+      "methods": [
+        "Pump–probe spectroscopy"
+      ],
+      "matched_keywords": [
+        "exciton",
+        "excitonic",
+        "transient absorption"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [
+          "using"
+        ],
+        "experimental_methods": {
+          "Pump–probe spectroscopy": [
+            "transient absorption"
+          ]
+        },
+        "computational_methods": {},
+        "materials": {
+          "perovskites": [
+            "perovskite"
+          ],
+          "Perovskites / halide semiconductors": [
+            "perovskite"
+          ]
+        },
+        "properties": {},
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": true,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
     {
       "arxiv_id": "2607.14025",
       "version": "v1",
@@ -7912,10 +8151,19 @@
       "new": 3,
       "updated": 0,
       "total": 104
+    },
+    {
+      "scanned_at": "2026-07-17T07:29:18.749469+00:00",
+      "since": "2026-07-03",
+      "fetched": 27,
+      "classified": 27,
+      "new": 3,
+      "updated": 0,
+      "total": 107
     }
   ],
   "counts": {
-    "total": 104,
+    "total": 107,
     "new_this_scan": 3,
     "updated_this_scan": 0
   }
