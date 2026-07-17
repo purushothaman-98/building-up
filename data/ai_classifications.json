@@ -3453,6 +3453,116 @@
       "model": "openai/codex-recovery",
       "prompt_version": "4.0",
       "classified_at": "2026-07-16T09:32:30.807Z"
+    },
+    "2607.14723": {
+      "computational_methods": [
+        "DFT + GW"
+      ],
+      "confidence": 0.9,
+      "evidence": [
+        "the unique coupling between magnetic order and photo-generated excitons",
+        "we reveal how chlorine incorporation reshapes the magneto-optical interplay",
+        "we show that Cl insertion progressively localises the excitonic wavefunctions",
+        "our work connects exciton character directly to magneto-excitonic coupling",
+        "establishes compositional alloying as an effective strategy for engineering the coupling"
+      ],
+      "exciton_properties": [
+        "Exciton complexes",
+        "Exciton energy / optical spectrum"
+      ],
+      "experimental_methods": [
+        "Magneto-optical spectroscopy"
+      ],
+      "include_in_feed": true,
+      "material_families": [
+        "Other 2D materials"
+      ],
+      "materials": [
+        "CrSBr",
+        "CrSBr1-xClx"
+      ],
+      "paper_nature": "Original research",
+      "reason": "The paper investigates excitonic states in a van der Waals antiferromagnet and their coupling to magnetic properties, making excitons a central focus of the research.",
+      "relevance": "Core exciton paper",
+      "research_type": "Theory + Experiment",
+      "arxiv_id": "2607.14723",
+      "version": "v1",
+      "fingerprint": "5716ada3ca7337153d2aea4598bc5eab601ed3e7e83288c6c4ea607f44e90835",
+      "model": "openai/gpt-4o-mini",
+      "prompt_version": "4.0",
+      "classified_at": "2026-07-17T07:29:36.532162+00:00"
+    },
+    "2607.14712": {
+      "computational_methods": [
+        "DFT + GW/BSE"
+      ],
+      "confidence": 0.95,
+      "evidence": [
+        "momentum-resolved measurements of exciton dispersion",
+        "first-principles calculations",
+        "the calculations reproduce the experimentally observed linear dispersion",
+        "the anisotropic dispersion to the long-range electron--hole exchange interaction",
+        "establish CrSBr as a model system for investigating anisotropic exciton dynamics"
+      ],
+      "exciton_properties": [
+        "Exciton energy / optical spectrum",
+        "Ultrafast dynamics / relaxation"
+      ],
+      "experimental_methods": [
+        "Other experimental method"
+      ],
+      "include_in_feed": true,
+      "material_families": [
+        "Other 2D materials"
+      ],
+      "materials": [
+        "CrSBr"
+      ],
+      "paper_nature": "Original research",
+      "reason": "The paper reports original measurements and calculations of exciton dispersion in CrSBr, highlighting its anisotropic properties.",
+      "relevance": "Core exciton paper",
+      "research_type": "Theory + Experiment",
+      "arxiv_id": "2607.14712",
+      "version": "v1",
+      "fingerprint": "d1a851433a44007145b32168f72b2a914dbcdd5826f8672c3f97285cbe538a84",
+      "model": "openai/gpt-4o-mini",
+      "prompt_version": "4.0",
+      "classified_at": "2026-07-17T07:29:48.834170+00:00"
+    },
+    "2607.14678": {
+      "computational_methods": [],
+      "confidence": 0.95,
+      "evidence": [
+        "we demonstrate a vortex beam based transient absorption microspectroscopy platform (VTAM)",
+        "Using VTAM, we resolved rapid free exciton (FE) diffusion",
+        "yielding a transient diffusion enhancement (68.84 cm2 per s) and a steady state diffusion coefficient (1.85 cm2 per s)",
+        "Measurements at the exciton-polaron (EP) resonance revealed strongly suppressed diffusion"
+      ],
+      "exciton_properties": [
+        "Diffusion / transport",
+        "Ultrafast dynamics / relaxation"
+      ],
+      "experimental_methods": [
+        "Pump–probe / transient absorption",
+        "Time-resolved spectroscopy"
+      ],
+      "include_in_feed": true,
+      "material_families": [
+        "Perovskites"
+      ],
+      "materials": [
+        "2D Ruddlesden Popper perovskites"
+      ],
+      "paper_nature": "Original research",
+      "reason": "The study investigates exciton dynamics and transport in 2D perovskites using a novel transient absorption technique, making excitons a central focus of the research.",
+      "relevance": "Core exciton paper",
+      "research_type": "Experimental",
+      "arxiv_id": "2607.14678",
+      "version": "v1",
+      "fingerprint": "978da862a0d9e45e80e50b6d3996849805297db5a56b2a8228ded83c540b6515",
+      "model": "openai/gpt-4o-mini",
+      "prompt_version": "4.0",
+      "classified_at": "2026-07-17T07:30:01.417035+00:00"
     }
   },
   "runs": [
@@ -3585,7 +3695,20 @@
       "eligible": 104,
       "window_start": "2026-05-17",
       "window_end": "2026-07-15"
+    },
+    {
+      "run_at": "2026-07-17T07:30:01.419454+00:00",
+      "model": "openai/gpt-4o-mini",
+      "prompt_version": "4.0",
+      "attempted": 3,
+      "succeeded": 3,
+      "failed": 0,
+      "remaining": 0,
+      "total_records": 107,
+      "eligible": 15,
+      "window_start": "2026-07-10",
+      "window_end": "2026-07-16"
     }
   ],
-  "last_run": "2026-07-16T09:32:30.807Z"
+  "last_run": "2026-07-17T07:30:01.419454+00:00"
 }
