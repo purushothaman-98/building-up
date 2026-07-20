@@ -1,7 +1,196 @@
 {
   "schema_version": 2,
-  "last_scan": "2026-07-19T07:34:10.153795+00:00",
+  "last_scan": "2026-07-20T06:34:45.986551+00:00",
   "papers": [
+    {
+      "arxiv_id": "2607.16142",
+      "version": "v1",
+      "versioned_id": "2607.16142v1",
+      "title": "Excitonic structure in CsPbBr$_3$ nanocubes, nanorods and nanoplatelets: the effect of dimensionality",
+      "authors": [
+        "Jose L. Movilla",
+        "Josep Planelles",
+        "Juan I. Climente"
+      ],
+      "abstract": "We present a theoretical study comparing the excitonic ground state properties of CsPbBr$_3$ nanocrystals with different dimensionality: nanorods (1D), nanoplatelets (2D) and nanocubes (3D). All three systems are described on equal footing, by means of a general variational effective mass model, which captures the influence of quantum confinement, dielectric confinement, electron-hole correlations and polaronic effects (within a Haken model). The strongly confined directions squeeze the exciton (X) wavefunction and enhance Coulomb attractions along the weakly confined directions. This stimulates superradiance, thus making radiative recombination rates speed up from cubes to platelets and to rods, in line with recent experiments. The anisotropic local field factor is a secondary, yet non-negligible, mechanism further enhancing radiative rates. X binding energies are also determined primarily by the directions of strong confinenement, which is also consistent with experiments. Weakly confined directions become however influential for small aspect ratios. Dielectric confinement plays a major role in determining the binding energies, and less so in the interparticle-distances. For all dimensionalities, the biexciton (XX) geometry is that of a distorted tetrahedron, rather than squared or linear distributions that would result in Coulomb-governed 2D and 1D structures.",
+      "submitted": "2026-07-17T17:22:55Z",
+      "updated": "2026-07-17T17:22:55Z",
+      "categories": [
+        "cond-mat.mes-hall"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2607.16142v1",
+      "arxiv_url": "https://arxiv.org/abs/2607.16142",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [],
+      "material_families": [
+        "Quantum-confined structures"
+      ],
+      "exciton_properties": [
+        "Binding energy",
+        "Oscillator strength / optical activity",
+        "Many-exciton interactions"
+      ],
+      "applications": [],
+      "methods": [
+        "Model Hamiltonian"
+      ],
+      "matched_keywords": [
+        "effective mass model",
+        "exciton",
+        "excitonic"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [],
+        "experimental_methods": {},
+        "computational_methods": {
+          "Model Hamiltonian": [
+            "effective mass model"
+          ]
+        },
+        "materials": {
+          "Quantum-confined structures": [
+            "nanocrystal"
+          ]
+        },
+        "properties": {
+          "Binding energy": [
+            "binding energies"
+          ],
+          "Oscillator strength / optical activity": [
+            "radiative rate"
+          ],
+          "Many-exciton interactions": [
+            "biexciton"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2607.15411",
+      "version": "v1",
+      "versioned_id": "2607.15411v1",
+      "title": "Ab initio time-dependent GW approach for nonequilibrium exciton-phonon coupled dynamics across momentum space",
+      "authors": [
+        "Zhenfa Zheng",
+        "Benran Zhang",
+        "Jiawei Ruan",
+        "Chih-En Hsu",
+        "Zien Zhu",
+        "Supavit Pokawanvit",
+        "Felipe H. da Jornada",
+        "Hung-Chung Hsueh",
+        "Ting Cao",
+        "Mauro Del Ben",
+        "Yang-Hao Chan",
+        "Steven G. Louie",
+        "Zhenglu Li"
+      ],
+      "abstract": "The dynamics of optical excitations in materials generally involves intertwined electron-hole (e-h) and electron-phonon (e-ph) interactions out of equilibrium. However, a full theoretical description of such nonequilibrium dynamics requires a systematic treatment of the coherent excitonic excitations and exciton-phonon interactions across the entire crystal momentum space in real time, which remains a major challenge and out of reach for first-principles approaches. Here, we present a new ab initio time-dependent adiabatic GW methodology that incorporates full finite-momentum e-h and e-ph couplings, enabling real-time simulations of the coherently coupled exciton-phonon dynamics. The excitonic excitations are naturally described by the equation of motion of the interacting single-particle density matrix, whereas their couplings to phonons are formulated within a linear-response framework, hence the simulations can be efficiently carried out within a primitive unit cell. We demonstrate the capabilities of this new approach by investigating the direct-to-indirect exciton transitions in monolayer WSe2 in a pump-probe setup of time-resolved and angle-resolved photoemission spectroscopy. Our results reveal that the phonon-mediated ultrafast intervalley dynamics of excitons of this system is within ~0.5 ps, manifested as in-gap photoemission intensity transfer from the K-valley to the Q-valley. This work establishes a comprehensive and practical nonequilibrium Green's function framework for accurately simulating nonequilibrium and coherent excitations involving coupled excitons and phonons from first principles.",
+      "submitted": "2026-07-16T19:32:53Z",
+      "updated": "2026-07-16T19:32:53Z",
+      "categories": [
+        "cond-mat.mtrl-sci"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2607.15411v1",
+      "arxiv_url": "https://arxiv.org/abs/2607.15411",
+      "study_type": "Computational",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [
+        "WSe2"
+      ],
+      "material_families": [
+        "TMDs / 2D chalcogenides",
+        "Other 2D / van der Waals materials"
+      ],
+      "exciton_properties": [
+        "Coherence",
+        "Exciton-phonon coupling"
+      ],
+      "applications": [],
+      "methods": [
+        "Pump–probe spectroscopy",
+        "Time-resolved spectroscopy",
+        "Photoemission / photocurrent",
+        "DFT"
+      ],
+      "matched_keywords": [
+        "ab initio",
+        "exciton",
+        "excitonic",
+        "first principles",
+        "first-principles",
+        "photoemission spectroscopy",
+        "pump-probe",
+        "time-resolved"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [
+          "first-principles approach"
+        ],
+        "experimental_methods": {
+          "Pump–probe spectroscopy": [
+            "pump-probe"
+          ],
+          "Time-resolved spectroscopy": [
+            "time-resolved"
+          ],
+          "Photoemission / photocurrent": [
+            "photoemission spectroscopy"
+          ]
+        },
+        "computational_methods": {
+          "DFT": [
+            "first-principles",
+            "first principles",
+            "ab initio"
+          ]
+        },
+        "materials": {
+          "WSe2": [
+            "wse2"
+          ],
+          "TMDs / 2D chalcogenides": [
+            "wse2"
+          ],
+          "Other 2D / van der Waals materials": [
+            "monolayer"
+          ]
+        },
+        "properties": {
+          "Coherence": [
+            "coherent exciton"
+          ],
+          "Exciton-phonon coupling": [
+            "exciton-phonon"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": true
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
     {
       "arxiv_id": "2607.14723",
       "version": "v1",
@@ -8178,11 +8367,20 @@
       "new": 0,
       "updated": 0,
       "total": 107
+    },
+    {
+      "scanned_at": "2026-07-20T06:34:45.986551+00:00",
+      "since": "2026-07-06",
+      "fetched": 25,
+      "classified": 25,
+      "new": 2,
+      "updated": 0,
+      "total": 109
     }
   ],
   "counts": {
-    "total": 107,
-    "new_this_scan": 0,
+    "total": 109,
+    "new_this_scan": 2,
     "updated_this_scan": 0
   }
 }
