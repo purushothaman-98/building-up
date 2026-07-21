@@ -3632,6 +3632,71 @@
       "model": "openai/gpt-4o-mini",
       "prompt_version": "4.0",
       "classified_at": "2026-07-20T06:35:15.920731+00:00"
+    },
+    "2607.18183": {
+      "computational_methods": [
+        "BSE / exciton equation"
+      ],
+      "confidence": 0.95,
+      "evidence": [
+        "We investigate the role of excitonic correlations in shaping the ultrafast dynamics of photoexcited carriers in semiconductors.",
+        "We introduce a two-particle framework based on excitonic Bloch equations (XBE) that captures carrier-phonon scattering and explicitly accounts for exciton formation.",
+        "Applying this approach to non-resonantly photoexcited WSe2 monolayers, we reveal qualitatively different carrier relaxation pathways."
+      ],
+      "exciton_properties": [
+        "Ultrafast dynamics / relaxation",
+        "Exciton energy / optical spectrum"
+      ],
+      "experimental_methods": [
+        "Photoemission spectroscopy"
+      ],
+      "include_in_feed": true,
+      "material_families": [
+        "TMDs"
+      ],
+      "materials": [
+        "WSe2"
+      ],
+      "paper_nature": "Original research",
+      "reason": "The paper presents original research on excitonic effects in the dynamics of photocarriers in WSe2, utilizing a two-particle framework to analyze exciton formation and its impact on carrier relaxation.",
+      "relevance": "Core exciton paper",
+      "research_type": "Computational",
+      "arxiv_id": "2607.18183",
+      "version": "v1",
+      "fingerprint": "5ac42efa3e4edc190cc63d1c7203f5a7f731a8f4b1c7506bf424c619919ef920",
+      "model": "openai/gpt-4o-mini",
+      "prompt_version": "4.0",
+      "classified_at": "2026-07-21T11:26:29.904550+00:00"
+    },
+    "2607.16706": {
+      "computational_methods": [
+        "Model / analytical theory"
+      ],
+      "confidence": 0.9,
+      "evidence": [
+        "we theoretically and numerically investigate a reservoir computing system",
+        "we establish a quantitative link between computational performance and the underlying physics",
+        "we validate the practical feasibility of this approach by deploying the trained model on a Raspberry Pi 5 edge device"
+      ],
+      "exciton_properties": [
+        "Strong coupling / polaritons"
+      ],
+      "experimental_methods": [],
+      "include_in_feed": true,
+      "material_families": [
+        "Other 2D materials"
+      ],
+      "materials": [],
+      "paper_nature": "Original research",
+      "reason": "The paper investigates exciton-polariton lattices in the context of reservoir computing, establishing a link between their dynamics and computational performance.",
+      "relevance": "Core exciton paper",
+      "research_type": "Computational",
+      "arxiv_id": "2607.16706",
+      "version": "v1",
+      "fingerprint": "507840a503df9f51c7f644b4d3021ea4c0d2ebb16294c4d932f06d29030062d5",
+      "model": "openai/gpt-4o-mini",
+      "prompt_version": "4.0",
+      "classified_at": "2026-07-21T11:26:41.276369+00:00"
     }
   },
   "runs": [
@@ -3868,7 +3933,20 @@
       "eligible": 14,
       "window_start": "2026-07-11",
       "window_end": "2026-07-17"
+    },
+    {
+      "run_at": "2026-07-21T11:26:41.279626+00:00",
+      "model": "openai/gpt-4o-mini",
+      "prompt_version": "4.0",
+      "attempted": 2,
+      "succeeded": 2,
+      "failed": 0,
+      "remaining": 0,
+      "total_records": 111,
+      "eligible": 12,
+      "window_start": "2026-07-14",
+      "window_end": "2026-07-20"
     }
   ],
-  "last_run": "2026-07-20T17:12:03.603527+00:00"
+  "last_run": "2026-07-21T11:26:41.279626+00:00"
 }
