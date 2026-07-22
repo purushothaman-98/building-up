@@ -3697,6 +3697,144 @@
       "model": "openai/gpt-4o-mini",
       "prompt_version": "4.0",
       "classified_at": "2026-07-21T11:26:41.276369+00:00"
+    },
+    "2607.19242": {
+      "computational_methods": [
+        "Model / analytical theory"
+      ],
+      "confidence": 0.9,
+      "evidence": [
+        "develop a theoretical framework based on the Dynamical Projective Operatorial Approach (DPOA)",
+        "study the time- and angle-resolved photoemission spectroscopy (TR-ARPES) of pumped excitonic systems",
+        "captures the formation of excitonic bound states under the application of pump pulses",
+        "coherent oscillations of the excitonic order parameter persist after the pump pulse subsides",
+        "corroborate recent experimental observations of exciton-field-induced Floquet-like sidebands"
+      ],
+      "exciton_properties": [
+        "Exciton complexes",
+        "Ultrafast dynamics / relaxation"
+      ],
+      "experimental_methods": [],
+      "include_in_feed": true,
+      "material_families": [
+        "Other 2D materials"
+      ],
+      "materials": [
+        "two-dimensional two-band semiconductor"
+      ],
+      "paper_nature": "Original research",
+      "reason": "The paper presents a theoretical framework for studying excitonic systems and their dynamics, focusing on exciton-field-induced phenomena in TR-ARPES.",
+      "relevance": "Core exciton paper",
+      "research_type": "Computational",
+      "arxiv_id": "2607.19242",
+      "version": "v1",
+      "fingerprint": "04065c9094beb27fe9ccea4161446669c042b8258117f0a9214ba1c34cbd3c88",
+      "model": "openai/gpt-4o-mini",
+      "prompt_version": "4.0",
+      "classified_at": "2026-07-22T06:12:28.074379+00:00"
+    },
+    "2607.18733": {
+      "computational_methods": [
+        "DFT + GW/BSE"
+      ],
+      "confidence": 0.9,
+      "evidence": [
+        "anomalous photoluminescence enhancement in n-type monolayer MoS2",
+        "dominant trion to exciton conversion in the heterostructure",
+        "DFT based Bader charge analysis quantifies the role of these functional groups",
+        "interlayer charge transfer typically quenches the photoluminescence of monolayer MoS2",
+        "polystyrene assisted wet transfer as a practical interface engineering strategy for enhancing excitonic emission"
+      ],
+      "exciton_properties": [
+        "Exciton complexes",
+        "Exciton energy / optical spectrum"
+      ],
+      "experimental_methods": [
+        "Photoluminescence"
+      ],
+      "include_in_feed": true,
+      "material_families": [
+        "TMDs"
+      ],
+      "materials": [
+        "MoS2",
+        "graphene"
+      ],
+      "paper_nature": "Original research",
+      "reason": "The paper reports on exciton dynamics and enhancement in a heterostructure involving MoS2 and graphene, with significant findings on charge transfer and photoluminescence.",
+      "relevance": "Core exciton paper",
+      "research_type": "Experimental",
+      "arxiv_id": "2607.18733",
+      "version": "v1",
+      "fingerprint": "deb4d2ec6b2b1368c01052263a5413187705e00cdabf24df5228c6ff3a4095e8",
+      "model": "openai/gpt-4o-mini",
+      "prompt_version": "4.0",
+      "classified_at": "2026-07-22T06:12:40.141491+00:00"
+    },
+    "2607.18435": {
+      "computational_methods": [],
+      "confidence": 0.9,
+      "evidence": [
+        "we demonstrate the Al1-center, an aluminum--carbon defect in silicon, as a bright waveguide-integrated single-photon emitter with a ground-state spin",
+        "Time-resolved photoluminescence spectroscopy reveals a fast excited-state lifetime of 135 ns",
+        "Through magneto-optical spectroscopy, we resolve the spin-dependent transitions of the bound-exciton manifold"
+      ],
+      "exciton_properties": [
+        "Lifetime / recombination",
+        "Linewidth / coherence",
+        "g-factor / Zeeman splitting"
+      ],
+      "experimental_methods": [
+        "Photoluminescence",
+        "Time-resolved spectroscopy",
+        "Magneto-optical spectroscopy"
+      ],
+      "include_in_feed": true,
+      "material_families": [
+        "Conventional semiconductors"
+      ],
+      "materials": [
+        "silicon"
+      ],
+      "paper_nature": "Original research",
+      "reason": "The paper reports on the characterization of a spin-photon interface in silicon, involving excitonic properties and measurements.",
+      "relevance": "Core exciton paper",
+      "research_type": "Experimental",
+      "arxiv_id": "2607.18435",
+      "version": "v1",
+      "fingerprint": "1f035a54339d3caf75cc0a6692747c83a6244121c056f2b5adde77c289d08991",
+      "model": "openai/gpt-4o-mini",
+      "prompt_version": "4.0",
+      "classified_at": "2026-07-22T06:12:52.581223+00:00"
+    },
+    "2607.18335": {
+      "computational_methods": [],
+      "confidence": 0.9,
+      "evidence": [
+        "Weyl excitonic insulators instead host a new form of axial-field-driven transport",
+        "we develop a semiclassical wave-packet theory",
+        "transverse current generated by a dynamical axial potential",
+        "sound-induced Hall transport as a direct probe of Weyl excitonic order"
+      ],
+      "exciton_properties": [
+        "Exciton complexes"
+      ],
+      "experimental_methods": [],
+      "include_in_feed": true,
+      "material_families": [
+        "Other 2D materials"
+      ],
+      "materials": [],
+      "paper_nature": "Original research",
+      "reason": "The paper investigates excitonic transport phenomena in Weyl exciton insulators, making excitons a central focus of the study.",
+      "relevance": "Core exciton paper",
+      "research_type": "Theory + Experiment",
+      "arxiv_id": "2607.18335",
+      "version": "v1",
+      "fingerprint": "bbdf8658aa2ea6948005f2ab362901888bd8759af1cabe39abd1b1f9588f3afb",
+      "model": "openai/gpt-4o-mini",
+      "prompt_version": "4.0",
+      "classified_at": "2026-07-22T06:13:04.481124+00:00"
     }
   },
   "runs": [
@@ -3959,7 +4097,20 @@
       "eligible": 12,
       "window_start": "2026-07-14",
       "window_end": "2026-07-20"
+    },
+    {
+      "run_at": "2026-07-22T06:13:04.484769+00:00",
+      "model": "openai/gpt-4o-mini",
+      "prompt_version": "4.0",
+      "attempted": 4,
+      "succeeded": 4,
+      "failed": 0,
+      "remaining": 0,
+      "total_records": 115,
+      "eligible": 13,
+      "window_start": "2026-07-15",
+      "window_end": "2026-07-21"
     }
   ],
-  "last_run": "2026-07-21T17:03:42.978362+00:00"
+  "last_run": "2026-07-22T06:13:04.484769+00:00"
 }
