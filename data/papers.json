@@ -1,7 +1,240 @@
 {
   "schema_version": 2,
-  "last_scan": "2026-07-21T11:26:12.901953+00:00",
+  "last_scan": "2026-07-22T06:12:08.558960+00:00",
   "papers": [
+    {
+      "arxiv_id": "2607.19242",
+      "version": "v1",
+      "versioned_id": "2607.19242v1",
+      "title": "Time-resolved ARPES in pumped excitonic systems: Floquet physics induced by excitonic fields",
+      "authors": [
+        "Amir Eskandari-asl",
+        "Adolfo Avella"
+      ],
+      "abstract": "We develop a theoretical framework based on the Dynamical Projective Operatorial Approach (DPOA) to study the time- and angle-resolved photoemission spectroscopy (TR-ARPES) of pumped excitonic systems. Including Coulomb electron-electron interactions at the Hartree-Fock (HF) level, our formalism captures the formation of excitonic bound states under the application of pump pulses. Considering a prototypical two-dimensional two-band semiconductor, we analyze the equilibrium phase diagram, which shows the expected transition from a semiconducting to an excitonic-insulator phase as the Coulomb interaction strength or its range increase. Out of equilibrium, we find that when the pump frequency is resonant with an excitonic mode, coherent oscillations of the excitonic order parameter persist after the pump pulse subsides and give rise to clear Floquet sidebands in the TR-ARPES spectrum. These exciton-field-induced sidebands are distinct from those originating from the pump laser field. We also identify band-resonance-induced sidebands arising from residual coherences at momenta where the band gap is resonant with the pump frequency. Finally, we analyze the local Coulomb interaction limit. Our results corroborate recent experimental observations of exciton-field-induced Floquet-like sidebands and establish DPOA as an efficient and accurate method for simulating ultrafast phenomena in interacting electron systems.",
+      "submitted": "2026-07-21T16:14:52Z",
+      "updated": "2026-07-21T16:14:52Z",
+      "categories": [
+        "cond-mat.mtrl-sci",
+        "cond-mat.other"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2607.19242v1",
+      "arxiv_url": "https://arxiv.org/abs/2607.19242",
+      "study_type": "Computational",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [],
+      "material_families": [],
+      "exciton_properties": [],
+      "applications": [],
+      "methods": [
+        "Time-resolved spectroscopy",
+        "Photoemission / photocurrent"
+      ],
+      "matched_keywords": [
+        "arpes",
+        "exciton",
+        "excitonic",
+        "photoemission spectroscopy",
+        "time-resolved"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [
+          "we develop a theoretical framework"
+        ],
+        "experimental_methods": {
+          "Time-resolved spectroscopy": [
+            "time-resolved"
+          ],
+          "Photoemission / photocurrent": [
+            "arpes",
+            "photoemission spectroscopy"
+          ]
+        },
+        "computational_methods": {},
+        "materials": {},
+        "properties": {},
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": true
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2607.18733",
+      "version": "v1",
+      "versioned_id": "2607.18733v1",
+      "title": "Charge transfer mediated anomalous photoluminescence enhancement in monolayer MoS2 graphene heterostructure via polystyrene assisted wet transfer",
+      "authors": [
+        "Anagha Gopinath",
+        "Arpan De",
+        "Dipak Maity",
+        "Jyoti Mohanty"
+      ],
+      "abstract": "Van der Waals MoS2 graphene heterostructures are compelling candidates for high performance electronic and optoelectronic device applications. However, the interlayer charge transfer typically quenches the photoluminescence of monolayer MoS2, limiting the use of these heterostructures in light emitting applications. In this work, we report an anomalous photoluminescence enhancement in n-type monolayer MoS2 by integrating it with monolayer graphene via polystyrene assisted wet transfer process. Photoluminescence spectroscopy reveals a dominant trion to exciton conversion in the heterostructure. Kelvin probe force microscopy shows a 600 meV increase in the work function of MoS2 upon heterostructure formation. This work function shift, together with the higher work function of graphene, signifies electron transfer from MoS2 to graphene. Shifts in the graphene G and 2D Raman modes further corroborate the interlayer charge transfer. Hydroxyl and epoxy functionalization of graphene following heterostructure formation is evidenced by X ray photoelectron spectroscopy. DFT based Bader charge analysis quantifies the role of these functional groups in facilitating interlayer charge transfer. Collectively, our findings establish polystyrene assisted wet transfer as a practical interface engineering strategy for enhancing excitonic emission in MoS2 graphene heterostructures, thereby advancing their potential for scalable optoelectronic devices.",
+      "submitted": "2026-07-21T05:46:19Z",
+      "updated": "2026-07-21T05:46:19Z",
+      "categories": [
+        "cond-mat.mes-hall"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2607.18733v1",
+      "arxiv_url": "https://arxiv.org/abs/2607.18733",
+      "study_type": "Experimental",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [
+        "MoS2"
+      ],
+      "material_families": [
+        "TMDs / 2D chalcogenides",
+        "Other 2D / van der Waals materials"
+      ],
+      "exciton_properties": [],
+      "applications": [],
+      "methods": [
+        "Photoluminescence",
+        "DFT"
+      ],
+      "matched_keywords": [
+        "dft",
+        "exciton",
+        "excitonic",
+        "photoluminescence"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [
+          "we report",
+          "spectroscopy reveals"
+        ],
+        "computational_actions": [],
+        "experimental_methods": {
+          "Photoluminescence": [
+            "photoluminescence"
+          ]
+        },
+        "computational_methods": {
+          "DFT": [
+            "dft"
+          ]
+        },
+        "materials": {
+          "MoS2": [
+            "mos2"
+          ],
+          "TMDs / 2D chalcogenides": [
+            "mos2"
+          ],
+          "Other 2D / van der Waals materials": [
+            "van der waals",
+            "monolayer"
+          ]
+        },
+        "properties": {},
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": true,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2607.18435",
+      "version": "v1",
+      "versioned_id": "2607.18435v1",
+      "title": "Bright Telecom Spin-Photon Interface in Silicon Photonics",
+      "authors": [
+        "Carolina Crosta",
+        "Amirehsan Alizadehherfati",
+        "Purbita Purkayastha",
+        "Kyu-Young Kim",
+        "Jasvith Raj Basani",
+        "Chang-Min Lee",
+        "Fabio Pezzoli",
+        "Edo Waks"
+      ],
+      "abstract": "Silicon is an attractive host for scalable quantum photonics, but the absence of bright telecom-band emitters with optically addressable spin states has limited its use for spin-photon interfaces. Here we demonstrate the Al1-center, an aluminum--carbon defect in silicon, as a bright waveguide-integrated single-photon emitter with a ground-state spin. Using isotopically purified silicon-on-insulator nanophotonic devices, we isolate individual Al1-centers and observe high-purity single-photon emission with $g^{(2)}(0)=0.04$ without background subtraction. Time-resolved photoluminescence spectroscopy reveals a fast excited-state lifetime of 135 ns, nearly an order of magnitude shorter than the benchmark provided by the well-studied T-center. Resonant photoluminescence excitation measurements further resolve the zero-phonon transition and reveal a narrow homogeneous linewidth reaching 47 MHz, threefold narrower than the T-center under comparable temperature. Through magneto-optical spectroscopy, we resolve the spin-dependent transitions of the bound-exciton manifold and achieve spin-selective optical pumping, fulfilling the prerequisite for quantum state initialization and readout. These results establish the Al1-center as a bright telecom-band spin-photon interface in silicon photonics and introduce a promising platform for integrated quantum networks.",
+      "submitted": "2026-07-20T18:35:56Z",
+      "updated": "2026-07-20T18:35:56Z",
+      "categories": [
+        "quant-ph",
+        "physics.optics"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2607.18435v1",
+      "arxiv_url": "https://arxiv.org/abs/2607.18435",
+      "study_type": "Experimental",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Dataset / benchmark",
+      "materials": [],
+      "material_families": [],
+      "exciton_properties": [
+        "Linewidth / dephasing"
+      ],
+      "applications": [],
+      "methods": [
+        "Photoluminescence",
+        "Time-resolved spectroscopy",
+        "Magneto-optical measurements",
+        "Linewidth / fine structure"
+      ],
+      "matched_keywords": [
+        "exciton",
+        "linewidth",
+        "magneto-optical",
+        "photoluminescence",
+        "time-resolved"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [
+          "spectroscopy reveals"
+        ],
+        "computational_actions": [
+          "using"
+        ],
+        "experimental_methods": {
+          "Photoluminescence": [
+            "photoluminescence"
+          ],
+          "Time-resolved spectroscopy": [
+            "time-resolved"
+          ],
+          "Magneto-optical measurements": [
+            "magneto-optical"
+          ],
+          "Linewidth / fine structure": [
+            "linewidth"
+          ]
+        },
+        "computational_methods": {},
+        "materials": {},
+        "properties": {
+          "Linewidth / dephasing": [
+            "linewidth"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": true,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
     {
       "arxiv_id": "2607.18183",
       "version": "v1",
@@ -67,6 +300,55 @@
             "monolayer"
           ]
         },
+        "properties": {},
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2607.18335",
+      "version": "v1",
+      "versioned_id": "2607.18335v1",
+      "title": "Sound Induced Hall Currents in Weyl Exciton Insulators",
+      "authors": [
+        "Xinhong Zhou",
+        "Varsha Subramanyan",
+        "Qing-Dong Jiang"
+      ],
+      "abstract": "Weyl semimetals exhibit anomalous transport controlled by their gapless chiral nodes, while gapped Weyl systems are often expected to lose such distinctive responses. Here we show that Weyl excitonic insulators instead host a new form of axial-field-driven transport that exists only in the massive phase. Starting from the low-energy Breit-type Hamiltonian for a gapped Weyl system coupled to strain-induced axial potentials, we develop a semiclassical wave-packet theory and identify a dissipative transverse current generated by a dynamical axial potential. This response is qualitatively distinct from both ordinary vector-potential transport in gapped systems and axial responses in gapless Weyl semimetals. Physically, it originates from a mass-induced Berry structure of the reconstructed Weyl bands, which becomes active when the system is driven out of equilibrium by a chiral chemical-potential imbalance. We show that transverse sound waves provide a natural route to generate the required dynamical axial field and estimate the resulting current for realistic material parameters. Our results reveal sound-induced Hall transport as a direct probe of Weyl excitonic order and provide a transport signature of interaction-generated mass in Weyl materials.",
+      "submitted": "2026-07-19T18:00:10Z",
+      "updated": "2026-07-19T18:00:10Z",
+      "categories": [
+        "cond-mat.mes-hall"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2607.18335v1",
+      "arxiv_url": "https://arxiv.org/abs/2607.18335",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [],
+      "material_families": [],
+      "exciton_properties": [],
+      "applications": [],
+      "methods": [],
+      "matched_keywords": [
+        "exciton",
+        "excitonic"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [],
+        "experimental_methods": {},
+        "computational_methods": {},
+        "materials": {},
         "properties": {},
         "relevance": [
           "exciton/excitonic stated in title or abstract"
@@ -8522,11 +8804,20 @@
       "new": 2,
       "updated": 0,
       "total": 111
+    },
+    {
+      "scanned_at": "2026-07-22T06:12:08.558960+00:00",
+      "since": "2026-07-08",
+      "fetched": 28,
+      "classified": 28,
+      "new": 4,
+      "updated": 0,
+      "total": 115
     }
   ],
   "counts": {
-    "total": 111,
-    "new_this_scan": 2,
+    "total": 115,
+    "new_this_scan": 4,
     "updated_this_scan": 0
   }
 }
