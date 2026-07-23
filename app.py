@@ -577,32 +577,32 @@ if selected_view == "People & institutions":
         "connect the exciton literature. Author analytics recalculate from the approved "
         "paper feed after every scan and AI review."
     )
-    people_metrics = st.columns(4)
+    people_metrics = st.columns(5)
     people_metrics[0].metric("Mapped papers", len(people_papers))
     people_metrics[1].metric("Authors", len(people["authors"]))
-    people_metrics[2].metric("Co-author links", len(people["connections"]))
-    people_metrics[3].metric(
-        "Located authors",
-        f'{geography["mapped_authors"]}/{geography["total_authors"]}',
-    )
+    people_metrics[2].metric("Institutions", len(geography["markers"]))
+    people_metrics[3].metric("Countries", geography["countries"])
+    people_metrics[4].metric("Papers with verified geography", f'{geography["covered_papers"]}/{geography["total_papers"]}')
 
     map_tab, network_tab, author_tab = st.tabs(
         ["Institution map", "Collaboration network", "Author explorer"]
     )
     with map_tab:
         st.info(
-            "This is a verified ecosystem map, not a ranking. Marker size shows unique mapped "
-            "papers; colour shows the institution's role. Watanabe and Taniguchi are highlighted "
-            "as high-impact hBN crystal suppliers whose material enables many 2D exciton devices."
+            "Research ecosystem, not a leaderboard. Marker size represents unique mapped papers; "
+            "colour represents the institution's contribution. Lines are verified co-authorship "
+            "between institutions and reveal the materials, methods and papers behind each link."
         )
-        coverage = (
-            geography["mapped_authors"] / geography["total_authors"]
-            if geography["total_authors"] else 0
+        paper_coverage = geography["covered_papers"] / geography["total_papers"] if geography["total_papers"] else 0
+        st.progress(
+            paper_coverage,
+            text=f'Paper coverage: {geography["covered_papers"]} of {geography["total_papers"]} mapped papers include at least one verified affiliation',
         )
-        st.progress(coverage, text=f"Verified location coverage: {geography['mapped_authors']} of {geography['total_authors']} authors")
         st.caption(
-            "Affiliations are shown only with a cited source. Unverified authors remain in the "
-            "collaboration and author views but are never assigned a location by name matching."
+            f'{geography["mapped_authors"]} of {geography["total_authors"]} authors are individually verified · '
+            f'Registry checked {geography.get("registry_updated") or "manually"}. '
+            "Paper coverage is the more useful measure for this broad, young archive. "
+            "Unverified identities are never guessed."
         )
         if not geography["markers"]:
             st.info(
@@ -633,20 +633,27 @@ if selected_view == "People & institutions":
                     mode="lines",
                     line={"width": 1 + min(link["papers"], 5) * 0.45, "color": "#7b9c90"},
                     hoverinfo="text",
-                    text=f'{source["name"]} ↔ {target["name"]}<br>{link["papers"]} shared papers',
+                    text=(
+                        f'{source["name"]} ↔ {target["name"]}<br>{link["papers"]} shared papers'
+                        f'<br>Materials: {", ".join(link.get("materials", [])) or "not classified"}'
+                        f'<br>{link.get("titles", [""])[0]}'
+                    ),
                     showlegend=False,
                 ))
             markers = geography["markers"]
             role_colors = {
-                "Materials platform": "#dc6b4a",
-                "Theory group": "#6f63b5",
-                "First-principles theory": "#2878a8",
-                "Many-body theory": "#1f8a70",
-                "Ultrafast theory": "#d49b28",
+                "Materials platform": "#e4572e", "Theory group": "#7457c8",
+                "First-principles theory": "#2677b8", "Many-body theory": "#178f75",
+                "Ultrafast theory": "#d49a1f", "Exciton materials theory": "#3557a6",
+                "Magneto-optical spectroscopy": "#c23b75", "Polariton experiments": "#8a4fb5",
+                "Semiconductor quantum optics": "#bf6b22", "Quantum optics theory": "#6c63a8",
+                "2D materials theory": "#2386a8", "Moiré exciton experiments": "#1b9a59",
+                "Polariton photonics": "#9b4d85", "Electronic-structure theory": "#477a66",
             }
             st.markdown(
-                "**Map key:** 🟠 Materials supply · 🟣 interacting-exciton theory · "
-                "🔵 first-principles theory · 🟢 many-body theory · 🟡 ultrafast theory"
+                "**Colour families:** orange—materials platforms · blue/green—theory · "
+                "purple—polaritons and quantum optics · pink—spectroscopy. "
+                "Hover markers and lines for scientific context."
             )
             figure.add_trace(go.Scattergeo(
                 lon=[row["longitude"] for row in markers],
@@ -656,6 +663,8 @@ if selected_view == "People & institutions":
                     f'<br>{", ".join(row["authors"])}'
                     f'<br>{row["papers"]} unique mapped papers'
                     f'<br>Role: {", ".join(row.get("roles", []))}'
+                    f'<br>Materials: {", ".join(row.get("materials", [])) or "not classified"}'
+                    f'<br>Methods: {", ".join(row.get("methods", [])) or "not classified"}'
                     for row in markers
                 ],
                 hoverinfo="text",
@@ -673,9 +682,9 @@ if selected_view == "People & institutions":
             ))
             figure.update_geos(
                 projection_type="equirectangular" if projection == "Flat world" else "orthographic",
-                showland=True, landcolor="#f1eadf", showocean=True, oceancolor="#dcecf2",
-                showlakes=True, lakecolor="#dcecf2", showrivers=False,
-                showcountries=True, countrycolor="#c8bba7", coastlinecolor="#78969b",
+                showland=True, landcolor="#f4e7cf", showocean=True, oceancolor="#cfe8f3",
+                showlakes=True, lakecolor="#cfe8f3", showrivers=False,
+                showcountries=True, countrycolor="#b7a98e", coastlinecolor="#477d8c",
                 showframe=False,
             )
             figure.update_layout(
@@ -703,6 +712,10 @@ if selected_view == "People & institutions":
                 f'{institution["years"][0]}–{institution["years"][-1]}'
                 if institution["years"] else "—",
             )
+            if institution.get("materials"):
+                st.write("**Materials represented:** " + " · ".join(institution["materials"]))
+            if institution.get("methods"):
+                st.write("**Methods represented:** " + " · ".join(institution["methods"]))
             for author_name, contribution in zip(
                 institution["authors"], institution.get("contributions", [])
             ):
