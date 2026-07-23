@@ -1,7 +1,513 @@
 {
   "schema_version": 2,
-  "last_scan": "2026-07-22T06:12:08.558960+00:00",
+  "last_scan": "2026-07-23T06:17:27.868438+00:00",
   "papers": [
+    {
+      "arxiv_id": "2607.20344",
+      "version": "v1",
+      "versioned_id": "2607.20344v1",
+      "title": "Probing the temperature dependence of dielectric function of ternary transition metal dichalcogenides: towards thermo-driven ultrathin photonic components",
+      "authors": [
+        "Artsruni Margaryan",
+        "Maria Levonyan",
+        "Maksim Sargsyan",
+        "David Karakhanyan",
+        "Meri Hayrapetyan",
+        "Kostya S. Novoselov",
+        "Davit A. Ghazaryan"
+      ],
+      "abstract": "Transition metal dichalcogenides (TMDs), along with their ternary derivatives, have attracted considerable attention mostly due to pronounced excitonic resonances emerging in visible (Vis) and near-infrared (NIR) spectral regions, enabling strong light-matter interaction. Nevertheless, a comprehensive insight of the temperature-dependent optical dispersions for the most of representatives of the family remains yet unrevealed. Here, we report on systematic studies of dielectric permittivity functions of uniaxial ternary MoSSe and WSSe across 430-1000 nm spectral region over a broad temperature window of 80-670 K. We show that the temperature evolution of their dielectric responses is governed by Varshni's formalism in Vis spectral region further affecting their high refractive index properties at the lossless NIR spectral tails. Furthermore, we exploit the measured optical dispersion of ternary WSSe designing ultrathin plano-convex NIR photonic lenses that demonstrate continuous modulation of performance with temperature variation. Our work provides critical insights for the creation of next-generation thermo-driven nanophotonic and optoelectronic devices.",
+      "submitted": "2026-07-22T16:30:28Z",
+      "updated": "2026-07-22T16:30:28Z",
+      "categories": [
+        "physics.optics",
+        "cond-mat.mtrl-sci"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2607.20344v1",
+      "arxiv_url": "https://arxiv.org/abs/2607.20344",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [
+        "transition-metal dichalcogenides"
+      ],
+      "material_families": [
+        "TMDs / 2D chalcogenides"
+      ],
+      "exciton_properties": [],
+      "applications": [],
+      "methods": [],
+      "matched_keywords": [
+        "exciton",
+        "excitonic"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [
+          "we report"
+        ],
+        "computational_actions": [],
+        "experimental_methods": {},
+        "computational_methods": {},
+        "materials": {
+          "transition-metal dichalcogenides": [
+            "transition metal dichalcogenide",
+            "tmds"
+          ],
+          "TMDs / 2D chalcogenides": [
+            "transition metal dichalcogenide",
+            "tmds"
+          ]
+        },
+        "properties": {},
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2607.13957",
+      "version": "v2",
+      "versioned_id": "2607.13957v2",
+      "title": "Temporal Fourier Optics Reveals Hidden Hybridized Light-Matter States",
+      "authors": [
+        "Juan-Feng Zhu",
+        "Wenjie Zhou",
+        "Shihao Feng",
+        "Zicheng Song",
+        "Ruicong Zhang",
+        "Cheng-Wei Qiu",
+        "Rengming Liu",
+        "Lin Wu"
+      ],
+      "abstract": "Spectral measurements provide fundamental insights into wave systems by revealing resonances, mode hybridization, and light-matter interactions. However, intrinsic dissipation and measurement-related spectral broadening often obscure the spectral signatures of the underlying hybridized light-matter states. Here, we establish a temporal Fourier optics framework based on a space-time Fourier correspondence, which interprets spectral broadening as the Fourier counterpart of temporal attenuation. This perspective introduces a temporal point-spread function (TPSF) that enables direct, synthesis-free reconstruction of the underlying spectral response from experimentally measured spectra by compensating for effective temporal decay before transformation back to the frequency domain. We experimentally validate the framework using deterministic single-molecule Au nanosphere dimers and open Au@Ag nanorod- and nanotriangle-based plasmonic nanocavities coupled to J-aggregate excitons. Across these distinct platforms, TPSF consistently resolves hidden upper and lower polaritonic branches, revealing hybridized light-matter states and strong coupling that remain inaccessible in conventional scattering spectra. The reconstructed spectra agree closely with the recently developed complex-frequency formalism while providing a substantially simpler and experimentally accessible implementation. More broadly, temporal Fourier optics establishes a general framework for recovering dissipation-obscured spectral information, opening new opportunities for spectroscopy, imaging, sensing, and inverse wave measurements across photonics and wave physics.",
+      "submitted": "2026-07-15T15:45:39Z",
+      "updated": "2026-07-22T08:09:57Z",
+      "categories": [
+        "physics.optics",
+        "physics.app-ph",
+        "quant-ph"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2607.13957v2",
+      "arxiv_url": "https://arxiv.org/abs/2607.13957",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [],
+      "material_families": [
+        "Organic / molecular materials"
+      ],
+      "exciton_properties": [],
+      "applications": [
+        "Light–matter coupling"
+      ],
+      "methods": [],
+      "matched_keywords": [
+        "exciton",
+        "polariton"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [
+          "experimentally"
+        ],
+        "computational_actions": [
+          "using"
+        ],
+        "experimental_methods": {},
+        "computational_methods": {},
+        "materials": {
+          "Organic / molecular materials": [
+            "j-aggregate"
+          ]
+        },
+        "properties": {},
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1",
+        "v2"
+      ]
+    },
+    {
+      "arxiv_id": "2607.19868",
+      "version": "v1",
+      "versioned_id": "2607.19868v1",
+      "title": "Band Engineering of Exciton Polaritons in Resonant Polaritonic Metasurfaces",
+      "authors": [
+        "Polina Pantiukhina",
+        "Daria Smirnova",
+        "Kirill Koshelev"
+      ],
+      "abstract": "Polaritonic metasurfaces provide a versatile platform for engineering hybrid light-matter states through the interplay of optical resonances and excitonic excitations. Yet, predictive models often remain phenomenological and rely on coupled-mode equations. Here, we develop an effective Hamiltonian framework for exciton polaritons in resonant polaritonic metasurfaces, derived from a semiclassical single-pole description of excitonic polarization and a Green's-function description of guided-mode resonances. The resulting non-Hermitian Hamiltonian rigorously incorporates resonant photonic harmonics, multiple excitonic degrees of freedom, and radiative losses. The model reveals selection rules governing photonic-excitonic coupling classified by orbital multipole index and polarization, and shows that the minimal number of excitonic degrees of freedom equals the number of relevant photonic modes. We apply the framework to a bulk van der Waals WS$_2$ metasurface patterned into a hexagonal lattice of triangular holes and uncover a new geometry-controlled topological transition driven by dipole-quadrupole band inversion, distinct from the conventional breathing-honeycomb-lattice transition. Full-wave simulations confirm the predicted topological phase diagram and the emergence of photonic and polaritonic edge states at a topological interface. Our results establish a theoretical multimode framework for geometry-controlled bandstructure engineering in polaritonic metasurfaces, with applications in topological, chiral, and quantum integrated photonics.",
+      "submitted": "2026-07-22T07:54:44Z",
+      "updated": "2026-07-22T07:54:44Z",
+      "categories": [
+        "physics.optics"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2607.19868v1",
+      "arxiv_url": "https://arxiv.org/abs/2607.19868",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [],
+      "material_families": [
+        "Other 2D / van der Waals materials"
+      ],
+      "exciton_properties": [
+        "Light-matter strong coupling"
+      ],
+      "applications": [
+        "Exciton polaritons"
+      ],
+      "methods": [],
+      "matched_keywords": [
+        "exciton",
+        "excitonic",
+        "polariton"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [],
+        "experimental_methods": {},
+        "computational_methods": {},
+        "materials": {
+          "Other 2D / van der Waals materials": [
+            "van der waals"
+          ]
+        },
+        "properties": {
+          "Light-matter strong coupling": [
+            "exciton polariton"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2607.19698",
+      "version": "v1",
+      "versioned_id": "2607.19698v1",
+      "title": "Analytical Retrieval of Material Parameters in Monolayer Transition-Metal Dichalcogenides Based on a Solvable Exciton Model",
+      "authors": [
+        "Duy-Nhat Ly",
+        "Thanh-Son Nguyen",
+        "Ngoc-Tram D. Hoang",
+        "Van-Hoang Le"
+      ],
+      "abstract": "We develop an analytical procedure to retrieve fundamental material parameters of monolayer transition-metal dichalcogenides from optical and magneto-optical exciton spectra, based on the solvable modified Kratzer model. The proposed retrieval procedure naturally consists of two complementary stages. In the first stage, explicit inversion formulas determine the quasiparticle bandgap, effective screening parameter, and energy scaling factor directly from the experimentally measured energies of the three lowest excitonic states, from which the screening length is subsequently obtained. In the second stage, an analytical expression for the magnetic-field dependence of the exciton energies independently yields the reduced exciton mass, from which the surrounding dielectric constant is then calculated. Once the complete set of material parameters has been retrieved, the framework analytically predicts the diamagnetic coefficients, exciton radii, and complete magnetoexciton spectra without introducing additional fitting parameters or matrix diagonalization. The method is applied to a broad range of experimental samples for WSe$_2$, WS$_2$, MoS$_2$, MoSe$_2$, and MoTe$_2$ monolayers embedded in different dielectric environments. The retrieved material parameters are in good agreement with independent experimental measurements and previous Rytova--Keldysh (RK) calculations, while the predicted excitonic properties accurately reproduce available magneto-optical observations. The proposed analytical theory provides an efficient, physically transparent alternative to conventional numerical fitting procedures and offers an effective tool for the rapid characterization of two-dimensional semiconductors via excitonic spectroscopy.",
+      "submitted": "2026-07-22T02:57:30Z",
+      "updated": "2026-07-22T02:57:30Z",
+      "categories": [
+        "cond-mat.mtrl-sci",
+        "cond-mat.mes-hall",
+        "quant-ph"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2607.19698v1",
+      "arxiv_url": "https://arxiv.org/abs/2607.19698",
+      "study_type": "Experimental",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [
+        "transition-metal dichalcogenides"
+      ],
+      "material_families": [
+        "TMDs / 2D chalcogenides",
+        "Other 2D / van der Waals materials"
+      ],
+      "exciton_properties": [
+        "g-factor / Zeeman splitting"
+      ],
+      "applications": [],
+      "methods": [
+        "Magneto-optical measurements",
+        "Exciton g-factor"
+      ],
+      "matched_keywords": [
+        "exciton",
+        "excitonic",
+        "g factor",
+        "magneto-optical"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [
+          "experimentally"
+        ],
+        "computational_actions": [],
+        "experimental_methods": {
+          "Magneto-optical measurements": [
+            "magneto-optical"
+          ],
+          "Exciton g-factor": [
+            "g factor"
+          ]
+        },
+        "computational_methods": {},
+        "materials": {
+          "transition-metal dichalcogenides": [
+            "transition-metal dichalcogenide"
+          ],
+          "TMDs / 2D chalcogenides": [
+            "transition-metal dichalcogenide"
+          ],
+          "Other 2D / van der Waals materials": [
+            "monolayer"
+          ]
+        },
+        "properties": {
+          "g-factor / Zeeman splitting": [
+            "g factor"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": true,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2607.19663",
+      "version": "v1",
+      "versioned_id": "2607.19663v1",
+      "title": "Raman spectroscopy of van der Waals topological magnet GdGaI",
+      "authors": [
+        "Nan Jiang",
+        "Yijin Zhang",
+        "Yujie Xia",
+        "Tomo Higashihara",
+        "Ryutaro Okuma",
+        "Jun-ichi Yamaura",
+        "Yoshinori Okada",
+        "Kenji Watanabe",
+        "Takashi Taniguchi",
+        "Tiantian Zhang",
+        "Tomoki Machida",
+        "Yasuhiro Niimi"
+      ],
+      "abstract": "We report polarization-resolved Raman spectroscopy of a van der Waals compound GdGaI that is a candidate for excitonic insulators. By combining the symmetry analysis with density functional theory calculations, we identify six Raman-active phonons. The spectra exhibit only the expected anharmonic hardening down to 4 K: no additional peaks, no soft modes, and no signatures of zone folding are observed. This result indicates that any lattice distortion is below our experimental sensitivity, supporting an electronically driven origin for the band reconstruction reported by angle-resolved photoemission spectroscopy rather than an electron-phonon-driven mechanism. Moreover, we observe a pronounced circular dichroism of the $A_{1g}$ modes under an out-of-plane magnetic field. Based on symmetry considerations, we attribute this dichroic response to chiral $A_{1g}$ phonons with opposite angular momenta generated by spin-phonon coupling in the time-reversal-broken state. The temperature evolution of the degree of circular polarization further suggests that circularly polarized Raman spectroscopy detects the emergence of short-range antiferromagnetic correlations. Our results highlight GdGaI as a promising platform in which excitonic order, magnetism, and circularly polarized phonons can be intertwined, and demonstrate that circular-polarization Raman provides a sensitive probe of spin-phonon coupling in excitonic systems.",
+      "submitted": "2026-07-22T02:06:32Z",
+      "updated": "2026-07-22T02:06:32Z",
+      "categories": [
+        "cond-mat.mtrl-sci",
+        "cond-mat.mes-hall",
+        "cond-mat.str-el"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2607.19663v1",
+      "arxiv_url": "https://arxiv.org/abs/2607.19663",
+      "study_type": "Experimental",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [],
+      "material_families": [
+        "Other 2D / van der Waals materials"
+      ],
+      "exciton_properties": [],
+      "applications": [],
+      "methods": [
+        "Raman spectroscopy",
+        "Photoemission / photocurrent",
+        "DFT"
+      ],
+      "matched_keywords": [
+        "density functional theory",
+        "exciton",
+        "excitonic",
+        "photoemission spectroscopy",
+        "raman spectroscopy"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [
+          "we observe",
+          "we report"
+        ],
+        "computational_actions": [],
+        "experimental_methods": {
+          "Raman spectroscopy": [
+            "raman spectroscopy"
+          ],
+          "Photoemission / photocurrent": [
+            "photoemission spectroscopy"
+          ]
+        },
+        "computational_methods": {
+          "DFT": [
+            "density functional theory"
+          ]
+        },
+        "materials": {
+          "Other 2D / van der Waals materials": [
+            "van der waals"
+          ]
+        },
+        "properties": {},
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": true,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2607.19634",
+      "version": "v1",
+      "versioned_id": "2607.19634v1",
+      "title": "Coupled-channel approach to scattering of hybrid excitons",
+      "authors": [
+        "Yasufumi Nakano",
+        "Meera M. Parish",
+        "Jesper Levinsen"
+      ],
+      "abstract": "We consider the interactions of hybrid excitons in a two-dimensional semiconductor bilayer, where spatially direct and indirect excitons are hybridized by interlayer charge-carrier tunneling. Starting from a microscopic electron-hole description, we construct realistic pseudopotentials for exciton-exciton interactions and use them as inputs to a coupled-channel scattering integral equation. This enables non-perturbative calculations of hybrid-exciton scattering beyond standard perturbative theories, and highlights the importance of energy-dependent scattering and channel mixing. In particular, we show that the interaction strength of hybrid excitons exhibits a rapid growth with increasing energy, which we find is inherited from their indirect-exciton component. We further demonstrate that dielectric screening affects the direct and indirect channels in distinct ways, leading to markedly different interaction strengths across experimentally relevant dielectric environments. Finally, we show that the hybrid-exciton scattering strength can be electrically tuned via the Stark shift, which controls the direct-indirect detuning and hence the hybridization of the two exciton modes.",
+      "submitted": "2026-07-22T00:05:09Z",
+      "updated": "2026-07-22T00:05:09Z",
+      "categories": [
+        "cond-mat.mes-hall",
+        "cond-mat.quant-gas"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2607.19634v1",
+      "arxiv_url": "https://arxiv.org/abs/2607.19634",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [],
+      "material_families": [],
+      "exciton_properties": [
+        "Many-exciton interactions"
+      ],
+      "applications": [],
+      "methods": [],
+      "matched_keywords": [
+        "exciton"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [
+          "experimentally"
+        ],
+        "computational_actions": [],
+        "experimental_methods": {},
+        "computational_methods": {},
+        "materials": {},
+        "properties": {
+          "Many-exciton interactions": [
+            "exciton-exciton"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2607.19467",
+      "version": "v1",
+      "versioned_id": "2607.19467v1",
+      "title": "Quantum Simulation of Semiconductor Excitons in Ultracold Dipolar Fermi Gases",
+      "authors": [
+        "Florian Hirsch",
+        "Oriana K. Diessel",
+        "Rafał Ołdziejewski",
+        "Richard Schmidt"
+      ],
+      "abstract": "Inspired by the progress on the study of exciton physics in atomically thin transition metal dichalcogenide (TMD) semiconductors, we investigate the formation of analogs of excitons in cold atomic systems. To this end, we consider single-component fermions comprised of ultracold ground-state molecules or dipolar atoms in a hexagonal optical lattice. An energy offset between triangular sublattices opens up a band gap with degeneracies at the K/K' points as in TMDs. We predict the existence of cold atomic excitons and show that cold atoms allow us to study excitons from the weak-coupling regime, where effective mass models apply, to the strong-interaction regime, described by flat-band models. We demonstrate how these excitons can be observed using lattice modulation spectroscopy, and how their wave functions can be mapped out using quantum gas microscopy. Firmly establishing the idea of quantum simulation of semiconductor physics, this work lays the foundation for simulating complex electronic states such as trions, polarons and excitonic insulators.",
+      "submitted": "2026-07-21T18:00:02Z",
+      "updated": "2026-07-21T18:00:02Z",
+      "categories": [
+        "cond-mat.quant-gas",
+        "cond-mat.mes-hall"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2607.19467v1",
+      "arxiv_url": "https://arxiv.org/abs/2607.19467",
+      "study_type": "Computational",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [
+        "transition-metal dichalcogenides"
+      ],
+      "material_families": [
+        "TMDs / 2D chalcogenides"
+      ],
+      "exciton_properties": [],
+      "applications": [],
+      "methods": [
+        "Model Hamiltonian"
+      ],
+      "matched_keywords": [
+        "effective mass model",
+        "exciton",
+        "excitonic"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [
+          "using"
+        ],
+        "experimental_methods": {},
+        "computational_methods": {
+          "Model Hamiltonian": [
+            "effective mass model"
+          ]
+        },
+        "materials": {
+          "transition-metal dichalcogenides": [
+            "transition metal dichalcogenide",
+            "tmds"
+          ],
+          "TMDs / 2D chalcogenides": [
+            "transition metal dichalcogenide",
+            "tmds"
+          ]
+        },
+        "properties": {},
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": true
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
     {
       "arxiv_id": "2607.19242",
       "version": "v1",
@@ -937,78 +1443,6 @@
       "evidence": {
         "experimental": false,
         "computational": true
-      },
-      "versions_seen": [
-        "v1"
-      ]
-    },
-    {
-      "arxiv_id": "2607.13957",
-      "version": "v1",
-      "versioned_id": "2607.13957v1",
-      "title": "Temporal Fourier Optics Reveals Hidden Hybridized Light-Matter States",
-      "authors": [
-        "Juan-Feng Zhu",
-        "Wenjie Zhou",
-        "Shihao Feng",
-        "Zicheng Song",
-        "Ruicong Zhang",
-        "Cheng-Wei Qiu",
-        "Rengming Liu",
-        "Lin Wu"
-      ],
-      "abstract": "Spectral measurements provide fundamental insights into wave systems by revealing resonances, mode hybridization, and light-matter interactions. However, intrinsic dissipation and measurement-induced spectral broadening often conceal the underlying hybridized light-matter states that give rise to measured spectra. Here, we establish a space-time Fourier correspondence that interprets spectral broadening as an effective temporal attenuation, giving rise to a temporal Fourier optics framework for recovering hidden spectral information. Implemented through a temporal point-spread-function (TPSF) reconstruction method, the framework compensates the effective temporal decay before Fourier transformation, directly reconstructing intrinsic spectral responses from experimentally measured spectra without repeated frequency synthesis or model-dependent fitting. We experimentally validate the approach in deterministic single-molecule Au nanosphere dimers and open Au@Ag nanorod- and nanotriangle-based plasmonic nanocavities coupled to J-aggregate excitons. Across these diverse platforms, TPSF consistently reconstructs hidden upper and lower polaritonic branches, thereby revealing the underlying hybridized light-matter states and strong coupling that remain unresolved in conventional scattering spectra. The reconstructed spectra agree closely with the recently developed complex-frequency formalism while offering a considerably simpler and more experimentally accessible implementation. Beyond strong light-matter coupling, temporal Fourier optics establishes a general framework for uncovering physical states hidden by dissipation, opening new opportunities for spectroscopy, imaging, sensing, and inverse wave measurements across photonics and wave physics.",
-      "submitted": "2026-07-15T15:45:39Z",
-      "updated": "2026-07-15T15:45:39Z",
-      "categories": [
-        "physics.optics",
-        "physics.app-ph",
-        "quant-ph"
-      ],
-      "pdf_url": "https://arxiv.org/pdf/2607.13957v1",
-      "arxiv_url": "https://arxiv.org/abs/2607.13957",
-      "study_type": "Unclassified",
-      "relevance": "Core exciton paper",
-      "paper_nature": "Original research",
-      "materials": [],
-      "material_families": [
-        "Organic / molecular materials"
-      ],
-      "exciton_properties": [
-        "Light-matter strong coupling"
-      ],
-      "applications": [
-        "Light–matter coupling"
-      ],
-      "methods": [],
-      "matched_keywords": [
-        "exciton",
-        "polariton"
-      ],
-      "classification_evidence": {
-        "experimental_actions": [
-          "experimentally"
-        ],
-        "computational_actions": [],
-        "experimental_methods": {},
-        "computational_methods": {},
-        "materials": {
-          "Organic / molecular materials": [
-            "j-aggregate"
-          ]
-        },
-        "properties": {
-          "Light-matter strong coupling": [
-            "strong light-matter coupling"
-          ]
-        },
-        "relevance": [
-          "exciton/excitonic stated in title or abstract"
-        ]
-      },
-      "evidence": {
-        "experimental": false,
-        "computational": false
       },
       "versions_seen": [
         "v1"
@@ -8813,11 +9247,20 @@
       "new": 4,
       "updated": 0,
       "total": 115
+    },
+    {
+      "scanned_at": "2026-07-23T06:17:27.868438+00:00",
+      "since": "2026-07-09",
+      "fetched": 32,
+      "classified": 32,
+      "new": 6,
+      "updated": 1,
+      "total": 121
     }
   ],
   "counts": {
-    "total": 115,
-    "new_this_scan": 4,
-    "updated_this_scan": 0
+    "total": 121,
+    "new_this_scan": 6,
+    "updated_this_scan": 1
   }
 }
