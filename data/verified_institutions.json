@@ -1,6 +1,6 @@
 {
-  "schema_version": 2,
-  "description": "Manually verified author affiliations and research roles. Authors without evidence remain geographically unmapped.",
+  "schema_version": 3,
+  "description": "Evidence-backed affiliations for authors present in mapped Exciton Scanner papers. Priority is recurring authors and research-group anchors; unresolved authors remain unmapped.",
   "institutions": {
     "nims-tsukuba": {
       "name": "National Institute for Materials Science (NIMS)",
@@ -48,9 +48,129 @@
       "city": "Marburg",
       "country": "Germany",
       "latitude": 50.807,
-      "longitude": 8.770,
+      "longitude": 8.77,
       "institution_type": "Ultrafast theory",
       "evidence_url": "https://www.uni-marburg.de/en/fb13/ultrafast-quantumdynamics/personal-webpages/ermin-malic"
+    },
+    "usc-los-angeles": {
+      "name": "University of Southern California",
+      "short_name": "USC",
+      "city": "Los Angeles",
+      "country": "United States",
+      "latitude": 34.0224,
+      "longitude": -118.2851,
+      "institution_type": "Exciton materials theory",
+      "evidence_url": "https://viterbischool.usc.edu/news/2026/04/how-does-electron-structure-impact-light-responses-in-moire-materials/"
+    },
+    "tamkang-tamsui": {
+      "name": "Tamkang University",
+      "short_name": "Tamkang",
+      "city": "New Taipei City",
+      "country": "Taiwan",
+      "latitude": 25.1746,
+      "longitude": 121.4505,
+      "institution_type": "First-principles theory",
+      "evidence_url": "https://events.tku.edu.tw/eFocus.cshtml?pg=5"
+    },
+    "warsaw": {
+      "name": "University of Warsaw",
+      "short_name": "Warsaw",
+      "city": "Warsaw",
+      "country": "Poland",
+      "latitude": 52.2402,
+      "longitude": 21.0186,
+      "institution_type": "Magneto-optical spectroscopy",
+      "evidence_url": "https://eventi.cnism.it/fismat2025/submission/view/14274553781641067044.html"
+    },
+    "oldenburg": {
+      "name": "Carl von Ossietzky University Oldenburg",
+      "short_name": "Oldenburg",
+      "city": "Oldenburg",
+      "country": "Germany",
+      "latitude": 53.1474,
+      "longitude": 8.182,
+      "institution_type": "Polariton experiments",
+      "evidence_url": "https://www.arxiv.org/html/2501.18233v1"
+    },
+    "wuerzburg": {
+      "name": "University of Würzburg",
+      "short_name": "Würzburg",
+      "city": "Würzburg",
+      "country": "Germany",
+      "latitude": 49.7881,
+      "longitude": 9.9359,
+      "institution_type": "Semiconductor quantum optics",
+      "evidence_url": "https://www.physik.uni-wuerzburg.de/ep3/"
+    },
+    "cnr-nanotec-lecce": {
+      "name": "CNR NANOTEC",
+      "short_name": "CNR NANOTEC",
+      "city": "Lecce",
+      "country": "Italy",
+      "latitude": 40.3515,
+      "longitude": 18.175,
+      "institution_type": "Polariton experiments",
+      "evidence_url": "https://nanotec.cnr.it/"
+    },
+    "uam-madrid": {
+      "name": "Universidad Autónoma de Madrid",
+      "short_name": "UAM",
+      "city": "Madrid",
+      "country": "Spain",
+      "latitude": 40.5467,
+      "longitude": -3.6944,
+      "institution_type": "Quantum optics theory",
+      "evidence_url": "https://www.uam.es/"
+    },
+    "dtucopenhagen": {
+      "name": "Technical University of Denmark",
+      "short_name": "DTU",
+      "city": "Kongens Lyngby",
+      "country": "Denmark",
+      "latitude": 55.7856,
+      "longitude": 12.5214,
+      "institution_type": "2D materials theory",
+      "evidence_url": "https://www.dtu.dk/english/"
+    },
+    "cornell": {
+      "name": "Cornell University",
+      "short_name": "Cornell",
+      "city": "Ithaca",
+      "country": "United States",
+      "latitude": 42.4534,
+      "longitude": -76.4735,
+      "institution_type": "Moiré exciton experiments",
+      "evidence_url": "https://physics.cornell.edu/kin-fai-mak"
+    },
+    "city-college-ny": {
+      "name": "The City College of New York",
+      "short_name": "CCNY",
+      "city": "New York",
+      "country": "United States",
+      "latitude": 40.82,
+      "longitude": -73.9493,
+      "institution_type": "Polariton photonics",
+      "evidence_url": "https://www.ccny.cuny.edu/physics/vinod-menon"
+    },
+    "imperial": {
+      "name": "Imperial College London",
+      "short_name": "Imperial",
+      "city": "London",
+      "country": "United Kingdom",
+      "latitude": 51.4988,
+      "longitude": -0.1749,
+      "institution_type": "First-principles theory",
+      "evidence_url": "https://www.imperial.ac.uk/materials/people/a.mostofi"
+    },
+    "nrel": {
+      "name": "National Renewable Energy Laboratory",
+      "short_name": "NREL",
+      "city": "Golden",
+      "country": "United States",
+      "latitude": 39.7406,
+      "longitude": -105.1686,
+      "institution_type": "Electronic-structure theory",
+      "evidence_url": "https://www.nrel.gov/"
     }
   },
   "authors": {
@@ -95,6 +215,139 @@
       "role": "ultrafast theory",
       "contribution": "Microscopic modelling of ultrafast exciton dynamics in quantum materials.",
       "evidence_url": "https://www.uni-marburg.de/en/fb13/ultrafast-quantumdynamics/personal-webpages/ermin-malic"
+    },
+    "Katsunori Wakabayashi": {
+      "institution_id": "nims-tsukuba",
+      "role": "2D materials theory",
+      "contribution": "Theory and data-analysis methods for low-dimensional electronic and optical systems.",
+      "evidence_url": "https://www.nims.go.jp/mana/people/principal_investigator/k_wakabayashi.html"
+    },
+    "Zhenglu Li": {
+      "institution_id": "usc-los-angeles",
+      "role": "exciton materials theory",
+      "contribution": "First-principles many-body theory of excitons, moiré materials and nonequilibrium dynamics.",
+      "evidence_url": "https://viterbischool.usc.edu/news/2026/04/how-does-electron-structure-impact-light-responses-in-moire-materials/"
+    },
+    "Hung-Chung Hsueh": {
+      "institution_id": "tamkang-tamsui",
+      "role": "first-principles theory",
+      "contribution": "Electronic-structure and excited-state calculations for low-dimensional materials.",
+      "evidence_url": "https://events.tku.edu.tw/eFocus.cshtml?pg=5"
+    },
+    "Chih-En Hsu": {
+      "institution_id": "tamkang-tamsui",
+      "role": "first-principles theory",
+      "contribution": "First-principles modelling of excitons and electron-phonon dynamics.",
+      "evidence_url": "https://events.tku.edu.tw/eFocus.cshtml?pg=5"
+    },
+    "Katarzyna Olkowska-Pucko": {
+      "institution_id": "warsaw",
+      "role": "magneto-optical spectroscopy",
+      "contribution": "Optical and magneto-optical spectroscopy of layered semiconductors.",
+      "evidence_url": "https://eventi.cnism.it/fismat2025/submission/view/14274553781641067044.html"
+    },
+    "Grzegorz Krasucki": {
+      "institution_id": "warsaw",
+      "role": "magneto-optical spectroscopy",
+      "contribution": "Optical and magneto-optical spectroscopy of layered semiconductors.",
+      "evidence_url": "https://eventi.cnism.it/fismat2025/submission/view/14274553781641067044.html"
+    },
+    "Maciej R. Molas": {
+      "institution_id": "warsaw",
+      "role": "magneto-optical spectroscopy",
+      "contribution": "Optical and magneto-optical spectroscopy of layered semiconductors.",
+      "evidence_url": "https://eventi.cnism.it/fismat2025/submission/view/14274553781641067044.html"
+    },
+    "Adam Babiński": {
+      "institution_id": "warsaw",
+      "role": "magneto-optical spectroscopy",
+      "contribution": "Optical and magneto-optical spectroscopy of layered semiconductors.",
+      "evidence_url": "https://eventi.cnism.it/fismat2025/submission/view/14274553781641067044.html"
+    },
+    "Christian Schneider": {
+      "institution_id": "oldenburg",
+      "role": "polariton experiments",
+      "contribution": "Experimental cavity polaritons, coherent transport and strong light-matter coupling.",
+      "evidence_url": "https://www.arxiv.org/html/2501.18233v1"
+    },
+    "Martin Esmann": {
+      "institution_id": "oldenburg",
+      "role": "polariton experiments",
+      "contribution": "Experimental cavity polaritons, coherent transport and strong light-matter coupling.",
+      "evidence_url": "https://www.arxiv.org/html/2501.18233v1"
+    },
+    "Sven Höfling": {
+      "institution_id": "wuerzburg",
+      "role": "semiconductor quantum optics",
+      "contribution": "Semiconductor microcavities and integrated quantum-photonic structures.",
+      "evidence_url": "https://www.physik.uni-wuerzburg.de/ep3/"
+    },
+    "Antonio Gianfrate": {
+      "institution_id": "cnr-nanotec-lecce",
+      "role": "polariton experiments",
+      "contribution": "Experimental exciton-polariton spectroscopy, nonlinearities and quantum-fluid phenomena.",
+      "evidence_url": "https://nanotec.cnr.it/"
+    },
+    "Daniele Sanvitto": {
+      "institution_id": "cnr-nanotec-lecce",
+      "role": "polariton experiments",
+      "contribution": "Experimental exciton-polariton spectroscopy, nonlinearities and quantum-fluid phenomena.",
+      "evidence_url": "https://nanotec.cnr.it/"
+    },
+    "Dario Ballarini": {
+      "institution_id": "cnr-nanotec-lecce",
+      "role": "polariton experiments",
+      "contribution": "Experimental exciton-polariton spectroscopy, nonlinearities and quantum-fluid phenomena.",
+      "evidence_url": "https://nanotec.cnr.it/"
+    },
+    "Francesca Maria Marchetti": {
+      "institution_id": "uam-madrid",
+      "role": "quantum optics theory",
+      "contribution": "Many-body and quantum-optical theory of polaritons and driven-dissipative systems.",
+      "evidence_url": "https://www.uam.es/"
+    },
+    "Kristian Sommer Thygesen": {
+      "institution_id": "dtucopenhagen",
+      "role": "2D materials theory",
+      "contribution": "First-principles screening, quasiparticles and excitons in 2D materials.",
+      "evidence_url": "https://www.dtu.dk/english/"
+    },
+    "Kin Fai Mak": {
+      "institution_id": "cornell",
+      "role": "moiré exciton experiments",
+      "contribution": "Experimental many-body physics of excitons and correlated states in 2D heterostructures.",
+      "evidence_url": "https://physics.cornell.edu/kin-fai-mak"
+    },
+    "Jie Shan": {
+      "institution_id": "cornell",
+      "role": "moiré exciton experiments",
+      "contribution": "Optical spectroscopy of excitons, trions and correlated states in atomically thin materials.",
+      "evidence_url": "https://physics.cornell.edu/jie-shan"
+    },
+    "Vinod M. Menon": {
+      "institution_id": "city-college-ny",
+      "role": "polariton photonics",
+      "contribution": "Experimental strong coupling, polaritonics and quantum nanophotonics.",
+      "evidence_url": "https://www.ccny.cuny.edu/physics/vinod-menon"
+    },
+    "Arash A. Mostofi": {
+      "institution_id": "imperial",
+      "role": "first-principles theory",
+      "contribution": "Electronic-structure and Wannier-based theory for quantum materials.",
+      "evidence_url": "https://www.imperial.ac.uk/materials/people/a.mostofi"
+    },
+    "Indrajit Maity": {
+      "institution_id": "imperial",
+      "role": "first-principles theory",
+      "contribution": "Theory of moiré excitons and low-dimensional quantum materials.",
+      "evidence_url": "https://www.imperial.ac.uk/materials/people/a.mostofi"
+    },
+    "Swagata Acharya": {
+      "institution_id": "nrel",
+      "role": "electronic-structure theory",
+      "contribution": "Many-body electronic-structure modelling of correlated and magnetic materials.",
+      "evidence_url": "https://www.nrel.gov/"
     }
-  }
+  },
+  "last_verified": "2026-07-24"
 }
