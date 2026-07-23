@@ -112,3 +112,32 @@ def test_same_institution_authors_count_each_paper_once_and_keep_roles():
     assert marker["papers"] == 1
     assert marker["roles"] == ["crystal supplier"]
     assert marker["contributions"] == ["Supplied crystals.", "Synthesized crystals."]
+
+
+def test_institution_analysis_reports_paper_coverage_and_scientific_context():
+    papers = [
+        sample_paper("mapped", ["Ada", "Unknown"], year="2025"),
+        sample_paper("unmapped", ["Unknown"], year="2026"),
+    ]
+    papers[0]["materials"] = ["WSe2"]
+    papers[0]["material_families"] = ["TMDs / 2D chalcogenides"]
+    registry = {
+        "last_verified": "2026-07-24",
+        "institutions": {
+            "lab": {
+                "name": "Verified Lab", "country": "Belgium",
+                "latitude": 1.0, "longitude": 2.0,
+            }
+        },
+        "authors": {"Ada": {"institution_id": "lab", "role": "spectroscopy"}},
+    }
+
+    result = build_institution_analysis(papers, registry)
+
+    assert result["covered_papers"] == 1
+    assert result["total_papers"] == 2
+    assert result["uncovered_papers"] == 1
+    assert result["countries"] == 1
+    assert result["registry_updated"] == "2026-07-24"
+    assert result["markers"][0]["materials"] == ["TMDs / 2D chalcogenides"]
+    assert result["markers"][0]["methods"] == ["Photoluminescence"]
