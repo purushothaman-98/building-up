@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "description": "Manually verified author affiliations. Authors without evidence remain geographically unmapped.",
+  "institutions": {
+    "nims-tsukuba": {
+      "name": "National Institute for Materials Science (NIMS)",
+      "city": "Tsukuba",
+      "country": "Japan",
+      "latitude": 36.0835,
+      "longitude": 140.0764,
+      "evidence_url": "https://samurai.nims.go.jp/profiles/watanabe_kenji_aml?locale=en"
+    }
+  },
+  "authors": {
+    "Kenji Watanabe": {
+      "institution_id": "nims-tsukuba",
+      "evidence_url": "https://samurai.nims.go.jp/profiles/watanabe_kenji_aml?locale=en"
+    },
+    "Takashi Taniguchi": {
+      "institution_id": "nims-tsukuba",
+      "evidence_url": "https://www.nims.go.jp/eng/research/researcher/taniguchi_takashi.html"
+    }
+  }
+}
