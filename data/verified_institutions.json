@@ -1,24 +1,100 @@
 {
-  "schema_version": 1,
-  "description": "Manually verified author affiliations. Authors without evidence remain geographically unmapped.",
+  "schema_version": 2,
+  "description": "Manually verified author affiliations and research roles. Authors without evidence remain geographically unmapped.",
   "institutions": {
     "nims-tsukuba": {
       "name": "National Institute for Materials Science (NIMS)",
+      "short_name": "NIMS",
       "city": "Tsukuba",
       "country": "Japan",
       "latitude": 36.0835,
       "longitude": 140.0764,
+      "institution_type": "Materials platform",
       "evidence_url": "https://samurai.nims.go.jp/profiles/watanabe_kenji_aml?locale=en"
+    },
+    "monash-clayton": {
+      "name": "Monash University",
+      "short_name": "Monash",
+      "city": "Melbourne",
+      "country": "Australia",
+      "latitude": -37.9105,
+      "longitude": 145.1362,
+      "institution_type": "Theory group",
+      "evidence_url": "https://research.monash.edu/en/persons/meera-parish/"
+    },
+    "stanford": {
+      "name": "Stanford University",
+      "short_name": "Stanford",
+      "city": "Stanford",
+      "country": "United States",
+      "latitude": 37.4275,
+      "longitude": -122.1697,
+      "institution_type": "First-principles theory",
+      "evidence_url": "https://mse.stanford.edu/people/felipe-jornada"
+    },
+    "uc-berkeley": {
+      "name": "University of California, Berkeley",
+      "short_name": "UC Berkeley",
+      "city": "Berkeley",
+      "country": "United States",
+      "latitude": 37.8715,
+      "longitude": -122.273,
+      "institution_type": "Many-body theory",
+      "evidence_url": "https://physics.berkeley.edu/people/faculty/steven-louie"
+    },
+    "marburg": {
+      "name": "Philipps-Universität Marburg",
+      "short_name": "Marburg",
+      "city": "Marburg",
+      "country": "Germany",
+      "latitude": 50.807,
+      "longitude": 8.770,
+      "institution_type": "Ultrafast theory",
+      "evidence_url": "https://www.uni-marburg.de/en/fb13/ultrafast-quantumdynamics/personal-webpages/ermin-malic"
     }
   },
   "authors": {
     "Kenji Watanabe": {
       "institution_id": "nims-tsukuba",
+      "role": "hBN crystal supplier",
+      "contribution": "High-quality hexagonal boron nitride crystals used to encapsulate and clean 2D exciton devices.",
       "evidence_url": "https://samurai.nims.go.jp/profiles/watanabe_kenji_aml?locale=en"
     },
     "Takashi Taniguchi": {
       "institution_id": "nims-tsukuba",
+      "role": "hBN crystal supplier",
+      "contribution": "High-pressure synthesis and supply of high-quality hBN crystals used across 2D exciton experiments.",
       "evidence_url": "https://www.nims.go.jp/eng/research/researcher/taniguchi_takashi.html"
+    },
+    "Meera M. Parish": {
+      "institution_id": "monash-clayton",
+      "role": "many-body theory",
+      "contribution": "Theory of interacting excitons, polarons and correlated quantum matter.",
+      "evidence_url": "https://research.monash.edu/en/persons/meera-parish/"
+    },
+    "Jesper Levinsen": {
+      "institution_id": "monash-clayton",
+      "role": "many-body theory",
+      "contribution": "Few- and many-body theory for excitons, polarons and quantum mixtures.",
+      "evidence_url": "https://research.monash.edu/en/persons/jesper-levinsen/"
+    },
+    "Felipe H. da Jornada": {
+      "institution_id": "stanford",
+      "role": "first-principles theory",
+      "contribution": "Predictive excited-state and many-body calculations for low-dimensional materials.",
+      "evidence_url": "https://mse.stanford.edu/people/felipe-jornada"
+    },
+    "Steven G. Louie": {
+      "institution_id": "uc-berkeley",
+      "role": "many-body theory",
+      "contribution": "GW-BSE and first-principles theory of quasiparticle and optical excitations.",
+      "evidence_url": "https://physics.berkeley.edu/people/faculty/steven-louie"
+    },
+    "Ermin Malic": {
+      "institution_id": "marburg",
+      "role": "ultrafast theory",
+      "contribution": "Microscopic modelling of ultrafast exciton dynamics in quantum materials.",
+      "evidence_url": "https://www.uni-marburg.de/en/fb13/ultrafast-quantumdynamics/personal-webpages/ermin-malic"
     }
   }
 }
