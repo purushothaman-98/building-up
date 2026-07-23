@@ -62,19 +62,23 @@ def build_institution_analysis(papers: list[dict], registry: dict) -> dict:
     author_names = {author for paper in papers for author in paper.get("authors", [])}
     mapped_authors = author_names.intersection(authors)
     activity = Counter()
+    institution_papers: dict[str, set[str]] = defaultdict(set)
     years: dict[str, set[str]] = defaultdict(set)
     links: Counter[tuple[str, str]] = Counter()
 
     for paper in papers:
         paper_institutions = set()
+        paper_id = paper.get("arxiv_id") or paper.get("title") or str(id(paper))
         year = (paper.get("submitted") or "")[:4]
         for author in paper.get("authors", []):
             institution_id = authors.get(author, {}).get("institution_id")
             if institution_id in institutions:
-                activity[institution_id] += 1
+                institution_papers[institution_id].add(paper_id)
                 if year:
                     years[institution_id].add(year)
                 paper_institutions.add(institution_id)
+        for institution_id in paper_institutions:
+            activity[institution_id] += 1
         for left, right in combinations(sorted(paper_institutions), 2):
             links[(left, right)] += 1
 
@@ -85,11 +89,18 @@ def build_institution_analysis(papers: list[dict], registry: dict) -> dict:
             author for author in mapped_authors
             if authors[author].get("institution_id") == institution_id
         )
+        author_records = [authors[author] for author in institution_authors]
         markers.append({
             "id": institution_id,
             **institution,
-            "papers": count,
+            "papers": len(institution_papers[institution_id]),
             "authors": institution_authors,
+            "roles": sorted({record.get("role", "research") for record in author_records}),
+            "contributions": [
+                record.get("contribution")
+                for record in author_records
+                if record.get("contribution")
+            ],
             "years": sorted(years[institution_id]),
         })
     markers.sort(key=lambda row: (-row["papers"], row["name"]))
