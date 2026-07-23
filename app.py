@@ -590,9 +590,19 @@ if selected_view == "People & institutions":
         ["Institution map", "Collaboration network", "Author explorer"]
     )
     with map_tab:
+        st.info(
+            "This is a verified ecosystem map, not a ranking. Marker size shows unique mapped "
+            "papers; colour shows the institution's role. Watanabe and Taniguchi are highlighted "
+            "as high-impact hBN crystal suppliers whose material enables many 2D exciton devices."
+        )
+        coverage = (
+            geography["mapped_authors"] / geography["total_authors"]
+            if geography["total_authors"] else 0
+        )
+        st.progress(coverage, text=f"Verified location coverage: {geography['mapped_authors']} of {geography['total_authors']} authors")
         st.caption(
-            "Locations are shown only for affiliations recorded with a verification source. "
-            "Unverified authors are never guessed from their names."
+            "Affiliations are shown only with a cited source. Unverified authors remain in the "
+            "collaboration and author views but are never assigned a location by name matching."
         )
         if not geography["markers"]:
             st.info(
@@ -627,34 +637,50 @@ if selected_view == "People & institutions":
                     showlegend=False,
                 ))
             markers = geography["markers"]
+            role_colors = {
+                "Materials platform": "#dc6b4a",
+                "Theory group": "#6f63b5",
+                "First-principles theory": "#2878a8",
+                "Many-body theory": "#1f8a70",
+                "Ultrafast theory": "#d49b28",
+            }
+            st.markdown(
+                "**Map key:** 🟠 Materials supply · 🟣 interacting-exciton theory · "
+                "🔵 first-principles theory · 🟢 many-body theory · 🟡 ultrafast theory"
+            )
             figure.add_trace(go.Scattergeo(
                 lon=[row["longitude"] for row in markers],
                 lat=[row["latitude"] for row in markers],
                 text=[
-                    f'<b>{row["name"]}</b><br>{", ".join(row["authors"])}'
-                    f'<br>{row["papers"]} mapped paper appearances'
+                    f'<b>{row["name"]}</b><br>{row.get("institution_type", "Research")}'
+                    f'<br>{", ".join(row["authors"])}'
+                    f'<br>{row["papers"]} unique mapped papers'
+                    f'<br>Role: {", ".join(row.get("roles", []))}'
                     for row in markers
                 ],
                 hoverinfo="text",
                 mode="markers",
                 marker={
-                    "size": [12 + min(row["papers"], 12) * 2 for row in markers],
-                    "color": [row["papers"] for row in markers],
-                    "colorscale": [[0, "#5ba58a"], [1, "#173d31"]],
-                    "line": {"color": "white", "width": 1.2},
-                    "showscale": len(markers) > 1,
-                    "colorbar": {"title": "Paper activity"},
+                    "size": [14 + min(row["papers"], 10) * 1.7 for row in markers],
+                    "color": [
+                        role_colors.get(row.get("institution_type"), "#667b75")
+                        for row in markers
+                    ],
+                    "opacity": 0.88,
+                    "line": {"color": "#ffffff", "width": 1.8},
                 },
                 showlegend=False,
             ))
             figure.update_geos(
                 projection_type="equirectangular" if projection == "Flat world" else "orthographic",
-                showland=True, landcolor="#e8eee9", showocean=True, oceancolor="#f7faf8",
-                showcountries=True, countrycolor="#c5d1cc", coastlinecolor="#9aaea6",
+                showland=True, landcolor="#f1eadf", showocean=True, oceancolor="#dcecf2",
+                showlakes=True, lakecolor="#dcecf2", showrivers=False,
+                showcountries=True, countrycolor="#c8bba7", coastlinecolor="#78969b",
+                showframe=False,
             )
             figure.update_layout(
                 height=520, margin={"l": 0, "r": 0, "t": 10, "b": 0},
-                paper_bgcolor="#ffffff", geo={"bgcolor": "#ffffff"},
+                paper_bgcolor="#fbfaf7", geo={"bgcolor": "#fbfaf7"},
             )
             st.plotly_chart(figure, use_container_width=True, config={"displaylogo": False})
 
@@ -664,9 +690,31 @@ if selected_view == "People & institutions":
                 format_func=lambda value: marker_by_id[value]["name"],
             )
             institution = marker_by_id[selected_institution]
-            st.markdown(f'**{institution["name"]}** · {institution["city"]}, {institution["country"]}')
-            st.write("Mapped authors: " + ", ".join(institution["authors"]))
-            st.link_button("Affiliation evidence ↗", institution["evidence_url"])
+            st.markdown(
+                f'### {institution["name"]}\n'
+                f'{institution["city"]}, {institution["country"]} · '
+                f'**{institution.get("institution_type", "Research institution")}**'
+            )
+            detail_cols = st.columns(3)
+            detail_cols[0].metric("Verified authors", len(institution["authors"]))
+            detail_cols[1].metric("Unique mapped papers", institution["papers"])
+            detail_cols[2].metric(
+                "Active years",
+                f'{institution["years"][0]}–{institution["years"][-1]}'
+                if institution["years"] else "—",
+            )
+            for author_name, contribution in zip(
+                institution["authors"], institution.get("contributions", [])
+            ):
+                st.markdown(f'**{author_name}** — {contribution}')
+            if institution["id"] == "nims-tsukuba":
+                st.success(
+                    "Why NIMS appears often: Watanabe and Taniguchi are recurring co-authors "
+                    "because their high-quality hBN crystals are supplied to many independent "
+                    "2D-material experiments. This marker represents enabling materials support, "
+                    "not thirteen separate NIMS-led exciton studies."
+                )
+            st.link_button("Open affiliation evidence ↗", institution["evidence_url"])
 
     with network_tab:
         st.subheader("Repeated collaboration")
