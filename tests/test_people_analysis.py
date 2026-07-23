@@ -81,3 +81,34 @@ def test_mapped_papers_uses_approved_feed_when_reviewed():
     approved = sample_paper("yes", ["Ada"], approved=True)
     rejected = sample_paper("no", ["Bo"], approved=False)
     assert mapped_papers([approved, rejected]) == [approved]
+
+
+def test_same_institution_authors_count_each_paper_once_and_keep_roles():
+    papers = [sample_paper("one", ["Supplier A", "Supplier B"])]
+    registry = {
+        "institutions": {
+            "materials": {
+                "name": "Materials Lab",
+                "latitude": 1,
+                "longitude": 2,
+                "institution_type": "Materials platform",
+            }
+        },
+        "authors": {
+            "Supplier A": {
+                "institution_id": "materials",
+                "role": "crystal supplier",
+                "contribution": "Supplied crystals.",
+            },
+            "Supplier B": {
+                "institution_id": "materials",
+                "role": "crystal supplier",
+                "contribution": "Synthesized crystals.",
+            },
+        },
+    }
+
+    marker = build_institution_analysis(papers, registry)["markers"][0]
+    assert marker["papers"] == 1
+    assert marker["roles"] == ["crystal supplier"]
+    assert marker["contributions"] == ["Supplied crystals.", "Synthesized crystals."]
