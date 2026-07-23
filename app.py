@@ -14,11 +14,18 @@ import altair as alt
 import pandas as pd
 import streamlit as st
 
-try:\n    import plotly.graph_objects as go\nexcept ImportError:  # The rest of the dashboard must remain available without the optional map.\n    go = None\n\nfrom ai_classifier import EXPERIMENTAL_METHODS\nfrom people_analysis import build_institution_analysis, build_people_analysis, mapped_papers
+try:
+    import plotly.graph_objects as go
+except ImportError:  # The rest of the dashboard must remain available without the optional map.
+    go = None
+
+from ai_classifier import EXPERIMENTAL_METHODS
+from people_analysis import build_institution_analysis, build_people_analysis, mapped_papers
 
 DATA = Path("data/papers.json")
 AI_DATA = Path("data/ai_classifications.json")
-AI_OVERRIDES = Path("data/ai_overrides.json")\nINSTITUTIONS_DATA = Path("data/verified_institutions.json")
+AI_OVERRIDES = Path("data/ai_overrides.json")
+INSTITUTIONS_DATA = Path("data/verified_institutions.json")
 SUBSCRIPTS = str.maketrans("0123456789", "₀₁₂₃₄₅₆₇₈₉")
 COLORS = {
     "Experimental": "#1d8a68",
