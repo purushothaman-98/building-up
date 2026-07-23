@@ -3835,6 +3835,214 @@
       "model": "openai/gpt-4o-mini",
       "prompt_version": "4.0",
       "classified_at": "2026-07-22T06:13:04.481124+00:00"
+    },
+    "2607.20344": {
+      "computational_methods": [],
+      "confidence": 0.9,
+      "evidence": [
+        "pronounced excitonic resonances emerging in visible (Vis) and near-infrared (NIR) spectral regions",
+        "systematic studies of dielectric permittivity functions of uniaxial ternary MoSSe and WSSe",
+        "temperature evolution of their dielectric responses is governed by Varshni's formalism",
+        "measured optical dispersion of ternary WSSe designing ultrathin plano-convex NIR photonic lenses"
+      ],
+      "exciton_properties": [
+        "Exciton energy / optical spectrum"
+      ],
+      "experimental_methods": [
+        "Other experimental method"
+      ],
+      "include_in_feed": true,
+      "material_families": [
+        "TMDs"
+      ],
+      "materials": [
+        "MoSSe",
+        "WSSe"
+      ],
+      "paper_nature": "Original research",
+      "reason": "The paper investigates excitonic resonances in ternary transition metal dichalcogenides and their temperature-dependent optical properties, which are essential for understanding exciton-mediated phenomena in photonic applications.",
+      "relevance": "Core exciton paper",
+      "research_type": "Experimental",
+      "arxiv_id": "2607.20344",
+      "version": "v1",
+      "fingerprint": "4d10b40f47982c0f6f755189b096f360d1a3becad7e1b786ef29b7a77a0d08e6",
+      "model": "openai/gpt-4o-mini",
+      "prompt_version": "4.0",
+      "classified_at": "2026-07-23T06:17:45.668576+00:00"
+    },
+    "2607.19868": {
+      "computational_methods": [
+        "Model / analytical theory"
+      ],
+      "confidence": 0.9,
+      "evidence": [
+        "develop an effective Hamiltonian framework for exciton polaritons",
+        "the model reveals selection rules governing photonic-excitonic coupling",
+        "full-wave simulations confirm the predicted topological phase diagram"
+      ],
+      "exciton_properties": [
+        "Strong coupling / polaritons"
+      ],
+      "experimental_methods": [
+        "Other experimental method"
+      ],
+      "include_in_feed": true,
+      "material_families": [
+        "TMDs"
+      ],
+      "materials": [
+        "WS₂"
+      ],
+      "paper_nature": "Original research",
+      "reason": "The paper presents a theoretical framework for exciton polaritons and applies it to a specific material, WS₂, demonstrating new insights into band structure engineering.",
+      "relevance": "Core exciton paper",
+      "research_type": "Theory + Experiment",
+      "arxiv_id": "2607.19868",
+      "version": "v1",
+      "fingerprint": "67048392446145c29895de07bef147dac2b1b5a75bca3ccf056960edfdfadfde",
+      "model": "openai/gpt-4o-mini",
+      "prompt_version": "4.0",
+      "classified_at": "2026-07-23T06:17:57.572556+00:00"
+    },
+    "2607.19698": {
+      "computational_methods": [
+        "Model / analytical theory"
+      ],
+      "confidence": 0.9,
+      "evidence": [
+        "retrieve fundamental material parameters of monolayer transition-metal dichalcogenides from optical and magneto-optical exciton spectra",
+        "determine the quasiparticle bandgap, effective screening parameter, and energy scaling factor directly from the experimentally measured energies of the three lowest excitonic states",
+        "an analytical expression for the magnetic-field dependence of the exciton energies independently yields the reduced exciton mass",
+        "the framework analytically predicts the diamagnetic coefficients, exciton radii, and complete magnetoexciton spectra"
+      ],
+      "exciton_properties": [
+        "Exciton energy / optical spectrum"
+      ],
+      "experimental_methods": [
+        "Magneto-optical spectroscopy"
+      ],
+      "include_in_feed": true,
+      "material_families": [
+        "TMDs"
+      ],
+      "materials": [
+        "WSe₂",
+        "WS₂",
+        "MoS₂",
+        "MoSe₂",
+        "MoTe₂"
+      ],
+      "paper_nature": "Original research",
+      "reason": "The paper develops an analytical method to retrieve excitonic properties and material parameters from spectroscopic data, making excitons a central focus of the research.",
+      "relevance": "Core exciton paper",
+      "research_type": "Theory + Experiment",
+      "arxiv_id": "2607.19698",
+      "version": "v1",
+      "fingerprint": "95b03710d213dfc23d26bb285fa6bc55ee65ed846e686fbc172fd19341c7faed",
+      "model": "openai/gpt-4o-mini",
+      "prompt_version": "4.0",
+      "classified_at": "2026-07-23T06:18:10.547742+00:00"
+    },
+    "2607.19663": {
+      "computational_methods": [
+        "DFT"
+      ],
+      "confidence": 0.9,
+      "evidence": [
+        "we report polarization-resolved Raman spectroscopy",
+        "we identify six Raman-active phonons",
+        "we observe a pronounced circular dichroism",
+        "our results highlight GdGaI as a promising platform in which excitonic order, magnetism, and circularly polarized phonons can be intertwined",
+        "circular-polarization Raman provides a sensitive probe of spin-phonon coupling in excitonic systems."
+      ],
+      "exciton_properties": [
+        "Exciton complexes"
+      ],
+      "experimental_methods": [
+        "Raman spectroscopy"
+      ],
+      "include_in_feed": true,
+      "material_families": [
+        "Other 2D materials"
+      ],
+      "materials": [
+        "GdGaI"
+      ],
+      "paper_nature": "Original research",
+      "reason": "The study investigates excitonic order and spin-phonon coupling in GdGaI, making excitons a central aspect of the research.",
+      "relevance": "Core exciton paper",
+      "research_type": "Experimental",
+      "arxiv_id": "2607.19663",
+      "version": "v1",
+      "fingerprint": "920691316722e49b13c63c9365eb12e0b4584f8ccfbfca9531d226a1673d5c68",
+      "model": "openai/gpt-4o-mini",
+      "prompt_version": "4.0",
+      "classified_at": "2026-07-23T06:18:22.727086+00:00"
+    },
+    "2607.19634": {
+      "computational_methods": [
+        "Model / analytical theory"
+      ],
+      "confidence": 0.9,
+      "evidence": [
+        "we construct realistic pseudopotentials for exciton-exciton interactions",
+        "non-perturbative calculations of hybrid-exciton scattering",
+        "the interaction strength of hybrid excitons exhibits a rapid growth with increasing energy",
+        "dielectric screening affects the direct and indirect channels in distinct ways",
+        "the hybrid-exciton scattering strength can be electrically tuned via the Stark shift"
+      ],
+      "exciton_properties": [
+        "Exciton complexes"
+      ],
+      "experimental_methods": [],
+      "include_in_feed": true,
+      "material_families": [
+        "Other 2D materials"
+      ],
+      "materials": [
+        "two-dimensional semiconductor bilayer"
+      ],
+      "paper_nature": "Original research",
+      "reason": "The paper reports original calculations on hybrid exciton interactions and scattering in a two-dimensional semiconductor bilayer.",
+      "relevance": "Core exciton paper",
+      "research_type": "Computational",
+      "arxiv_id": "2607.19634",
+      "version": "v1",
+      "fingerprint": "38ca7160d16245b48dc6cb85cab7688d8275d3f42b22c42d4ac705427a0a9c80",
+      "model": "openai/gpt-4o-mini",
+      "prompt_version": "4.0",
+      "classified_at": "2026-07-23T06:18:34.734229+00:00"
+    },
+    "2607.19467": {
+      "computational_methods": [],
+      "confidence": 0.9,
+      "evidence": [
+        "we investigate the formation of analogs of excitons in cold atomic systems",
+        "we predict the existence of cold atomic excitons",
+        "we demonstrate how these excitons can be observed using lattice modulation spectroscopy",
+        "this work lays the foundation for simulating complex electronic states such as trions, polarons and excitonic insulators"
+      ],
+      "exciton_properties": [
+        "Exciton complexes"
+      ],
+      "experimental_methods": [
+        "Other experimental method"
+      ],
+      "include_in_feed": true,
+      "material_families": [
+        "Other materials"
+      ],
+      "materials": [],
+      "paper_nature": "Original research",
+      "reason": "The paper investigates the formation and observation of excitons in ultracold dipolar Fermi gases, establishing a connection to semiconductor exciton physics.",
+      "relevance": "Core exciton paper",
+      "research_type": "Experimental",
+      "arxiv_id": "2607.19467",
+      "version": "v1",
+      "fingerprint": "102b93dd2a3df13961ec56dccebffc8a63280df749678e60c029bd3e5d269a6a",
+      "model": "openai/gpt-4o-mini",
+      "prompt_version": "4.0",
+      "classified_at": "2026-07-23T06:18:46.251141+00:00"
     }
   },
   "runs": [
@@ -4136,7 +4344,20 @@
       "eligible": 13,
       "window_start": "2026-07-15",
       "window_end": "2026-07-21"
+    },
+    {
+      "run_at": "2026-07-23T06:18:46.254126+00:00",
+      "model": "openai/gpt-4o-mini",
+      "prompt_version": "4.0",
+      "attempted": 6,
+      "succeeded": 6,
+      "failed": 0,
+      "remaining": 0,
+      "total_records": 121,
+      "eligible": 17,
+      "window_start": "2026-07-16",
+      "window_end": "2026-07-22"
     }
   ],
-  "last_run": "2026-07-22T17:03:33.198852+00:00"
+  "last_run": "2026-07-23T06:18:46.254126+00:00"
 }
