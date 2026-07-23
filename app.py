@@ -14,11 +14,18 @@ import altair as alt
 import pandas as pd
 import streamlit as st
 
+try:
+    import plotly.graph_objects as go
+except ImportError:  # The rest of the dashboard must remain available without the optional map.
+    go = None
+
 from ai_classifier import EXPERIMENTAL_METHODS
+from people_analysis import build_institution_analysis, build_people_analysis, mapped_papers
 
 DATA = Path("data/papers.json")
 AI_DATA = Path("data/ai_classifications.json")
 AI_OVERRIDES = Path("data/ai_overrides.json")
+INSTITUTIONS_DATA = Path("data/verified_institutions.json")
 SUBSCRIPTS = str.maketrans("0123456789", "₀₁₂₃₄₅₆₇₈₉")
 COLORS = {
     "Experimental": "#1d8a68",
@@ -364,7 +371,7 @@ st.markdown(
 )
 selected_view = st.radio(
     "Choose view",
-    ["Daily paper feed", "Time series & analysis"],
+    ["Daily paper feed", "Time series & analysis", "People & institutions"],
     horizontal=True,
     label_visibility="collapsed",
 )
@@ -553,6 +560,196 @@ if selected_view == "Time series & analysis":
         st.write(f"Last scan: {last_scan or 'not yet recorded'}")
         if scans:
             st.json(scans[-1])
+
+if selected_view == "People & institutions":
+    people_papers = mapped_papers(raw_papers)
+    people = build_people_analysis(people_papers)
+    registry = load_json(INSTITUTIONS_DATA, {"institutions": {}, "authors": {}})
+    geography = build_institution_analysis(people_papers, registry)
+
+    st.markdown(
+        '<div class="section-head"><h2>People & institutions</h2>'
+        '<span>Verified geography · live co-authorship</span></div>',
+        unsafe_allow_html=True,
+    )
+    st.write(
+        "Explore who is publishing, when groups are active, and which collaborations "
+        "connect the exciton literature. Author analytics recalculate from the approved "
+        "paper feed after every scan and AI review."
+    )
+    people_metrics = st.columns(4)
+    people_metrics[0].metric("Mapped papers", len(people_papers))
+    people_metrics[1].metric("Authors", len(people["authors"]))
+    people_metrics[2].metric("Co-author links", len(people["connections"]))
+    people_metrics[3].metric(
+        "Located authors",
+        f'{geography["mapped_authors"]}/{geography["total_authors"]}',
+    )
+
+    map_tab, network_tab, author_tab = st.tabs(
+        ["Institution map", "Collaboration network", "Author explorer"]
+    )
+    with map_tab:
+        st.caption(
+            "Locations are shown only for affiliations recorded with a verification source. "
+            "Unverified authors are never guessed from their names."
+        )
+        if not geography["markers"]:
+            st.info(
+                "No verified author in the current mapped-paper set has a geographic record yet."
+            )
+        elif go is None:
+            st.warning(
+                "The optional geographic renderer is temporarily unavailable. "
+                "Author and collaboration analysis below remains fully functional."
+            )
+        else:
+            projection = st.radio(
+                "Projection",
+                ["Flat world", "Globe"],
+                horizontal=True,
+                key="people_map_projection",
+            )
+            marker_by_id = {row["id"]: row for row in geography["markers"]}
+            figure = go.Figure()
+            for link in geography["links"]:
+                source = marker_by_id.get(link["source"])
+                target = marker_by_id.get(link["target"])
+                if not source or not target:
+                    continue
+                figure.add_trace(go.Scattergeo(
+                    lon=[source["longitude"], target["longitude"]],
+                    lat=[source["latitude"], target["latitude"]],
+                    mode="lines",
+                    line={"width": 1 + min(link["papers"], 5) * 0.45, "color": "#7b9c90"},
+                    hoverinfo="text",
+                    text=f'{source["name"]} ↔ {target["name"]}<br>{link["papers"]} shared papers',
+                    showlegend=False,
+                ))
+            markers = geography["markers"]
+            figure.add_trace(go.Scattergeo(
+                lon=[row["longitude"] for row in markers],
+                lat=[row["latitude"] for row in markers],
+                text=[
+                    f'<b>{row["name"]}</b><br>{", ".join(row["authors"])}'
+                    f'<br>{row["papers"]} mapped paper appearances'
+                    for row in markers
+                ],
+                hoverinfo="text",
+                mode="markers",
+                marker={
+                    "size": [12 + min(row["papers"], 12) * 2 for row in markers],
+                    "color": [row["papers"] for row in markers],
+                    "colorscale": [[0, "#5ba58a"], [1, "#173d31"]],
+                    "line": {"color": "white", "width": 1.2},
+                    "showscale": len(markers) > 1,
+                    "colorbar": {"title": "Paper activity"},
+                },
+                showlegend=False,
+            ))
+            figure.update_geos(
+                projection_type="equirectangular" if projection == "Flat world" else "orthographic",
+                showland=True, landcolor="#e8eee9", showocean=True, oceancolor="#f7faf8",
+                showcountries=True, countrycolor="#c5d1cc", coastlinecolor="#9aaea6",
+            )
+            figure.update_layout(
+                height=520, margin={"l": 0, "r": 0, "t": 10, "b": 0},
+                paper_bgcolor="#ffffff", geo={"bgcolor": "#ffffff"},
+            )
+            st.plotly_chart(figure, use_container_width=True, config={"displaylogo": False})
+
+            selected_institution = st.selectbox(
+                "Inspect an institution",
+                [row["id"] for row in markers],
+                format_func=lambda value: marker_by_id[value]["name"],
+            )
+            institution = marker_by_id[selected_institution]
+            st.markdown(f'**{institution["name"]}** · {institution["city"]}, {institution["country"]}')
+            st.write("Mapped authors: " + ", ".join(institution["authors"]))
+            st.link_button("Affiliation evidence ↗", institution["evidence_url"])
+
+    with network_tab:
+        st.subheader("Repeated collaboration")
+        repeated = [
+            row for row in people["connections"] if row["shared_papers"] >= 2
+        ]
+        connection_source = repeated if repeated else people["connections"]
+        if connection_source:
+            st.dataframe(
+                pd.DataFrame(connection_source[:100]).rename(columns={
+                    "author_a": "Author", "author_b": "Collaborator",
+                    "shared_papers": "Shared papers",
+                }),
+                hide_index=True, use_container_width=True,
+            )
+            st.caption(
+                "Links are created only when two authors share a stored mapped paper. "
+                "They do not imply affiliation, citation, or intellectual influence."
+            )
+        else:
+            st.info("No co-author connections are available in the mapped feed yet.")
+
+        if people["years"]:
+            year_frame = pd.DataFrame([
+                {"Year": year, "Papers": count}
+                for year, count in people["years"].items()
+            ])
+            year_chart = alt.Chart(year_frame).mark_bar(
+                color="#1d8a68", cornerRadiusTopLeft=4, cornerRadiusTopRight=4
+            ).encode(
+                x=alt.X("Year:N", sort=None),
+                y=alt.Y("Papers:Q"),
+                tooltip=["Year:N", "Papers:Q"],
+            ).properties(height=240, title="Mapped papers by submission year")
+            st.altair_chart(polished(year_chart), use_container_width=True, theme=None)
+
+    with author_tab:
+        if not people["authors"]:
+            st.info("No mapped authors are available yet.")
+        else:
+            author_names = [row["author"] for row in people["authors"]]
+            selected_author = st.selectbox("Choose an author", author_names)
+            profile = next(row for row in people["authors"] if row["author"] == selected_author)
+            profile_cols = st.columns(3)
+            profile_cols[0].metric("Mapped papers", profile["papers"])
+            profile_cols[1].metric("First active year", profile["first_year"])
+            profile_cols[2].metric("Latest active year", profile["last_year"])
+            if profile["materials"]:
+                st.write("**Leading material families:** " + " · ".join(profile["materials"]))
+            if profile["methods"]:
+                st.write("**Frequently recorded methods:** " + " · ".join(profile["methods"]))
+
+            collaborators = []
+            for row in people["connections"]:
+                if row["author_a"] == selected_author:
+                    collaborators.append((row["author_b"], row["shared_papers"]))
+                elif row["author_b"] == selected_author:
+                    collaborators.append((row["author_a"], row["shared_papers"]))
+            if collaborators:
+                collaborators.sort(key=lambda item: (-item[1], item[0]))
+                st.write(
+                    "**Frequent collaborators:** "
+                    + " · ".join(f"{name} ({count})" for name, count in collaborators[:10])
+                )
+
+            st.subheader("Chronological papers")
+            for paper in sorted(
+                people["author_papers"][selected_author],
+                key=lambda item: item.get("submitted", ""),
+                reverse=True,
+            ):
+                st.markdown(
+                    f'- **{paper.get("submitted", "")[:4]}** · '
+                    f'[{pretty(paper.get("title", "Untitled"))}]({paper.get("arxiv_url", "#")})'
+                )
+
+    with st.expander("How geographic verification works"):
+        st.write(
+            "arXiv metadata supplies author names but not reliable structured affiliations. "
+            "The map therefore joins the live author list to a small, cited registry. "
+            "New papers automatically update author activity and existing verified markers; "
+            "a new institution appears only after an evidence-backed registry entry is added."
+        )
 
 st.caption("Metadata and author abstracts from the official arXiv API. Classification is descriptive and may require manual correction.")
 st.markdown('<a class="back-top" href="#top">↑ Back to top</a>', unsafe_allow_html=True)
