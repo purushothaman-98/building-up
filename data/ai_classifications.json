@@ -4043,6 +4043,144 @@
       "model": "openai/gpt-4o-mini",
       "prompt_version": "4.0",
       "classified_at": "2026-07-23T06:18:46.251141+00:00"
+    },
+    "2607.21566": {
+      "computational_methods": [],
+      "confidence": 0.9,
+      "evidence": [
+        "demonstrate an all-van der Waals (all-vdW) high-$β$ nanobeam laser based on a WS$_2$/MoSe$_2$/WS$_{2}$ heterostructure",
+        "efficient exciton-cavity coupling at cryogenic temperatures",
+        "temporal broadening of the autocorrelation uncovers fluctuation-dominated lasing dynamics",
+        "establish all-vdW heterostructures as a highly attractive platform for integrated coherent light sources"
+      ],
+      "exciton_properties": [
+        "Strong coupling / polaritons",
+        "Lifetime / recombination"
+      ],
+      "experimental_methods": [
+        "Photoluminescence",
+        "Pump–probe / transient absorption"
+      ],
+      "include_in_feed": true,
+      "material_families": [
+        "TMDs"
+      ],
+      "materials": [
+        "WS₂",
+        "MoSe₂"
+      ],
+      "paper_nature": "Original research",
+      "reason": "The paper reports on the demonstration of a nanobeam laser utilizing exciton-cavity coupling in a TMD heterostructure, which is central to the findings.",
+      "relevance": "Core exciton paper",
+      "research_type": "Experimental",
+      "arxiv_id": "2607.21566",
+      "version": "v1",
+      "fingerprint": "9fb96b49a44609b78d9eb336557d4e30d9c4588541f5bb1b76014b2a69085b37",
+      "model": "openai/gpt-4o-mini",
+      "prompt_version": "4.0",
+      "classified_at": "2026-07-24T06:11:18.467210+00:00"
+    },
+    "2607.21454": {
+      "computational_methods": [],
+      "confidence": 0.8,
+      "evidence": [
+        "quantum light sources operating in the technologically relevant telecom O- and C-band",
+        "a state-of-the-art source of quantum light, a semiconductor quantum dot (QD), with record coincidence rate for entangled photon emission",
+        "the setup allows for above 50% transmission for both exciton and biexciton photons",
+        "quantum dots-based telecom light sources can now be transported and integrated into existing fiber infrastructures"
+      ],
+      "exciton_properties": [
+        "Exciton complexes"
+      ],
+      "experimental_methods": [
+        "Other experimental method"
+      ],
+      "include_in_feed": true,
+      "material_families": [
+        "Quantum dots / nanocrystals"
+      ],
+      "materials": [
+        "quantum dots"
+      ],
+      "paper_nature": "Original research",
+      "reason": "The paper reports on the development of a quantum dot source for entangled photons, which involves excitonic processes in the context of quantum communication.",
+      "relevance": "Core exciton paper",
+      "research_type": "Experimental",
+      "arxiv_id": "2607.21454",
+      "version": "v1",
+      "fingerprint": "3ceaaec3e0f2f488f861a0564d61aab196376c85d4677390ef983550779d15b1",
+      "model": "openai/gpt-4o-mini",
+      "prompt_version": "4.0",
+      "classified_at": "2026-07-24T06:11:29.935484+00:00"
+    },
+    "2607.21301": {
+      "computational_methods": [
+        "DFT"
+      ],
+      "confidence": 0.8,
+      "evidence": [
+        "defects in CrSBr have been shown to affect magnetic order and excitonic responses",
+        "we use scanning tunneling microscopy/spectroscopy (STM/STS) to explore the structure and electronic signatures of two prominent defects",
+        "we infer that a common defect corresponds to a b-axis-aligned double sulfur vacancy"
+      ],
+      "exciton_properties": [
+        "Exciton energy / optical spectrum"
+      ],
+      "experimental_methods": [
+        "Other experimental method"
+      ],
+      "include_in_feed": true,
+      "material_families": [
+        "Other 2D materials"
+      ],
+      "materials": [
+        "CrSBr"
+      ],
+      "paper_nature": "Original research",
+      "reason": "The study investigates defects in CrSBr and their impact on excitonic responses, making excitons a significant aspect of the research.",
+      "relevance": "Exciton-adjacent",
+      "research_type": "Experimental",
+      "arxiv_id": "2607.21301",
+      "version": "v1",
+      "fingerprint": "418790d3322653a2a562d84b3372751850dc13c886a9fe20172c25156ffadef3",
+      "model": "openai/gpt-4o-mini",
+      "prompt_version": "4.0",
+      "classified_at": "2026-07-24T06:11:41.299724+00:00"
+    },
+    "2607.21234": {
+      "computational_methods": [],
+      "confidence": 0.95,
+      "evidence": [
+        "we employ defocus-engineered momentum-resolved electron energy-loss spectroscopy",
+        "we resolve layer-dependent exciton dispersion",
+        "we quantify its characteristic crossover momentum and group velocity",
+        "the nonanalytic linear-dispersion regime is progressively compressed",
+        "these findings uncover the fundamental physics of low-dimensional excitons"
+      ],
+      "exciton_properties": [
+        "Exciton energy / optical spectrum",
+        "Diffusion / transport"
+      ],
+      "experimental_methods": [
+        "Other experimental method"
+      ],
+      "include_in_feed": true,
+      "material_families": [
+        "Other 2D materials"
+      ],
+      "materials": [
+        "hBN"
+      ],
+      "paper_nature": "Original research",
+      "reason": "The paper reports original measurements of exciton dispersion in hBN, making excitons a central focus of the study.",
+      "relevance": "Core exciton paper",
+      "research_type": "Experimental",
+      "arxiv_id": "2607.21234",
+      "version": "v1",
+      "fingerprint": "9675342bd4d5f9146aeb0818fbb91c3b0ea073e3a97dab2aa12c7f190059e504",
+      "model": "openai/gpt-4o-mini",
+      "prompt_version": "4.0",
+      "classified_at": "2026-07-24T06:11:52.412638+00:00"
     }
   },
   "runs": [
@@ -4383,7 +4521,20 @@
       "eligible": 17,
       "window_start": "2026-07-16",
       "window_end": "2026-07-22"
+    },
+    {
+      "run_at": "2026-07-24T06:11:52.416281+00:00",
+      "model": "openai/gpt-4o-mini",
+      "prompt_version": "4.0",
+      "attempted": 4,
+      "succeeded": 4,
+      "failed": 0,
+      "remaining": 0,
+      "total_records": 125,
+      "eligible": 17,
+      "window_start": "2026-07-17",
+      "window_end": "2026-07-23"
     }
   ],
-  "last_run": "2026-07-23T17:06:34.493382+00:00"
+  "last_run": "2026-07-24T06:11:52.416281+00:00"
 }
