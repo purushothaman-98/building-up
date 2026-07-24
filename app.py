@@ -580,9 +580,16 @@ if selected_view == "People & institutions":
     people_metrics = st.columns(5)
     people_metrics[0].metric("Mapped papers", len(people_papers))
     people_metrics[1].metric("Authors", len(people["authors"]))
-    people_metrics[2].metric("Institutions", len(geography["markers"]))
-    people_metrics[3].metric("Countries", geography["countries"])
-    people_metrics[4].metric("Papers with verified geography", f'{geography["covered_papers"]}/{geography["total_papers"]}')
+    markers = geography.get("markers", [])
+    country_count = geography.get("countries")
+    if country_count is None:
+        country_count = len({marker.get("country") for marker in markers if marker.get("country")})
+    people_metrics[2].metric("Institutions", len(markers))
+    people_metrics[3].metric("Countries", country_count)
+    people_metrics[4].metric(
+        "Papers with verified geography",
+        f'{geography.get("covered_papers", 0)}/{geography.get("total_papers", len(people_papers))}',
+    )
 
     map_tab, network_tab, author_tab = st.tabs(
         ["Institution map", "Collaboration network", "Author explorer"]
