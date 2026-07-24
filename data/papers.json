@@ -1,7 +1,323 @@
 {
   "schema_version": 2,
-  "last_scan": "2026-07-23T06:17:27.868438+00:00",
+  "last_scan": "2026-07-24T06:10:59.784174+00:00",
   "papers": [
+    {
+      "arxiv_id": "2607.21566",
+      "version": "v1",
+      "versioned_id": "2607.21566v1",
+      "title": "An integrated all-van der Waals nanobeam laser",
+      "authors": [
+        "Aris Koulas-Simos",
+        "Pietro Metuh",
+        "Athanasios Paralikis",
+        "Kartik Gaur",
+        "Maximilian Klonz",
+        "Imad Limame",
+        "Bárbara L. T. Rosa",
+        "Chirag C. Palekar",
+        "Battulga Munkhbat",
+        "Stephan Reitzenstein"
+      ],
+      "abstract": "Transition-metal dichalcogenides offer a promising platform for integrated coherent light sources, yet lasing has largely relied on hybrid photonic architectures without direct quantum-optical verification. Here, we demonstrate an all-van der Waals (all-vdW) high-$β$ nanobeam laser based on a WS$_2$/MoSe$_2$/WS$_{2}$ heterostructure, with the MoSe$_2$ monolayer directly integrated in the WS$_{2}$-based optical resonator for optimal gain-mode overlap. The devices exhibit efficient exciton-cavity coupling at cryogenic temperatures, strongly directional and linearly polarized emission, soft nonlinear input-output characteristics and linewidth narrowing, enabling lasing operation with $β$ near unity. Excitation-power-dependent photon-autocorrelation measurements reveal a transition from thermal to Poissonian photon statistics, with $g_{\\mathrm{peak}}^{(2)}(0)$ decreasing from $(1.28\\,\\pm\\,0.09)$ near threshold to $(1.07\\,\\pm\\,0.07)$ above threshold, directly verifying lasing operation. Furthermore, temporal broadening of the autocorrelation uncovers fluctuation-dominated lasing dynamics. These results establish all-vdW heterostructures as a highly attractive platform for integrated coherent light sources in layered-material photonic architectures and scalable quantum-photonic circuits.",
+      "submitted": "2026-07-23T17:49:48Z",
+      "updated": "2026-07-23T17:49:48Z",
+      "categories": [
+        "physics.optics",
+        "cond-mat.mes-hall"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2607.21566v1",
+      "arxiv_url": "https://arxiv.org/abs/2607.21566",
+      "study_type": "Experimental",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [
+        "transition-metal dichalcogenides"
+      ],
+      "material_families": [
+        "TMDs / 2D chalcogenides",
+        "Other 2D / van der Waals materials"
+      ],
+      "exciton_properties": [
+        "Linewidth / dephasing"
+      ],
+      "applications": [],
+      "methods": [
+        "Linewidth / fine structure"
+      ],
+      "matched_keywords": [
+        "exciton",
+        "linewidth"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [
+          "measurements reveal"
+        ],
+        "computational_actions": [],
+        "experimental_methods": {
+          "Linewidth / fine structure": [
+            "linewidth"
+          ]
+        },
+        "computational_methods": {},
+        "materials": {
+          "transition-metal dichalcogenides": [
+            "transition-metal dichalcogenide"
+          ],
+          "TMDs / 2D chalcogenides": [
+            "transition-metal dichalcogenide"
+          ],
+          "Other 2D / van der Waals materials": [
+            "van der waals",
+            "monolayer"
+          ]
+        },
+        "properties": {
+          "Linewidth / dephasing": [
+            "linewidth"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": true,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2607.21454",
+      "version": "v1",
+      "versioned_id": "2607.21454v1",
+      "title": "Rack-integrated quantum dot-based source of single and entangled photons at telecom C-band",
+      "authors": [
+        "Michal Vyvlecka",
+        "Raphael Joos",
+        "Benjamin Breiholz",
+        "Emma Marmasse",
+        "Anna Friederike Köhler",
+        "Ponraj Vijayan",
+        "Tobias Huber-Loyola",
+        "Sven Höfling",
+        "Michael Jetter",
+        "Simone Luca Portalupi",
+        "Peter Michler"
+      ],
+      "abstract": "For quantum light sources in everyday telecommunication networks, quantum science needs to be fully transformed into quantum technology. The first necessary step to move outside a well-controlled lab environment requires the use of quantum light sources operating in the technologically relevant telecom O- and C-band. This can be provided using epitaxial quantum dots as deterministic sources of quantum light. Particularly intriguing is that emitters operating at telecom wavelengths are rapidly catching up with their short wavelength counterparts in terms of performances. Here, we make a decisive step forward in the development of quantum communication networks: a state-of-the-art source of quantum light, a semiconductor quantum dot (QD), with record coincidence rate for entangled photon emission in the telecom C-band, is operated inside an optimized rack-based setup. This setup includes a tunable pulsed laser for the QD excitation (from quasi- to fully resonant excitation), all optics for the excitation filtering, and QD signal coupling into single-mode fibers. Overall, the setup allows for above $50\\%$ transmission for both exciton and biexciton photons. These results show that quantum dots-based telecom light sources can now be transported and integrated into existing fiber infrastructures, an important step to demonstrate the feasibility of the upcoming quantum internet.",
+      "submitted": "2026-07-23T15:56:40Z",
+      "updated": "2026-07-23T15:56:40Z",
+      "categories": [
+        "quant-ph",
+        "cond-mat.other",
+        "physics.optics"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2607.21454v1",
+      "arxiv_url": "https://arxiv.org/abs/2607.21454",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [
+        "quantum dots"
+      ],
+      "material_families": [
+        "Quantum-confined structures"
+      ],
+      "exciton_properties": [
+        "Many-exciton interactions"
+      ],
+      "applications": [],
+      "methods": [],
+      "matched_keywords": [
+        "exciton"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [
+          "using"
+        ],
+        "experimental_methods": {},
+        "computational_methods": {},
+        "materials": {
+          "quantum dots": [
+            "quantum dot"
+          ],
+          "Quantum-confined structures": [
+            "quantum dot"
+          ]
+        },
+        "properties": {
+          "Many-exciton interactions": [
+            "biexciton"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2607.21301",
+      "version": "v1",
+      "versioned_id": "2607.21301v1",
+      "title": "Visualization of Defect Electronic States in Layered Semiconductor CrSBr",
+      "authors": [
+        "Jonathan Brunette",
+        "Joost Aretz",
+        "Kiyoung Jo",
+        "Aljoscha Soll",
+        "Zdeněk Sofer",
+        "Malte Rösner",
+        "Nathan Guisinger",
+        "Adina Luican-Mayer"
+      ],
+      "abstract": "Chromium sulfur bromide (CrSBr) is a layered magnetic semiconducting material combining a rich magnetic phase diagram with axis-dependent electronic and optical properties. While defects in CrSBr have been shown to affect magnetic order and excitonic responses, their microscopic nature, atomic structure, and electronic properties are not yet fully understood. In this work, we use scanning tunneling microscopy/spectroscopy (STM/STS) to explore the structure and electronic signatures of two prominent defects in bulk CrSBr. Their structure reflects the symmetries of the underlying lattice, with electronic features near the valence band edge. By comparing experimental data with ab initio simulated STM images, we infer that a common defect corresponds to a b-axis-aligned double sulfur vacancy, in line with findings from a recent growth analysis study. This result advances our understanding of the role of intrinsic defects in shaping the electronic structure of CrSBr.",
+      "submitted": "2026-07-23T13:26:39Z",
+      "updated": "2026-07-23T13:26:39Z",
+      "categories": [
+        "cond-mat.mes-hall",
+        "cond-mat.mtrl-sci"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2607.21301v1",
+      "arxiv_url": "https://arxiv.org/abs/2607.21301",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [],
+      "material_families": [],
+      "exciton_properties": [],
+      "applications": [],
+      "methods": [
+        "DFT"
+      ],
+      "matched_keywords": [
+        "ab initio",
+        "exciton",
+        "excitonic"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [
+          "we use"
+        ],
+        "computational_actions": [
+          "we use"
+        ],
+        "experimental_methods": {},
+        "computational_methods": {
+          "DFT": [
+            "ab initio"
+          ]
+        },
+        "materials": {},
+        "properties": {},
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2607.21234",
+      "version": "v1",
+      "versioned_id": "2607.21234v1",
+      "title": "Direct Measurement of Exciton Dispersion in the Long-Wavelength Limit",
+      "authors": [
+        "Peiyi He",
+        "Jiade Li",
+        "Jiakai Wang",
+        "Jiangxu Li",
+        "Jiahao Wang",
+        "Weiyu Sun",
+        "Yiwen Song",
+        "Xiaoyue Gao",
+        "Quanlin Guo",
+        "Bo Han",
+        "Ruochen Shi",
+        "Niklas Dellby",
+        "Tracy Lovejoy",
+        "Xing-Qiu Chen",
+        "Kaihui Liu",
+        "Yu Ye",
+        "Hailin Peng",
+        "Peng Gao"
+      ],
+      "abstract": "Exciton dispersion, which governs the propagation, scattering and radiative decay of electron-hole pairs, is essential to optoelectronics and quantum materials. In two-dimensional systems, weakened dielectric screening and long-range electron-hole exchange are predicted to induce nonanalytic exciton dispersion in the long-wavelength limit. However, direct quantitative characterization of its dimensional evolution remains lacking, especially in the ultralow-q regime (q < 0.02 $Å^{-1}$). Here we employ defocus-engineered momentum-resolved electron energy-loss spectroscopy in scanning transmission electron microscopy, achieving an ultrahigh momentum resolution of 0.0002 $Å^{-1}$. Using freestanding hBN as a prototypical platform, we resolve layer-dependent exciton dispersion and quantify its characteristic crossover momentum and group velocity in the long-wavelength limit. With increasing thickness, the nonanalytic linear-dispersion regime is progressively compressed, manifested by a reduction in characteristic crossover momentum q_c from $1.82 \\times 10^{-1} Å^{-1}$ in the monolayer to $3.0 \\times 10^{-1} Å^{-1}$ in 25 layers. Meanwhile, the low-q group velocity increases from $2.0 \\times 10^{-3} c$ to $2.9 \\times 10^{-2} c$, before the dispersion ultimately approaches the bulk-like parabolic limit. We further examine how the exciton band structure of monolayer hBN responds to its surrounding environment, including temperature, adjacent graphene layers, and interlayer twist in BN/graphene heterostructures. These findings uncover the fundamental physics of low-dimensional excitons, deliver valuable guidance for modulating exciton transport, diffusion and quasiparticle coupling in layered quantum materials, and establish a powerful experimental route to explore low-dimensional exciton physics.",
+      "submitted": "2026-07-23T11:48:46Z",
+      "updated": "2026-07-23T11:48:46Z",
+      "categories": [
+        "cond-mat.mes-hall"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2607.21234v1",
+      "arxiv_url": "https://arxiv.org/abs/2607.21234",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [
+        "hBN"
+      ],
+      "material_families": [
+        "Other 2D / van der Waals materials"
+      ],
+      "exciton_properties": [
+        "Transport / diffusion"
+      ],
+      "applications": [],
+      "methods": [],
+      "matched_keywords": [
+        "exciton"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [
+          "we employ"
+        ],
+        "computational_actions": [
+          "we employ",
+          "using"
+        ],
+        "experimental_methods": {},
+        "computational_methods": {},
+        "materials": {
+          "hBN": [
+            "hbn"
+          ],
+          "Other 2D / van der Waals materials": [
+            "monolayer",
+            "hbn"
+          ]
+        },
+        "properties": {
+          "Transport / diffusion": [
+            "exciton transport"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
     {
       "arxiv_id": "2607.20344",
       "version": "v1",
@@ -9256,11 +9572,20 @@
       "new": 6,
       "updated": 1,
       "total": 121
+    },
+    {
+      "scanned_at": "2026-07-24T06:10:59.784174+00:00",
+      "since": "2026-07-10",
+      "fetched": 33,
+      "classified": 33,
+      "new": 4,
+      "updated": 0,
+      "total": 125
     }
   ],
   "counts": {
-    "total": 121,
-    "new_this_scan": 6,
-    "updated_this_scan": 1
+    "total": 125,
+    "new_this_scan": 4,
+    "updated_this_scan": 0
   }
 }
