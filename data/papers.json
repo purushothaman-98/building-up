@@ -1,7 +1,334 @@
 {
   "schema_version": 2,
-  "last_scan": "2026-07-26T06:22:09.685096+00:00",
+  "last_scan": "2026-07-27T12:44:04.344829+00:00",
   "papers": [
+    {
+      "arxiv_id": "2607.22532",
+      "version": "v1",
+      "versioned_id": "2607.22532v1",
+      "title": "Supermoiré-trapped quadrupolar exciton",
+      "authors": [
+        "Anish Kumar",
+        "Suman Chatterjee",
+        "Kenji Watanabe",
+        "Takashi Taniguchi",
+        "Kausik Majumdar"
+      ],
+      "abstract": "Moiré-trapped dipolar interlayer exciton in heterobilayers offers a rich platform to explore interaction-driven phenomena. Extending the number of layers to three and beyond leads to highly intriguing multipolar exciton - a superposition state of vertically aligned phase-coherent excitons. However, in experiments, unintentional twist-angle mismatch among layers may degrade the strength and homogeneity of the vertical Coulomb coupling. Here we propose that the supermoiré effect in a heterotrilayer comes to the rescue by creating periodic pockets of vertically aligned atomic registries that facilitate the formation of quadrupolar excitons trapped in such pockets. Using WS$_2$/WSe$_2$/WS$_2$ stack, we show interaction between multiple confined levels of the top and bottom moiré interfaces, creating electric field tunable multi-level hybridized bright (symmetric) and dark (anti-symmetric) quadrupolar states. Our work underscores the critical role of supermoiré effect in quadrupolar excitons. The discovery of reduced sensitivity on precise angle-alignment will ignite exploration of complex excitonic states in multi-layered heterostructures.",
+      "submitted": "2026-07-24T17:59:43Z",
+      "updated": "2026-07-24T17:59:43Z",
+      "categories": [
+        "cond-mat.mes-hall",
+        "cond-mat.mtrl-sci",
+        "physics.optics"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2607.22532v1",
+      "arxiv_url": "https://arxiv.org/abs/2607.22532",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [],
+      "material_families": [
+        "Other 2D / van der Waals materials"
+      ],
+      "exciton_properties": [
+        "Coherence"
+      ],
+      "applications": [],
+      "methods": [],
+      "matched_keywords": [
+        "exciton",
+        "excitonic"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [
+          "using"
+        ],
+        "experimental_methods": {},
+        "computational_methods": {},
+        "materials": {
+          "Other 2D / van der Waals materials": [
+            "heterobilayer"
+          ]
+        },
+        "properties": {
+          "Coherence": [
+            "coherent exciton"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2607.22326",
+      "version": "v1",
+      "versioned_id": "2607.22326v1",
+      "title": "Hidden excimer formation in the gas-phase photodynamics of a BN-doped phenanthrene",
+      "authors": [
+        "Jonas Fackelmayer",
+        "Michael Bühler",
+        "Michael Müller",
+        "Holger Helten",
+        "Ingo Fischer",
+        "Merle I. S. Röhr"
+      ],
+      "abstract": "Replacing CC units by isoelectronic BN motifs provides a powerful strategy to tune the electronic structure and excited-state chemistry of polycyclic aromatic hydrocarbons (PAHs). Here, we combine multiphoton ionization spectroscopy, time-resolved photoelectron imaging, ion velocity-map imaging, and quantum-chemical calculations to disentangle the monomer and dimer photophysics of 4a,4b-azaboraphenanthrene. The monomer exhibits a structured S$_1 \\leftarrow$ S$_0$ spectrum with an origin at $22880 \\pm 15\\,\\mathrm{cm}^{-1}$, corresponding to $2.837 \\,\\mathrm{eV}$, and pronounced activity in low-wavenumber deformation modes. Photoelectron spectroscopy yields an adiabatic ionization energy of $7.18 \\pm 0.02\\,\\mathrm{eV}$. While the structured spectrum, high fluorescence quantum yield, small computed geometry changes, and weak spin-orbit couplings all point to a long-lived monomer S$_1$ state, time-resolved photoelectron images reveal an additional picosecond component. Ion imaging shows that this component originates from dissociative ionization of the molecular dimer, which projects dimer excited-state dynamics into the monomer mass channel. Computations identify the initially excited dimer state as a bright H-aggregate-like exciton, followed by ultrafast S$_2 \\rightarrow$ S$_1$ internal conversion and subsequent structural relaxation toward an excimeric S$_1$ minimum. The experimentally observed $\\approx 15\\,\\mathrm{ps}$ time constant is therefore assigned to excimer formation in the neutral dimer.",
+      "submitted": "2026-07-24T14:04:06Z",
+      "updated": "2026-07-24T14:04:06Z",
+      "categories": [
+        "physics.chem-ph"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2607.22326v1",
+      "arxiv_url": "https://arxiv.org/abs/2607.22326",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [],
+      "material_families": [],
+      "exciton_properties": [],
+      "applications": [],
+      "methods": [
+        "Time-resolved spectroscopy"
+      ],
+      "matched_keywords": [
+        "exciton",
+        "time-resolved"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [
+          "experimentally"
+        ],
+        "computational_actions": [],
+        "experimental_methods": {
+          "Time-resolved spectroscopy": [
+            "time-resolved"
+          ]
+        },
+        "computational_methods": {},
+        "materials": {},
+        "properties": {},
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2607.22261",
+      "version": "v1",
+      "versioned_id": "2607.22261v1",
+      "title": "Composition Anisotropy Drives Large Bulk Photovoltaic Fields Along the Non-polar Vertical Direction in 2D Hybrid Perovskite Ferroelectrics",
+      "authors": [
+        "Yuzhong Hu",
+        "Andrii Shcherbakov",
+        "Jonathan Zerhoch",
+        "Lars Schneider",
+        "Shangpu Liu",
+        "Xitao Liu",
+        "Fangping Zhuo",
+        "Lovro Fulanovic",
+        "Felix Deschler",
+        "Martijn Kemerink"
+      ],
+      "abstract": "The photovoltaic electric field of the bulk photovoltaic effect (BPE) reflects the intrinsic ability of ferroelectrics to separate photoexcited excitons into electrons and holes, and are essential parameters for applications such as voltage-readout photodetectors. Because polarization defines the cation-anion displacement and noncentrosymmetric axis, the polar direction is generally one of the orientations exhibiting strong bulk photovoltaic field (EBPE). Here, we report emergent BPE behavior in 2D hybrid perovskite ferroelectrics (HPFs), where EBPE can be two orders of magnitude higher along the vertical nonpolar direction than along the polar in-plane direction. Its magnitude is up to orders of magnitude higher than that of benchmark photoferroelectrics across different material systems and is the highest among 2D HPFs reported so far. This strong BPE response with emergent directional anisotropy originates from the unique coupling among the shift-current BPE mechanism, an efficient photocarrier-generating inorganic part, and an insulator-like organic part, a combination that is conflicting or inaccessible in traditional photoferroelectrics. This composition and anisotropy also produce basic BPE behavior distinct from that of typical photoferroelectrics, including a laser intensity dependent photovoltage and a nonlinear scaling of photovoltage with material dimension. We analyze and develop a series of formulas to describe the emergent photovoltage phenomena, which should be applicable to this novel 2D ferroelectrics family and to polar systems with similar anisotropy and robust photoelectric response.",
+      "submitted": "2026-07-24T12:52:49Z",
+      "updated": "2026-07-24T12:52:49Z",
+      "categories": [
+        "cond-mat.mtrl-sci"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2607.22261v1",
+      "arxiv_url": "https://arxiv.org/abs/2607.22261",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Dataset / benchmark",
+      "materials": [
+        "perovskites"
+      ],
+      "material_families": [
+        "Perovskites / halide semiconductors"
+      ],
+      "exciton_properties": [],
+      "applications": [
+        "Photovoltaics"
+      ],
+      "methods": [],
+      "matched_keywords": [
+        "exciton"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [
+          "we report"
+        ],
+        "computational_actions": [],
+        "experimental_methods": {},
+        "computational_methods": {},
+        "materials": {
+          "perovskites": [
+            "perovskite"
+          ],
+          "Perovskites / halide semiconductors": [
+            "perovskite"
+          ]
+        },
+        "properties": {},
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2607.22250",
+      "version": "v1",
+      "versioned_id": "2607.22250v1",
+      "title": "Counterdirectional Exciton and Trion Motion in Applied Electric Field",
+      "authors": [
+        "Daniel Vaz",
+        "Yuanjun Guan",
+        "Qiaochu Wan",
+        "Bobby Bobby",
+        "Anshul Ramavath",
+        "Brandon Vargo",
+        "Juntong Ye",
+        "Jonathan Beaumariage",
+        "Om Patel",
+        "Kenji Watanabe",
+        "Takashi Taniguchi",
+        "Xiong Feng",
+        "James Hone",
+        "Nathan Youngblood",
+        "Zheng Sun",
+        "David W. Snoke"
+      ],
+      "abstract": "Charged excitonic complexes are central to the optoelectronic and many-body properties of semiconductors, yet their real-space transport dynamics remain largely unexplored. Here, we report the direct optical observation of trion motion under an applied electric field. The trions exhibit electrically driven drift with velocities approaching {$10^5~\\mathrm{m/s}$}. Unexpectedly, the trion flow induces a pronounced back-action on coexisting neutral excitons, driving them in the opposite direction and giving rise to counterpropagating exciton-trion transport. Our results reveal an interaction-driven nonequilibrium transport regime of mixed excitonic fluids and establish a direct route for imaging the dynamics of more complex charged quasiparticles, including doubly charged excitons.",
+      "submitted": "2026-07-24T12:31:44Z",
+      "updated": "2026-07-24T12:31:44Z",
+      "categories": [
+        "physics.optics",
+        "cond-mat.mtrl-sci"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2607.22250v1",
+      "arxiv_url": "https://arxiv.org/abs/2607.22250",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [],
+      "material_families": [],
+      "exciton_properties": [],
+      "applications": [],
+      "methods": [],
+      "matched_keywords": [
+        "exciton",
+        "excitonic"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [
+          "we report"
+        ],
+        "computational_actions": [],
+        "experimental_methods": {},
+        "computational_methods": {},
+        "materials": {},
+        "properties": {},
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2607.21748",
+      "version": "v1",
+      "versioned_id": "2607.21748v1",
+      "title": "Towards on-chip nascent all-van-der-Waals polarization optical components for nanoscale photonic applications",
+      "authors": [
+        "Dmitrii Litvinov",
+        "Ilia Begichev",
+        "Iakov Reznikov",
+        "Changyi Chen",
+        "Maksim Sargsyan",
+        "Sergey Y. Grebenchuk",
+        "Makars Siskins",
+        "Kostya S. Novoselov",
+        "Alexey I. Berdyugin",
+        "Maciej Koperski",
+        "Davit A. Ghazaryan"
+      ],
+      "abstract": "The integration of polarization-control elements into nanoscale photonic circuits remains a central challenge for modern on-chip optical technologies, which call for continuous miniaturization. Van der Waals (vdW) crystals provide a versatile platform for the creation of such components owing to their strong optical anisotropy, high-refractive indices and atomically precise heterostructure assembly capabilities. In this work, we demonstrate an approach towards the creation of all-vdW on-chip polarization optical components, exemplified with quarter-wave plates operating in the near-infrared (NIR) spectral region, realized in specifically twisted ReSe2/alpha-MoO3 vdW heterostructures on a Si/SiO2 platform. Here, low-symmetry ReSe2 layer serves as a source of exceptionally high linearly polarized excitonic emission, whereas in-plane birefringent alpha-MoO_3 provides polarization-state conversion. Furthermore, our finite-difference time-domain (FDTD) simulations quantitatively reproduce the experimental observations with high accuracy revealing the critical roles of layer thicknesses, twist-angle, Fabry-Perot interference and emitter distribution effects in the determination of polarization conversion efficiency, which yields up to 95 % degrees of circular polarization (DoCP) for the optimized parametrization. Our findings establish a practical route towards fully integrated all-vdW polarization optical components, providing a foundation for nanoscale photonic architectures based entirely on layered materials.",
+      "submitted": "2026-07-23T19:02:20Z",
+      "updated": "2026-07-23T19:02:20Z",
+      "categories": [
+        "physics.optics",
+        "cond-mat.mes-hall",
+        "cond-mat.mtrl-sci"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2607.21748v1",
+      "arxiv_url": "https://arxiv.org/abs/2607.21748",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [],
+      "material_families": [
+        "Other 2D / van der Waals materials"
+      ],
+      "exciton_properties": [],
+      "applications": [],
+      "methods": [],
+      "matched_keywords": [
+        "exciton",
+        "excitonic"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [],
+        "experimental_methods": {},
+        "computational_methods": {},
+        "materials": {
+          "Other 2D / van der Waals materials": [
+            "van der waals"
+          ]
+        },
+        "properties": {},
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
     {
       "arxiv_id": "2607.21566",
       "version": "v1",
@@ -9599,11 +9926,20 @@
       "new": 0,
       "updated": 0,
       "total": 125
+    },
+    {
+      "scanned_at": "2026-07-27T12:44:04.344829+00:00",
+      "since": "2026-07-13",
+      "fetched": 34,
+      "classified": 34,
+      "new": 5,
+      "updated": 0,
+      "total": 130
     }
   ],
   "counts": {
-    "total": 125,
-    "new_this_scan": 0,
+    "total": 130,
+    "new_this_scan": 5,
     "updated_this_scan": 0
   }
 }
