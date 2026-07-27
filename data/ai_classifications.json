@@ -4181,6 +4181,171 @@
       "model": "openai/gpt-4o-mini",
       "prompt_version": "4.0",
       "classified_at": "2026-07-24T06:11:52.412638+00:00"
+    },
+    "2607.22532": {
+      "computational_methods": [],
+      "confidence": 0.9,
+      "evidence": [
+        "Moiré-trapped dipolar interlayer exciton in heterobilayers offers a rich platform to explore interaction-driven phenomena.",
+        "Here we propose that the supermoiré effect in a heterotrilayer comes to the rescue by creating periodic pockets of vertically aligned atomic registries that facilitate the formation of quadrupolar excitons.",
+        "Our work underscores the critical role of supermoiré effect in quadrupolar excitons."
+      ],
+      "exciton_properties": [
+        "Exciton complexes",
+        "Fine structure / bright-dark states"
+      ],
+      "experimental_methods": [],
+      "include_in_feed": true,
+      "material_families": [
+        "TMDs"
+      ],
+      "materials": [
+        "WS₂/WSe₂/WS₂ stack"
+      ],
+      "paper_nature": "Original research",
+      "reason": "The paper reports on the formation and properties of quadrupolar excitons in a heterotrilayer system, making excitons the central focus of the study.",
+      "relevance": "Core exciton paper",
+      "research_type": "Unclassified",
+      "arxiv_id": "2607.22532",
+      "version": "v1",
+      "fingerprint": "ee2279abd916edff27c96787fd0d5d9226a0a966c2d8ce882dc4e6371e02afe6",
+      "model": "openai/gpt-4o-mini",
+      "prompt_version": "4.0",
+      "classified_at": "2026-07-27T12:44:21.355878+00:00"
+    },
+    "2607.22326": {
+      "computational_methods": [
+        "Quantum / nonadiabatic dynamics"
+      ],
+      "confidence": 0.9,
+      "evidence": [
+        "we combine multiphoton ionization spectroscopy, time-resolved photoelectron imaging, ion velocity-map imaging, and quantum-chemical calculations",
+        "time-resolved photoelectron images reveal an additional picosecond component",
+        "Computations identify the initially excited dimer state as a bright H-aggregate-like exciton"
+      ],
+      "exciton_properties": [
+        "Exciton complexes",
+        "Ultrafast dynamics / relaxation"
+      ],
+      "experimental_methods": [
+        "Time-resolved spectroscopy",
+        "Photoemission spectroscopy"
+      ],
+      "include_in_feed": true,
+      "material_families": [
+        "Other materials"
+      ],
+      "materials": [
+        "4a,4b-azaboraphenanthrene"
+      ],
+      "paper_nature": "Original research",
+      "reason": "The study investigates exciton dynamics in a BN-doped phenanthrene system, focusing on excimer formation and its ultrafast dynamics.",
+      "relevance": "Core exciton paper",
+      "research_type": "Theory + Experiment",
+      "arxiv_id": "2607.22326",
+      "version": "v1",
+      "fingerprint": "dd2ca0e0151aae2e3d5e6edc94d664a8d509fe73472e65276609452764eb59fd",
+      "model": "openai/gpt-4o-mini",
+      "prompt_version": "4.0",
+      "classified_at": "2026-07-27T12:44:35.734640+00:00"
+    },
+    "2607.22261": {
+      "computational_methods": [],
+      "confidence": 0.9,
+      "evidence": [
+        "the photovoltaic electric field of the bulk photovoltaic effect (BPE) reflects the intrinsic ability of ferroelectrics to separate photoexcited excitons into electrons and holes",
+        "we report emergent BPE behavior in 2D hybrid perovskite ferroelectrics (HPFs)",
+        "this strong BPE response with emergent directional anisotropy originates from the unique coupling among the shift-current BPE mechanism, an efficient photocarrier-generating inorganic part, and an insulator-like organic part"
+      ],
+      "exciton_properties": [
+        "Energy / charge transfer"
+      ],
+      "experimental_methods": [],
+      "include_in_feed": true,
+      "material_families": [
+        "Perovskites"
+      ],
+      "materials": [
+        "2D hybrid perovskite ferroelectrics"
+      ],
+      "paper_nature": "Original research",
+      "reason": "The paper investigates the role of excitons in the bulk photovoltaic effect in 2D hybrid perovskite ferroelectrics, making excitons a central aspect of the reported findings.",
+      "relevance": "Core exciton paper",
+      "research_type": "Experimental",
+      "arxiv_id": "2607.22261",
+      "version": "v1",
+      "fingerprint": "d172aefba556358748669a0a2432c3b571f1cf823d8ffdb301c7b24721c83aa7",
+      "model": "openai/gpt-4o-mini",
+      "prompt_version": "4.0",
+      "classified_at": "2026-07-27T12:44:48.354157+00:00"
+    },
+    "2607.22250": {
+      "computational_methods": [],
+      "confidence": 0.9,
+      "evidence": [
+        "direct optical observation of trion motion under an applied electric field",
+        "trions exhibit electrically driven drift",
+        "counterpropagating exciton-trion transport",
+        "interaction-driven nonequilibrium transport regime of mixed excitonic fluids",
+        "establish a direct route for imaging the dynamics of more complex charged quasiparticles"
+      ],
+      "exciton_properties": [
+        "Exciton complexes",
+        "Lifetime / recombination"
+      ],
+      "experimental_methods": [
+        "Photoluminescence"
+      ],
+      "include_in_feed": true,
+      "material_families": [
+        "TMDs"
+      ],
+      "materials": [],
+      "paper_nature": "Original research",
+      "reason": "The paper reports original experimental observations of exciton and trion dynamics under an electric field, highlighting their interactions and transport properties.",
+      "relevance": "Core exciton paper",
+      "research_type": "Experimental",
+      "arxiv_id": "2607.22250",
+      "version": "v1",
+      "fingerprint": "03e42f6edf420dddabc0c40794df90c1970b372c9980f2eed7f937cb096d0e66",
+      "model": "openai/gpt-4o-mini",
+      "prompt_version": "4.0",
+      "classified_at": "2026-07-27T12:45:00.223411+00:00"
+    },
+    "2607.21748": {
+      "computational_methods": [
+        "Electromagnetic / cavity simulation"
+      ],
+      "confidence": 0.9,
+      "evidence": [
+        "demonstrate an approach towards the creation of all-vdW on-chip polarization optical components",
+        "low-symmetry ReSe2 layer serves as a source of exceptionally high linearly polarized excitonic emission",
+        "finite-difference time-domain (FDTD) simulations quantitatively reproduce the experimental observations",
+        "yield up to 95 % degrees of circular polarization (DoCP) for the optimized parametrization",
+        "establish a practical route towards fully integrated all-vdW polarization optical components"
+      ],
+      "exciton_properties": [
+        "Exciton energy / optical spectrum"
+      ],
+      "experimental_methods": [],
+      "include_in_feed": true,
+      "material_families": [
+        "Other 2D materials"
+      ],
+      "materials": [
+        "ReSe2",
+        "alpha-MoO3"
+      ],
+      "paper_nature": "Original research",
+      "reason": "The paper reports on the creation of optical components utilizing excitonic emission from ReSe2, demonstrating a substantive role of excitons in the observed phenomena.",
+      "relevance": "Core exciton paper",
+      "research_type": "Experimental",
+      "arxiv_id": "2607.21748",
+      "version": "v1",
+      "fingerprint": "43b5757122f3511737d10abb400a071d3a861302b1b17e4944c5cf41ac739caf",
+      "model": "openai/gpt-4o-mini",
+      "prompt_version": "4.0",
+      "classified_at": "2026-07-27T12:45:13.050638+00:00"
     }
   },
   "runs": [
@@ -4625,7 +4790,20 @@
       "eligible": 17,
       "window_start": "2026-07-17",
       "window_end": "2026-07-23"
+    },
+    {
+      "run_at": "2026-07-27T12:45:13.054452+00:00",
+      "model": "openai/gpt-4o-mini",
+      "prompt_version": "4.0",
+      "attempted": 5,
+      "succeeded": 5,
+      "failed": 0,
+      "remaining": 0,
+      "total_records": 130,
+      "eligible": 21,
+      "window_start": "2026-07-18",
+      "window_end": "2026-07-24"
     }
   ],
-  "last_run": "2026-07-26T16:41:10.425753+00:00"
+  "last_run": "2026-07-27T12:45:13.054452+00:00"
 }
