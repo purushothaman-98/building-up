@@ -4346,6 +4346,140 @@
       "model": "openai/gpt-4o-mini",
       "prompt_version": "4.0",
       "classified_at": "2026-07-27T12:45:13.050638+00:00"
+    },
+    "2607.24278": {
+      "computational_methods": [],
+      "confidence": 0.9,
+      "evidence": [
+        "we employ a hyperspectral camera for inline monitoring",
+        "we reliably resolved the spatial distribution of donor and acceptor contributions",
+        "by fitting the absorbance spectra of P3HT, we map the exciton bandwidth"
+      ],
+      "exciton_properties": [
+        "Exciton energy / optical spectrum"
+      ],
+      "experimental_methods": [
+        "Other experimental method"
+      ],
+      "include_in_feed": true,
+      "material_families": [
+        "Organic / molecular materials"
+      ],
+      "materials": [
+        "P3HT",
+        "OIDTBR"
+      ],
+      "paper_nature": "Original research",
+      "reason": "The paper reports original measurements related to exciton properties in organic photovoltaic materials during a roll-to-roll coating process.",
+      "relevance": "Exciton-adjacent",
+      "research_type": "Experimental",
+      "arxiv_id": "2607.24278",
+      "version": "v1",
+      "fingerprint": "a864d2dd3f00b912d681c55cd81c68aeef27f3ab314d38dc8d734366f27fef89",
+      "model": "openai/gpt-4o-mini",
+      "prompt_version": "4.0",
+      "classified_at": "2026-07-28T06:11:40.631042+00:00"
+    },
+    "2607.23414": {
+      "computational_methods": [
+        "Quantum / nonadiabatic dynamics"
+      ],
+      "confidence": 0.9,
+      "evidence": [
+        "we introduce a multiconfigurational mixed quantum-classical many-body approach",
+        "we simulate a multi-excitonic dissipative system",
+        "the interplay between phonon-induced dynamic disorder and exciton-exciton many-body interactions determines excitation-dependent excitonic transport",
+        "a mean-field path approximation...can reproduce the spatial correlations"
+      ],
+      "exciton_properties": [
+        "Diffusion / transport"
+      ],
+      "experimental_methods": [],
+      "include_in_feed": true,
+      "material_families": [
+        "Other materials"
+      ],
+      "materials": [],
+      "paper_nature": "Original research",
+      "reason": "The paper presents a new computational method for simulating exciton dynamics in the presence of phonon interactions.",
+      "relevance": "Core exciton paper",
+      "research_type": "Computational",
+      "arxiv_id": "2607.23414",
+      "version": "v1",
+      "fingerprint": "e493ff38dea37ce12f5c04d507916359271aa1057cdcd629d12b3e400c2067b6",
+      "model": "openai/gpt-4o-mini",
+      "prompt_version": "4.0",
+      "classified_at": "2026-07-28T06:11:52.254712+00:00"
+    },
+    "2607.23051": {
+      "computational_methods": [],
+      "confidence": 0.9,
+      "evidence": [
+        "we observe a polarization-selective excitonic splitting",
+        "a lower-energy lattice-coupled excitation emerges",
+        "a symmetry-guided effective Hamiltonian captures the evolution from anisotropically split excitons to coupled excitonic and lattice-dressed states",
+        "our results show that ferroelastic texture and phase coexistence can modify exciton-lattice coupling"
+      ],
+      "exciton_properties": [
+        "Exciton energy / optical spectrum"
+      ],
+      "experimental_methods": [
+        "Photoluminescence",
+        "Pump–probe / transient absorption"
+      ],
+      "include_in_feed": true,
+      "material_families": [
+        "Perovskites"
+      ],
+      "materials": [
+        "MAPbI3"
+      ],
+      "paper_nature": "Original research",
+      "reason": "The paper reports original measurements of excitonic states influenced by lattice distortions in hybrid perovskite nanowalls, demonstrating significant exciton-lattice coupling effects.",
+      "relevance": "Core exciton paper",
+      "research_type": "Experimental",
+      "arxiv_id": "2607.23051",
+      "version": "v1",
+      "fingerprint": "2441ad253f109c9e495c1db33369a61a4aae672d8a850251240a59c1e6b4e6da",
+      "model": "openai/gpt-4o-mini",
+      "prompt_version": "4.0",
+      "classified_at": "2026-07-28T06:12:04.414675+00:00"
+    },
+    "2607.22992": {
+      "computational_methods": [
+        "DFT"
+      ],
+      "confidence": 0.8,
+      "evidence": [
+        "we show that, for chalcopyrite semiconductors, hybridization between transition-metal $d$ and ligand $p$ electrons in the valence band is key to the coherence of the quantum dot optical spectrum",
+        "We demonstrate this using first-principles electronic-structure calculations and optical spectroscopy",
+        "Our experimental results on optical spectra suggest that when the Cu ratio is enhanced in the Ag$_{1-x}$Cu$_{x}$In$_{1-y}$Ga$_{y}$S$_{2}$ quantum dot, Cu atoms at both Ag sites and defect sites experience enhanced $p$-$d$ hybridization"
+      ],
+      "exciton_properties": [
+        "Exciton energy / optical spectrum"
+      ],
+      "experimental_methods": [
+        "Optical microscopy"
+      ],
+      "include_in_feed": true,
+      "material_families": [
+        "Conventional semiconductors"
+      ],
+      "materials": [
+        "CuInS₂",
+        "AgInS₂",
+        "Ag₁₋ₓCuₓIn₁₋ᵧGaᵧS₂"
+      ],
+      "paper_nature": "Original research",
+      "reason": "The paper investigates the role of $p$-$d$ hybridization on the optical properties of chalcopyrite semiconductors, which is relevant to excitonic behavior in quantum dots.",
+      "relevance": "Exciton-adjacent",
+      "research_type": "Theory + Experiment",
+      "arxiv_id": "2607.22992",
+      "version": "v1",
+      "fingerprint": "334e9ab628dbe42642774aad47376ae0670b7faf3d871a4bde5c7029757854d1",
+      "model": "openai/gpt-4o-mini",
+      "prompt_version": "4.0",
+      "classified_at": "2026-07-28T06:12:18.072328+00:00"
     }
   },
   "runs": [
@@ -4816,7 +4950,20 @@
       "eligible": 21,
       "window_start": "2026-07-18",
       "window_end": "2026-07-24"
+    },
+    {
+      "run_at": "2026-07-28T06:12:18.076193+00:00",
+      "model": "openai/gpt-4o-mini",
+      "prompt_version": "4.0",
+      "attempted": 4,
+      "succeeded": 4,
+      "failed": 0,
+      "remaining": 0,
+      "total_records": 134,
+      "eligible": 21,
+      "window_start": "2026-07-21",
+      "window_end": "2026-07-27"
     }
   ],
-  "last_run": "2026-07-27T17:25:17.151872+00:00"
+  "last_run": "2026-07-28T06:12:18.076193+00:00"
 }
