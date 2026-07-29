@@ -1,7 +1,245 @@
 {
   "schema_version": 2,
-  "last_scan": "2026-07-28T06:11:24.156636+00:00",
+  "last_scan": "2026-07-29T06:15:58.880217+00:00",
   "papers": [
+    {
+      "arxiv_id": "2607.25963",
+      "version": "v1",
+      "versioned_id": "2607.25963v1",
+      "title": "Stacking Polarity-Controlled Interlayer Photocarrier Dynamics in MoSe2/MoS2 Heterostructures",
+      "authors": [
+        "Gbenga S. Agunbiade",
+        "Ting Zheng",
+        "Hui Zhao"
+      ],
+      "abstract": "Control of interlayer photocarrier dynamics is central to optoelectronic applications of van der Waals heterostructures, yet deterministic and spatially uniform tuning strategies remain limited. Here we show that stacking polarity provides a global control parameter for photocarrier dynamics in MoSe$_2$/MoS$_2$ heterostructures. By comparing hexagonal (2H) and rhombohedral (3R) MoS$_2$ bilayers and engineering opposite interface terminations in 3R stacking, we resolve stacking-dependent interlayer charge-transfer dynamics using ultrafast pump--probe spectroscopy. While charge transfer in the 2H heterostructure occurs faster than the experimental resolution, the 3R heterostructures show time-resolvable charge transfer that slows from $0.25$ to $0.37$~ps depending on stacking polarity. Furthermore, the interlayer exciton lifetime is tuned from $\\sim$$40$ to $\\sim$$170$~ps. These effects arise from stacking-induced layer polarization in 3R MoS$_2$, which modulates interfacial wavefunction overlap.",
+      "submitted": "2026-07-28T16:45:55Z",
+      "updated": "2026-07-28T16:45:55Z",
+      "categories": [
+        "cond-mat.mtrl-sci"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2607.25963v1",
+      "arxiv_url": "https://arxiv.org/abs/2607.25963",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [
+        "MoS2",
+        "MoSe2",
+        "2D materials"
+      ],
+      "material_families": [
+        "TMDs / 2D chalcogenides",
+        "Other 2D / van der Waals materials"
+      ],
+      "exciton_properties": [
+        "Lifetime / relaxation"
+      ],
+      "applications": [],
+      "methods": [
+        "Exciton lifetime / dynamics"
+      ],
+      "matched_keywords": [
+        "carrier dynamics",
+        "exciton",
+        "exciton lifetime"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [
+          "using"
+        ],
+        "experimental_methods": {
+          "Exciton lifetime / dynamics": [
+            "exciton lifetime",
+            "carrier dynamics"
+          ]
+        },
+        "computational_methods": {},
+        "materials": {
+          "MoS2": [
+            "mos2"
+          ],
+          "MoSe2": [
+            "mose2"
+          ],
+          "2D materials": [
+            "van der waals heterostructure"
+          ],
+          "TMDs / 2D chalcogenides": [
+            "mos2",
+            "mose2"
+          ],
+          "Other 2D / van der Waals materials": [
+            "van der waals"
+          ]
+        },
+        "properties": {
+          "Lifetime / relaxation": [
+            "exciton lifetime"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2607.25128",
+      "version": "v1",
+      "versioned_id": "2607.25128v1",
+      "title": "Field-Induced Dissociation Reveals Excitonic Long-Range Photocarrier Transport in Bulk-Insulating Bi2Se3 Nanoribbons",
+      "authors": [
+        "Rodrigo Becerra Silva",
+        "Xiang Yi",
+        "Ziyi Song",
+        "Dong Yu"
+      ],
+      "abstract": "Photoexcited charge carriers in topological insulators display anomalously long-range transport at cryogenic temperatures, but the underlying mechanism remains under debate. Here we use a transverse electric field as a discriminating probe of photocarrier dynamics in bulk-insulating Sb-doped Bi2Se3 nanoribbons, combining scanning photocurrent microscopy (SPCM) with ultrafast transient photovoltage (TPV) measurements. SPCM shows that suppression of the photocurrent requires a transverse electric field nearly 50 times larger than that needed to deflect free carriers, yet comparable to the expected exciton dissociation field. TPV measurements at 12 K and low excitation fluence reveal that the photocarrier diffusivity exceeds the value implied by the Einstein relation and the measured drift mobility by more than an order of magnitude, a bound that holds even at the lower end of the fitting uncertainty. Together, these observations indicate that the long-range photoresponse is not carried by free charge carriers but by a charge-neutral correlated state.",
+      "submitted": "2026-07-27T22:46:42Z",
+      "updated": "2026-07-27T22:46:42Z",
+      "categories": [
+        "cond-mat.mes-hall",
+        "cond-mat.str-el"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2607.25128v1",
+      "arxiv_url": "https://arxiv.org/abs/2607.25128",
+      "study_type": "Experimental",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [],
+      "material_families": [],
+      "exciton_properties": [],
+      "applications": [],
+      "methods": [
+        "Exciton lifetime / dynamics"
+      ],
+      "matched_keywords": [
+        "carrier dynamics",
+        "exciton",
+        "excitonic"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [
+          "we use"
+        ],
+        "computational_actions": [
+          "we use"
+        ],
+        "experimental_methods": {
+          "Exciton lifetime / dynamics": [
+            "carrier dynamics"
+          ]
+        },
+        "computational_methods": {},
+        "materials": {},
+        "properties": {},
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": true,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2607.18435",
+      "version": "v2",
+      "versioned_id": "2607.18435v2",
+      "title": "Bright Telecom Spin-Photon Interface in Silicon Photonics",
+      "authors": [
+        "Carolina Crosta",
+        "Amirehsan Alizadehherfati",
+        "Purbita Purkayastha",
+        "Kyu-Young Kim",
+        "Jasvith Raj Basani",
+        "Chang-Min Lee",
+        "Fabio Pezzoli",
+        "Edo Waks"
+      ],
+      "abstract": "Silicon is an attractive host for scalable quantum photonics, but the absence of bright telecom-band emitters with optically addressable spin states has limited its use for spin-photon interfaces. Here we demonstrate the Al1-center, an aluminum--carbon defect in silicon, as a bright waveguide-integrated single-photon emitter with a ground-state spin. Using isotopically purified silicon-on-insulator nanophotonic devices, we isolate individual Al1-centers and observe high-purity single-photon emission with $g^{(2)}(0)=0.04$ without background subtraction. Time-resolved photoluminescence spectroscopy reveals a fast excited-state lifetime of 135 ns, nearly an order of magnitude shorter than the benchmark provided by the well-studied T-center. Resonant photoluminescence excitation measurements further resolve the zero-phonon transition and reveal a narrow homogeneous linewidth reaching 47 MHz, threefold narrower than the T-center under comparable temperature. Through magneto-optical spectroscopy, we resolve the spin-dependent transitions of the bound-exciton manifold and achieve spin-selective optical pumping, fulfilling the prerequisite for quantum state initialization and readout. These results establish the Al1-center as a bright telecom-band spin-photon interface in silicon photonics and introduce a promising platform for integrated quantum networks.",
+      "submitted": "2026-07-20T18:35:56Z",
+      "updated": "2026-07-27T21:29:02Z",
+      "categories": [
+        "quant-ph",
+        "physics.optics"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2607.18435v2",
+      "arxiv_url": "https://arxiv.org/abs/2607.18435",
+      "study_type": "Experimental",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Dataset / benchmark",
+      "materials": [],
+      "material_families": [],
+      "exciton_properties": [
+        "Linewidth / dephasing"
+      ],
+      "applications": [],
+      "methods": [
+        "Photoluminescence",
+        "Time-resolved spectroscopy",
+        "Magneto-optical measurements",
+        "Linewidth / fine structure"
+      ],
+      "matched_keywords": [
+        "exciton",
+        "linewidth",
+        "magneto-optical",
+        "photoluminescence",
+        "time-resolved"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [
+          "spectroscopy reveals"
+        ],
+        "computational_actions": [
+          "using"
+        ],
+        "experimental_methods": {
+          "Photoluminescence": [
+            "photoluminescence"
+          ],
+          "Time-resolved spectroscopy": [
+            "time-resolved"
+          ],
+          "Magneto-optical measurements": [
+            "magneto-optical"
+          ],
+          "Linewidth / fine structure": [
+            "linewidth"
+          ]
+        },
+        "computational_methods": {},
+        "materials": {},
+        "properties": {
+          "Linewidth / dephasing": [
+            "linewidth"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": true,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1",
+        "v2"
+      ]
+    },
     {
       "arxiv_id": "2607.24278",
       "version": "v1",
@@ -1627,92 +1865,6 @@
           ]
         },
         "properties": {},
-        "relevance": [
-          "exciton/excitonic stated in title or abstract"
-        ]
-      },
-      "evidence": {
-        "experimental": true,
-        "computational": false
-      },
-      "versions_seen": [
-        "v1"
-      ]
-    },
-    {
-      "arxiv_id": "2607.18435",
-      "version": "v1",
-      "versioned_id": "2607.18435v1",
-      "title": "Bright Telecom Spin-Photon Interface in Silicon Photonics",
-      "authors": [
-        "Carolina Crosta",
-        "Amirehsan Alizadehherfati",
-        "Purbita Purkayastha",
-        "Kyu-Young Kim",
-        "Jasvith Raj Basani",
-        "Chang-Min Lee",
-        "Fabio Pezzoli",
-        "Edo Waks"
-      ],
-      "abstract": "Silicon is an attractive host for scalable quantum photonics, but the absence of bright telecom-band emitters with optically addressable spin states has limited its use for spin-photon interfaces. Here we demonstrate the Al1-center, an aluminum--carbon defect in silicon, as a bright waveguide-integrated single-photon emitter with a ground-state spin. Using isotopically purified silicon-on-insulator nanophotonic devices, we isolate individual Al1-centers and observe high-purity single-photon emission with $g^{(2)}(0)=0.04$ without background subtraction. Time-resolved photoluminescence spectroscopy reveals a fast excited-state lifetime of 135 ns, nearly an order of magnitude shorter than the benchmark provided by the well-studied T-center. Resonant photoluminescence excitation measurements further resolve the zero-phonon transition and reveal a narrow homogeneous linewidth reaching 47 MHz, threefold narrower than the T-center under comparable temperature. Through magneto-optical spectroscopy, we resolve the spin-dependent transitions of the bound-exciton manifold and achieve spin-selective optical pumping, fulfilling the prerequisite for quantum state initialization and readout. These results establish the Al1-center as a bright telecom-band spin-photon interface in silicon photonics and introduce a promising platform for integrated quantum networks.",
-      "submitted": "2026-07-20T18:35:56Z",
-      "updated": "2026-07-20T18:35:56Z",
-      "categories": [
-        "quant-ph",
-        "physics.optics"
-      ],
-      "pdf_url": "https://arxiv.org/pdf/2607.18435v1",
-      "arxiv_url": "https://arxiv.org/abs/2607.18435",
-      "study_type": "Experimental",
-      "relevance": "Core exciton paper",
-      "paper_nature": "Dataset / benchmark",
-      "materials": [],
-      "material_families": [],
-      "exciton_properties": [
-        "Linewidth / dephasing"
-      ],
-      "applications": [],
-      "methods": [
-        "Photoluminescence",
-        "Time-resolved spectroscopy",
-        "Magneto-optical measurements",
-        "Linewidth / fine structure"
-      ],
-      "matched_keywords": [
-        "exciton",
-        "linewidth",
-        "magneto-optical",
-        "photoluminescence",
-        "time-resolved"
-      ],
-      "classification_evidence": {
-        "experimental_actions": [
-          "spectroscopy reveals"
-        ],
-        "computational_actions": [
-          "using"
-        ],
-        "experimental_methods": {
-          "Photoluminescence": [
-            "photoluminescence"
-          ],
-          "Time-resolved spectroscopy": [
-            "time-resolved"
-          ],
-          "Magneto-optical measurements": [
-            "magneto-optical"
-          ],
-          "Linewidth / fine structure": [
-            "linewidth"
-          ]
-        },
-        "computational_methods": {},
-        "materials": {},
-        "properties": {
-          "Linewidth / dephasing": [
-            "linewidth"
-          ]
-        },
         "relevance": [
           "exciton/excitonic stated in title or abstract"
         ]
@@ -10236,11 +10388,20 @@
       "new": 4,
       "updated": 1,
       "total": 134
+    },
+    {
+      "scanned_at": "2026-07-29T06:15:58.880217+00:00",
+      "since": "2026-07-15",
+      "fetched": 34,
+      "classified": 34,
+      "new": 2,
+      "updated": 1,
+      "total": 136
     }
   ],
   "counts": {
-    "total": 134,
-    "new_this_scan": 4,
+    "total": 136,
+    "new_this_scan": 2,
     "updated_this_scan": 1
   }
 }
