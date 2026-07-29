@@ -5084,7 +5084,20 @@
       "eligible": 20,
       "window_start": "2026-07-22",
       "window_end": "2026-07-28"
+    },
+    {
+      "run_at": "2026-07-29T16:59:54.475918+00:00",
+      "model": "openai/gpt-4o-mini",
+      "prompt_version": "4.0",
+      "attempted": 0,
+      "succeeded": 0,
+      "failed": 0,
+      "remaining": 0,
+      "total_records": 136,
+      "eligible": 20,
+      "window_start": "2026-07-22",
+      "window_end": "2026-07-28"
     }
   ],
-  "last_run": "2026-07-29T11:48:26.391973+00:00"
+  "last_run": "2026-07-29T16:59:54.475918+00:00"
 }
