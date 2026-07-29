@@ -4480,6 +4480,75 @@
       "model": "openai/gpt-4o-mini",
       "prompt_version": "4.0",
       "classified_at": "2026-07-28T06:12:18.072328+00:00"
+    },
+    "2607.25963": {
+      "computational_methods": [],
+      "confidence": 0.9,
+      "evidence": [
+        "interlayer photocarrier dynamics is central to optoelectronic applications",
+        "we resolve stacking-dependent interlayer charge-transfer dynamics using ultrafast pump--probe spectroscopy",
+        "the interlayer exciton lifetime is tuned from $\\sim$$40$ to $\\sim$$170$~ps",
+        "stacking-induced layer polarization in 3R MoS$_2$"
+      ],
+      "exciton_properties": [
+        "Lifetime / recombination",
+        "Energy / charge transfer"
+      ],
+      "experimental_methods": [
+        "Pump–probe / transient absorption",
+        "Time-resolved spectroscopy"
+      ],
+      "include_in_feed": true,
+      "material_families": [
+        "TMDs"
+      ],
+      "materials": [
+        "MoSe2",
+        "MoS2"
+      ],
+      "paper_nature": "Original research",
+      "reason": "The paper investigates interlayer exciton dynamics in MoSe2/MoS2 heterostructures, making excitons a central focus of the study.",
+      "relevance": "Core exciton paper",
+      "research_type": "Experimental",
+      "arxiv_id": "2607.25963",
+      "version": "v1",
+      "fingerprint": "676507557da891c82583a46a7d42c358879ab8cadeed362cc268446b0318b191",
+      "model": "openai/gpt-4o-mini",
+      "prompt_version": "4.0",
+      "classified_at": "2026-07-29T06:16:17.511739+00:00"
+    },
+    "2607.25128": {
+      "computational_methods": [],
+      "confidence": 0.9,
+      "evidence": [
+        "we use a transverse electric field as a discriminating probe of photocarrier dynamics",
+        "SPCM shows that suppression of the photocurrent requires a transverse electric field",
+        "TPV measurements at 12 K and low excitation fluence reveal that the photocarrier diffusivity exceeds the value implied by the Einstein relation"
+      ],
+      "exciton_properties": [
+        "Diffusion / transport"
+      ],
+      "experimental_methods": [
+        "Photoluminescence",
+        "Pump–probe / transient absorption"
+      ],
+      "include_in_feed": true,
+      "material_families": [
+        "Other materials"
+      ],
+      "materials": [
+        "Bi2Se3"
+      ],
+      "paper_nature": "Original research",
+      "reason": "The study investigates exciton-mediated long-range transport in Bi2Se3 nanoribbons, indicating a significant role of excitons in the observed phenomena.",
+      "relevance": "Core exciton paper",
+      "research_type": "Experimental",
+      "arxiv_id": "2607.25128",
+      "version": "v1",
+      "fingerprint": "44351663606b84d28d22ef1353167e33af08e4d2f4842337671cb20c01b12b36",
+      "model": "openai/gpt-4o-mini",
+      "prompt_version": "4.0",
+      "classified_at": "2026-07-29T06:16:29.482910+00:00"
     }
   },
   "runs": [
@@ -4989,7 +5058,20 @@
       "eligible": 21,
       "window_start": "2026-07-21",
       "window_end": "2026-07-27"
+    },
+    {
+      "run_at": "2026-07-29T06:16:29.486897+00:00",
+      "model": "openai/gpt-4o-mini",
+      "prompt_version": "4.0",
+      "attempted": 2,
+      "succeeded": 2,
+      "failed": 0,
+      "remaining": 0,
+      "total_records": 136,
+      "eligible": 20,
+      "window_start": "2026-07-22",
+      "window_end": "2026-07-28"
     }
   ],
-  "last_run": "2026-07-28T17:14:41.027918+00:00"
+  "last_run": "2026-07-29T06:16:29.486897+00:00"
 }
