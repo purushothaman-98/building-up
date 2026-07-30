@@ -1,7 +1,147 @@
 {
   "schema_version": 2,
-  "last_scan": "2026-07-29T06:15:58.880217+00:00",
+  "last_scan": "2026-07-30T11:31:07.883878+00:00",
   "papers": [
+    {
+      "arxiv_id": "2607.27161",
+      "version": "v1",
+      "versioned_id": "2607.27161v1",
+      "title": "Inhomogeneous saturation of excitons in monolayer transition-metal dichalcogenides",
+      "authors": [
+        "Blake T. Hipsley",
+        "Adam Alfrey",
+        "Steven T. Cundiff"
+      ],
+      "abstract": "We observe that the apparent inhomogeneous broadening, as measured by two-dimensional coherent spectroscopy (2DCS), of the exciton resonance in transition-metal dichalcogenide monolayers depends on the excitation strength. A key strength of 2DCS is the ability to separate inhomogeneous broadening, which primarily contributes to the diagonal linewidth, from homogeneous broadening, which dominates the cross-diagonal linewidth. We show that the fluence dependence of the diagonal linewidth arises from the effective saturation fluence varying with the exciton's resonance energy, i.e., inhomogeneous saturation. These results are critical for interpreting the exciton linewidths, which are often used as a measure of sample quality.",
+      "submitted": "2026-07-29T17:37:57Z",
+      "updated": "2026-07-29T17:37:57Z",
+      "categories": [
+        "cond-mat.mes-hall",
+        "physics.optics"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2607.27161v1",
+      "arxiv_url": "https://arxiv.org/abs/2607.27161",
+      "study_type": "Experimental",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [
+        "transition-metal dichalcogenides"
+      ],
+      "material_families": [
+        "TMDs / 2D chalcogenides",
+        "Other 2D / van der Waals materials"
+      ],
+      "exciton_properties": [
+        "Linewidth / dephasing"
+      ],
+      "applications": [],
+      "methods": [
+        "Coherent / THz spectroscopy",
+        "Linewidth / fine structure"
+      ],
+      "matched_keywords": [
+        "exciton",
+        "exciton linewidth",
+        "linewidth",
+        "two-dimensional coherent spectroscopy"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [
+          "we observe"
+        ],
+        "computational_actions": [],
+        "experimental_methods": {
+          "Coherent / THz spectroscopy": [
+            "two-dimensional coherent spectroscopy"
+          ],
+          "Linewidth / fine structure": [
+            "exciton linewidth",
+            "linewidth"
+          ]
+        },
+        "computational_methods": {},
+        "materials": {
+          "transition-metal dichalcogenides": [
+            "transition-metal dichalcogenide"
+          ],
+          "TMDs / 2D chalcogenides": [
+            "transition-metal dichalcogenide"
+          ],
+          "Other 2D / van der Waals materials": [
+            "monolayer"
+          ]
+        },
+        "properties": {
+          "Linewidth / dephasing": [
+            "exciton linewidth",
+            "linewidth",
+            "homogeneous broadening"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": true,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2607.26436",
+      "version": "v1",
+      "versioned_id": "2607.26436v1",
+      "title": "Molecular triplets and other metastable states for excitonic quantum batteries",
+      "authors": [
+        "Daniel Tibben",
+        "Gian Marcello Andolina",
+        "Daniel E. Gómez",
+        "Francesco Campaioli"
+      ],
+      "abstract": "Excitonic quantum batteries, based on organic fluorescent molecules embedded in optical microcavities, offer a room-temperature platform for studying collective effects in energy storage and developing applications. Recent experiments have offered evidence of superabsorption, a collective enhancement to the light absorption rate of organic molecules which leads to a scalable power density. However, they have also highlighted the challenge posed by rapid radiative decay of fluorescent molecules, which limits the energy storage lifetime. Current strategies to overcome this trade-off focus on controlling the coupling between the absorbing manifold and that used for energy storage. In this chapter, we review three implementations of this design principle: transferring energy from optically excited states to long-lived dark triplet states, generating triplet pairs and higher-spin states through singlet exciton fission, and forming charge-separated states. We discuss each mechanism from both theoretical and experimental perspectives, with particular emphasis on recent device implementations that have extended storage times by several orders of magnitude. We conclude with a cross-platform outlook on the role of metastable states across coherent and room-temperature implementations, from neutral atom arrays to masers and colour centres.",
+      "submitted": "2026-07-29T03:24:49Z",
+      "updated": "2026-07-29T03:24:49Z",
+      "categories": [
+        "quant-ph",
+        "cond-mat.mes-hall",
+        "physics.atm-clus"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2607.26436v1",
+      "arxiv_url": "https://arxiv.org/abs/2607.26436",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Review / perspective",
+      "materials": [],
+      "material_families": [],
+      "exciton_properties": [],
+      "applications": [],
+      "methods": [],
+      "matched_keywords": [
+        "exciton",
+        "excitonic"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [],
+        "experimental_methods": {},
+        "computational_methods": {},
+        "materials": {},
+        "properties": {},
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
     {
       "arxiv_id": "2607.25963",
       "version": "v1",
@@ -10397,11 +10537,20 @@
       "new": 2,
       "updated": 1,
       "total": 136
+    },
+    {
+      "scanned_at": "2026-07-30T11:31:07.883878+00:00",
+      "since": "2026-07-16",
+      "fetched": 34,
+      "classified": 34,
+      "new": 2,
+      "updated": 0,
+      "total": 138
     }
   ],
   "counts": {
-    "total": 136,
+    "total": 138,
     "new_this_scan": 2,
-    "updated_this_scan": 1
+    "updated_this_scan": 0
   }
 }
