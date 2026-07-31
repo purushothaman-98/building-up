@@ -1,7 +1,336 @@
 {
   "schema_version": 2,
-  "last_scan": "2026-07-30T11:31:07.883878+00:00",
+  "last_scan": "2026-07-31T06:32:06.393085+00:00",
   "papers": [
+    {
+      "arxiv_id": "2607.28417",
+      "version": "v1",
+      "versioned_id": "2607.28417v1",
+      "title": "Quasiparticle phono-conversion: filming carriers coalescing into excitons",
+      "authors": [
+        "Enrico Perfetto",
+        "Takumi Fukuda",
+        "Xing Zhu",
+        "Jacques Hawecker",
+        "Harley Suchiang",
+        "Joanna Nadolna",
+        "Nanami Tomoda",
+        "Suji Park",
+        "Houk Jang",
+        "Kenji Watanabe",
+        "Takashi Taniguchi",
+        "Michael K. L. Man",
+        "Julien Madéo",
+        "Keshav M. Dani",
+        "Gianluca Stefanucci"
+      ],
+      "abstract": "Condensed matter physics is replete with phenomena involving high-energy free particles coalescing into low-energy bound few-particle states. While the cooling of the individual particles is well understood, the crucial step by which cold free carriers form a bound state remains elusive, involving complex energy and momentum relaxation pathways. Here, by combining ultrafast time- and momentum-resolved photoemission spectroscopy on a monolayer WSe$_2$ with the first-principles excitonic-Bloch equations, we resolve the conversion of initially free electrons and holes at the bandedges into bound excitons. With unprecedented energy resolution, we observe the transient \\textit{coexistence} of free-carrier and excitonic bands, accompanied by a transfer of spectral weight between the two. We establish the phononic origin of exciton formation and ascribe this coexistence to a sequential relaxation cascade toward the lowest-energy excitonic states, wherein intermediate states remain weakly populated. The efficiency of this process is controlled by valley multiplicity, large-momentum phonon emission and spin-flip processes. By elucidating how bound states emerge from their elementary constituents, our results point to strategies for engineering exciton formation, with direct implications for optical materials and devices that operate with excitons or free carriers.",
+      "submitted": "2026-07-30T16:00:53Z",
+      "updated": "2026-07-30T16:00:53Z",
+      "categories": [
+        "cond-mat.mtrl-sci"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2607.28417v1",
+      "arxiv_url": "https://arxiv.org/abs/2607.28417",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [],
+      "material_families": [
+        "Other 2D / van der Waals materials"
+      ],
+      "exciton_properties": [],
+      "applications": [],
+      "methods": [
+        "Photoemission / photocurrent",
+        "DFT"
+      ],
+      "matched_keywords": [
+        "exciton",
+        "excitonic",
+        "first-principles",
+        "photoemission spectroscopy"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [
+          "we observe"
+        ],
+        "computational_actions": [],
+        "experimental_methods": {
+          "Photoemission / photocurrent": [
+            "photoemission spectroscopy"
+          ]
+        },
+        "computational_methods": {
+          "DFT": [
+            "first-principles"
+          ]
+        },
+        "materials": {
+          "Other 2D / van der Waals materials": [
+            "monolayer"
+          ]
+        },
+        "properties": {},
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2607.27695",
+      "version": "v1",
+      "versioned_id": "2607.27695v1",
+      "title": "Unconventional and Fragile Magnetic Exciton in a van der Waals Quantum Magnet",
+      "authors": [
+        "Kai-Xuan Zhang",
+        "Min Zhang",
+        "Minjae Kim",
+        "Yong-Hyun Kim",
+        "Junghyun Kim",
+        "Heejun Yang",
+        "Pyeongjae Park",
+        "Chaebin Kim",
+        "Mangesh Diware",
+        "Junik Hwang",
+        "Youjin Lee",
+        "Byeong-Gwan Cho",
+        "Hyeong-Do Kim",
+        "Tae-Yeong Koo",
+        "Chunhua Chen",
+        "Mingtao Li",
+        "Xujie Lü",
+        "Wenge Yang",
+        "Kee-Hoon Kim",
+        "Seung-Ho Baek",
+        "Hyeonsik Cheong",
+        "Sung-Keun Lee",
+        "Beom Hyun Kim",
+        "Christopher Lane",
+        "Jian-Xin Zhu",
+        "Zhaorong Yang",
+        "Young-Woo Son",
+        "Je-Geun Park"
+      ],
+      "abstract": "The recently discovered magnetic exciton in the van der Waals (vdW) antiferromagnet NiPS3 exemplifies these phenomena, exhibiting several distinctive characteristics. Despite extensive investigation, much of its physics remains unresolved, with key questions about why the NiPS3 magnetic exciton is so sharp and optically bright despite the nominally spin-forbidden transition, posing significant challenges to a proper understanding and practical manipulation of the exciton. An urgent question is to what extent it is due to chemical disorder, magnetic weakening, lattice modification, or intrinsic instability of the bright exciton itself: answers to which will put stringent constraints on possible theoretical models. Here we address these questions using hydrostatic pressure as a clean, continuous, reversible, and in-situ tuning parameter. We find that the sharp photoluminescence peak is drastically suppressed by as little as 0.4 GPa and completely quenched by 1.5 GPa, with demonstrating its reversibility. Crucially, this bright-to-dark conversion occurs without magnetic, crystallographic, or electronic reconstruction despite an increase in the Neel temperature, as established by Raman, X-ray absorption, nuclear magnetic resonance spectroscopy, and first-principles many-body calculations. Our results demonstrate that the optical brightness of the magnetic exciton is independent of chemical disorder, lattice expansion, and weakening of magnetic order, indicating that a higher-order correlated mechanism governs the bright exciton. We further propose experimentally constrained microscopic scenarios involving exciton pairing, crystal-field-controlled spin-orbit mixing, and symmetry breaking, providing a framework for future tests of entangled magnetic exciton in correlated quantum magnets.",
+      "submitted": "2026-07-30T05:26:56Z",
+      "updated": "2026-07-30T05:26:56Z",
+      "categories": [
+        "cond-mat.mtrl-sci",
+        "cond-mat.str-el",
+        "physics.app-ph",
+        "quant-ph"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2607.27695v1",
+      "arxiv_url": "https://arxiv.org/abs/2607.27695",
+      "study_type": "Computational",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [],
+      "material_families": [
+        "Other 2D / van der Waals materials"
+      ],
+      "exciton_properties": [
+        "Fine structure / bright-dark splitting"
+      ],
+      "applications": [],
+      "methods": [
+        "Photoluminescence",
+        "DFT"
+      ],
+      "matched_keywords": [
+        "exciton",
+        "first-principles",
+        "photoluminescence"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [
+          "experimentally"
+        ],
+        "computational_actions": [
+          "using",
+          "theoretical model"
+        ],
+        "experimental_methods": {
+          "Photoluminescence": [
+            "photoluminescence"
+          ]
+        },
+        "computational_methods": {
+          "DFT": [
+            "first-principles"
+          ]
+        },
+        "materials": {
+          "Other 2D / van der Waals materials": [
+            "van der waals"
+          ]
+        },
+        "properties": {
+          "Fine structure / bright-dark splitting": [
+            "bright exciton"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": true
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2607.27554",
+      "version": "v1",
+      "versioned_id": "2607.27554v1",
+      "title": "Beyond Hexagonal Boron Nitride: First-Principles Study of Pentaoctite-BN and Pop-BN Monolayers",
+      "authors": [
+        "Victor M. S. da Conceição",
+        "Erika N. Lima",
+        "Roberto H. Miwa",
+        "Igor S. S. de Oliveira"
+      ],
+      "abstract": "We investigate two novel non-hexagonal boron nitride monolayers, pentaoctite-BN (PO-BN) and pop-BN (PP-BN), using first-principles calculations. Their structural, electronic, mechanical, vibrational, thermal, and optical properties are systematically analyzed to assess their stability and potential applications. Despite being metastable with respect to hexagonal BN, both polymorphs satisfy the criteria for dynamical, mechanical, and thermal stability, indicating that they are viable two-dimensional materials. Both systems are indirect-gap semiconductors whose electronic states near the band edges are dominated by out-of-plane pz orbitals. Their distinct pentagon-octagon ring networks also give rise to different in-plane elastic anisotropies. Many-body optical calculations reveal strong excitonic effects and pronounced polarization-dependent optical absorption, with lattice engineering shifting the optical response from the ultraviolet toward the visible and infrared regions. These findings demonstrate that engineering non-hexagonal lattice architectures provides an effective strategy for tuning the electronic and optical properties of two-dimensional BN, highlighting PO-BN and PP-BN as promising candidates for future optoelectronic and photonic applications.",
+      "submitted": "2026-07-30T00:58:33Z",
+      "updated": "2026-07-30T00:58:33Z",
+      "categories": [
+        "cond-mat.mtrl-sci",
+        "cond-mat.other"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2607.27554v1",
+      "arxiv_url": "https://arxiv.org/abs/2607.27554",
+      "study_type": "Computational",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [
+        "hBN",
+        "2D materials"
+      ],
+      "material_families": [
+        "Other 2D / van der Waals materials"
+      ],
+      "exciton_properties": [],
+      "applications": [],
+      "methods": [
+        "DFT"
+      ],
+      "matched_keywords": [
+        "exciton",
+        "excitonic",
+        "first-principles"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [
+          "using",
+          "first-principles calculations"
+        ],
+        "experimental_methods": {},
+        "computational_methods": {
+          "DFT": [
+            "first-principles"
+          ]
+        },
+        "materials": {
+          "hBN": [
+            "hexagonal boron nitride"
+          ],
+          "2D materials": [
+            "two-dimensional material"
+          ],
+          "Other 2D / van der Waals materials": [
+            "two-dimensional material",
+            "monolayer",
+            "hexagonal boron nitride"
+          ]
+        },
+        "properties": {},
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": true
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2607.27406",
+      "version": "v1",
+      "versioned_id": "2607.27406v1",
+      "title": "Fluctuation electrodynamics of quantum capacitance in electron bilayers",
+      "authors": [
+        "Dmitry Zverevich",
+        "Alberto F. Morpurgo",
+        "Alex Levchenko"
+      ],
+      "abstract": "Capacitance is a thermodynamic probe of interacting electrons: it measures the energy cost of moving charge between conductors, and in low-dimensional systems this cost is shaped by exchange and correlation as much as by electrostatics. We develop a theory of the quantum capacitance of electron double layers, semiconductor quantum wells as well as monolayer and bilayer graphene devices, focusing on the contribution generated by interlayer correlations. Within a functional-integral formulation we show that the separation-dependent part of the ground-state energy is, at the level of ring diagrams, exactly the nonretarded Lifshitz expression for the van der Waals energy of two conducting sheets, with reflection amplitudes built from the layer polarizabilities. The interlayer correction to the inverse capacitance is the second density derivative of this energy: a Casimir compressibility. The zero-point fluctuations that generate Casimir forces between mirrors are here the coupled plasmons of the bilayer, and their contribution to the capacitance is obtained in closed form, with a universal coefficient; its sign shows that interlayer correlations oppose charging at high density. A Gell-Mann-Brueckner analysis gives the exact high-density limit in terms of universal functions. For graphene we find that monolayers follow the electron-gas template, while bilayer graphene is anomalous: interband screening suppresses the correction by orders of magnitude and reverses its sign in the experimentally relevant range of separations. We delineate the limits of the theory, identifying the dilute Wigner-crystal regime and electron-hole double layers near exciton condensation as regimes where the capacitance becomes a probe of interlayer pairing.",
+      "submitted": "2026-07-29T19:24:49Z",
+      "updated": "2026-07-29T19:24:49Z",
+      "categories": [
+        "cond-mat.mes-hall"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2607.27406v1",
+      "arxiv_url": "https://arxiv.org/abs/2607.27406",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [],
+      "material_families": [
+        "Other 2D / van der Waals materials",
+        "Quantum-confined structures"
+      ],
+      "exciton_properties": [],
+      "applications": [],
+      "methods": [],
+      "matched_keywords": [
+        "exciton"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [
+          "experimentally"
+        ],
+        "computational_actions": [
+          "using"
+        ],
+        "experimental_methods": {},
+        "computational_methods": {},
+        "materials": {
+          "Other 2D / van der Waals materials": [
+            "van der waals",
+            "monolayer"
+          ],
+          "Quantum-confined structures": [
+            "quantum well"
+          ]
+        },
+        "properties": {},
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
     {
       "arxiv_id": "2607.27161",
       "version": "v1",
@@ -10546,11 +10875,20 @@
       "new": 2,
       "updated": 0,
       "total": 138
+    },
+    {
+      "scanned_at": "2026-07-31T06:32:06.393085+00:00",
+      "since": "2026-07-17",
+      "fetched": 34,
+      "classified": 34,
+      "new": 4,
+      "updated": 0,
+      "total": 142
     }
   ],
   "counts": {
-    "total": 138,
-    "new_this_scan": 2,
+    "total": 142,
+    "new_this_scan": 4,
     "updated_this_scan": 0
   }
 }
