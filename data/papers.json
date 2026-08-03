@@ -1,7 +1,248 @@
 {
   "schema_version": 2,
-  "last_scan": "2026-08-02T06:19:32.536764+00:00",
+  "last_scan": "2026-08-03T06:46:13.935575+00:00",
   "papers": [
+    {
+      "arxiv_id": "2607.29387",
+      "version": "v1",
+      "versioned_id": "2607.29387v1",
+      "title": "Controlling Electron-Beam-Induced Charging in Colloidal Quantum Dots",
+      "authors": [
+        "Sven Ebel",
+        "Alina Myslovska",
+        "Stefano Vezzoli",
+        "Iwan Moreels",
+        "Sergii Morozov"
+      ],
+      "abstract": "Colloidal quantum dots (QDs) are attractive nanoscale emitters, yet their cathodoluminescence (CL) response remains poorly understood and often unstable under electron-beam excitation, limiting CL spectroscopy and electron-beam-based device processing. Here, we investigate the CL mechanism and strategies to improve its stability using highly photostable, structurally homogeneous giant-shell CdSe/CdS QDs combined with in situ CL and photoluminescence (PL) measurements. By identifying distinct signatures of excited states in both lifetime and spectral measurements, we demonstrate that the CL response is governed by electron-beam-induced charging. Charge accumulation drives multiexciton generation even at relatively low currents, leading to a pronounced blueshift, shorter average lifetimes, and rapid cathodobleaching. To test this further, we employ indirect excitation to reach sub-pA currents beyond the limits of typical electron beams, showing that neutral-exciton emission can be partially recovered and cathodobleaching mitigated, although charging cannot be fully suppressed. Furthermore, by replacing long insulating ligands with shorter ones, we improve charge drainage and strongly suppress biexciton formation. Together, these results show that biexciton formation can be controlled by limiting charge accumulation, providing a practical route toward stable CL for spectroscopy, imaging, and electron-beam-compatible photonic devices.",
+      "submitted": "2026-07-31T13:06:52Z",
+      "updated": "2026-07-31T13:06:52Z",
+      "categories": [
+        "cond-mat.mes-hall",
+        "cond-mat.other"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2607.29387v1",
+      "arxiv_url": "https://arxiv.org/abs/2607.29387",
+      "study_type": "Experimental",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [
+        "quantum dots"
+      ],
+      "material_families": [
+        "Quantum-confined structures"
+      ],
+      "exciton_properties": [
+        "Many-exciton interactions"
+      ],
+      "applications": [],
+      "methods": [
+        "Photoluminescence"
+      ],
+      "matched_keywords": [
+        "exciton",
+        "photoluminescence"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [
+          "we employ"
+        ],
+        "computational_actions": [
+          "we employ",
+          "using"
+        ],
+        "experimental_methods": {
+          "Photoluminescence": [
+            "photoluminescence"
+          ]
+        },
+        "computational_methods": {},
+        "materials": {
+          "quantum dots": [
+            "quantum dot"
+          ],
+          "Quantum-confined structures": [
+            "quantum dot"
+          ]
+        },
+        "properties": {
+          "Many-exciton interactions": [
+            "biexciton"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": true,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2607.29289",
+      "version": "v1",
+      "versioned_id": "2607.29289v1",
+      "title": "Emergence of Propagating Exciton-Polaritons in Hybrid Waveguide-van der Waals Heterostructures",
+      "authors": [
+        "Alina Schubert",
+        "Karoline Becker",
+        "Andreas Thies",
+        "Rico Schwartz",
+        "Takashi Taniguchi",
+        "Kenji Watanabe",
+        "Henije Stolz",
+        "Alexander Szameit",
+        "Matthias Heinrich",
+        "Tobias Korn"
+      ],
+      "abstract": "Integrating few-layer materials into photonic circuits is a promising concept for novel on-chip photonic applications. We incorporate transition metal dichalcogenides (TMDs) with femtosecond-laser-written surface waveguides, which are embedded in fused silica chips. Our novel low-temperature optical spectroscopy setup enables coupling to the waveguide and simultaneous focus from the top to the TMD layer for a distinct excitation and collection of micro-photoluminescence ($μ$PL) signals in several measurement geometries. Along these lines, we observe spectral changes of the A exciton for encapsulated TMD monolayers when capturing the $μ$PL signal propagating through the waveguide. Depending on the thickness of the encapsulation with hexagonal boron nitride (hBN), these changes manifest as energetic redshifts of the A exciton, or even a splitting of the A exciton into two components. We attribute this behavior to strong coupling of the waveguide mode and the exciton in the sample, giving rise to the formation of propagating exciton-polaritons. Our interpretation is supported by calculations for a simplified model of a slab waveguide in the vicinity of an exciton by using the transfer matrix method. Having proven to be a highly adaptable framework for the study of propagating polaritons, our experimental platform likewise holds great promise for harnessing the unique properties of exciton-polaristons in integrated photonic circuits.",
+      "submitted": "2026-07-31T11:02:24Z",
+      "updated": "2026-07-31T11:02:24Z",
+      "categories": [
+        "cond-mat.mes-hall",
+        "physics.optics"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2607.29289v1",
+      "arxiv_url": "https://arxiv.org/abs/2607.29289",
+      "study_type": "Experimental",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [
+        "hBN",
+        "transition-metal dichalcogenides",
+        "2D materials"
+      ],
+      "material_families": [
+        "TMDs / 2D chalcogenides",
+        "Other 2D / van der Waals materials"
+      ],
+      "exciton_properties": [
+        "Light-matter strong coupling"
+      ],
+      "applications": [
+        "Exciton polaritons",
+        "Light–matter coupling"
+      ],
+      "methods": [
+        "Photoluminescence"
+      ],
+      "matched_keywords": [
+        "exciton",
+        "photoluminescence",
+        "polariton"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [
+          "we observe"
+        ],
+        "computational_actions": [
+          "using"
+        ],
+        "experimental_methods": {
+          "Photoluminescence": [
+            "photoluminescence"
+          ]
+        },
+        "computational_methods": {},
+        "materials": {
+          "hBN": [
+            "hbn",
+            "hexagonal boron nitride"
+          ],
+          "transition-metal dichalcogenides": [
+            "transition metal dichalcogenide",
+            "tmd monolayer",
+            "tmds"
+          ],
+          "2D materials": [
+            "van der waals heterostructure"
+          ],
+          "TMDs / 2D chalcogenides": [
+            "transition metal dichalcogenide",
+            "tmds"
+          ],
+          "Other 2D / van der Waals materials": [
+            "van der waals",
+            "monolayer",
+            "hbn",
+            "hexagonal boron nitride"
+          ]
+        },
+        "properties": {
+          "Light-matter strong coupling": [
+            "exciton-polariton"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": true,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2607.28731",
+      "version": "v1",
+      "versioned_id": "2607.28731v1",
+      "title": "Enhancement of exciton radius near a band-gap closing through quantum geometry",
+      "authors": [
+        "Jin-Hyung Choi",
+        "Sang-Hoon Han",
+        "Young-Kwon Han",
+        "Sun-Woo Kim",
+        "Jun-Won Rhim",
+        "Joshua J. P. Thompson"
+      ],
+      "abstract": "Exciton engineering traditionally focuses on modifying semiclassical material properties, such as the effective mass and dielectric screening, while largely overlooking the quantum geometry of the underlying electron and hole Bloch states. This approximation is adequate for many materials but breaks down near a topological band-gap closing, where the quantum metric around the band extrema becomes strongly enhanced. In this regime, Bloch states at different momenta become less similar, reducing the projected electron--hole Coulomb matrix elements and consequently weakening exciton binding. We demonstrate this mechanism in a spin--orbit-coupled Lieb-lattice model tuned toward a topological phase transition. The suppressed Coulomb matrix elements narrow the exciton wavefunction in momentum space, leading to an enlarged exciton radius in real space. This increase in exciton size produces an experimentally accessible enhancement of the weak-field diamagnetic response. Our results show that quantum geometry can fundamentally reshape exciton properties near a topological phase transition, revealing a previously underexplored route for engineering excitonic states.",
+      "submitted": "2026-07-30T18:00:06Z",
+      "updated": "2026-07-30T18:00:06Z",
+      "categories": [
+        "cond-mat.mes-hall"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2607.28731v1",
+      "arxiv_url": "https://arxiv.org/abs/2607.28731",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [],
+      "material_families": [],
+      "exciton_properties": [],
+      "applications": [],
+      "methods": [],
+      "matched_keywords": [
+        "exciton",
+        "excitonic"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [
+          "experimentally"
+        ],
+        "computational_actions": [],
+        "experimental_methods": {},
+        "computational_methods": {},
+        "materials": {},
+        "properties": {},
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
     {
       "arxiv_id": "2607.28417",
       "version": "v1",
@@ -10902,11 +11143,20 @@
       "new": 0,
       "updated": 0,
       "total": 142
+    },
+    {
+      "scanned_at": "2026-08-03T06:46:13.935575+00:00",
+      "since": "2026-07-20",
+      "fetched": 34,
+      "classified": 34,
+      "new": 3,
+      "updated": 0,
+      "total": 145
     }
   ],
   "counts": {
-    "total": 142,
-    "new_this_scan": 0,
+    "total": 145,
+    "new_this_scan": 3,
     "updated_this_scan": 0
   }
 }
