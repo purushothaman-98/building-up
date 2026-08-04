@@ -1,7 +1,764 @@
 {
   "schema_version": 2,
-  "last_scan": "2026-08-03T06:46:13.935575+00:00",
+  "last_scan": "2026-08-04T06:13:00.973592+00:00",
   "papers": [
+    {
+      "arxiv_id": "2608.02513",
+      "version": "v1",
+      "versioned_id": "2608.02513v1",
+      "title": "Strain engineering of transient exciton diffusion in WSe2 monolayers at cryogenic temperatures",
+      "authors": [
+        "Roberto Rosati",
+        "Mohammed Adel Aly Nouh",
+        "Robert Schmidt",
+        "Rudolf Bratschitsch",
+        "Ermin Malic"
+      ],
+      "abstract": "Tungsten-based transition metal dichalcogenides exhibit dark excitons as the energetically lowest states. These are crucial for exciton thermalization and propagation and they dominate low-temperature photoluminescence via the emergence of pronounced phonon sidebands. After a resonant excitation, highly mobile hot dark excitons are formed, which quickly thermalize into an equilibrium distribution. The application of strain modifies the exciton energy landscape and, in particular, the relative energy separation between bright and dark exciton states. The impact of strain on the transient photoluminescence and diffusion of non-equilibrium excitons has remained largely unexplored so far. In this work, we investigate the spatiotemporal exciton dynamics in strained hBN-encapsulated WSe2 monolayers at cryogenic temperatures. We demonstrate that tensile strain abruptly increases the excess energy of hot excitons, thereby accelerating their transient diffusion. We trace this back to suppressed phonon-mediated scattering from bright to dark excitons. Furthermore, we predict a periodic modulation of the transient exciton diffusion in the presence of a compressive strain resulting from strain-driven emission of M phonons. The gained microscopic insights illustrate how strain can be used to engineer transient photoluminescence and exciton diffusion in technologically promising 2D semiconductors.",
+      "submitted": "2026-08-03T17:10:29Z",
+      "updated": "2026-08-03T17:10:29Z",
+      "categories": [
+        "cond-mat.mes-hall"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2608.02513v1",
+      "arxiv_url": "https://arxiv.org/abs/2608.02513",
+      "study_type": "Experimental",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [
+        "WSe2",
+        "hBN",
+        "transition-metal dichalcogenides"
+      ],
+      "material_families": [
+        "TMDs / 2D chalcogenides",
+        "Other 2D / van der Waals materials"
+      ],
+      "exciton_properties": [
+        "Fine structure / bright-dark splitting",
+        "Transport / diffusion",
+        "Strain response"
+      ],
+      "applications": [],
+      "methods": [
+        "Photoluminescence",
+        "Exciton lifetime / dynamics"
+      ],
+      "matched_keywords": [
+        "exciton",
+        "exciton diffusion",
+        "exciton dynamics",
+        "photoluminescence"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [],
+        "experimental_methods": {
+          "Photoluminescence": [
+            "photoluminescence"
+          ],
+          "Exciton lifetime / dynamics": [
+            "exciton dynamics",
+            "exciton diffusion"
+          ]
+        },
+        "computational_methods": {},
+        "materials": {
+          "WSe2": [
+            "wse2"
+          ],
+          "hBN": [
+            "hbn"
+          ],
+          "transition-metal dichalcogenides": [
+            "transition metal dichalcogenide"
+          ],
+          "TMDs / 2D chalcogenides": [
+            "transition metal dichalcogenide",
+            "wse2"
+          ],
+          "Other 2D / van der Waals materials": [
+            "monolayer",
+            "hbn"
+          ]
+        },
+        "properties": {
+          "Fine structure / bright-dark splitting": [
+            "dark exciton"
+          ],
+          "Transport / diffusion": [
+            "exciton diffusion"
+          ],
+          "Strain response": [
+            "strain engineering"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": true,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2608.02337",
+      "version": "v1",
+      "versioned_id": "2608.02337v1",
+      "title": "Optical switching of magnetic order in few-layer CrSBr",
+      "authors": [
+        "Lukas Husel",
+        "Julian Trapp",
+        "Moritz Würf",
+        "Anna Rupp",
+        "Tim Wedl",
+        "Kenji Watanabe",
+        "Takashi Taniguchi",
+        "Iva Plutnarova",
+        "Zdenek Sofer",
+        "Alexander Högele"
+      ],
+      "abstract": "Manipulating magnetism with light is crucial for both fundamental understanding and technological advancements of information storage devices. The layered antiferromagnet CrSBr, part of the recently emerging class of two-dimensional van der Waals magnets, offers a unique path towards optical control of magnetism via magneto-excitons, which allow optical readout of the spin alignment and also provide a strong absorption channel. Here, we use exciton absorption and photoluminescence to demonstrate optical switching of the magnetic order in bi- and trilayer CrSBr. Using a continuous-wave laser with a power as low as a few microwatts at near-critical external magnetic fields, we demonstrate both local and remote switching of the magnetic configuration in extended lateral domains and further employ this mechanism to deterministically prepare the zero-field magnetic configuration. Our results establish optical switching as a useful means of controlling magnetism in CrSBr, with potential applications in magneto-optoelectronic devices.",
+      "submitted": "2026-08-03T14:54:24Z",
+      "updated": "2026-08-03T14:54:24Z",
+      "categories": [
+        "cond-mat.mes-hall",
+        "cond-mat.mtrl-sci"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2608.02337v1",
+      "arxiv_url": "https://arxiv.org/abs/2608.02337",
+      "study_type": "Experimental",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [],
+      "material_families": [
+        "Other 2D / van der Waals materials"
+      ],
+      "exciton_properties": [],
+      "applications": [],
+      "methods": [
+        "Photoluminescence"
+      ],
+      "matched_keywords": [
+        "exciton",
+        "photoluminescence"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [
+          "we use"
+        ],
+        "computational_actions": [
+          "we use",
+          "using"
+        ],
+        "experimental_methods": {
+          "Photoluminescence": [
+            "photoluminescence"
+          ]
+        },
+        "computational_methods": {},
+        "materials": {
+          "Other 2D / van der Waals materials": [
+            "van der waals"
+          ]
+        },
+        "properties": {},
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": true,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2608.02241",
+      "version": "v1",
+      "versioned_id": "2608.02241v1",
+      "title": "Proximity effects of chiral magnetization on transition metal dichalcogenides monolayers",
+      "authors": [
+        "Vladimir N. Mantsevich",
+        "Igor S. Krivenko",
+        "Dmitry S. Smirnov"
+      ],
+      "abstract": "We consider the proximity effects of a commensurate chiral $120^{\\circ}$ Néel magnetic structure on the transport and optical properties of a transition metal dichalcogenide monolayer (TMD ML). The enlarged magnetic unit cell leads to the folding of the Brillouin zone and enables efficient intervalley spin-flip scattering. Starting from a six band tight binding model, we develop an effective $k\\cdot p$ model, which describes the coupling between charge carriers in the TMD ML and the chiral magnetization. We predict the anomalous antiferromagnetic Hall effect (AHE) for conduction electrons and describe it accounting for the interplay between anomalous velocity, side jump, and skew scattering contributions. The proximity of the chiral magnetization also leads to the mixing and splitting of the exciton resonances in the two valleys which are related by the time reversal symmetry despite zero net magnetization. Finally, we demonstrate the possibility to measure the distribution of in-plane orientation of the chiral magnetization through Faraday rotation and the ellipticity of incident linearly polarized light.",
+      "submitted": "2026-08-03T13:52:33Z",
+      "updated": "2026-08-03T13:52:33Z",
+      "categories": [
+        "cond-mat.mes-hall"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2608.02241v1",
+      "arxiv_url": "https://arxiv.org/abs/2608.02241",
+      "study_type": "Computational",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [
+        "transition-metal dichalcogenides"
+      ],
+      "material_families": [
+        "TMDs / 2D chalcogenides",
+        "Other 2D / van der Waals materials"
+      ],
+      "exciton_properties": [],
+      "applications": [],
+      "methods": [
+        "Model Hamiltonian"
+      ],
+      "matched_keywords": [
+        "exciton",
+        "tight binding"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [],
+        "experimental_methods": {},
+        "computational_methods": {
+          "Model Hamiltonian": [
+            "tight binding"
+          ]
+        },
+        "materials": {
+          "transition-metal dichalcogenides": [
+            "transition metal dichalcogenide"
+          ],
+          "TMDs / 2D chalcogenides": [
+            "transition metal dichalcogenide"
+          ],
+          "Other 2D / van der Waals materials": [
+            "monolayer"
+          ]
+        },
+        "properties": {},
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": true
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2608.02165",
+      "version": "v1",
+      "versioned_id": "2608.02165v1",
+      "title": "Charge Tunable Optical Nonlinearity of Moiré Exciton-Polaritons",
+      "authors": [
+        "Zhijie Li",
+        "Kok Wee Song",
+        "Jens-Christian Drawer",
+        "Vita Solovyeva",
+        "Martin Esmann",
+        "Niklas Nilius",
+        "Muhammad Sufyan Ramzan",
+        "Caterina Cocchi",
+        "Falk Eilenberger",
+        "Takashi Taniguchi",
+        "Kenji Watanabe",
+        "Atanu Patra",
+        "Subhamoy Sahoo",
+        "Simon Betzold",
+        "Sven Höfling",
+        "Alexander Högele",
+        "Oleksandr Kyriienko",
+        "Christian Schneider",
+        "Bo Han"
+      ],
+      "abstract": "Transition metal dichalcogenides represent a versatile platform to study strong light-matter interactions based on excitons and electrons in ordered lattices. Twist-engineering of moiré structures further enables the manipulation of the polaritonic nonlinearities via engineering the exciton landscape on the nanoscale. In this work, we demonstrate in-situ control of the optical saturation-based nonlinearity of moiré exciton-polaritons by phase space restriction via charge doping. Strong exciton-photon coupling is established in a gate-controllable MoTe$_2$-MoSe$_2$ heterobilayer, embedded in a spectrally-tunable open cavity. A small gate voltage can effectively lower the necessary polariton density by one order of magnitude to achieve a similar nonlinear saturation effect as in the charge-neutral case. Our microscopic description successfully explains the observed phenomena in the framework of Pauli blocking for the moiré superlattices with charge preoccupation.",
+      "submitted": "2026-08-03T12:45:38Z",
+      "updated": "2026-08-03T12:45:38Z",
+      "categories": [
+        "cond-mat.mes-hall",
+        "cond-mat.mtrl-sci"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2608.02165v1",
+      "arxiv_url": "https://arxiv.org/abs/2608.02165",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [
+        "transition-metal dichalcogenides"
+      ],
+      "material_families": [
+        "TMDs / 2D chalcogenides",
+        "Other 2D / van der Waals materials"
+      ],
+      "exciton_properties": [
+        "Light-matter strong coupling"
+      ],
+      "applications": [
+        "Exciton polaritons"
+      ],
+      "methods": [],
+      "matched_keywords": [
+        "exciton",
+        "polariton"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [],
+        "experimental_methods": {},
+        "computational_methods": {},
+        "materials": {
+          "transition-metal dichalcogenides": [
+            "transition metal dichalcogenide"
+          ],
+          "TMDs / 2D chalcogenides": [
+            "transition metal dichalcogenide"
+          ],
+          "Other 2D / van der Waals materials": [
+            "heterobilayer"
+          ]
+        },
+        "properties": {
+          "Light-matter strong coupling": [
+            "exciton-polariton"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2608.02040",
+      "version": "v1",
+      "versioned_id": "2608.02040v1",
+      "title": "Resolving High-Energy States of Interlayer Excitons in MoSe$_2$/WSe$_2$ Heterostructures",
+      "authors": [
+        "Chirag Chandrakant Palekar",
+        "Paulo E. Faria Junior",
+        "Tobias Manthei",
+        "Maximilian Nagel",
+        "Bhabani Sankar Sahoo",
+        "Shachi Machchhar",
+        "Imad Limame",
+        "Martin Podhorský",
+        "Jaroslav Fabian",
+        "Bárbara Rosa",
+        "Stephan Reitzenstein"
+      ],
+      "abstract": "High-energy states of interlayer excitons (IXs) in van der Waals heterostructures remain largely unexplored despite their importance for understanding many-body interactions and nonlinear optical phenomena. Here, we use photoluminescence excitation (PLE) spectroscopy to resolve a Rydberg-like series of excited IX states in MoSe$_2$/WSe$_2$ heterostructures. We observe multiple PLE resonances below the intralayer exciton energies, which we assign to the 2s-, 3s-, and 4s-like states of the IXs. These resonances are consistently observed across heterostructures with different twist angles, indicating that the high-energy state spectrum is only weakly affected by the twist angle. Wannier-exciton calculations incorporating screened Coulomb interactions reproduce the overall energy scale and qualitative trends of the measured Rydberg-like series, supporting the assignment of the observed resonances. Our findings demonstrate that PLE provides direct experimental access to the previously unexplored high-energy IX states in van der Waals heterostructures.",
+      "submitted": "2026-08-03T10:35:59Z",
+      "updated": "2026-08-03T10:35:59Z",
+      "categories": [
+        "cond-mat.mes-hall",
+        "cond-mat.mtrl-sci"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2608.02040v1",
+      "arxiv_url": "https://arxiv.org/abs/2608.02040",
+      "study_type": "Experimental",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [
+        "2D materials"
+      ],
+      "material_families": [
+        "Other 2D / van der Waals materials"
+      ],
+      "exciton_properties": [],
+      "applications": [],
+      "methods": [
+        "Photoluminescence"
+      ],
+      "matched_keywords": [
+        "exciton",
+        "photoluminescence"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [
+          "we observe",
+          "we use"
+        ],
+        "computational_actions": [
+          "we use"
+        ],
+        "experimental_methods": {
+          "Photoluminescence": [
+            "photoluminescence"
+          ]
+        },
+        "computational_methods": {},
+        "materials": {
+          "2D materials": [
+            "van der waals heterostructure"
+          ],
+          "Other 2D / van der Waals materials": [
+            "van der waals"
+          ]
+        },
+        "properties": {},
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": true,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2608.02029",
+      "version": "v1",
+      "versioned_id": "2608.02029v1",
+      "title": "Emission dynamics in zincblende InAsxP1-x quantum dots in InP nanowires: influence of quantum dot size, composition and nanowire geometry",
+      "authors": [
+        "Tomasz Gzyl",
+        "Giada Bucci",
+        "Krzysztof Gawarecki",
+        "Elisa García-Tabarés",
+        "Anna Musiał",
+        "Valentina Zannier",
+        "Ylea Vlamidis",
+        "Fabio Beltram",
+        "Julian V. Montero",
+        "Beatriz Galiana",
+        "Lucia Sorba",
+        "Wojciech Rudno-Rudziński",
+        "Grzegorz Sęk"
+      ],
+      "abstract": "Hereby, we present an experimental and theoretical investigation of emission dynamics in zincblende InAsxP1-x quantum dots (QDs) embedded in InP nanowires (NWs) grown via vapour-liquid-solid mechanism by chemical beam epitaxy, using Au nanoparticles as a nucleation catalyst. By measuring time-resolved photoluminescence from an ensemble of QD-NWs it was possible to determine the exciton lifetime dependence on QD composition and height. Changes in the InP shell thickness surrounding the InP NW stem with a QD, brought additional insight into the influence of photonic environment on the carrier dynamics. High-resolution transmission electron microscopy, combined with energy-dispersive X-ray spectroscopy, provided actual structural parameters. The experimentally obtained lifetimes were interpreted in the light of results of 8 band kp calculations combined with configuration-interaction model to take into account the Coulomb interactions and finite-difference time domain photonic simulations to include the effect of optical confinement. The full understanding of the experimental results required considering both, the changes in the QD potential and the Purcell effect, the latter leading to spontaneous emission inhibition in the case of NWs with thin InP shell.",
+      "submitted": "2026-08-03T10:25:08Z",
+      "updated": "2026-08-03T10:25:08Z",
+      "categories": [
+        "cond-mat.mes-hall"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2608.02029v1",
+      "arxiv_url": "https://arxiv.org/abs/2608.02029",
+      "study_type": "Experimental",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [
+        "quantum dots"
+      ],
+      "material_families": [
+        "Quantum-confined structures"
+      ],
+      "exciton_properties": [
+        "Lifetime / relaxation"
+      ],
+      "applications": [],
+      "methods": [
+        "Photoluminescence",
+        "Time-resolved spectroscopy",
+        "Exciton lifetime / dynamics"
+      ],
+      "matched_keywords": [
+        "carrier dynamics",
+        "exciton",
+        "exciton lifetime",
+        "photoluminescence",
+        "time-resolved"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [
+          "experimentally",
+          "experimental results"
+        ],
+        "computational_actions": [
+          "using"
+        ],
+        "experimental_methods": {
+          "Photoluminescence": [
+            "photoluminescence"
+          ],
+          "Time-resolved spectroscopy": [
+            "time-resolved"
+          ],
+          "Exciton lifetime / dynamics": [
+            "exciton lifetime",
+            "carrier dynamics"
+          ]
+        },
+        "computational_methods": {},
+        "materials": {
+          "quantum dots": [
+            "quantum dot"
+          ],
+          "Quantum-confined structures": [
+            "quantum dot"
+          ]
+        },
+        "properties": {
+          "Lifetime / relaxation": [
+            "exciton lifetime"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": true,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2608.02010",
+      "version": "v1",
+      "versioned_id": "2608.02010v1",
+      "title": "Exciton-induced magnons carrying orbital angular momentum in CrI3",
+      "authors": [
+        "Martin Pavelka",
+        "Vishal Shokeen",
+        "Ruslan Chulkov",
+        "Soma Dutta",
+        "David Muradas Belinchón",
+        "Ulrich Noumbe",
+        "Mahmoud Abdel-Hafiez",
+        "M. Venkata Kamalakar",
+        "Mathias Augustin",
+        "Vitaliy Goryashko",
+        "Torstein Hegstad",
+        "Johan H. Mentink",
+        "Jamal Berakdar",
+        "Oscar Grånäs",
+        "Anders Bergman",
+        "Olle Eriksson",
+        "Anna Delin",
+        "Hermann A. Durr"
+      ],
+      "abstract": "Magnons are collective spin excitations that contain and transport spin angular momentum in magnetic materials. It has been suggested that they can also carry orbital angular momentum in analogy to the electronic motion around the nucleus. We explore the real-space topology of magnon wave-packets emanating from atomic-like excitons in the ferromagnetic insulator CrI3 and demonstrate the existence of orbital angular momentum in such wave-packets. We reveal that orbital angular momentum of magnons is nearly equal to their spin angular momentum and compensates the latter. This illustrates the existence of an unexplored internal angular momentum balance and demonstrates that the magnetization can be quenched without the need of angular momentum exchange with the lattice.",
+      "submitted": "2026-08-03T10:09:11Z",
+      "updated": "2026-08-03T10:09:11Z",
+      "categories": [
+        "cond-mat.mtrl-sci"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2608.02010v1",
+      "arxiv_url": "https://arxiv.org/abs/2608.02010",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [],
+      "material_families": [],
+      "exciton_properties": [],
+      "applications": [],
+      "methods": [],
+      "matched_keywords": [
+        "exciton"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [],
+        "experimental_methods": {},
+        "computational_methods": {},
+        "materials": {},
+        "properties": {},
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2608.01961",
+      "version": "v1",
+      "versioned_id": "2608.01961v1",
+      "title": "Resonantly-enhanced Raman response in graphene-capped bismuthene on SiC",
+      "authors": [
+        "Lukas Gehrig",
+        "Cedric Schmitt",
+        "Erica Fragomeni",
+        "Simone Sotgiu",
+        "Stefan Enzner",
+        "Tommaso Venanzi",
+        "Bing Liu",
+        "Kilian Strauß",
+        "Jonas Erhardt",
+        "Martin Kamp",
+        "Elena Stellino",
+        "Paolo Postorino",
+        "Jörg Schäfer",
+        "Simon Moser",
+        "Christoph Stampfer",
+        "Giorgio Sangiovanni",
+        "Ralph Claessen",
+        "Leonetta Baldassarre"
+      ],
+      "abstract": "Two-dimensional quantum spin Hall insulators based on atomic monolayers offer a promising route toward dissipationless electronics, yet their practical use is often limited by environmental instability. Encapsulating the system with a graphene capping layer has been shown to be a reliable method to prevent oxidation and degradation. However, the confirmation of a successful encapsulation still relies on ultra-high vacuum techniques, that considerably slow the process. Here, we present an ex situ, rapid, nondestructive and spatially resolved Raman characterization of graphene-capped bismuthene, a honeycomb monolayer of Bi on SiC. A pronounced Raman scattering peak at around 122 cm-1 is identified as the E2g phonon of bismuthene, via a comparison with density functional perturbation theory calculations. We use excitation-energy and polarization-dependent Raman measurements to enable an unambiguous assignment of the spectral features. Tuning the excitation energy close to the excitonic transition in pristine bismuthene, we observe a strong enhancement of the Raman response and the emergence of additional scattering peaks. In this regime, higher-order phonon features, as well as interfacial modes between bismuthene and the SiC substrate, become visible, suggesting the involvement of resonant scattering processes. Our results establish Raman micro-spectroscopy as a versatile tool for probing graphene-protected quantum materials, providing access to lattice dynamics and interlayer coupling.",
+      "submitted": "2026-08-03T09:29:39Z",
+      "updated": "2026-08-03T09:29:39Z",
+      "categories": [
+        "cond-mat.mtrl-sci",
+        "cond-mat.mes-hall"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2608.01961v1",
+      "arxiv_url": "https://arxiv.org/abs/2608.01961",
+      "study_type": "Experimental",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [],
+      "material_families": [
+        "Other 2D / van der Waals materials"
+      ],
+      "exciton_properties": [],
+      "applications": [],
+      "methods": [
+        "Raman spectroscopy"
+      ],
+      "matched_keywords": [
+        "exciton",
+        "excitonic",
+        "raman scattering"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [
+          "we observe",
+          "we use"
+        ],
+        "computational_actions": [
+          "we use"
+        ],
+        "experimental_methods": {
+          "Raman spectroscopy": [
+            "raman scattering"
+          ]
+        },
+        "computational_methods": {},
+        "materials": {
+          "Other 2D / van der Waals materials": [
+            "monolayer"
+          ]
+        },
+        "properties": {},
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": true,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2608.01813",
+      "version": "v1",
+      "versioned_id": "2608.01813v1",
+      "title": "Dual-Mode Exciton Coupling in Epitaxially Registered Organic-Inorganic 2D Heterocrystals",
+      "authors": [
+        "Eunbeen Jeon",
+        "Kihyun Lee",
+        "Jieun Yeon",
+        "Juseung Oh",
+        "Kenji Watanabe",
+        "Takashi Taniguchi",
+        "Kwanpyo Kim",
+        "Sunmin Ryu"
+      ],
+      "abstract": "Two-dimensional (2D) heterocrystals comprising molecules and semiconductors can serve as an ideal platform for studying interfacial excitons and for future optoelectronic applications, yet the energy and charge flow across these atomically sharp interfaces remain unclear. In this work, we investigated PTCDA-MoS2 as a prototypical 2D organic-inorganic heterostructure and revealed dual-mode exciton coupling between the constituent crystals. Monolayer-resolved PTCDA molecular crystals were grown on monolayer MoS2 via physical vapor assembly, and their crystallographic details, including the stacking angle, were determined by electron diffraction. Upon the formation of the heterostructures, PTCDA's photoluminescence was completely quenched because of organic-to-inorganic hole transfer, whereas that of MoS2 increased markedly with PTCDA thickness. Using differential reflectance and photoluminescence excitation spectroscopy, we found that the enhancement arises from two distinct mechanisms. Ground-state charge transfer injects holes into MoS2, which suppresses negative trion formation and enhances the radiative recombination of neutral excitons. In addition, resonant energy transfer, enabled by spectral overlap between PTCDA and MoS2, diverts excitation energy from PTCDA to MoS2. Our findings reconcile previously proposed mechanisms and establish a unified framework in which charge and energy transfer cooperate to govern exciton coupling at organic-inorganic interfaces.",
+      "submitted": "2026-08-03T07:26:08Z",
+      "updated": "2026-08-03T07:26:08Z",
+      "categories": [
+        "cond-mat.mtrl-sci"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2608.01813v1",
+      "arxiv_url": "https://arxiv.org/abs/2608.01813",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [
+        "MoS2",
+        "organic semiconductors"
+      ],
+      "material_families": [
+        "TMDs / 2D chalcogenides",
+        "Other 2D / van der Waals materials",
+        "Organic / molecular materials"
+      ],
+      "exciton_properties": [
+        "Transport / diffusion"
+      ],
+      "applications": [],
+      "methods": [
+        "Photoluminescence",
+        "Absorption / reflectance"
+      ],
+      "matched_keywords": [
+        "exciton",
+        "photoluminescence",
+        "reflectance"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [
+          "using"
+        ],
+        "experimental_methods": {
+          "Photoluminescence": [
+            "photoluminescence"
+          ],
+          "Absorption / reflectance": [
+            "reflectance"
+          ]
+        },
+        "computational_methods": {},
+        "materials": {
+          "MoS2": [
+            "mos2"
+          ],
+          "organic semiconductors": [
+            "molecular crystal"
+          ],
+          "TMDs / 2D chalcogenides": [
+            "mos2"
+          ],
+          "Other 2D / van der Waals materials": [
+            "monolayer"
+          ],
+          "Organic / molecular materials": [
+            "molecular crystal"
+          ]
+        },
+        "properties": {
+          "Transport / diffusion": [
+            "energy transfer"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
     {
       "arxiv_id": "2607.29387",
       "version": "v1",
@@ -11152,11 +11909,20 @@
       "new": 3,
       "updated": 0,
       "total": 145
+    },
+    {
+      "scanned_at": "2026-08-04T06:13:00.973592+00:00",
+      "since": "2026-07-21",
+      "fetched": 41,
+      "classified": 41,
+      "new": 9,
+      "updated": 0,
+      "total": 154
     }
   ],
   "counts": {
-    "total": 145,
-    "new_this_scan": 3,
+    "total": 154,
+    "new_this_scan": 9,
     "updated_this_scan": 0
   }
 }
