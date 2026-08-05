@@ -1,7 +1,449 @@
 {
   "schema_version": 2,
-  "last_scan": "2026-08-04T06:13:00.973592+00:00",
+  "last_scan": "2026-08-05T06:09:19.672279+00:00",
   "papers": [
+    {
+      "arxiv_id": "2608.03853",
+      "version": "v1",
+      "versioned_id": "2608.03853v1",
+      "title": "Magnetic-field control of Fermi polaron fine structure and polarization in strained monolayer semiconductors",
+      "authors": [
+        "Zakhar A. Iakovlev"
+      ],
+      "abstract": "The theory of attractive Fermi polaron energy spectrum fine structure and polarization in doped two-dimensional semiconductors in external magnetic field is developed. Fermi polaron $g$ factor renormalization due to correlations with the valley-polarized Fermi sea of resident charge carriers is calculated. We study the competition between Zeeman and strain-induced splittings in monolayers under uniaxial strain. The control of strain, magnetic field and electron density allows continuous tuning of energy splitting and eigenstate polarization. Linearly polarized strain-induced split doublet exhibits quadratic Zeeman shift changing to linear Zeeman splitting with elliptical polarization with the increase of magnetic field. We identify a critical magnetic field above which resident charge carriers become fully valley polarized and only one circularly polarized Fermi polaron state remains. Within the Green's function approach we calculate energy levels and Stokes parameters of attractive Fermi polaron states and introduce a simplified effective two-level model allowing us to study analytically the interplay of Zeeman and pseudo-Zeeman splitting. We calculate absorption and reflection spectra, including circular and linear dichroism in the trion spectral range. These results show that real and strain-induced pseudomagnetic fields provide complementary tools for controlling the optical response of many-body excitonic quasiparticles in two-dimensional semiconductors.",
+      "submitted": "2026-08-04T15:57:04Z",
+      "updated": "2026-08-04T15:57:04Z",
+      "categories": [
+        "cond-mat.mes-hall"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2608.03853v1",
+      "arxiv_url": "https://arxiv.org/abs/2608.03853",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [],
+      "material_families": [
+        "Other 2D / van der Waals materials"
+      ],
+      "exciton_properties": [
+        "g-factor / Zeeman splitting",
+        "Strain response"
+      ],
+      "applications": [],
+      "methods": [],
+      "matched_keywords": [
+        "exciton",
+        "excitonic"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [
+          "we calculate"
+        ],
+        "experimental_methods": {},
+        "computational_methods": {},
+        "materials": {
+          "Other 2D / van der Waals materials": [
+            "monolayer"
+          ]
+        },
+        "properties": {
+          "g-factor / Zeeman splitting": [
+            "zeeman splitting"
+          ],
+          "Strain response": [
+            "uniaxial strain"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2608.03602",
+      "version": "v1",
+      "versioned_id": "2608.03602v1",
+      "title": "Toward two dimensional MoS2 electrets",
+      "authors": [
+        "Eugenio Lunedei",
+        "Andrea Liscio",
+        "Francesco Borgatti",
+        "Edoardo Chini",
+        "Pasquale DAngelo",
+        "Fiorenza Esposito",
+        "Niccolo Borghi",
+        "Matteo Mannini",
+        "Denis Gentili",
+        "Luca Seravalli",
+        "Massimiliano Cavallini"
+      ],
+      "abstract": "Here, we show that controlled sulfur vacancy engineering converts monolayer MoS2 into an electret, imparting the ability to store quasi-permanent electrostatic charge within a single atomic layer. Sulfur vacancies are generated with submicrometer spatial control by stamp-assisted electrode-free electrochemical nanolithography, yielding programmable defect densities from 10 10 to 10 13 1 cm-2. The resulting vacancy domains act as deep electron traps and produce surface charge densities up to 1 uCcm-2, with charge retention in the order of hundreds days under ambient conditions. Kelvin probe and electric force microscopies directly reveal stable electrostatic patterns that replicate the lithographic motif. The same vacancy landscape simultaneously defines exciton-quenching regions, generating co-localized optical and electrostatic contrast and reducing the apparent exciton lifetime from 15 ns to 180 ps through enhanced nonradiative recombination. The persistence of the optical response over one year identifies sulfur vacancies, rather than transient charge states, as the origin of the patterned functionality. These results establish defect-engineered MoS2 as the first two-dimensional electret and demonstrate that atomic vacancies can be exploited as functional elements for encoding electrostatic and excitonic behavior in a single atomic layer.",
+      "submitted": "2026-08-04T12:54:38Z",
+      "updated": "2026-08-04T12:54:38Z",
+      "categories": [
+        "cond-mat.mtrl-sci"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2608.03602v1",
+      "arxiv_url": "https://arxiv.org/abs/2608.03602",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [
+        "MoS2"
+      ],
+      "material_families": [
+        "TMDs / 2D chalcogenides",
+        "Other 2D / van der Waals materials"
+      ],
+      "exciton_properties": [
+        "Lifetime / relaxation"
+      ],
+      "applications": [],
+      "methods": [
+        "Exciton lifetime / dynamics"
+      ],
+      "matched_keywords": [
+        "exciton",
+        "exciton lifetime",
+        "excitonic"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [],
+        "experimental_methods": {
+          "Exciton lifetime / dynamics": [
+            "exciton lifetime"
+          ]
+        },
+        "computational_methods": {},
+        "materials": {
+          "MoS2": [
+            "mos2"
+          ],
+          "TMDs / 2D chalcogenides": [
+            "mos2"
+          ],
+          "Other 2D / van der Waals materials": [
+            "monolayer"
+          ]
+        },
+        "properties": {
+          "Lifetime / relaxation": [
+            "exciton lifetime"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2608.03543",
+      "version": "v1",
+      "versioned_id": "2608.03543v1",
+      "title": "Manipulation of localized excitons in CrPS$_4$ by temperature and magnetic field",
+      "authors": [
+        "Dipankar Jana",
+        "Swagata Acharya",
+        "Amit Pawbake",
+        "Dmitrii Litvinov",
+        "Aljoscha Soll",
+        "Zdenek Sofer",
+        "Clement Faugeras",
+        "Dimitar Pashov",
+        "Mark van Schilfgaarde",
+        "Kostya S. Novoselov",
+        "Marek Potemski",
+        "Maciej Koperski"
+      ],
+      "abstract": "Layered van der Waals magnetic semiconductors provide a versatile platform for exploring excitonic phenomena intertwined with spin and lattice degrees of freedom, enabling excitons to act as sensitive probes of magnetic order. CrPS$_4$ is a layered antiferromagnetic semiconductor that hosts rich excitonic features whose microscopic origin and connection to magnetic ordering remain incompletely understood. Here, we investigate the electronic and excitonic properties of bulk CrPS$_4$ using a combination of many-body perturbation theory, dynamical mean-field theory, and photoluminescence-based experiments. Our calculations establish CrPS$_4$ as a direct-gap semiconductor with a bandgap of 2.48~eV in the antiferromagnetic phase. Several sub-bandgap excitonic transitions are predicted by theory, comprising multiple spin-allowed excitons and an additional spin-flip excitation, predominantly localized on the Cr$^{3+}$ ions. Temperature- and magnetic-field-dependent optical measurements reveal thermally driven exciton redistribution among localized states and identify characteristic energy shifts that provide clear optical signatures of magnetic phase transitions in CrPS$_4$. These results provide new insights into the excitonic transitions of antiferromagnets and suggest potential routes for all-optical sensing and light-driven control of their magnetic order.",
+      "submitted": "2026-08-04T12:17:49Z",
+      "updated": "2026-08-04T12:17:49Z",
+      "categories": [
+        "cond-mat.str-el",
+        "cond-mat.mtrl-sci"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2608.03543v1",
+      "arxiv_url": "https://arxiv.org/abs/2608.03543",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [],
+      "material_families": [
+        "Other 2D / van der Waals materials"
+      ],
+      "exciton_properties": [],
+      "applications": [],
+      "methods": [
+        "Photoluminescence"
+      ],
+      "matched_keywords": [
+        "exciton",
+        "excitonic",
+        "photoluminescence"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [
+          "measurements reveal"
+        ],
+        "computational_actions": [
+          "using"
+        ],
+        "experimental_methods": {
+          "Photoluminescence": [
+            "photoluminescence"
+          ]
+        },
+        "computational_methods": {},
+        "materials": {
+          "Other 2D / van der Waals materials": [
+            "van der waals"
+          ]
+        },
+        "properties": {},
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2608.03347",
+      "version": "v1",
+      "versioned_id": "2608.03347v1",
+      "title": "Alloy engineering of excitonic properties in TMD monolayers",
+      "authors": [
+        "Eirini Katsipoulaki",
+        "Adlen Smiri",
+        "Panagiotis Spiliotakis",
+        "Konstantinos Mourzidis",
+        "Danae Katrisioti",
+        "Takashi Taniguchi",
+        "Kenji Watanabe",
+        "Georgios Kopidakis",
+        "Zdenek Sofer",
+        "Gang Wang",
+        "Emmanuel Stratakis",
+        "George Kioseoglou",
+        "Iann C. Gerber",
+        "Xavier Marie",
+        "Ioannis Paradisanos"
+      ],
+      "abstract": "We investigate monolayer MoS$_{2x}$Se$_{2(1-x)}$ alloys across the full composition range using optical spectroscopy. We demonstrate continuous tuning of the optical gap over $\\sim$0.35 eV, accompanied by a systematic reduction of the B--A exciton splitting, in agreement with density functional theory calculations. Temperature-dependent measurements reveal a progressive increase of the average phonon energy from Se-rich to S-rich alloys that follows a simple reduced-mass scaling model. Polarization-resolved spectroscopy further shows a monotonic increase of the circular polarization from nearly zero in MoSe$_2$ to $\\sim$15\\% in MoS$_2$ at 78 K. The observed evolution of the polarization is attributed to alloy-induced modifications of the electronic structure that modify bright--dark exciton mixing and the associated valley depolarization. These findings establish alloy engineering as an effective strategy for controlling excitonic properties in TMD monolayers.",
+      "submitted": "2026-08-04T08:56:29Z",
+      "updated": "2026-08-04T08:56:29Z",
+      "categories": [
+        "cond-mat.mtrl-sci"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2608.03347v1",
+      "arxiv_url": "https://arxiv.org/abs/2608.03347",
+      "study_type": "Computational",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [
+        "transition-metal dichalcogenides"
+      ],
+      "material_families": [
+        "Other 2D / van der Waals materials"
+      ],
+      "exciton_properties": [
+        "Fine structure / bright-dark splitting"
+      ],
+      "applications": [],
+      "methods": [
+        "DFT",
+        "Quasiparticle / optical gaps"
+      ],
+      "matched_keywords": [
+        "density functional theory",
+        "exciton",
+        "excitonic",
+        "optical gap"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [
+          "measurements reveal"
+        ],
+        "computational_actions": [
+          "using"
+        ],
+        "experimental_methods": {},
+        "computational_methods": {
+          "DFT": [
+            "density functional theory"
+          ],
+          "Quasiparticle / optical gaps": [
+            "optical gap"
+          ]
+        },
+        "materials": {
+          "transition-metal dichalcogenides": [
+            "tmd monolayer"
+          ],
+          "Other 2D / van der Waals materials": [
+            "monolayer"
+          ]
+        },
+        "properties": {
+          "Fine structure / bright-dark splitting": [
+            "dark exciton"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": true
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2608.03346",
+      "version": "v1",
+      "versioned_id": "2608.03346v1",
+      "title": "Mid-infrared spontaneous and stimulated emission dynamics in black phosphorus",
+      "authors": [
+        "Hisashi Sumikura",
+        "Akihiko Shinya",
+        "Masaya Notomi"
+      ],
+      "abstract": "Black phosphorus (BP) has attracted attention as a light-emitting layered semiconductor for mid-infrared (MIR) photonics owing to its direct and thickness-tunable bandgap energy, highly anisotropic optical transitions, and potentially suppressed Auger recombination. However, spontaneous and stimulated emission dynamics governed by carrier recombination in BP have remained unexplored because time-resolved emission spectroscopy is challenging in the MIR region. Here we develop a time-resolved MIR emission microscope combining wavelength upconversion with superconducting single photon detection. This approach enables observation of emission dynamics in photoexcited BP at a wavelength around 4.6 μm with sub-100-ps temporal resolution. Temperature-dependent measurements reveal a crossover from excitonic to electron-hole plasma emission at around 70 K, supported by independent results in the characteristic transition temperature, pump-fluence dependence, and rise and decay dynamics of MIR emission. In a suspended BP structure, we further observe a nonlinear increase in the emission intensity above a well-defined pump threshold. Spectral narrowing and intense picosecond emission pulses appear above the threshold, providing solid evidence of stimulated emission assisted by optical feedback from a Fabry-Pérot cavity. These results elucidate ultrafast carrier dynamics and optical gain formation in BP and establish time-resolved upconversion spectroscopy as a powerful approach for investigating MIR photonic materials and devices.",
+      "submitted": "2026-08-04T08:55:22Z",
+      "updated": "2026-08-04T08:55:22Z",
+      "categories": [
+        "physics.optics"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2608.03346v1",
+      "arxiv_url": "https://arxiv.org/abs/2608.03346",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [
+        "black phosphorus"
+      ],
+      "material_families": [
+        "Other 2D / van der Waals materials"
+      ],
+      "exciton_properties": [],
+      "applications": [],
+      "methods": [
+        "Time-resolved spectroscopy",
+        "Exciton lifetime / dynamics"
+      ],
+      "matched_keywords": [
+        "carrier dynamics",
+        "exciton",
+        "excitonic",
+        "time-resolved"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [
+          "measurements reveal"
+        ],
+        "computational_actions": [],
+        "experimental_methods": {
+          "Time-resolved spectroscopy": [
+            "time-resolved"
+          ],
+          "Exciton lifetime / dynamics": [
+            "carrier dynamics"
+          ]
+        },
+        "computational_methods": {},
+        "materials": {
+          "black phosphorus": [
+            "black phosphorus"
+          ],
+          "Other 2D / van der Waals materials": [
+            "black phosphorus"
+          ]
+        },
+        "properties": {},
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2608.03049",
+      "version": "v1",
+      "versioned_id": "2608.03049v1",
+      "title": "Hidden Quantum Geometry in Bilayer Exciton Condensates",
+      "authors": [
+        "Xuzhe Ying",
+        "Benjamin T. Zhou"
+      ],
+      "abstract": "When an electron-doped layer is stacked with a hole-doped layer with approximately equal carrier density, inter-layer Coulomb interaction turns the bilayer system into an exciton condensate (EC). In this Letter, we reveal a fundamental property of bilayer ECs: the excitonic order gives rise to nontrivial hidden quantum geometric effects in the correlated electron-hole bands, even when the non-interacting bands are trivial. Such peculiar EC-driven quantum geometry manifests itself in a characteristic out-of-plane polarization response upon applying an in-plane AC electric field to the bilayer EC system. In particular, the second-order response exhibits a characteristic inverse square scaling with the bilayer EC order parameter. Our finding reveals a fundamental hidden Berry phase effect driven by electron-hole correlations, and establishes bilayer EC as a promising platform for rich nonlinear physics.",
+      "submitted": "2026-08-04T02:59:53Z",
+      "updated": "2026-08-04T02:59:53Z",
+      "categories": [
+        "cond-mat.mes-hall"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2608.03049v1",
+      "arxiv_url": "https://arxiv.org/abs/2608.03049",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [],
+      "material_families": [],
+      "exciton_properties": [],
+      "applications": [],
+      "methods": [],
+      "matched_keywords": [
+        "exciton",
+        "excitonic"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [],
+        "experimental_methods": {},
+        "computational_methods": {},
+        "materials": {},
+        "properties": {},
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
     {
       "arxiv_id": "2608.02513",
       "version": "v1",
@@ -11918,11 +12360,20 @@
       "new": 9,
       "updated": 0,
       "total": 154
+    },
+    {
+      "scanned_at": "2026-08-05T06:09:19.672279+00:00",
+      "since": "2026-07-22",
+      "fetched": 44,
+      "classified": 44,
+      "new": 6,
+      "updated": 0,
+      "total": 160
     }
   ],
   "counts": {
-    "total": 154,
-    "new_this_scan": 9,
+    "total": 160,
+    "new_this_scan": 6,
     "updated_this_scan": 0
   }
 }
