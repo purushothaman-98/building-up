@@ -1,7 +1,405 @@
 {
   "schema_version": 2,
-  "last_scan": "2026-08-05T06:09:19.672279+00:00",
+  "last_scan": "2026-08-06T06:13:01.033520+00:00",
   "papers": [
+    {
+      "arxiv_id": "2608.05059",
+      "version": "v1",
+      "versioned_id": "2608.05059v1",
+      "title": "Direct Evidence for Robust Bulk Band Gap Across the Charge Density Wave Transition in TiSe2",
+      "authors": [
+        "Turgut Yilmaz",
+        "Anil Rajapitamahuni",
+        "Muhammad Awais Fiaz",
+        "Zhenxian Liu",
+        "Jerzy T. Sadowski",
+        "Abdullah Al-Mahboob",
+        "Asish K. Kundu",
+        "Shawna M. Hollen",
+        "Boris Sinkovic",
+        "Elio Vescovo"
+      ],
+      "abstract": "The mechanism driving the charge density wave (CDW) transition in TiSe2 has been debated for decades, with proposals ranging from an excitonic insulator to a lattice-driven instability. A central question remains whether the transition involves an opening or enhancement of the bulk band gap. Using high-resolution angle-resolved photoemission spectroscopy, we directly track the temperature evolution of the bulk band edges across the CDW transition at TCDW = 200 K. Contrary to the expectation of a gap-opening transition, we find that the size of the fundamental band gap remains constant from the high-temperature normal phase down to 160 K. While the CDW induces clear band-folding signatures and spectral weight redistribution, the underlying band extrema are unperturbed. These results demonstrate that TiSe2 does not undergo a temperature-driven electronic gap opening. Instead, they support a scenario where the transition is governed by a lattice symmetry-breaking reconstruction that folds, but does not gap, the electronic structure of a pre-existing band insulator.",
+      "submitted": "2026-08-05T17:06:37Z",
+      "updated": "2026-08-05T17:06:37Z",
+      "categories": [
+        "cond-mat.str-el",
+        "cond-mat.mtrl-sci"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2608.05059v1",
+      "arxiv_url": "https://arxiv.org/abs/2608.05059",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [],
+      "material_families": [],
+      "exciton_properties": [],
+      "applications": [],
+      "methods": [
+        "Photoemission / photocurrent"
+      ],
+      "matched_keywords": [
+        "exciton",
+        "excitonic",
+        "photoemission spectroscopy"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [
+          "using"
+        ],
+        "experimental_methods": {
+          "Photoemission / photocurrent": [
+            "photoemission spectroscopy"
+          ]
+        },
+        "computational_methods": {},
+        "materials": {},
+        "properties": {},
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2608.04986",
+      "version": "v1",
+      "versioned_id": "2608.04986v1",
+      "title": "Magnetic catalysis and Hall conductivity of excitonic insulators in a planar four-Fermi model",
+      "authors": [
+        "William R. Tavares",
+        "Rudnei O. Ramos",
+        "Nei Lopes"
+      ],
+      "abstract": "We study the effects of a perpendicular magnetic field on the excitonic insulator (EI) phase in the semiconductor regime using an extended planar four-Fermi model. Within the large-$N$ approximation, we determine the coupled scalar and excitonic condensates at finite temperature, chemical potential, and magnetic field. The field enhances the EI condensate and raises its critical temperature, providing an excitonic realization of magnetic catalysis, while the scalar condensate remains constant throughout the EI phase. By contrast, the critical chemical potential depends nonmonotonically on the field because of the successive occupation of Landau levels. The magnetic field also shifts the mean-field tricritical point and enlarges the first-order region of the temperature--chemical-potential phase diagram. We further analyze the Hall conductivity and find that increasing the field reduces the number of plateaus and modifies the threshold for a finite Hall response. For the parameters considered, the emergence of the EI condensate is accompanied by a characteristic change in the Hall conductivity, including a field-dependent change of slope near a continuous transition. These results show that the combined phase structure and Hall response can provide complementary signatures of excitonic ordering in planar fermionic systems.",
+      "submitted": "2026-08-05T15:57:58Z",
+      "updated": "2026-08-05T15:57:58Z",
+      "categories": [
+        "cond-mat.mes-hall",
+        "hep-ph"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2608.04986v1",
+      "arxiv_url": "https://arxiv.org/abs/2608.04986",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [],
+      "material_families": [],
+      "exciton_properties": [],
+      "applications": [],
+      "methods": [],
+      "matched_keywords": [
+        "exciton",
+        "excitonic"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [
+          "using"
+        ],
+        "experimental_methods": {},
+        "computational_methods": {},
+        "materials": {},
+        "properties": {},
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2608.04638",
+      "version": "v1",
+      "versioned_id": "2608.04638v1",
+      "title": "The Frequency-Dependent Spin Contribution to the Magnetoelectric Tensor of Cr$_2$O$_3$: A First-Principles Study",
+      "authors": [
+        "Torsten Geirsson",
+        "Davide Sangalli",
+        "Alberto García-Cristóbal",
+        "Alejandro Molina-Sánchez"
+      ],
+      "abstract": "The magnetoelectric (ME) effect provides a promising pathway for controlling magnetic functionalities using electric fields. While first-principles methods for the static linear ME response are well established, comparable approaches for the frequency-dependent response remain less developed, despite experiments showing pronounced finite-frequency resonances. Here, we investigate the dynamical spin-induced linear ME response from first principles and systematically compare the independent-particle approximation (IPA), random-phase approximation (RPA), time-dependent density functional theory (TDDFT), and the Bethe-Salpeter equation (BSE). We apply these methods to the prototypical ME material Cr$_2$O$_3$ and compare the results with available experimental and theoretical studies. We find that the IPA and RPA fail to reproduce the previously reported finite static limit of the spin-induced response. Within the BSE framework, pronounced excitonic resonances emerge in the ME spectrum, in qualitative agreement with experiment. We also identify a magnon-like peak that coincides with a pole of the transverse spin susceptibility while remaining essentially dark in optical absorption, highlighting the sensitivity of the ME response to spin excitations. TDDFT places this mode closer to the expected low-energy magnonic regime and yields a sizable static spin-induced response. Our results show that these frameworks capture complementary aspects of the dynamical ME response. Low-energy collective spin excitations are required to recover the static limit, whereas electron-hole interactions are essential for reproducing the excitonic resonances.",
+      "submitted": "2026-08-05T09:53:42Z",
+      "updated": "2026-08-05T09:53:42Z",
+      "categories": [
+        "cond-mat.mtrl-sci"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2608.04638v1",
+      "arxiv_url": "https://arxiv.org/abs/2608.04638",
+      "study_type": "Computational",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [],
+      "material_families": [],
+      "exciton_properties": [],
+      "applications": [],
+      "methods": [
+        "DFT",
+        "Bethe–Salpeter equation",
+        "TDDFT"
+      ],
+      "matched_keywords": [
+        "bethe-salpeter",
+        "density functional theory",
+        "dft",
+        "exciton",
+        "excitonic",
+        "first principles",
+        "first-principles",
+        "tddft",
+        "time-dependent density functional theory"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [
+          "using"
+        ],
+        "experimental_methods": {},
+        "computational_methods": {
+          "DFT": [
+            "density functional theory",
+            "first-principles",
+            "first principles",
+            "dft"
+          ],
+          "Bethe–Salpeter equation": [
+            "bethe-salpeter"
+          ],
+          "TDDFT": [
+            "time-dependent density functional theory",
+            "tddft"
+          ]
+        },
+        "materials": {},
+        "properties": {},
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": true
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2607.22250",
+      "version": "v2",
+      "versioned_id": "2607.22250v2",
+      "title": "Counterdirectional Exciton and Trion Motion in Applied Electric Field",
+      "authors": [
+        "Daniel Vaz",
+        "Yuanjun Guan",
+        "Qiaochu Wan",
+        "Bobby Bobby",
+        "Anshul Ramavath",
+        "Brandon Vargo",
+        "Juntong Ye",
+        "Jonathan Beaumariage",
+        "Om Patel",
+        "Kenji Watanabe",
+        "Takashi Taniguchi",
+        "Xiong Feng",
+        "James Hone",
+        "Nathan Youngblood",
+        "Zheng Sun",
+        "David W. Snoke"
+      ],
+      "abstract": "Charged excitonic complexes are central to the optoelectronic and many-body properties of semiconductors, yet their real-space transport dynamics remain largely unexplored. Here, we report the direct optical observation of trion motion under an applied electric field. The trions exhibit electrically driven drift with velocities approaching {$10^5~\\mathrm{m/s}$}. Unexpectedly, the trion flow induces a pronounced back-action on coexisting neutral excitons, driving them in the opposite direction and giving rise to counterpropagating exciton-trion transport. Our results reveal an interaction-driven nonequilibrium transport regime of mixed excitonic fluids and establish a direct route for imaging the dynamics of more complex charged quasiparticles, including doubly charged excitons.",
+      "submitted": "2026-07-24T12:31:44Z",
+      "updated": "2026-08-05T08:43:27Z",
+      "categories": [
+        "physics.optics",
+        "cond-mat.mtrl-sci"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2607.22250v2",
+      "arxiv_url": "https://arxiv.org/abs/2607.22250",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [],
+      "material_families": [],
+      "exciton_properties": [],
+      "applications": [],
+      "methods": [],
+      "matched_keywords": [
+        "exciton",
+        "excitonic"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [
+          "we report"
+        ],
+        "computational_actions": [],
+        "experimental_methods": {},
+        "computational_methods": {},
+        "materials": {},
+        "properties": {},
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1",
+        "v2"
+      ]
+    },
+    {
+      "arxiv_id": "2608.04493",
+      "version": "v1",
+      "versioned_id": "2608.04493v1",
+      "title": "All-Optical Field-Resolved Spectroscopy With Interferometric Nonlinear Cross-Correlations",
+      "authors": [
+        "Felix Ritzkowsky",
+        "Gian Luca Dolso",
+        "Benjamin Mazur",
+        "Matthew Yeung",
+        "Phillip D. Keathley"
+      ],
+      "abstract": "Direct time-domain measurements of electric fields enable sub-cycle spectroscopy of light-matter interactions, but established techniques such as electro-optic sampling are constrained in their bandwidth by gate-pulse duration and phase-matching limitations. Alternative approaches have emerged in recent years based on asymmetric interferometric nonlinear cross-correlations with highly nonlinear media, and have demonstrated, for example, the field-resolved study of exciton ensembles. However, these nonlinear cross-correlation-based techniques have been benchmarked almost exclusively by self-referenced pulse characterization rather than by their quantitative spectroscopic performance, and all-optical approaches have received less attention than those based on direct charge emission. Here we extend all-optical asymmetric interferometric cross-correlation to higher nonlinearities in sub-wavelength films and demonstrate field-resolved spectroscopy of the free-induction decay of two ro-vibrational bands of ambient water vapor with a performance comparable to state of the art electro-optic sampling. The measurement spans 190 THz of bandwidth (80 THz to 270 THz) with sub-500 GHz spectral resolution, a spectral intensity dynamic range of six orders of magnitude, and a field-strength noise floor of 100 kV per meter. We anticipate the rapid adoption of here presented all-optical sampling to many experimental settings and a broad impact beyond the ultrafast optics research community as it is drastically simplified in comparison to ionization based techniques and allows the translation of electro-optic-sampling-level sensitivity into higher frequency ranges not previously accessible by conventional tools.",
+      "submitted": "2026-08-05T06:26:44Z",
+      "updated": "2026-08-05T06:26:44Z",
+      "categories": [
+        "physics.optics"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2608.04493v1",
+      "arxiv_url": "https://arxiv.org/abs/2608.04493",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Dataset / benchmark",
+      "materials": [],
+      "material_families": [],
+      "exciton_properties": [],
+      "applications": [],
+      "methods": [],
+      "matched_keywords": [
+        "exciton"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [],
+        "experimental_methods": {},
+        "computational_methods": {},
+        "materials": {},
+        "properties": {},
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2608.04151",
+      "version": "v1",
+      "versioned_id": "2608.04151v1",
+      "title": "Valley polarization of moiré interlayer exciton complexes driven by many-body interactions",
+      "authors": [
+        "Adrian O. Paulus",
+        "Mikołaj J. Metelski",
+        "Alain Dijkstra",
+        "Kenji Watanabe",
+        "Takashi Taniguchi",
+        "Nathan P. Wilson",
+        "Jonathan J. Finley"
+      ],
+      "abstract": "Localized interlayer excitons (IX) in moiré transition metal dichalcogenide heterostructures can both probe and participate in many-body states hosted by the moiré superlattice. When the IX density is small compared to the moiré lattice density, the formation of incompressible charge crystals at fractional electronic moiré fillings modifies exciton-charge scattering, leading to enhanced lifetimes in photoluminescence (PL) measurements. At high IX densities, the exciton dynamics are altered by the emergence of an excitonic Mott insulator and the formation of doubly-occupied sites (IXX). Here, we investigate the IX PL lifetime and valley polarization in an R-type $\\mathrm{WSe_2}$/$\\mathrm{WS_2}$ bilayer across a wide range of IX and charge densities. While previous studies reported a decrease of polarization in time-integrated measurements in charge-incompressible phases, our results show that this arises not from enhanced intervalley scattering, but from a dilution of the valley polarization by the dramatic enhancement of IX lifetimes. At high excitation densities, we probe the dynamics of the IXX and show that despite the nominal antiparallel valley configuration of the two constituent excitons, a strong, anomalous valley polarization develops as the IXX population decays. Our results shed light on the complex exciton and valley dynamics of IX and demonstrate that they are strongly modified by the rich many-body physics of moiré heterobilayers.",
+      "submitted": "2026-08-04T18:59:08Z",
+      "updated": "2026-08-04T18:59:08Z",
+      "categories": [
+        "cond-mat.mes-hall",
+        "cond-mat.str-el"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2608.04151v1",
+      "arxiv_url": "https://arxiv.org/abs/2608.04151",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [
+        "transition-metal dichalcogenides"
+      ],
+      "material_families": [
+        "TMDs / 2D chalcogenides",
+        "Other 2D / van der Waals materials"
+      ],
+      "exciton_properties": [
+        "Valley / spin physics"
+      ],
+      "applications": [],
+      "methods": [
+        "Photoluminescence",
+        "Exciton lifetime / dynamics"
+      ],
+      "matched_keywords": [
+        "exciton",
+        "exciton dynamics",
+        "excitonic",
+        "photoluminescence"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [],
+        "experimental_methods": {
+          "Photoluminescence": [
+            "photoluminescence"
+          ],
+          "Exciton lifetime / dynamics": [
+            "exciton dynamics"
+          ]
+        },
+        "computational_methods": {},
+        "materials": {
+          "transition-metal dichalcogenides": [
+            "transition metal dichalcogenide"
+          ],
+          "TMDs / 2D chalcogenides": [
+            "transition metal dichalcogenide"
+          ],
+          "Other 2D / van der Waals materials": [
+            "heterobilayer"
+          ]
+        },
+        "properties": {
+          "Valley / spin physics": [
+            "valley polarization"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
     {
       "arxiv_id": "2608.03853",
       "version": "v1",
@@ -2674,71 +3072,6 @@
             "perovskite"
           ]
         },
-        "properties": {},
-        "relevance": [
-          "exciton/excitonic stated in title or abstract"
-        ]
-      },
-      "evidence": {
-        "experimental": false,
-        "computational": false
-      },
-      "versions_seen": [
-        "v1"
-      ]
-    },
-    {
-      "arxiv_id": "2607.22250",
-      "version": "v1",
-      "versioned_id": "2607.22250v1",
-      "title": "Counterdirectional Exciton and Trion Motion in Applied Electric Field",
-      "authors": [
-        "Daniel Vaz",
-        "Yuanjun Guan",
-        "Qiaochu Wan",
-        "Bobby Bobby",
-        "Anshul Ramavath",
-        "Brandon Vargo",
-        "Juntong Ye",
-        "Jonathan Beaumariage",
-        "Om Patel",
-        "Kenji Watanabe",
-        "Takashi Taniguchi",
-        "Xiong Feng",
-        "James Hone",
-        "Nathan Youngblood",
-        "Zheng Sun",
-        "David W. Snoke"
-      ],
-      "abstract": "Charged excitonic complexes are central to the optoelectronic and many-body properties of semiconductors, yet their real-space transport dynamics remain largely unexplored. Here, we report the direct optical observation of trion motion under an applied electric field. The trions exhibit electrically driven drift with velocities approaching {$10^5~\\mathrm{m/s}$}. Unexpectedly, the trion flow induces a pronounced back-action on coexisting neutral excitons, driving them in the opposite direction and giving rise to counterpropagating exciton-trion transport. Our results reveal an interaction-driven nonequilibrium transport regime of mixed excitonic fluids and establish a direct route for imaging the dynamics of more complex charged quasiparticles, including doubly charged excitons.",
-      "submitted": "2026-07-24T12:31:44Z",
-      "updated": "2026-07-24T12:31:44Z",
-      "categories": [
-        "physics.optics",
-        "cond-mat.mtrl-sci"
-      ],
-      "pdf_url": "https://arxiv.org/pdf/2607.22250v1",
-      "arxiv_url": "https://arxiv.org/abs/2607.22250",
-      "study_type": "Unclassified",
-      "relevance": "Core exciton paper",
-      "paper_nature": "Original research",
-      "materials": [],
-      "material_families": [],
-      "exciton_properties": [],
-      "applications": [],
-      "methods": [],
-      "matched_keywords": [
-        "exciton",
-        "excitonic"
-      ],
-      "classification_evidence": {
-        "experimental_actions": [
-          "we report"
-        ],
-        "computational_actions": [],
-        "experimental_methods": {},
-        "computational_methods": {},
-        "materials": {},
         "properties": {},
         "relevance": [
           "exciton/excitonic stated in title or abstract"
@@ -12369,11 +12702,20 @@
       "new": 6,
       "updated": 0,
       "total": 160
+    },
+    {
+      "scanned_at": "2026-08-06T06:13:01.033520+00:00",
+      "since": "2026-07-23",
+      "fetched": 44,
+      "classified": 44,
+      "new": 5,
+      "updated": 1,
+      "total": 165
     }
   ],
   "counts": {
-    "total": 160,
-    "new_this_scan": 6,
-    "updated_this_scan": 0
+    "total": 165,
+    "new_this_scan": 5,
+    "updated_this_scan": 1
   }
 }
