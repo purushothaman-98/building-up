@@ -1,7 +1,63 @@
 {
   "schema_version": 2,
-  "last_scan": "2026-08-06T06:13:01.033520+00:00",
+  "last_scan": "2026-08-07T05:17:56.743686+00:00",
   "papers": [
+    {
+      "arxiv_id": "2608.05308",
+      "version": "v1",
+      "versioned_id": "2608.05308v1",
+      "title": "Topological Charge-Transfer Excitons",
+      "authors": [
+        "Huiyuan Zheng",
+        "Kaijie Yang",
+        "Ting Cao",
+        "Di Xiao"
+      ],
+      "abstract": "Excitons possess internal structure absent from single-particle Bloch particles, allowing their band topology to emerge from the bound-state structure rather than being inherited from their constituents. This raises the question of how the internal structure of a bound state can provide a microscopic origin of exciton topology. Here we show that the real-space embedding of charge-transfer excitons can generate an intrinsic manifold of symmetry-related off-site composite orbitals whose coupling supports topological exciton bands. Lateral electron-hole separation embeds the localized exciton on the bond connecting its constituent sites rather than on either site. We demonstrate this mechanism in a honeycomb lattice, where three bond-centered charge-transfer exciton orbitals form a Kagome lattice. By solving the Bethe-Salpeter equation, we show that this emergent multi-orbital manifold supports a topological exciton flat band upon time-reversal symmetry breaking, even when the electron and hole bands are topologically trivial. The resulting band exhibits nearly uniformly distributed quantum geometry, favorable for interaction-driven bosonic states. Our results establish a general route toward topological bands of localized composite bound states and unconventional strongly correlated bosonic phases.",
+      "submitted": "2026-08-05T18:09:29Z",
+      "updated": "2026-08-05T18:09:29Z",
+      "categories": [
+        "cond-mat.mes-hall"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2608.05308v1",
+      "arxiv_url": "https://arxiv.org/abs/2608.05308",
+      "study_type": "Computational",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [],
+      "material_families": [],
+      "exciton_properties": [],
+      "applications": [],
+      "methods": [
+        "Bethe–Salpeter equation"
+      ],
+      "matched_keywords": [
+        "bethe-salpeter",
+        "exciton"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [],
+        "experimental_methods": {},
+        "computational_methods": {
+          "Bethe–Salpeter equation": [
+            "bethe-salpeter"
+          ]
+        },
+        "materials": {},
+        "properties": {},
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": true
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
     {
       "arxiv_id": "2608.05059",
       "version": "v1",
@@ -12711,11 +12767,20 @@
       "new": 5,
       "updated": 1,
       "total": 165
+    },
+    {
+      "scanned_at": "2026-08-07T05:17:56.743686+00:00",
+      "since": "2026-07-24",
+      "fetched": 40,
+      "classified": 40,
+      "new": 1,
+      "updated": 0,
+      "total": 166
     }
   ],
   "counts": {
-    "total": 165,
-    "new_this_scan": 5,
-    "updated_this_scan": 1
+    "total": 166,
+    "new_this_scan": 1,
+    "updated_this_scan": 0
   }
 }
