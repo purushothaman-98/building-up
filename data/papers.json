@@ -1,7 +1,56 @@
 {
   "schema_version": 2,
-  "last_scan": "2026-08-09T04:48:28.513581+00:00",
+  "last_scan": "2026-08-10T05:07:28.681793+00:00",
   "papers": [
+    {
+      "arxiv_id": "2608.07372",
+      "version": "v1",
+      "versioned_id": "2608.07372v1",
+      "title": "Exciton Alchemy: Chern Excitons from Trivial Bands",
+      "authors": [
+        "Yoonseok Hwang",
+        "Henry Davenport",
+        "Frank Schindler"
+      ],
+      "abstract": "Exciton topology is commonly inherited from the topology of the underlying electronic bands. Recent theoretical work, however, has shown that the exciton Chern number can in general receive an additional contribution from the topology of the exciton envelope wave function, allowing, in principle, interaction-induced topological excitons even when the constituent electronic bands are topologically trivial. Here, we provide an explicit realization of this case by constructing a two-dimensional exciton model with topologically trivial conduction and valence bands that nevertheless hosts a Chern exciton diagnosed by inversion symmetry. Starting from a real-space limit of exponentially localized Wannier states for the conduction and valence bands, we identify the essential ingredients responsible for the emergent exciton topology and formulate a simple construction recipe. Our work demonstrates that interactions alone can generate nontrivial exciton topology, independent of the topology of the underlying electronic bands, and establishes a general framework for designing interaction-induced topological excitons.",
+      "submitted": "2026-08-07T16:13:37Z",
+      "updated": "2026-08-07T16:13:37Z",
+      "categories": [
+        "cond-mat.mes-hall",
+        "cond-mat.str-el"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2608.07372v1",
+      "arxiv_url": "https://arxiv.org/abs/2608.07372",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [],
+      "material_families": [],
+      "exciton_properties": [],
+      "applications": [],
+      "methods": [],
+      "matched_keywords": [
+        "exciton"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [],
+        "experimental_methods": {},
+        "computational_methods": {},
+        "materials": {},
+        "properties": {},
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
     {
       "arxiv_id": "2608.05308",
       "version": "v1",
@@ -12794,11 +12843,20 @@
       "new": 0,
       "updated": 0,
       "total": 166
+    },
+    {
+      "scanned_at": "2026-08-10T05:07:28.681793+00:00",
+      "since": "2026-07-27",
+      "fetched": 34,
+      "classified": 34,
+      "new": 1,
+      "updated": 0,
+      "total": 167
     }
   ],
   "counts": {
-    "total": 166,
-    "new_this_scan": 0,
+    "total": 167,
+    "new_this_scan": 1,
     "updated_this_scan": 0
   }
 }
