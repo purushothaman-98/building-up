@@ -1,7 +1,485 @@
 {
   "schema_version": 2,
-  "last_scan": "2026-08-10T05:07:28.681793+00:00",
+  "last_scan": "2026-08-11T04:51:22.958256+00:00",
   "papers": [
+    {
+      "arxiv_id": "2608.09911",
+      "version": "v1",
+      "versioned_id": "2608.09911v1",
+      "title": "Tunable Multiband Geometry and Fractional Phases in Higher Vortexable Systems",
+      "authors": [
+        "Xiaohan Wan",
+        "Siddhartha Sarkar",
+        "Ting Cao",
+        "Mark Rudner",
+        "Di Xiao",
+        "Kai Sun"
+      ],
+      "abstract": "Higher vortexability is often viewed as a route to topological flat bands with higher-Landau-level-like quantum geometry. Here we emphasize a complementary perspective: it provides a tunable multiband structure in which wave function geometry can be varied continuously while the band dispersion, degeneracy, and topology remain fixed. We perform systematic exact-diagonalization studies of many-body phases in fractionally filled higher vortexable moiré systems, retaining the full flat-band Hilbert space rather than projecting onto a single band. The multiband treatment reveals a cascade of Abelian and non-Abelian phases at zero magnetic field, including integer and fractional exciton insulators, Abelian fractional Chern insulators, Moore-Read and Read-Rezayi states. At fixed filling, different phases are connected through transitions or crossovers driven solely by changes in wave function geometry, highlighting quantum geometry itself as a direct tuning parameter between competing topological states. At fillings associated with Moore-Read and Read-Rezayi states, our calculations show that interband mixing shifts the optimal quantum geometry regime without suppressing non-Abelian topological order under screened Coulomb interaction. Our results establish higher vortexable moiré bands as a tunable platform for exploring geometry-driven multiband topological phases at zero magnetic field.",
+      "submitted": "2026-08-10T17:54:03Z",
+      "updated": "2026-08-10T17:54:03Z",
+      "categories": [
+        "cond-mat.str-el",
+        "cond-mat.mes-hall"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2608.09911v1",
+      "arxiv_url": "https://arxiv.org/abs/2608.09911",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [],
+      "material_families": [],
+      "exciton_properties": [],
+      "applications": [],
+      "methods": [],
+      "matched_keywords": [
+        "exciton"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [
+          "we perform"
+        ],
+        "computational_actions": [
+          "we perform",
+          "calculations show"
+        ],
+        "experimental_methods": {},
+        "computational_methods": {},
+        "materials": {},
+        "properties": {},
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2608.09554",
+      "version": "v1",
+      "versioned_id": "2608.09554v1",
+      "title": "Long-range exchange interaction controls the fine structure of excited trion states in semiconductor quantum dots",
+      "authors": [
+        "M. M. Glazov",
+        "E. L. Ivchenko"
+      ],
+      "abstract": "We develop a microscopic theory of the long-range electron-hole exchange interaction in charged excitons (trions) confined in semiconductor quantum dots. While the ground-state singlet trion remains degenerate in the spin component of unpaired charge carrier by time-reversal symmetry, excited trion states exhibit a rich fine structure resulting from the interplay of electron-electron and electron-hole exchange interactions. We derive the effective long-range exchange Hamiltonian for both the spin-$3/2$ heavy-hole and a simple spin-$1/2$ valence band models. The long-range exchange interaction mixes singlet and triplet trion configurations, giving rise to anisotropic fine-structure splittings and related polarization-dependent optical spectra determined by the quantum-dot shape. Analytical expressions are obtained for the long-range exchange parameters. The developed theory establishes a unified microscopic description of the fine structure of excited trions in semiconductor quantum dots and provides a framework for interpreting polarization-resolved optical spectroscopy of charged excitonic complexes.",
+      "submitted": "2026-08-10T12:50:24Z",
+      "updated": "2026-08-10T12:50:24Z",
+      "categories": [
+        "cond-mat.mes-hall",
+        "cond-mat.mtrl-sci",
+        "cond-mat.other"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2608.09554v1",
+      "arxiv_url": "https://arxiv.org/abs/2608.09554",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [
+        "quantum dots"
+      ],
+      "material_families": [
+        "Quantum-confined structures"
+      ],
+      "exciton_properties": [
+        "Fine structure / bright-dark splitting"
+      ],
+      "applications": [],
+      "methods": [
+        "Linewidth / fine structure"
+      ],
+      "matched_keywords": [
+        "exciton",
+        "excitonic",
+        "fine-structure splitting"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [],
+        "experimental_methods": {
+          "Linewidth / fine structure": [
+            "fine-structure splitting"
+          ]
+        },
+        "computational_methods": {},
+        "materials": {
+          "quantum dots": [
+            "quantum dot"
+          ],
+          "Quantum-confined structures": [
+            "quantum dot"
+          ]
+        },
+        "properties": {
+          "Fine structure / bright-dark splitting": [
+            "fine-structure splitting"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2608.09309",
+      "version": "v1",
+      "versioned_id": "2608.09309v1",
+      "title": "Magnetically induced Circular Photogalvanic Effect in Symmetric Two-dimensional Materials",
+      "authors": [
+        "Peng Liu",
+        "Fanhao Jia",
+        "Ruixue Li",
+        "Yuan Li",
+        "Igor Zutic",
+        "Gaofeng Xu"
+      ],
+      "abstract": "Photocurrents that depend on the helicity of the incident light can be generated in both bulk and low-dimensional materials lacking inversion symmetry, known as the circular photogalvanic effect (CPGE). We propose that by employing a magnetic effect, the limitation on the inversion symmetry broken materials can be overcome, such that helicity-dependent photocurrent can be generated in a symmetric material, i.e., a magneto-circular photogalvanic effect (MCPGE). As a proof of principle, we elucidate the mechanism of such an MCPGE through an effective Hamiltonian of a monolayer SbH on a magnetic substrate with an adjustable magnetization. Moreover, the associated response in optical absorption is analyzed, both single-particle and excitonic, through a Bethe-Salpeter equation to describe the Coulomb interaction in excitons. Our result broadens the mechanism of CPGE and opens new opportunities for optoelectronic devices.",
+      "submitted": "2026-08-10T08:53:49Z",
+      "updated": "2026-08-10T08:53:49Z",
+      "categories": [
+        "cond-mat.mes-hall"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2608.09309v1",
+      "arxiv_url": "https://arxiv.org/abs/2608.09309",
+      "study_type": "Computational",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [
+        "2D materials"
+      ],
+      "material_families": [
+        "Other 2D / van der Waals materials"
+      ],
+      "exciton_properties": [],
+      "applications": [],
+      "methods": [
+        "Bethe–Salpeter equation"
+      ],
+      "matched_keywords": [
+        "bethe-salpeter",
+        "exciton",
+        "excitonic"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [],
+        "experimental_methods": {},
+        "computational_methods": {
+          "Bethe–Salpeter equation": [
+            "bethe-salpeter"
+          ]
+        },
+        "materials": {
+          "2D materials": [
+            "two-dimensional material"
+          ],
+          "Other 2D / van der Waals materials": [
+            "two-dimensional material",
+            "monolayer"
+          ]
+        },
+        "properties": {},
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": true
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2608.08923",
+      "version": "v1",
+      "versioned_id": "2608.08923v1",
+      "title": "Hyperbolic exciton-plasmon polaritons in MoS$_2$/MoOCl$_2$ van der Waals heterostructures",
+      "authors": [
+        "Rajveer Fandan",
+        "Jorge Pedrós"
+      ],
+      "abstract": "Polaritons formed by strong coupling between excitons and confined electromagnetic modes underpin emerging nanophotonic technologies, yet platforms based on isotropic metals or optical microcavities provide limited control over propagation direction. Here we predict that monolayer MoS$_2$ on the in-plane hyperbolic conductor MoOCl$_2$ supports hyperbolic exciton-plasmon polaritons governed by crystallographic direction, slab thickness, and hyperbolic mode order. Using an anisotropic transfer-matrix model coupled to a dissipative three-level Hamiltonian, we obtain wavevector-dependent anticrossings between the MoOCl$_2$ plasmons and the spin-orbit-split A and B excitons of MoS$_2$, yielding lower, middle, and upper polariton branches with coupling energies $g_A$ = 64.7 meV and $g_B$ = 61.2 meV. Rotating the in-plane wavevector tunes the plasmon-exciton detuning, while increasing the MoOCl$_2$ thickness activates higher-order hyperbolic Fabry-Pérot modes. Their coupling follows an approximate effective-mode-volume scaling. Strong coupling persists for excitonic linewidths up to 50 meV, with the normalised spectral-resolution ratio remaining above unity. These results establish MoS$_2$/MoOCl$_2$ as a lithography-free platform for directional and multimode exciton-plasmon polariton engineering in the visible spectral range.",
+      "submitted": "2026-08-09T21:29:16Z",
+      "updated": "2026-08-09T21:29:16Z",
+      "categories": [
+        "cond-mat.mes-hall"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2608.08923v1",
+      "arxiv_url": "https://arxiv.org/abs/2608.08923",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [
+        "2D materials"
+      ],
+      "material_families": [
+        "Other 2D / van der Waals materials"
+      ],
+      "exciton_properties": [
+        "Linewidth / dephasing"
+      ],
+      "applications": [
+        "Light–matter coupling"
+      ],
+      "methods": [
+        "Linewidth / fine structure"
+      ],
+      "matched_keywords": [
+        "exciton",
+        "excitonic",
+        "excitonic linewidth",
+        "linewidth",
+        "polariton"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [
+          "using"
+        ],
+        "experimental_methods": {
+          "Linewidth / fine structure": [
+            "excitonic linewidth",
+            "linewidth"
+          ]
+        },
+        "computational_methods": {},
+        "materials": {
+          "2D materials": [
+            "van der waals heterostructure"
+          ],
+          "Other 2D / van der Waals materials": [
+            "van der waals",
+            "monolayer"
+          ]
+        },
+        "properties": {
+          "Linewidth / dephasing": [
+            "excitonic linewidth",
+            "linewidth"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2608.08705",
+      "version": "v1",
+      "versioned_id": "2608.08705v1",
+      "title": "Interaction between Rydberg Excitons in Cuprous Oxide Revealed through Resonant Second Harmonic Generation",
+      "authors": [
+        "Andreas Farenbruch",
+        "Henje Stolz",
+        "Peter Grünwald",
+        "Dirk Semkat",
+        "Nikita Siverin",
+        "Dmitri R. Yakovlev",
+        "Dietmar Fröhlich",
+        "Manfred Bayer"
+      ],
+      "abstract": "We report experimental and theoretical investigations of interacting excitons of the yellow series in cuprous oxide (Cu$_2$O) with principal quantum numbers up to by means of second harmonic generation (SHG). Using picosecond pulsed laser excitation up to 10 GW/cm$^2$ peak intensity we observe a pronounced change of the spectra with increasing pump laser intensity: an energetic shift to lower absolute energies and a spectral broadening. The absolute intensities of the spectral lines scale for low powers with the square of the pump power, but saturates at higher powers. At still higher powers the SHG intensity is actually reduced. To explain these results quantitively, we developed a semi-classical theory of resonant SHG where the process of SHG is fully coherent. The excitons are assumed to be bosons interacting by a distance dependent potential giving rise to both the changes in spectral line shape and the saturation by a $\\it{Rydberg}$ blockade. The concomitant measurement of two-photon absorption allows to derive quantitative values for the exciton-exciton interaction. While the results agree in order of magnitude with those calculated by state-of-the art atomic-like van der Waals interaction theory, the scaling with principle quantum number is quite different. As a possible screening by an electron-hole plasma created by three-photon absorption into blue and violet band states could be ruled out, our results point toward fundamental differences between excitons and atoms.",
+      "submitted": "2026-08-09T13:39:05Z",
+      "updated": "2026-08-09T13:39:05Z",
+      "categories": [
+        "cond-mat.mes-hall",
+        "quant-ph"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2608.08705v1",
+      "arxiv_url": "https://arxiv.org/abs/2608.08705",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [],
+      "material_families": [
+        "Other 2D / van der Waals materials"
+      ],
+      "exciton_properties": [
+        "Many-exciton interactions"
+      ],
+      "applications": [],
+      "methods": [],
+      "matched_keywords": [
+        "exciton"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [
+          "we observe",
+          "we report"
+        ],
+        "computational_actions": [
+          "using"
+        ],
+        "experimental_methods": {},
+        "computational_methods": {},
+        "materials": {
+          "Other 2D / van der Waals materials": [
+            "van der waals"
+          ]
+        },
+        "properties": {
+          "Many-exciton interactions": [
+            "exciton-exciton"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2608.07912",
+      "version": "v1",
+      "versioned_id": "2608.07912v1",
+      "title": "Quantum tribology: acceleration-induced Stokes friction and Magnus force in correlated Bose fluids",
+      "authors": [
+        "V. M. Kovalev",
+        "A. N. Osipov",
+        "I. G. Savenko"
+      ],
+      "abstract": "The Landau criterion, a cornerstone of quantum fluid dynamics, dictates that dissipation is forbidden for uniform motion below a critical velocity. Yet, the fundamental question of how acceleration reshapes the principles of quantum friction has remained open since Landau and Pitaevskii's seminal works. Here, we establish a theoretical framework for the quantum tribology of non-inertial motion, describing a probe particle undergoing composite translation and rotation within a weakly interacting Bose condensate. Using the nonlinear Gross-Pitaevskii equation, we show that centripetal acceleration fundamentally modifies the energy-momentum constraints on elementary excitations. This leads to a finite drag force in the subsonic regime of the probe particle motion, and a characteristic quantum stick-slip behaviour in the deeply supersonic regime -- a direct generalization of the classical Landau-Pitaevskii picture. Beyond this dissipative response, we uncover a fundamentally distinct mechanism: the nonlinearity of the quantum fluid, combined with the broken symmetry of the trajectory, gives rise to a non-dissipative anomalous transverse force. This quantum Magnus-like response, emerging from the second-order density perturbation, performs no work and is rooted in the geometric asymmetry of the dynamically induced flow. Our findings lay the foundation for a universal program in quantum tribology of accelerated motion, establishing a direct and experimentally testable connection among non-inertial dynamics, nonlinear response, and topological symmetry breaking across platforms ranging from ultracold atoms and exciton-polariton condensates to cosmological analog systems.",
+      "submitted": "2026-08-08T04:32:00Z",
+      "updated": "2026-08-08T04:32:00Z",
+      "categories": [
+        "cond-mat.quant-gas",
+        "cond-mat.mes-hall"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2608.07912v1",
+      "arxiv_url": "https://arxiv.org/abs/2608.07912",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [],
+      "material_families": [],
+      "exciton_properties": [
+        "Light-matter strong coupling"
+      ],
+      "applications": [
+        "Exciton polaritons"
+      ],
+      "methods": [],
+      "matched_keywords": [
+        "exciton",
+        "polariton"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [
+          "experimentally"
+        ],
+        "computational_actions": [
+          "using"
+        ],
+        "experimental_methods": {},
+        "computational_methods": {},
+        "materials": {},
+        "properties": {
+          "Light-matter strong coupling": [
+            "exciton-polariton"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2608.07748",
+      "version": "v1",
+      "versioned_id": "2608.07748v1",
+      "title": "Probing intermittent polariton vortex dynamics with two-point correlations",
+      "authors": [
+        "R. Cherbunin",
+        "A. Liubomirov",
+        "P. Kozhevin",
+        "M. Chukeev",
+        "M. Petrov",
+        "S. Kavokina",
+        "A. Nalitov",
+        "A. Kavokin"
+      ],
+      "abstract": "Superconducting single-photon detectors with time resolution of 80 ps have been used to study the spatiotemporal dynamics of a trapped bosonic condensate of exciton-polaritons. Both second- and first-order correlation functions are found to exhibit pronounced oscillations in time governed by the dynamics of the polariton condensate in the trap. We have identified the intermittent regime of stochastic transitions between stationary and limit-cycle regimes near the Andronov-Hopf bifurcation manifested in asymmetric distortions of the correlation function. This rich interplay of deterministic and stochastic condensate dynamics is explained theoretically as a manifestation of mutually compensating self-repulsion and reservoir-mediated attraction.",
+      "submitted": "2026-08-07T20:27:25Z",
+      "updated": "2026-08-07T20:27:25Z",
+      "categories": [
+        "cond-mat.mes-hall"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2608.07748v1",
+      "arxiv_url": "https://arxiv.org/abs/2608.07748",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [],
+      "material_families": [],
+      "exciton_properties": [
+        "Light-matter strong coupling"
+      ],
+      "applications": [
+        "Exciton polaritons"
+      ],
+      "methods": [],
+      "matched_keywords": [
+        "exciton",
+        "polariton"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [],
+        "experimental_methods": {},
+        "computational_methods": {},
+        "materials": {},
+        "properties": {
+          "Light-matter strong coupling": [
+            "exciton-polariton"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
     {
       "arxiv_id": "2608.07372",
       "version": "v1",
@@ -12852,11 +13330,20 @@
       "new": 1,
       "updated": 0,
       "total": 167
+    },
+    {
+      "scanned_at": "2026-08-11T04:51:22.958256+00:00",
+      "since": "2026-07-28",
+      "fetched": 39,
+      "classified": 39,
+      "new": 7,
+      "updated": 0,
+      "total": 174
     }
   ],
   "counts": {
-    "total": 167,
-    "new_this_scan": 1,
+    "total": 174,
+    "new_this_scan": 7,
     "updated_this_scan": 0
   }
 }
