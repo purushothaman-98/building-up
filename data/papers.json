@@ -1,7 +1,335 @@
 {
   "schema_version": 2,
-  "last_scan": "2026-08-12T05:16:09.544793+00:00",
+  "last_scan": "2026-08-13T05:19:47.054621+00:00",
   "papers": [
+    {
+      "arxiv_id": "2608.12105",
+      "version": "v1",
+      "versioned_id": "2608.12105v1",
+      "title": "Beam Routing through Excitons in Transition Metal Dichalcogenide Monolayers",
+      "authors": [
+        "Yonas Lebsir",
+        "Jacob Terndrup Heiden",
+        "Jorge Barcia Rodríguez",
+        "Maria Papadopoulou",
+        "Kenji Watanabe",
+        "Takashi Taniguchi",
+        "N. Asger Mortensen",
+        "Sergii Morozov",
+        "Nicolas Ubrig"
+      ],
+      "abstract": "Routing light at the nanoscale typically relies on nanostructured surfaces to imprint directionality on the emission. Using low-temperature, angle-resolved cathodoluminescence spectroscopy, we show that the intrinsic excitonic transitions of a semiconductor can themselves produce routed emission. We probe monolayers of WSe$_2$, MoSe$_2$, and MoTe$_2$ and resolve the excitonic species of monolayer WSe$_2$ -- the bright exciton, the trion, and the spin-forbidden dark exciton -- through their distinct angular emission profiles. While the in-plane transition dipoles of the bright exciton and trion radiate predominantly toward the surface normal, the out-of-plane dipole of the dark exciton, inaccessible under normal-incidence optical excitation, produces a directional emission channel at large angles. We further tune the balance between neutral and charged exciton emission through the local dielectric environment. Our results establish dark excitons in TMD monolayers as a platform for directional light emission in compact photonic architectures without additional nanostructuring.",
+      "submitted": "2026-08-12T14:26:42Z",
+      "updated": "2026-08-12T14:26:42Z",
+      "categories": [
+        "cond-mat.mtrl-sci",
+        "cond-mat.mes-hall",
+        "physics.optics"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2608.12105v1",
+      "arxiv_url": "https://arxiv.org/abs/2608.12105",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [
+        "transition-metal dichalcogenides"
+      ],
+      "material_families": [
+        "TMDs / 2D chalcogenides",
+        "Other 2D / van der Waals materials"
+      ],
+      "exciton_properties": [
+        "Fine structure / bright-dark splitting",
+        "Oscillator strength / optical activity"
+      ],
+      "applications": [],
+      "methods": [
+        "Oscillator strength"
+      ],
+      "matched_keywords": [
+        "exciton",
+        "excitonic",
+        "transition dipole"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [
+          "using"
+        ],
+        "experimental_methods": {},
+        "computational_methods": {
+          "Oscillator strength": [
+            "transition dipole"
+          ]
+        },
+        "materials": {
+          "transition-metal dichalcogenides": [
+            "transition metal dichalcogenide",
+            "tmd monolayer"
+          ],
+          "TMDs / 2D chalcogenides": [
+            "transition metal dichalcogenide"
+          ],
+          "Other 2D / van der Waals materials": [
+            "monolayer"
+          ]
+        },
+        "properties": {
+          "Fine structure / bright-dark splitting": [
+            "dark exciton",
+            "bright exciton"
+          ],
+          "Oscillator strength / optical activity": [
+            "transition dipole"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2608.11914",
+      "version": "v1",
+      "versioned_id": "2608.11914v1",
+      "title": "Resonant Raman signatures of bright and momentum-dark exciton coupled by intervalley phonon scattering in monolayer WSe2",
+      "authors": [
+        "Hendrik Lambers",
+        "Nihit Saigal",
+        "Lara Blinov",
+        "Jonas Kiemle",
+        "Alexander W. Holleitner",
+        "Ursula Wurstbauer"
+      ],
+      "abstract": "Exciton-phonon coupling in atomically thin transition metal dichalcogenides governs key processes such as exciton thermalization and intervalley scattering and remains challenging to access directly by optical spectroscopy. Here, we employ resonance Raman spectroscopy at cryogenic temperatures to probe exciton-phonon coupling in hBN-encapsulated WSe_2 monolayers. Tuning the excitation laser across the bright exciton X_KK resonance, we observe rich Raman spectra and focus on the resonance profile of the degenerate A_1'/E' optical phonon mode. The profile exhibits two asymmetric resonance peaks whose energetic separation significantly exceeds the phonon energy - a feature that cannot be explained by first-order Raman scattering alone. We demonstrate that this discrepancy is resolved by including third-order Raman scattering, in which intervalley scattering enabled by a finite-momentum phonon couples the bright exciton X_KK to a momentum-dark exciton X_d. Fitting the experimental resonance profiles of two independent samples with a model comprising coherent first- and third-order scattering yields consistent exciton energies and linewidths, with a momentum-dark exciton X_d approximately 45meV to 55meV below the bright exciton X_KK. The results indicate efficient bright-to-dark exciton coupling. Our findings provide a microscopic framework for understanding the anomalously bright emission spectra of WSe_2 monolayers despite its spin-forbidden lowest exciton transition and highlight the role of momentum-dark excitons in resonant light-matter interaction.",
+      "submitted": "2026-08-12T10:46:55Z",
+      "updated": "2026-08-12T10:46:55Z",
+      "categories": [
+        "cond-mat.mtrl-sci"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2608.11914v1",
+      "arxiv_url": "https://arxiv.org/abs/2608.11914",
+      "study_type": "Experimental",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [
+        "WSe2",
+        "hBN",
+        "transition-metal dichalcogenides"
+      ],
+      "material_families": [
+        "TMDs / 2D chalcogenides",
+        "Other 2D / van der Waals materials"
+      ],
+      "exciton_properties": [
+        "Linewidth / dephasing",
+        "Fine structure / bright-dark splitting",
+        "Exciton-phonon coupling"
+      ],
+      "applications": [],
+      "methods": [
+        "Raman spectroscopy",
+        "Linewidth / fine structure"
+      ],
+      "matched_keywords": [
+        "exciton",
+        "linewidth",
+        "raman scattering",
+        "raman spectroscopy"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [
+          "we observe",
+          "we employ"
+        ],
+        "computational_actions": [
+          "we employ"
+        ],
+        "experimental_methods": {
+          "Raman spectroscopy": [
+            "raman spectroscopy",
+            "raman scattering"
+          ],
+          "Linewidth / fine structure": [
+            "linewidth"
+          ]
+        },
+        "computational_methods": {},
+        "materials": {
+          "WSe2": [
+            "wse2"
+          ],
+          "hBN": [
+            "hbn"
+          ],
+          "transition-metal dichalcogenides": [
+            "transition metal dichalcogenide"
+          ],
+          "TMDs / 2D chalcogenides": [
+            "transition metal dichalcogenide",
+            "wse2"
+          ],
+          "Other 2D / van der Waals materials": [
+            "monolayer",
+            "hbn"
+          ]
+        },
+        "properties": {
+          "Linewidth / dephasing": [
+            "linewidth"
+          ],
+          "Fine structure / bright-dark splitting": [
+            "dark exciton",
+            "bright exciton"
+          ],
+          "Exciton-phonon coupling": [
+            "exciton-phonon"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": true,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2608.11778",
+      "version": "v1",
+      "versioned_id": "2608.11778v1",
+      "title": "Aggregation-engineered loss-tolerant strong coupling in metallic microcavities",
+      "authors": [
+        "Andrea Betti",
+        "Eleonora Cara",
+        "Giulia Serrano",
+        "Lorenzo Poggini",
+        "Alessia Valzelli",
+        "Natascia De Leo",
+        "Paolo Bartolini",
+        "Andrea Taschin",
+        "Renato Torre",
+        "Alice Boschetti"
+      ],
+      "abstract": "Room-temperature strong coupling in organic microcavities is usually achieved by combining high-quality optical resonators with highly ordered excitonic media, a requirement that limits scalability and processing flexibility. Here we show that this constraint can be relaxed by using molecular aggregation as a design parameter rather than treating it as a parasitic effect. We realize solution-processed Rhodamine 6G-poly(vinyl alcohol) films embedded in low-quality-factor silver Fabry-Perot microcavities and demonstrate clear angle-resolved anticrossing with coupling energies up to 324 meV despite the large optical losses of the metallic mirrors. A two-exciton coupled-oscillator model shows that the relative weight of these species controls the collective coupling strength and can be tuned through dye loading and spin-coating conditions. In contrast, angle-resolved photoluminescence is dominated by a broad, red-shifted lower-polariton emission, consistent with relaxation through excimer-like states formed in densely packed molecular domains. These results identify molecular aggregation as a practical design lever for loss-tolerant strong coupling in wet-processed metallic cavities and suggest that ground-state aggregates and excited-state excimer-like species play distinct roles in polariton formation and emission.",
+      "submitted": "2026-08-12T08:20:36Z",
+      "updated": "2026-08-12T08:20:36Z",
+      "categories": [
+        "physics.optics",
+        "cond-mat.mtrl-sci",
+        "cond-mat.soft"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2608.11778v1",
+      "arxiv_url": "https://arxiv.org/abs/2608.11778",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [],
+      "material_families": [],
+      "exciton_properties": [],
+      "applications": [
+        "Light–matter coupling"
+      ],
+      "methods": [
+        "Photoluminescence"
+      ],
+      "matched_keywords": [
+        "exciton",
+        "excitonic",
+        "photoluminescence",
+        "polariton"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [
+          "using"
+        ],
+        "experimental_methods": {
+          "Photoluminescence": [
+            "photoluminescence"
+          ]
+        },
+        "computational_methods": {},
+        "materials": {},
+        "properties": {},
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2608.11740",
+      "version": "v1",
+      "versioned_id": "2608.11740v1",
+      "title": "Magnetic noise of a dark exciton Bose-Einstein condensate",
+      "authors": [
+        "Pieter M. Gunnink"
+      ],
+      "abstract": "Excitons provide a promising platform for the realization of solid-state Bose-Einstein condensation (BEC), offering quantum coherence, strongly correlated electron-hole physics, and superfluidity. Yet, its unambiguous experimental identification remains challenging. In particular, $S_z= \\pm 1$ triplet excitons are excellent candidates to realize an exciton BEC, because of their intrinsically limited recombination rate and thus long lifetimes. However, since their optical detection is inherently forbidden, experimental signatures remain elusive. In this work, we demonstrate that the magnetic nature of a $S_z= \\pm 1$ triplet exciton BEC gives rise to stray magnetic field noise, that can be measured using nitrogen-vacancy (NV) center magnetometry. Using an external magnetic field to tune the system from an antiferromagnetic to a ferromagnetic ordering, the longitudinal spin sound mode of the BEC softens, bringing the mode into the characteristic gigahertz frequency range of the NV spin relaxation rate and thus allowing direct detection. Furthermore, we demonstrate an unconventional UV scaling at small distances $d$ from the sample, owing to the cubic corrections to the sound mode dispersion and damping rate in the form of Beliaev damping. Through this approach, we establish that the spin component of exciton BECs offers new approaches to detect exciton BECs.",
+      "submitted": "2026-08-12T07:27:27Z",
+      "updated": "2026-08-12T07:27:27Z",
+      "categories": [
+        "cond-mat.mes-hall",
+        "cond-mat.quant-gas"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2608.11740v1",
+      "arxiv_url": "https://arxiv.org/abs/2608.11740",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [],
+      "material_families": [],
+      "exciton_properties": [
+        "Fine structure / bright-dark splitting"
+      ],
+      "applications": [],
+      "methods": [],
+      "matched_keywords": [
+        "exciton"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [
+          "using"
+        ],
+        "experimental_methods": {},
+        "computational_methods": {},
+        "materials": {},
+        "properties": {
+          "Fine structure / bright-dark splitting": [
+            "dark exciton"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
     {
       "arxiv_id": "2608.10895",
       "version": "v1",
@@ -13640,10 +13968,19 @@
       "new": 4,
       "updated": 0,
       "total": 178
+    },
+    {
+      "scanned_at": "2026-08-13T05:19:47.054621+00:00",
+      "since": "2026-07-30",
+      "fetched": 43,
+      "classified": 43,
+      "new": 4,
+      "updated": 0,
+      "total": 182
     }
   ],
   "counts": {
-    "total": 178,
+    "total": 182,
     "new_this_scan": 4,
     "updated_this_scan": 0
   }
