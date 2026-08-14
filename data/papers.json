@@ -1,7 +1,95 @@
 {
   "schema_version": 2,
-  "last_scan": "2026-08-13T05:19:47.054621+00:00",
+  "last_scan": "2026-08-14T05:17:41.740712+00:00",
   "papers": [
+    {
+      "arxiv_id": "2608.13093",
+      "version": "v1",
+      "versioned_id": "2608.13093v1",
+      "title": "Giant exciton effects and magneto-excitonic coupling in V4S9X4 2D magnetic semiconductors",
+      "authors": [
+        "Yingjie Wei",
+        "Fan Zhang",
+        "Ying Zhao",
+        "Lixin Zhou",
+        "Yan Su",
+        "Yu Guo",
+        "Jijun Zhao"
+      ],
+      "abstract": "Room-temperature spin-optoelectronic devices require a combination of robust ferromagnetism and giant exciton binding, a pairing mutually exclusive in conventional semiconductors due to magnetic localization that screens excitons. Cluster-assembled V4S9X4 (X = F, Cl, Br and I) monolayers overcome this bottleneck via a hierarchical design, that is, intra-cluster localized states host both local magnetic moments and strong electron-hole interactions, while inter-cluster coupling mediates long-range ferromagnetism. Remarkably, these two-dimensional semiconductors exhibit intrinsic ferromagnetism with Curie temperature up to 507.6 K. As a prototype, V4S9Br4 monolayer possesses a giant exciton binding energy of 1.85 eV. Its lowest exciton is a dark state (DI) with a radiative lifetime of 1.20 ns, whereas the first bright exciton (BI) exhibits an ultrafast radiative decay of 86.87 ps. This stark lifetime contrast enables simultaneous ultrafast optical response and long-lived spin information storage. Most notably, switching between ferromagnetic and antiferromagnetic order allows for wide-range tuning of exciton lifetime, with the giant binding energy remaining nearly intact. Our findings establish cluster assembly as a powerful paradigm for designing next-generation spin-photonic and quantum information devices operating at room temperature.",
+      "submitted": "2026-08-13T11:00:47Z",
+      "updated": "2026-08-13T11:00:47Z",
+      "categories": [
+        "cond-mat.mtrl-sci",
+        "physics.comp-ph"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2608.13093v1",
+      "arxiv_url": "https://arxiv.org/abs/2608.13093",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [],
+      "material_families": [
+        "Other 2D / van der Waals materials"
+      ],
+      "exciton_properties": [
+        "Binding energy",
+        "Lifetime / relaxation",
+        "Fine structure / bright-dark splitting"
+      ],
+      "applications": [],
+      "methods": [
+        "Exciton lifetime / dynamics",
+        "Exciton binding energy"
+      ],
+      "matched_keywords": [
+        "exciton",
+        "exciton binding energy",
+        "exciton lifetime",
+        "excitonic"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [],
+        "experimental_methods": {
+          "Exciton lifetime / dynamics": [
+            "exciton lifetime"
+          ]
+        },
+        "computational_methods": {
+          "Exciton binding energy": [
+            "exciton binding energy"
+          ]
+        },
+        "materials": {
+          "Other 2D / van der Waals materials": [
+            "monolayer"
+          ]
+        },
+        "properties": {
+          "Binding energy": [
+            "exciton binding energy"
+          ],
+          "Lifetime / relaxation": [
+            "exciton lifetime",
+            "radiative lifetime"
+          ],
+          "Fine structure / bright-dark splitting": [
+            "bright exciton"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
     {
       "arxiv_id": "2608.12105",
       "version": "v1",
@@ -13977,11 +14065,20 @@
       "new": 4,
       "updated": 0,
       "total": 182
+    },
+    {
+      "scanned_at": "2026-08-14T05:17:41.740712+00:00",
+      "since": "2026-07-31",
+      "fetched": 40,
+      "classified": 40,
+      "new": 1,
+      "updated": 0,
+      "total": 183
     }
   ],
   "counts": {
-    "total": 182,
-    "new_this_scan": 4,
+    "total": 183,
+    "new_this_scan": 1,
     "updated_this_scan": 0
   }
 }
