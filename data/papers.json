@@ -1,7 +1,206 @@
 {
   "schema_version": 2,
-  "last_scan": "2026-08-16T04:12:04.776326+00:00",
+  "last_scan": "2026-08-17T04:21:46.263397+00:00",
   "papers": [
+    {
+      "arxiv_id": "2608.14302",
+      "version": "v1",
+      "versioned_id": "2608.14302v1",
+      "title": "Pressure-driven structural phase transition unlocks multifunctionality in KMgX (X = P, As, Sb, and Bi) compounds: A first-principles study",
+      "authors": [
+        "Chetna Saini",
+        "Neha Sadanandan",
+        "Tashi Nautiyal",
+        "Hongbin Zhang",
+        "Vikrant Chaudhary",
+        "Hem C. Kandpal"
+      ],
+      "abstract": "The search for materials with multifunctional properties has attracted significant attention due to their potential applications in various energy-related devices. Pressure-induced phase transitions provide an effective strategy for accessing different structural phases of a material without altering its chemical composition, thereby enabling the tuning of its physical properties and expanding its functional applications. In this work, we investigate the previously unexplored orthorhombic (Pnma) phase of the KMgX (X = P, As, Sb, and Bi) family using first-principles calculations and identify a pressure-induced structural transition from a tetragonal to orthorhombic phase. Stability of the pressure-accessible orthorhombic structure is rigorously confirmed by equation of state analysis together with phonon, elastic, and formation-enthalpy calculations, establishing its viability for further investigation. Optical properties calculated within the $G_0W_0$-Bethe-Salpeter equation (BSE) framework, incorporating quasiparticle corrections and excitonic effects, exhibit direct dipole-allowed transitions at the $Γ$ point and strong visible-light absorption with coefficients approaching $10^5~\\text{cm}^{-1}$. Consequently, KMgAs and KMgSb achieve spectroscopic limited maximum efficiencies (SLME) of $27.12\\%$ and $26.40\\%$, respectively, at a thin-film thickness of $0.6~μ\\text{m}$. Furthermore, thermoelectric transport calculations predict (zT) values of 0.65 and 0.58 at $900~\\text{K}$ for p-type and n-type KMgSb, respectively, demonstrating its potential for both legs of thermoelectric devices. These values are likely conservative, as the Slack model tends to overestimate thermal conductivity. Overall, the pressure-accessible orthorhombic phase of the KMgX family emerges as a stable multifunctional semiconductor with coupled photovoltaic and thermoelectric energy-conversion capabilities.",
+      "submitted": "2026-08-14T13:33:12Z",
+      "updated": "2026-08-14T13:33:12Z",
+      "categories": [
+        "cond-mat.mtrl-sci"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2608.14302v1",
+      "arxiv_url": "https://arxiv.org/abs/2608.14302",
+      "study_type": "Computational",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [],
+      "material_families": [],
+      "exciton_properties": [],
+      "applications": [
+        "Photovoltaics"
+      ],
+      "methods": [
+        "DFT",
+        "Bethe–Salpeter equation"
+      ],
+      "matched_keywords": [
+        "bethe-salpeter",
+        "exciton",
+        "excitonic",
+        "first-principles"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [
+          "using",
+          "first-principles calculations"
+        ],
+        "experimental_methods": {},
+        "computational_methods": {
+          "DFT": [
+            "first-principles"
+          ],
+          "Bethe–Salpeter equation": [
+            "bethe-salpeter"
+          ]
+        },
+        "materials": {},
+        "properties": {},
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": true
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2608.14100",
+      "version": "v1",
+      "versioned_id": "2608.14100v1",
+      "title": "Sharp Coherence Crossover and Multimode Phase Control in Coupled Exciton-Polariton Condensates",
+      "authors": [
+        "R. V. Cherbunin",
+        "A. D. Liubomirov",
+        "M. A. Chukeev",
+        "E. S. Sedov",
+        "A. V. Kavokin"
+      ],
+      "abstract": "We investigate the formation of mutual coherence and deterministic phase control in a multimode exciton-polariton system realized in two optically induced traps with tunable intertrap coupling. As the coupling channel between the traps is progressively opened, the mutual first-order coherence rises sharply from nearly zero to values close to unity, revealing a threshold-like crossover from weakly correlated to highly coherent dynamics. We demonstrate deterministic multimode phase control with a short spatially localized nonresonant pulse, which allows the phase relations between selected polariton condensate modes to be set while keeping their amplitudes nearly unchanged. The induced phase transformation is read out directly from time-resolved interferograms and realized for different sets of modes in both intermediate- and high-coherence regimes. Within a reduced four-mode description, the control pulse implements an effective phase operator on the coherent multimode field with a fidelity exceeding 0.995. The same approach can be extended to larger networks of coupled traps, offering a route to optical control over phase relations in increasingly complex multimode polariton states.",
+      "submitted": "2026-08-14T09:01:58Z",
+      "updated": "2026-08-14T09:01:58Z",
+      "categories": [
+        "physics.optics",
+        "cond-mat.other"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2608.14100v1",
+      "arxiv_url": "https://arxiv.org/abs/2608.14100",
+      "study_type": "Experimental",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [],
+      "material_families": [],
+      "exciton_properties": [
+        "Light-matter strong coupling"
+      ],
+      "applications": [
+        "Exciton polaritons"
+      ],
+      "methods": [
+        "Time-resolved spectroscopy"
+      ],
+      "matched_keywords": [
+        "exciton",
+        "polariton",
+        "time-resolved"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [],
+        "experimental_methods": {
+          "Time-resolved spectroscopy": [
+            "time-resolved"
+          ]
+        },
+        "computational_methods": {},
+        "materials": {},
+        "properties": {
+          "Light-matter strong coupling": [
+            "exciton-polariton"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": true,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2608.13785",
+      "version": "v1",
+      "versioned_id": "2608.13785v1",
+      "title": "Collective Excitonic Entanglement in Singlet Fission",
+      "authors": [
+        "Lillian I. Payne",
+        "David A. Mazziotti"
+      ],
+      "abstract": "Singlet fission, the conversion of one singlet exciton into two triplet excitons, has the potential to revolutionize solar energy production by boosting the efficiency of solar cells beyond the Shockley-Queisser limit. However, the practical realization of singlet fission remains an outstanding challenge, and its underlying mechanisms have long been debated. Here we show that singlet fission arises from a distinctive type of collective excitonic entanglement in which the excitons condense into a single particle-hole mode, the same principle that leads to the Bose-Einstein condensation of excitons. Quantitatively, this condensation appears as a large eigenvalue of the particle-hole reduced density matrix (RDM), representing multiple excitons occupying a collective mode. We utilize the particle-hole RDM to capture the intrinsic particle-hole correlations in singlet fission materials including acene crystals and covalently linked pentacene dimers, revealing how structural changes control singlet fission mechanisms and modulate the contributions of charge transfer states. The same characteristic enhancement of excitonic population in a single mode is common to the onset of exciton condensation and the mechanism of photosynthetic energy transfer. Together, our results establish a unifying framework for understanding the origins of singlet fission in terms of collective excitonic entanglement.",
+      "submitted": "2026-08-13T21:33:19Z",
+      "updated": "2026-08-13T21:33:19Z",
+      "categories": [
+        "physics.chem-ph"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2608.13785v1",
+      "arxiv_url": "https://arxiv.org/abs/2608.13785",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [],
+      "material_families": [
+        "Biological / light-harvesting systems"
+      ],
+      "exciton_properties": [
+        "Transport / diffusion"
+      ],
+      "applications": [
+        "Photosynthesis",
+        "Photovoltaics"
+      ],
+      "methods": [],
+      "matched_keywords": [
+        "exciton",
+        "excitonic"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [],
+        "experimental_methods": {},
+        "computational_methods": {},
+        "materials": {
+          "Biological / light-harvesting systems": [
+            "photosynthetic"
+          ]
+        },
+        "properties": {
+          "Transport / diffusion": [
+            "energy transfer"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
     {
       "arxiv_id": "2608.13093",
       "version": "v1",
@@ -14092,11 +14291,20 @@
       "new": 0,
       "updated": 0,
       "total": 183
+    },
+    {
+      "scanned_at": "2026-08-17T04:21:46.263397+00:00",
+      "since": "2026-08-03",
+      "fetched": 41,
+      "classified": 41,
+      "new": 3,
+      "updated": 0,
+      "total": 186
     }
   ],
   "counts": {
-    "total": 183,
-    "new_this_scan": 0,
+    "total": 186,
+    "new_this_scan": 3,
     "updated_this_scan": 0
   }
 }
