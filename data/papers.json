@@ -1,7 +1,489 @@
 {
   "schema_version": 2,
-  "last_scan": "2026-08-17T04:21:46.263397+00:00",
+  "last_scan": "2026-08-18T04:17:12.568628+00:00",
   "papers": [
+    {
+      "arxiv_id": "2608.16751",
+      "version": "v1",
+      "versioned_id": "2608.16751v1",
+      "title": "Classical Mechanics Exactly Yields the Full Bound-State Spectrum of the Two-Dimensional Coulomb Problem",
+      "authors": [
+        "Gang Zheng",
+        "Wenqi Xue",
+        "Mengli Wang",
+        "Peng Chen",
+        "Benniu Zhang"
+      ],
+      "abstract": "High-lying Rydberg excitons in two-dimensional semiconductors universally exhibit a characteristic odd-integer energy scaling distinct from three-dimensional systems. While this hallmark of two-dimensional Coulomb interaction is well known from quantum mechanical solutions, its deeper classical geometric origin remains unclarified. Here we show that the complete bound-state spectral structure of the two-dimensional Coulomb problem---a central model for two-dimensional exciton physics---follows as an exact theorem from classical mechanics augmented by a single phase-scale parameter $α$ with dimensions of action. We derive an amplitude-closure criterion as a necessary and sufficient condition for a classical propagator kernel to satisfy a linear evolution equation, and demonstrate that the singular Coulomb potential can be mapped shell-by-shell via Levi-Civita regularization into the class of quadratic Hamiltonians that obey this criterion exactly. The resulting spectrum bears odd-integer modal numbers, $1/N^2$ energy ratios and $N$-fold degeneracies, all independent of $α$ and consistent with experimental observations of high-lying Rydberg excitons. This work provides a pure classical-geometry benchmark for two-dimensional exciton spectral analysis, allowing quantitative disentanglement of universal Coulomb effects from material-specific screening effects. No semiclassical, short-wavelength or $\\hbar \\to 0$ approximation is invoked at any stage. Our results invert the usual logical hierarchy for this integrable system: the wave equation emerges as a representation of the underlying classical geometry, rather than as an independent first principle.",
+      "submitted": "2026-08-17T15:59:09Z",
+      "updated": "2026-08-17T15:59:09Z",
+      "categories": [
+        "cond-mat.mes-hall"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2608.16751v1",
+      "arxiv_url": "https://arxiv.org/abs/2608.16751",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Dataset / benchmark",
+      "materials": [],
+      "material_families": [],
+      "exciton_properties": [],
+      "applications": [],
+      "methods": [],
+      "matched_keywords": [
+        "exciton"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [],
+        "experimental_methods": {},
+        "computational_methods": {},
+        "materials": {},
+        "properties": {},
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2608.16505",
+      "version": "v1",
+      "versioned_id": "2608.16505v1",
+      "title": "Plexciton-mediated Raman scattering in strongly coupled systems",
+      "authors": [
+        "Danyang Liu",
+        "Meijuan Sun",
+        "Li Chen",
+        "Hao Shen"
+      ],
+      "abstract": "A series of experimental results demonstrate a distinctive Raman response in plasmon-exciton coupled systems. The enhancement of Raman scattering varies for different phonon modes. We describe the microscopic dynamical process of this Raman scattering using quantum many-body theory. Unlike conventional Raman scattering involving electron-phonon interactions, the process in plasmon-exciton coupled systems is characterized by inelastic scattering between phonons and plasmon-exciton polaritons-formed through the coupling of plasmons and excitons-acting as intermediate states. We derive analytical expressions for the Raman intensity and enhancement factors for various phonon modes, which show excellent agreement with experimental data. Furthermore, experimental fittings indicate a substantial disparity in the linewidths of the upper and lower polariton branches, for which we provide a comprehensive theoretical explanation. Based on linear response theory, we propose a microscopic mechanism for the formation of plasmon-exciton polaritons, enabling the analytical calculation of their dispersions and linewidths. This approach naturally accounts for the significantly asymmetry observed in the linewidths of the upper and lower polariton branches. By characterizing the polariton-phonon scattering process at the quantum level, we reveal the fundamental physical mechanism driving polariton-enhanced Raman scattering. Our work establishes a universal framework for describing the dynamical evolution of coupled systems, providing a versatile paradigm for exploring the interactions between plasmons and other quasiparticles.",
+      "submitted": "2026-08-17T12:43:43Z",
+      "updated": "2026-08-17T12:43:43Z",
+      "categories": [
+        "cond-mat.mes-hall"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2608.16505v1",
+      "arxiv_url": "https://arxiv.org/abs/2608.16505",
+      "study_type": "Experimental",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [],
+      "material_families": [],
+      "exciton_properties": [
+        "Linewidth / dephasing",
+        "Light-matter strong coupling"
+      ],
+      "applications": [
+        "Exciton polaritons"
+      ],
+      "methods": [
+        "Raman spectroscopy",
+        "Linewidth / fine structure"
+      ],
+      "matched_keywords": [
+        "exciton",
+        "linewidth",
+        "polariton",
+        "raman scattering"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [
+          "experimental results"
+        ],
+        "computational_actions": [
+          "using"
+        ],
+        "experimental_methods": {
+          "Raman spectroscopy": [
+            "raman scattering"
+          ],
+          "Linewidth / fine structure": [
+            "linewidth"
+          ]
+        },
+        "computational_methods": {},
+        "materials": {},
+        "properties": {
+          "Linewidth / dephasing": [
+            "linewidth"
+          ],
+          "Light-matter strong coupling": [
+            "exciton polariton"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": true,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2608.16427",
+      "version": "v1",
+      "versioned_id": "2608.16427v1",
+      "title": "Stability and optoelectronic properties of oligothiophene molecules confined in boron-nitride nanotubes : A many-body theoretical approach",
+      "authors": [
+        "Xavier Blase",
+        "Mauricio Rodriguez-Mayorga",
+        "Ivan Duchemin"
+      ],
+      "abstract": "We investigate the structural and optoelectronic properties of oligothiophene (nT) molecules encapsulated in boron-nitride (BN) nanotubes using density functional theory, many-body GW and Bethe-Salpeter equation approaches. We show that the binding energy is maximized for tube diameters of approximately 10 Å, decreasing gradually for larger diameters. The nT molecules can slide along the tube with a corrugation potential smaller than room temperature thermal energy, promoting their head-to-tail aggregation. Regarding the electronic properties, we find that hybridization with the tube electronic states has a much smaller effect than that of screening, which can close the nT photoemission gap by as much as an eV. A simple model for the polarization of the BN tube demonstrates how these polarization effects decrease with increasing nT molecule length and BN tube diameter. Compared to the gas phase optical properties, structural relaxation, hybridization, and screening can redshift the absorption onset by up to 250 meV for isolated intercalated nTs. Additionally, the study of a head-to-tail sexithiophene dimer reveals an exciton-exciton interaction that splits the absorption onset into a lowest bright exciton, separated by approximately 75 meV from a dark peak. This suggests possible collective effects upon the formation of nT chains inside BN tubes. Our results confirm and clarify experimental data, mitigating the conclusion that insulating BN tubes just act as a protecting environment for encapsulated molecules.",
+      "submitted": "2026-08-17T11:27:32Z",
+      "updated": "2026-08-17T11:27:32Z",
+      "categories": [
+        "cond-mat.mes-hall",
+        "physics.comp-ph"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2608.16427v1",
+      "arxiv_url": "https://arxiv.org/abs/2608.16427",
+      "study_type": "Computational",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [],
+      "material_families": [],
+      "exciton_properties": [
+        "Fine structure / bright-dark splitting",
+        "Many-exciton interactions"
+      ],
+      "applications": [],
+      "methods": [
+        "DFT",
+        "Bethe–Salpeter equation"
+      ],
+      "matched_keywords": [
+        "bethe-salpeter",
+        "density functional theory",
+        "exciton"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [
+          "using"
+        ],
+        "experimental_methods": {},
+        "computational_methods": {
+          "DFT": [
+            "density functional theory"
+          ],
+          "Bethe–Salpeter equation": [
+            "bethe-salpeter"
+          ]
+        },
+        "materials": {},
+        "properties": {
+          "Fine structure / bright-dark splitting": [
+            "bright exciton"
+          ],
+          "Many-exciton interactions": [
+            "exciton-exciton"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": true
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2608.16413",
+      "version": "v1",
+      "versioned_id": "2608.16413v1",
+      "title": "Tuning electronic properties and Schottky contact in graphene-based van der Waals heterostructures by electric gating and interlayer coupling",
+      "authors": [
+        "Poonam Sharma",
+        "Archana Sharma",
+        "Alok Shukla"
+      ],
+      "abstract": "Van der Waals heterostructures (vdW HTSs) incorporating graphene (GE) have been an active area of research, both theoretical and experimental, due to their potential to yield devices with a wide variety of applications. In this paper, first-principles calculations are employed to investigate C$_{6}$N$_{6}$/GE, hg-C$_{3}$N$_{4}$/GE, and C$_{6}$N$_{6}$/hg-C$_{3}$N$_{4}$ 2D vdW HTSs. A systematic analysis of structural and thermodynamic stability, electronic, mechanical, and optical properties of semiconductor/metal and semiconductor/semiconductor interfaces is performed. Both semiconductor/metal HTSs form $n$-type Schottky contacts, which can be converted into $p$-type Schottky or Ohmic contacts by tuning the external perpendicular electric field and the interlayer coupling. In the semiconductor/semiconductor C$_{6}$N$_{6}$/hg-C$_{3}$N$_{4}$ HTS, the valence and conduction band edges originate from distinct layers, resulting in a type-II band alignment that promotes efficient electron-hole (e-h) separation. Furthermore, the band alignment can be effectively tuned between type-I and type-II by applying an external electric field and varying the interlayer distance. From the optical absorption spectra of the HTSs, we concluded that the C$_{6}$N$_{6}$/GE and hg-C$_{3}$N$_{4}$/GE exhibit an optical response across a wide frequency range, whereas the C$_{6}$N$_{6}$/hg-C$_{3}$N$_{4}$ HTS shows prominent activity primarily in the ultraviolet region. Using the $G_{0}W_{0}$+BSE approach, the exciton binding energies are also calculated for the gapped systems, namely C$_{6}$N$_{6}$, hg-C$_{3}$N$_{4}$ monolayers, and their HTS (C$_{6}$N$_{6}$/hg-C$_{3}$N$_{4}$), yielding values of 1.01 eV, 1.14 eV, and 1.18 eV, respectively, highlighting strong e-h interactions. Moreover, the band-edge analysis of C$_{6}$N$_{6}$/hg-C$_{3}$N$_{4}$ HTS further favors pronounced interlayer e-h coupling.",
+      "submitted": "2026-08-17T11:08:38Z",
+      "updated": "2026-08-17T11:08:38Z",
+      "categories": [
+        "cond-mat.mtrl-sci"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2608.16413v1",
+      "arxiv_url": "https://arxiv.org/abs/2608.16413",
+      "study_type": "Computational",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [
+        "2D materials"
+      ],
+      "material_families": [
+        "Other 2D / van der Waals materials"
+      ],
+      "exciton_properties": [
+        "Binding energy"
+      ],
+      "applications": [],
+      "methods": [
+        "Absorption / reflectance",
+        "DFT"
+      ],
+      "matched_keywords": [
+        "absorption spectra",
+        "exciton",
+        "first-principles"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [
+          "using",
+          "first-principles calculations"
+        ],
+        "experimental_methods": {
+          "Absorption / reflectance": [
+            "absorption spectra"
+          ]
+        },
+        "computational_methods": {
+          "DFT": [
+            "first-principles"
+          ]
+        },
+        "materials": {
+          "2D materials": [
+            "van der waals heterostructure"
+          ],
+          "Other 2D / van der Waals materials": [
+            "van der waals",
+            "monolayer"
+          ]
+        },
+        "properties": {
+          "Binding energy": [
+            "binding energies"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": true
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2608.16226",
+      "version": "v1",
+      "versioned_id": "2608.16226v1",
+      "title": "Efficient nonequilibrium electron dynamics from first-principles: leveraging Koopmans spectral functionals and Wannier localization",
+      "authors": [
+        "Giovanni Cistaro",
+        "Miguel Sá",
+        "Davide Sangalli",
+        "Antonio Picón",
+        "Nicola Colonna"
+      ],
+      "abstract": "We present an efficient first-principles approach for simulating the nonequilibrium electron dynamics in extended systems beyond the linear regime. The method combines Koopmans-compliant functionals, which provide an accurate quasiparticle band structures, with the real-time evolution of the electronic density matrix in a Wannier basis within the Hartree plus screened exchange (HSEX) approximation. The locality of the orbital basis enables physically motivated approximations that significantly reduce both the computational cost and memory requirements while preserving accuracy. The screened Coulomb interaction, the central ingredient of the HSEX self-energy, is computed efficiently using density-functional perturbation theory. We benchmark the approach in the linear regime against experimental spectra and reference Green's function calculations for systems featuring both weakly and strongly bound excitons. Moving to the nonlinear regime, we investigate high-harmonic generation (HHG) in silicon and lithium fluoride. While in silicon the HHG spectrum is largely governed by the quasiparticle band structure, in LiF, a material featuring strong excitonics effect, the harmonic emission is selectively enhanced at excitonic resonances, suggesting that HHG probes correlated electron-hole excitations rather than solely the quasiparticle band structure. The present framework enables fully \\textit{ab-initio} simulations of excitonic effects in nonlinear optical spectra at a significantly reduced computational cost compared to real-time Green's function approaches, providing an efficient route to the study of ultrafast and strong-field phenomena in solids.",
+      "submitted": "2026-08-17T08:01:39Z",
+      "updated": "2026-08-17T08:01:39Z",
+      "categories": [
+        "cond-mat.mtrl-sci"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2608.16226v1",
+      "arxiv_url": "https://arxiv.org/abs/2608.16226",
+      "study_type": "Computational",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Dataset / benchmark",
+      "materials": [],
+      "material_families": [],
+      "exciton_properties": [],
+      "applications": [],
+      "methods": [
+        "DFT"
+      ],
+      "matched_keywords": [
+        "exciton",
+        "excitonic",
+        "first-principles"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [
+          "using",
+          "first-principles approach"
+        ],
+        "experimental_methods": {},
+        "computational_methods": {
+          "DFT": [
+            "first-principles"
+          ]
+        },
+        "materials": {},
+        "properties": {},
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": true
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2608.15882",
+      "version": "v1",
+      "versioned_id": "2608.15882v1",
+      "title": "Rare-earth chalcogenide perovskites: A promising class of materials for optoelectronic applications",
+      "authors": [
+        "Surajit Adhikari",
+        "Priya Johari"
+      ],
+      "abstract": "Rare-earth chalcogenide perovskites have attracted significant attention for optoelectronic applications due to their nontoxic composition, robust phase stability, and excellent optoelectronic properties. However, their excitonic and polaronic properties remain largely unexplored due to the high computational cost of accurate theoretical treatments. In this work, we present a comprehensive first-principles investigation of excitonic dynamics and polaronic effects in a series of III-III rare-earth chalcogenide perovskites ABX$_{3}$ (A = Y, La; B = Sc, Y; X = S, Se), along with their structural stability and optoelectronic properties, using state-of-the-art density functional theory in conjunction with many-body perturbation theory within the G$_{0}$W$_{0}$ and Bethe-Salpeter equation (BSE) frameworks. All investigated compounds satisfy the dynamical and mechanical stability criteria. They exhibit quasiparticle band gaps in the range of 2.75$-$4.47 eV, and the BSE calculations reveal strong optical absorption spanning the visible to ultraviolet regions. The computed excitonic properties indicate intermediate-to-large exciton binding energies (0.148$-$0.517 eV), moderately localized excitons, and strong electron-hole wavefunction overlap, indicative of favorable radiative recombination characteristics and enhanced light-matter interaction. Furthermore, analysis based on the Fröhlich model demonstrates intermediate-to-strong carrier-phonon coupling, with electron-phonon interactions generally stronger than hole-phonon interactions. Overall, rare-earth chalcogenide perovskites ABX$_{3}$ exhibit a compelling combination of structural stability, tunable optoelectronic properties, pronounced excitonic effects, and favorable polaronic transport, positioning them as promising lead-free materials for next-generation optoelectronic devices, including light-emitting devices and photodetectors.",
+      "submitted": "2026-08-16T18:09:36Z",
+      "updated": "2026-08-16T18:09:36Z",
+      "categories": [
+        "cond-mat.mtrl-sci"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2608.15882v1",
+      "arxiv_url": "https://arxiv.org/abs/2608.15882",
+      "study_type": "Computational",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [
+        "perovskites"
+      ],
+      "material_families": [
+        "Perovskites / halide semiconductors"
+      ],
+      "exciton_properties": [
+        "Binding energy"
+      ],
+      "applications": [],
+      "methods": [
+        "DFT",
+        "Bethe–Salpeter equation",
+        "Quasiparticle / optical gaps"
+      ],
+      "matched_keywords": [
+        "bethe-salpeter",
+        "bse calculation",
+        "bse calculations",
+        "density functional theory",
+        "exciton",
+        "excitonic",
+        "first-principles",
+        "quasiparticle band gap"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [
+          "using"
+        ],
+        "experimental_methods": {},
+        "computational_methods": {
+          "DFT": [
+            "density functional theory",
+            "first-principles"
+          ],
+          "Bethe–Salpeter equation": [
+            "bethe-salpeter",
+            "bse calculation",
+            "bse calculations"
+          ],
+          "Quasiparticle / optical gaps": [
+            "quasiparticle band gap"
+          ]
+        },
+        "materials": {
+          "perovskites": [
+            "perovskite"
+          ],
+          "Perovskites / halide semiconductors": [
+            "perovskite"
+          ]
+        },
+        "properties": {
+          "Binding energy": [
+            "binding energies"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": true
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2608.14921",
+      "version": "v1",
+      "versioned_id": "2608.14921v1",
+      "title": "Paraexciton Excitation in Cu$_2$O under Laguerre--Gaussian Illumination",
+      "authors": [
+        "Nguyen Que Huong",
+        "David W. Facemyer"
+      ],
+      "abstract": "In Cu$_2$O the lowest yellow exciton, the $Γ_2^+$ paraexciton, is optically inaccessible in conventional spectroscopy because transitions to this state are forbidden in both electric-dipole and electric-quadrupole approximations. We investigate whether optical fields carrying orbital angular momentum (OAM) can overcome this restriction. A microscopic symmetry analysis identifies the gradient-assisted $l=5$ and direct $l=6$ OAM channels as the leading contributions that couple to the paraexciton, independent of the detailed radial profile of the optical field. Calculations for finite-waist Laguerre--Gaussian beams, however, show that the corresponding matrix elements are strongly suppressed because the optical field varies only weakly over the exciton Bohr radius. Thus, satisfying the OAM selection rule alone is insufficient: efficient excitation requires not only the correct angular symmetry but also optical-field variations on the spatial scale of the exciton. This second condition is achieved by localized OAM fields. Expressing the coupling in terms of the physical intensity-ring radius provides a direct comparison between the optical and excitonic length scales and reveals that the optimal localization is determined primarily by the polynomial degree of the target cubic harmonic. For the degree-six $Γ_2^+$ paraexciton the strongest coupling occurs for an intensity-ring radius of approximately $6a_B$--$7a_B$. These results establish that paraexciton excitation is governed jointly by symmetry and spatial localization: cubic symmetry selects the allowed OAM channels, whereas the polynomial degree sets the characteristic radial scale for efficient coupling. This work provides both the symmetry framework and a practical design rule for engineering structured-light excitation of paraexcitons in Cu$_2$O.",
+      "submitted": "2026-08-14T22:15:48Z",
+      "updated": "2026-08-14T22:15:48Z",
+      "categories": [
+        "cond-mat.mtrl-sci"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2608.14921v1",
+      "arxiv_url": "https://arxiv.org/abs/2608.14921",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [],
+      "material_families": [],
+      "exciton_properties": [],
+      "applications": [],
+      "methods": [],
+      "matched_keywords": [
+        "exciton",
+        "excitonic"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [],
+        "experimental_methods": {},
+        "computational_methods": {},
+        "materials": {},
+        "properties": {},
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
     {
       "arxiv_id": "2608.14302",
       "version": "v1",
@@ -14300,11 +14782,20 @@
       "new": 3,
       "updated": 0,
       "total": 186
+    },
+    {
+      "scanned_at": "2026-08-18T04:17:12.568628+00:00",
+      "since": "2026-08-04",
+      "fetched": 39,
+      "classified": 39,
+      "new": 7,
+      "updated": 0,
+      "total": 193
     }
   ],
   "counts": {
-    "total": 186,
-    "new_this_scan": 3,
+    "total": 193,
+    "new_this_scan": 7,
     "updated_this_scan": 0
   }
 }
