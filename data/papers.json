@@ -1,7 +1,65 @@
 {
   "schema_version": 2,
-  "last_scan": "2026-08-18T04:17:12.568628+00:00",
+  "last_scan": "2026-08-19T04:18:03.748465+00:00",
   "papers": [
+    {
+      "arxiv_id": "2608.17602",
+      "version": "v1",
+      "versioned_id": "2608.17602v1",
+      "title": "KPZ scaling in one-dimensional arrays of photon condensates",
+      "authors": [
+        "Michiel Yzewyn",
+        "Michiel Wouters"
+      ],
+      "abstract": "Bose-Einstein condensates of photons in dye filled microcavities are known to feature many properties of the ideal bose gas at thermal equilibrium. Nevertheless, the finite photon life time renders them driven dissipative systems where losses are balanced by continuous driving by a pump laser. We show here with simulations based on a classical field model that their driven-dissipative nature causes their first order coherence to feature Kardar-Parisi-Zhang (KPZ) scaling, a phenomenon well known in the related condensates of exciton-polaritons. Remarkably, we find that the KPZ scaling even occurs in a regime with large density fluctuations. We discuss the modification of the scaling by the occupation of excited states and how to recover the universal scaling behavior by spectral filtering.",
+      "submitted": "2026-08-18T10:08:33Z",
+      "updated": "2026-08-18T10:08:33Z",
+      "categories": [
+        "cond-mat.quant-gas",
+        "cond-mat.stat-mech",
+        "physics.optics"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2608.17602v1",
+      "arxiv_url": "https://arxiv.org/abs/2608.17602",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [],
+      "material_families": [],
+      "exciton_properties": [
+        "Light-matter strong coupling"
+      ],
+      "applications": [
+        "Exciton polaritons"
+      ],
+      "methods": [],
+      "matched_keywords": [
+        "exciton",
+        "polariton"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [],
+        "experimental_methods": {},
+        "computational_methods": {},
+        "materials": {},
+        "properties": {
+          "Light-matter strong coupling": [
+            "exciton-polariton"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
     {
       "arxiv_id": "2608.16751",
       "version": "v1",
@@ -14791,11 +14849,20 @@
       "new": 7,
       "updated": 0,
       "total": 193
+    },
+    {
+      "scanned_at": "2026-08-19T04:18:03.748465+00:00",
+      "since": "2026-08-05",
+      "fetched": 33,
+      "classified": 33,
+      "new": 1,
+      "updated": 0,
+      "total": 194
     }
   ],
   "counts": {
-    "total": 193,
-    "new_this_scan": 7,
+    "total": 194,
+    "new_this_scan": 1,
     "updated_this_scan": 0
   }
 }
