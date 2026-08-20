@@ -1,7 +1,226 @@
 {
   "schema_version": 2,
-  "last_scan": "2026-08-19T04:18:03.748465+00:00",
+  "last_scan": "2026-08-20T04:17:16.464571+00:00",
   "papers": [
+    {
+      "arxiv_id": "2608.18635",
+      "version": "v1",
+      "versioned_id": "2608.18635v1",
+      "title": "Nonlinear Maxwell's Equations as a Boundary Value Problem in Multilayer Nanophotonics",
+      "authors": [
+        "Ruizhe Gu",
+        "Dingyang Zhang",
+        "Wenjing Liu"
+      ],
+      "abstract": "Calculating strong-field, broadband nonlinear phenomena in complex nanophotonic structures remains difficult because it requires simultaneous handling of non-perturbative dynamics, impulsive processes, and structural complexity. Here, we introduce a unified framework that combines the transfer matrix method with an iterative Green's function approach. The linear multilayer response is incorporated as boundary conditions into a nonlinear boundary value problem, which is then solved self-consistently, naturally accommodating broad spectra and arbitrary nonlinearity. The framework is validated with two examples in the transparent and resonant regimes, respectively. The first demonstrates an impulsive spectral modulation in second harmonic generation that is captured only by a full-structure broadband treatment. The second demonstrates the entire dynamical evolution of exciton-polaritons in a pump-probe experiment reproduced by a unified simulation. This framework directly links nanophotonic design with ultrafast nonlinear dynamics.",
+      "submitted": "2026-08-19T07:33:09Z",
+      "updated": "2026-08-19T07:33:09Z",
+      "categories": [
+        "physics.optics"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2608.18635v1",
+      "arxiv_url": "https://arxiv.org/abs/2608.18635",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [],
+      "material_families": [],
+      "exciton_properties": [
+        "Light-matter strong coupling"
+      ],
+      "applications": [
+        "Exciton polaritons"
+      ],
+      "methods": [
+        "Pump–probe spectroscopy"
+      ],
+      "matched_keywords": [
+        "exciton",
+        "polariton",
+        "pump-probe"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [],
+        "experimental_methods": {
+          "Pump–probe spectroscopy": [
+            "pump-probe"
+          ]
+        },
+        "computational_methods": {},
+        "materials": {},
+        "properties": {
+          "Light-matter strong coupling": [
+            "exciton-polariton"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2608.18394",
+      "version": "v1",
+      "versioned_id": "2608.18394v1",
+      "title": "Localized Excitons and Exciton-Phonon Coupling in Antiferromagnetic AgCrP2S6",
+      "authors": [
+        "Jessica McDivitt",
+        "Dimitar Pashov",
+        "Mark van Schilfgaarde",
+        "Justin C. Johnson",
+        "Jeffrey L. Blackburn",
+        "Anna A. Berseneva",
+        "Swagata Acharya"
+      ],
+      "abstract": "AgCrP2S6 combines a low-symmetry thiophosphate framework with an antiferromagnetic Cr sublattice and nonmagnetic Ag sites, providing a setting in which covalency and magnetic localization compete in the low-energy optical response. We combine single-crystal x-ray diffraction, Raman spectroscopy, lattice-dynamical calculations, and self-consistent vertex corrected Feynman diagrammatic many-body approaches to determine the structural, electronic, and excitonic properties of bulk AgCrP2S6. The material remains monoclinic between 100 and 300 K, with additional Ag-site disorder resolved at low temperature, and the optimized structure is dynamically stable. The many-body calculations yield a reduced quasiparticle gap relative to Cr trihalides, but the lowest excitons remain predominantly local: the calculated low-energy (~1.4 eV) excitation cluster is best described as a weakly bright, strongly anisotropic Frenkel exciton with dominant onsite d-d character and substantial ligand-assisted d-p admixture. Symmetry analysis in the C2h setting identifies this state as predominantly Bu and constrains its leading exciton-phonon coupling channels to Ag diagonal renormalization and Bg-mediated bright-dark mixing. These results place AgCrP2S6 in a localized excitonic regime in which the stronger p-d hybridization, relative to the more ionic Cr trihalides, narrows the quasiparticle gap, while the antiferromagnetic exchange and Ag-site dilution disfavor the intersite coherence associated with strongly delocalized low-energy excitons.",
+      "submitted": "2026-08-18T23:52:06Z",
+      "updated": "2026-08-18T23:52:06Z",
+      "categories": [
+        "cond-mat.mtrl-sci",
+        "cond-mat.str-el"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2608.18394v1",
+      "arxiv_url": "https://arxiv.org/abs/2608.18394",
+      "study_type": "Computational",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [],
+      "material_families": [],
+      "exciton_properties": [
+        "Fine structure / bright-dark splitting",
+        "Exciton-phonon coupling"
+      ],
+      "applications": [],
+      "methods": [
+        "Raman spectroscopy",
+        "Quasiparticle / optical gaps"
+      ],
+      "matched_keywords": [
+        "exciton",
+        "excitonic",
+        "quasiparticle gap",
+        "raman spectroscopy"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [],
+        "experimental_methods": {
+          "Raman spectroscopy": [
+            "raman spectroscopy"
+          ]
+        },
+        "computational_methods": {
+          "Quasiparticle / optical gaps": [
+            "quasiparticle gap"
+          ]
+        },
+        "materials": {},
+        "properties": {
+          "Fine structure / bright-dark splitting": [
+            "bright-dark"
+          ],
+          "Exciton-phonon coupling": [
+            "exciton-phonon"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": true
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2608.18382",
+      "version": "v1",
+      "versioned_id": "2608.18382v1",
+      "title": "Optical Voltage Profiling of 2D Semiconductors via Proximal Exciton Sensing",
+      "authors": [
+        "Ha-Leem Kim",
+        "Hyungbin Lim",
+        "Yuanyi Yang",
+        "Ruishi Qi",
+        "Ruichen Xia",
+        "Can Uzundal",
+        "Takashi Taniguchi",
+        "Kenji Watanabe",
+        "Feng Wang"
+      ],
+      "abstract": "High contact resistances in atomically thin semiconductors often mask intrinsic electrical transport properties, particularly at low carrier densities where exotic correlated states emerge. We introduce optical voltage profiling, a noninvasive wide-field technique that replaces local voltage probes with a proximal monolayer MoSe$_2$ exciton sensor. Isolated by thin hexagonal boron nitride, this sensor converts the target's local electrostatic potential into spatially resolved modulations of exciton reflectance. Through pixel-wise in situ calibration, these signals yield quantitative two-dimensional voltage maps of an actively biased semiconductor device. Using this method, we demonstrate the carrier-density-driven metal-insulator transition in bilayer MoSe$_2$ and obtain channel resistances below 1 k$Ω$ despite M$Ω$-scale two-terminal resistances in the metallic region. The optically derived resistance exhibits a metal-insulator crossover near the resistance quantum $h/e^2$, and the voltage maps and reconstructed local conductivity reveal pronounced spatial heterogeneity in both insulating and metallic regimes. Beyond resolving channel resistance under high contact-resistance conditions, the technique provides spatially resolved access to microscopic transport heterogeneity in functional van der Waals devices.",
+      "submitted": "2026-08-18T23:25:33Z",
+      "updated": "2026-08-18T23:25:33Z",
+      "categories": [
+        "cond-mat.mes-hall",
+        "cond-mat.str-el",
+        "physics.optics"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2608.18382v1",
+      "arxiv_url": "https://arxiv.org/abs/2608.18382",
+      "study_type": "Experimental",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [
+        "hBN"
+      ],
+      "material_families": [
+        "Other 2D / van der Waals materials"
+      ],
+      "exciton_properties": [],
+      "applications": [],
+      "methods": [
+        "Absorption / reflectance"
+      ],
+      "matched_keywords": [
+        "exciton",
+        "reflectance"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [
+          "using"
+        ],
+        "experimental_methods": {
+          "Absorption / reflectance": [
+            "reflectance"
+          ]
+        },
+        "computational_methods": {},
+        "materials": {
+          "hBN": [
+            "hexagonal boron nitride"
+          ],
+          "Other 2D / van der Waals materials": [
+            "van der waals",
+            "monolayer",
+            "hexagonal boron nitride"
+          ]
+        },
+        "properties": {},
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": true,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
     {
       "arxiv_id": "2608.17602",
       "version": "v1",
@@ -14858,11 +15077,20 @@
       "new": 1,
       "updated": 0,
       "total": 194
+    },
+    {
+      "scanned_at": "2026-08-20T04:17:16.464571+00:00",
+      "since": "2026-08-06",
+      "fetched": 31,
+      "classified": 31,
+      "new": 3,
+      "updated": 0,
+      "total": 197
     }
   ],
   "counts": {
-    "total": 194,
-    "new_this_scan": 1,
+    "total": 197,
+    "new_this_scan": 3,
     "updated_this_scan": 0
   }
 }
