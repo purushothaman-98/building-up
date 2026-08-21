@@ -1,7 +1,324 @@
 {
   "schema_version": 2,
-  "last_scan": "2026-08-20T04:17:16.464571+00:00",
+  "last_scan": "2026-08-21T04:19:06.140159+00:00",
   "papers": [
+    {
+      "arxiv_id": "2608.20310",
+      "version": "v1",
+      "versioned_id": "2608.20310v1",
+      "title": "Signatures of a light-induced exciton condensate exhibiting BEC-BCS crossover",
+      "authors": [
+        "Khanh Duy Nguyen",
+        "Gabriele Berruto",
+        "Yunhe Bai",
+        "Thomas Marchese",
+        "Woojoo Lee",
+        "Haoran Lin",
+        "Jiangang Yang",
+        "Chong Liu",
+        "Y. Shirley Meng",
+        "Shuolong Yang"
+      ],
+      "abstract": "Exciton condensates provide a platform to study quasiparticle pairing, Bose-Einstein condensation-Bardeen-Cooper-Schrieffer (BEC-BCS) crossover, and excitonic topological phenomena. Achieving a nonequilibrium exciton condensate allows the ultimate tunability of these emergent phenomena. Yet, evidence of a light-induced, nonequilibrium exciton condensate and its BEC-BCS crossover remains elusive. Here, we use time- and angle-resolved photoemission spectroscopy to demonstrate signatures of a non-equilibrium exciton condensate and its BEC-BCS crossover in monolayer MnBi2Te4. Following optical excitation, a distinctive hole-like dispersion representing excitons emerges and persists for >20 ps. Strikingly, energy-domain sharpening in the valence band occurs 2 ps after time zero and exhibits a sharp onset at a threshold pump fluence of 0.84 mJ/cm2. The delayed and strongly nonlinear response is difficult to reconcile with transient field effects or conventional carrier-induced band shifts but is consistent with a model of exciton condensation governed by a Berezinskii-Kosterlitz-Thouless transition. The estimated threshold exciton density agrees quantitatively with the Nelson-Kosterlitz critical density. At higher fluences, the exciton feature develops a camel-back-shaped dispersion, consistent with the BEC-BCS crossover in the condensate framework. Our work establishes ultrathin MnBi2Te4 as a model system for studying nonequilibrium exciton condensates with a connection to superconductivity and exciton-driven topological phases.",
+      "submitted": "2026-08-20T17:47:55Z",
+      "updated": "2026-08-20T17:47:55Z",
+      "categories": [
+        "cond-mat.mes-hall",
+        "cond-mat.quant-gas",
+        "cond-mat.str-el"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2608.20310v1",
+      "arxiv_url": "https://arxiv.org/abs/2608.20310",
+      "study_type": "Experimental",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [],
+      "material_families": [
+        "Other 2D / van der Waals materials"
+      ],
+      "exciton_properties": [],
+      "applications": [],
+      "methods": [
+        "Photoemission / photocurrent"
+      ],
+      "matched_keywords": [
+        "exciton",
+        "excitonic",
+        "photoemission spectroscopy"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [
+          "we use"
+        ],
+        "computational_actions": [
+          "we use"
+        ],
+        "experimental_methods": {
+          "Photoemission / photocurrent": [
+            "photoemission spectroscopy"
+          ]
+        },
+        "computational_methods": {},
+        "materials": {
+          "Other 2D / van der Waals materials": [
+            "monolayer"
+          ]
+        },
+        "properties": {},
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": true,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2608.20132",
+      "version": "v1",
+      "versioned_id": "2608.20132v1",
+      "title": "SAKE: Spectral Autodiff Kernel Expansion for Geometric Liouvillian Transport. A Differential-Geometric Framework for Response Transport in Quantum Dynamical Systems",
+      "authors": [
+        "Eric R. Bittner",
+        "Carlos Silva-Acuna",
+        "Hao Li",
+        "Simon Paiva-Ortega"
+      ],
+      "abstract": "We introduce the Spectral Autodiff Kernel Expansion (SAKE), a differentiable computational framework for transporting nonlinear spectroscopic response between neighboring quantum dynamical models. Rather than recomputing multidimensional spectra independently for each Hamiltonian or Liouvillian, SAKE constructs local transport expansions about a reference model by combining forward-mode automatic differentiation with Duhamel transport theory. Automatic differentiation generates first-, second-, and third-order derivatives of the parameter-dependent Liouvillian, which are assembled into a pathway transport operator that maps the nonlinear response of a reference model onto neighboring systems. The framework is validated for a four-level excitonic dimer possessing an $su(2)\\times su(2)$ symmetry by comparing second- and third-order transported pathway operators with exact projected transport matrices obtained from direct calculations. The third-order expansion accurately reproduces the projected transport operator and its associated pathway mixing. Beyond providing an efficient computational strategy, the transport operator reveals how coherent and dissipative perturbations redistribute amplitude among double-sided Feynman pathways, exposing mechanistic information that is not directly apparent from the nonlinear spectrum. SAKE thereby establishes a differentiable computational framework for nonlinear spectroscopy that supports efficient local parameter exploration, sensitivity analysis, and future inverse-design applications.",
+      "submitted": "2026-08-20T14:59:14Z",
+      "updated": "2026-08-20T14:59:14Z",
+      "categories": [
+        "quant-ph",
+        "physics.chem-ph"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2608.20132v1",
+      "arxiv_url": "https://arxiv.org/abs/2608.20132",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Methods / software",
+      "materials": [],
+      "material_families": [],
+      "exciton_properties": [],
+      "applications": [],
+      "methods": [],
+      "matched_keywords": [
+        "exciton",
+        "excitonic"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [],
+        "experimental_methods": {},
+        "computational_methods": {},
+        "materials": {},
+        "properties": {},
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2608.11740",
+      "version": "v2",
+      "versioned_id": "2608.11740v2",
+      "title": "Magnetic noise of a dark exciton Bose-Einstein condensate",
+      "authors": [
+        "Pieter M. Gunnink"
+      ],
+      "abstract": "Excitons provide a promising platform for the realization of solid-state Bose-Einstein condensation (BEC), offering quantum coherence, strongly correlated electron-hole physics, and superfluidity. Yet, its unambiguous experimental identification remains challenging. In particular, $S_z= \\pm 1$ triplet excitons are excellent candidates to realize an exciton BEC, because of their intrinsically limited recombination rate and thus long lifetimes. However, since their optical detection is inherently forbidden, experimental signatures remain elusive. In this work, we demonstrate that the magnetic nature of a $S_z= \\pm 1$ triplet exciton BEC gives rise to stray magnetic field noise, that can be measured using nitrogen-vacancy (NV) center magnetometry. Using an external magnetic field to tune the system from an antiferromagnetic to a ferromagnetic ordering, the longitudinal spin sound mode of the BEC softens, bringing the mode into the characteristic gigahertz frequency range of the NV spin relaxation rate and thus allowing direct detection. Furthermore, we demonstrate an unconventional UV scaling at small distances $d$ from the sample, owing to the cubic corrections to the sound mode dispersion and damping rate in the form of Beliaev damping. Through this approach, we establish that the spin component of exciton BECs offers new approaches to detect exciton BECs.",
+      "submitted": "2026-08-12T07:27:27Z",
+      "updated": "2026-08-20T08:17:42Z",
+      "categories": [
+        "cond-mat.mes-hall",
+        "cond-mat.quant-gas"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2608.11740v2",
+      "arxiv_url": "https://arxiv.org/abs/2608.11740",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [],
+      "material_families": [],
+      "exciton_properties": [
+        "Fine structure / bright-dark splitting"
+      ],
+      "applications": [],
+      "methods": [],
+      "matched_keywords": [
+        "exciton"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [
+          "using"
+        ],
+        "experimental_methods": {},
+        "computational_methods": {},
+        "materials": {},
+        "properties": {
+          "Fine structure / bright-dark splitting": [
+            "dark exciton"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1",
+        "v2"
+      ]
+    },
+    {
+      "arxiv_id": "2608.19721",
+      "version": "v1",
+      "versioned_id": "2608.19721v1",
+      "title": "A Comparative Study of Coherent and Action-Detected 2D Electronic Spectroscopies of a Multichromophore Photosynthetic System",
+      "authors": [
+        "Edoardo Amarotti",
+        "Ajeet Kumar",
+        "Luca Bolzonello",
+        "David Bina",
+        "Tõnu Pullerits",
+        "Donatas Zigmantas"
+      ],
+      "abstract": "Coherent two-dimensional electronic spectroscopy (C-2DES) is a powerful tool for resolving excitonic structure and dynamics in light-harvesting complexes with dense energy-level manifolds. In contrast, action-detected 2DES has seen limited use on such systems, and its capacity to reveal electronic structure and dynamics remains unclear. Here we compare C-2DES and fluorescence-detected 2DES (F-2DES) on the major plant light-harvesting complex (LHCII) at 78 K. C-2DES resolves excitonic features and their spectral evolution, mapping energy-transfer pathways. F-2DES shows strong cross-peaks, but these are largely time-invariant and dominated by incoherent mixing, obscuring the dynamics. C-2DES is therefore preferred for resolving ultrafast energy transfer in light-harvesting complexes and other large interacting networks. Combined, the two measurements directly quantify the suppression of population dynamics by incoherent mixing, confirming that nearly the entire LHCII trimer network contributes. We also identify pulse-shaper nonlinearities in F-2DES as spurious features, highlighting the need for rigorous artifact suppression.",
+      "submitted": "2026-08-20T07:18:10Z",
+      "updated": "2026-08-20T07:18:10Z",
+      "categories": [
+        "physics.chem-ph"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2608.19721v1",
+      "arxiv_url": "https://arxiv.org/abs/2608.19721",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [],
+      "material_families": [
+        "Biological / light-harvesting systems"
+      ],
+      "exciton_properties": [
+        "Transport / diffusion"
+      ],
+      "applications": [
+        "Photosynthesis"
+      ],
+      "methods": [],
+      "matched_keywords": [
+        "exciton",
+        "excitonic"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [],
+        "experimental_methods": {},
+        "computational_methods": {},
+        "materials": {
+          "Biological / light-harvesting systems": [
+            "photosynthetic",
+            "light-harvesting complex",
+            "chromophore"
+          ]
+        },
+        "properties": {
+          "Transport / diffusion": [
+            "energy transfer"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2608.19681",
+      "version": "v1",
+      "versioned_id": "2608.19681v1",
+      "title": "Cavity-Enhanced Activation of Radiatively Suppressed Light-Hole Exciton Emission in Colloidal Nanoplatelets",
+      "authors": [
+        "Komal Sharma",
+        "Riya Dutta",
+        "Prathmesh Deshmukh",
+        "Vinod M. Menon",
+        "Jaydeep K. Basu"
+      ],
+      "abstract": "Light-hole (LH) excitons provide access to well-defined polarization and spin degrees of freedom that are central to quantum photonics and chiral light-matter interactions. Achieving LH emission is challenging because LH states are energetically unfavoured and typically relax non-radiatively. Existing strategies to access LH excitons rely on modifying the electronic band structure through strain, shape anisotropy, or piezoelectric fields, approaches that are material-specific and offer limited post-synthesis tunability. Here we demonstrate an all-photonic route to activate LH exciton emission in colloidal CdSe-CdS nanoplatelets (NPLs) using a distributed Bragg reflector (DBR) cavity, without altering the underlying band structure. In the absence of a cavity mode, the system exhibits amplified spontaneous emission from heavy-hole (HH) states without detectable LH emission at low excitation powers. By spectrally matching a cavity resonance to the LH exciton, cavity-coupled LH emission emerges at significantly lower excitation powers. Temperature-dependent spectroscopy reveals reversible switching between LH- and HH-coupled emission through exciton-cavity detuning, while polarization-resolved and spectrally resolved time-resolved photoluminescence measurements provide independent evidence distinguishing the cavity-coupled LH and HH emission channels. These findings establish cavity engineering as a general materials-level approach for accessing radiatively suppressed optical states.",
+      "submitted": "2026-08-20T06:15:50Z",
+      "updated": "2026-08-20T06:15:50Z",
+      "categories": [
+        "physics.optics",
+        "cond-mat.mes-hall"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2608.19681v1",
+      "arxiv_url": "https://arxiv.org/abs/2608.19681",
+      "study_type": "Experimental",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [],
+      "material_families": [],
+      "exciton_properties": [],
+      "applications": [],
+      "methods": [
+        "Photoluminescence",
+        "Time-resolved spectroscopy"
+      ],
+      "matched_keywords": [
+        "exciton",
+        "photoluminescence",
+        "time-resolved"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [
+          "spectroscopy reveals"
+        ],
+        "computational_actions": [
+          "using"
+        ],
+        "experimental_methods": {
+          "Photoluminescence": [
+            "photoluminescence"
+          ],
+          "Time-resolved spectroscopy": [
+            "time-resolved"
+          ]
+        },
+        "computational_methods": {},
+        "materials": {},
+        "properties": {},
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": true,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
     {
       "arxiv_id": "2608.18635",
       "version": "v1",
@@ -1309,61 +1626,6 @@
         "computational_methods": {},
         "materials": {},
         "properties": {},
-        "relevance": [
-          "exciton/excitonic stated in title or abstract"
-        ]
-      },
-      "evidence": {
-        "experimental": false,
-        "computational": false
-      },
-      "versions_seen": [
-        "v1"
-      ]
-    },
-    {
-      "arxiv_id": "2608.11740",
-      "version": "v1",
-      "versioned_id": "2608.11740v1",
-      "title": "Magnetic noise of a dark exciton Bose-Einstein condensate",
-      "authors": [
-        "Pieter M. Gunnink"
-      ],
-      "abstract": "Excitons provide a promising platform for the realization of solid-state Bose-Einstein condensation (BEC), offering quantum coherence, strongly correlated electron-hole physics, and superfluidity. Yet, its unambiguous experimental identification remains challenging. In particular, $S_z= \\pm 1$ triplet excitons are excellent candidates to realize an exciton BEC, because of their intrinsically limited recombination rate and thus long lifetimes. However, since their optical detection is inherently forbidden, experimental signatures remain elusive. In this work, we demonstrate that the magnetic nature of a $S_z= \\pm 1$ triplet exciton BEC gives rise to stray magnetic field noise, that can be measured using nitrogen-vacancy (NV) center magnetometry. Using an external magnetic field to tune the system from an antiferromagnetic to a ferromagnetic ordering, the longitudinal spin sound mode of the BEC softens, bringing the mode into the characteristic gigahertz frequency range of the NV spin relaxation rate and thus allowing direct detection. Furthermore, we demonstrate an unconventional UV scaling at small distances $d$ from the sample, owing to the cubic corrections to the sound mode dispersion and damping rate in the form of Beliaev damping. Through this approach, we establish that the spin component of exciton BECs offers new approaches to detect exciton BECs.",
-      "submitted": "2026-08-12T07:27:27Z",
-      "updated": "2026-08-12T07:27:27Z",
-      "categories": [
-        "cond-mat.mes-hall",
-        "cond-mat.quant-gas"
-      ],
-      "pdf_url": "https://arxiv.org/pdf/2608.11740v1",
-      "arxiv_url": "https://arxiv.org/abs/2608.11740",
-      "study_type": "Unclassified",
-      "relevance": "Core exciton paper",
-      "paper_nature": "Original research",
-      "materials": [],
-      "material_families": [],
-      "exciton_properties": [
-        "Fine structure / bright-dark splitting"
-      ],
-      "applications": [],
-      "methods": [],
-      "matched_keywords": [
-        "exciton"
-      ],
-      "classification_evidence": {
-        "experimental_actions": [],
-        "computational_actions": [
-          "using"
-        ],
-        "experimental_methods": {},
-        "computational_methods": {},
-        "materials": {},
-        "properties": {
-          "Fine structure / bright-dark splitting": [
-            "dark exciton"
-          ]
-        },
         "relevance": [
           "exciton/excitonic stated in title or abstract"
         ]
@@ -15086,11 +15348,20 @@
       "new": 3,
       "updated": 0,
       "total": 197
+    },
+    {
+      "scanned_at": "2026-08-21T04:19:06.140159+00:00",
+      "since": "2026-08-07",
+      "fetched": 35,
+      "classified": 35,
+      "new": 4,
+      "updated": 1,
+      "total": 201
     }
   ],
   "counts": {
-    "total": 197,
-    "new_this_scan": 3,
-    "updated_this_scan": 0
+    "total": 201,
+    "new_this_scan": 4,
+    "updated_this_scan": 1
   }
 }
