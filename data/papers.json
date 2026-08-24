@@ -1,7 +1,163 @@
 {
   "schema_version": 2,
-  "last_scan": "2026-08-23T04:18:03.054587+00:00",
+  "last_scan": "2026-08-24T04:24:21.375187+00:00",
   "papers": [
+    {
+      "arxiv_id": "2608.20132",
+      "version": "v2",
+      "versioned_id": "2608.20132v2",
+      "title": "SAKE: Spectral Autodiff Kernel Expansion for Geometric Liouvillian Transport. A Differential-Geometric Framework for Response Transport in Quantum Dynamical Systems",
+      "authors": [
+        "Eric R. Bittner",
+        "Carlos Silva-Acuna",
+        "Hao Li",
+        "Simon Paiva-Ortega"
+      ],
+      "abstract": "We introduce the Spectral Autodiff Kernel Expansion (SAKE), a differentiable computational framework for transporting nonlinear spectroscopic response between neighboring quantum dynamical models. Rather than recomputing multidimensional spectra independently for each Hamiltonian or Liouvillian, SAKE constructs local transport expansions about a reference model by combining forward-mode automatic differentiation with Duhamel transport theory. Automatic differentiation generates first-, second-, and third-order derivatives of the parameter-dependent Liouvillian, which are assembled into a pathway transport operator that maps the nonlinear response of a reference model onto neighboring systems. The framework is validated for a four-level excitonic dimer possessing an $su(2)\\times su(2)$ symmetry by comparing second- and third-order transported pathway operators with exact projected transport matrices obtained from direct calculations. The third-order expansion accurately reproduces the projected transport operator and its associated pathway mixing. Beyond providing an efficient computational strategy, the transport operator reveals how coherent and dissipative perturbations redistribute amplitude among double-sided Feynman pathways, exposing mechanistic information that is not directly apparent from the nonlinear spectrum. SAKE thereby establishes a differentiable computational framework for nonlinear spectroscopy that supports efficient local parameter exploration, sensitivity analysis, and future inverse-design applications.",
+      "submitted": "2026-08-20T14:59:14Z",
+      "updated": "2026-08-21T15:56:16Z",
+      "categories": [
+        "quant-ph",
+        "physics.chem-ph"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2608.20132v2",
+      "arxiv_url": "https://arxiv.org/abs/2608.20132",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Methods / software",
+      "materials": [],
+      "material_families": [],
+      "exciton_properties": [],
+      "applications": [],
+      "methods": [],
+      "matched_keywords": [
+        "exciton",
+        "excitonic"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [],
+        "experimental_methods": {},
+        "computational_methods": {},
+        "materials": {},
+        "properties": {},
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1",
+        "v2"
+      ]
+    },
+    {
+      "arxiv_id": "2608.20973",
+      "version": "v1",
+      "versioned_id": "2608.20973v1",
+      "title": "Scalable Cyclic Olefin Copolymer Encapsulation for High Optical Quality of TMD Monolayers",
+      "authors": [
+        "Suprova Das",
+        "Md Tarik Hossain",
+        "Zlata Fedorova",
+        "Zifei Zhang",
+        "Axel Printschler",
+        "Begimai Adilbekova",
+        "Honey Jayeshkumer Shah",
+        "Stefan Velja",
+        "Caterina Cocchi",
+        "Andrey Turchanin",
+        "Isabelle Staude"
+      ],
+      "abstract": "Monolayer transition metal dichalcogenides (TMDs) combine a direct bandgap, strongly bound excitons, and pronounced second-order optical nonlinearity, which makes them promising materials for ultrathin optoelectronic and nanophotonic devices. However, their optical performance is often degraded by environmental exposure and substrate-induced charge trapping, motivating the development of scalable encapsulation strategies. Here, we investigate spin-coated cyclic olefin copolymer (COC) as a scalable encapsulant for TMDs. Room-temperature and cryogenic optical spectroscopy reveal enhanced photoluminescence and second-harmonic generation, accompanied by excitonic linewidth narrowing and an increased exciton-to-trion ratio. In addition, COC encapsulation induces an excitonic peak splitting and an overall spectral blueshift. First-principles calculations attribute these spectral modifications to local symmetry breaking at the chalcogen interface and macroscopic compressive strain, respectively. These findings establish spin-coated COC as an effective, scalable encapsulation strategy and a potential platform for post-growth excitonic and band-structure engineering.",
+      "submitted": "2026-08-21T10:54:03Z",
+      "updated": "2026-08-21T10:54:03Z",
+      "categories": [
+        "cond-mat.mtrl-sci"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2608.20973v1",
+      "arxiv_url": "https://arxiv.org/abs/2608.20973",
+      "study_type": "Computational",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [
+        "transition-metal dichalcogenides"
+      ],
+      "material_families": [
+        "TMDs / 2D chalcogenides",
+        "Other 2D / van der Waals materials"
+      ],
+      "exciton_properties": [
+        "Linewidth / dephasing"
+      ],
+      "applications": [],
+      "methods": [
+        "Photoluminescence",
+        "Linewidth / fine structure",
+        "DFT"
+      ],
+      "matched_keywords": [
+        "exciton",
+        "excitonic",
+        "excitonic linewidth",
+        "first-principles",
+        "linewidth",
+        "photoluminescence"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [
+          "first-principles calculations"
+        ],
+        "experimental_methods": {
+          "Photoluminescence": [
+            "photoluminescence"
+          ],
+          "Linewidth / fine structure": [
+            "excitonic linewidth",
+            "linewidth"
+          ]
+        },
+        "computational_methods": {
+          "DFT": [
+            "first-principles"
+          ]
+        },
+        "materials": {
+          "transition-metal dichalcogenides": [
+            "transition metal dichalcogenide",
+            "tmd monolayer",
+            "tmds"
+          ],
+          "TMDs / 2D chalcogenides": [
+            "transition metal dichalcogenide",
+            "tmds"
+          ],
+          "Other 2D / van der Waals materials": [
+            "monolayer"
+          ]
+        },
+        "properties": {
+          "Linewidth / dephasing": [
+            "excitonic linewidth",
+            "linewidth"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": true
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
     {
       "arxiv_id": "2608.20310",
       "version": "v1",
@@ -71,57 +227,6 @@
       },
       "evidence": {
         "experimental": true,
-        "computational": false
-      },
-      "versions_seen": [
-        "v1"
-      ]
-    },
-    {
-      "arxiv_id": "2608.20132",
-      "version": "v1",
-      "versioned_id": "2608.20132v1",
-      "title": "SAKE: Spectral Autodiff Kernel Expansion for Geometric Liouvillian Transport. A Differential-Geometric Framework for Response Transport in Quantum Dynamical Systems",
-      "authors": [
-        "Eric R. Bittner",
-        "Carlos Silva-Acuna",
-        "Hao Li",
-        "Simon Paiva-Ortega"
-      ],
-      "abstract": "We introduce the Spectral Autodiff Kernel Expansion (SAKE), a differentiable computational framework for transporting nonlinear spectroscopic response between neighboring quantum dynamical models. Rather than recomputing multidimensional spectra independently for each Hamiltonian or Liouvillian, SAKE constructs local transport expansions about a reference model by combining forward-mode automatic differentiation with Duhamel transport theory. Automatic differentiation generates first-, second-, and third-order derivatives of the parameter-dependent Liouvillian, which are assembled into a pathway transport operator that maps the nonlinear response of a reference model onto neighboring systems. The framework is validated for a four-level excitonic dimer possessing an $su(2)\\times su(2)$ symmetry by comparing second- and third-order transported pathway operators with exact projected transport matrices obtained from direct calculations. The third-order expansion accurately reproduces the projected transport operator and its associated pathway mixing. Beyond providing an efficient computational strategy, the transport operator reveals how coherent and dissipative perturbations redistribute amplitude among double-sided Feynman pathways, exposing mechanistic information that is not directly apparent from the nonlinear spectrum. SAKE thereby establishes a differentiable computational framework for nonlinear spectroscopy that supports efficient local parameter exploration, sensitivity analysis, and future inverse-design applications.",
-      "submitted": "2026-08-20T14:59:14Z",
-      "updated": "2026-08-20T14:59:14Z",
-      "categories": [
-        "quant-ph",
-        "physics.chem-ph"
-      ],
-      "pdf_url": "https://arxiv.org/pdf/2608.20132v1",
-      "arxiv_url": "https://arxiv.org/abs/2608.20132",
-      "study_type": "Unclassified",
-      "relevance": "Core exciton paper",
-      "paper_nature": "Methods / software",
-      "materials": [],
-      "material_families": [],
-      "exciton_properties": [],
-      "applications": [],
-      "methods": [],
-      "matched_keywords": [
-        "exciton",
-        "excitonic"
-      ],
-      "classification_evidence": {
-        "experimental_actions": [],
-        "computational_actions": [],
-        "experimental_methods": {},
-        "computational_methods": {},
-        "materials": {},
-        "properties": {},
-        "relevance": [
-          "exciton/excitonic stated in title or abstract"
-        ]
-      },
-      "evidence": {
-        "experimental": false,
         "computational": false
       },
       "versions_seen": [
@@ -15375,11 +15480,20 @@
       "new": 0,
       "updated": 0,
       "total": 201
+    },
+    {
+      "scanned_at": "2026-08-24T04:24:21.375187+00:00",
+      "since": "2026-08-10",
+      "fetched": 31,
+      "classified": 31,
+      "new": 1,
+      "updated": 1,
+      "total": 202
     }
   ],
   "counts": {
-    "total": 201,
-    "new_this_scan": 0,
-    "updated_this_scan": 0
+    "total": 202,
+    "new_this_scan": 1,
+    "updated_this_scan": 1
   }
 }
