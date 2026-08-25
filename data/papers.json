@@ -1,7 +1,362 @@
 {
   "schema_version": 2,
-  "last_scan": "2026-08-24T04:24:21.375187+00:00",
+  "last_scan": "2026-08-25T04:18:23.093601+00:00",
   "papers": [
+    {
+      "arxiv_id": "2608.23510",
+      "version": "v1",
+      "versioned_id": "2608.23510v1",
+      "title": "Large Jahn-Teller shifts and splittings observed in halide perovskite CsPbBr3",
+      "authors": [
+        "Maryam Sajedi",
+        "Maxim Krivenkov",
+        "Dmitry Marchenko",
+        "Saleem Ayaz Khan",
+        "Andrei Varykhalov",
+        "Jaime Sánchez-Barriga",
+        "Daniel M. Többens",
+        "Thomas Unold",
+        "Ján Minár",
+        "Oliver Rader"
+      ],
+      "abstract": "Despite the fundamental role of Jahn-Teller effects of first and second order in shaping structural and electronic properties, there is hardly any observation in angle-resolved photoemission of solids. In oxide and halide perovskites, band structure replicas have occasionally been reported as fingerprints of Jahn-Teller effects, but no accompanying energy shifts or splittings that would allow a conclusion about their origin. In CsPbBr3, we uncover both key signatures: Upon cooling, orthorhombic replica bands emerge which had eluded earlier studies. This includes an extra valence band maximum at Γ which can even be distinguished at room temperature. Most importantly, band narrowing along Γ-M, a splitting at Γ, and the lifting of degeneracy between nonequivalent M points, all of several 100 meV, become apparent. Temperature-dependent x-ray diffraction, used as input for band structure calculations, links these effects directly to tilts and rotations of the PbBr6 octahedra. Our results uncover a strong electron-lattice interaction which is at the heart of so-far unresolved questions concerning polaronic transport, dynamic disorder, and exciton trapping in halide perovskites.",
+      "submitted": "2026-08-24T17:16:52Z",
+      "updated": "2026-08-24T17:16:52Z",
+      "categories": [
+        "cond-mat.mtrl-sci"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2608.23510v1",
+      "arxiv_url": "https://arxiv.org/abs/2608.23510",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [
+        "perovskites"
+      ],
+      "material_families": [
+        "Perovskites / halide semiconductors"
+      ],
+      "exciton_properties": [
+        "Defects / trapping"
+      ],
+      "applications": [],
+      "methods": [],
+      "matched_keywords": [
+        "exciton"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [],
+        "experimental_methods": {},
+        "computational_methods": {},
+        "materials": {
+          "perovskites": [
+            "perovskite"
+          ],
+          "Perovskites / halide semiconductors": [
+            "perovskite"
+          ]
+        },
+        "properties": {
+          "Defects / trapping": [
+            "exciton trapping"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2608.23438",
+      "version": "v1",
+      "versioned_id": "2608.23438v1",
+      "title": "Defect-Mediated Nucleation and Dynamics across the Phase Transition in the Excitonic Insulator Candidate Ta2NiSe5",
+      "authors": [
+        "Guilherme Rodrigues-Fontenele",
+        "Gabriel Fontenele",
+        "Ângelo Malachias",
+        "Rogério Magalhães-Paniago"
+      ],
+      "abstract": "Ta2NiSe5 is a quasi-one-dimensional material that exhibits a structural and electronic phase transition from a low-temperature monoclinic (semiconductor) to a high-temperature orthorhombic (semimetal) phase at approximately TC = 326 K. Here, we used variable-temperature scanning tunneling microscopy and spectroscopy to resolve the phase transition spatially, identifying the distinct spectroscopic signatures of the monoclinic and orthorhombic phases in pristine regions and near isolated point-defects and step edges. Although the phase transition of Ta2NiSe5 is generally regarded as second-order, it has previously been described as exhibiting martensitic-like characteristics. This implies that the transformation may proceed via spatial phase coexistence and domain boundaries rather than through a continuous evolution. Our surface-sensitive measurements confirm this scenario, retrieving the coexistence and evolution of monoclinic and orthorhombic domains in real space. Upon heating through TC, we find that the two phases coexist as spatially segregated regions over extended timescales, separated by well-defined boundaries that evolve via localized nucleation and growth, rather than a spatially uniform transformation. In pristine regions, the orthorhombic phase nucleates anisotropically, perpendicular to the Ta-Ni-Ta chains, whereas point-defects and step edges act as local nucleation centers that promote the transition and suppress this intrinsic anisotropy. These results provide direct real-space visualization of how surface-specific structural and electronic variations, together with local disorder, modify the martensitic-like phase transition in Ta2NiSe5.",
+      "submitted": "2026-08-24T16:12:39Z",
+      "updated": "2026-08-24T16:12:39Z",
+      "categories": [
+        "cond-mat.mtrl-sci"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2608.23438v1",
+      "arxiv_url": "https://arxiv.org/abs/2608.23438",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [],
+      "material_families": [],
+      "exciton_properties": [],
+      "applications": [],
+      "methods": [],
+      "matched_keywords": [
+        "exciton",
+        "excitonic"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [
+          "we use"
+        ],
+        "computational_actions": [
+          "we use"
+        ],
+        "experimental_methods": {},
+        "computational_methods": {},
+        "materials": {},
+        "properties": {},
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2608.23423",
+      "version": "v1",
+      "versioned_id": "2608.23423v1",
+      "title": "Environmental Control Extends Beyond Quantum Dephasing in Exciton Energy Transfer",
+      "authors": [
+        "Junhua Zhou",
+        "Tianrui Chen",
+        "Dehao Yuan",
+        "Enhu He",
+        "Vandana Tiwari",
+        "Maxim Gelin",
+        "Francoise Remacle",
+        "R. J. Dwayne Miller",
+        "Fulu Zheng",
+        "Ajay Jha",
+        "Hong-Guang Duan"
+      ],
+      "abstract": "Excitation-energy transfer underpins the conversion of light into usable energy in photosynthetic organisms and serves as a paradigm for evolutionary optimized transport in open quantum systems. Although this process is often described as incoherent thermally assisted hopping, such descriptions become inadequate when electronic coupling, vibronic interactions and environmental fluctuations occur on comparable energy scales. Determining how the environment controls transport therefore remains a fundamental challenge. Here, we use temperature-dependent 2DES to investigate energy transfer in the photosynthetic antenna protein allophycocyanin over the range 10 - 296 K. The dominant $β\\rightarrow α$ transfer step exhibits a pronounced non-monotonic temperature dependence: the transfer time decreases from 400 fs at 10 K to 200 fs near 30- 40 K before increasing again to 400 fs at 296 K. In contrast, the homogeneous optical dephasing time decreases monotonically across the same temperature range. To interpret these observations, we model APC as a vibronically coupled excitonic dimer interacting with a structured environment and solve the dynamics using hierarchical equations of motion. Conventional fixed-bath models, including Drude-Lorentz and explicit intermolecular-mode spectral densities, fail to reproduce the observed turnover. Quantitative agreement is obtained only when the low-frequency sector of the environmental spectral density is allowed to anharmonically evolve strongly with temperature, while the high-frequency bath remains essentially unchanged. More broadly, these findings demonstrate that transport efficiency is controlled not simply by the magnitude of environmental fluctuations, but by the distribution of environmental spectral weight across frequency space, providing new experimental constraints on theories of molecular transport in complex quantum environments.",
+      "submitted": "2026-08-24T16:03:06Z",
+      "updated": "2026-08-24T16:03:06Z",
+      "categories": [
+        "physics.chem-ph",
+        "cond-mat.soft",
+        "quant-ph"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2608.23423v1",
+      "arxiv_url": "https://arxiv.org/abs/2608.23423",
+      "study_type": "Computational",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [],
+      "material_families": [
+        "Biological / light-harvesting systems"
+      ],
+      "exciton_properties": [
+        "Linewidth / dephasing",
+        "Transport / diffusion"
+      ],
+      "applications": [
+        "Photosynthesis"
+      ],
+      "methods": [],
+      "matched_keywords": [
+        "exciton",
+        "excitonic"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [
+          "we use"
+        ],
+        "computational_actions": [
+          "we use",
+          "using",
+          "we model"
+        ],
+        "experimental_methods": {},
+        "computational_methods": {},
+        "materials": {
+          "Biological / light-harvesting systems": [
+            "photosynthetic"
+          ]
+        },
+        "properties": {
+          "Linewidth / dephasing": [
+            "dephasing"
+          ],
+          "Transport / diffusion": [
+            "energy transfer"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": true
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2608.23403",
+      "version": "v1",
+      "versioned_id": "2608.23403v1",
+      "title": "The principle of detailed balance between electrons and phonons in presence of excitonic effects",
+      "authors": [
+        "Alberto Guandalini",
+        "Giovanni Caldarelli",
+        "Francesco Mauri",
+        "Francesco Macheda"
+      ],
+      "abstract": "Based on a many-body formulation, we derive an electron-phonon coupling including excitonic effects that preserves thermodynamic detailed balance between electronic and phononic scattering processes. We start from the microscopic electron-nucleus Hamiltonian, expand around the Born-Oppenheimer equilibrium geometry, and construct an effective action for the electronic and phononic propagators. From the same effective action, we derive both electronic and phononic self-energies in terms of a nonlocal vertex $\\mathcal G^{\\textrm{s}}$ including excitonic effects, which generalizes the usual local interaction vertex $g^{\\textrm{s}}$. When electrons and phonons are well-defined quasiparticles in the screened-exchange approximation and $\\mathcal G^{\\textrm{s}}$ is taken in its static limit, both self-energies reduce to Fermi-golden-rule expressions containing the same $\\mathcal G^{\\textrm{s}}$, thereby ensuring detailed balance. As an application, we compute electronic and phononic linewidths in graphene and illustrate this common-vertex construction. We analyze the competition between the reduced scattering phase space induced by the screened-exchange band structure and the enhancement of the electron-phonon vertex due to excitonic effects, finding that the vertex enhancement can compensate for and overcome the phase-space reduction in both electronic and phononic linewidths.",
+      "submitted": "2026-08-24T15:49:14Z",
+      "updated": "2026-08-24T15:49:14Z",
+      "categories": [
+        "cond-mat.mtrl-sci",
+        "cond-mat.mes-hall"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2608.23403v1",
+      "arxiv_url": "https://arxiv.org/abs/2608.23403",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [],
+      "material_families": [],
+      "exciton_properties": [
+        "Linewidth / dephasing",
+        "Exciton-phonon coupling"
+      ],
+      "applications": [],
+      "methods": [
+        "Linewidth / fine structure"
+      ],
+      "matched_keywords": [
+        "exciton",
+        "excitonic",
+        "linewidth"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [
+          "we compute"
+        ],
+        "experimental_methods": {
+          "Linewidth / fine structure": [
+            "linewidth"
+          ]
+        },
+        "computational_methods": {},
+        "materials": {},
+        "properties": {
+          "Linewidth / dephasing": [
+            "linewidth"
+          ],
+          "Exciton-phonon coupling": [
+            "electron-phonon coupling"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2608.23130",
+      "version": "v1",
+      "versioned_id": "2608.23130v1",
+      "title": "Multiscale Quasiparticle Electronic Structure and Excitonic Properties of CdSe Nanoclusters",
+      "authors": [
+        "Surender Kumar",
+        "Martin Thümmler",
+        "Alexander Croy",
+        "Stefanie Gräfe",
+        "Caterina Cocchi"
+      ],
+      "abstract": "Quantum confinement in stoichiometric $\\mathrm{Cd}_n\\mathrm{Se}_n$ nanoclusters dramatically attenuates electronic screening, driving a delicate, size-dependent competition between quasiparticle self-energy corrections ($Δ_{\\mathrm{QP}}$) and exciton binding energies ($E_b$). Here, we present a $GW$/BSE study across a representative size series ($n = 3, 6, 13, 33$) and leverage it to validate a scalable atomistic tight-binding (TB) framework derived from first principles. Our results demonstrate that 1-2 eV spectral blueshifts previously reported in the literature arise from single-particle $GW$ convergence artifacts rather than deficiencies in the electron--hole kernels. We show that the near-perfect cancellation between $Δ_{\\mathrm{QP}}$ and $E_b$ breaks down as cluster volume increases, driven by the rapid onset of dielectric screening attenuating $E_b$ faster than $Δ_{\\mathrm{QP}}$ and leading to a pronounced divergence from mean-field predictions. Spatial inverse participation ratio analysis of the electronic structure reveals that optical suppression of fundamental pre-peaks stems from a severe spatial mismatch between localized valence orbitals and delocalized conduction states. Finally, we demonstrate that the confinement-induced scaling of the quasiparticle gap and the optical onset is accurately reproduced by a scissor-corrected, DFT-parameterized TB model. As such, this work provides a quantitative multiscale roadmap for embedding effective many-body effects kernels into computationally efficient models, enabling reliable optical predictions for realistic semiconducting nanostructures containing up to thousands of atoms.",
+      "submitted": "2026-08-24T11:36:33Z",
+      "updated": "2026-08-24T11:36:33Z",
+      "categories": [
+        "cond-mat.mtrl-sci"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2608.23130v1",
+      "arxiv_url": "https://arxiv.org/abs/2608.23130",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [],
+      "material_families": [],
+      "exciton_properties": [
+        "Binding energy"
+      ],
+      "applications": [],
+      "methods": [
+        "DFT",
+        "Model Hamiltonian",
+        "Quasiparticle / optical gaps"
+      ],
+      "matched_keywords": [
+        "dft",
+        "exciton",
+        "excitonic",
+        "first principles",
+        "quasiparticle gap",
+        "tight-binding"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [],
+        "experimental_methods": {},
+        "computational_methods": {
+          "DFT": [
+            "first principles",
+            "dft"
+          ],
+          "Model Hamiltonian": [
+            "tight-binding"
+          ],
+          "Quasiparticle / optical gaps": [
+            "quasiparticle gap"
+          ]
+        },
+        "materials": {},
+        "properties": {
+          "Binding energy": [
+            "binding energies"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
     {
       "arxiv_id": "2608.20132",
       "version": "v2",
@@ -15489,11 +15844,20 @@
       "new": 1,
       "updated": 1,
       "total": 202
+    },
+    {
+      "scanned_at": "2026-08-25T04:18:23.093601+00:00",
+      "since": "2026-08-11",
+      "fetched": 33,
+      "classified": 33,
+      "new": 5,
+      "updated": 0,
+      "total": 207
     }
   ],
   "counts": {
-    "total": 202,
-    "new_this_scan": 1,
-    "updated_this_scan": 1
+    "total": 207,
+    "new_this_scan": 5,
+    "updated_this_scan": 0
   }
 }
