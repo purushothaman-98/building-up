@@ -1,7 +1,215 @@
 {
   "schema_version": 2,
-  "last_scan": "2026-08-25T04:18:23.093601+00:00",
+  "last_scan": "2026-08-26T04:18:45.759653+00:00",
   "papers": [
+    {
+      "arxiv_id": "2608.24663",
+      "version": "v1",
+      "versioned_id": "2608.24663v1",
+      "title": "Exciton fine structure in nanocrystals: effect of cuboidal and spheroidal shapes",
+      "authors": [
+        "M. A. Semina",
+        "O. O. Druzhinina",
+        "A. A. Golovatentko",
+        "A. V. Rodina"
+      ],
+      "abstract": "We present the theory of the band-edge exciton fine structure in nanocrystals (NCs) with spheroidal and cuboidal shapes. The effects of the cubic symmetry of the crystal lattice, the cubic shape of the NC, and NC uniaxial anisotropy on the hole energy states and electron-hole exchange interactions are considered non-perturbatively. Symmetry analysis yields an effective Hamiltonian for the exciton fine structure, parameterized by one constant for hole energy splitting and five independent constants for exchange interaction. Numerical calculations reveal that in uniaxially anisotropic zinc-blende NCs, the sign of the hole ground state splitting depends on the material parameters and on the orientation of the anisotropy axis relative to the crystallographic axes. Beyond the conventional bulk cubically-symmetric contribution to the exchange interaction, which originates from Bloch-function symmetry and is typically negligible, in nanocrystals, we identify the contribution arising from the cubic symmetry of the envelope wavefunction. This cubically symmetric envelope-induced short-range exchange is non-negligible in cuboidal NCs and induces a pronounced splitting of the dark exciton states. We further analyze the influence of uniaxial anisotropy of the exchange constants on both the exciton fine structure and the oscillator strength. Special attention is paid to NCs, where the anisotropy of the exchange constants is comparable to a relatively small hole energy anisotropic splitting.",
+      "submitted": "2026-08-25T15:05:40Z",
+      "updated": "2026-08-25T15:05:40Z",
+      "categories": [
+        "cond-mat.mes-hall"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2608.24663v1",
+      "arxiv_url": "https://arxiv.org/abs/2608.24663",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [],
+      "material_families": [
+        "Quantum-confined structures"
+      ],
+      "exciton_properties": [
+        "Fine structure / bright-dark splitting",
+        "Oscillator strength / optical activity"
+      ],
+      "applications": [],
+      "methods": [
+        "Oscillator strength"
+      ],
+      "matched_keywords": [
+        "exciton",
+        "oscillator strength"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [],
+        "experimental_methods": {},
+        "computational_methods": {
+          "Oscillator strength": [
+            "oscillator strength"
+          ]
+        },
+        "materials": {
+          "Quantum-confined structures": [
+            "nanocrystal"
+          ]
+        },
+        "properties": {
+          "Fine structure / bright-dark splitting": [
+            "dark exciton"
+          ],
+          "Oscillator strength / optical activity": [
+            "oscillator strength"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2608.24633",
+      "version": "v1",
+      "versioned_id": "2608.24633v1",
+      "title": "Ultrafast tuning of the focusing efficiency of a nonlinear atomically thin lens",
+      "authors": [
+        "Rahil Rezwan",
+        "Bernardo Dias",
+        "Tom Hoekstra",
+        "Mehmet Atıf Durmuş",
+        "Bauke van der Vorm",
+        "Till Weickhardt",
+        "Omid Ghaebi",
+        "Zhuoyuan Lu",
+        "Devapriyo Mithun",
+        "Carsten Ronning",
+        "Yuerui Lu",
+        "Jorik van de Groep",
+        "Giancarlo Soavi"
+      ],
+      "abstract": "Control over light focusing is paramount for optical and imaging systems. However, its implementation in active and integrated nanophotonic devices is hindered by the bulky and static nature of standard lenses. Here, we show that Fresnel Zone Plate Lenses (FZPL) based on a monolayer Transitional Metal Dichalcogenide are a viable solution to the challenges of miniaturization, integration, and active control of the focusing efficiency, featuring both ultrafast and large modulation depth. Using a monolayer $WSe_2$ FZPL, we demonstrate all-optical ultrafast ($\\sim$ ps) modulation of the focusing efficiency close to $\\sim$30\\%, that we achieve by exploiting the nonlinear exciton-resonant enhancement and modulation of second harmonic generation.",
+      "submitted": "2026-08-25T14:46:17Z",
+      "updated": "2026-08-25T14:46:17Z",
+      "categories": [
+        "physics.optics"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2608.24633v1",
+      "arxiv_url": "https://arxiv.org/abs/2608.24633",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [],
+      "material_families": [
+        "Other 2D / van der Waals materials"
+      ],
+      "exciton_properties": [],
+      "applications": [],
+      "methods": [],
+      "matched_keywords": [
+        "exciton"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [
+          "using"
+        ],
+        "experimental_methods": {},
+        "computational_methods": {},
+        "materials": {
+          "Other 2D / van der Waals materials": [
+            "monolayer"
+          ]
+        },
+        "properties": {},
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2608.24216",
+      "version": "v1",
+      "versioned_id": "2608.24216v1",
+      "title": "Excitonic fingerprints of magnetic configurations and switching in multilayer CrSBr",
+      "authors": [
+        "Lukas Krelle",
+        "Ryan Tan",
+        "Jakob Conradi",
+        "Priyanka Mondal",
+        "Wenze Lan",
+        "Kseniia Mosina",
+        "Regine von Klitzing",
+        "Zdenek Sofer",
+        "Bernhard Urbaszek"
+      ],
+      "abstract": "The coupling between electronic states and magnetism provides a route towards optical readout and control of magnetic information. In the magnetic semiconductor CrSBr, excitons are coupled to magnetic order, making their optical response sensitive to the underlying magnetization. Here, we show that the energy and oscillator strength of bulk and surface excitons provide distinct spectroscopic fingerprints of magnetic configurations and switching pathways. We distinguish domain-wall-mediated magnetization reversal, manifested by continuous spectral evolution as a domain wall traverses the optical spot, from abrupt, large-area magnetization reversal. Using the resulting excitonic fingerprints, we reconstruct successive magnetic configurations in 4- and 5-layer CrSBr during the transition from ferromagnetic to antiferromagnetic order. We further find that the sensitivity to magnetic order is strongly exciton-dependent: low-energy excitons resolve intermediate and surface-related configurations, whereas a higher-energy exciton predominantly exhibits a transfer of oscillator strength between ferromagnetic and antiferromagnetic resonances. These results establish excitonic spectroscopy as a sensitive probe of layer-dependent magnetic configurations and their switching pathways in layered magnetic semiconductors.",
+      "submitted": "2026-08-25T08:22:08Z",
+      "updated": "2026-08-25T08:22:08Z",
+      "categories": [
+        "cond-mat.mtrl-sci"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2608.24216v1",
+      "arxiv_url": "https://arxiv.org/abs/2608.24216",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [],
+      "material_families": [],
+      "exciton_properties": [
+        "Oscillator strength / optical activity"
+      ],
+      "applications": [],
+      "methods": [
+        "Oscillator strength"
+      ],
+      "matched_keywords": [
+        "exciton",
+        "excitonic",
+        "oscillator strength"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [
+          "using"
+        ],
+        "experimental_methods": {},
+        "computational_methods": {
+          "Oscillator strength": [
+            "oscillator strength"
+          ]
+        },
+        "materials": {},
+        "properties": {
+          "Oscillator strength / optical activity": [
+            "oscillator strength"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
     {
       "arxiv_id": "2608.23510",
       "version": "v1",
@@ -15853,11 +16061,20 @@
       "new": 5,
       "updated": 0,
       "total": 207
+    },
+    {
+      "scanned_at": "2026-08-26T04:18:45.759653+00:00",
+      "since": "2026-08-12",
+      "fetched": 32,
+      "classified": 32,
+      "new": 3,
+      "updated": 0,
+      "total": 210
     }
   ],
   "counts": {
-    "total": 207,
-    "new_this_scan": 5,
+    "total": 210,
+    "new_this_scan": 3,
     "updated_this_scan": 0
   }
 }
