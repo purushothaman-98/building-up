@@ -1,7 +1,159 @@
 {
   "schema_version": 2,
-  "last_scan": "2026-08-26T04:18:45.759653+00:00",
+  "last_scan": "2026-08-27T14:34:10.229947+00:00",
   "papers": [
+    {
+      "arxiv_id": "2608.25482",
+      "version": "v1",
+      "versioned_id": "2608.25482v1",
+      "title": "Parity-controlled electron-hole interference in exciton-phonon coupling",
+      "authors": [
+        "Michael O. Atambo"
+      ],
+      "abstract": "We demonstrate that exciton-phonon coupling in polar semiconductors is governed by a parity-controlled interference selection rule. By performing an exact multipole expansion of the excitonic form factor and validating it against numerical integration of hydrogenic envelope functions, we show that the long-range infrared divergence of the Fröhlich interaction is exactly canceled for elastic scattering between excitonic states of the same parity. The ground-state exciton is thereby protected from long-wavelength polar phonons by destructive electron-hole interference. In contrast, transitions between states of opposite parity exhibit constructive interference, preserving a finite, robust coupling to macroscopic polar fields independent of band-structure details. Mass asymmetry between the electron and hole activates higher-order multipole terms in the elastic channel but leaves the constructive inelastic channel essentially unaffected. The selection rule is dimensionally invariant, applying to bulk and two-dimensional systems alike, and naturally explains the anomalously weak phonon dressing observed in halide perovskites as well as the strong phonon sidebands in transition-metal dichalcogenides. Our framework provides a universal, analytically exact criterion for exciton-phonon coupling strength, offering a design principle for engineering excitonic materials with tailored phonon interactions.",
+      "submitted": "2026-08-26T07:53:07Z",
+      "updated": "2026-08-26T07:53:07Z",
+      "categories": [
+        "cond-mat.mtrl-sci"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2608.25482v1",
+      "arxiv_url": "https://arxiv.org/abs/2608.25482",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [
+        "perovskites",
+        "transition-metal dichalcogenides"
+      ],
+      "material_families": [
+        "TMDs / 2D chalcogenides",
+        "Perovskites / halide semiconductors"
+      ],
+      "exciton_properties": [
+        "Exciton-phonon coupling"
+      ],
+      "applications": [],
+      "methods": [],
+      "matched_keywords": [
+        "exciton",
+        "excitonic"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [],
+        "experimental_methods": {},
+        "computational_methods": {},
+        "materials": {
+          "perovskites": [
+            "perovskite"
+          ],
+          "transition-metal dichalcogenides": [
+            "transition-metal dichalcogenide"
+          ],
+          "TMDs / 2D chalcogenides": [
+            "transition-metal dichalcogenide"
+          ],
+          "Perovskites / halide semiconductors": [
+            "perovskite"
+          ]
+        },
+        "properties": {
+          "Exciton-phonon coupling": [
+            "exciton-phonon"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2608.25407",
+      "version": "v1",
+      "versioned_id": "2608.25407v1",
+      "title": "Dynamical development of long-range spatial coherence in non-equilibrium bosonic condensation",
+      "authors": [
+        "Bianca Rae Fabricante",
+        "Dąbrówka Biegańska",
+        "Paolo Comaron",
+        "Mateusz Król",
+        "Matthias Wurdack",
+        "Maciej Pieczarka",
+        "Mark Steger",
+        "David W. Snoke",
+        "Kenneth West",
+        "Daniele Sanvitto",
+        "Dario Ballarini",
+        "Dimitrios Trypogeorgos",
+        "Loren N. Pfeiffer",
+        "Andrew G. Truscott",
+        "Marzena Szymańska",
+        "Elena A. Ostrovskaya",
+        "Eliezer Estrecho"
+      ],
+      "abstract": "Development of spontaneous coherence is one of the hallmarks of bosonic condensation in a variety of physical systems, such as cold atoms, confined photons, and hybrid light-matter quasiparticles like exciton polaritons in semiconductors. While spatial coherence is well understood once a steady-state condensate has been established, its temporal evolution as the condensate forms is largely unexplored. Here, we explore the dynamical formation of a non-equilibrium, driven-dissipative exciton-polariton condensate through both time-resolved experiments and numerical modeling. Our study reveals that the spatial coherence is established through two distinct stages. The early-time stage is interaction-driven and features transient oscillations in spatial coherence. This stage is followed by a steady-state regime characterized by a spatially-uniform high degree of coherence that extends over the entire size of the system and persists over time. These stages of spatial coherence development occur in both free flowing and confined exciton-polariton systems that undergo a quench - rapid growth of the condensate starting from two different initial settings. Our study offers a deep insight into the process by which long-range spatial coherence is established in a non-equilibrium bosonic condensate.",
+      "submitted": "2026-08-26T06:09:29Z",
+      "updated": "2026-08-26T06:09:29Z",
+      "categories": [
+        "cond-mat.quant-gas",
+        "cond-mat.mes-hall"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2608.25407v1",
+      "arxiv_url": "https://arxiv.org/abs/2608.25407",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [],
+      "material_families": [],
+      "exciton_properties": [
+        "Light-matter strong coupling"
+      ],
+      "applications": [
+        "Exciton polaritons"
+      ],
+      "methods": [
+        "Time-resolved spectroscopy"
+      ],
+      "matched_keywords": [
+        "exciton",
+        "polariton",
+        "time-resolved"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [],
+        "experimental_methods": {
+          "Time-resolved spectroscopy": [
+            "time-resolved"
+          ]
+        },
+        "computational_methods": {},
+        "materials": {},
+        "properties": {
+          "Light-matter strong coupling": [
+            "exciton-polariton",
+            "exciton polariton"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
     {
       "arxiv_id": "2608.24663",
       "version": "v1",
@@ -16070,11 +16222,20 @@
       "new": 3,
       "updated": 0,
       "total": 210
+    },
+    {
+      "scanned_at": "2026-08-27T14:34:10.229947+00:00",
+      "since": "2026-08-13",
+      "fetched": 30,
+      "classified": 30,
+      "new": 2,
+      "updated": 0,
+      "total": 212
     }
   ],
   "counts": {
-    "total": 210,
-    "new_this_scan": 3,
+    "total": 212,
+    "new_this_scan": 2,
     "updated_this_scan": 0
   }
 }
