@@ -1,7 +1,76 @@
 {
   "schema_version": 2,
-  "last_scan": "2026-08-28T00:38:29.727287+00:00",
+  "last_scan": "2026-08-29T00:10:24.466173+00:00",
   "papers": [
+    {
+      "arxiv_id": "2608.19721",
+      "version": "v2",
+      "versioned_id": "2608.19721v2",
+      "title": "A Comparative Study of Coherent and Action-Detected 2D Electronic Spectroscopies of a Multichromophore Photosynthetic System",
+      "authors": [
+        "Edoardo Amarotti",
+        "Ajeet Kumar",
+        "Luca Bolzonello",
+        "David Bina",
+        "Tõnu Pullerits",
+        "Donatas Zigmantas"
+      ],
+      "abstract": "Coherent two-dimensional electronic spectroscopy (C-2DES) is a powerful tool for resolving excitonic structure and dynamics in light-harvesting complexes with dense energy-level manifolds. In contrast, action-detected 2DES has seen limited use on such systems, and its capacity to reveal electronic structure and dynamics remains unclear. Here we compare C-2DES and fluorescence-detected 2DES (F-2DES) on the major plant light-harvesting complex (LHCII) at 78 K. C-2DES resolves excitonic features and their spectral evolution, mapping energy-transfer pathways. F-2DES shows strong cross-peaks, but these are largely time-invariant and dominated by incoherent mixing, obscuring the dynamics. C-2DES is therefore preferred for resolving ultrafast energy transfer in light-harvesting complexes and other large interacting networks. Combined, the two measurements directly quantify the suppression of population dynamics by incoherent mixing, confirming that nearly the entire LHCII trimer network contributes. We also identify pulse-shaper nonlinearities in F-2DES as spurious features, highlighting the need for rigorous artifact suppression.",
+      "submitted": "2026-08-20T07:18:10Z",
+      "updated": "2026-08-27T09:06:14Z",
+      "categories": [
+        "physics.chem-ph"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2608.19721v2",
+      "arxiv_url": "https://arxiv.org/abs/2608.19721",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [],
+      "material_families": [
+        "Biological / light-harvesting systems"
+      ],
+      "exciton_properties": [
+        "Transport / diffusion"
+      ],
+      "applications": [
+        "Photosynthesis"
+      ],
+      "methods": [],
+      "matched_keywords": [
+        "exciton",
+        "excitonic"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [],
+        "experimental_methods": {},
+        "computational_methods": {},
+        "materials": {
+          "Biological / light-harvesting systems": [
+            "photosynthetic",
+            "light-harvesting complex",
+            "chromophore"
+          ]
+        },
+        "properties": {
+          "Transport / diffusion": [
+            "energy transfer"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1",
+        "v2"
+      ]
+    },
     {
       "arxiv_id": "2608.25482",
       "version": "v1",
@@ -1002,74 +1071,6 @@
       "versions_seen": [
         "v1",
         "v2"
-      ]
-    },
-    {
-      "arxiv_id": "2608.19721",
-      "version": "v1",
-      "versioned_id": "2608.19721v1",
-      "title": "A Comparative Study of Coherent and Action-Detected 2D Electronic Spectroscopies of a Multichromophore Photosynthetic System",
-      "authors": [
-        "Edoardo Amarotti",
-        "Ajeet Kumar",
-        "Luca Bolzonello",
-        "David Bina",
-        "Tõnu Pullerits",
-        "Donatas Zigmantas"
-      ],
-      "abstract": "Coherent two-dimensional electronic spectroscopy (C-2DES) is a powerful tool for resolving excitonic structure and dynamics in light-harvesting complexes with dense energy-level manifolds. In contrast, action-detected 2DES has seen limited use on such systems, and its capacity to reveal electronic structure and dynamics remains unclear. Here we compare C-2DES and fluorescence-detected 2DES (F-2DES) on the major plant light-harvesting complex (LHCII) at 78 K. C-2DES resolves excitonic features and their spectral evolution, mapping energy-transfer pathways. F-2DES shows strong cross-peaks, but these are largely time-invariant and dominated by incoherent mixing, obscuring the dynamics. C-2DES is therefore preferred for resolving ultrafast energy transfer in light-harvesting complexes and other large interacting networks. Combined, the two measurements directly quantify the suppression of population dynamics by incoherent mixing, confirming that nearly the entire LHCII trimer network contributes. We also identify pulse-shaper nonlinearities in F-2DES as spurious features, highlighting the need for rigorous artifact suppression.",
-      "submitted": "2026-08-20T07:18:10Z",
-      "updated": "2026-08-20T07:18:10Z",
-      "categories": [
-        "physics.chem-ph"
-      ],
-      "pdf_url": "https://arxiv.org/pdf/2608.19721v1",
-      "arxiv_url": "https://arxiv.org/abs/2608.19721",
-      "study_type": "Unclassified",
-      "relevance": "Core exciton paper",
-      "paper_nature": "Original research",
-      "materials": [],
-      "material_families": [
-        "Biological / light-harvesting systems"
-      ],
-      "exciton_properties": [
-        "Transport / diffusion"
-      ],
-      "applications": [
-        "Photosynthesis"
-      ],
-      "methods": [],
-      "matched_keywords": [
-        "exciton",
-        "excitonic"
-      ],
-      "classification_evidence": {
-        "experimental_actions": [],
-        "computational_actions": [],
-        "experimental_methods": {},
-        "computational_methods": {},
-        "materials": {
-          "Biological / light-harvesting systems": [
-            "photosynthetic",
-            "light-harvesting complex",
-            "chromophore"
-          ]
-        },
-        "properties": {
-          "Transport / diffusion": [
-            "energy transfer"
-          ]
-        },
-        "relevance": [
-          "exciton/excitonic stated in title or abstract"
-        ]
-      },
-      "evidence": {
-        "experimental": false,
-        "computational": false
-      },
-      "versions_seen": [
-        "v1"
       ]
     },
     {
@@ -16240,11 +16241,20 @@
       "new": 0,
       "updated": 0,
       "total": 212
+    },
+    {
+      "scanned_at": "2026-08-29T00:10:24.466173+00:00",
+      "since": "2026-08-15",
+      "fetched": 25,
+      "classified": 25,
+      "new": 0,
+      "updated": 1,
+      "total": 212
     }
   ],
   "counts": {
     "total": 212,
     "new_this_scan": 0,
-    "updated_this_scan": 0
+    "updated_this_scan": 1
   }
 }
