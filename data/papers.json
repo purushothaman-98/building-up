@@ -1,7 +1,714 @@
 {
   "schema_version": 2,
-  "last_scan": "2026-08-30T09:26:36.616487+00:00",
+  "last_scan": "2026-08-31T10:02:53.135170+00:00",
   "papers": [
+    {
+      "arxiv_id": "2608.28574",
+      "version": "v1",
+      "versioned_id": "2608.28574v1",
+      "title": "Super-resolution Control of Two-dimensional Quantum Emitters",
+      "authors": [
+        "Bosai Lyu",
+        "Valeria Vento",
+        "Ludivine Fausten",
+        "Daniel Suarez-Forero",
+        "Klevis Domi",
+        "Kenji Watanabe",
+        "Takashi Taniguchi",
+        "Alberto Morpurgo",
+        "Iaroslav Gaponenko",
+        "Patrycja Paruch",
+        "Ajit Srivastava"
+      ],
+      "abstract": "Localized interlayer excitons in semiconducting transition-metal dichalcogenide heterobilayers are quantum emitters with a static electric dipole moment, making them excellent nanoscale charge sensors to probe correlated quantum phases in a proximal layer. These emitters are electrically tunable and inherit spin-valley selection rules, yet their deterministic spatial control remains challenging due to subwavelength confinement. Here, we present a platform that combines cryogenic optical spectroscopy with scanning probe microscopy to investigate trapped interlayer excitons in WSe$_2$/MoSe$_2$ bilayers. By exploiting AFM-based local Stark shift, we achieve super-resolution localization of emitters separated by only a few tens of nanometers and demonstrate deterministic control of individual charge states, including trion formation, opening a path towards coherent inter-dot coupling. Time-resolved measurements reveal tip-induced modification of the electromagnetic vacuum around individual emitters, thus controlling their radiative emission. Our multi-point charge sensing platform with optical readout is particularly well-suited to study fractionalization and anyon dynamics in semiconducting FCIs.",
+      "submitted": "2026-08-28T17:52:00Z",
+      "updated": "2026-08-28T17:52:00Z",
+      "categories": [
+        "cond-mat.mes-hall"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2608.28574v1",
+      "arxiv_url": "https://arxiv.org/abs/2608.28574",
+      "study_type": "Experimental",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [
+        "transition-metal dichalcogenides"
+      ],
+      "material_families": [
+        "TMDs / 2D chalcogenides",
+        "Other 2D / van der Waals materials"
+      ],
+      "exciton_properties": [
+        "Valley / spin physics"
+      ],
+      "applications": [],
+      "methods": [
+        "Time-resolved spectroscopy"
+      ],
+      "matched_keywords": [
+        "exciton",
+        "time-resolved"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [
+          "measurements reveal"
+        ],
+        "computational_actions": [],
+        "experimental_methods": {
+          "Time-resolved spectroscopy": [
+            "time-resolved"
+          ]
+        },
+        "computational_methods": {},
+        "materials": {
+          "transition-metal dichalcogenides": [
+            "transition-metal dichalcogenide"
+          ],
+          "TMDs / 2D chalcogenides": [
+            "transition-metal dichalcogenide"
+          ],
+          "Other 2D / van der Waals materials": [
+            "heterobilayer"
+          ]
+        },
+        "properties": {
+          "Valley / spin physics": [
+            "spin-valley"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": true,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2608.28381",
+      "version": "v1",
+      "versioned_id": "2608.28381v1",
+      "title": "Electrically Tunable Two-Component Exciton Condensate in a Coulomb-Coupled Graphene Trilayer",
+      "authors": [
+        "Bo Zou",
+        "A. Okounkova",
+        "Shuaiqing Zhang",
+        "Jian Liao",
+        "J. Pack",
+        "K. Watanabe",
+        "T. Taniguchi",
+        "Yihang Zeng"
+      ],
+      "abstract": "Multicomponent condensates possess internal phase degrees of freedom unavailable to a single-component condensate, yet their components are rarely controllable in solids. Here we realize a graphene trilayer with negligible interlayer tunnelling in which the layer-specific carrier densities are continuously tuned by electrostatic gating. Quantum-capacitance measurements demonstrate that charge-incompressible quantum Hall states at total filling factors 1 and 2 persist across the full range of layer-filling configurations and continuously connect the three bilayer exciton-condensate limits. This persistence provides evidence for a trilayer excitonic state. Static Hartree-Fock and time-dependent Hartree-Fock calculations yield two independent finite phase-stiffness eigenmodes and two linearly dispersing Goldstone modes, respectively, when all three layers are partially filled, whereas only one phase-stiffness eigenmode and one linear Goldstone mode remain when one layer is unfilled. The stiffness eigenmodes rotate continuously between the two adjacent-layer exciton bases as charge is transferred among the layers, revealing electrical control of the condensate-mode composition. Together, the experimental and theoretical results support the identification of a two-component exciton condensate with a continuously tunable internal structure.",
+      "submitted": "2026-08-28T14:34:58Z",
+      "updated": "2026-08-28T14:34:58Z",
+      "categories": [
+        "cond-mat.mes-hall"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2608.28381v1",
+      "arxiv_url": "https://arxiv.org/abs/2608.28381",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [],
+      "material_families": [],
+      "exciton_properties": [
+        "g-factor / Zeeman splitting"
+      ],
+      "applications": [],
+      "methods": [
+        "Exciton g-factor"
+      ],
+      "matched_keywords": [
+        "exciton",
+        "excitonic",
+        "g factor"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [],
+        "experimental_methods": {
+          "Exciton g-factor": [
+            "g factor"
+          ]
+        },
+        "computational_methods": {},
+        "materials": {},
+        "properties": {
+          "g-factor / Zeeman splitting": [
+            "g factor"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2608.28353",
+      "version": "v1",
+      "versioned_id": "2608.28353v1",
+      "title": "Crystal-phase quantum dots in AlGaAs nanowires",
+      "authors": [
+        "Rohan Radhakrishnan",
+        "Rodion Reznik",
+        "Gilles Patriarche",
+        "Lorenzo Leandro",
+        "Igor Ilkiv",
+        "Anna Andreeva",
+        "Artem Khrebtov",
+        "George Cirlin",
+        "Nika Akopian"
+      ],
+      "abstract": "Crystal-phase quantum dots (CPQDs)$\\unicode{x2014}$quantum dots in nanowires defined by crystal structure rather than material composition$\\unicode{x2014}$constitute the only platform capable of fabricating quantum-dot arrays with the ultimate precision of a single atomic layer. This intrinsic control yields perfectly aligned quantum dots with atomically sharp interfaces, providing a unique pathway toward scalable quantum-dot-based photonic quantum technologies. To date, CPQDs have been studied primarily in binary semiconductors, such as InP and GaAs, where their emission linewidths are typically in the meV range, thereby limiting their technological potential. Here, we report, for the first time, CPQDs in AlGaAs nanowires and show bright single-photon emission with linewidths as narrow as 61 $μeV$ and low background emission, demonstrating optical quality well beyond typical CPQDs. We attribute this performance to a type-I band alignment, as suggested by an exciton lifetime of 1 ns, significantly shorter than that typically observed in type-II CPQDs. Additionally, we observe an exciton fine-structure splitting and a Zeeman splitting, as commonly observed in standard type-I self-assembled quantum dots.",
+      "submitted": "2026-08-28T14:04:52Z",
+      "updated": "2026-08-28T14:04:52Z",
+      "categories": [
+        "cond-mat.mes-hall",
+        "physics.optics",
+        "quant-ph"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2608.28353v1",
+      "arxiv_url": "https://arxiv.org/abs/2608.28353",
+      "study_type": "Experimental",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [
+        "quantum dots"
+      ],
+      "material_families": [
+        "Quantum-confined structures"
+      ],
+      "exciton_properties": [
+        "Lifetime / relaxation",
+        "Linewidth / dephasing",
+        "g-factor / Zeeman splitting",
+        "Fine structure / bright-dark splitting"
+      ],
+      "applications": [],
+      "methods": [
+        "Exciton lifetime / dynamics",
+        "Linewidth / fine structure"
+      ],
+      "matched_keywords": [
+        "exciton",
+        "exciton lifetime",
+        "fine-structure splitting",
+        "linewidth"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [
+          "we observe",
+          "we report"
+        ],
+        "computational_actions": [],
+        "experimental_methods": {
+          "Exciton lifetime / dynamics": [
+            "exciton lifetime"
+          ],
+          "Linewidth / fine structure": [
+            "linewidth",
+            "fine-structure splitting"
+          ]
+        },
+        "computational_methods": {},
+        "materials": {
+          "quantum dots": [
+            "quantum dot"
+          ],
+          "Quantum-confined structures": [
+            "quantum dot"
+          ]
+        },
+        "properties": {
+          "Lifetime / relaxation": [
+            "exciton lifetime"
+          ],
+          "Linewidth / dephasing": [
+            "linewidth"
+          ],
+          "g-factor / Zeeman splitting": [
+            "zeeman splitting"
+          ],
+          "Fine structure / bright-dark splitting": [
+            "fine-structure splitting"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": true,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2608.28338",
+      "version": "v1",
+      "versioned_id": "2608.28338v1",
+      "title": "Evidence for Three-component Interlayer Coherent Exciton Condensation",
+      "authors": [
+        "Subi Du",
+        "Xiaohan Zhang",
+        "Hongxi Song",
+        "Siyu Fan",
+        "Yiduo Wang",
+        "Zhenyu Wang",
+        "Song Liu",
+        "Kenji Watanabe",
+        "Takashi Taniguchi",
+        "Jiangping Hu",
+        "Yang Xu"
+      ],
+      "abstract": "Increasing the number of internal components in a quantum many-body system can host collective orders inaccessible to simpler settings. Quantum Hall bilayers provide a canonical realization of interlayer exciton condensation, yet extending such coherence across three independently addressable electronic fluids has remained elusive. Here we report evidence for three-component interlayer coherent exciton condensation in triple-layer graphene system. Using Rydberg excitons in an adjacent WSe2 monolayer as a layer-sensitive optical probe, we resolve interaction-induced incompressibility at zeroth-Landau-level crossings for all three pairwise layer combinations, establishing top-middle, middle-bottom and top-bottom exciton condensate channels within the same device. Independent control of displacement field and interlayer bias continuously tunes these pairwise states towards a regime where Landau levels from all three layers approach simultaneous degeneracy. At their convergence, incompressibility persists while the exciton energy and spectral weight evolve smoothly between the pairwise limits, suggesting coherent participation of all three layers in a single three-component state. More broadly, the ability to independently control layer potentials and engineer interlayer interactions establishes multilayer graphene as a programmable synthetic dimension for exploring higher-component quantum Hall order and simulating strongly correlated quantum matter.",
+      "submitted": "2026-08-28T13:50:48Z",
+      "updated": "2026-08-28T13:50:48Z",
+      "categories": [
+        "cond-mat.mes-hall",
+        "cond-mat.str-el"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2608.28338v1",
+      "arxiv_url": "https://arxiv.org/abs/2608.28338",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [
+        "WSe2"
+      ],
+      "material_families": [
+        "TMDs / 2D chalcogenides",
+        "Other 2D / van der Waals materials"
+      ],
+      "exciton_properties": [
+        "Coherence"
+      ],
+      "applications": [],
+      "methods": [],
+      "matched_keywords": [
+        "exciton"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [
+          "we report"
+        ],
+        "computational_actions": [
+          "using"
+        ],
+        "experimental_methods": {},
+        "computational_methods": {},
+        "materials": {
+          "WSe2": [
+            "wse2"
+          ],
+          "TMDs / 2D chalcogenides": [
+            "wse2"
+          ],
+          "Other 2D / van der Waals materials": [
+            "monolayer"
+          ]
+        },
+        "properties": {
+          "Coherence": [
+            "coherent exciton"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2608.28143",
+      "version": "v1",
+      "versioned_id": "2608.28143v1",
+      "title": "Light-induced atomic motion in ionic crystals",
+      "authors": [
+        "Jacob C. Warming",
+        "Simon P. S. Jessen",
+        "Emma A. Husted",
+        "Jan Thøgersen",
+        "Stefan Gundacker",
+        "Brian Julsgaard",
+        "Peter Balling",
+        "Rosana M. Turtos"
+      ],
+      "abstract": "Atomic motion in solids is conventionally driven by elastic collisions between ionizing particles and atoms, which transfer momentum and induce lattice displacements. In this work, we demonstrate a different mechanism for atomic displacement based on optical excitation of scintillating ionic crystals. Ionic crystals are unique systems because of the closed-shell electronic configuration of their constituent ions. In these materials, excitation above the band gap generates a hole that strongly distorts the lattice, resulting in the formation of a self-trapped hole (STH). The STH is Coulomb-attracted to the electron, thereby forming a self-trapped exciton (STE). Here, we demonstrate that in BaF2 - one of the fastest scintillators - the STE structure promotes the formation of long-lived electron and hole traps that persist in the lattice at room temperature. Such trapped electron-hole pairs occupy vacancy-interstitial fluorine pair positions, and can be created indiscernibly using optical or ionizing radiation excitation, as long as the STH is formed. Further, we demonstrate that it is possible to control the defect evolution with light. Selective optical stimulation of the trapped electrons or holes enables the regeneration of the STE at later times. This light-controlled defect engineering allows us to increase the yield of the STE signal appearing as optically stimulated luminescence (OSL) and to image the spatial distribution of the initial energy deposition, holding strong potential for ionizing-radiation detection. These findings provide a common framework underlying scintillation and OSL in ionic crystals of the fluorite structure, allowing for optical manipulation of atomic vacancies-interstitial pairs in similar systems.",
+      "submitted": "2026-08-28T10:04:38Z",
+      "updated": "2026-08-28T10:04:38Z",
+      "categories": [
+        "cond-mat.mtrl-sci"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2608.28143v1",
+      "arxiv_url": "https://arxiv.org/abs/2608.28143",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [],
+      "material_families": [],
+      "exciton_properties": [
+        "Defects / trapping"
+      ],
+      "applications": [],
+      "methods": [],
+      "matched_keywords": [
+        "exciton"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [
+          "using"
+        ],
+        "experimental_methods": {},
+        "computational_methods": {},
+        "materials": {},
+        "properties": {
+          "Defects / trapping": [
+            "self-trapped exciton"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2608.28104",
+      "version": "v1",
+      "versioned_id": "2608.28104v1",
+      "title": "Band-like Carriers in a Soft, Anharmonic Lattice: Lead-Halide Perovskites",
+      "authors": [
+        "Young Mi Lee",
+        "Inhee Maeng",
+        "Jinwoo Park",
+        "Seung-Jae Oh",
+        "Min-Cherl Jung"
+      ],
+      "abstract": "Lead-halide perovskites APbX3 present a striking dichotomy: they exhibit band-like electronic transport despite their exceptionally soft and anharmonic lattices. Optically and electrically, they resemble conventional direct-gap semiconductors, exhibiting light carrier masses and steep absorption onsets, whereas their lattices display liquid-like dynamics, including overdamped octahedral motions, quasielastic Raman central peaks, and exceptionally low thermal conductivities. Solution-processed films nevertheless sustain micrometre-scale carrier diffusion at defect densities that would severely suppress transport in conventional semiconductors. Here, we argue that these apparently disparate properties emerge from a common microscopic framework: a soft, strongly anharmonic, and polar [PbX3]- framework, strongly influenced by the Pb 6s2 lone pair, which simultaneously shapes the antibonding orbital character of the band edges, the magnitude and multiple timescales of the dielectric response, and the slow relaxational dynamics that dress every charge carrier. We therefore invert the conventional order and develop the lattice before the electronic structure, because the nominally cubic phase is better viewed as a thermally fluctuating ensemble of locally symmetry-broken configurations rather than a single geometry. Within this framework, we discuss excitons, Frohlich large polarons in the intermediate-coupling regime, carrier transport, defect tolerance, dimensional reduction in two-dimensional and nanocrystalline derivatives, and symmetry-breaking phenomena. We critically assess three contested issues - defect tolerance, ferroelectricity, and the interpretation of the T-3/2 mobility law - and identify seven open questions together with the key measurements needed to resolve them",
+      "submitted": "2026-08-28T09:10:44Z",
+      "updated": "2026-08-28T09:10:44Z",
+      "categories": [
+        "cond-mat.mtrl-sci"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2608.28104v1",
+      "arxiv_url": "https://arxiv.org/abs/2608.28104",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [
+        "perovskites"
+      ],
+      "material_families": [
+        "Perovskites / halide semiconductors",
+        "Quantum-confined structures"
+      ],
+      "exciton_properties": [],
+      "applications": [],
+      "methods": [],
+      "matched_keywords": [
+        "exciton"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [],
+        "experimental_methods": {},
+        "computational_methods": {},
+        "materials": {
+          "perovskites": [
+            "perovskite"
+          ],
+          "Perovskites / halide semiconductors": [
+            "perovskite"
+          ],
+          "Quantum-confined structures": [
+            "nanocrystal"
+          ]
+        },
+        "properties": {},
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2608.27951",
+      "version": "v1",
+      "versioned_id": "2608.27951v1",
+      "title": "Multi-dimensional spectroscopy of mobile excitons in two-dimensional semiconductors",
+      "authors": [
+        "Ned Wheaton",
+        "Jeffrey A. Davis",
+        "Jesper Levinsen",
+        "Meera M. Parish"
+      ],
+      "abstract": "Multi-dimensional coherent spectroscopy (MDCS) goes beyond standard linear-response probes and provides a powerful tool for investigating correlations between quasiparticles such as excitons (bound electron-hole pairs). Here we present a microscopic theory of MDCS that accounts for the delocalized nature of excitons in two-dimensional semiconductors. In contrast to the more phenomenological few-level approaches typically employed for modelling MDCS, our theory features mobile excitons with continuous momentum degrees of freedom. We find that the energy continuum associated with exciton momenta is crucial for producing interaction-induced decoherence, as well as capturing the interference between different exciton-polaron quasiparticles in the case of charge-doped semiconductors. Crucially, our calculated MDCS spectra agree well with recent experiments on doped monolayer MoSe$_2$ [Hao et al., Nature Communications 8, 15552 (2017)], and they suggest that the interactions between exciton polarons depend strongly on phase-space filling effects, where exciton polarons compete for electrons. Our results demonstrate that microscopic approaches allow one to gain new insights from the fine structure of MDCS on two-dimensional semiconductors, and they illustrate the utility of microscopic approaches to modelling MDCS experiments more generally.",
+      "submitted": "2026-08-28T05:46:35Z",
+      "updated": "2026-08-28T05:46:35Z",
+      "categories": [
+        "cond-mat.mes-hall",
+        "cond-mat.quant-gas",
+        "physics.optics"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2608.27951v1",
+      "arxiv_url": "https://arxiv.org/abs/2608.27951",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [],
+      "material_families": [
+        "Other 2D / van der Waals materials"
+      ],
+      "exciton_properties": [],
+      "applications": [],
+      "methods": [],
+      "matched_keywords": [
+        "exciton"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [],
+        "experimental_methods": {},
+        "computational_methods": {},
+        "materials": {
+          "Other 2D / van der Waals materials": [
+            "monolayer"
+          ]
+        },
+        "properties": {},
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2608.27890",
+      "version": "v1",
+      "versioned_id": "2608.27890v1",
+      "title": "Ionization Energies, Electron Affinities, Bandgaps, Exciton Binding Energies, and Polarization Energies of Orientation-Controlled Picene, [6]-Phenacene, and [7]-Phenacene Thin Films",
+      "authors": [
+        "Rintaro Makino",
+        "Mihiro Kubo",
+        "Keiichirou Yonezawa",
+        "Hiroyuki Yoshida",
+        "Satoshi Kera"
+      ],
+      "abstract": "Phenacenes, in which benzene rings are fused in a zigzag manner, are chemically robust $π$-conjugated hydrocarbons of interest for organic electronic applications and superconductivity. However, quantitative electronic parameters of phenacene thin films remain limited compared with those of acenes. Here, we determine the ionization energies (IEs), electron affinities (EAs), band gaps, exciton binding energies, and polarization energies of orientation-controlled thin films of picene, [6]-phenacene, and [7]-phenacene using ultraviolet photoelectron spectroscopy and low-energy inverse photoelectron spectroscopy. The energy parameters depend only weakly on molecular size. In contrast, both IE and EA exhibit large orientation-dependent shifts of approximately 1 eV: lying films show IEs of 6.41-6.43 eV and EAs of 2.16-2.42 eV, whereas standing films show IEs of 5.44-5.67 eV and EAs of 1.36-1.53 eV. Nevertheless, the band gaps of approximately 4 eV and exciton binding energies of approximately 1 eV remain nearly independent of molecular size and orientation. Analysis of polarization energies shows that the induction term is nearly orientation independent, whereas the electrostatic term strongly depends on orientation and originates primarily from molecular quadrupole moments. These results identify molecular orientation as a key factor governing frontier energy levels in phenacene thin films.",
+      "submitted": "2026-08-28T03:54:36Z",
+      "updated": "2026-08-28T03:54:36Z",
+      "categories": [
+        "cond-mat.mtrl-sci",
+        "physics.chem-ph"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2608.27890v1",
+      "arxiv_url": "https://arxiv.org/abs/2608.27890",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [],
+      "material_families": [],
+      "exciton_properties": [
+        "Binding energy"
+      ],
+      "applications": [],
+      "methods": [],
+      "matched_keywords": [
+        "exciton"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [
+          "using"
+        ],
+        "experimental_methods": {},
+        "computational_methods": {},
+        "materials": {},
+        "properties": {
+          "Binding energy": [
+            "binding energies"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2608.27823",
+      "version": "v1",
+      "versioned_id": "2608.27823v1",
+      "title": "Subcritical bifurcation and on-off bistability in ballistic polariton condensates",
+      "authors": [
+        "Oleg I. Utesov",
+        "Soohong Choi",
+        "Pavel Kozhevin",
+        "Min Park",
+        "Daegwang Choi",
+        "Hyungdo Lee",
+        "Alexey N. Osipov",
+        "Alexey V. Yulin",
+        "Se Kwon Kim",
+        "Yong-Hoon Cho",
+        "Igor S. Aranson",
+        "Hyoungsoon Choi",
+        "Anton V. Nalitov",
+        "Sergei V. Koniakhin"
+      ],
+      "abstract": "Dynamics of exciton-polariton condensates under continuous-wave incoherent Gaussian optical pumping is considered. It is shown that the conventional supercritical Stuart-Landau picture is invalid in a certain domain of the parameter space. For strong polariton repulsion from the reservoir and relatively small pump spots, the dynamics is adequately described by the quintic Stuart-Landau equation. The corresponding subcritical pitchfork bifurcation leads to condensate formation, accompanied by bistability between the trivial and nontrivial states over a finite pump-power range and a one-bit memory. Further increase of the repulsion parameter or decrease of the spot size breaks down the perturbative approach and leads to a peculiar self-trapping regime with complex dynamics. Experimental evidence of the emergence of the proposed behavior is provided. Our findings can be used to design polaritonic setups that exploit the predicted memory effect.",
+      "submitted": "2026-08-28T01:42:12Z",
+      "updated": "2026-08-28T01:42:12Z",
+      "categories": [
+        "cond-mat.mes-hall",
+        "physics.optics"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2608.27823v1",
+      "arxiv_url": "https://arxiv.org/abs/2608.27823",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [],
+      "material_families": [],
+      "exciton_properties": [
+        "Light-matter strong coupling"
+      ],
+      "applications": [
+        "Exciton polaritons"
+      ],
+      "methods": [],
+      "matched_keywords": [
+        "exciton",
+        "polariton"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [],
+        "experimental_methods": {},
+        "computational_methods": {},
+        "materials": {},
+        "properties": {
+          "Light-matter strong coupling": [
+            "exciton-polariton"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2608.27722",
+      "version": "v1",
+      "versioned_id": "2608.27722v1",
+      "title": "Dilute-Limit Defect Displacements Enabled by Brillouin-Zone Sampling",
+      "authors": [
+        "Mark E. Turiansky",
+        "John L. Lyons",
+        "Noam Bernstein"
+      ],
+      "abstract": "Defects and their interaction with the semiconductor host lattice play an essential role in a variety of technologies. When a defect transitions between two electronic states, the lattice distorts in response. Large displacements occur near the defect, inducing displacements on neighboring atoms, and so on, producing small displacements on atoms hundreds of Ångströms from the defect. Describing these displacements accurately is challenging for first-principles calculations due to limited supercell sizes. Here we demonstrate a procedure to efficiently obtain dilute-limit atomic displacements, using information obtained in typical modest supercells. In our approach, the atomic displacements are first obtained in a small supercell and converted into a force difference under a harmonic potential energy surface. The force difference and phonon modes at different ${\\bf q}$-points are then unfolded into the Born-von Kármán supercell to obtain the dilute-limit atomic displacements. We critically analyze the convergence behavior of the force difference and study possible electron density differences that give rise to those forces, arguing that modest supercells are sufficient for internal transitions and bound-exciton transitions. Two example applications of our approach are given: (1) we calculate the luminescence spectrum of the NV center in diamond and the T center in Si and (2) we obtain dilute-limit configuration coordinate diagrams for these defects. In particular, we find that coupling to acoustic phonon modes reduces the accepting-mode frequency in the configuration coordinate diagram. Our work provides the missing ingredients necessary to address truly dilute-limit transitions at defects.",
+      "submitted": "2026-08-27T21:29:18Z",
+      "updated": "2026-08-27T21:29:18Z",
+      "categories": [
+        "cond-mat.mtrl-sci"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2608.27722v1",
+      "arxiv_url": "https://arxiv.org/abs/2608.27722",
+      "study_type": "Computational",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [],
+      "material_families": [],
+      "exciton_properties": [],
+      "applications": [],
+      "methods": [
+        "DFT"
+      ],
+      "matched_keywords": [
+        "exciton",
+        "first-principles"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [
+          "we calculate",
+          "using",
+          "first-principles calculations"
+        ],
+        "experimental_methods": {},
+        "computational_methods": {
+          "DFT": [
+            "first-principles"
+          ]
+        },
+        "materials": {},
+        "properties": {},
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": true
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
     {
       "arxiv_id": "2608.19721",
       "version": "v2",
@@ -16259,11 +16966,20 @@
       "new": 0,
       "updated": 0,
       "total": 212
+    },
+    {
+      "scanned_at": "2026-08-31T10:02:53.135170+00:00",
+      "since": "2026-08-17",
+      "fetched": 34,
+      "classified": 34,
+      "new": 10,
+      "updated": 0,
+      "total": 222
     }
   ],
   "counts": {
-    "total": 212,
-    "new_this_scan": 0,
+    "total": 222,
+    "new_this_scan": 10,
     "updated_this_scan": 0
   }
 }
