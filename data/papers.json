@@ -1,7 +1,603 @@
 {
   "schema_version": 2,
-  "last_scan": "2026-08-31T10:02:53.135170+00:00",
+  "last_scan": "2026-09-01T08:52:53.964573+00:00",
   "papers": [
+    {
+      "arxiv_id": "2608.30691",
+      "version": "v1",
+      "versioned_id": "2608.30691v1",
+      "title": "Coexistence of polariton bound states in the continuum and 2D radiative excitons",
+      "authors": [
+        "Simone Zanotti",
+        "Marco Liscidini",
+        "Dario Gerace",
+        "Lucio C. Andreani"
+      ],
+      "abstract": "Bound states in the continuum (BICs) enable optical modes with ideally infinite radiative lifetimes despite lying within the radiation continuum. Radiation-matter interaction in periodically patterned planar waveguides embedding two-dimensional (2D) optically active excitations can be described quantum mechanically by diagonalizing a non-Hermitian operator, known as the Hopfield matrix, which can be generalized to incorporate independent photonic and excitonic losses into the polaritonic states. However, since 2D excitons undergo intrinsic wavevector-dependent radiative decay within the light cone, whether the Hopfield formalism can consistently account for this process while preserving polariton BICs has remained an open question. Here we show that a non-Hermitian Hopfield formalism incorporating excitonic radiative losses correctly captures the existence of genuine $k=0$ polariton BICs with diverging radiative lifetimes. The theory provides a unified microscopic framework for radiative excitons and polariton BICs, and an efficient predictive tool for designing photonic-crystal platforms coupled to quantum wells, transition-metal dichalcogenides, and other 2D excitonic materials.",
+      "submitted": "2026-08-31T12:28:55Z",
+      "updated": "2026-08-31T12:28:55Z",
+      "categories": [
+        "cond-mat.mes-hall",
+        "physics.optics"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2608.30691v1",
+      "arxiv_url": "https://arxiv.org/abs/2608.30691",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [
+        "transition-metal dichalcogenides"
+      ],
+      "material_families": [
+        "TMDs / 2D chalcogenides",
+        "Quantum-confined structures"
+      ],
+      "exciton_properties": [
+        "Lifetime / relaxation"
+      ],
+      "applications": [],
+      "methods": [],
+      "matched_keywords": [
+        "exciton",
+        "excitonic",
+        "polariton"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [],
+        "experimental_methods": {},
+        "computational_methods": {},
+        "materials": {
+          "transition-metal dichalcogenides": [
+            "transition-metal dichalcogenide"
+          ],
+          "TMDs / 2D chalcogenides": [
+            "transition-metal dichalcogenide"
+          ],
+          "Quantum-confined structures": [
+            "quantum well"
+          ]
+        },
+        "properties": {
+          "Lifetime / relaxation": [
+            "radiative lifetime"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2608.30628",
+      "version": "v1",
+      "versioned_id": "2608.30628v1",
+      "title": "Predictive wavelength tailoring of uniform GaSb-based quantum dots for emission at 1.55 um",
+      "authors": [
+        "Markus Peil",
+        "Maja Wasiluk",
+        "Ziemowit Olinkiewicz",
+        "Tymon Przychodni",
+        "Robert Matysiak",
+        "Teemu Taskinen",
+        "Joona Salonen",
+        "Abhiroop Chellu",
+        "Metin Patli",
+        "Joonas Hilska",
+        "Anna Musiał",
+        "Michał Gawełczyk",
+        "Mircea Guina",
+        "Teemu Hakkarainen"
+      ],
+      "abstract": "A detailed study of emission wavelength tailoring of GaSb-based QDs formed by InGaSb-filling of droplet-etched nanoholes in AlGaSb is presented. The study shows that the emission wavelength can be modified from 1.48 um to the center of the telecom C-band at 1.55 mm by independently varying the QD composition and size. More specifically, the optical transition energy shifts linearly as a function of In-content of the QD material at a rate of -4.4 meV/In-percentage, and with the number of monolayers (ML) of material used for filling the nanoholes, at -2.0 meV/ML. These experimentally observed energy shifts are well predicted by simulations yielding rates of -4.3 meV/In-percentage and -2.1 meV/ML, respectively. For the simulation, a uniform In composition, low intermixing, and microscopically measured QD geometry is considered. Additionally, excellent ensemble QD uniformity, with unprecedented inhomogeneous broadening well-below 7 meV across all samples is demonstrated. Finally, photoluminescence of single-QDs reveals narrow excitonic emission lines of 13.8+/-6.7 ueV and low fine-structure splitting values reaching <10 ueV. These results identify GaSb-based LDE QDs as a tunable telecom platform for scaling quantum-photonic applications over long-haul optical fiber networks.",
+      "submitted": "2026-08-31T11:38:15Z",
+      "updated": "2026-08-31T11:38:15Z",
+      "categories": [
+        "cond-mat.mes-hall"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2608.30628v1",
+      "arxiv_url": "https://arxiv.org/abs/2608.30628",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [
+        "quantum dots"
+      ],
+      "material_families": [
+        "Other 2D / van der Waals materials",
+        "Quantum-confined structures"
+      ],
+      "exciton_properties": [
+        "Linewidth / dephasing",
+        "Fine structure / bright-dark splitting"
+      ],
+      "applications": [],
+      "methods": [
+        "Photoluminescence",
+        "Linewidth / fine structure"
+      ],
+      "matched_keywords": [
+        "exciton",
+        "excitonic",
+        "fine-structure splitting",
+        "photoluminescence"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [
+          "experimentally"
+        ],
+        "computational_actions": [],
+        "experimental_methods": {
+          "Photoluminescence": [
+            "photoluminescence"
+          ],
+          "Linewidth / fine structure": [
+            "fine-structure splitting"
+          ]
+        },
+        "computational_methods": {},
+        "materials": {
+          "quantum dots": [
+            "quantum dot"
+          ],
+          "Other 2D / van der Waals materials": [
+            "monolayer"
+          ],
+          "Quantum-confined structures": [
+            "quantum dot"
+          ]
+        },
+        "properties": {
+          "Linewidth / dephasing": [
+            "homogeneous broadening"
+          ],
+          "Fine structure / bright-dark splitting": [
+            "fine-structure splitting"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2608.25482",
+      "version": "v2",
+      "versioned_id": "2608.25482v2",
+      "title": "Parity-controlled electron-hole interference in exciton-phonon coupling",
+      "authors": [
+        "Michael O. Atambo"
+      ],
+      "abstract": "We demonstrate that exciton-phonon coupling in polar semiconductors is governed by a parity-controlled interference selection rule. By performing an exact multipole expansion of the excitonic form factor and validating it against numerical integration of hydrogenic envelope functions, we show that the long-range infrared divergence of the Fröhlich interaction is exactly canceled for elastic scattering between excitonic states of the same parity. The ground-state exciton is thereby protected from long-wavelength polar phonons by destructive electron-hole interference. In contrast, transitions between states of opposite parity exhibit constructive interference, preserving a finite, robust coupling to macroscopic polar fields independent of band-structure details. Mass asymmetry between the electron and hole activates higher-order multipole terms in the elastic channel but leaves the constructive inelastic channel essentially unaffected. The selection rule is dimensionally invariant, applying to bulk and two-dimensional systems alike, and naturally explains the anomalously weak phonon dressing observed in halide perovskites as well as the strong phonon sidebands in transition-metal dichalcogenides. Our framework provides a universal, analytically exact criterion for exciton-phonon coupling strength, offering a design principle for engineering excitonic materials with tailored phonon interactions.",
+      "submitted": "2026-08-26T07:53:07Z",
+      "updated": "2026-08-31T10:10:06Z",
+      "categories": [
+        "cond-mat.mtrl-sci"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2608.25482v2",
+      "arxiv_url": "https://arxiv.org/abs/2608.25482",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [
+        "perovskites",
+        "transition-metal dichalcogenides"
+      ],
+      "material_families": [
+        "TMDs / 2D chalcogenides",
+        "Perovskites / halide semiconductors"
+      ],
+      "exciton_properties": [
+        "Exciton-phonon coupling"
+      ],
+      "applications": [],
+      "methods": [],
+      "matched_keywords": [
+        "exciton",
+        "excitonic"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [],
+        "experimental_methods": {},
+        "computational_methods": {},
+        "materials": {
+          "perovskites": [
+            "perovskite"
+          ],
+          "transition-metal dichalcogenides": [
+            "transition-metal dichalcogenide"
+          ],
+          "TMDs / 2D chalcogenides": [
+            "transition-metal dichalcogenide"
+          ],
+          "Perovskites / halide semiconductors": [
+            "perovskite"
+          ]
+        },
+        "properties": {
+          "Exciton-phonon coupling": [
+            "exciton-phonon"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1",
+        "v2"
+      ]
+    },
+    {
+      "arxiv_id": "2608.30504",
+      "version": "v1",
+      "versioned_id": "2608.30504v1",
+      "title": "Dark exciton signatures in the infrared transient absorption of MoS$_2$ monolayer",
+      "authors": [
+        "Tian-Xiang Qian",
+        "Marco D'Alessandro",
+        "Claudio Attaccalite",
+        "Tian-Yi Cai",
+        "Sheng Ju",
+        "Davide Sangalli"
+      ],
+      "abstract": "Dark excitons play a central role in the nonequilibrium dynamics of two-dimensional semiconductors, but remain difficult to characterize. In this work we show that transient-absorption experiments, with probe pulses tuned in the exciton-exciton transitions energy range (exc-tr-abs), can be used to detect excitations from any populated dark excitonic state, including symmetry-forbidden, spin-forbidden, and finite momentum ones. We develop a fully ab initio scheme, on top of $GW$+BSE, for computing exc-tr-abs spectra from arbitrary populated exciton distributions. The different classes of dark excitons are included on an equal footing, by evaluating exciton-exciton dipole matrix elements in a locally smooth gauge, which accounts for both intra-band and inter-band contributions. As a test case, we consider monolayer MoS$_2$, for which experimental data are available. The exc-tr-abs signal emerges from a sum of contributions from four different valleys in the exciton dispersion, namely $Γ$, $K$, $M$, and $Q$ valleys. The interpretation of the final signal is substantially different from the one based on transitions at $\\mathbf{q}=Γ$ alone. The exciton-exciton dipoles show similar intensity among these valleys, while their relative weight is mostly dictated by the initial excitonic population. State- and spin-resolved analyses show that the main peaks can be described as $1s \\rightarrow 2p$ and $1s \\rightarrow 3p$ transitions from A and B excitons, but with a superposition of transitions from both spin-flip and spin-conserving excitons across the valleys, and with contributions averaged over different momenta within the individual valleys.",
+      "submitted": "2026-08-31T09:38:30Z",
+      "updated": "2026-08-31T09:38:30Z",
+      "categories": [
+        "cond-mat.mtrl-sci",
+        "physics.comp-ph"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2608.30504v1",
+      "arxiv_url": "https://arxiv.org/abs/2608.30504",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [],
+      "material_families": [
+        "Other 2D / van der Waals materials"
+      ],
+      "exciton_properties": [
+        "Fine structure / bright-dark splitting",
+        "Many-exciton interactions"
+      ],
+      "applications": [],
+      "methods": [
+        "Pump–probe spectroscopy",
+        "DFT"
+      ],
+      "matched_keywords": [
+        "ab initio",
+        "exciton",
+        "excitonic",
+        "transient absorption"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [],
+        "experimental_methods": {
+          "Pump–probe spectroscopy": [
+            "transient absorption"
+          ]
+        },
+        "computational_methods": {
+          "DFT": [
+            "ab initio"
+          ]
+        },
+        "materials": {
+          "Other 2D / van der Waals materials": [
+            "monolayer"
+          ]
+        },
+        "properties": {
+          "Fine structure / bright-dark splitting": [
+            "dark exciton"
+          ],
+          "Many-exciton interactions": [
+            "exciton-exciton"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2608.29566",
+      "version": "v1",
+      "versioned_id": "2608.29566v1",
+      "title": "Extreme Polarization of the Optical Gap and High-Energy Exciton Landscape in CrSBr",
+      "authors": [
+        "Sayantan Patra",
+        "Sourabh Jain",
+        "Bhumika Chauhan",
+        "Marie-Christin Heißenbüttel",
+        "Abhisek Saidarsan",
+        "Ranjuna M. K.",
+        "Kseniia Mosina",
+        "Zdeněk Sofer",
+        "Michael Rohlfing",
+        "Thorsten Deilmann",
+        "Ashish Arora"
+      ],
+      "abstract": "We reveal a strongly anisotropic excitonic landscape in monolayer and bulk-like CrSBr using optical absorption spectroscopy and $GW$-Bethe-Salpeter equation $\\textit{ab initio}$ calculations. The direct absorptive determination of the lowest bright optical onsets i.e. $X_0^a$ and $X_0^b$ excitons for the two in-plane polarization eigenaxes yield an in-plane optical gap anisotropy of $470 \\pm 15$ meV. This is the highest observed value for any material in the near-infrared-to-visible spectral region to the best of our knowledge. Energetically above, we identify multiple strongly polarized excitons spanning $1.25$ eV to $3.1$ eV selectively aligned along the two orthogonal axes. A resonance $X^-$, located $24$ meV below the $X_0^b$ progressively transfers oscillator strength to $X_b^0$, a behavior consistent with a coupled trion (Fermi-polarion)/exciton pair. Our experiments also provide polarization-resolved broadband dielectric functions of CrSBr. These results establish CrSBr as a strongly polarization-selective excitonic system and highlight its potential for polarization-selective optoelectronics enabled with its large optical-gap anisotropy.",
+      "submitted": "2026-08-30T05:25:37Z",
+      "updated": "2026-08-30T05:25:37Z",
+      "categories": [
+        "cond-mat.mes-hall"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2608.29566v1",
+      "arxiv_url": "https://arxiv.org/abs/2608.29566",
+      "study_type": "Computational",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [],
+      "material_families": [
+        "Other 2D / van der Waals materials"
+      ],
+      "exciton_properties": [
+        "Oscillator strength / optical activity"
+      ],
+      "applications": [],
+      "methods": [
+        "DFT",
+        "Bethe–Salpeter equation",
+        "Quasiparticle / optical gaps",
+        "Oscillator strength"
+      ],
+      "matched_keywords": [
+        "ab initio",
+        "bethe-salpeter",
+        "exciton",
+        "excitonic",
+        "optical gap",
+        "oscillator strength"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [
+          "using"
+        ],
+        "experimental_methods": {},
+        "computational_methods": {
+          "DFT": [
+            "ab initio"
+          ],
+          "Bethe–Salpeter equation": [
+            "bethe-salpeter"
+          ],
+          "Quasiparticle / optical gaps": [
+            "optical gap"
+          ],
+          "Oscillator strength": [
+            "oscillator strength"
+          ]
+        },
+        "materials": {
+          "Other 2D / van der Waals materials": [
+            "monolayer"
+          ]
+        },
+        "properties": {
+          "Oscillator strength / optical activity": [
+            "oscillator strength"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": true
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2608.29122",
+      "version": "v1",
+      "versioned_id": "2608.29122v1",
+      "title": "Light-induced nonconservative static forces in many-body systems",
+      "authors": [
+        "Jinze Li",
+        "Xuemei Yang",
+        "Zhiyuan Sun"
+      ],
+      "abstract": "In a quantum many-body system, a periodic drive can often generate effective static forces on the slow collective degrees of freedom. We study the static forces generated by light on electronic order parameters in solid-state systems. We show that the forces can have nonconservative components that originate from dissipation, i.e., optical absorption. This effect is demonstrated in two nontrivial examples. In excitonic insulators, via interband excitations, the light field generates a nonconservative force on the phase of the excitonic order parameter. This force leads to an acceleration of the phase, which manifests as a shift of the photon emission peak from an exciton condensate. In materials with an incommensurate charge density wave, a propagating light field generates a nonconservative force on the phase of its order parameter. It drives the charge density wave into sliding motion, leading to a DC electric current via topological Thouless pumping.",
+      "submitted": "2026-08-29T08:03:04Z",
+      "updated": "2026-08-29T08:03:04Z",
+      "categories": [
+        "cond-mat.stat-mech",
+        "cond-mat.mes-hall",
+        "cond-mat.str-el"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2608.29122v1",
+      "arxiv_url": "https://arxiv.org/abs/2608.29122",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [],
+      "material_families": [],
+      "exciton_properties": [],
+      "applications": [],
+      "methods": [],
+      "matched_keywords": [
+        "exciton",
+        "excitonic"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [],
+        "experimental_methods": {},
+        "computational_methods": {},
+        "materials": {},
+        "properties": {},
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2608.29041",
+      "version": "v1",
+      "versioned_id": "2608.29041v1",
+      "title": "Simulating spectrally resolved exciton--exciton-interaction pump--probe spectroscopy",
+      "authors": [
+        "Kateřina Charvátová",
+        "Matteo Bruschi",
+        "Pavel Malý"
+      ],
+      "abstract": "Exciton--exciton-interaction pump--probe spectroscopy (EEI--PP) captures the fifth-order signal of light-matter interaction, directly probing exciton--exciton annihilation. This allows studying excitation energy transport even in extended, nearly isoenergetic landscapes. Although spectrally resolved fifth-order signals have already been explored in simplified cases, in larger systems only spectrally integrated signals have been analyzed. We present a microscopic theoretical description for spectrally resolved EEI--PP response with realistic lineshapes, revealing how single- and multi-exciton state structure shape the spectral features and dynamics. The description is applicable to large molecular systems such as squaraine polymers, facilitating a direct comparison with experimental spectra. By a decomposition of the total signal into individual excitation pathways, we demonstrate that the spectral resolution is needed to distinguish otherwise intertwined single- and multi-exciton dynamics, such as single-exciton relaxation and exciton--exciton annihilation.",
+      "submitted": "2026-08-29T04:26:19Z",
+      "updated": "2026-08-29T04:26:19Z",
+      "categories": [
+        "physics.chem-ph"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2608.29041v1",
+      "arxiv_url": "https://arxiv.org/abs/2608.29041",
+      "study_type": "Experimental",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [],
+      "material_families": [],
+      "exciton_properties": [
+        "Many-exciton interactions"
+      ],
+      "applications": [],
+      "methods": [
+        "Exciton lifetime / dynamics"
+      ],
+      "matched_keywords": [
+        "exciton",
+        "exciton dynamics"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [],
+        "experimental_methods": {
+          "Exciton lifetime / dynamics": [
+            "exciton dynamics"
+          ]
+        },
+        "computational_methods": {},
+        "materials": {},
+        "properties": {
+          "Many-exciton interactions": [
+            "exciton annihilation"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": true,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2608.28861",
+      "version": "v1",
+      "versioned_id": "2608.28861v1",
+      "title": "Engineering Excitons through Polymorphism and Dimensional Confinement in Low-Dimensional Tellurium",
+      "authors": [
+        "Gabriel Elyas Gama Araujo",
+        "Alexandre Cavalheiro Dias",
+        "Andreia Luisa da Rosa"
+      ],
+      "abstract": "The interplay between dimensionality, band-edge electronic structure, and electron-hole interactions governs the optical response of low-dimensional tellurium, yet the microscopic origin of its excitonic behavior remains largely unexplored. Here, we investigate the quasiparticle, excitonic, and optical properties of two-dimensional tellurium polymorphs and one-dimensional helical nanowires using many-body GW and the Bethe--Salpeter equation. Our results reveal a strong dependence of the excitonic response on band-edge dispersion, crystal symmetry, and dimensional confinement. $α$-tellurene exhibits comparatively weak and spatially extended electron-hole correlations, whereas the SOC-induced quasi-flat band-edge states of $β$-tellurene give rise to a strongly bound and anisotropic near-infrared exciton. Momentum-resolved BSE eigenvectors and real-space exciton wave functions directly reveal the contrasting localization and anisotropy of these excitonic states. Remarkably, hydrogen-passivated hexagonal tellurene, previously identified as a quantum spin Hall phase with $Z_2=1$, supports an even larger direct exciton binding energy of 0.51 eV together with a compact and nearly isotropic in-plane excitonic distribution. This demonstrates that strong electron-hole correlations are fully compatible with nontrivial band topology, while the binding strength and spatial character of the exciton remain strongly dependent on the underlying band-edge electronic structure and crystal symmetry. The one-dimensional helical nanowire represents the strong-confinement limit, exhibiting a direct high exciton binding energy and a pronounced shift of the optical response toward the ultraviolet.",
+      "submitted": "2026-08-28T21:02:22Z",
+      "updated": "2026-08-28T21:02:22Z",
+      "categories": [
+        "cond-mat.mtrl-sci"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2608.28861v1",
+      "arxiv_url": "https://arxiv.org/abs/2608.28861",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [],
+      "material_families": [],
+      "exciton_properties": [
+        "Binding energy"
+      ],
+      "applications": [],
+      "methods": [
+        "Exciton binding energy"
+      ],
+      "matched_keywords": [
+        "exciton",
+        "exciton binding energy",
+        "excitonic"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [
+          "using"
+        ],
+        "experimental_methods": {},
+        "computational_methods": {
+          "Exciton binding energy": [
+            "exciton binding energy"
+          ]
+        },
+        "materials": {},
+        "properties": {
+          "Binding energy": [
+            "exciton binding energy"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
     {
       "arxiv_id": "2608.28574",
       "version": "v1",
@@ -776,78 +1372,6 @@
       "versions_seen": [
         "v1",
         "v2"
-      ]
-    },
-    {
-      "arxiv_id": "2608.25482",
-      "version": "v1",
-      "versioned_id": "2608.25482v1",
-      "title": "Parity-controlled electron-hole interference in exciton-phonon coupling",
-      "authors": [
-        "Michael O. Atambo"
-      ],
-      "abstract": "We demonstrate that exciton-phonon coupling in polar semiconductors is governed by a parity-controlled interference selection rule. By performing an exact multipole expansion of the excitonic form factor and validating it against numerical integration of hydrogenic envelope functions, we show that the long-range infrared divergence of the Fröhlich interaction is exactly canceled for elastic scattering between excitonic states of the same parity. The ground-state exciton is thereby protected from long-wavelength polar phonons by destructive electron-hole interference. In contrast, transitions between states of opposite parity exhibit constructive interference, preserving a finite, robust coupling to macroscopic polar fields independent of band-structure details. Mass asymmetry between the electron and hole activates higher-order multipole terms in the elastic channel but leaves the constructive inelastic channel essentially unaffected. The selection rule is dimensionally invariant, applying to bulk and two-dimensional systems alike, and naturally explains the anomalously weak phonon dressing observed in halide perovskites as well as the strong phonon sidebands in transition-metal dichalcogenides. Our framework provides a universal, analytically exact criterion for exciton-phonon coupling strength, offering a design principle for engineering excitonic materials with tailored phonon interactions.",
-      "submitted": "2026-08-26T07:53:07Z",
-      "updated": "2026-08-26T07:53:07Z",
-      "categories": [
-        "cond-mat.mtrl-sci"
-      ],
-      "pdf_url": "https://arxiv.org/pdf/2608.25482v1",
-      "arxiv_url": "https://arxiv.org/abs/2608.25482",
-      "study_type": "Unclassified",
-      "relevance": "Core exciton paper",
-      "paper_nature": "Original research",
-      "materials": [
-        "perovskites",
-        "transition-metal dichalcogenides"
-      ],
-      "material_families": [
-        "TMDs / 2D chalcogenides",
-        "Perovskites / halide semiconductors"
-      ],
-      "exciton_properties": [
-        "Exciton-phonon coupling"
-      ],
-      "applications": [],
-      "methods": [],
-      "matched_keywords": [
-        "exciton",
-        "excitonic"
-      ],
-      "classification_evidence": {
-        "experimental_actions": [],
-        "computational_actions": [],
-        "experimental_methods": {},
-        "computational_methods": {},
-        "materials": {
-          "perovskites": [
-            "perovskite"
-          ],
-          "transition-metal dichalcogenides": [
-            "transition-metal dichalcogenide"
-          ],
-          "TMDs / 2D chalcogenides": [
-            "transition-metal dichalcogenide"
-          ],
-          "Perovskites / halide semiconductors": [
-            "perovskite"
-          ]
-        },
-        "properties": {
-          "Exciton-phonon coupling": [
-            "exciton-phonon"
-          ]
-        },
-        "relevance": [
-          "exciton/excitonic stated in title or abstract"
-        ]
-      },
-      "evidence": {
-        "experimental": false,
-        "computational": false
-      },
-      "versions_seen": [
-        "v1"
       ]
     },
     {
@@ -16975,11 +17499,20 @@
       "new": 10,
       "updated": 0,
       "total": 222
+    },
+    {
+      "scanned_at": "2026-09-01T08:52:53.964573+00:00",
+      "since": "2026-08-18",
+      "fetched": 36,
+      "classified": 36,
+      "new": 7,
+      "updated": 1,
+      "total": 229
     }
   ],
   "counts": {
-    "total": 222,
-    "new_this_scan": 10,
-    "updated_this_scan": 0
+    "total": 229,
+    "new_this_scan": 7,
+    "updated_this_scan": 1
   }
 }
