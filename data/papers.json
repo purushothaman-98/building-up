@@ -1,7 +1,314 @@
 {
   "schema_version": 2,
-  "last_scan": "2026-09-01T08:52:53.964573+00:00",
+  "last_scan": "2026-09-02T08:06:24.700428+00:00",
   "papers": [
+    {
+      "arxiv_id": "2609.01512",
+      "version": "v1",
+      "versioned_id": "2609.01512v1",
+      "title": "First-principles optical response of shock-compressed LiF: Quasiparticle, excitonic, and ionic-temperature effects",
+      "authors": [
+        "M. S. Fadeev"
+      ],
+      "abstract": "We investigate the refractive index $n$ of LiF using DFT+G$_0$W$_0$+BSE, with ionic-temperature effects included through QMD. We calculate photon-energy dispersions $n(ω)$ and $k(ω)$ at ambient pressure and $n(ρ,T)$ at 532 and 1550 nm under shock compression, where $ρ$ and $T$ vary together. Quasiparticle band structures at ambient and compressed conditions and the ambient-pressure orbital-projected density of states connect the optical response to the electronic structure. At ambient pressure, G$_0$W$_0$ yields a quasiparticle gap of 14.25 eV, close to the experimental 14.2 eV, while BSE reproduces the main excitonic feature at 12.5 eV, close to the observed 12.6 eV. Quasiparticle and excitonic effects are thus essential for accurate optical dispersion; the hybrid HSE functional does not reproduce the optical spectra. Along the principal Hugoniot up to 140 GPa, $n(ρ)$ agrees closely with shock data at 1550 nm and acceptably at 532 nm, and agrees better overall than earlier first-principles calculations. Above approximately 110-120 GPa, QMD produces a downturn relative to cold $n(ρ)$ curves, suggesting that ionic dynamics may contribute to deviations from the linear $n$-$ρ$ Gladstone-Dale relation. QMD-sampling and finite-k-grid uncertainties are estimated, and transition-peak broadening is assessed using a recently proposed criterion. The gap increases under pressure, with a transition to a $Γ\\to\\mathrm L$ indirect gap near 50 GPa. An exploratory calculation at approximately 1400 GPa finds a gap of about 24 eV, disfavoring gap-closure metallization. Structural and elastic benchmarks of the underlying models are also provided.",
+      "submitted": "2026-09-01T16:42:53Z",
+      "updated": "2026-09-01T16:42:53Z",
+      "categories": [
+        "cond-mat.mtrl-sci",
+        "physics.chem-ph",
+        "physics.comp-ph",
+        "physics.optics"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2609.01512v1",
+      "arxiv_url": "https://arxiv.org/abs/2609.01512",
+      "study_type": "Computational",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Dataset / benchmark",
+      "materials": [],
+      "material_families": [],
+      "exciton_properties": [],
+      "applications": [],
+      "methods": [
+        "DFT",
+        "Quasiparticle / optical gaps"
+      ],
+      "matched_keywords": [
+        "dft",
+        "exciton",
+        "excitonic",
+        "first-principles",
+        "quasiparticle gap"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [
+          "we calculate",
+          "using",
+          "first-principles calculations"
+        ],
+        "experimental_methods": {},
+        "computational_methods": {
+          "DFT": [
+            "first-principles",
+            "dft"
+          ],
+          "Quasiparticle / optical gaps": [
+            "quasiparticle gap"
+          ]
+        },
+        "materials": {},
+        "properties": {},
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": true
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2609.01223",
+      "version": "v1",
+      "versioned_id": "2609.01223v1",
+      "title": "Geometry-Controlled Magnetic and Electronic Landscapes in Anisotropic van der Waals Materials",
+      "authors": [
+        "Maciej Śmiertka",
+        "Ewelina Cybula",
+        "Oliwia Janikowska",
+        "Bartosz Hołyński",
+        "Gayatri",
+        "Grzegorz Krasucki",
+        "Mariusz Hasiak",
+        "Kseniia Mosina",
+        "Zdenek Sofer",
+        "Adam Babiński",
+        "Maciej R Molas",
+        "Paulina Plochocka",
+        "Michał Baranowski"
+      ],
+      "abstract": "Electronic structure in van der Waals materials is commonly engineered through composition, strain, electrostatic gating and heterostructure assembly. Here we introduce geometronics, a concept in which substrate geometry locally reorients an anisotropic crystal, transforming homogeneous external perturbation into programmable magnetic and electronic landscapes. We demonstrate this concept using a bilayer of the antiferromagnetic semiconductor CrSBr transferred onto an inverted pyramidal nanoindentation, where the local crystal orientation with respect to the external magnetic field drives the coexistence of antiferromagnetic and ferromagnetic phases within a single continuous crystal. The resulting magnetic landscape creates a switchable excitonic potential well of up to 10--12 meV, directly visualised by spatially resolved spectroscopy. More generally, geometronics provides a universal route for deterministically programmed electronic and magnetic landscapes without modifying the material itself. It therefore establishes substrate topography as a new design principle that exploits the intrinsic anisotropy of layered van der Waals materials.",
+      "submitted": "2026-09-01T13:26:25Z",
+      "updated": "2026-09-01T13:26:25Z",
+      "categories": [
+        "cond-mat.mtrl-sci",
+        "cond-mat.mes-hall"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2609.01223v1",
+      "arxiv_url": "https://arxiv.org/abs/2609.01223",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [],
+      "material_families": [
+        "Other 2D / van der Waals materials"
+      ],
+      "exciton_properties": [],
+      "applications": [],
+      "methods": [],
+      "matched_keywords": [
+        "exciton",
+        "excitonic"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [
+          "using"
+        ],
+        "experimental_methods": {},
+        "computational_methods": {},
+        "materials": {
+          "Other 2D / van der Waals materials": [
+            "van der waals"
+          ]
+        },
+        "properties": {},
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2609.01149",
+      "version": "v1",
+      "versioned_id": "2609.01149v1",
+      "title": "Probing Nonlinear Interactions of Dipolar Interlayer Excitons in MoSe$_2$/WSe$_2$ Heterobilayers",
+      "authors": [
+        "Sai Shradha",
+        "Luc F. Oswald",
+        "Md Tarik Hossain",
+        "Lukas Krelle",
+        "Nicole Engel",
+        "Axel Printschler",
+        "Julian Führer",
+        "Honey Jayeshkumar Shah",
+        "Daria I. Markina",
+        "Kenji Watanabe",
+        "Takashi Taniguchi",
+        "Andrey Turchanin",
+        "Bernhard Urbaszek"
+      ],
+      "abstract": "Interlayer excitons in transition-metal dichalcogenide heterobilayers possess intrinsic out-of-plane dipole moments, providing a platform for investigating exciton-exciton interactions at high densities. Here, we use excitation-energy-dependent photoluminescence excitation (PLE) spectroscopy to probe the nonlinear response of dipolar interlayer excitons in chemical vapor deposition-grown MoSe$_2$/WSe$_2$ heterobilayers. By tuning the excitation energy across intralayer exciton resonances at fixed excitation power, we selectively vary the population injected into the interlayer exciton states. Resonant excitation drives the system into a nonlinear regime, leading to saturation of the interlayer exciton photoluminescence and an apparent broadening of the intralayer $1s$ resonances in the PLE spectra. At the same time, the interlayer exciton emission exhibits a pronounced blueshift, reaching approximately 2.5 meV at 4 K and 1 meV at 75 K. The blueshift increases systematically with the interlayer exciton population and is consistent with a net repulsive exciton-exciton interaction, with contributions from dipole-dipole repulsion in the density regime investigated. Our results establish PLE as a sensitive approach for accessing the nonlinear, high-density regime of interlayer excitons and probing their interactions in van der Waals heterostructures.",
+      "submitted": "2026-09-01T12:25:21Z",
+      "updated": "2026-09-01T12:25:21Z",
+      "categories": [
+        "cond-mat.mes-hall",
+        "cond-mat.mtrl-sci"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2609.01149v1",
+      "arxiv_url": "https://arxiv.org/abs/2609.01149",
+      "study_type": "Experimental",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [
+        "transition-metal dichalcogenides",
+        "2D materials"
+      ],
+      "material_families": [
+        "TMDs / 2D chalcogenides",
+        "Other 2D / van der Waals materials"
+      ],
+      "exciton_properties": [
+        "Many-exciton interactions"
+      ],
+      "applications": [],
+      "methods": [
+        "Photoluminescence"
+      ],
+      "matched_keywords": [
+        "exciton",
+        "photoluminescence"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [
+          "we use"
+        ],
+        "computational_actions": [
+          "we use"
+        ],
+        "experimental_methods": {
+          "Photoluminescence": [
+            "photoluminescence"
+          ]
+        },
+        "computational_methods": {},
+        "materials": {
+          "transition-metal dichalcogenides": [
+            "transition-metal dichalcogenide"
+          ],
+          "2D materials": [
+            "van der waals heterostructure"
+          ],
+          "TMDs / 2D chalcogenides": [
+            "transition-metal dichalcogenide"
+          ],
+          "Other 2D / van der Waals materials": [
+            "van der waals",
+            "heterobilayer"
+          ]
+        },
+        "properties": {
+          "Many-exciton interactions": [
+            "exciton-exciton"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": true,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2609.00594",
+      "version": "v1",
+      "versioned_id": "2609.00594v1",
+      "title": "GW and Bethe-Salpeter Theory for Molecular Polaritons, Quasiparticles, and Excitons",
+      "authors": [
+        "Soohaeng Yoo Willow",
+        "Gi Beom Sim",
+        "Tae Hyeon Park",
+        "Tae In Kim",
+        "D. ChangMo Yang",
+        "Mikuláš Matoušek",
+        "Jiří Brabec",
+        "Libor Veis",
+        "Chang Woo Myung"
+      ],
+      "abstract": "The electron self-energy is central to quasiparticle theory, yet how an optical cavity enters it remains unclear. We address this question for a molecule in a single-mode cavity using the dipole-gauge Pauli-Fierz Hamiltonian and a coherent-state QED Hartree-Fock reference. The cavity enters through three channels: the static dipole self-energy (DSE) shift of reference orbital energies, direct DSE augmentation of the screened interaction, and the polariton pole carrying the bilinear electron-photon coupling. We benchmark QED-$GW$ ionization potentials (IPs) and electron affinities (EAs) against a cavity $Δ$-method ladder from QED-HF to correlated wave-function methods, whose cavity-induced shifts agree within 1 meV where directly comparable. For closed-shell molecules with unbound anions, $GW$ systematically overestimates cavity-induced IP redshifts, whereas EA shifts are reproduced nearly quantitatively, although this does not imply comparable accuracy for absolute EAs. For ionic molecules with bound anions, this ordering reverses, consistent with published QED coupled-cluster results. Coupling and detuning scans show that the error is predominantly quadratic in $λ$ and DSE-driven rather than resonant. The spectral function develops a polariton-replica photoemission sideband with weight scaling as $λ^2$. In the static screened interaction used in the Bethe-Salpeter equation, bare-photon exchange cancels the matching DSE contribution to the direct interaction, while exchange and polariton-screening corrections remain. Their net effect on the lowest excitation is appreciable only for ammonia in the molecules studied. Exciton-binding energies involving unbound anions are strongly basis-dependent and should therefore be viewed as diagnostics of electron-hole interactions rather than basis-converged molecular quantities.",
+      "submitted": "2026-09-01T02:33:49Z",
+      "updated": "2026-09-01T02:33:49Z",
+      "categories": [
+        "cond-mat.mtrl-sci",
+        "cond-mat.str-el",
+        "physics.chem-ph",
+        "physics.comp-ph"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2609.00594v1",
+      "arxiv_url": "https://arxiv.org/abs/2609.00594",
+      "study_type": "Computational",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Dataset / benchmark",
+      "materials": [],
+      "material_families": [],
+      "exciton_properties": [
+        "Binding energy"
+      ],
+      "applications": [
+        "Light–matter coupling"
+      ],
+      "methods": [
+        "Bethe–Salpeter equation"
+      ],
+      "matched_keywords": [
+        "bethe-salpeter",
+        "exciton",
+        "polariton"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [
+          "using"
+        ],
+        "experimental_methods": {},
+        "computational_methods": {
+          "Bethe–Salpeter equation": [
+            "bethe-salpeter"
+          ]
+        },
+        "materials": {},
+        "properties": {
+          "Binding energy": [
+            "binding energies"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": true
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
     {
       "arxiv_id": "2608.30691",
       "version": "v1",
@@ -17508,11 +17815,20 @@
       "new": 7,
       "updated": 1,
       "total": 229
+    },
+    {
+      "scanned_at": "2026-09-02T08:06:24.700428+00:00",
+      "since": "2026-08-19",
+      "fetched": 37,
+      "classified": 37,
+      "new": 4,
+      "updated": 0,
+      "total": 233
     }
   ],
   "counts": {
-    "total": 229,
-    "new_this_scan": 7,
-    "updated_this_scan": 1
+    "total": 233,
+    "new_this_scan": 4,
+    "updated_this_scan": 0
   }
 }
