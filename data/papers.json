@@ -1,7 +1,323 @@
 {
   "schema_version": 2,
-  "last_scan": "2026-09-03T08:15:37.926760+00:00",
+  "last_scan": "2026-09-04T08:11:45.745164+00:00",
   "papers": [
+    {
+      "arxiv_id": "2609.03795",
+      "version": "v1",
+      "versioned_id": "2609.03795v1",
+      "title": "Exciton multipolarity controls coherent and squeezed phonons in van der Waals heterostructures",
+      "authors": [
+        "Indrajit Maity",
+        "Arash A. Mostofi",
+        "Johannes Lischner",
+        "Ángel Rubio"
+      ],
+      "abstract": "Photoexcitation-driven changes in the electronic distribution displace atoms, generating coherent phonons on ultrafast timescales. Two-dimensional (2D) materials and their heterostructures offer a powerful platform for engineering these phonons. Yet, despite the widespread observation of photoexcited coherent phonons, a design principle for controlling their character remains elusive. Here, using detailed atomistic simulations of multilayers of alternating MoSe$_2$ and WSe$_2$, we reveal exciton multipolarity as a design principle for tuning photoinduced phonons from coherent to squeezed. These phonons are interlayer breathing modes, with dipolar excitons coupling linearly to generate coherent states and quadrupolar excitons coupling quadratically to produce squeezed states. Moreover, an out-of-plane electric field enables switch-like control, converting quadrupolar excitons into dipolar excitons and switching the phonon state from squeezed to coherent. For example, in trilayer WSe$_2$/MoSe$_2$/WSe$_2$, the photoexcited 1.04-THz breathing mode switches from a squeezed state at zero field to a coherent state under an applied vertical field. Experimentally, these phonon states can be directly probed by ultrafast X-ray or electron diffraction and indirectly through transient reflectivity. Our results open new avenues for ultrafast control of lattice and electronic dynamics on picosecond timescales, with implications for THz quantum phononics, nanophotonic technologies, and quantum-noise-limited sensing.",
+      "submitted": "2026-09-03T13:02:27Z",
+      "updated": "2026-09-03T13:02:27Z",
+      "categories": [
+        "cond-mat.mtrl-sci"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2609.03795v1",
+      "arxiv_url": "https://arxiv.org/abs/2609.03795",
+      "study_type": "Experimental",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [
+        "2D materials"
+      ],
+      "material_families": [
+        "Other 2D / van der Waals materials"
+      ],
+      "exciton_properties": [],
+      "applications": [],
+      "methods": [
+        "Absorption / reflectance"
+      ],
+      "matched_keywords": [
+        "exciton",
+        "reflectivity"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [
+          "experimentally"
+        ],
+        "computational_actions": [
+          "using"
+        ],
+        "experimental_methods": {
+          "Absorption / reflectance": [
+            "reflectivity"
+          ]
+        },
+        "computational_methods": {},
+        "materials": {
+          "2D materials": [
+            "van der waals heterostructure"
+          ],
+          "Other 2D / van der Waals materials": [
+            "van der waals"
+          ]
+        },
+        "properties": {},
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": true,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2609.03765",
+      "version": "v1",
+      "versioned_id": "2609.03765v1",
+      "title": "Coherent interaction of WS$_2$ and quasi-2D perovskite excitons over micrometer distances via a cavity field",
+      "authors": [
+        "Marti Struve",
+        "Hamid Pashaei Adl",
+        "Jamie M. Fitzgerald",
+        "Oliwia Janikowska",
+        "Maciej Śmiertka",
+        "Alessandro Surrente",
+        "Sven Stephan",
+        "Christoph Lienau",
+        "Falk Eilenberger",
+        "Zdeněk Sofer",
+        "Watcharaphol Paritmongkol",
+        "William A. Tisdale",
+        "Paulina Plochocka",
+        "Ermin Malic",
+        "Christian Schneider",
+        "Martin Esmann"
+      ],
+      "abstract": "The coherent coupling of cavity-confined photons and excitonic matter resonances leads to the formation of cavity polaritons, hybrid light-matter quasi-particles. If multiple exciton resonances couple to the same photonic mode, the resulting polariton constitutes a coherent interaction between matter resonances that can be spatially separated without any direct electronic coupling. In this work, we demonstrate the formation of such a coherent coupling at room temperature using an open optical cavity containing two distinct van der Waals materials - monolayer WS2 and layered quasi-2D halide perovskites (HaPs) - separated by $1.5 μ\\rm m$. The system forms three polariton branches, with the middle branch possessing nearly equal fractions of both excitons and the photonic mode. White-light reflectivity and luminescence measurements are in good agreement with simulations using a coupled harmonic oscillator and a microscopic Wannier-Hopfield framework. Our results lay the foundation to combine highly complementary degrees of freedom in 2D materials in an in-situ tunable fashion to enable new polaritonic functionalities.",
+      "submitted": "2026-09-03T12:31:04Z",
+      "updated": "2026-09-03T12:31:04Z",
+      "categories": [
+        "cond-mat.mes-hall"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2609.03765v1",
+      "arxiv_url": "https://arxiv.org/abs/2609.03765",
+      "study_type": "Experimental",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [
+        "WS2",
+        "perovskites",
+        "2D materials"
+      ],
+      "material_families": [
+        "TMDs / 2D chalcogenides",
+        "Other 2D / van der Waals materials",
+        "Perovskites / halide semiconductors"
+      ],
+      "exciton_properties": [],
+      "applications": [
+        "Light–matter coupling"
+      ],
+      "methods": [
+        "Absorption / reflectance"
+      ],
+      "matched_keywords": [
+        "exciton",
+        "excitonic",
+        "polariton",
+        "reflectivity"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [
+          "using"
+        ],
+        "experimental_methods": {
+          "Absorption / reflectance": [
+            "reflectivity"
+          ]
+        },
+        "computational_methods": {},
+        "materials": {
+          "WS2": [
+            "ws2"
+          ],
+          "perovskites": [
+            "perovskite"
+          ],
+          "2D materials": [
+            "2d material"
+          ],
+          "TMDs / 2D chalcogenides": [
+            "ws2"
+          ],
+          "Other 2D / van der Waals materials": [
+            "2d material",
+            "van der waals",
+            "monolayer"
+          ],
+          "Perovskites / halide semiconductors": [
+            "perovskite"
+          ]
+        },
+        "properties": {},
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": true,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2609.03744",
+      "version": "v1",
+      "versioned_id": "2609.03744v1",
+      "title": "Generalized s-d model for Wannier-Mott excitons in layered magnetic semiconductors",
+      "authors": [
+        "Sonu Verma",
+        "Bashab Dey",
+        "Akashdeep Kamra"
+      ],
+      "abstract": "The recent discovery of excitons coupled to the magnetic order, and the consequent strong magneto-optic responses, in some van der Waals magnetic semiconductors has triggered intense activity at the interface of magnetism and semiconductor optics. Here, we present an analytically tractable minimal model that describes magnetic order, electrons, holes, and excitons within a unified framework, thereby capturing a wide range of phenomena. It treats the magnetic order and itinerant carriers to be comprised by distinct electronic orbitals that are mutually coupled via orbital-dependent onsite exchange, similar to the treatment of metallic magnets using an s-d model. Investigating CrSBr bilayer as a case study, we benchmark our model and its predictions against recent experimental and ab-initio results finding good agreement as well as new insights enabled by the model's simplicity. Examining the optical selection rules, we find the conservation of a quantum number formed from a combination of spin and layer pseudospin to be a useful guiding principle, even in noncollinear magnetic configurations. Our analysis finds a series of bright and dark excitonic states in such layered A-type antiferromagnets. The presented framework should be valuable in achieving intuitive understanding of recently discovered excitonic phenomena and guiding the discovery of other excitonic states in layered magnetic semiconductors.",
+      "submitted": "2026-09-03T12:16:10Z",
+      "updated": "2026-09-03T12:16:10Z",
+      "categories": [
+        "cond-mat.mes-hall",
+        "cond-mat.mtrl-sci",
+        "physics.optics",
+        "quant-ph"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2609.03744v1",
+      "arxiv_url": "https://arxiv.org/abs/2609.03744",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Dataset / benchmark",
+      "materials": [],
+      "material_families": [
+        "Other 2D / van der Waals materials"
+      ],
+      "exciton_properties": [
+        "Fine structure / bright-dark splitting"
+      ],
+      "applications": [],
+      "methods": [],
+      "matched_keywords": [
+        "exciton",
+        "excitonic"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [
+          "using"
+        ],
+        "experimental_methods": {},
+        "computational_methods": {},
+        "materials": {
+          "Other 2D / van der Waals materials": [
+            "van der waals"
+          ]
+        },
+        "properties": {
+          "Fine structure / bright-dark splitting": [
+            "dark exciton"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2609.00594",
+      "version": "v2",
+      "versioned_id": "2609.00594v2",
+      "title": "GW and Bethe-Salpeter Theory for Molecular Polaritons, Quasiparticles, and Excitons",
+      "authors": [
+        "Soohaeng Yoo Willow",
+        "Gi Beom Sim",
+        "Tae Hyeon Park",
+        "Tae In Kim",
+        "D. ChangMo Yang",
+        "Mikuláš Matoušek",
+        "Jiří Brabec",
+        "Libor Veis",
+        "Chang Woo Myung"
+      ],
+      "abstract": "The electron self-energy is central to quasiparticle theory, yet how an optical cavity enters it remains unclear. We address this question for a molecule in a single-mode cavity using the dipole-gauge Pauli-Fierz Hamiltonian and a coherent-state QED Hartree-Fock reference. The cavity enters through three channels: the static dipole self-energy (DSE) shift of reference orbital energies, direct DSE augmentation of the screened interaction, and the polariton pole carrying the bilinear electron-photon coupling. We benchmark QED-$GW$ ionization potentials (IPs) and electron affinities (EAs) against a cavity $Δ$-method ladder from QED-HF to correlated wave-function methods, whose cavity-induced shifts agree within 1 meV where directly comparable. For closed-shell molecules with unbound anions, $GW$ systematically overestimates cavity-induced IP redshifts, whereas EA shifts are reproduced nearly quantitatively, although this does not imply comparable accuracy for absolute EAs. For ionic molecules with bound anions, this ordering reverses, consistent with published QED coupled-cluster results. Coupling and detuning scans show that the error is predominantly quadratic in $λ$ and DSE-driven rather than resonant. The spectral function develops a polariton-replica photoemission sideband with weight scaling as $λ^2$. In the static screened interaction used in the Bethe-Salpeter equation, bare-photon exchange cancels the matching DSE contribution to the direct interaction, while exchange and polariton-screening corrections remain. Their net effect on the lowest excitation is appreciable only for ammonia in the molecules studied. Exciton-binding energies involving unbound anions are strongly basis-dependent and should therefore be viewed as diagnostics of electron-hole interactions rather than basis-converged molecular quantities.",
+      "submitted": "2026-09-01T02:33:49Z",
+      "updated": "2026-09-03T02:54:17Z",
+      "categories": [
+        "cond-mat.mtrl-sci",
+        "cond-mat.str-el",
+        "physics.chem-ph",
+        "physics.comp-ph"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2609.00594v2",
+      "arxiv_url": "https://arxiv.org/abs/2609.00594",
+      "study_type": "Computational",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Dataset / benchmark",
+      "materials": [],
+      "material_families": [],
+      "exciton_properties": [
+        "Binding energy"
+      ],
+      "applications": [
+        "Light–matter coupling"
+      ],
+      "methods": [
+        "Bethe–Salpeter equation"
+      ],
+      "matched_keywords": [
+        "bethe-salpeter",
+        "exciton",
+        "polariton"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [
+          "using"
+        ],
+        "experimental_methods": {},
+        "computational_methods": {
+          "Bethe–Salpeter equation": [
+            "bethe-salpeter"
+          ]
+        },
+        "materials": {},
+        "properties": {
+          "Binding energy": [
+            "binding energies"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": true
+      },
+      "versions_seen": [
+        "v1",
+        "v2"
+      ]
+    },
     {
       "arxiv_id": "2609.02603",
       "version": "v1",
@@ -528,81 +844,6 @@
       "evidence": {
         "experimental": true,
         "computational": false
-      },
-      "versions_seen": [
-        "v1"
-      ]
-    },
-    {
-      "arxiv_id": "2609.00594",
-      "version": "v1",
-      "versioned_id": "2609.00594v1",
-      "title": "GW and Bethe-Salpeter Theory for Molecular Polaritons, Quasiparticles, and Excitons",
-      "authors": [
-        "Soohaeng Yoo Willow",
-        "Gi Beom Sim",
-        "Tae Hyeon Park",
-        "Tae In Kim",
-        "D. ChangMo Yang",
-        "Mikuláš Matoušek",
-        "Jiří Brabec",
-        "Libor Veis",
-        "Chang Woo Myung"
-      ],
-      "abstract": "The electron self-energy is central to quasiparticle theory, yet how an optical cavity enters it remains unclear. We address this question for a molecule in a single-mode cavity using the dipole-gauge Pauli-Fierz Hamiltonian and a coherent-state QED Hartree-Fock reference. The cavity enters through three channels: the static dipole self-energy (DSE) shift of reference orbital energies, direct DSE augmentation of the screened interaction, and the polariton pole carrying the bilinear electron-photon coupling. We benchmark QED-$GW$ ionization potentials (IPs) and electron affinities (EAs) against a cavity $Δ$-method ladder from QED-HF to correlated wave-function methods, whose cavity-induced shifts agree within 1 meV where directly comparable. For closed-shell molecules with unbound anions, $GW$ systematically overestimates cavity-induced IP redshifts, whereas EA shifts are reproduced nearly quantitatively, although this does not imply comparable accuracy for absolute EAs. For ionic molecules with bound anions, this ordering reverses, consistent with published QED coupled-cluster results. Coupling and detuning scans show that the error is predominantly quadratic in $λ$ and DSE-driven rather than resonant. The spectral function develops a polariton-replica photoemission sideband with weight scaling as $λ^2$. In the static screened interaction used in the Bethe-Salpeter equation, bare-photon exchange cancels the matching DSE contribution to the direct interaction, while exchange and polariton-screening corrections remain. Their net effect on the lowest excitation is appreciable only for ammonia in the molecules studied. Exciton-binding energies involving unbound anions are strongly basis-dependent and should therefore be viewed as diagnostics of electron-hole interactions rather than basis-converged molecular quantities.",
-      "submitted": "2026-09-01T02:33:49Z",
-      "updated": "2026-09-01T02:33:49Z",
-      "categories": [
-        "cond-mat.mtrl-sci",
-        "cond-mat.str-el",
-        "physics.chem-ph",
-        "physics.comp-ph"
-      ],
-      "pdf_url": "https://arxiv.org/pdf/2609.00594v1",
-      "arxiv_url": "https://arxiv.org/abs/2609.00594",
-      "study_type": "Computational",
-      "relevance": "Core exciton paper",
-      "paper_nature": "Dataset / benchmark",
-      "materials": [],
-      "material_families": [],
-      "exciton_properties": [
-        "Binding energy"
-      ],
-      "applications": [
-        "Light–matter coupling"
-      ],
-      "methods": [
-        "Bethe–Salpeter equation"
-      ],
-      "matched_keywords": [
-        "bethe-salpeter",
-        "exciton",
-        "polariton"
-      ],
-      "classification_evidence": {
-        "experimental_actions": [],
-        "computational_actions": [
-          "using"
-        ],
-        "experimental_methods": {},
-        "computational_methods": {
-          "Bethe–Salpeter equation": [
-            "bethe-salpeter"
-          ]
-        },
-        "materials": {},
-        "properties": {
-          "Binding energy": [
-            "binding energies"
-          ]
-        },
-        "relevance": [
-          "exciton/excitonic stated in title or abstract"
-        ]
-      },
-      "evidence": {
-        "experimental": false,
-        "computational": true
       },
       "versions_seen": [
         "v1"
@@ -18050,10 +18291,19 @@
       "new": 3,
       "updated": 1,
       "total": 236
+    },
+    {
+      "scanned_at": "2026-09-04T08:11:45.745164+00:00",
+      "since": "2026-08-21",
+      "fetched": 38,
+      "classified": 38,
+      "new": 3,
+      "updated": 1,
+      "total": 239
     }
   ],
   "counts": {
-    "total": 236,
+    "total": 239,
     "new_this_scan": 3,
     "updated_this_scan": 1
   }
