@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_scan": "2026-09-04T08:11:45.745164+00:00",
+  "last_scan": "2026-09-05T07:50:33.693747+00:00",
   "papers": [
     {
       "arxiv_id": "2609.03795",
@@ -18300,11 +18300,20 @@
       "new": 3,
       "updated": 1,
       "total": 239
+    },
+    {
+      "scanned_at": "2026-09-05T07:50:33.693747+00:00",
+      "since": "2026-08-22",
+      "fetched": 37,
+      "classified": 37,
+      "new": 0,
+      "updated": 0,
+      "total": 239
     }
   ],
   "counts": {
     "total": 239,
-    "new_this_scan": 3,
-    "updated_this_scan": 1
+    "new_this_scan": 0,
+    "updated_this_scan": 0
   }
 }
