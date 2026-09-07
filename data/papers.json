@@ -1,7 +1,267 @@
 {
   "schema_version": 2,
-  "last_scan": "2026-09-06T08:05:27.927268+00:00",
+  "last_scan": "2026-09-07T08:36:00.517139+00:00",
   "papers": [
+    {
+      "arxiv_id": "2609.05170",
+      "version": "v1",
+      "versioned_id": "2609.05170v1",
+      "title": "What Photocurrent Versus Effective Voltage Tells Us About Charge Generation in Organic Solar Cells",
+      "authors": [
+        "Ardalan Armin",
+        "Austin M. Kay",
+        "Drew B. Riley",
+        "Oskar J. Sandberg",
+        "Paul Meredith"
+      ],
+      "abstract": "The photocurrent of an organic solar cell is routinely plotted against an effective voltage and used to extract an exciton dissociation probability, and through it a free-charge generation efficiency. The photocurrent measures neither. Using a drift-diffusion model in which free-charge generation is field independent and losses occur only by bimolecular recombination, we show that the apparent dissociation probability returned by this procedure lies well below unity even for complete dissociation. Across wide variations of carrier mobility and recombination strength it is a single-valued function of the fill factor and coincides with the short-circuit charge collection efficiency, reporting neither the generation yield nor anything about collection beyond what the fill factor already shows. Even for ideal transport the normalised photocurrent saturates below unity at an intensity-independent first-order limit set by recombination of photogenerated carriers with injected equilibrium charge. Applied to four organic solar cells whose generation efficiencies are known independently, the apparent dissociation probabilities track the short-circuit collection efficiency rather than the generation yield. We therefore suggest this construction not be used, particularly in the high-efficiency non-fullerene acceptor systems that are now state of the art.",
+      "submitted": "2026-09-04T14:11:49Z",
+      "updated": "2026-09-04T14:11:49Z",
+      "categories": [
+        "physics.app-ph",
+        "cond-mat.mtrl-sci"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2609.05170v1",
+      "arxiv_url": "https://arxiv.org/abs/2609.05170",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [],
+      "material_families": [],
+      "exciton_properties": [],
+      "applications": [
+        "Photovoltaics"
+      ],
+      "methods": [],
+      "matched_keywords": [
+        "exciton"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [
+          "using"
+        ],
+        "experimental_methods": {},
+        "computational_methods": {},
+        "materials": {},
+        "properties": {},
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2609.04951",
+      "version": "v1",
+      "versioned_id": "2609.04951v1",
+      "title": "Cascade spin dynamics of excitons localized in indirect-band-gap (In,Al)As/AlAs quantum dots with type-I band alignment",
+      "authors": [
+        "S. V. Nekrasov",
+        "I. V. Kalitukha",
+        "A. A. Golovatenko",
+        "Ya. A. Kuznetsova",
+        "N. O. Mikhailenko",
+        "M. D. Ragoza",
+        "T. S. Shamirzaev",
+        "Yu. G. Kusrayev"
+      ],
+      "abstract": "We investigate the spin dynamics of excitons localized in type I (In,Al)As/AlAs quantum dots with an indirect in momentum space band structure. Polarized selective photoluminescence spectroscopy, i.e. fluorescence line narrowing, under magnetic fields up to 5 T applied in the Faraday geometry is employed. The experiment reveals a cascade spin evolution process of excitons in the indirect band-gap quantum dots: an initial short term spin dynamics associated with excited direct exciton states possessing a large oscillator strength is followed by electron relaxation into the X valley of the Brillouin zone and subsequent long term spin dynamics of indirect excitons. The two step mechanism manifests itself in the distinct features of the magnetic field dependences of photoluminescence: two component recovery of optical orientation, two component linear to circular polarization conversion and the presence of the linear polarization plane rotation. At the same time, suppression of the optical alignment shows one-component behavior governed by the spin dynamics of the indirect exciton states. Within the pseudospin formalism, we derive analytical expressions that quantitatively describe the observed dependences and yield estimates for the anisotropic exchange splitting: 210 μeV for direct excitons and 1.3 μeV for indirect excitons. Further analysis using the density matrix formalism agrees well with the pseudospin model calculations and shows that the finite optical orientation at zero magnetic field is due to comparable magnitudes of the anisotropic splitting of the indirect exciton states and the splitting of the X-valley electron states caused by the hyperfine interaction with nuclei.",
+      "submitted": "2026-09-04T09:56:18Z",
+      "updated": "2026-09-04T09:56:18Z",
+      "categories": [
+        "cond-mat.mes-hall"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2609.04951v1",
+      "arxiv_url": "https://arxiv.org/abs/2609.04951",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [
+        "quantum dots"
+      ],
+      "material_families": [
+        "Quantum-confined structures"
+      ],
+      "exciton_properties": [
+        "Oscillator strength / optical activity"
+      ],
+      "applications": [],
+      "methods": [
+        "Photoluminescence",
+        "Oscillator strength"
+      ],
+      "matched_keywords": [
+        "exciton",
+        "oscillator strength",
+        "photoluminescence"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [
+          "using"
+        ],
+        "experimental_methods": {
+          "Photoluminescence": [
+            "photoluminescence"
+          ]
+        },
+        "computational_methods": {
+          "Oscillator strength": [
+            "oscillator strength"
+          ]
+        },
+        "materials": {
+          "quantum dots": [
+            "quantum dot"
+          ],
+          "Quantum-confined structures": [
+            "quantum dot"
+          ]
+        },
+        "properties": {
+          "Oscillator strength / optical activity": [
+            "oscillator strength"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2609.04729",
+      "version": "v1",
+      "versioned_id": "2609.04729v1",
+      "title": "Interlayer Exciton Condensate Stiffness Is Non-Monotonic in Quantum Metric",
+      "authors": [
+        "Bo Zou",
+        "Yitong Zhang",
+        "Siddhartha Sarkar",
+        "Shi-Zeng Lin",
+        "Allan H. MacDonald",
+        "Kai Sun"
+      ],
+      "abstract": "Identifying the origin of the superfluid stiffness of electron-electron and electron-hole pair condensates is an important issue in flat-band physics. Here, we study the stiffness of bilayer exciton condensates using exact diagonalization and realistic Coulomb interactions across a wide variety of flat Chern band systems, including Landau levels, mixed Landau levels, and moiré bands. We find that stiffness is non-monotonic in the trace of the quantum metric and that it develops peaks when the band wavefunctions are engineered to be similar to those of Landau levels. The stiffness predicted by mean-field theory agrees quantitatively with exact diagonalization in these optimal cases, but systematically overestimates it otherwise. Flat bands with identical quantum geometry tensors can exhibit substantial differences in stiffness. The stiffness of condensates formed between moiré flat bands, which typically have strong variations in Berry curvature and quantum metric across their Brillouin zones, tends to be larger when the bands have non-zero Chern numbers and can be larger than that of Landau levels. Our results reveal a behavior that is richer than that suggested by simple geometric bounds and provide new guiding principles for the design of robust flat-band condensates with large superfluid stiffness.",
+      "submitted": "2026-09-04T04:55:24Z",
+      "updated": "2026-09-04T04:55:24Z",
+      "categories": [
+        "cond-mat.mes-hall"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2609.04729v1",
+      "arxiv_url": "https://arxiv.org/abs/2609.04729",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [],
+      "material_families": [],
+      "exciton_properties": [],
+      "applications": [],
+      "methods": [],
+      "matched_keywords": [
+        "exciton"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [
+          "using"
+        ],
+        "experimental_methods": {},
+        "computational_methods": {},
+        "materials": {},
+        "properties": {},
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2609.04558",
+      "version": "v1",
+      "versioned_id": "2609.04558v1",
+      "title": "Structural tuning of reduced exciton mass in layered HOIP compounds: Causation vs. correlation",
+      "authors": [
+        "Isaac R. Burkholder",
+        "Cindy Y. Wong",
+        "André Schleife",
+        "Kameron R. Hansen",
+        "John S. Colton",
+        "Branton J. Campbell"
+      ],
+      "abstract": "Reduced exciton mass ($μ$) was recently reported to correlate strongly with a framework distortion in a series of nine single-layer (2D) metal-halide perovskite (HOIP) compounds. Specifically, $μ$ was observed to increase in tandem with an alternating PbI4 octahedral tilt about an in-plane axis. In this work, we use group representation theory to decompose the observed framework distortions into displacive symmetry modes of a common high-symmetry parent framework. We find that all nine distorted frameworks involve linear combinations of the same six symmetry modes, which have been reported to contribute to the framework distortions of a wide range of HOIP compounds. We show that these modes have highly correlated impacts on the band structure. To differentiate causation from correlation, we vary the amplitude of each mode independently and use density-functional theory to determine the resulting electronic band structures, from which $μ$ is extracted. We find that bond-transverse displacements of the equatorial halide atoms increase $μ$, while bond-transverse displacements of the apical halide atoms decrease it. Bond-axis displacements appear to have little or no effect on $μ$. Our results demonstrate three new structure-property relationships, revealing a promising new avenue for exciton engineering in layered perovskite materials.",
+      "submitted": "2026-09-03T23:26:07Z",
+      "updated": "2026-09-03T23:26:07Z",
+      "categories": [
+        "cond-mat.mtrl-sci",
+        "cond-mat.str-el"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2609.04558v1",
+      "arxiv_url": "https://arxiv.org/abs/2609.04558",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [
+        "perovskites"
+      ],
+      "material_families": [
+        "Perovskites / halide semiconductors"
+      ],
+      "exciton_properties": [],
+      "applications": [],
+      "methods": [],
+      "matched_keywords": [
+        "exciton"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [
+          "we use"
+        ],
+        "computational_actions": [
+          "we use"
+        ],
+        "experimental_methods": {},
+        "computational_methods": {},
+        "materials": {
+          "perovskites": [
+            "perovskite"
+          ],
+          "Perovskites / halide semiconductors": [
+            "perovskite"
+          ]
+        },
+        "properties": {},
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
     {
       "arxiv_id": "2609.03795",
       "version": "v1",
@@ -18318,11 +18578,20 @@
       "new": 0,
       "updated": 0,
       "total": 239
+    },
+    {
+      "scanned_at": "2026-09-07T08:36:00.517139+00:00",
+      "since": "2026-08-24",
+      "fetched": 41,
+      "classified": 41,
+      "new": 4,
+      "updated": 0,
+      "total": 243
     }
   ],
   "counts": {
-    "total": 239,
-    "new_this_scan": 0,
+    "total": 243,
+    "new_this_scan": 4,
     "updated_this_scan": 0
   }
 }
