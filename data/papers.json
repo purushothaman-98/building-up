@@ -1,7 +1,152 @@
 {
   "schema_version": 2,
-  "last_scan": "2026-09-09T08:21:10.723395+00:00",
+  "last_scan": "2026-09-10T08:22:30.090336+00:00",
   "papers": [
+    {
+      "arxiv_id": "2609.09939",
+      "version": "v1",
+      "versioned_id": "2609.09939v1",
+      "title": "Image recognition based on optical spike processing with exciton-polaritons",
+      "authors": [
+        "Olgierd Jeziorski",
+        "Jakub Rogala",
+        "Krzysztof Tyszka"
+      ],
+      "abstract": "Exciton-polariton condensates combine ultrafast dynamics with strong optical nonlinearities, making them promising for optical neuromorphic computing. Here, we numerically demonstrate image recognition using the transient response of an exciton-polariton condensate. Downscaled MNIST images are encoded as optical pulse sequences, and the resulting condensate dynamics are sampled and processed by a linear classifier. For ten-class classification, condensate features achieve 92.2% accuracy, compared with 91.4% for raw-pixel linear classification. Combining both feature sets increases the accuracy to 93.2%. For the challenging binary classification of digits 7 and 9, the combined model reaches 97.3%, exceeding both the linear (95.5%) and feed-forward neural-network (96.6%) baselines. These results demonstrate that polariton dynamics can extract useful nonlinear features for ultrafast optical information processing.",
+      "submitted": "2026-09-09T09:29:58Z",
+      "updated": "2026-09-09T09:29:58Z",
+      "categories": [
+        "physics.optics",
+        "cond-mat.dis-nn"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2609.09939v1",
+      "arxiv_url": "https://arxiv.org/abs/2609.09939",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [],
+      "material_families": [],
+      "exciton_properties": [
+        "Light-matter strong coupling"
+      ],
+      "applications": [
+        "Exciton polaritons"
+      ],
+      "methods": [],
+      "matched_keywords": [
+        "exciton",
+        "polariton"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [
+          "using"
+        ],
+        "experimental_methods": {},
+        "computational_methods": {},
+        "materials": {},
+        "properties": {
+          "Light-matter strong coupling": [
+            "exciton-polariton"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2609.09923",
+      "version": "v1",
+      "versioned_id": "2609.09923v1",
+      "title": "Dimensional Control of Excitonic Interactions in Exfoliated 2D Molecular Crystals",
+      "authors": [
+        "Jonghyun Son",
+        "Seonghyun Koo",
+        "Daniel Yim",
+        "Sangjin Han",
+        "Dong-Hwan Yang",
+        "Gi-Yeop Kim",
+        "Kihyun Lee",
+        "Jieun Yeon",
+        "Hye Soo Kim",
+        "Eunbeen Jeon",
+        "Minji Ko",
+        "Minhee Choe",
+        "Kenji Watanabe",
+        "Takashi Taniguchi",
+        "Hee Cheul Choi",
+        "Kwanpyo Kim",
+        "Si-Young Choi",
+        "Seogjoo J. Jang",
+        "Hyungjun Kim",
+        "Sunmin Ryu"
+      ],
+      "abstract": "Two-dimensional (2D) materials provide unique opportunities to tailor excited-state properties through reduced dimensionality, altered dielectric screening and layer-dependent structural reconstruction. While such effects have been widely explored in norganic systems, their realization in molecular crystals has been limited by the difficulty of controlling thickness at the atomic scale while preserving crystalline order. Here we show that tetracene and three other molecular crystals can be mechanically exfoliated into mono-, few- or multilayer flakes, while retaining crystalline order. This capability enables new studies of molecular crystals across a well defined thickness range within the same structural organization. Thickness-dependent spectra of these samples reveal how out-of-plane confinement modifies the excited-state energy landscape of tetracene: With decreasing thickness, the Davydov splitting diminishes, the Stokes shift increases, and signatures of more delocalized excitons emerge. Electron diffraction and exciton model-based analyses correlate these trends to changes in molecular packing, intermolecular coupling and dielectric screening. Our results also demonstrate that key features of molecular excitons can be systematically tuned by layer number, extending dimensional control from inorganic 2D materials to molecular crystals.",
+      "submitted": "2026-09-09T09:14:28Z",
+      "updated": "2026-09-09T09:14:28Z",
+      "categories": [
+        "cond-mat.mtrl-sci"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2609.09923v1",
+      "arxiv_url": "https://arxiv.org/abs/2609.09923",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [
+        "2D materials",
+        "organic semiconductors"
+      ],
+      "material_families": [
+        "Other 2D / van der Waals materials",
+        "Organic / molecular materials"
+      ],
+      "exciton_properties": [],
+      "applications": [],
+      "methods": [],
+      "matched_keywords": [
+        "exciton",
+        "excitonic"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [],
+        "experimental_methods": {},
+        "computational_methods": {},
+        "materials": {
+          "2D materials": [
+            "2d material"
+          ],
+          "organic semiconductors": [
+            "molecular crystal"
+          ],
+          "Other 2D / van der Waals materials": [
+            "2d material"
+          ],
+          "Organic / molecular materials": [
+            "molecular crystal"
+          ]
+        },
+        "properties": {},
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
     {
       "arxiv_id": "2609.08655",
       "version": "v1",
@@ -19547,11 +19692,20 @@
       "new": 12,
       "updated": 0,
       "total": 255
+    },
+    {
+      "scanned_at": "2026-09-10T08:22:30.090336+00:00",
+      "since": "2026-08-27",
+      "fetched": 45,
+      "classified": 45,
+      "new": 2,
+      "updated": 0,
+      "total": 257
     }
   ],
   "counts": {
-    "total": 255,
-    "new_this_scan": 12,
+    "total": 257,
+    "new_this_scan": 2,
     "updated_this_scan": 0
   }
 }
