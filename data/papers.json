@@ -1,7 +1,134 @@
 {
   "schema_version": 2,
-  "last_scan": "2026-09-10T08:22:30.090336+00:00",
+  "last_scan": "2026-09-11T08:16:32.939269+00:00",
   "papers": [
+    {
+      "arxiv_id": "2609.11138",
+      "version": "v1",
+      "versioned_id": "2609.11138v1",
+      "title": "Fingerprints of Excitonic Collective Modes in the Two-Dimensional Electron Gas",
+      "authors": [
+        "Jakob Wolff",
+        "Silvana Botti",
+        "Lucia Reining",
+        "Matteo Gatti"
+      ],
+      "abstract": "The two-dimensional homogeneous electron gas (2D HEG) is a prototype system of fundamental interest that can be realized experimentally over a wide range of densities. Here, we investigate its collective charge excitations at low densities, using time-dependent density functional theory. We demonstrate that, beyond traditional plasmons, new collective excitonic modes emerge for a Wigner-Seitz radius larger than $r_{\\mathrm s} \\approx 1$. These excitonic modes leave characteristic fingerprints in experimentally accessible quantities, namely, asymmetric peak structures in the loss function and very strong Friedel-like oscillations in the static linear density response that increase when the system approaches a regime of instability. Indeed, at low enough densities the collective modes cross the zero energy axis, indicating an instability of the paramagnetic 2D HEG towards the formation of a charge-density-wave phase with excitonic origin. These findings provide valuable insights for the experimental detection of excitonic collective modes in tunable 2D electron systems and contribute to the fundamental understanding of many-body effects in low-density electron gases.",
+      "submitted": "2026-09-10T06:29:57Z",
+      "updated": "2026-09-10T06:29:57Z",
+      "categories": [
+        "cond-mat.mes-hall",
+        "cond-mat.str-el"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2609.11138v1",
+      "arxiv_url": "https://arxiv.org/abs/2609.11138",
+      "study_type": "Computational",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [],
+      "material_families": [],
+      "exciton_properties": [],
+      "applications": [],
+      "methods": [
+        "DFT",
+        "TDDFT"
+      ],
+      "matched_keywords": [
+        "density functional theory",
+        "exciton",
+        "excitonic",
+        "time-dependent density functional theory"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [
+          "experimentally"
+        ],
+        "computational_actions": [
+          "using"
+        ],
+        "experimental_methods": {},
+        "computational_methods": {
+          "DFT": [
+            "density functional theory"
+          ],
+          "TDDFT": [
+            "time-dependent density functional theory"
+          ]
+        },
+        "materials": {},
+        "properties": {},
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": true
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2609.10979",
+      "version": "v1",
+      "versioned_id": "2609.10979v1",
+      "title": "Silicon Solar Cell Design for >30% Efficiency via Singlet Fission",
+      "authors": [
+        "Shona McNab",
+        "Phoebe Pearce",
+        "Pietro P. Altermatt",
+        "Jingnan Tong",
+        "Ruy Sebastian Bonilla",
+        "Timothy W. Schmidt",
+        "Murad J. Y. Tayebjee",
+        "Bram Hoex",
+        "Alison Ciesla",
+        "Michael P. Nielsen",
+        "Nicholas J. Ekins Daukes"
+      ],
+      "abstract": "Singlet fission (SF) materials convert high-energy photons into multiple charge carriers, providing a route to exceed the efficiency limits of single-junction silicon solar cells without many of the complexities of multi-junction tandem designs. Following the first demonstration of an SF-enhanced silicon solar cell in 2025, there is a need to understand how SF materials can be effectively integrated into high-efficiency industrial silicon devices and translated from proof of concept to a manufacturable technology. Using coupled optical and electrical simulations, we assess the efficiency potential of several industrially relevant silicon cell architectures combined with SF materials. Interdigitated back-contact (IBC) cells offer the greatest potential for improvement due to unrestricted front-surface access and can achieve efficiencies exceeding 33%. However, performance is highly sensitive to front-surface passivation quality. Appropriate silicon design, particularly controlled surface doping and fixed interfacial charge, can mitigate recombination losses and relax passivation requirements for ultra-thin exciton-transfer layers.",
+      "submitted": "2026-09-10T01:56:07Z",
+      "updated": "2026-09-10T01:56:07Z",
+      "categories": [
+        "cond-mat.mtrl-sci"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2609.10979v1",
+      "arxiv_url": "https://arxiv.org/abs/2609.10979",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [],
+      "material_families": [],
+      "exciton_properties": [],
+      "applications": [
+        "Photovoltaics"
+      ],
+      "methods": [],
+      "matched_keywords": [
+        "exciton"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [
+          "using"
+        ],
+        "experimental_methods": {},
+        "computational_methods": {},
+        "materials": {},
+        "properties": {},
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
     {
       "arxiv_id": "2609.09939",
       "version": "v1",
@@ -19701,10 +19828,19 @@
       "new": 2,
       "updated": 0,
       "total": 257
+    },
+    {
+      "scanned_at": "2026-09-11T08:16:32.939269+00:00",
+      "since": "2026-08-28",
+      "fetched": 46,
+      "classified": 46,
+      "new": 2,
+      "updated": 0,
+      "total": 259
     }
   ],
   "counts": {
-    "total": 257,
+    "total": 259,
     "new_this_scan": 2,
     "updated_this_scan": 0
   }
