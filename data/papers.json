@@ -1,7 +1,307 @@
 {
   "schema_version": 2,
-  "last_scan": "2026-09-14T19:57:27.186520+00:00",
+  "last_scan": "2026-09-15T19:17:21.375951+00:00",
   "papers": [
+    {
+      "arxiv_id": "2609.15674",
+      "version": "v1",
+      "versioned_id": "2609.15674v1",
+      "title": "Opto-Electrical Detection of Donor Bound Excitons in Silicon-on-Insulator Substrate",
+      "authors": [
+        "A. Kanniainen",
+        "A. S. Kumar",
+        "A. Sammak",
+        "G. Scappucci",
+        "J. T. Muhonen"
+      ],
+      "abstract": "Spin of a donor bound electron in silicon has been shown to be a very coherent qubit system but lacks a coherent optical interface. There does, however, exist a donor bound exciton transition that can be excited optically but decays dominantly via an Auger recombination producing an electrical signal. This provides an opto-electrical pathway for spin readout. Scaling this readout to single-spin level will require interfacing the spins with silicon photonics for efficient guiding of photons, which in turn will require moving to silicon-on-insulator (SOI) substrates. Here we demonstrate first ensemble opto-electronic measurements of donor bound excitons in SOI material, including isotopically purified 28-Si device layers. The experiments show pronounced shifts in the resonance wavelengths and broadenings of the transition linewidths compared to the bulk experiments.",
+      "submitted": "2026-09-14T14:51:11Z",
+      "updated": "2026-09-14T14:51:11Z",
+      "categories": [
+        "cond-mat.mes-hall",
+        "quant-ph"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2609.15674v1",
+      "arxiv_url": "https://arxiv.org/abs/2609.15674",
+      "study_type": "Experimental",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [],
+      "material_families": [],
+      "exciton_properties": [
+        "Linewidth / dephasing"
+      ],
+      "applications": [],
+      "methods": [
+        "Linewidth / fine structure"
+      ],
+      "matched_keywords": [
+        "exciton",
+        "linewidth"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [],
+        "experimental_methods": {
+          "Linewidth / fine structure": [
+            "linewidth"
+          ]
+        },
+        "computational_methods": {},
+        "materials": {},
+        "properties": {
+          "Linewidth / dephasing": [
+            "linewidth"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": true,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2609.15340",
+      "version": "v1",
+      "versioned_id": "2609.15340v1",
+      "title": "Optical properties of As2Se3 from first principles",
+      "authors": [
+        "Juan J. Meléndez"
+      ],
+      "abstract": "Crystalline As2Se3 is a promising layered chalcogenide for mid-infrared photonics and optoelectronic applications, yet its fundamental electronic and optical properties remain debated. This paper combines density functional theory with G0W0 quasiparticle corrections and Bethe-Salpeter equation (BSE) calculations to deliver a robust description of its band structure and optical response. The G0W0 results reveal an indirect band gap of 2.31 eV with nearly degenerate direct transitions at Gamma, while the BSE spectra exhibit strong polarization-dependent anisotropy and pronounced excitonic effects. Several bound excitons are identified near the absorption onset, clarifying the role of electron-hole interactions and resolving previous controversies regarding the nature of the optical gap and the contribution of lone-pair states. This work provides a unified and quantitatively accurate picture of As2Se3, reinforcing its potential for next-generation infrared and anisotropic photonic devices.",
+      "submitted": "2026-09-14T10:27:31Z",
+      "updated": "2026-09-14T10:27:31Z",
+      "categories": [
+        "cond-mat.mtrl-sci"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2609.15340v1",
+      "arxiv_url": "https://arxiv.org/abs/2609.15340",
+      "study_type": "Computational",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [],
+      "material_families": [],
+      "exciton_properties": [],
+      "applications": [],
+      "methods": [
+        "DFT",
+        "GW",
+        "Bethe–Salpeter equation",
+        "Quasiparticle / optical gaps"
+      ],
+      "matched_keywords": [
+        "bethe-salpeter",
+        "density functional theory",
+        "exciton",
+        "excitonic",
+        "first principles",
+        "g0w0",
+        "optical gap"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [],
+        "experimental_methods": {},
+        "computational_methods": {
+          "DFT": [
+            "density functional theory",
+            "first principles"
+          ],
+          "GW": [
+            "g0w0"
+          ],
+          "Bethe–Salpeter equation": [
+            "bethe-salpeter"
+          ],
+          "Quasiparticle / optical gaps": [
+            "optical gap"
+          ]
+        },
+        "materials": {},
+        "properties": {},
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": true
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2609.15136",
+      "version": "v1",
+      "versioned_id": "2609.15136v1",
+      "title": "Navigating Sparse Singlet Fission Chemical Space: An Intelligent Generative-Predictive Paradigm",
+      "authors": [
+        "Longfei Lv",
+        "Li Fu",
+        "Si Zhou",
+        "Lingzhi Zhao",
+        "Jijun Zhao"
+      ],
+      "abstract": "Singlet fission (SF) offers a promising route to surpass the Shockley-Queisser limit by converting a photoexcited singlet exciton into two triplet excitons, thereby enhancing photovoltaic energy conversion efficiency. However, realizing efficient SF process requires stringent energetic requirements among low-lying excited states that render SF molecules intrinsically rare within the vast chemical space. This extreme sparsity presents a grand challenge for molecular discovery. Due to low hit rates and trial-and-error computational waste on nonviable structures, conventional high-throughput virtual screening faces significant constraints, even when accelerated by machine learning models. Here, we establish a synergistic generative-predictive framework for the targeted inverse design of SF molecules by integrating a structure generator, a properties predictor and a multi-criteria validation workflow. By continuously coupling generative exploration with SF predictive models, the framework progressively enriches SF species and achieves a success rate of approximately 90% in generating molecules that satisfy the target SF energetic criteria. High-throughput evaluation of about 100 million generated structures with time-dependent density functional theory (TDDFT) validation of just a random 1% subset confirmed a 90.8% success rate for SF candidates. All together, we constructed an SF database of 283,559 candidates with favorable energetics of excited states and synthetic accessibility. From it, we identified a key fragment strongly associated with the requirements for SF, namely, CN([O])N(C)[O]. These findings establish an efficient route for overcoming the sparsity difficulty in SF molecular discovery and provide interpretable design principles for the development of novel excited-state functional materials.",
+      "submitted": "2026-09-14T07:10:17Z",
+      "updated": "2026-09-14T07:10:17Z",
+      "categories": [
+        "cond-mat.mtrl-sci"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2609.15136v1",
+      "arxiv_url": "https://arxiv.org/abs/2609.15136",
+      "study_type": "Computational",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Methods / software",
+      "materials": [],
+      "material_families": [],
+      "exciton_properties": [],
+      "applications": [
+        "Photovoltaics"
+      ],
+      "methods": [
+        "DFT",
+        "TDDFT"
+      ],
+      "matched_keywords": [
+        "density functional theory",
+        "dft",
+        "exciton",
+        "tddft",
+        "time-dependent density functional theory"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [],
+        "experimental_methods": {},
+        "computational_methods": {
+          "DFT": [
+            "density functional theory",
+            "dft"
+          ],
+          "TDDFT": [
+            "time-dependent density functional theory",
+            "tddft"
+          ]
+        },
+        "materials": {},
+        "properties": {},
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": true
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2609.13884",
+      "version": "v1",
+      "versioned_id": "2609.13884v1",
+      "title": "A Direct Algebraic Approach to Normal Ordering of Exponential Bosonic Operators with Applications to Two-Dimensional Excitonic Form Factors",
+      "authors": [
+        "Duy-Anh P. Nguyen",
+        "Ngoc-Tram D. Hoang",
+        "Dang-Khoa D. Le",
+        "Van-Hoang Le"
+      ],
+      "abstract": "We develop a systematic algebraic approach, based on the Wei--Norman factorization method, to the normal ordering of exponential bosonic operators and apply it to derive analytical excitonic form factors in two-dimensional semiconducting materials. By introducing an auxiliary parameter, the normal-ordering problem is reduced to a system of ordinary differential equations determined by the commutation relations of the underlying closed Lie algebra. The approach is first illustrated for exponential operators associated with the Heisenberg--Weyl and $su(1,1)$ algebras, and is then extended to two-mode bosonic operators involving $su(2)$ and a six-generator closed algebra that contains two coupled $su(1,1)$ subalgebras. For the excitonic application, the Levi--Civita transformation maps the two-dimensional exciton problem onto an oscillator representation, providing a natural formulation in terms of bosonic creation and annihilation operators. Combined with the Laplace and Fourier representations of the Rytova--Keldysh potential, this formulation reduces the interaction matrix elements to the evaluation of exponential bosonic form factors. The isotropic problem is governed by a three-generator $su(1,1)$ algebra, whereas the anisotropic case requires the full six-generator algebra together with an additional $su(2)$ factorization. Explicit analytical expressions for both form factors, $\\langle e^{-rt}\\rangle$ and $\\langle e^{i\\mathbf q\\cdot\\mathbf r}\\rangle$, are obtained, providing useful building blocks for matrix-element calculations in two-dimensional excitonic systems and potentially in other quantum problems involving exponential bosonic operators.",
+      "submitted": "2026-09-12T11:20:07Z",
+      "updated": "2026-09-12T11:20:07Z",
+      "categories": [
+        "cond-mat.mtrl-sci"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2609.13884v1",
+      "arxiv_url": "https://arxiv.org/abs/2609.13884",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [],
+      "material_families": [],
+      "exciton_properties": [],
+      "applications": [],
+      "methods": [],
+      "matched_keywords": [
+        "exciton",
+        "excitonic"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [],
+        "experimental_methods": {},
+        "computational_methods": {},
+        "materials": {},
+        "properties": {},
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2609.13752",
+      "version": "v1",
+      "versioned_id": "2609.13752v1",
+      "title": "Bilinear magnon--exciton coupling in biased ferromagnetic electron--hole bilayers",
+      "authors": [
+        "Pieter M. Gunnink"
+      ],
+      "abstract": "Two-dimensional magnetic semiconductors provide a unique platform where strong magnon--exciton interactions can be realized. Owing to the intrinsic energy mismatch between excitons and magnons, however, these interactions are typically between the exciton density and magnons. We propose biased ferromagnetic electron--hole bilayers, where the exciton energy gap can be lowered with the voltage bias, as a platform in which excitons and magnons can instead couple resonantly. Starting from the microscopic exchange interactions between electrons and localized magnetic moments, we demonstrate the linear hybridization of magnons and spin-flip excitons in this regime. As the exciton energy is lowered further, a magnon--exciton Bose--Einstein condensate is formed. We show that this condensate is further modified by an attractive magnon--exciton density--density interaction, which we derive microscopically. We study the condensate's collective modes and demonstrate their hybridization with the magnons, providing an alternative detection mechanism for the formation of exciton condensates.",
+      "submitted": "2026-09-12T06:44:02Z",
+      "updated": "2026-09-12T06:44:02Z",
+      "categories": [
+        "cond-mat.str-el",
+        "cond-mat.mes-hall"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2609.13752v1",
+      "arxiv_url": "https://arxiv.org/abs/2609.13752",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [],
+      "material_families": [],
+      "exciton_properties": [],
+      "applications": [],
+      "methods": [],
+      "matched_keywords": [
+        "exciton"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [],
+        "experimental_methods": {},
+        "computational_methods": {},
+        "materials": {},
+        "properties": {},
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
     {
       "arxiv_id": "2609.11138",
       "version": "v1",
@@ -19855,11 +20155,20 @@
       "new": 0,
       "updated": 0,
       "total": 259
+    },
+    {
+      "scanned_at": "2026-09-15T19:17:21.375951+00:00",
+      "since": "2026-09-01",
+      "fetched": 35,
+      "classified": 35,
+      "new": 5,
+      "updated": 0,
+      "total": 264
     }
   ],
   "counts": {
-    "total": 259,
-    "new_this_scan": 0,
+    "total": 264,
+    "new_this_scan": 5,
     "updated_this_scan": 0
   }
 }
