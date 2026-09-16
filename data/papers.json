@@ -1,7 +1,285 @@
 {
   "schema_version": 2,
-  "last_scan": "2026-09-15T19:17:21.375951+00:00",
+  "last_scan": "2026-09-16T08:48:43.212695+00:00",
   "papers": [
+    {
+      "arxiv_id": "2609.17305",
+      "version": "v1",
+      "versioned_id": "2609.17305v1",
+      "title": "Multiproperty Atomistic Characterization of a Synthesized Pyrazinic Nitrogen-Doped Porous Armchair Graphene Nanoribbon",
+      "authors": [
+        "Cicera M. V. de Araújo",
+        "Isaac de M. Félix",
+        "Willian F. Radel",
+        "Raphael B. de Oliveira",
+        "Guilherme da S. L. Fabris",
+        "Douglas S. Galvão",
+        "Marcelo L. Pereira Junior"
+      ],
+      "abstract": "Graphene nanoribbons (GNRs) obtained by on-surface synthesis combine a width-controlled band gap with atomic precision, making chemical decoration of their edges and interiors a practical route to designed electronic and optical behavior. Ullmann coupling of a phenazine-bearing precursor yields a nine-atom-wide armchair ribbon that is periodically perforated and carries two two-coordinated nitrogen atoms at every pore rim. Here we characterize this ribbon across the properties relevant to device operation, alongside the pristine and undoped porous ribbon, disentangling the roles of pore formation and nitrogen incorporation. Perforation primarily governs mechanical and thermal response, whereas nitrogen substitution predominantly controls electronic and optical properties. Perforation removes the atomic row carrying frontier states, opening the gap into the range measured by tunneling spectroscopy while substantially reducing stiffness and thermal conductivity. Substitution leaves the mechanical response essentially unchanged and contributes a secondary conductivity reduction through phonon spectrum reweighting. Its primary effect is electronic: it selectively narrows the conduction band, binds the lowest exciton by 414 meV, and displaces the absorption edge into the red. The effective phonon mean free path we obtain, 9.9 nm, matches the length to which the synthesis presently limits these ribbons, placing reported samples at the ballistic-to-diffusive crossover. Adsorption on Au(111), Ag(111), and Cu(111) is energetically nearly indistinguishable and remains van der Waals in character, accounting for the substrate tolerance observed experimentally. Finally, graphitic rather than pyrazinic nitrogen would make the ribbon metallic, except when two atoms occupy pore-rim sites, yielding a ferromagnetic semiconducting state having a magnetic moment of 2 mu_B per unit cell.",
+      "submitted": "2026-09-15T15:15:51Z",
+      "updated": "2026-09-15T15:15:51Z",
+      "categories": [
+        "cond-mat.mtrl-sci"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2609.17305v1",
+      "arxiv_url": "https://arxiv.org/abs/2609.17305",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [],
+      "material_families": [
+        "Other 2D / van der Waals materials"
+      ],
+      "exciton_properties": [],
+      "applications": [],
+      "methods": [],
+      "matched_keywords": [
+        "exciton"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [
+          "experimentally",
+          "we characterize"
+        ],
+        "computational_actions": [],
+        "experimental_methods": {},
+        "computational_methods": {},
+        "materials": {
+          "Other 2D / van der Waals materials": [
+            "van der waals"
+          ]
+        },
+        "properties": {},
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2609.17289",
+      "version": "v1",
+      "versioned_id": "2609.17289v1",
+      "title": "Self-balancing luminescence kinetics of charged excitons in WS$_2$ monolayer",
+      "authors": [
+        "A. I. Veretennikov",
+        "A. I. Galimov",
+        "M. M. Glazov",
+        "T. V. Shubina"
+      ],
+      "abstract": "Two-dimensional tungsten-based transition metal dichalcogenides exhibit a rich emission spectrum with distinct lines of exciton and biexciton states, neutral and charged, which are typically considered as independent entities. Here, we present a study of the emission kinetics of a WS$_2$ monolayer, demonstrating that these states together form a single interacting ensemble, with their population and depletion mutually coordinated with temperature. Dark trions make a long-lived contribution to the bright trion on a time scale of 200-300 picoseconds, and replenishment from dark states promotes intense luminescence of charged biexcitons. The developed self-consistent rate equation model reproduces the temperature dependence of the kinetics well, opening the way to controlling exciton states in such materials.",
+      "submitted": "2026-09-15T15:04:11Z",
+      "updated": "2026-09-15T15:04:11Z",
+      "categories": [
+        "cond-mat.mes-hall"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2609.17289v1",
+      "arxiv_url": "https://arxiv.org/abs/2609.17289",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [
+        "transition-metal dichalcogenides"
+      ],
+      "material_families": [
+        "TMDs / 2D chalcogenides",
+        "Other 2D / van der Waals materials"
+      ],
+      "exciton_properties": [
+        "Many-exciton interactions"
+      ],
+      "applications": [],
+      "methods": [],
+      "matched_keywords": [
+        "exciton"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [],
+        "experimental_methods": {},
+        "computational_methods": {},
+        "materials": {
+          "transition-metal dichalcogenides": [
+            "transition metal dichalcogenide"
+          ],
+          "TMDs / 2D chalcogenides": [
+            "transition metal dichalcogenide"
+          ],
+          "Other 2D / van der Waals materials": [
+            "monolayer"
+          ]
+        },
+        "properties": {
+          "Many-exciton interactions": [
+            "biexciton"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2609.15340",
+      "version": "v2",
+      "versioned_id": "2609.15340v2",
+      "title": "Optical properties of single-crystal As2Se3 from first principles",
+      "authors": [
+        "Juan J. Meléndez"
+      ],
+      "abstract": "Crystalline As2Se3 is a promising layered chalcogenide for mid-infrared photonics and optoelectronic applications, yet its fundamental electronic and optical properties remain debated. This paper combines density functional theory with G0W0 quasiparticle corrections and Bethe-Salpeter equation (BSE) calculations to deliver a robust description of its band structure and optical response. The G0W0 results reveal an indirect band gap of 2.31 eV with nearly degenerate direct transitions at Gamma, while the BSE spectra exhibit strong polarization-dependent anisotropy and pronounced excitonic effects. Several bound excitons are identified near the absorption onset, clarifying the role of electron-hole interactions and resolving previous controversies regarding the nature of the optical gap and the contribution of lone-pair states. This work provides a unified and quantitatively accurate picture of As2Se3, reinforcing its potential for next-generation infrared and anisotropic photonic devices.",
+      "submitted": "2026-09-14T10:27:31Z",
+      "updated": "2026-09-15T10:30:01Z",
+      "categories": [
+        "cond-mat.mtrl-sci"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2609.15340v2",
+      "arxiv_url": "https://arxiv.org/abs/2609.15340",
+      "study_type": "Computational",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [],
+      "material_families": [],
+      "exciton_properties": [],
+      "applications": [],
+      "methods": [
+        "DFT",
+        "GW",
+        "Bethe–Salpeter equation",
+        "Quasiparticle / optical gaps"
+      ],
+      "matched_keywords": [
+        "bethe-salpeter",
+        "density functional theory",
+        "exciton",
+        "excitonic",
+        "first principles",
+        "g0w0",
+        "optical gap"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [],
+        "experimental_methods": {},
+        "computational_methods": {
+          "DFT": [
+            "density functional theory",
+            "first principles"
+          ],
+          "GW": [
+            "g0w0"
+          ],
+          "Bethe–Salpeter equation": [
+            "bethe-salpeter"
+          ],
+          "Quasiparticle / optical gaps": [
+            "optical gap"
+          ]
+        },
+        "materials": {},
+        "properties": {},
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": true
+      },
+      "versions_seen": [
+        "v1",
+        "v2"
+      ]
+    },
+    {
+      "arxiv_id": "2609.16577",
+      "version": "v1",
+      "versioned_id": "2609.16577v1",
+      "title": "Nonlinear Photocurrent Spectroscopy and Polarization-Tunable Shift Current in the Layered Semiconductor $\\mathrm{CuScP_2S_6}$",
+      "authors": [
+        "Alexander M. Blackston",
+        "Md Kazi Rokunuzzaman",
+        "Ryan P. Siebenaller",
+        "Shashu Tomar",
+        "Enam Chowdhury",
+        "Michael A. Susner",
+        "Roberto C. Myers"
+      ],
+      "abstract": "The class of layered metal thiophosphates and selenophosphates are emerging as promising candidates for non-linear photonic and optoelectronic applications. Here we report one-photon absorption (1PA) and two-photon absorption (2PA) induced photocurrents in $CuScP_2S_6$, establishing it as an optoelectronically-active non-centrosymmetric semiconductor. Spectrally-resolved 1PA and 2PA photoresponsivity paired with photoluminescence and differential reflectance measurements reveal a band gap of 2.35 eV, several higher energy interband transitions, and sub-band gap multiphoton excitonic transitions. Vertical graphite/$CuScP_2S_6$/graphite devices exhibit zero-bias photocurrent with a polarity controlled by both photon energy and optical polarization orientation within the ab-plane. This sign-dependence combined with a characteristic power-law transition from linear to square-root scaling are consistent with a shift-current origin to this bulk photovoltaic effect (BPVE). These findings establish $CuScP_2S_6$ as a multi-functional platform for polarization-sensitive non-linear optoelectronics.",
+      "submitted": "2026-09-15T03:20:00Z",
+      "updated": "2026-09-15T03:20:00Z",
+      "categories": [
+        "cond-mat.mtrl-sci"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2609.16577v1",
+      "arxiv_url": "https://arxiv.org/abs/2609.16577",
+      "study_type": "Experimental",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [],
+      "material_families": [],
+      "exciton_properties": [],
+      "applications": [
+        "Photovoltaics"
+      ],
+      "methods": [
+        "Photoluminescence",
+        "Absorption / reflectance",
+        "Photoemission / photocurrent"
+      ],
+      "matched_keywords": [
+        "exciton",
+        "excitonic",
+        "photocurrent spectroscopy",
+        "photoluminescence",
+        "reflectance"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [
+          "we report",
+          "measurements reveal"
+        ],
+        "computational_actions": [],
+        "experimental_methods": {
+          "Photoluminescence": [
+            "photoluminescence"
+          ],
+          "Absorption / reflectance": [
+            "reflectance"
+          ],
+          "Photoemission / photocurrent": [
+            "photocurrent spectroscopy"
+          ]
+        },
+        "computational_methods": {},
+        "materials": {},
+        "properties": {},
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": true,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
     {
       "arxiv_id": "2609.15674",
       "version": "v1",
@@ -61,77 +339,6 @@
       "evidence": {
         "experimental": true,
         "computational": false
-      },
-      "versions_seen": [
-        "v1"
-      ]
-    },
-    {
-      "arxiv_id": "2609.15340",
-      "version": "v1",
-      "versioned_id": "2609.15340v1",
-      "title": "Optical properties of As2Se3 from first principles",
-      "authors": [
-        "Juan J. Meléndez"
-      ],
-      "abstract": "Crystalline As2Se3 is a promising layered chalcogenide for mid-infrared photonics and optoelectronic applications, yet its fundamental electronic and optical properties remain debated. This paper combines density functional theory with G0W0 quasiparticle corrections and Bethe-Salpeter equation (BSE) calculations to deliver a robust description of its band structure and optical response. The G0W0 results reveal an indirect band gap of 2.31 eV with nearly degenerate direct transitions at Gamma, while the BSE spectra exhibit strong polarization-dependent anisotropy and pronounced excitonic effects. Several bound excitons are identified near the absorption onset, clarifying the role of electron-hole interactions and resolving previous controversies regarding the nature of the optical gap and the contribution of lone-pair states. This work provides a unified and quantitatively accurate picture of As2Se3, reinforcing its potential for next-generation infrared and anisotropic photonic devices.",
-      "submitted": "2026-09-14T10:27:31Z",
-      "updated": "2026-09-14T10:27:31Z",
-      "categories": [
-        "cond-mat.mtrl-sci"
-      ],
-      "pdf_url": "https://arxiv.org/pdf/2609.15340v1",
-      "arxiv_url": "https://arxiv.org/abs/2609.15340",
-      "study_type": "Computational",
-      "relevance": "Core exciton paper",
-      "paper_nature": "Original research",
-      "materials": [],
-      "material_families": [],
-      "exciton_properties": [],
-      "applications": [],
-      "methods": [
-        "DFT",
-        "GW",
-        "Bethe–Salpeter equation",
-        "Quasiparticle / optical gaps"
-      ],
-      "matched_keywords": [
-        "bethe-salpeter",
-        "density functional theory",
-        "exciton",
-        "excitonic",
-        "first principles",
-        "g0w0",
-        "optical gap"
-      ],
-      "classification_evidence": {
-        "experimental_actions": [],
-        "computational_actions": [],
-        "experimental_methods": {},
-        "computational_methods": {
-          "DFT": [
-            "density functional theory",
-            "first principles"
-          ],
-          "GW": [
-            "g0w0"
-          ],
-          "Bethe–Salpeter equation": [
-            "bethe-salpeter"
-          ],
-          "Quasiparticle / optical gaps": [
-            "optical gap"
-          ]
-        },
-        "materials": {},
-        "properties": {},
-        "relevance": [
-          "exciton/excitonic stated in title or abstract"
-        ]
-      },
-      "evidence": {
-        "experimental": false,
-        "computational": true
       },
       "versions_seen": [
         "v1"
@@ -20164,11 +20371,20 @@
       "new": 5,
       "updated": 0,
       "total": 264
+    },
+    {
+      "scanned_at": "2026-09-16T08:48:43.212695+00:00",
+      "since": "2026-09-02",
+      "fetched": 33,
+      "classified": 33,
+      "new": 3,
+      "updated": 1,
+      "total": 267
     }
   ],
   "counts": {
-    "total": 264,
-    "new_this_scan": 5,
-    "updated_this_scan": 0
+    "total": 267,
+    "new_this_scan": 3,
+    "updated_this_scan": 1
   }
 }
