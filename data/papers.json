@@ -1,7 +1,314 @@
 {
   "schema_version": 2,
-  "last_scan": "2026-09-28T21:25:12.997563+00:00",
+  "last_scan": "2026-09-29T10:05:37.023159+00:00",
   "papers": [
+    {
+      "arxiv_id": "2609.34536",
+      "version": "v1",
+      "versioned_id": "2609.34536v1",
+      "title": "Magneto-optical Kerr spectroscopy of exciton Rydberg states in a magnetic van der Waals heterostructure",
+      "authors": [
+        "Astha Khandelwal",
+        "Benran Zhang",
+        "Madhusmita Jena",
+        "Zhenchao Wen",
+        "Kenji Watanabe",
+        "Takashi Taniguchi",
+        "Saroj P. Dash",
+        "Zhenglu Li",
+        "Ryo Kitaura",
+        "Bhagwati Prasad",
+        "Daichi Kozawa"
+      ],
+      "abstract": "Excitonic states in two-dimensional semiconductors are sensitive to time-reversal symmetry breaking, yet how interfacial exchange acts on higher-lying exciton Rydberg states remains largely unexplored. Here we show that wavelength-resolved magneto-optical Kerr spectroscopy of a proximity-coupled MoSe$_2$/Fe$_3$GaTe$_2$ van der Waals heterostructure resolves magnetic symmetry breaking across the A- and B-exciton manifolds. Combining reflection, photoluminescence, and photoluminescence excitation spectroscopy with first-principles many-body calculations including screening by the metallic Fe$_3$GaTe$_2$ layer, we assign the strongly enhanced Kerr resonances to the ground and 2s states of both manifolds. Reversing the magnetic field inverts the polarity of every resonance. A field-odd/field-even decomposition confirms a magnetic origin. The opposite Kerr polarities of the A- and B-exciton manifolds can be explained by proximity-induced exchange coupling to the opposite valence-band spins of the two exciton series. Our results establish resonant Kerr spectroscopy as a sensitive probe of magnetically induced symmetry breaking across the excitonic manifold.",
+      "submitted": "2026-09-28T08:03:02Z",
+      "updated": "2026-09-28T08:03:02Z",
+      "categories": [
+        "cond-mat.mtrl-sci"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2609.34536v1",
+      "arxiv_url": "https://arxiv.org/abs/2609.34536",
+      "study_type": "Computational",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [
+        "2D materials"
+      ],
+      "material_families": [
+        "Other 2D / van der Waals materials"
+      ],
+      "exciton_properties": [],
+      "applications": [],
+      "methods": [
+        "Photoluminescence",
+        "Magneto-optical measurements",
+        "DFT"
+      ],
+      "matched_keywords": [
+        "exciton",
+        "excitonic",
+        "first-principles",
+        "magneto-optical",
+        "photoluminescence"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [],
+        "experimental_methods": {
+          "Photoluminescence": [
+            "photoluminescence"
+          ],
+          "Magneto-optical measurements": [
+            "magneto-optical"
+          ]
+        },
+        "computational_methods": {
+          "DFT": [
+            "first-principles"
+          ]
+        },
+        "materials": {
+          "2D materials": [
+            "van der waals heterostructure"
+          ],
+          "Other 2D / van der Waals materials": [
+            "van der waals"
+          ]
+        },
+        "properties": {},
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": true
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2609.34104",
+      "version": "v1",
+      "versioned_id": "2609.34104v1",
+      "title": "(Sub)nanoscale Visualization of Reconstruction-Driven Moiré Exciton Localization and Delocalization",
+      "authors": [
+        "Medha Dandu",
+        "Sriram Sankar",
+        "Giovanny Espitia",
+        "Rwik Dutta",
+        "Patrick J. Hays",
+        "Daria Blach",
+        "Takashi Taniguchi",
+        "Kenji Watanabe",
+        "James R. Chelikowsky",
+        "Seth Ariel Tongay",
+        "Peter Ercius",
+        "Jordan A. Hachtel",
+        "Mit H. Naik",
+        "Archana Raja",
+        "Sandhya Susarla"
+      ],
+      "abstract": "Spectral fingerprints in optical absorption and emission have typically been used as a signature of exciton localization in twisted moiré bilayers. However, the mechanism by which excitons become confined to specific stacking sites and their associated optical signature is experimentally unresolved. Here, we directly visualize in real space how tuning the change in extent of structural reconstruction leads to localization and delocalization of moiré excitons in the WSe2/WS2 moiré superlattice. Using cryogenic monochromated electron energy loss spectroscopy, together with first-principles GW-Bethe Salpeter equation calculations and optical spectroscopy, we uncover the physical mechanism that drives the correlation between twist-angle-dependent structural transformations, the real-space localization of moiré excitons, and their optical signatures. Surprisingly, and in contrast to the prevailing understanding, we show that the emergence of new moiré exciton resonances in the optical spectra alone is insufficient to establish exciton localization. Instead, the extent of structural reconstruction and external strain drives exciton localization, leading to new design principles for engineering moiré excitons and strain-aware quantum optoelectronic devices.",
+      "submitted": "2026-09-28T01:43:35Z",
+      "updated": "2026-09-28T01:43:35Z",
+      "categories": [
+        "cond-mat.mes-hall"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2609.34104v1",
+      "arxiv_url": "https://arxiv.org/abs/2609.34104",
+      "study_type": "Computational",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [
+        "WS2",
+        "WSe2"
+      ],
+      "material_families": [
+        "TMDs / 2D chalcogenides"
+      ],
+      "exciton_properties": [],
+      "applications": [],
+      "methods": [
+        "DFT"
+      ],
+      "matched_keywords": [
+        "exciton",
+        "first-principles"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [
+          "experimentally"
+        ],
+        "computational_actions": [
+          "using"
+        ],
+        "experimental_methods": {},
+        "computational_methods": {
+          "DFT": [
+            "first-principles"
+          ]
+        },
+        "materials": {
+          "WS2": [
+            "ws2"
+          ],
+          "WSe2": [
+            "wse2"
+          ],
+          "TMDs / 2D chalcogenides": [
+            "ws2",
+            "wse2"
+          ]
+        },
+        "properties": {},
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": true
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2609.32909",
+      "version": "v1",
+      "versioned_id": "2609.32909v1",
+      "title": "Parity-selected Bethe-Salpeter equation: symmetry-adapted regularization of the exciton-phonon self-energy in polar semiconductors",
+      "authors": [
+        "Michael O. Atambo"
+      ],
+      "abstract": "Finite-temperature Bethe-Salpeter calculations of exciton-phonon self-energies in polar materials are bottlenecked by the Fröhlich divergence of the intra-1s scattering vertex. We show that for a bound electron-hole pair this divergence is analytically eliminated by electron-hole interference: the intra-1s vertex admits the exact factorization $V_{\\mathrm{el}}(q)=q\\,\\mathcal G(q)$ with $\\mathcal G(0)\\propto(m_h-m_e)/(m_h+m_e)$, vanishing identically for equal masses (parity protection). A multipole interference factor $\\mathcal I_n=β_e^{\\,n}-(-β_h)^{n}$ determines where the singularity survives-only in dipole-allowed inter-state channels. We formulate a parity-selected truncation of the exciton-phonon self-energy in which the intra-1s channel is evaluated exactly at negligible cost, converging with $10^2$-$10^3$ fewer $q$-points. We find that the regularized intra-1s channel, previously obscured by numerical cutoffs, controls the temperature-dependent exciton shift in mass-asymmetric polar semiconductors.",
+      "submitted": "2026-09-26T20:00:44Z",
+      "updated": "2026-09-26T20:00:44Z",
+      "categories": [
+        "cond-mat.mtrl-sci"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2609.32909v1",
+      "arxiv_url": "https://arxiv.org/abs/2609.32909",
+      "study_type": "Computational",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [],
+      "material_families": [],
+      "exciton_properties": [
+        "Exciton-phonon coupling"
+      ],
+      "applications": [],
+      "methods": [
+        "Bethe–Salpeter equation"
+      ],
+      "matched_keywords": [
+        "bethe-salpeter",
+        "exciton"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [],
+        "experimental_methods": {},
+        "computational_methods": {
+          "Bethe–Salpeter equation": [
+            "bethe-salpeter"
+          ]
+        },
+        "materials": {},
+        "properties": {
+          "Exciton-phonon coupling": [
+            "exciton-phonon"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": true
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2609.32392",
+      "version": "v1",
+      "versioned_id": "2609.32392v1",
+      "title": "Electrically switchable one-dimensional quadrupolar excitons in lateral double heterojunctions",
+      "authors": [
+        "Ryo Kitaura"
+      ],
+      "abstract": "Two neighboring lateral interfaces provide a spatial degree of freedom for controlling one-dimensional charge-transfer excitons within a single semiconductor monolayer. We investigate a type-II WS2-MoS2-WS2 double heterojunction using an effective-mass two-particle Hamiltonian with a screened Coulomb interaction. For equivalent left and right interfaces at zero electric field,inter-interface coupling produces energetically split even- and odd-parity exciton states, each with zero permanent dipole. An electric field perpendicular to the interfaces continuously converts the lower state from a quadrupolar superposition with a quadratic Stark shift into a predominantly single-interface dipolar exciton with an approximately linear shift. The spatially resolved calculation gives binding energies of approximately 104 and 100 meV, a doublet splitting of 4.6 meV, and a crossover field of 0.87 V/um for a representative 1.5-nm MoS2 strip. Projection tests show that the lowest doublet controls the response near this crossover. Strip width tunes the coupling much more strongly than the binding energy, providing geometric control of the low-field Stark sensitivity. These results establish a continuum-model route to electrically reconfigurable one-dimensional quadrupolar excitons.",
+      "submitted": "2026-09-26T09:12:00Z",
+      "updated": "2026-09-26T09:12:00Z",
+      "categories": [
+        "cond-mat.mes-hall",
+        "cond-mat.mtrl-sci"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2609.32392v1",
+      "arxiv_url": "https://arxiv.org/abs/2609.32392",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [
+        "MoS2",
+        "WS2"
+      ],
+      "material_families": [
+        "TMDs / 2D chalcogenides",
+        "Other 2D / van der Waals materials"
+      ],
+      "exciton_properties": [
+        "Binding energy"
+      ],
+      "applications": [],
+      "methods": [],
+      "matched_keywords": [
+        "exciton"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [
+          "using"
+        ],
+        "experimental_methods": {},
+        "computational_methods": {},
+        "materials": {
+          "MoS2": [
+            "mos2"
+          ],
+          "WS2": [
+            "ws2"
+          ],
+          "TMDs / 2D chalcogenides": [
+            "mos2",
+            "ws2"
+          ],
+          "Other 2D / van der Waals materials": [
+            "monolayer"
+          ]
+        },
+        "properties": {
+          "Binding energy": [
+            "binding energies"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
     {
       "arxiv_id": "2609.31500",
       "version": "v1",
@@ -22097,11 +22404,20 @@
       "new": 24,
       "updated": 0,
       "total": 291
+    },
+    {
+      "scanned_at": "2026-09-29T10:05:37.023159+00:00",
+      "since": "2026-09-15",
+      "fetched": 31,
+      "classified": 31,
+      "new": 4,
+      "updated": 0,
+      "total": 295
     }
   ],
   "counts": {
-    "total": 291,
-    "new_this_scan": 24,
+    "total": 295,
+    "new_this_scan": 4,
     "updated_this_scan": 0
   }
 }
