@@ -1,7 +1,645 @@
 {
   "schema_version": 2,
-  "last_scan": "2026-09-29T10:05:37.023159+00:00",
+  "last_scan": "2026-09-30T09:58:03.492704+00:00",
   "papers": [
+    {
+      "arxiv_id": "2609.38045",
+      "version": "v1",
+      "versioned_id": "2609.38045v1",
+      "title": "Interlayer Fermi Polarons in Bilayer MoTe$_2$",
+      "authors": [
+        "Ruihao Ni",
+        "Eugen Dizer",
+        "Maximilian Wolf",
+        "Son T. Le",
+        "Sharadh Jois",
+        "Jeffrey J. Schwartz",
+        "Liuxin Gu",
+        "Rundong Ma",
+        "Suji Park",
+        "Beini Gao",
+        "Lifu Zhang",
+        "Houk Jang",
+        "Takashi Taniguchi",
+        "Kenji Watanabe",
+        "Aubrey T. Hanbicki",
+        "Adam L. Friedman",
+        "Richard Schmidt",
+        "You Zhou"
+      ],
+      "abstract": "Atomic bilayers of transition metal dichalcogenides (TMDs) host quantum phases governed by the layer degree of freedom, including bilayer Wigner crystals, fractional Chern insulators, and exciton condensates. These phases are probed primarily through exciton spectroscopy, yet it remains poorly understood how excitons and carriers interact to form Fermi polarons in bilayers, where both the impurity and the Fermi sea carry a layer pseudospin. Progress has been limited because most TMD bilayers have momentum-indirect optical bandgaps, in which non-radiative decay and inhomogeneous broadening obscure the intrinsic spectra. Here, we show that bilayer MoTe$_2$, unlike most TMD bilayers, retains a direct optical bandgap, providing a clean platform for studying bilayer Fermi-polaron physics. In a dual-gated device, an out-of-plane electric field continuously tunes the hybridization between intralayer and interlayer excitons, forming layer-coherent excitons. Upon electrostatic doping, the excitonic spectrum evolves into multiple polaron branches, controlled by both carrier doping and the out-of-plane electric field. Among these, we identify a polaron with no analog in monolayers, in which a layer-coherent exciton is dressed by carriers in the opposite layer, and is quantitatively captured by our field-theoretic model. Our results establish that pseudospin structure in both the impurity and the bath reshapes polaron formation, opening new avenues to many-body states such as Bose-Einstein condensates with interlayer coherence.",
+      "submitted": "2026-09-29T17:18:27Z",
+      "updated": "2026-09-29T17:18:27Z",
+      "categories": [
+        "cond-mat.mes-hall",
+        "cond-mat.quant-gas",
+        "cond-mat.str-el"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2609.38045v1",
+      "arxiv_url": "https://arxiv.org/abs/2609.38045",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [
+        "transition-metal dichalcogenides"
+      ],
+      "material_families": [
+        "TMDs / 2D chalcogenides",
+        "Other 2D / van der Waals materials"
+      ],
+      "exciton_properties": [
+        "Linewidth / dephasing",
+        "Coherence"
+      ],
+      "applications": [],
+      "methods": [],
+      "matched_keywords": [
+        "exciton",
+        "excitonic"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [],
+        "experimental_methods": {},
+        "computational_methods": {},
+        "materials": {
+          "transition-metal dichalcogenides": [
+            "transition metal dichalcogenide",
+            "tmds"
+          ],
+          "TMDs / 2D chalcogenides": [
+            "transition metal dichalcogenide",
+            "tmds"
+          ],
+          "Other 2D / van der Waals materials": [
+            "monolayer"
+          ]
+        },
+        "properties": {
+          "Linewidth / dephasing": [
+            "homogeneous broadening"
+          ],
+          "Coherence": [
+            "coherent exciton"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2609.38033",
+      "version": "v1",
+      "versioned_id": "2609.38033v1",
+      "title": "Interlayer dark excitons in a van der Waals heterostructure",
+      "authors": [
+        "Rundong Ma",
+        "Konstantin Davydov",
+        "Liuxin Gu",
+        "Lifu Zhang",
+        "Hassan Alnatah",
+        "Beini Gao",
+        "Ruihao Ni",
+        "Suji Park",
+        "Houk Jang",
+        "Takashi Taniguchi",
+        "Kenji Watanabe",
+        "You Zhou"
+      ],
+      "abstract": "Interlayer excitons in transition metal dichalcogenide (TMD) heterostructures exhibit long lifetimes and long-range transport, making them promising for excitonic devices and quantum many-body phases, such as Bose-Einstein condensates. Achieving these goals requires a precise understanding of spin-allowed bright and nominally spin-forbidden dark excitons, because the lowest-energy exciton species governs population, transport, and condensation. Despite substantial progress, unambiguously distinguishing singlet and triplet interlayer excitons has been challenging, as moiré excitons in these heterostructures can mimic their optical signatures. Here, we report the direct spectroscopic identification of bright (singlet) and dark (triplet) interlayer excitons in high-quality, dual-gated WSe$_2$/hBN/WSe$_2$ homobilayers. Electric-field-dependent photoluminescence and reflectance reveal two momentum-direct interlayer transitions with distinct spin configurations. The interlayer dark excitons obey selection rules that differ from those of bright excitons. Strikingly, interlayer dark excitons retain strong valley polarization, even with their ultralong lifetime exceeding microseconds. Finally, we demonstrate twist-angle control, wherein twist-induced electron-hole momentum mismatch modulates interlayer exciton emission. These results provide critical insights into the electronic and excitonic structure of TMD heterostructures, opening new avenues for excitonic many-body physics and optoelectronic devices.",
+      "submitted": "2026-09-29T17:10:05Z",
+      "updated": "2026-09-29T17:10:05Z",
+      "categories": [
+        "cond-mat.mes-hall",
+        "cond-mat.mtrl-sci",
+        "physics.optics"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2609.38033v1",
+      "arxiv_url": "https://arxiv.org/abs/2609.38033",
+      "study_type": "Experimental",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [
+        "hBN",
+        "transition-metal dichalcogenides",
+        "2D materials"
+      ],
+      "material_families": [
+        "TMDs / 2D chalcogenides",
+        "Other 2D / van der Waals materials"
+      ],
+      "exciton_properties": [
+        "Fine structure / bright-dark splitting",
+        "Valley / spin physics"
+      ],
+      "applications": [],
+      "methods": [
+        "Photoluminescence",
+        "Absorption / reflectance"
+      ],
+      "matched_keywords": [
+        "exciton",
+        "excitonic",
+        "photoluminescence",
+        "reflectance"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [
+          "we report"
+        ],
+        "computational_actions": [],
+        "experimental_methods": {
+          "Photoluminescence": [
+            "photoluminescence"
+          ],
+          "Absorption / reflectance": [
+            "reflectance"
+          ]
+        },
+        "computational_methods": {},
+        "materials": {
+          "hBN": [
+            "hbn"
+          ],
+          "transition-metal dichalcogenides": [
+            "transition metal dichalcogenide"
+          ],
+          "2D materials": [
+            "van der waals heterostructure"
+          ],
+          "TMDs / 2D chalcogenides": [
+            "transition metal dichalcogenide"
+          ],
+          "Other 2D / van der Waals materials": [
+            "van der waals",
+            "hbn"
+          ]
+        },
+        "properties": {
+          "Fine structure / bright-dark splitting": [
+            "dark exciton",
+            "bright exciton"
+          ],
+          "Valley / spin physics": [
+            "valley polarization"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": true,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2609.37547",
+      "version": "v1",
+      "versioned_id": "2609.37547v1",
+      "title": "Screening of Coulomb Interactions in MoS2 Nanoribbons: Enhanced Coulomb interactions, Antiscreening, and Edge Magnetism",
+      "authors": [
+        "A. Montaghemi",
+        "H. Hadipour",
+        "A. Khademi",
+        "A. Yazdani"
+      ],
+      "abstract": "MoS2 has attracted significant attention for its promising applications in optoelectronics, owing to the remarkable stability of its excitons and trions. These quasiparticles have large binding energies that arise from the MoS2 moderate band gap and the unconventional screening of Coulomb interactions in low dimensions. Here, we investigate the screening of long-range Coulomb interactions in the 1H and 1T' phases of MoS2 across different dimensionalities, with particular emphasis on nanoribbons. Our analysis is based on first-principles calculations combined with the constrained random-phase approximation. This work presents a comparative study of MoS2, h-BN, black phosphorene, and graphene nanoribbons, with emphasis on the role of Coulomb interactions in shaping their electronic and magnetic properties. In one-dimensional nanoribbons, quantum confinement leads to a substantial enhancement of Coulomb interactions relative to 2D MoS2. Calculations show that the Hubbard U increases from 2.6 eV in the 2D system to nearly 3.5 eV in the semiconducting nanoribbons. In these systems, the Coulomb interaction is long-ranged, with its tail extending over more than 100 A, nearly twice of that in the 2D structure. The presence of asymmetric edge states involving d and p orbitals in non-hydrogen-passivated zigzag MoS2 nanoribbons, in contrast to phosphorene, h-BN, and graphene nanoribbons, results in a finite net magnetization.",
+      "submitted": "2026-09-29T13:24:48Z",
+      "updated": "2026-09-29T13:24:48Z",
+      "categories": [
+        "cond-mat.mtrl-sci"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2609.37547v1",
+      "arxiv_url": "https://arxiv.org/abs/2609.37547",
+      "study_type": "Computational",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [
+        "MoS2",
+        "black phosphorus"
+      ],
+      "material_families": [
+        "TMDs / 2D chalcogenides",
+        "Other 2D / van der Waals materials"
+      ],
+      "exciton_properties": [
+        "Binding energy"
+      ],
+      "applications": [],
+      "methods": [
+        "DFT"
+      ],
+      "matched_keywords": [
+        "exciton",
+        "first-principles"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [
+          "calculations show",
+          "first-principles calculations"
+        ],
+        "experimental_methods": {},
+        "computational_methods": {
+          "DFT": [
+            "first-principles"
+          ]
+        },
+        "materials": {
+          "MoS2": [
+            "mos2"
+          ],
+          "black phosphorus": [
+            "phosphorene"
+          ],
+          "TMDs / 2D chalcogenides": [
+            "mos2"
+          ],
+          "Other 2D / van der Waals materials": [
+            "phosphorene"
+          ]
+        },
+        "properties": {
+          "Binding energy": [
+            "binding energies"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": true
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2609.32392",
+      "version": "v2",
+      "versioned_id": "2609.32392v2",
+      "title": "Electrically switchable one-dimensional quadrupolar excitons in lateral double heterojunctions",
+      "authors": [
+        "Ryo Kitaura"
+      ],
+      "abstract": "Two neighboring lateral interfaces provide a spatial degree of freedom for controlling one-dimensional charge-transfer excitons within a single semiconductor monolayer. We investigate a type-II WS2-MoS2-WS2 double heterojunction using an effective-mass two-particle Hamiltonian with a screened Coulomb interaction. For equivalent left and right interfaces at zero electric field,inter-interface coupling produces energetically split even- and odd-parity exciton states, each with zero permanent dipole. An electric field perpendicular to the interfaces continuously converts the lower state from a quadrupolar superposition with a quadratic Stark shift into a predominantly single-interface dipolar exciton with an approximately linear shift. The spatially resolved calculation gives binding energies of approximately 104 and 100 meV, a doublet splitting of 4.6 meV, and a crossover field of 0.87 V/um for a representative 1.5-nm MoS2 strip. Projection tests show that the lowest doublet controls the response near this crossover. Strip width tunes the coupling much more strongly than the binding energy, providing geometric control of the low-field Stark sensitivity. These results establish a continuum-model route to electrically reconfigurable one-dimensional quadrupolar excitons.",
+      "submitted": "2026-09-26T09:12:00Z",
+      "updated": "2026-09-29T03:54:37Z",
+      "categories": [
+        "cond-mat.mes-hall",
+        "cond-mat.mtrl-sci"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2609.32392v2",
+      "arxiv_url": "https://arxiv.org/abs/2609.32392",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [
+        "MoS2",
+        "WS2"
+      ],
+      "material_families": [
+        "TMDs / 2D chalcogenides",
+        "Other 2D / van der Waals materials"
+      ],
+      "exciton_properties": [
+        "Binding energy"
+      ],
+      "applications": [],
+      "methods": [],
+      "matched_keywords": [
+        "exciton"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [
+          "using"
+        ],
+        "experimental_methods": {},
+        "computational_methods": {},
+        "materials": {
+          "MoS2": [
+            "mos2"
+          ],
+          "WS2": [
+            "ws2"
+          ],
+          "TMDs / 2D chalcogenides": [
+            "mos2",
+            "ws2"
+          ],
+          "Other 2D / van der Waals materials": [
+            "monolayer"
+          ]
+        },
+        "properties": {
+          "Binding energy": [
+            "binding energies"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1",
+        "v2"
+      ]
+    },
+    {
+      "arxiv_id": "2609.36248",
+      "version": "v1",
+      "versioned_id": "2609.36248v1",
+      "title": "Topology Obstructs Nodeless Excitons",
+      "authors": [
+        "Lumen Eek"
+      ],
+      "abstract": "Lowest-energy excitons are usually expected to have nodeless $1s$-like envelope wavefunctions. We show that band topology can obstruct this expectation. The exciton envelope wavefunction is a section of the valence-conduction transition bundle, whose topology can enforce momentum-space zeros, with their parity or signed total index fixed by the corresponding characteristic class. We exemplify this behavior in a minimal $PT$-symmetric three-band model with a rank-two transition bundle characterized by Euler number $ν^e=2$. By directly solving the Bethe-Salpeter equation with both contact and Rytova-Keldysh interactions, we find that the lowest exciton contains two zeros, each with index $+1$, and is less strongly bound than its topologically trivial counterpart. We further classify topology-enforced exciton nodal structures for real and complex transition bundles in dimensions $d \\leq 3$. Our results establish the topology of the transition bundle as a direct constraint on exciton wavefunctions and spectra.",
+      "submitted": "2026-09-28T20:41:49Z",
+      "updated": "2026-09-28T20:41:49Z",
+      "categories": [
+        "cond-mat.mes-hall"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2609.36248v1",
+      "arxiv_url": "https://arxiv.org/abs/2609.36248",
+      "study_type": "Computational",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [],
+      "material_families": [],
+      "exciton_properties": [],
+      "applications": [],
+      "methods": [
+        "Bethe–Salpeter equation"
+      ],
+      "matched_keywords": [
+        "bethe-salpeter",
+        "exciton"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [],
+        "experimental_methods": {},
+        "computational_methods": {
+          "Bethe–Salpeter equation": [
+            "bethe-salpeter"
+          ]
+        },
+        "materials": {},
+        "properties": {},
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": true
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2609.36244",
+      "version": "v1",
+      "versioned_id": "2609.36244v1",
+      "title": "Minor Structural Differences Tune Functional Specialization of Antenna Subunits in the PSII Energy Transfer Network",
+      "authors": [
+        "Johanna L. Hall",
+        "Erin NewRingeisen",
+        "Trisha Bhagde",
+        "Arnold M. Chan",
+        "Krishna K. Niyogi",
+        "Masakazu Iwai",
+        "Graham R. Fleming"
+      ],
+      "abstract": "Photosystem II (PSII) contains a diverse array of pigment-protein subunits with specialized roles in the antenna network. We investigate the functional significance of this subunit diversity in two structurally similar yet functionally distinct PSII subunits: minor light-harvesting complex CP29 and major light-harvesting complex LHCII. We combine two-dimensional electronic-vibrational spectroscopy with lifetime density analysis and structure-based kinetic modeling to assign spectral features to exciton states, providing molecular detail to probed spectral features. We show how the distinct pigment compositions of CP29 and Lhcb1, a monomeric subunit of the major LHCII trimer, reshape excitonic connectivity and energy transfer pathways in the complexes. Compared to Lhcb1, energy transfer pathways in CP29 are more spatially connected and reversible, suggesting CP29 evolved to distribute excitation between the core and periphery of the PSII antenna. We find that small structural modifications from a common framework tune CP29 and Lhcb1 to complementary roles in the PSII supercomplex.",
+      "submitted": "2026-09-28T20:37:31Z",
+      "updated": "2026-09-28T20:37:31Z",
+      "categories": [
+        "physics.chem-ph"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2609.36244v1",
+      "arxiv_url": "https://arxiv.org/abs/2609.36244",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [],
+      "material_families": [
+        "Biological / light-harvesting systems"
+      ],
+      "exciton_properties": [
+        "Transport / diffusion"
+      ],
+      "applications": [
+        "Photosynthesis"
+      ],
+      "methods": [],
+      "matched_keywords": [
+        "exciton",
+        "excitonic"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [],
+        "experimental_methods": {},
+        "computational_methods": {},
+        "materials": {
+          "Biological / light-harvesting systems": [
+            "light-harvesting complex"
+          ]
+        },
+        "properties": {
+          "Transport / diffusion": [
+            "energy transfer"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2609.36128",
+      "version": "v1",
+      "versioned_id": "2609.36128v1",
+      "title": "Altermagnetism produces pair emission and absorption from dark excitons and magnons in La$_2$O$_3$Mn$_2$Se$_2$",
+      "authors": [
+        "Birender Singh",
+        "Xian Xu",
+        "Sabrina R. Hatt",
+        "Suvodeep Paul",
+        "Yu-Mi Wu",
+        "Chao-Chun Wei",
+        "Violet Williams",
+        "Kyung-Mo Kim",
+        "Yihao Zhang",
+        "Mohamed Shehabeldin",
+        "Cameron Grant",
+        "April Li",
+        "Michael Geiwitz",
+        "Xiaoyin Li",
+        "Garrett E. Granroth",
+        "Feng Liu",
+        "Qiong Ma",
+        "Benedetta Flebus",
+        "Judy J. Cha",
+        "Vinod M. Menon",
+        "Benjamin A. Frandsen",
+        "Diana Y. Qiu",
+        "Huiwen Ji",
+        "Kenneth S. Burch"
+      ],
+      "abstract": "Altermagnets' (AMs) non-relativistic spin splitting enables novel states, spintronic and magneto-optical devices, though their optical signatures remain elusive. Here, we report exciton-magnon emission and absorption: optical sidebands from a spin-forbidden dark exciton, a direct consequence of altermagnetic symmetry. Combined optical spectroscopy and first-principles calculations reveal that La$_2$O$_3$Mn$_2$Se$_2$ is an altermagnetic insulator, hosting a strongly bound, spin-forbidden dark exciton and a higher-energy bright exciton. Photoluminescence (PL) and absorption reveal mirror-image sidebands, Stokes-shifted in emission and anti-Stokes-shifted in absorption, symmetric about the dark exciton, whose energy shifts and spectral shapes match the magnon energy scale and density of states measured independently by inelastic neutron scattering. The PL intensity tracks the full equal-time spin-spin correlator, combining static and dynamical contributions, and rules out alternative processes. This directly couples PL to magnetism, with potential for magneto-optical devices. These results establish exciton-magnon spectroscopy as a new route for optically identifying and exploiting AMs.",
+      "submitted": "2026-09-28T19:00:26Z",
+      "updated": "2026-09-28T19:00:26Z",
+      "categories": [
+        "cond-mat.mtrl-sci"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2609.36128v1",
+      "arxiv_url": "https://arxiv.org/abs/2609.36128",
+      "study_type": "Theory + Experiment",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [],
+      "material_families": [],
+      "exciton_properties": [
+        "Fine structure / bright-dark splitting"
+      ],
+      "applications": [],
+      "methods": [
+        "Photoluminescence",
+        "Magneto-optical measurements",
+        "DFT"
+      ],
+      "matched_keywords": [
+        "exciton",
+        "first-principles",
+        "magneto-optical",
+        "photoluminescence"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [
+          "we report"
+        ],
+        "computational_actions": [
+          "first-principles calculations"
+        ],
+        "experimental_methods": {
+          "Photoluminescence": [
+            "photoluminescence"
+          ],
+          "Magneto-optical measurements": [
+            "magneto-optical"
+          ]
+        },
+        "computational_methods": {
+          "DFT": [
+            "first-principles"
+          ]
+        },
+        "materials": {},
+        "properties": {
+          "Fine structure / bright-dark splitting": [
+            "dark exciton",
+            "bright exciton"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": true,
+        "computational": true
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2609.36027",
+      "version": "v1",
+      "versioned_id": "2609.36027v1",
+      "title": "Spectroscopy of phonon-coupled integer and fractional Chern insulators: emergence of polarons and chirality deficit of graviton mode",
+      "authors": [
+        "Min Long",
+        "Yuzhu Wang",
+        "Zi Yang Meng"
+      ],
+      "abstract": "Strong electron-phonon coupling can destabilize both Chern insulators (CIs) and fractional Chern insulators (FCIs) in favor of charge order, but whether the instabilities in CI and FCI share a common microscopic mechanism remains unclear. In this paper, we address this question by studying a flat-band Haldane model coupled to dynamical Holstein phonons at integer and fractional fillings using density-matrix renormalization group with local basis optimization. We find that the low-energy effects of phonons are dominated by their dressing of charge-neutral collective modes. In the CI and FCI, phonons dress excitons and magnetorotons into composite modes that we identify as exciton polarons and magnetoroton polarons, respectively. These modes soften strongly upon approaching the transition, while the momenta of their energy minima anticipate the ordering wave vectors of the charge-ordered phases. The phonon spectrum, in turn, acquires dispersive features inherited from the exciton and magnetoroton modes, providing direct lattice signatures of these neutral excitations. Within the FCI phase, electron-phonon coupling also enhances the opposite-chirality spectral weight of the graviton response, thereby resulting in a chirality deficit. Our results provide a unified excitation-based picture of phonon-driven instabilities in CIs and FCIs and establish lattice dynamics as a probe of their neutral collective modes.",
+      "submitted": "2026-09-28T18:02:01Z",
+      "updated": "2026-09-28T18:02:01Z",
+      "categories": [
+        "cond-mat.str-el",
+        "cond-mat.mes-hall",
+        "cond-mat.mtrl-sci"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2609.36027v1",
+      "arxiv_url": "https://arxiv.org/abs/2609.36027",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [],
+      "material_families": [],
+      "exciton_properties": [
+        "Exciton-phonon coupling"
+      ],
+      "applications": [],
+      "methods": [],
+      "matched_keywords": [
+        "exciton"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [
+          "using"
+        ],
+        "experimental_methods": {},
+        "computational_methods": {},
+        "materials": {},
+        "properties": {
+          "Exciton-phonon coupling": [
+            "electron-phonon coupling"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
     {
       "arxiv_id": "2609.34536",
       "version": "v1",
@@ -229,81 +867,6 @@
       "evidence": {
         "experimental": false,
         "computational": true
-      },
-      "versions_seen": [
-        "v1"
-      ]
-    },
-    {
-      "arxiv_id": "2609.32392",
-      "version": "v1",
-      "versioned_id": "2609.32392v1",
-      "title": "Electrically switchable one-dimensional quadrupolar excitons in lateral double heterojunctions",
-      "authors": [
-        "Ryo Kitaura"
-      ],
-      "abstract": "Two neighboring lateral interfaces provide a spatial degree of freedom for controlling one-dimensional charge-transfer excitons within a single semiconductor monolayer. We investigate a type-II WS2-MoS2-WS2 double heterojunction using an effective-mass two-particle Hamiltonian with a screened Coulomb interaction. For equivalent left and right interfaces at zero electric field,inter-interface coupling produces energetically split even- and odd-parity exciton states, each with zero permanent dipole. An electric field perpendicular to the interfaces continuously converts the lower state from a quadrupolar superposition with a quadratic Stark shift into a predominantly single-interface dipolar exciton with an approximately linear shift. The spatially resolved calculation gives binding energies of approximately 104 and 100 meV, a doublet splitting of 4.6 meV, and a crossover field of 0.87 V/um for a representative 1.5-nm MoS2 strip. Projection tests show that the lowest doublet controls the response near this crossover. Strip width tunes the coupling much more strongly than the binding energy, providing geometric control of the low-field Stark sensitivity. These results establish a continuum-model route to electrically reconfigurable one-dimensional quadrupolar excitons.",
-      "submitted": "2026-09-26T09:12:00Z",
-      "updated": "2026-09-26T09:12:00Z",
-      "categories": [
-        "cond-mat.mes-hall",
-        "cond-mat.mtrl-sci"
-      ],
-      "pdf_url": "https://arxiv.org/pdf/2609.32392v1",
-      "arxiv_url": "https://arxiv.org/abs/2609.32392",
-      "study_type": "Unclassified",
-      "relevance": "Core exciton paper",
-      "paper_nature": "Original research",
-      "materials": [
-        "MoS2",
-        "WS2"
-      ],
-      "material_families": [
-        "TMDs / 2D chalcogenides",
-        "Other 2D / van der Waals materials"
-      ],
-      "exciton_properties": [
-        "Binding energy"
-      ],
-      "applications": [],
-      "methods": [],
-      "matched_keywords": [
-        "exciton"
-      ],
-      "classification_evidence": {
-        "experimental_actions": [],
-        "computational_actions": [
-          "using"
-        ],
-        "experimental_methods": {},
-        "computational_methods": {},
-        "materials": {
-          "MoS2": [
-            "mos2"
-          ],
-          "WS2": [
-            "ws2"
-          ],
-          "TMDs / 2D chalcogenides": [
-            "mos2",
-            "ws2"
-          ],
-          "Other 2D / van der Waals materials": [
-            "monolayer"
-          ]
-        },
-        "properties": {
-          "Binding energy": [
-            "binding energies"
-          ]
-        },
-        "relevance": [
-          "exciton/excitonic stated in title or abstract"
-        ]
-      },
-      "evidence": {
-        "experimental": false,
-        "computational": false
       },
       "versions_seen": [
         "v1"
@@ -22413,11 +22976,20 @@
       "new": 4,
       "updated": 0,
       "total": 295
+    },
+    {
+      "scanned_at": "2026-09-30T09:58:03.492704+00:00",
+      "since": "2026-09-16",
+      "fetched": 34,
+      "classified": 34,
+      "new": 7,
+      "updated": 1,
+      "total": 302
     }
   ],
   "counts": {
-    "total": 295,
-    "new_this_scan": 4,
-    "updated_this_scan": 0
+    "total": 302,
+    "new_this_scan": 7,
+    "updated_this_scan": 1
   }
 }
