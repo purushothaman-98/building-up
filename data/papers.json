@@ -1,7 +1,344 @@
 {
   "schema_version": 2,
-  "last_scan": "2026-09-30T09:58:03.492704+00:00",
+  "last_scan": "2026-10-01T10:24:58.535905+00:00",
   "papers": [
+    {
+      "arxiv_id": "2609.38843",
+      "version": "v1",
+      "versioned_id": "2609.38843v1",
+      "title": "Defect Dynamics and Isomer Quenching in $^{229}$Th:CaF$_2$ Crystals",
+      "authors": [
+        "Ming Guan",
+        "Michael Bartokos",
+        "Kjeld Beeks",
+        "Takahiro Hiraki",
+        "Shinji Kitao",
+        "Takahiko Masuda",
+        "Nobumoto Nagasawa",
+        "Koichi Okai",
+        "Ryoichiro Ogake",
+        "Martin Pimon",
+        "Noboru Sasao",
+        "Fabian Schaden",
+        "Thorsten Schumm",
+        "Makoto Seto",
+        "Kenji Tamasaku",
+        "Sayuri Takatori",
+        "Yoshitaka Yoda",
+        "Akihiro Yoshimi",
+        "Koji Yoshimura"
+      ],
+      "abstract": "Thorium-229 doped calcium fluoride ($^{229}$Th:CaF$_2$) is a leading candidate for a solid-state nuclear clock, owing to the unusually low energy of the $^{229}$Th isomer transition at 8.3557\\,eV and the very high banggap of CaF$_2$ around 12\\,eV. Here we report a temperature-dependent study of $^{229}$Th:CaF$_2$ luminescence, covering radioluminescence, photoluminescence, thermoluminescence, and afterglow. Using synchrotron x-ray excitation together with a cryo-vacuum system, we resolve the thermal quenching of the self-trapped exciton (STE) scintillation into its triplet and singlet components, identify eleven thermoluminescence glow peaks together with their associated emission bands, and separate the temperature-dependent components that make up the long-lived afterglow. The trap depths obtained in this way are closely correlated with the temperature dependence of x-ray-induced isomer quenching, including the enhanced isomer yield near \\SI{-60}{\\celsius} and the minimum near \\SI{-80}{\\celsius}, supporting the carrier-trapping picture in which trapped carriers are unavailable to quench the nucleus. Taken together, these results connect the optical and nuclear observables of $^{229}$Th:CaF$_2$ through a unified picture of electron defects and Th-related traps, while providing a comprehensive characterization of the material relevant to solid-state nuclear clock operation.",
+      "submitted": "2026-09-30T03:05:35Z",
+      "updated": "2026-09-30T03:05:35Z",
+      "categories": [
+        "cond-mat.mtrl-sci"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2609.38843v1",
+      "arxiv_url": "https://arxiv.org/abs/2609.38843",
+      "study_type": "Experimental",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [],
+      "material_families": [],
+      "exciton_properties": [
+        "Defects / trapping"
+      ],
+      "applications": [],
+      "methods": [
+        "Photoluminescence"
+      ],
+      "matched_keywords": [
+        "exciton",
+        "photoluminescence"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [
+          "we report"
+        ],
+        "computational_actions": [
+          "using"
+        ],
+        "experimental_methods": {
+          "Photoluminescence": [
+            "photoluminescence"
+          ]
+        },
+        "computational_methods": {},
+        "materials": {},
+        "properties": {
+          "Defects / trapping": [
+            "self-trapped exciton"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": true,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2609.38825",
+      "version": "v1",
+      "versioned_id": "2609.38825v1",
+      "title": "Optical observation of interlayer spin correlation",
+      "authors": [
+        "Akiyoshi Park",
+        "Pranshoo Upadhyay",
+        "Andrey Grankin",
+        "Emil Viñas Boström",
+        "Mahdi Ghafariasl",
+        "Hassan Alnatah",
+        "Masoud Mohammadi-Arzanagh",
+        "Gautam Nambiar",
+        "Beini Gao",
+        "Alireza Alvandi",
+        "Sakthi Rajmano Madhan Kumar",
+        "Ghadah Alshalan",
+        "Isaac Sherwood",
+        "Mahmoud Jalali Mehrabad",
+        "You Zhou",
+        "Arun Ramanathan",
+        "Xavier Roy",
+        "Angel Rubio",
+        "Mohammad Hafezi"
+      ],
+      "abstract": "Spin correlations govern numerous collective behaviors of quantum materials, underpinning exotic phenomena such as unconventional superconductivity and topological magnetism. In layered materials, the interlayer spin correlation is important because it characterizes the magnetic ground state and determines spin transport across the interface. Yet interlayer spin correlations have remained hard to measure directly, leaving one of the most basic quantities of two-dimensional magnetism out of experimental reach. Here we provide the first direct optical probe of interlayer spin correlations, using two-magnon Raman scattering in the van der Waals antiferromagnet (AFM) CrSBr, in remarkable agreement with a microscopic spin-wave model without any fitting parameter. Moreover, the two-magnon channel switches on only in the AFM state and vanishes when a magnetic field takes the crystal to a ferromagnetic state. We furthermore establish an exciton-mediated variant of the technique, where tuning the laser near the exciton resonance enhances the signal roughly tenfold due to the exciton's large oscillator strength. Magnon-pair Raman spectroscopy thus opens a direct optical window into interlayer spin correlations in van der Waals magnets, extendable to twisted bilayers and proximity-coupled heterostructures.",
+      "submitted": "2026-09-30T02:47:20Z",
+      "updated": "2026-09-30T02:47:20Z",
+      "categories": [
+        "cond-mat.mes-hall",
+        "cond-mat.mtrl-sci",
+        "cond-mat.str-el",
+        "physics.optics"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2609.38825v1",
+      "arxiv_url": "https://arxiv.org/abs/2609.38825",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [],
+      "material_families": [
+        "Other 2D / van der Waals materials"
+      ],
+      "exciton_properties": [
+        "Oscillator strength / optical activity"
+      ],
+      "applications": [],
+      "methods": [
+        "Raman spectroscopy",
+        "Oscillator strength"
+      ],
+      "matched_keywords": [
+        "exciton",
+        "oscillator strength",
+        "raman scattering",
+        "raman spectroscopy"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [
+          "using"
+        ],
+        "experimental_methods": {
+          "Raman spectroscopy": [
+            "raman spectroscopy",
+            "raman scattering"
+          ]
+        },
+        "computational_methods": {
+          "Oscillator strength": [
+            "oscillator strength"
+          ]
+        },
+        "materials": {
+          "Other 2D / van der Waals materials": [
+            "van der waals"
+          ]
+        },
+        "properties": {
+          "Oscillator strength / optical activity": [
+            "oscillator strength"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2609.38756",
+      "version": "v1",
+      "versioned_id": "2609.38756v1",
+      "title": "Polymorph-Tunable Spin Texture and Excitonic Structures in Monolayer WSi2P4",
+      "authors": [
+        "Xianbo Chenwei",
+        "Yu Zhou",
+        "Ke Wu",
+        "Gaofeng Xu",
+        "Ruixue Li",
+        "Yuan Li",
+        "Yabei Wu",
+        "Shaowen Xu",
+        "Fanhao Jia"
+      ],
+      "abstract": "Two-dimensional semiconductors that simultaneously possess a direct band gap and strong spin-orbit coupling (SOC) are highly attractive for quantum optoelectronics. Using first-principles GW plus Bethe-Salpeter equation (GW-BSE) calculations, we show that monolayer WSi2P4-an experimentally accessible member of the MSi2X4 family-hosts a direct K-valley gap together with strong SOC. Its three competing polymorphs (alpha, beta and gamma) are all direct-gap semiconductors and are kinetically locked behind 1.3 eV migration barriers. The sigma_h mirror plane of the D3h of alpha and gamma phases enforces a persistent spin texture across the Brillouin zone, weakly modulated near gamma by interband SOC mixing, whereas the polar beta phase (C3v) exhibits Rashba spin splitting. SOC splits the doubly-degenerate lowest bright exciton into dark states and splits the original absorption peak into two peaks (A and B), whose relative brightness is governed by the K-valley conduction-band splitting. alpha-WSi2P4 displays the brightest Peak A because a tiny band crossing of opposite-spin branches can open a spin-allowed radiative channel. These results establish the MSi2P4 family as a phase-tunable platform for the cooperative engineering of spin texture, band splitting, and excitonic brightness within a single material system.",
+      "submitted": "2026-09-30T01:42:23Z",
+      "updated": "2026-09-30T01:42:23Z",
+      "categories": [
+        "cond-mat.mtrl-sci"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2609.38756v1",
+      "arxiv_url": "https://arxiv.org/abs/2609.38756",
+      "study_type": "Computational",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [],
+      "material_families": [
+        "Other 2D / van der Waals materials"
+      ],
+      "exciton_properties": [
+        "Fine structure / bright-dark splitting"
+      ],
+      "applications": [],
+      "methods": [
+        "DFT",
+        "GW",
+        "Bethe–Salpeter equation"
+      ],
+      "matched_keywords": [
+        "bethe-salpeter",
+        "exciton",
+        "excitonic",
+        "first-principles",
+        "gw-bse"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [
+          "experimentally"
+        ],
+        "computational_actions": [
+          "using"
+        ],
+        "experimental_methods": {},
+        "computational_methods": {
+          "DFT": [
+            "first-principles"
+          ],
+          "GW": [
+            "gw-bse"
+          ],
+          "Bethe–Salpeter equation": [
+            "bethe-salpeter"
+          ]
+        },
+        "materials": {
+          "Other 2D / van der Waals materials": [
+            "monolayer"
+          ]
+        },
+        "properties": {
+          "Fine structure / bright-dark splitting": [
+            "bright exciton"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": true
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2609.38750",
+      "version": "v1",
+      "versioned_id": "2609.38750v1",
+      "title": "A Visual Understanding of Circular Dichroism Spectroscopy: The Case of Interacting Chromophores",
+      "authors": [
+        "Braden M. Weight",
+        "Aaron Forde",
+        "Sergei Tretiak"
+      ],
+      "abstract": "Exciton coupling shapes the photophysical and chiroptical properties of molecular aggregates, but a microscopic, real-space understanding of how intermolecular interactions generate circular dichroism (CD) remains incomplete. Here, we computationally investigate the microscopic origins of CD in coupled molecular dimers to separate intermolecular (topological) from intramolecular (intrinsic) chirality. A combination of time-dependent density functional theory and transition chiral tensor (TCT) analysis provides a quantitative, visually intuitive framework showing how electronic coupling strength, intermolecular separation, and relative angular orientation govern chiroptical response. We find that pairs of individually achiral chromophores exhibit robust, topological chiroptical signals which give rise to the conventional Cotton effect, a standard interpretation of derivative features in circular dichroism spectra. We next establish that intrinsically chiral chromophores, on the other hand, disrupt the Cotton effect due to the competition between intrinsic chirality and topological chirality. This work establishes a foundation for interpreting exciton-coupled CD spectra in molecular aggregates, supramolecular assemblies, and nanostructures using the TCT approach, which offers an attractive tool for analyzing chiroptical responses in complex multi-chromophore systems relevant to emerging quantum technologies.",
+      "submitted": "2026-09-30T01:33:58Z",
+      "updated": "2026-09-30T01:33:58Z",
+      "categories": [
+        "physics.chem-ph"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2609.38750v1",
+      "arxiv_url": "https://arxiv.org/abs/2609.38750",
+      "study_type": "Computational",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [],
+      "material_families": [
+        "Organic / molecular materials",
+        "Biological / light-harvesting systems"
+      ],
+      "exciton_properties": [],
+      "applications": [],
+      "methods": [
+        "DFT",
+        "TDDFT"
+      ],
+      "matched_keywords": [
+        "density functional theory",
+        "exciton",
+        "time-dependent density functional theory"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [
+          "using"
+        ],
+        "experimental_methods": {},
+        "computational_methods": {
+          "DFT": [
+            "density functional theory"
+          ],
+          "TDDFT": [
+            "time-dependent density functional theory"
+          ]
+        },
+        "materials": {
+          "Organic / molecular materials": [
+            "molecular aggregate"
+          ],
+          "Biological / light-harvesting systems": [
+            "chromophore"
+          ]
+        },
+        "properties": {},
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": true
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
     {
       "arxiv_id": "2609.38045",
       "version": "v1",
@@ -276,6 +613,69 @@
             "binding energies"
           ]
         },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": true
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2609.38247",
+      "version": "v1",
+      "versioned_id": "2609.38247v1",
+      "title": "Accidental accuracy and formal consistency in $GW$+BSE: Exact benchmarks and regime-dependent error cancellation",
+      "authors": [
+        "Michael O. Atambo"
+      ],
+      "abstract": "Standard many-body perturbation theory for optical excitations combines the $GW$ approximation for quasiparticle energies with the Bethe-Salpeter equation (BSE) for the electron-hole response. Formally, the BSE kernel must equal the functional derivative of the self-energy, $K=δΣ/δG$. In routine practice, however, the kernel is built from a statically screened direct interaction and a bare exchange interaction, which breaks this consistency. Using exact diagonalization of the extended Hubbard dimer, we construct a controlled benchmark that isolates the price of this inconsistency. We show that the internally inconsistent practical $GW$+BSE construction frequently yields accurate optical gaps through accidental cancellation between an underestimated $GW$ gap and an oversized bare-exchange kernel, and we map the regions of parameter space where this accidental accuracy occurs. Upon switching on the nearest-neighbor interaction and binding the exciton, the practical construction remains the accurate one throughout the weak-binding regime, with cancellation optima at parts in $10^{3}$, while the frozen-$W$ construction fails at every binding strength. Beyond a binding threshold both static constructions deteriorate, showing that deeply bound excitons require physics beyond any static kernel. Accidental accuracy is therefore a property of the weak-binding regime, and the systematic failure of the frozen-$W$ derivative kernel within the explored parameter space traces to its overscreening of the exchange channel. The accuracy of the practical kernel is an accidental cancellation of two independent errors, an underestimated quasiparticle gap and an oversized exchange term, not a hidden consistency. These results provide a controlled taxonomy of approximation failure in $GW$+BSE and a precise diagnostic for when standard workflows can be trusted.",
+      "submitted": "2026-09-29T07:08:32Z",
+      "updated": "2026-09-29T07:08:32Z",
+      "categories": [
+        "cond-mat.mtrl-sci",
+        "cond-mat.str-el"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2609.38247v1",
+      "arxiv_url": "https://arxiv.org/abs/2609.38247",
+      "study_type": "Computational",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Methods / software",
+      "materials": [],
+      "material_families": [],
+      "exciton_properties": [],
+      "applications": [],
+      "methods": [
+        "Bethe–Salpeter equation",
+        "Quasiparticle / optical gaps"
+      ],
+      "matched_keywords": [
+        "bethe-salpeter",
+        "exciton",
+        "optical gap",
+        "quasiparticle gap"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [
+          "using"
+        ],
+        "experimental_methods": {},
+        "computational_methods": {
+          "Bethe–Salpeter equation": [
+            "bethe-salpeter"
+          ],
+          "Quasiparticle / optical gaps": [
+            "quasiparticle gap",
+            "optical gap"
+          ]
+        },
+        "materials": {},
+        "properties": {},
         "relevance": [
           "exciton/excitonic stated in title or abstract"
         ]
@@ -22985,11 +23385,20 @@
       "new": 7,
       "updated": 1,
       "total": 302
+    },
+    {
+      "scanned_at": "2026-10-01T10:24:58.535905+00:00",
+      "since": "2026-09-17",
+      "fetched": 37,
+      "classified": 37,
+      "new": 5,
+      "updated": 0,
+      "total": 307
     }
   ],
   "counts": {
-    "total": 302,
-    "new_this_scan": 7,
-    "updated_this_scan": 1
+    "total": 307,
+    "new_this_scan": 5,
+    "updated_this_scan": 0
   }
 }
