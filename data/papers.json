@@ -1,7 +1,366 @@
 {
   "schema_version": 2,
-  "last_scan": "2026-10-01T10:24:58.535905+00:00",
+  "last_scan": "2026-10-02T15:57:20.068551+00:00",
   "papers": [
+    {
+      "arxiv_id": "2610.02080",
+      "version": "v1",
+      "versioned_id": "2610.02080v1",
+      "title": "Thin-capping layer epitaxial quantum dots for near-field quantum photonics",
+      "authors": [
+        "Yuting Guo",
+        "Jonathan Bar-David",
+        "Pasquale Cilibrizzi",
+        "Sung-Yul L. Park",
+        "Jin Dong Song",
+        "Luca Sapienza"
+      ],
+      "abstract": "Epitaxial quantum dots (QDs) are widely recognised as one of the best quantum light sources, given their good stability, brightness, quantum efficiency and coherence. To reach such properties, QDs are protected from potentially detrimental surface states by a relatively thick capping layer, typically exceeding 50nm. This prevents the implementation of near-field effects, like plasmonic-based ones, that can dramatically increase the light-matter interaction, since the control of the spontaneous emission dynamics and directionality of the emission can only occur if the emitter is in close proximity (typically tens of nanometers or less) from the metallic structures. In this work, we report the growth and optical characterisation of InAs/GaAs QDs with GaAs capping layer thickness of 10nm, 20nm, and a more standard 95nm. Remarkably, we observe emission linewidths up to 5 times smaller than previously reported, with unperturbed excitonic lifetimes. These results demonstrate that the epitaxial QD's high optical quality can be maintained even when the emitters are at reduced distances from the surface, opening the path for the exploration of near-field light-matter interactions with coherent and stable emitters, suitable for quantum technology applications.",
+      "submitted": "2026-10-01T17:16:43Z",
+      "updated": "2026-10-01T17:16:43Z",
+      "categories": [
+        "physics.optics",
+        "cond-mat.mes-hall",
+        "cond-mat.mtrl-sci",
+        "physics.app-ph",
+        "quant-ph"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2610.02080v1",
+      "arxiv_url": "https://arxiv.org/abs/2610.02080",
+      "study_type": "Experimental",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [
+        "quantum dots"
+      ],
+      "material_families": [
+        "Quantum-confined structures"
+      ],
+      "exciton_properties": [
+        "Lifetime / relaxation",
+        "Linewidth / dephasing"
+      ],
+      "applications": [],
+      "methods": [
+        "Linewidth / fine structure"
+      ],
+      "matched_keywords": [
+        "exciton",
+        "excitonic",
+        "linewidth"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [
+          "we observe",
+          "we report"
+        ],
+        "computational_actions": [],
+        "experimental_methods": {
+          "Linewidth / fine structure": [
+            "linewidth"
+          ]
+        },
+        "computational_methods": {},
+        "materials": {
+          "quantum dots": [
+            "quantum dot"
+          ],
+          "Quantum-confined structures": [
+            "quantum dot"
+          ]
+        },
+        "properties": {
+          "Lifetime / relaxation": [
+            "excitonic lifetime"
+          ],
+          "Linewidth / dephasing": [
+            "linewidth"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": true,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2610.01600",
+      "version": "v1",
+      "versioned_id": "2610.01600v1",
+      "title": "Why polar excitons stay sharp: parity protection of the center-of-mass recoil channel in exciton-phonon scattering",
+      "authors": [
+        "Michael O. Atambo"
+      ],
+      "abstract": "In polar semiconductors the Fröhlich interaction is the dominant electron--phonon coupling, yet excitonic resonances in materials such as halide perovskites remain anomalously sharp. We show that standard frozen-center-of-mass treatments of the exciton--phonon problem miss the decisive kinematic degree of freedom: restoring the exact center-of-mass (COM) recoil reveals a universally open, parameter-free $1s\\to1s$ absorption channel at recoil momentum $q_*=\\sqrt{2M_{\\rm ex}\\hbarω_{\\rm LO}}/\\hbar$, whose rate scales as $N_{\\rm LO}(T)$. We prove that this recoil channel is controlled by destructive electron--hole interference: the recoil linewidth vanishes with the mass asymmetry as $γ_{\\rm LO}^{\\rm recoil}\\propto\\mathcal{F}_{1s,1s}(q_*)^2$, and the elastic dressing obeys the exact suppression law $S_X/S_{\\rm ind}=η^2(6-η^2)/5$ within the hydrogenic Fröhlich model. The theory establishes a hierarchy of scattering regimes. In mass-asymmetric materials (GaAs, $η=-0.74$) the recoil channel is active ($γ_{\\rm LO}^{\\rm recoil}=2.2$~meV); in mass-symmetric materials (FAPbI$_3$, $η=0$; MAPbI$_3$, $η=-0.11$) it is killed by interference (0.00 and 0.12 meV), showing that the observed 27--40 meV perovskite linewidths cannot be accounted for by COM recoil and therefore require internal-state-changing and other inelastic channels, of which the constructive, $η$-robust $1s\\to np$ resonance is the leading candidate within the present model. The Fröhlich constant $α$ alone is therefore insufficient as a figure of merit: after projection onto the correlated exciton, the controlling parameters are $η$, $q_*a_X$, and the Rydberg detuning.",
+      "submitted": "2026-10-01T12:46:46Z",
+      "updated": "2026-10-01T12:46:46Z",
+      "categories": [
+        "cond-mat.str-el",
+        "cond-mat.mtrl-sci"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2610.01600v1",
+      "arxiv_url": "https://arxiv.org/abs/2610.01600",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [
+        "perovskites"
+      ],
+      "material_families": [
+        "Perovskites / halide semiconductors"
+      ],
+      "exciton_properties": [
+        "Linewidth / dephasing",
+        "Exciton-phonon coupling"
+      ],
+      "applications": [],
+      "methods": [
+        "Linewidth / fine structure"
+      ],
+      "matched_keywords": [
+        "exciton",
+        "excitonic",
+        "linewidth"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [],
+        "experimental_methods": {
+          "Linewidth / fine structure": [
+            "linewidth"
+          ]
+        },
+        "computational_methods": {},
+        "materials": {
+          "perovskites": [
+            "perovskite"
+          ],
+          "Perovskites / halide semiconductors": [
+            "perovskite"
+          ]
+        },
+        "properties": {
+          "Linewidth / dephasing": [
+            "linewidth"
+          ],
+          "Exciton-phonon coupling": [
+            "exciton-phonon"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2610.01473",
+      "version": "v1",
+      "versioned_id": "2610.01473v1",
+      "title": "Engineering photonic crystal slab modes for strong exciton-photon coupling and polariton dispersion control",
+      "authors": [
+        "Natalia Salakhova",
+        "Andrey Demenev",
+        "Vladimir Kulakovskii",
+        "Nikolay Gippius"
+      ],
+      "abstract": "We numerically study exciton-photon coupling in a hybrid structure composed of a period-doubled Si3N4 photonic crystal slab and an hBN-encapsulated MoSe2 monolayer. Period doubling folds quasi-guided modes into the light cone and produces spectrally separated photonic branches whose radiative character is controlled by the symmetry of the doubled unit cell, resulting in one bright and one bound state in the continuum (BIC)-like mode at normal incidence. We then use the hBN thickness as an independent tuning parameter for the vertical field profile. Increasing the hBN thickness redistributes the resonant field toward the MoSe2 monolayer and enhances the Rabi splitting from about 3-4 meV to 8.5 meV, corresponding to an increase in the coupling strength from approximately 1.5-1.7 meV to 4.3-4.4 meV. Comparison between bright and BIC-like configurations shows that the quality factor primarily determines radiative visibility and linewidth, whereas the coupling strength is mainly governed by the field amplitude at the monolayer. We further show that the hBN layer controls the hybridization of folded TE-like modes at finite momentum, leading to an additional photonic gap whose size can be tuned by the hBN thickness and closes at an hBN thickness of approximately 113 nm. In the hybrid structure, we observe finite-momentum exciton-polariton states that, depending on the hBN thickness, form either through coupling to an isolated photonic branch or through coupling to two nearly degenerate photonic modes. These results identify period-doubled photonic crystal slabs as a flexible platform for controlling radiative coupling, exciton-photon overlap, and polariton dispersion in hybrid structures based on transition-metal dichalcogenide monolayers.",
+      "submitted": "2026-10-01T11:14:17Z",
+      "updated": "2026-10-01T11:14:17Z",
+      "categories": [
+        "physics.optics"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2610.01473v1",
+      "arxiv_url": "https://arxiv.org/abs/2610.01473",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [
+        "MoSe2",
+        "hBN",
+        "transition-metal dichalcogenides"
+      ],
+      "material_families": [
+        "TMDs / 2D chalcogenides",
+        "Other 2D / van der Waals materials"
+      ],
+      "exciton_properties": [
+        "Linewidth / dephasing",
+        "Light-matter strong coupling"
+      ],
+      "applications": [
+        "Exciton polaritons"
+      ],
+      "methods": [
+        "Linewidth / fine structure"
+      ],
+      "matched_keywords": [
+        "exciton",
+        "linewidth",
+        "polariton"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [
+          "we observe"
+        ],
+        "computational_actions": [],
+        "experimental_methods": {
+          "Linewidth / fine structure": [
+            "linewidth"
+          ]
+        },
+        "computational_methods": {},
+        "materials": {
+          "MoSe2": [
+            "mose2"
+          ],
+          "hBN": [
+            "hbn"
+          ],
+          "transition-metal dichalcogenides": [
+            "transition-metal dichalcogenide"
+          ],
+          "TMDs / 2D chalcogenides": [
+            "transition-metal dichalcogenide",
+            "mose2"
+          ],
+          "Other 2D / van der Waals materials": [
+            "monolayer",
+            "hbn"
+          ]
+        },
+        "properties": {
+          "Linewidth / dephasing": [
+            "linewidth"
+          ],
+          "Light-matter strong coupling": [
+            "exciton-polariton",
+            "rabi splitting"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2609.36128",
+      "version": "v2",
+      "versioned_id": "2609.36128v2",
+      "title": "Altermagnetism produces pair emission and absorption from dark excitons and magnons in La$_2$O$_3$Mn$_2$Se$_2$",
+      "authors": [
+        "Birender Singh",
+        "Xian Xu",
+        "Sabrina R. Hatt",
+        "Suvodeep Paul",
+        "Yu-Mi Wu",
+        "Chao-Chun Wei",
+        "Violet Williams",
+        "Kyung-Mo Kim",
+        "Yihao Zhang",
+        "Mohamed Shehabeldin",
+        "Cameron Grant",
+        "April Li",
+        "Michael Geiwitz",
+        "Xiaoyin Li",
+        "Garrett E. Granroth",
+        "Feng Liu",
+        "Qiong Ma",
+        "Benedetta Flebus",
+        "Judy J. Cha",
+        "Vinod M. Menon",
+        "Benjamin A. Frandsen",
+        "Diana Y. Qiu",
+        "Huiwen Ji",
+        "Kenneth S. Burch"
+      ],
+      "abstract": "Altermagnets' (AMs) non-relativistic spin splitting enables novel states, spintronic and magneto-optical devices, though their optical signatures remain elusive. Here, we report exciton-magnon emission and absorption: optical sidebands from a spin-forbidden dark exciton, a direct consequence of altermagnetic symmetry. Combined optical spectroscopy and first-principles calculations reveal that La$_2$O$_3$Mn$_2$Se$_2$ is an altermagnetic insulator, hosting a strongly bound, spin-forbidden dark exciton and a higher-energy bright exciton. Photoluminescence (PL) and absorption reveal mirror-image sidebands, Stokes-shifted in emission and anti-Stokes-shifted in absorption, symmetric about the dark exciton, whose energy shifts and spectral shapes match the magnon energy scale and density of states measured independently by inelastic neutron scattering. The PL intensity tracks the full equal-time spin-spin correlator, combining static and dynamical contributions, and rules out alternative processes. This directly couples PL to magnetism, with potential for magneto-optical devices. These results establish exciton-magnon spectroscopy as a new route for optically identifying and exploiting AMs.",
+      "submitted": "2026-09-28T19:00:26Z",
+      "updated": "2026-09-30T23:17:37Z",
+      "categories": [
+        "cond-mat.mtrl-sci"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2609.36128v2",
+      "arxiv_url": "https://arxiv.org/abs/2609.36128",
+      "study_type": "Theory + Experiment",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [],
+      "material_families": [],
+      "exciton_properties": [
+        "Fine structure / bright-dark splitting"
+      ],
+      "applications": [],
+      "methods": [
+        "Photoluminescence",
+        "Magneto-optical measurements",
+        "DFT"
+      ],
+      "matched_keywords": [
+        "exciton",
+        "first-principles",
+        "magneto-optical",
+        "photoluminescence"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [
+          "we report"
+        ],
+        "computational_actions": [
+          "first-principles calculations"
+        ],
+        "experimental_methods": {
+          "Photoluminescence": [
+            "photoluminescence"
+          ],
+          "Magneto-optical measurements": [
+            "magneto-optical"
+          ]
+        },
+        "computational_methods": {
+          "DFT": [
+            "first-principles"
+          ]
+        },
+        "materials": {},
+        "properties": {
+          "Fine structure / bright-dark splitting": [
+            "dark exciton",
+            "bright exciton"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": true,
+        "computational": true
+      },
+      "versions_seen": [
+        "v1",
+        "v2"
+      ]
+    },
     {
       "arxiv_id": "2609.38843",
       "version": "v1",
@@ -879,104 +1238,6 @@
       "evidence": {
         "experimental": false,
         "computational": false
-      },
-      "versions_seen": [
-        "v1"
-      ]
-    },
-    {
-      "arxiv_id": "2609.36128",
-      "version": "v1",
-      "versioned_id": "2609.36128v1",
-      "title": "Altermagnetism produces pair emission and absorption from dark excitons and magnons in La$_2$O$_3$Mn$_2$Se$_2$",
-      "authors": [
-        "Birender Singh",
-        "Xian Xu",
-        "Sabrina R. Hatt",
-        "Suvodeep Paul",
-        "Yu-Mi Wu",
-        "Chao-Chun Wei",
-        "Violet Williams",
-        "Kyung-Mo Kim",
-        "Yihao Zhang",
-        "Mohamed Shehabeldin",
-        "Cameron Grant",
-        "April Li",
-        "Michael Geiwitz",
-        "Xiaoyin Li",
-        "Garrett E. Granroth",
-        "Feng Liu",
-        "Qiong Ma",
-        "Benedetta Flebus",
-        "Judy J. Cha",
-        "Vinod M. Menon",
-        "Benjamin A. Frandsen",
-        "Diana Y. Qiu",
-        "Huiwen Ji",
-        "Kenneth S. Burch"
-      ],
-      "abstract": "Altermagnets' (AMs) non-relativistic spin splitting enables novel states, spintronic and magneto-optical devices, though their optical signatures remain elusive. Here, we report exciton-magnon emission and absorption: optical sidebands from a spin-forbidden dark exciton, a direct consequence of altermagnetic symmetry. Combined optical spectroscopy and first-principles calculations reveal that La$_2$O$_3$Mn$_2$Se$_2$ is an altermagnetic insulator, hosting a strongly bound, spin-forbidden dark exciton and a higher-energy bright exciton. Photoluminescence (PL) and absorption reveal mirror-image sidebands, Stokes-shifted in emission and anti-Stokes-shifted in absorption, symmetric about the dark exciton, whose energy shifts and spectral shapes match the magnon energy scale and density of states measured independently by inelastic neutron scattering. The PL intensity tracks the full equal-time spin-spin correlator, combining static and dynamical contributions, and rules out alternative processes. This directly couples PL to magnetism, with potential for magneto-optical devices. These results establish exciton-magnon spectroscopy as a new route for optically identifying and exploiting AMs.",
-      "submitted": "2026-09-28T19:00:26Z",
-      "updated": "2026-09-28T19:00:26Z",
-      "categories": [
-        "cond-mat.mtrl-sci"
-      ],
-      "pdf_url": "https://arxiv.org/pdf/2609.36128v1",
-      "arxiv_url": "https://arxiv.org/abs/2609.36128",
-      "study_type": "Theory + Experiment",
-      "relevance": "Core exciton paper",
-      "paper_nature": "Original research",
-      "materials": [],
-      "material_families": [],
-      "exciton_properties": [
-        "Fine structure / bright-dark splitting"
-      ],
-      "applications": [],
-      "methods": [
-        "Photoluminescence",
-        "Magneto-optical measurements",
-        "DFT"
-      ],
-      "matched_keywords": [
-        "exciton",
-        "first-principles",
-        "magneto-optical",
-        "photoluminescence"
-      ],
-      "classification_evidence": {
-        "experimental_actions": [
-          "we report"
-        ],
-        "computational_actions": [
-          "first-principles calculations"
-        ],
-        "experimental_methods": {
-          "Photoluminescence": [
-            "photoluminescence"
-          ],
-          "Magneto-optical measurements": [
-            "magneto-optical"
-          ]
-        },
-        "computational_methods": {
-          "DFT": [
-            "first-principles"
-          ]
-        },
-        "materials": {},
-        "properties": {
-          "Fine structure / bright-dark splitting": [
-            "dark exciton",
-            "bright exciton"
-          ]
-        },
-        "relevance": [
-          "exciton/excitonic stated in title or abstract"
-        ]
-      },
-      "evidence": {
-        "experimental": true,
-        "computational": true
       },
       "versions_seen": [
         "v1"
@@ -23394,11 +23655,20 @@
       "new": 5,
       "updated": 0,
       "total": 307
+    },
+    {
+      "scanned_at": "2026-10-02T15:57:20.068551+00:00",
+      "since": "2026-09-18",
+      "fetched": 39,
+      "classified": 39,
+      "new": 3,
+      "updated": 1,
+      "total": 310
     }
   ],
   "counts": {
-    "total": 307,
-    "new_this_scan": 5,
-    "updated_this_scan": 0
+    "total": 310,
+    "new_this_scan": 3,
+    "updated_this_scan": 1
   }
 }
