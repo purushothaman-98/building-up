@@ -1,7 +1,214 @@
 {
   "schema_version": 2,
-  "last_scan": "2026-10-05T10:48:07.670876+00:00",
+  "last_scan": "2026-10-06T10:43:31.642822+00:00",
   "papers": [
+    {
+      "arxiv_id": "2610.06311",
+      "version": "v1",
+      "versioned_id": "2610.06311v1",
+      "title": "Extraordinary Optical Spin Hall Effect in 2D Exciton Emission in Open Cavities",
+      "authors": [
+        "Kunal Banerjee",
+        "Ben Johns",
+        "Nitin Yadav",
+        "Anil Shaji",
+        "Jino George"
+      ],
+      "abstract": "Open cavities are emerging as a promising platform for studying light-matter interactions. A lossy open cavity couples to an atomic monolayer, resulting in parabolic dispersive emission at room temperature. Here, light-matter interaction is weak, and the dispersion arises from a phenomenon known as dark strong coupling. The bright 2D exciton rapidly decays through the cavity mode, leaving behind spin-dark excitons of the 2D lattice, thereby undergoing symmetry breaking. Further, mapping the polarisation dependence in the k-space reveals spin-orbit interaction in the coupled system. A synthetic spin-orbit Hamiltonian is constructed to extract the effective contributions of Rashba- and Dresselhaus-type interactions in the open cavity. The system shows a clear evolution of the spin-orbit effect at room temperature. Here, emission is polarisation-sensitive, yielding high degrees of linear and circular polarisation. This is one of the simplest configurations for studying photonic spin-orbit coupling, in which an atomic monolayer provides Rashba and Dresselhaus coupling constants of 24 eV Å, and ~10^5 eV Å^2, respectively. Therefore, an open cavity platform is promising for polarisation-sensitive measurements and device applications.",
+      "submitted": "2026-10-05T13:30:42Z",
+      "updated": "2026-10-05T13:30:42Z",
+      "categories": [
+        "physics.optics"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2610.06311v1",
+      "arxiv_url": "https://arxiv.org/abs/2610.06311",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [],
+      "material_families": [
+        "Other 2D / van der Waals materials"
+      ],
+      "exciton_properties": [
+        "Fine structure / bright-dark splitting"
+      ],
+      "applications": [
+        "Light–matter coupling"
+      ],
+      "methods": [],
+      "matched_keywords": [
+        "exciton"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [],
+        "experimental_methods": {},
+        "computational_methods": {},
+        "materials": {
+          "Other 2D / van der Waals materials": [
+            "monolayer"
+          ]
+        },
+        "properties": {
+          "Fine structure / bright-dark splitting": [
+            "dark exciton"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2610.06131",
+      "version": "v1",
+      "versioned_id": "2610.06131v1",
+      "title": "An \\textit{ab initio} based compact analytical formula for inelastic x-ray scattering from spatially localized excitons",
+      "authors": [
+        "Joris Sturm",
+        "Duc Anh Truong",
+        "Andrei Benediktovitch",
+        "Nina Rohringer",
+        "Andreas Knorr$^{1}$"
+      ],
+      "abstract": "In this contribution we provide a compact model for the description of inelastic x-ray scattering of spatially localized excitons. We combine our analytical theory with first principles calculations and apply it to the material lithium fluoride (LiF). A comparison of two different approaches for the underlying single-particle wave functions to calculate the spectrum yield a qualitatively good agreement with experimental data but also shows that a detailed description of the wave functions is essential to obtain qualitative results.",
+      "submitted": "2026-10-05T11:05:23Z",
+      "updated": "2026-10-05T11:05:23Z",
+      "categories": [
+        "cond-mat.mes-hall",
+        "quant-ph"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2610.06131v1",
+      "arxiv_url": "https://arxiv.org/abs/2610.06131",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [],
+      "material_families": [],
+      "exciton_properties": [],
+      "applications": [],
+      "methods": [
+        "DFT"
+      ],
+      "matched_keywords": [
+        "ab initio",
+        "exciton",
+        "first principles"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [],
+        "experimental_methods": {},
+        "computational_methods": {
+          "DFT": [
+            "first principles",
+            "ab initio"
+          ]
+        },
+        "materials": {},
+        "properties": {},
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2610.04111",
+      "version": "v1",
+      "versioned_id": "2610.04111v1",
+      "title": "Exchange-controlled quantum beats and entanglement in an exciton--bimodal-cavity system",
+      "authors": [
+        "Cesar E. P. Villegas",
+        "Victor P. Brasil",
+        "Pedro A. S. Contri",
+        "Kevin Lizárraga",
+        "Jonas Maziero"
+      ],
+      "abstract": "We theoretically demonstrate tunable population transfer and entanglement generation in a two-exciton system coupled to a bimodal optical cavity, including an exciton-exciton exchange interaction. By using dressed-state transformations and Löwdin partitioning, we derive effective Hamiltonians that identify three dynamical time scales: local polaritonic oscillations, long-period dressed-state beats, and direct excitonic exchange. We apply the framework to graphene nanoribbon excitons, using excitonic energies, transition dipoles, and lifetimes obtained from first-principles calculations to parameterize the model. In the small- and moderate-exchange regimes, the dynamics become multiscale, and the beat channel sustains sizable quantum entanglement over long dissipative time windows. In the large-exchange regime, the excitonic Hamiltonian dominates and drives nearly complete population transfer between excitonic states over many coherent cycles. The resulting analytical expressions provide direct design rules connecting the beat period, transfer amplitude, and coherent-cycle number to the exchange interaction, cavity detuning, and light--matter coupling. Our results establish a controllable route for engineering long-lived entanglement and coherent excitonic operations in exciton--bimodal-cavity systems.",
+      "submitted": "2026-10-02T22:31:26Z",
+      "updated": "2026-10-02T22:31:26Z",
+      "categories": [
+        "cond-mat.mes-hall"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2610.04111v1",
+      "arxiv_url": "https://arxiv.org/abs/2610.04111",
+      "study_type": "Computational",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [],
+      "material_families": [],
+      "exciton_properties": [
+        "Coherence",
+        "Oscillator strength / optical activity",
+        "Many-exciton interactions"
+      ],
+      "applications": [
+        "Light–matter coupling"
+      ],
+      "methods": [
+        "DFT",
+        "Oscillator strength"
+      ],
+      "matched_keywords": [
+        "exciton",
+        "excitonic",
+        "first-principles",
+        "polariton",
+        "transition dipole"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [
+          "using",
+          "first-principles calculations"
+        ],
+        "experimental_methods": {},
+        "computational_methods": {
+          "DFT": [
+            "first-principles"
+          ],
+          "Oscillator strength": [
+            "transition dipole"
+          ]
+        },
+        "materials": {},
+        "properties": {
+          "Coherence": [
+            "coherent exciton"
+          ],
+          "Oscillator strength / optical activity": [
+            "transition dipole"
+          ],
+          "Many-exciton interactions": [
+            "exciton-exciton"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": true
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
     {
       "arxiv_id": "2610.03532",
       "version": "v1",
@@ -23972,11 +24179,20 @@
       "new": 4,
       "updated": 0,
       "total": 314
+    },
+    {
+      "scanned_at": "2026-10-06T10:43:31.642822+00:00",
+      "since": "2026-09-22",
+      "fetched": 39,
+      "classified": 39,
+      "new": 3,
+      "updated": 0,
+      "total": 317
     }
   ],
   "counts": {
-    "total": 314,
-    "new_this_scan": 4,
+    "total": 317,
+    "new_this_scan": 3,
     "updated_this_scan": 0
   }
 }
