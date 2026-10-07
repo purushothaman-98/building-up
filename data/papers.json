@@ -1,7 +1,227 @@
 {
   "schema_version": 2,
-  "last_scan": "2026-10-06T10:43:31.642822+00:00",
+  "last_scan": "2026-10-07T10:31:55.790429+00:00",
   "papers": [
+    {
+      "arxiv_id": "2609.28185",
+      "version": "v2",
+      "versioned_id": "2609.28185v2",
+      "title": "From $\\langle n \\rangle$ to $n$: Separating multi-particle dynamics by intensity cycling",
+      "authors": [
+        "Pavel Malý",
+        "František Trojánek",
+        "Petr Malý",
+        "Jérémie Léonard"
+      ],
+      "abstract": "We address the interpretation of transient spectroscopy signals proportional to average excitation number in terms of discrete number of excitations. Building on our recent intensity cycling approach, we derive a general scheme to isolate multi-particle dynamics from any transient signal under minimal assumptions. The key result is a general formula expressing the extracted nonlinear signal terms by multi-excitation propagators. We demonstrate the approach on exciton transport and annihilation in organic nanoparticles, and carrier recombination in silicon nanocrystals.",
+      "submitted": "2026-09-23T14:28:18Z",
+      "updated": "2026-10-06T06:57:14Z",
+      "categories": [
+        "physics.chem-ph"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2609.28185v2",
+      "arxiv_url": "https://arxiv.org/abs/2609.28185",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [],
+      "material_families": [
+        "Quantum-confined structures"
+      ],
+      "exciton_properties": [
+        "Transport / diffusion"
+      ],
+      "applications": [],
+      "methods": [],
+      "matched_keywords": [
+        "exciton"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [],
+        "experimental_methods": {},
+        "computational_methods": {},
+        "materials": {
+          "Quantum-confined structures": [
+            "nanocrystal"
+          ]
+        },
+        "properties": {
+          "Transport / diffusion": [
+            "exciton transport"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1",
+        "v2"
+      ]
+    },
+    {
+      "arxiv_id": "2610.07316",
+      "version": "v1",
+      "versioned_id": "2610.07316v1",
+      "title": "Theory of resonance Raman profiles in transition metal dichalcogenide monolayers: Interference effects due to inter-valley phonon scattering",
+      "authors": [
+        "Daniel Groll",
+        "Daniel Wigger",
+        "Tilmann Kuhn"
+      ],
+      "abstract": "The optical properties of monolayer transition metal dichalcogenides (TMDCs) are strongly impacted by exciton-phonon coupling, especially inter-valley scattering in the case of tungsten-based materials. Together with strain-tunability of the energetic K-Q valley separation this material class therefore provides a platform for semiconductor optomechanics. Here we investigate the influence of inter-valley scattering and strain on resonance Raman scattering in monolayer TMDCs using a microscopic model based on an effective deformation potential coupling for the exciton-phonon interaction. Considering exemplarily the resonance Raman profile of the A$_1$-mode in hBN-encapsulated monolayer WSe$_2$, we find that inter-valley scattering between the electronic K- and Q-valley leads to destructive interference between a first order and a third order Raman process. As a result we obtain a suppression of the incoming resonance in WSe$_2$, consistent with recently published experimental data.",
+      "submitted": "2026-10-05T19:52:12Z",
+      "updated": "2026-10-05T19:52:12Z",
+      "categories": [
+        "cond-mat.mes-hall",
+        "physics.optics"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2610.07316v1",
+      "arxiv_url": "https://arxiv.org/abs/2610.07316",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [
+        "hBN",
+        "transition-metal dichalcogenides"
+      ],
+      "material_families": [
+        "TMDs / 2D chalcogenides",
+        "Other 2D / van der Waals materials"
+      ],
+      "exciton_properties": [
+        "Exciton-phonon coupling"
+      ],
+      "applications": [],
+      "methods": [
+        "Raman spectroscopy"
+      ],
+      "matched_keywords": [
+        "exciton",
+        "raman scattering"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [
+          "using"
+        ],
+        "experimental_methods": {
+          "Raman spectroscopy": [
+            "raman scattering"
+          ]
+        },
+        "computational_methods": {},
+        "materials": {
+          "hBN": [
+            "hbn"
+          ],
+          "transition-metal dichalcogenides": [
+            "transition metal dichalcogenide"
+          ],
+          "TMDs / 2D chalcogenides": [
+            "transition metal dichalcogenide"
+          ],
+          "Other 2D / van der Waals materials": [
+            "monolayer",
+            "hbn"
+          ]
+        },
+        "properties": {
+          "Exciton-phonon coupling": [
+            "exciton-phonon"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2610.07213",
+      "version": "v1",
+      "versioned_id": "2610.07213v1",
+      "title": "Many-body Interactions in Ultrafast Spectroscopy",
+      "authors": [
+        "Diego Florio",
+        "Alessandro Baserga",
+        "Sofia Bertuetti",
+        "Federico Visentin",
+        "Adar Levi",
+        "Uri Banin",
+        "Giulio Cerullo",
+        "Franco V. A. Camargo"
+      ],
+      "abstract": "Nonlinear spectroscopy is widely used to probe ultrafast dynamics in matter. Signals of higher nonlinear orders encode valuable many-body dynamics but only recently have become individually retrievable. However, their physical interpretation in terms of double-sided Feynman diagrams is cumbersome and non-intuitive. Here, we establish an alternative framework that connects them to the underlying excitation conditions and many-body interactions. This approach predicts two classes of dynamic nonlinearities, due either to direct many-body interactions or to saturable kinetic channels. The method provides a direct physical interpretation of the retrieved signals, explaining their sign, magnitude, and dynamics. It also enables model-free reconstruction of the dynamics of a sub-ensemble of particles starting with a given number of excitons, which we demonstrate to be especially insightful. We validate the framework using colloidal CdSe/CdS core/shell quantum dots, which enable us to model nonlinearities of both classes in isolation and also combined.",
+      "submitted": "2026-10-05T18:26:43Z",
+      "updated": "2026-10-05T18:26:43Z",
+      "categories": [
+        "physics.chem-ph",
+        "physics.optics"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2610.07213v1",
+      "arxiv_url": "https://arxiv.org/abs/2610.07213",
+      "study_type": "Experimental",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [
+        "quantum dots"
+      ],
+      "material_families": [
+        "Quantum-confined structures"
+      ],
+      "exciton_properties": [],
+      "applications": [],
+      "methods": [
+        "Time-resolved spectroscopy"
+      ],
+      "matched_keywords": [
+        "exciton",
+        "ultrafast spectroscopy"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [
+          "using"
+        ],
+        "experimental_methods": {
+          "Time-resolved spectroscopy": [
+            "ultrafast spectroscopy"
+          ]
+        },
+        "computational_methods": {},
+        "materials": {
+          "quantum dots": [
+            "quantum dot"
+          ],
+          "Quantum-confined structures": [
+            "quantum dot"
+          ]
+        },
+        "properties": {},
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": true,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
     {
       "arxiv_id": "2610.06311",
       "version": "v1",
@@ -2514,67 +2734,6 @@
         "properties": {
           "Light-matter strong coupling": [
             "strong light-matter coupling"
-          ]
-        },
-        "relevance": [
-          "exciton/excitonic stated in title or abstract"
-        ]
-      },
-      "evidence": {
-        "experimental": false,
-        "computational": false
-      },
-      "versions_seen": [
-        "v1"
-      ]
-    },
-    {
-      "arxiv_id": "2609.28185",
-      "version": "v1",
-      "versioned_id": "2609.28185v1",
-      "title": "Separating multi-particle dynamics by intensity cycling",
-      "authors": [
-        "Pavel Malý",
-        "František Trojánek",
-        "Petr Malý",
-        "Jérémie Léonard"
-      ],
-      "abstract": "We address the interpretation of transient spectroscopy signals proportional to average excitation number in terms of discrete number of excitations. Building on our recent intensity cycling approach, we derive a general scheme to isolate multi-particle dynamics from any transient signal under minimal assumptions. The key result is a general formula expressing the extracted nonlinear signal terms by multi-excitation propagators. We demonstrate the approach on exciton transport and annihilation in organic nanoparticles, and carrier recombination in silicon nanocrystals.",
-      "submitted": "2026-09-23T14:28:18Z",
-      "updated": "2026-09-23T14:28:18Z",
-      "categories": [
-        "physics.chem-ph"
-      ],
-      "pdf_url": "https://arxiv.org/pdf/2609.28185v1",
-      "arxiv_url": "https://arxiv.org/abs/2609.28185",
-      "study_type": "Unclassified",
-      "relevance": "Core exciton paper",
-      "paper_nature": "Original research",
-      "materials": [],
-      "material_families": [
-        "Quantum-confined structures"
-      ],
-      "exciton_properties": [
-        "Transport / diffusion"
-      ],
-      "applications": [],
-      "methods": [],
-      "matched_keywords": [
-        "exciton"
-      ],
-      "classification_evidence": {
-        "experimental_actions": [],
-        "computational_actions": [],
-        "experimental_methods": {},
-        "computational_methods": {},
-        "materials": {
-          "Quantum-confined structures": [
-            "nanocrystal"
-          ]
-        },
-        "properties": {
-          "Transport / diffusion": [
-            "exciton transport"
           ]
         },
         "relevance": [
@@ -24188,11 +24347,20 @@
       "new": 3,
       "updated": 0,
       "total": 317
+    },
+    {
+      "scanned_at": "2026-10-07T10:31:55.790429+00:00",
+      "since": "2026-09-23",
+      "fetched": 38,
+      "classified": 38,
+      "new": 2,
+      "updated": 1,
+      "total": 319
     }
   ],
   "counts": {
-    "total": 317,
-    "new_this_scan": 3,
-    "updated_this_scan": 0
+    "total": 319,
+    "new_this_scan": 2,
+    "updated_this_scan": 1
   }
 }
