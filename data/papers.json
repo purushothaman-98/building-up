@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_scan": "2026-10-09T10:52:00.464729+00:00",
+  "last_scan": "2026-10-10T10:05:42.468773+00:00",
   "papers": [
     {
       "arxiv_id": "2610.10353",
@@ -24941,6 +24941,15 @@
       "since": "2026-09-25",
       "fetched": 39,
       "classified": 39,
+      "new": 0,
+      "updated": 0,
+      "total": 327
+    },
+    {
+      "scanned_at": "2026-10-10T10:05:42.468773+00:00",
+      "since": "2026-09-26",
+      "fetched": 36,
+      "classified": 36,
       "new": 0,
       "updated": 0,
       "total": 327
