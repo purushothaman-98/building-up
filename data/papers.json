@@ -1,7 +1,442 @@
 {
   "schema_version": 2,
-  "last_scan": "2026-10-13T11:00:09.558516+00:00",
+  "last_scan": "2026-10-14T08:59:05.480996+00:00",
   "papers": [
+    {
+      "arxiv_id": "2610.18665",
+      "version": "v1",
+      "versioned_id": "2610.18665v1",
+      "title": "Composition-controlled optical fingerprints and anisotropy of self-trapped excitons in double perovskites",
+      "authors": [
+        "Simone Grillo",
+        "Offir Zachs Maishlos",
+        "Liya Koren",
+        "Rotem Strassberg",
+        "Rachel Lifer",
+        "Edi Maizenberg",
+        "Umberto De Giovannini",
+        "Angel Rubio",
+        "Yehonadav Bekenstein",
+        "Ofer Neufeld"
+      ],
+      "abstract": "Double perovskites (DPs) offer a compositionally versatile platform for photocatalysis and optoelectronics, but their soft lattices favor strong exciton-phonon coupling and self-trapped excitons (STEs), which produce broad, red-shifted photoluminescence (PL). Here, we combine optical spectroscopy and ab initio calculations to study lead-free, Sb-doped Cs2BInCl6 nanocrystals with B-site alloying from Na to K. Alloying tunes the PL energy from about 2.48 to 2.70 eV, while absorption features near 3.8 eV remain nearly unchanged. Calculations reveal that Sb doping enables bright radiative recombination channels and delocalizes the excitonic wavefunction. We identify STEs responsible for the large PL red shift, associated with an upward shift of dopant-hybridized in-gap states. Na-to-K substitution selectively changes the STE lattice distortion, explaining why PL varies strongly with composition while absorption does not. Theory further predicts pronounced PL polarization anisotropy that reflects the STE wavefunction's spatial structure and depends on B-site composition. Time-resolved anisotropy measurements closely agree with these predictions, providing experimental fingerprints of the excitonic wavefunction and its evolution with alloying. Together, these results disentangle the roles of doping and alloying in lead-free DPs and establish polarization-resolved spectroscopy as a probe of STE wavefunctions.",
+      "submitted": "2026-10-13T16:26:49Z",
+      "updated": "2026-10-13T16:26:49Z",
+      "categories": [
+        "cond-mat.mtrl-sci"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2610.18665v1",
+      "arxiv_url": "https://arxiv.org/abs/2610.18665",
+      "study_type": "Computational",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [
+        "perovskites"
+      ],
+      "material_families": [
+        "Perovskites / halide semiconductors",
+        "Quantum-confined structures"
+      ],
+      "exciton_properties": [
+        "Exciton-phonon coupling",
+        "Defects / trapping"
+      ],
+      "applications": [
+        "Photocatalysis"
+      ],
+      "methods": [
+        "Photoluminescence",
+        "Time-resolved spectroscopy",
+        "DFT"
+      ],
+      "matched_keywords": [
+        "ab initio",
+        "exciton",
+        "excitonic",
+        "photoluminescence",
+        "time-resolved"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [
+          "ab initio calculations"
+        ],
+        "experimental_methods": {
+          "Photoluminescence": [
+            "photoluminescence"
+          ],
+          "Time-resolved spectroscopy": [
+            "time-resolved"
+          ]
+        },
+        "computational_methods": {
+          "DFT": [
+            "ab initio"
+          ]
+        },
+        "materials": {
+          "perovskites": [
+            "perovskite"
+          ],
+          "Perovskites / halide semiconductors": [
+            "perovskite"
+          ],
+          "Quantum-confined structures": [
+            "nanocrystal"
+          ]
+        },
+        "properties": {
+          "Exciton-phonon coupling": [
+            "exciton-phonon"
+          ],
+          "Defects / trapping": [
+            "self-trapped exciton"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": true
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2610.18022",
+      "version": "v1",
+      "versioned_id": "2610.18022v1",
+      "title": "Device Model Linking Singlet and Triplet Spin-State Properties to Organic Photovoltaic Device Characteristics",
+      "authors": [
+        "Jun Du",
+        "Liming Liu",
+        "Jun Yan"
+      ],
+      "abstract": "This work proposes an exciton-kinetics coupled drift-diffusion (EKDD) model that bridges device-level charge transport with singlet and triplet excited-state kinetics. State populations and reversible photophysical transitions are solved self-consistently, enabling transient and steady-state device response calculations. We investigate how LE-CT, CT-CS, and LE-T energy offsets, together with triplet-transfer kinetics, govern charge generation, recombination, voltage loss, and extraction in organic photovoltaics. We identify CT-CS offset as a primary, largely overlooked factor controlling charge generation and voltage loss. A positive offset makes CT3-CS separation exothermic and improves generation, but lowers CS energy and increases voltage loss; a negative offset makes separation endothermic and highly temperature-sensitive. The model reproduces triplet-mediated recombination in PM6:Y6 and material-dependent triplet recycling in D18:NFA blends. We propose design rules for balanced generation and voltage loss via two charge-transfer channels: the LE-CT-CS pathway favors a moderate LE-CT offset of about 0.15-0.20 eV and a weakly exothermic CT-CS offset of about 0.05-0.075 eV; the T-CT3-CS pathway requires the same CT-CS alignment plus a small CT-T offset, no more than about 0.1 eV, corresponding to a recycling factor K greater than about 10^-2, to maintain fast T-to-CT3 recycling. CT-CS alignment is the main determinant of the charge-generation-voltage-loss trade-off, while triplet-recycling kinetics determines whether this balance survives at the device level. This work provides a unified theoretical description from exciton generation to free charge collection, offering a convenient tool for transient and steady-state analysis in organic photovoltaics.",
+      "submitted": "2026-10-13T09:16:04Z",
+      "updated": "2026-10-13T09:16:04Z",
+      "categories": [
+        "physics.app-ph"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2610.18022v1",
+      "arxiv_url": "https://arxiv.org/abs/2610.18022",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [],
+      "material_families": [],
+      "exciton_properties": [
+        "g-factor / Zeeman splitting"
+      ],
+      "applications": [
+        "Photovoltaics"
+      ],
+      "methods": [
+        "Exciton g-factor"
+      ],
+      "matched_keywords": [
+        "exciton",
+        "g factor"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [],
+        "experimental_methods": {
+          "Exciton g-factor": [
+            "g factor"
+          ]
+        },
+        "computational_methods": {},
+        "materials": {},
+        "properties": {
+          "g-factor / Zeeman splitting": [
+            "g factor"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2610.17984",
+      "version": "v1",
+      "versioned_id": "2610.17984v1",
+      "title": "Direct view of exciton and carrier dynamics in twisted bilayer graphene",
+      "authors": [
+        "Gianmarco Gatti",
+        "Anders S. Mortensen",
+        "Zhihao Jiang",
+        "Alfred J. H. Jones",
+        "Gesa-R. Siemann",
+        "Thomas S. Nielsen",
+        "Søren Ulstrup",
+        "Naina Kushwaha",
+        "Bruce Weaver",
+        "Yu Zhang",
+        "Emma Springate",
+        "Charlotte E. Sanders",
+        "Vibha Reddy",
+        "Ulrich Starke",
+        "Philip Hofmann"
+      ],
+      "abstract": "Twisted bilayer graphene (tBLG) on H-intercalated SiC (twist angle of $9 \\pm 1^{\\circ}$) is studied by position\\mbox{-}, time\\mbox{-}, and angle-resolved photoemission spectroscopy (ARPES). Both graphene layers are hole doped, with a Dirac-point offset of 30~meV. Time-resolved ARPES near the van Hove singularity reveals a spectral feature within the hybridization-induced band gap, together with excited electrons in the conduction band. The in-gap feature exhibits distinct dynamics, and its binding energy and $k$-space location are consistent with the proposed non-hydrogenic ``ghost-Fano'' exciton arising from destructive interference between two nearly degenerate excitonic channels. Near the Dirac points, the twist separates the largely layer-polarized Dirac cones in momentum space, providing direct layer selectivity. We find markedly different peak electronic temperatures in the two graphene layers, even though their subsequent cooling dynamics are very similar. We attribute this to an ultrafast interlayer redistribution of electronic energy, driven by an interlayer electric field that arises from the different doping in the layers.",
+      "submitted": "2026-10-13T08:52:13Z",
+      "updated": "2026-10-13T08:52:13Z",
+      "categories": [
+        "cond-mat.str-el",
+        "cond-mat.mes-hall",
+        "cond-mat.mtrl-sci"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2610.17984v1",
+      "arxiv_url": "https://arxiv.org/abs/2610.17984",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [],
+      "material_families": [],
+      "exciton_properties": [],
+      "applications": [],
+      "methods": [
+        "Time-resolved spectroscopy",
+        "Photoemission / photocurrent",
+        "Exciton lifetime / dynamics"
+      ],
+      "matched_keywords": [
+        "arpes",
+        "carrier dynamics",
+        "exciton",
+        "excitonic",
+        "photoemission spectroscopy",
+        "time-resolved"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [],
+        "experimental_methods": {
+          "Time-resolved spectroscopy": [
+            "time-resolved"
+          ],
+          "Photoemission / photocurrent": [
+            "arpes",
+            "photoemission spectroscopy"
+          ],
+          "Exciton lifetime / dynamics": [
+            "carrier dynamics"
+          ]
+        },
+        "computational_methods": {},
+        "materials": {},
+        "properties": {},
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2610.16089",
+      "version": "v1",
+      "versioned_id": "2610.16089v1",
+      "title": "High-mobility spin transport mediated by indirect excitons in a van der Waals heterostructure",
+      "authors": [
+        "Zhiwen Zhou",
+        "W. J. Brunner",
+        "Luc M. Nguyen",
+        "C. A. Lozano",
+        "G. Mercado",
+        "L. H. Fowler-Gerace",
+        "L. V. Butov"
+      ],
+      "abstract": "Efficient spin transport with high spin mobility is of both fundamental and practical significance for spintronics. Spin can be transferred by moving particles. However, particle scattering limits spin transfer and prevents high spin mobilities. In this work, we study the kinetics of spin transport mediated by a quantum system of indirect excitons (IXs) in a van der Waals heterostructure composed of atomically thin transition-metal dichalcogenides (TMDs). This spin transfer mechanism allows for the realization of efficient spin transport characterized by a high spin mobility reaching 10$^5$ cm$^2$/(eV$\\cdot$s), which is orders of magnitude higher than that achieved via standard diffusive spin transport in TMD materials. The suppression of IX scattering enables high-mobility spin transport.",
+      "submitted": "2026-10-12T02:55:58Z",
+      "updated": "2026-10-12T02:55:58Z",
+      "categories": [
+        "cond-mat.mes-hall"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2610.16089v1",
+      "arxiv_url": "https://arxiv.org/abs/2610.16089",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [
+        "transition-metal dichalcogenides",
+        "2D materials"
+      ],
+      "material_families": [
+        "TMDs / 2D chalcogenides",
+        "Other 2D / van der Waals materials"
+      ],
+      "exciton_properties": [],
+      "applications": [],
+      "methods": [],
+      "matched_keywords": [
+        "exciton"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [],
+        "experimental_methods": {},
+        "computational_methods": {},
+        "materials": {
+          "transition-metal dichalcogenides": [
+            "transition-metal dichalcogenide",
+            "tmds"
+          ],
+          "2D materials": [
+            "van der waals heterostructure"
+          ],
+          "TMDs / 2D chalcogenides": [
+            "transition-metal dichalcogenide",
+            "tmds"
+          ],
+          "Other 2D / van der Waals materials": [
+            "van der waals"
+          ]
+        },
+        "properties": {},
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2610.15233",
+      "version": "v1",
+      "versioned_id": "2610.15233v1",
+      "title": "Monogamy of quantum steering in exciton--cavity optomechanical system",
+      "authors": [
+        "Hamza Harraf",
+        "Mohamed Amazioug",
+        "Rachid Ahl Laamara"
+      ],
+      "abstract": "In this work, we study a theoretical scheme to investigate the monogamy of quantum steering in a hybrid exciton--cavity optomechanical (EOM) system. Within the Gaussian-state formalism, we quantify the steerability among the exciton, photon, and mechanical modes in both the steady-state and dynamical regimes. We establish and verify CKW-type monogamy inequalities for Gaussian steering and demonstrate that the distribution of bipartite steering among the three modes can be controlled through the system parameters. We further examine the influence of thermal noise and temporal evolution on the steering properties and the corresponding monogamy relations. Our results show that increasing the temperature generally suppresses the strength of Gaussian steering and modifies the degree of steering sharing imposed by the CKW-type monogamy relations. In contrast, in the dynamical regime, the steerability can increase with evolution time over suitable temporal windows, indicating that the transient dynamics can be exploited to enhance quantum correlations. These results highlight the potential of hybrid exciton--optomechanical platforms for controllable quantum correlations and provide a promising route toward the generation and manipulation of multipartite quantum resources.",
+      "submitted": "2026-10-10T23:55:51Z",
+      "updated": "2026-10-10T23:55:51Z",
+      "categories": [
+        "quant-ph",
+        "cond-mat.other",
+        "physics.optics"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2610.15233v1",
+      "arxiv_url": "https://arxiv.org/abs/2610.15233",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [],
+      "material_families": [],
+      "exciton_properties": [],
+      "applications": [],
+      "methods": [],
+      "matched_keywords": [
+        "exciton"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [],
+        "experimental_methods": {},
+        "computational_methods": {},
+        "materials": {},
+        "properties": {},
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2610.14426",
+      "version": "v1",
+      "versioned_id": "2610.14426v1",
+      "title": "Transport kinetics in excitonic Mott insulator",
+      "authors": [
+        "W. J. Brunner",
+        "Zhiwen Zhou",
+        "Luc M. Nguyen",
+        "C. A. Lozano",
+        "G. Mercado",
+        "L. H. Fowler-Gerace",
+        "L. V. Butov"
+      ],
+      "abstract": "Indirect excitons (IXs) in a periodic moiré potential in a van der Waals heterostructure form an experimental platform for exploring Bose-Hubbard physics, including the superfluid state and the Mott insulator state. The realization of these collective states requires low-disorder materials. In particular, the localization due to the Mott insulator must be distinguished from disorder-induced localization. We studied the transport kinetics of IXs in a MoSe$_2$/WSe$_2$ van der Waals heterostructure with an anomalously high IX mobility, consistent with superfluidity. This high-mobility transport demonstrates that disorder-induced localization is negligible. We found a remarkable suppression of this efficient IX transport, directly indicating the Mott insulator. As the IX density increases during the excitation pulse, the IX cloud initially expands and then contracts upon entering the Mott insulator phase. The emergence of IX cloud contraction is accompanied by a peak in the IX spatial distribution at the origin. Our simulations reproduce the observed non-monotonic IX transport kinetics, including the temporal expansion and contraction of the IX cloud, as well as the peak in its spatial distribution.",
+      "submitted": "2026-10-10T00:43:53Z",
+      "updated": "2026-10-10T00:43:53Z",
+      "categories": [
+        "cond-mat.mes-hall"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2610.14426v1",
+      "arxiv_url": "https://arxiv.org/abs/2610.14426",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [
+        "2D materials"
+      ],
+      "material_families": [
+        "Other 2D / van der Waals materials"
+      ],
+      "exciton_properties": [],
+      "applications": [],
+      "methods": [],
+      "matched_keywords": [
+        "exciton",
+        "excitonic"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [],
+        "experimental_methods": {},
+        "computational_methods": {},
+        "materials": {
+          "2D materials": [
+            "van der waals heterostructure"
+          ],
+          "Other 2D / van der Waals materials": [
+            "van der waals"
+          ]
+        },
+        "properties": {},
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
     {
       "arxiv_id": "2610.13493",
       "version": "v1",
@@ -25287,11 +25722,20 @@
       "new": 0,
       "updated": 0,
       "total": 332
+    },
+    {
+      "scanned_at": "2026-10-14T08:59:05.480996+00:00",
+      "since": "2026-09-30",
+      "fetched": 35,
+      "classified": 35,
+      "new": 6,
+      "updated": 0,
+      "total": 338
     }
   ],
   "counts": {
-    "total": 332,
-    "new_this_scan": 0,
+    "total": 338,
+    "new_this_scan": 6,
     "updated_this_scan": 0
   }
 }
