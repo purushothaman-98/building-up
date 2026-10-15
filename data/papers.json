@@ -1,7 +1,567 @@
 {
   "schema_version": 2,
-  "last_scan": "2026-10-14T08:59:05.480996+00:00",
+  "last_scan": "2026-10-15T08:33:20.583112+00:00",
   "papers": [
+    {
+      "arxiv_id": "2610.20522",
+      "version": "v1",
+      "versioned_id": "2610.20522v1",
+      "title": "Anyons at impurities: Fractional charge measurement and \"wrong sign\" binding",
+      "authors": [
+        "Haydn S. Adlong",
+        "Arthur Christianen",
+        "Atac Imamoglu",
+        "Glenn Wagner"
+      ],
+      "abstract": "Recent photoluminescence experiments in twisted MoTe$_2$ have reported signatures of anyons binding to trapped trions. The measured binding energies near the fractional Chern insulators at fillings of $ν=-2/3$ and $-3/5$ have a ratio close to the fractional-charge ratio $5/3$, even though such scaling is not generally guaranteed for the expected short-range trion-anyon interaction. We model the trapped trion as a fixed impurity, and investigate anyon-impurity binding using a lowest-Landau-level model with exact diagonalization and Jain wavefunctions. Surprisingly, we find that the anyon-impurity binding energy ratio between $ν=-2/3$ and $-3/5$ is close to $5/3$ for either short- or long-ranged impurity-electron interactions. However, the ratio departs strongly from the charge ratio at intermediate ranges or different Jain states. Remarkably, we also uncover \"wrong-sign\" binding, whereby both quasiholes and quasiparticles can bind to either sign of a short-range impurity potential by selecting orbital channels with favorable local density oscillations. Our findings show that localized excitons or trions can be used to probe the internal density profile of anyons.",
+      "submitted": "2026-10-14T17:22:23Z",
+      "updated": "2026-10-14T17:22:23Z",
+      "categories": [
+        "cond-mat.str-el",
+        "cond-mat.mes-hall"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2610.20522v1",
+      "arxiv_url": "https://arxiv.org/abs/2610.20522",
+      "study_type": "Computational",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [],
+      "material_families": [],
+      "exciton_properties": [
+        "Binding energy"
+      ],
+      "applications": [],
+      "methods": [
+        "Photoluminescence"
+      ],
+      "matched_keywords": [
+        "exciton",
+        "photoluminescence"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [
+          "using",
+          "we model"
+        ],
+        "experimental_methods": {
+          "Photoluminescence": [
+            "photoluminescence"
+          ]
+        },
+        "computational_methods": {},
+        "materials": {},
+        "properties": {
+          "Binding energy": [
+            "binding energies"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": true
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2610.20307",
+      "version": "v1",
+      "versioned_id": "2610.20307v1",
+      "title": "Making Weak Interlayer Excitons Absorb: Manipulating the Effective Oscillator Strength via Purcell Engineering of Critical Coupling",
+      "authors": [
+        "Saroj Poudyal",
+        "Anabel Atash Kahlon",
+        "Michael Klein",
+        "Matan Meshulam",
+        "Yonatan Gershuni",
+        "Thomas Poirier",
+        "James H. Edgar",
+        "Mukesh Kumar",
+        "Seth Ariel Tongay",
+        "Itai Epstein"
+      ],
+      "abstract": "Interlayer excitons (IXs) in transition metal dichalcogenide bilayers possess unique dipolar properties, providing a path for exploring correlated many-body phases, electrically tunable dipole-dipole interactions, and long-range exciton transport. However, the large electron-hole separation underlying their dipolar character also results in a significantly reduced oscillator strength, limiting their direct optical interaction with light, and thus the direct probing of their dynamics and many-body interactions. Here, we show that by using Purcell engineering of critical coupling, a weak interlayer transition can absorb as strongly as the dominant intralayer transition, despite its much smaller intrinsic oscillator strength. Using this approach, in an open cavity architecture we demonstrate an order of magnitude IX absorption modulation in bilayer and trilayer MoS2, with doubling of the IX to A-exciton interaction strength weight from ~23% to ~53%. Furthermore, we demonstrate that in a tailored closed cavity architecture, the IX enhancement can reach beyond an order of magnitude, from ~5% to ~83% excitonic absorption, enabling IX absorption similar to intralayer excitons. An analytical description of the interaction is obtained via a closed-form transmission-line model which separates the excitonic and photonic contributions to the optical response, revealing how cavity architecture can be designed towards critical coupling. Our findings establish Purcell engineering of critical coupling as a general route to controlling and enhancing weak excitonic transitions.",
+      "submitted": "2026-10-14T14:55:18Z",
+      "updated": "2026-10-14T14:55:18Z",
+      "categories": [
+        "cond-mat.mes-hall",
+        "cond-mat.other",
+        "physics.optics"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2610.20307v1",
+      "arxiv_url": "https://arxiv.org/abs/2610.20307",
+      "study_type": "Computational",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [
+        "MoS2",
+        "transition-metal dichalcogenides"
+      ],
+      "material_families": [
+        "TMDs / 2D chalcogenides"
+      ],
+      "exciton_properties": [
+        "Transport / diffusion",
+        "Oscillator strength / optical activity"
+      ],
+      "applications": [],
+      "methods": [
+        "Oscillator strength"
+      ],
+      "matched_keywords": [
+        "exciton",
+        "excitonic",
+        "oscillator strength"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [
+          "using"
+        ],
+        "experimental_methods": {},
+        "computational_methods": {
+          "Oscillator strength": [
+            "oscillator strength"
+          ]
+        },
+        "materials": {
+          "MoS2": [
+            "mos2"
+          ],
+          "transition-metal dichalcogenides": [
+            "transition metal dichalcogenide"
+          ],
+          "TMDs / 2D chalcogenides": [
+            "transition metal dichalcogenide",
+            "mos2"
+          ]
+        },
+        "properties": {
+          "Transport / diffusion": [
+            "exciton transport"
+          ],
+          "Oscillator strength / optical activity": [
+            "oscillator strength"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": true
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2610.20103",
+      "version": "v1",
+      "versioned_id": "2610.20103v1",
+      "title": "Polaritonic self-hybridized critical coupling by Brillouin zone folding induced quasi-bound states in the continuum in bulk WS2 metasurfaces",
+      "authors": [
+        "Kuidong Wang",
+        "Xiongwei Guo",
+        "Fu Liu",
+        "Jinhai Si",
+        "Xun Hou"
+      ],
+      "abstract": "Maximizing the absorption of exciton-polaritons in transition-metal dichalcogenides (TMDCs) under critical coupling conditions is crucial for developing high-efficiency polariton-based photodetectors, solar cells, and perfect absorbers. Here, we propose a polaritonic critical self-hybridized coupling between Brillouin zone folding driven quasi-bound states in the continuum (BZF-QBIC) mode and A excitons in a bulk WS2 metasurface. This polaritonic critical coupling shows robust behavior with respect to the asymmetric parameters of the involved BZF-QBIC mode, in contrast to the asymmetry-sensitive conventional QBIC-based critical coupling. By changing the height of WS2 metasurfaces, we observe a typical anti-crossing behavior with a Rabi splitting of 246.5 meV. Moreover, the maximum absorption value of 0.5 for exciton-polaritons is achieved at the polaritonic critical coupling condition. The large population of excitons provided by bulk WS2 is essential for achieving polaritonic critical coupling and can further enhance polaritonic absorption. This work enables the realization of robust, high-absorption self-hybridized polaritonic critical coupling in TMDCs, and further expedite their applications in high-absorption low-dimensional polaritonic devices.",
+      "submitted": "2026-10-14T12:38:29Z",
+      "updated": "2026-10-14T12:38:29Z",
+      "categories": [
+        "physics.optics",
+        "cond-mat.mtrl-sci",
+        "physics.app-ph"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2610.20103v1",
+      "arxiv_url": "https://arxiv.org/abs/2610.20103",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [
+        "WS2",
+        "transition-metal dichalcogenides"
+      ],
+      "material_families": [
+        "TMDs / 2D chalcogenides"
+      ],
+      "exciton_properties": [
+        "Light-matter strong coupling"
+      ],
+      "applications": [
+        "Exciton polaritons",
+        "Photovoltaics"
+      ],
+      "methods": [],
+      "matched_keywords": [
+        "exciton",
+        "polariton"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [
+          "we observe"
+        ],
+        "computational_actions": [],
+        "experimental_methods": {},
+        "computational_methods": {},
+        "materials": {
+          "WS2": [
+            "ws2"
+          ],
+          "transition-metal dichalcogenides": [
+            "transition-metal dichalcogenide"
+          ],
+          "TMDs / 2D chalcogenides": [
+            "transition-metal dichalcogenide",
+            "ws2"
+          ]
+        },
+        "properties": {
+          "Light-matter strong coupling": [
+            "exciton-polariton",
+            "rabi splitting"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2610.19582",
+      "version": "v1",
+      "versioned_id": "2610.19582v1",
+      "title": "Magnetic proximity beyond the interface: Layer-sequence-dependent exchange in WSe$_2$/CrI$_3$ heterostructures",
+      "authors": [
+        "Natalie Kuhn",
+        "Marc Schütte",
+        "Joachim Emming",
+        "Felix Hellenkamp",
+        "Leo Dreyer",
+        "Frank Volmer",
+        "Kenji Watanabe",
+        "Takashi Taniguchi",
+        "Lutz Waldecker",
+        "Christoph Stampfer",
+        "Bernd Beschoten"
+      ],
+      "abstract": "Magnetic proximity effects in transition metal dichalcogenide (TMD)/2D-magnet heterostructures are often described in terms of the magnetization of the interfacial magnetic layer. Here, we show that this picture is sufficient to describe the neutral-exciton valley splitting of the TMD, but incomplete for its hole-doped electronic structure. We study a gate-tunable van der Waals heterostructure composed of monolayer WSe$_2$ in direct contact with trilayer CrI$_3$. By combining spatially and helicity-resolved reflection-contrast spectroscopy with magnetic circular dichroism, we identify two distinct magnetic domains in the trilayer CrI$_3$: one with purely antiferromagnetic interlayer coupling and one with a mixed antiferromagnetic (AFM)/ferromagnetic~(FM) coupling. In both domains, the sign of the neutral-exciton valley splitting of WSe$_2$ switches with the magnetization reversal of the adjacent CrI$_3$ layer. In contrast, helicity-resolved positive-trion spectroscopy of WSe$_2$ reveals a qualitatively different response. While the AFM domain shows a strongly helicity-selective trion resonance, the mixed AFM/FM domain exhibits trion resonances in both helicities. This behavior disappears when all CrI$_3$ layers are aligned in a parallel magnetization direction. Our results demonstrate that charged excitons are sensitive to the full layer-resolved magnetic sequence of the adjacent 2D-magnet, revealing magnetic proximity beyond the interface.",
+      "submitted": "2026-10-14T04:53:54Z",
+      "updated": "2026-10-14T04:53:54Z",
+      "categories": [
+        "cond-mat.mtrl-sci",
+        "cond-mat.mes-hall"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2610.19582v1",
+      "arxiv_url": "https://arxiv.org/abs/2610.19582",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [
+        "transition-metal dichalcogenides",
+        "2D materials"
+      ],
+      "material_families": [
+        "TMDs / 2D chalcogenides",
+        "Other 2D / van der Waals materials"
+      ],
+      "exciton_properties": [],
+      "applications": [],
+      "methods": [],
+      "matched_keywords": [
+        "exciton"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [],
+        "experimental_methods": {},
+        "computational_methods": {},
+        "materials": {
+          "transition-metal dichalcogenides": [
+            "transition metal dichalcogenide"
+          ],
+          "2D materials": [
+            "van der waals heterostructure"
+          ],
+          "TMDs / 2D chalcogenides": [
+            "transition metal dichalcogenide"
+          ],
+          "Other 2D / van der Waals materials": [
+            "van der waals",
+            "monolayer"
+          ]
+        },
+        "properties": {},
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2610.19542",
+      "version": "v1",
+      "versioned_id": "2610.19542v1",
+      "title": "Pressure engineering of the excitonic moiré-potential landscape and exciton-charge interplay in semiconductor moiré superlattices",
+      "authors": [
+        "Wenbing Li",
+        "Tianhao Yue",
+        "Wenjian Su",
+        "Zhexu Shan",
+        "Chen Xu",
+        "Jichen Zhou",
+        "Kenji Watanabe",
+        "Takashi Taniguchi",
+        "Liguo Ma",
+        "Yuanfeng Xu",
+        "Shiyao Zhu",
+        "Yang Gao",
+        "Yanhao Tang"
+      ],
+      "abstract": "Semiconductor moiré superlattices, owing to strongly bound excitons and pronounced electronic correlation, have emerged as an intriguing solid platform for exploring correlated bosonic phenomena, where the moiré potential landscape plays a central role. Hydrostatic pressure allows continuous, in-situ tuning of this landscape, but remains underexplored because of experimental challenges. Here we integrate a diamond anvil pressure cell with high quality dual gated WSe2/WS2 twisted bilayers and perform cryogenic optical spectroscopy. We observe distinct pressure evolutions of moiré intralayer excitons, which reveal drastic modulation of the excitonic moiré-potential landscape captured by a continuum model and suggest the capability of engineering the exciton-band topology. Moreover, we demonstrate efficient pressure control over the interplay between charges and both intralayer and interlayer excitons: the intralayer charge-transfer exciton becomes less sensitive to doping, likely due to reduced charge-transfer character; in contrast, the interlayer exciton exhibits enhanced exciton-charge repulsion. Our results establish hydrostatic pressure as a powerful tuning knob for engineering bosonic quasiparticles and Bose-Fermi interactions in moiré materials.",
+      "submitted": "2026-10-14T03:59:51Z",
+      "updated": "2026-10-14T03:59:51Z",
+      "categories": [
+        "cond-mat.mtrl-sci",
+        "cond-mat.mes-hall"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2610.19542v1",
+      "arxiv_url": "https://arxiv.org/abs/2610.19542",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [
+        "WS2",
+        "WSe2"
+      ],
+      "material_families": [
+        "TMDs / 2D chalcogenides"
+      ],
+      "exciton_properties": [],
+      "applications": [],
+      "methods": [],
+      "matched_keywords": [
+        "exciton",
+        "excitonic"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [
+          "we observe"
+        ],
+        "computational_actions": [],
+        "experimental_methods": {},
+        "computational_methods": {},
+        "materials": {
+          "WS2": [
+            "ws2"
+          ],
+          "WSe2": [
+            "wse2"
+          ],
+          "TMDs / 2D chalcogenides": [
+            "ws2",
+            "wse2"
+          ]
+        },
+        "properties": {},
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2610.19370",
+      "version": "v1",
+      "versioned_id": "2610.19370v1",
+      "title": "Odd-to-Even-Layer Switch of Spontaneous Excitonic State in $\\rm{TiSe_{2}}$ Thin Films",
+      "authors": [
+        "Kaili Wang",
+        "Zhuowei Liu",
+        "Yuyang Mu",
+        "Zhujuan Li",
+        "Zhenjie Fan",
+        "Yu Gui",
+        "Xiaodong Qiu",
+        "Baigeng Wang",
+        "Rui Wang",
+        "Yi Zhang",
+        "Qi-Kun Xue"
+      ],
+      "abstract": "$\\rm{TiSe_{2}}$ is a candidate of high temperature excitonic condensates with spontaneous exciton formation in addition to its charge density wave (CDW). However, direct observation and manipulation of this electron-hole paring state formation is still lacking. Here, using varying-temperature angle-resolved photoemission spectroscopy (VT-ARPES), we observe a distinct odd-to-even-layer switch of spontaneous exciton state formation with the evident correlated band structure in $\\rm{TiSe_{2}}$ thin films. While the odd-layer $\\rm{TiSe_{2}}$ films show a sharp band structure in single-particle picture superimposed by CDW renormalization, in the even-layer $\\rm{TiSe_{2}}$ films, the full-filling valence band (VB) opens a distinct notch at the top, and the conductive band (CB) shows a significant extra signal extending above Fermi level with spectra broadening. These features indicate that the extra holes (notched VB) and electrons (broadening CB above Fermi level) form spontaneous excitons in even-layer $\\rm{TiSe_{2}}$. Based on a correlated electron-hole model extracted from the tight-binding description, we reproduce the characterized band structures with spontaneous exciton formation, where the interlayer inter-band coupling in $\\rm{TiSe_{2}}$ plays a key role, which leads to an odd-to-even-layer switch of the excitonic state formation. Our results provide direct evidences of the spontaneous exciton formation, promising an excitonic condensate as versatile platform for realizing Bose-Einstein condensate (BEC) and investigating novel correlated phenomena.",
+      "submitted": "2026-10-14T01:14:24Z",
+      "updated": "2026-10-14T01:14:24Z",
+      "categories": [
+        "cond-mat.str-el",
+        "cond-mat.mes-hall"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2610.19370v1",
+      "arxiv_url": "https://arxiv.org/abs/2610.19370",
+      "study_type": "Experimental",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [],
+      "material_families": [],
+      "exciton_properties": [],
+      "applications": [],
+      "methods": [
+        "Photoemission / photocurrent",
+        "Model Hamiltonian"
+      ],
+      "matched_keywords": [
+        "arpes",
+        "exciton",
+        "excitonic",
+        "photoemission spectroscopy",
+        "tight-binding"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [
+          "we observe"
+        ],
+        "computational_actions": [
+          "using"
+        ],
+        "experimental_methods": {
+          "Photoemission / photocurrent": [
+            "arpes",
+            "photoemission spectroscopy"
+          ]
+        },
+        "computational_methods": {
+          "Model Hamiltonian": [
+            "tight-binding"
+          ]
+        },
+        "materials": {},
+        "properties": {},
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": true,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2610.19006",
+      "version": "v1",
+      "versioned_id": "2610.19006v1",
+      "title": "Nanoscale Mapping of Strain-engineered Excitons in Monolayer WSe$_2$",
+      "authors": [
+        "Anna S. Roche",
+        "Nicholas V. Proscia",
+        "Paul D. Cunningham",
+        "Kathleen M. McCreary",
+        "Dante J. O'Hara",
+        "Hsun Jen Chuang",
+        "Cory Cress",
+        "Collin Sanborn",
+        "Samuel W. LaGasse",
+        "Jose J. Fonseca",
+        "Jeremy T. Robinson",
+        "Takashi Taniguchi",
+        "Kenji Watanabe",
+        "John R. Schaibley",
+        "Brian J. LeRoy"
+      ],
+      "abstract": "Excitons in monolayer transition metal dichalcogenides (TMDs) are highly sensitive to external stimuli, allowing control of resonance energies and lifetimes through electric and magnetic fields, heterostructures, moire potentials and mechanical strain. Observations of single-photon emission (SPE) near sample edges, wrinkles, and strained nanobubbles have motivated strain-engineering aimed at realizing localized emitters in 2D materials. The origin of these emitters remains unclear and prior studies have relied on far-field spectroscopy with strain profiles inferred separately through topography, limiting direct correlation between local strain and excitonic response. We directly probe strain-modified excitonic spectra in monolayer WSe$_2$ using cryogenic scattering-type scanning near-field optical microscopy (s-SNOM). We compare two strain-engineering techniques, nano-indentation and patterned substrates, used to produce SPEs. At 9 K, we spatially resolve exciton resonance shifts with sub-diffraction limit resolution, simultaneously measuring near-field optical response and topography. We observe that strain transferred from nano-indentation into a deformable polymer substrate differs from that produced by draping TMDs over patterned dielectric pillars. Adhesion and tearing during plastic deformation drive a compressive exciton blueshift, while draping produces dominant tensile strain. Comparing the strain model results to the experimentally observed energy shifts shows that the nano-indentation strain is over an order of magnitude smaller than previously inferred, due to puncturing of the fragile monolayer, whereas pillar-strained devices remain intact under more modest strain. These differences suggest SPE arises from complex, strain-mediated interactions rather than simple confinement potentials, establishing s-SNOM as a powerful probe of quantum emission in strained 2D materials.",
+      "submitted": "2026-10-13T18:05:50Z",
+      "updated": "2026-10-13T18:05:50Z",
+      "categories": [
+        "cond-mat.mes-hall"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2610.19006v1",
+      "arxiv_url": "https://arxiv.org/abs/2610.19006",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [
+        "transition-metal dichalcogenides",
+        "2D materials"
+      ],
+      "material_families": [
+        "TMDs / 2D chalcogenides",
+        "Other 2D / van der Waals materials"
+      ],
+      "exciton_properties": [],
+      "applications": [],
+      "methods": [],
+      "matched_keywords": [
+        "exciton",
+        "excitonic"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [
+          "we observe",
+          "experimentally"
+        ],
+        "computational_actions": [
+          "using"
+        ],
+        "experimental_methods": {},
+        "computational_methods": {},
+        "materials": {
+          "transition-metal dichalcogenides": [
+            "transition metal dichalcogenide",
+            "tmds"
+          ],
+          "2D materials": [
+            "2d material"
+          ],
+          "TMDs / 2D chalcogenides": [
+            "transition metal dichalcogenide",
+            "tmds"
+          ],
+          "Other 2D / van der Waals materials": [
+            "2d material",
+            "monolayer"
+          ]
+        },
+        "properties": {},
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
     {
       "arxiv_id": "2610.18665",
       "version": "v1",
@@ -25731,11 +26291,20 @@
       "new": 6,
       "updated": 0,
       "total": 338
+    },
+    {
+      "scanned_at": "2026-10-15T08:33:20.583112+00:00",
+      "since": "2026-10-01",
+      "fetched": 38,
+      "classified": 38,
+      "new": 7,
+      "updated": 0,
+      "total": 345
     }
   ],
   "counts": {
-    "total": 338,
-    "new_this_scan": 6,
+    "total": 345,
+    "new_this_scan": 7,
     "updated_this_scan": 0
   }
 }
