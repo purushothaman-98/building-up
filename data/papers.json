@@ -1,7 +1,180 @@
 {
   "schema_version": 2,
-  "last_scan": "2026-10-15T08:33:20.583112+00:00",
+  "last_scan": "2026-10-16T08:27:41.670369+00:00",
   "papers": [
+    {
+      "arxiv_id": "2610.22037",
+      "version": "v1",
+      "versioned_id": "2610.22037v1",
+      "title": "Exciton superfluidity in two-dimensional bilayers at zero and high magnetic fields",
+      "authors": [
+        "Sankar Das Sarma",
+        "Yang-Zhi Chou"
+      ],
+      "abstract": "We study interlayer exciton superfluidity versus layer separation in two-dimensional electron-hole bilayers at zero magnetic field and quantum Hall bilayers at total filling $ν_T=1$. Unscreened Hartree-Fock theory predicts coherence at every finite separation, with an energy scale decaying inversely with separation at large distances. We examine how screening, correlations, and spatial instabilities modify this prediction. At zero field, we solve the linearized gap equation with the full momentum and frequency dependence of the interaction screened within the random-phase approximation, without an imposed cutoff. The apparent plasmon enhancement of pairing in the ladder approximation is largely cancelled by the second-order crossed-rung correction. Static screening determines the leading pairing exponent in the controlled high-density limit at fixed separation. At large separation, the pairing scale falls exponentially with squared separation while the instability persists. Extending this result to fixed density assumes Fermi-liquid layers and higher-order dynamical corrections subleading to the static pairing interaction. At high field, we obtain an analytic uniform Hartree-Fock saddle point in the lowest Landau level, coherent at every finite separation. Within Hartree-Fock theory, its finite-wave-vector collective-mode instability favors an excitonic supersolid, distinguishing loss of spatial uniformity from loss of coherence. We conjecture that the quantum Hall bilayer evolves continuously toward weak pairing of composite fermions, with a scale far below the mean-field prediction at large separation. This suppression could produce an apparent critical separation at finite temperature without a ground-state quantum phase transition. The comparison separates the existence, energy scale, and spatial stability of interlayer coherence.",
+      "submitted": "2026-10-15T15:12:25Z",
+      "updated": "2026-10-15T15:12:25Z",
+      "categories": [
+        "cond-mat.mes-hall",
+        "cond-mat.str-el",
+        "cond-mat.supr-con"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2610.22037v1",
+      "arxiv_url": "https://arxiv.org/abs/2610.22037",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [],
+      "material_families": [],
+      "exciton_properties": [],
+      "applications": [],
+      "methods": [],
+      "matched_keywords": [
+        "exciton",
+        "excitonic"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [],
+        "experimental_methods": {},
+        "computational_methods": {},
+        "materials": {},
+        "properties": {},
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2610.20912",
+      "version": "v1",
+      "versioned_id": "2610.20912v1",
+      "title": "Vibrational Dressing of Collective Molecular Polaritons: A Scalable Green's-Function Theory",
+      "authors": [
+        "Wenxiang Ying",
+        "Michael Galperin",
+        "Abraham Nitzan"
+      ],
+      "abstract": "We develop a scalable Green's-function theory of vibrationally dressed molecular-polariton absorption in the Holstein--Tavis--Cummings model. Within the self-consistent Born approximation (SCBA), the ground-state linear response of $N$ identical molecules coupled to one cavity mode follows from a $2\\times2$ cavity--bright matrix, while scattering through the $N-1$ dark states remains in the molecular self-energy. The number of self-consistent equations is independent of $N$, allowing large ensembles to be treated without explicitly resolving the dark manifold. Benchmarks against hierarchical equations of motion show that the theory captures collective linewidth narrowing and an $N$-dependent minimum in the lower-polariton linewidth as its exciton fraction varies, beyond a Hopfield-weighted linewidth estimate. Comparisons with exact diagonalization for discrete local vibrations show weaker vibronic progressions and better overall SCBA agreement as $N$ increases at fixed single-molecule coupling. The resulting framework connects microscopic vibrational scattering to collective absorption spectra without introducing fitted polariton linewidths.",
+      "submitted": "2026-10-14T20:42:46Z",
+      "updated": "2026-10-14T20:42:46Z",
+      "categories": [
+        "physics.chem-ph"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2610.20912v1",
+      "arxiv_url": "https://arxiv.org/abs/2610.20912",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Dataset / benchmark",
+      "materials": [],
+      "material_families": [],
+      "exciton_properties": [
+        "Linewidth / dephasing"
+      ],
+      "applications": [],
+      "methods": [
+        "Absorption / reflectance",
+        "Linewidth / fine structure"
+      ],
+      "matched_keywords": [
+        "absorption spectra",
+        "exciton",
+        "linewidth",
+        "polariton"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [],
+        "experimental_methods": {
+          "Absorption / reflectance": [
+            "absorption spectra"
+          ],
+          "Linewidth / fine structure": [
+            "linewidth"
+          ]
+        },
+        "computational_methods": {},
+        "materials": {},
+        "properties": {
+          "Linewidth / dephasing": [
+            "linewidth"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2610.20755",
+      "version": "v1",
+      "versioned_id": "2610.20755v1",
+      "title": "Resonant enhancement of Raman scattering in a MoS$_2$ nanotube",
+      "authors": [
+        "D. R. Kazanov",
+        "A. V. Poshakinskiy"
+      ],
+      "abstract": "The whispering-gallery modes confined in the wall of a multiwall MoS$_2$ nanotube resonantly enhance the spontaneous Raman scattering by its own optical phonons. The enhancement is doubly resonant --- pump and Stokes waves hit two adjacent modes at one pump energy, and the signal scales as $(Q_{\\rm pump}Q_{\\rm sc})^2$ - whenever a phonon energy matches the free spectral range of the mode ladder. Near the A exciton the excitonic dispersion compresses the ladder and sweeps its spacing through all intralayer phonon energies of MoS$_2$, so the match, reached for $A_{1g}$ at $E_{\\rm pump}=1551$~meV, requires no geometric tuning. A missed match splits the excitation peak into a pump- and a scattered-resonant doublet whose splitting measures the residual detuning. Selection rules confine the double resonance to the TM$\\to$TM channel and exclude $E_{1g}$.",
+      "submitted": "2026-10-14T18:10:04Z",
+      "updated": "2026-10-14T18:10:04Z",
+      "categories": [
+        "cond-mat.mes-hall",
+        "cond-mat.mtrl-sci"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2610.20755v1",
+      "arxiv_url": "https://arxiv.org/abs/2610.20755",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [],
+      "material_families": [],
+      "exciton_properties": [],
+      "applications": [],
+      "methods": [
+        "Raman spectroscopy"
+      ],
+      "matched_keywords": [
+        "exciton",
+        "excitonic",
+        "raman scattering"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [],
+        "experimental_methods": {
+          "Raman spectroscopy": [
+            "raman scattering"
+          ]
+        },
+        "computational_methods": {},
+        "materials": {},
+        "properties": {},
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
     {
       "arxiv_id": "2610.20522",
       "version": "v1",
@@ -26300,11 +26473,20 @@
       "new": 7,
       "updated": 0,
       "total": 345
+    },
+    {
+      "scanned_at": "2026-10-16T08:27:41.670369+00:00",
+      "since": "2026-10-02",
+      "fetched": 37,
+      "classified": 37,
+      "new": 3,
+      "updated": 0,
+      "total": 348
     }
   ],
   "counts": {
-    "total": 345,
-    "new_this_scan": 7,
+    "total": 348,
+    "new_this_scan": 3,
     "updated_this_scan": 0
   }
 }
