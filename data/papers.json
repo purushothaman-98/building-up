@@ -1,7 +1,60 @@
 {
   "schema_version": 2,
-  "last_scan": "2026-10-18T08:18:08.256092+00:00",
+  "last_scan": "2026-10-19T09:15:40.699590+00:00",
   "papers": [
+    {
+      "arxiv_id": "2610.23562",
+      "version": "v1",
+      "versioned_id": "2610.23562v1",
+      "title": "Geometry-Dependent Electronic Coupling and Singlet Fission Pathways in Carotenoid Dimers",
+      "authors": [
+        "Alexandru G. Ichert",
+        "George A. Smith",
+        "William Barford"
+      ],
+      "abstract": "Using the density matrix renormalization group method, we solve the Pariser--Parr--Pople model of $π$-electron systems to determine the character and energies of the low-lying eigenstates of a lycopene dimer comprising two 22-carbon-atom chains. To complement these calculations, we use the molecular-exciton, valence-bond model of polyene systems to derive selection rules governing interchain coupling, which provide a physical framework for interpreting the DMRG results. We find that dimer geometry strongly influences both the character and energetics of the low-lying eigenstates. In vertically stacked dimers, neither the bright-dimer state nor the triplet-pair states contain any interchain charge-transfer (CT) character. In contrast, in slip-stacked dimers, both the bright-dimer state and triplet-pair states do contain interchain CT character. We also find that increasing the interchain coupling preferentially stabilizes states with greater interchain character, leading to a reordering of the low-lying eigenstates. These results have direct implications for energetically possible singlet fission (SF) mechanisms in carotenoid aggregates. For vertically stacked dimers, the only energetically viable pathway identified here proceeds through intermediate intrachain triplet-pair states, whereas slip-stacked geometries allow an additional SF pathway mediated by interchain CT states. Our results establish a direct connection between carotenoid packing geometry, symmetry-controlled electronic coupling, and the energetically accessible pathways for SF.",
+      "submitted": "2026-10-16T14:50:19Z",
+      "updated": "2026-10-16T14:50:19Z",
+      "categories": [
+        "physics.chem-ph"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2610.23562v1",
+      "arxiv_url": "https://arxiv.org/abs/2610.23562",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [],
+      "material_families": [],
+      "exciton_properties": [],
+      "applications": [],
+      "methods": [],
+      "matched_keywords": [
+        "exciton"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [
+          "we use"
+        ],
+        "computational_actions": [
+          "we use",
+          "using"
+        ],
+        "experimental_methods": {},
+        "computational_methods": {},
+        "materials": {},
+        "properties": {},
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
     {
       "arxiv_id": "2610.22037",
       "version": "v1",
@@ -26500,11 +26553,20 @@
       "new": 0,
       "updated": 0,
       "total": 348
+    },
+    {
+      "scanned_at": "2026-10-19T09:15:40.699590+00:00",
+      "since": "2026-10-05",
+      "fetched": 34,
+      "classified": 34,
+      "new": 1,
+      "updated": 0,
+      "total": 349
     }
   ],
   "counts": {
-    "total": 348,
-    "new_this_scan": 0,
+    "total": 349,
+    "new_this_scan": 1,
     "updated_this_scan": 0
   }
 }
