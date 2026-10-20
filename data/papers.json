@@ -1,7 +1,225 @@
 {
   "schema_version": 2,
-  "last_scan": "2026-10-19T09:15:40.699590+00:00",
+  "last_scan": "2026-10-20T14:27:43.550958+00:00",
   "papers": [
+    {
+      "arxiv_id": "2610.26715",
+      "version": "v1",
+      "versioned_id": "2610.26715v1",
+      "title": "Proximity Transient Absorption in van der Waals Heterostructures",
+      "authors": [
+        "Neema Rafizadeh",
+        "Ting Zheng",
+        "Hui Zhao"
+      ],
+      "abstract": "Transient absorption spectroscopy is a widely used technique for investigating ultrafast electronic dynamics, where transient optical signals are generally interpreted as arising from excitations within the material hosting the probed optical transition. A distinct form of transient absorption spectroscopy, termed proximity transient absorption (PTA), is demonstrated, in which the probed optical transition and the monitored photoexcited carriers reside in different materials. Using graphene/hBN/WS$_2$ heterostructures, photoexcited carriers in graphene induce a strong transient optical response at the excitonic resonance of a WS$_2$ monolayer through Coulomb screening, even when the two layers remain electronically isolated by an atomically thin hBN spacer. The resulting signal follows the carrier dynamics of graphene rather than those of WS$_2$, demonstrating that the WS$_2$ exciton acts as an optical transducer of electronic processes in a neighboring material. The signal decreases systematically with increasing hBN thickness, confirming its proximity origin while remaining substantial for separations approaching 2 nm. PTA provides a noncontact approach for optically modulating one material using photoexcited carriers in another and enables probing of carrier dynamics in materials that are otherwise difficult to investigate directly. More broadly, PTA establishes a new modality of ultrafast spectroscopy and reveals that transient optical signals in van der Waals heterostructures can originate from excitations residing in spatially separated layers.",
+      "submitted": "2026-10-19T16:48:09Z",
+      "updated": "2026-10-19T16:48:09Z",
+      "categories": [
+        "cond-mat.mes-hall",
+        "physics.optics"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2610.26715v1",
+      "arxiv_url": "https://arxiv.org/abs/2610.26715",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [
+        "hBN",
+        "2D materials"
+      ],
+      "material_families": [
+        "Other 2D / van der Waals materials"
+      ],
+      "exciton_properties": [],
+      "applications": [],
+      "methods": [
+        "Pump–probe spectroscopy",
+        "Time-resolved spectroscopy",
+        "Exciton lifetime / dynamics"
+      ],
+      "matched_keywords": [
+        "carrier dynamics",
+        "exciton",
+        "excitonic",
+        "transient absorption",
+        "ultrafast spectroscopy"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [
+          "using"
+        ],
+        "experimental_methods": {
+          "Pump–probe spectroscopy": [
+            "transient absorption"
+          ],
+          "Time-resolved spectroscopy": [
+            "ultrafast spectroscopy"
+          ],
+          "Exciton lifetime / dynamics": [
+            "carrier dynamics"
+          ]
+        },
+        "computational_methods": {},
+        "materials": {
+          "hBN": [
+            "hbn"
+          ],
+          "2D materials": [
+            "van der waals heterostructure"
+          ],
+          "Other 2D / van der Waals materials": [
+            "van der waals",
+            "monolayer",
+            "hbn"
+          ]
+        },
+        "properties": {},
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2610.26675",
+      "version": "v1",
+      "versioned_id": "2610.26675v1",
+      "title": "NIR-probe transient absorption on rubrene microcavities demonstrates no changes to singlet fission by strong coupling",
+      "authors": [
+        "Robert H. Gordon",
+        "James P. Pidgeon",
+        "Rachel C. Kilbride",
+        "Tingxiang Yang",
+        "Benjamin Stewart",
+        "Yan Chen",
+        "Timothy Thornber",
+        "Peter Claronino",
+        "Graham J. Leggett",
+        "Claudia E. Tait",
+        "Marie Rider",
+        "Jenny Clark"
+      ],
+      "abstract": "Strong light-matter coupling has been proposed to control singlet-exciton fission, yet reported effects remain controversial due to the prevalence of cavity-induced optical artifacts in transient absorption measurements. Here, we investigate singlet fission in dielectric microcavities containing rubrene by probing in the near-infrared region, outside the cavity stopband, to eliminate mode-filtering artifacts. Across contrasting cavity quality factors ($Q = 90$ and $1150$) and a range of exciton-photon detunings ($+20$ to $-110$ meV), we find that the underlying kinetics are virtually identical to uncoupled films. Although minor spectral changes occur, transfer matrix simulations reveal these stem purely from mirror interference rather than modified photophysics. Transient electron paramagnetic resonance further confirms that high-spin triplet dynamics remain unperturbed. Together, these findings establish a widely applicable experimental framework for evaluating molecular photophysics in microcavities, revealing that singlet fission remains unaltered in strongly coupled rubrene.",
+      "submitted": "2026-10-19T16:24:45Z",
+      "updated": "2026-10-19T16:24:45Z",
+      "categories": [
+        "physics.chem-ph"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2610.26675v1",
+      "arxiv_url": "https://arxiv.org/abs/2610.26675",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [],
+      "material_families": [],
+      "exciton_properties": [
+        "Light-matter strong coupling"
+      ],
+      "applications": [
+        "Light–matter coupling"
+      ],
+      "methods": [
+        "Pump–probe spectroscopy"
+      ],
+      "matched_keywords": [
+        "exciton",
+        "transient absorption"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [],
+        "experimental_methods": {
+          "Pump–probe spectroscopy": [
+            "transient absorption"
+          ]
+        },
+        "computational_methods": {},
+        "materials": {},
+        "properties": {
+          "Light-matter strong coupling": [
+            "strong light-matter coupling"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2610.13246",
+      "version": "v2",
+      "versioned_id": "2610.13246v2",
+      "title": "Theory of exciton-exciton interactions with nontrivial electronic bands",
+      "authors": [
+        "L. Maisel Licerán",
+        "H. T. C. Stoof"
+      ],
+      "abstract": "Excitons are bound electron-hole pairs in semiconductors whose interactions influence optical properties and determine their collective behavior and emergent correlated phases. Despite the theoretical and experimental significance of these phenomena, a microscopic theory of exciton-exciton interactions that takes into account the full composite nature of these quasiparticles in systems with an arbitrary single-particle Hamiltonian is lacking. Here, we present a general theory of exciton-exciton interactions that builds upon our previous publication [Physical Review B 113, 155440 (2026)], which applied only to conventional semiconductors with weak band hybridization. By contrast, the theory presented here is valid in virtually any crystalline semiconducting system and can be applied to the study of biexciton formation and correlated excitonic phases in systems where band topology, quantum geometry, and moiré effects play a significant role. In addition to the analytical theory, we also present results in simple systems with flat bands with a nontrivial quantum metric and show that the biexcitonic spectrum differs strongly from that in the case without quantum geometry. Our theory paves the way for accurate quantitative calculations of biexciton spectra and excitonic many-body phases in modern condensed-matter systems.",
+      "submitted": "2026-10-09T08:56:51Z",
+      "updated": "2026-10-17T23:27:27Z",
+      "categories": [
+        "cond-mat.mes-hall",
+        "cond-mat.mtrl-sci",
+        "cond-mat.quant-gas",
+        "cond-mat.str-el",
+        "quant-ph"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2610.13246v2",
+      "arxiv_url": "https://arxiv.org/abs/2610.13246",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [],
+      "material_families": [],
+      "exciton_properties": [
+        "Many-exciton interactions"
+      ],
+      "applications": [],
+      "methods": [],
+      "matched_keywords": [
+        "exciton",
+        "excitonic"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [],
+        "experimental_methods": {},
+        "computational_methods": {},
+        "materials": {},
+        "properties": {
+          "Many-exciton interactions": [
+            "exciton-exciton",
+            "biexciton"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1",
+        "v2"
+      ]
+    },
     {
       "arxiv_id": "2610.23562",
       "version": "v1",
@@ -1282,65 +1500,6 @@
           ]
         },
         "properties": {},
-        "relevance": [
-          "exciton/excitonic stated in title or abstract"
-        ]
-      },
-      "evidence": {
-        "experimental": false,
-        "computational": false
-      },
-      "versions_seen": [
-        "v1"
-      ]
-    },
-    {
-      "arxiv_id": "2610.13246",
-      "version": "v1",
-      "versioned_id": "2610.13246v1",
-      "title": "Theory of exciton-exciton interactions in crystalline systems",
-      "authors": [
-        "L. Maisel Licerán",
-        "H. T. C. Stoof"
-      ],
-      "abstract": "Excitons are bound electron-hole pairs in semiconductors whose interactions influence optical properties and determine their collective behavior and emergent correlated phases. Despite the theoretical and experimental significance of these phenomena, a microscopic theory of exciton-exciton interactions that takes into account the full composite nature of these quasiparticles is lacking. Here, we present a general theory of exciton-exciton interactions that builds upon our previous publication [Physical Review B 113, 155440 (2026)], which applied only to conventional semiconductors with weak band hybridization. By contrast, the theory presented here is valid in virtually any crystalline semiconducting system and can be applied to the study of biexciton formation and correlated excitonic phases in systems where band topology, quantum geometry, and moiré effects play a significant role. In addition to the analytical theory, we also present results in simple systems with flat bands with a nontrivial quantum metric and show that the biexcitonic spectrum differs strongly from that in the case without quantum geometry. Our theory paves the way for accurate quantitative calculations of biexciton spectra and excitonic many-body phases in modern condensed-matter systems.",
-      "submitted": "2026-10-09T08:56:51Z",
-      "updated": "2026-10-09T08:56:51Z",
-      "categories": [
-        "cond-mat.mes-hall",
-        "cond-mat.mtrl-sci",
-        "cond-mat.quant-gas",
-        "cond-mat.str-el",
-        "quant-ph"
-      ],
-      "pdf_url": "https://arxiv.org/pdf/2610.13246v1",
-      "arxiv_url": "https://arxiv.org/abs/2610.13246",
-      "study_type": "Unclassified",
-      "relevance": "Core exciton paper",
-      "paper_nature": "Original research",
-      "materials": [],
-      "material_families": [],
-      "exciton_properties": [
-        "Many-exciton interactions"
-      ],
-      "applications": [],
-      "methods": [],
-      "matched_keywords": [
-        "exciton",
-        "excitonic"
-      ],
-      "classification_evidence": {
-        "experimental_actions": [],
-        "computational_actions": [],
-        "experimental_methods": {},
-        "computational_methods": {},
-        "materials": {},
-        "properties": {
-          "Many-exciton interactions": [
-            "exciton-exciton",
-            "biexciton"
-          ]
-        },
         "relevance": [
           "exciton/excitonic stated in title or abstract"
         ]
@@ -26562,11 +26721,20 @@
       "new": 1,
       "updated": 0,
       "total": 349
+    },
+    {
+      "scanned_at": "2026-10-20T14:27:43.550958+00:00",
+      "since": "2026-10-06",
+      "fetched": 32,
+      "classified": 32,
+      "new": 2,
+      "updated": 1,
+      "total": 351
     }
   ],
   "counts": {
-    "total": 349,
-    "new_this_scan": 1,
-    "updated_this_scan": 0
+    "total": 351,
+    "new_this_scan": 2,
+    "updated_this_scan": 1
   }
 }
