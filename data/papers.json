@@ -1,7 +1,374 @@
 {
   "schema_version": 2,
-  "last_scan": "2026-10-20T14:27:43.550958+00:00",
+  "last_scan": "2026-10-21T08:50:08.330168+00:00",
   "papers": [
+    {
+      "arxiv_id": "2610.28304",
+      "version": "v1",
+      "versioned_id": "2610.28304v1",
+      "title": "Steady-state cooperative emission of interlayer excitons in atomically thin light-emitting diodes",
+      "authors": [
+        "Andrés M. Mier Valdivia",
+        "Pavel E. Dolgirev",
+        "Grace H. Chen",
+        "Nadine Leisgang",
+        "Andrew Y. Joe",
+        "Stefan Ostermann",
+        "Deepankur Thureja",
+        "Yongxin Zeng",
+        "Dapeng Ding",
+        "Daniel Rhodes",
+        "Bumho Kim",
+        "Song Liu",
+        "Takashi Taniguchi",
+        "Kenji Watanabe",
+        "James C. Hone",
+        "Susanne F. Yelin",
+        "Hongkun Park",
+        "Mikhail D. Lukin",
+        "Philip Kim"
+      ],
+      "abstract": "When an ensemble of emitters is confined within an optical wavelength, its radiation can become correlated, leading to cooperative emission. In two-dimensional (2D) transition metal dichalcogenide (TMD) electron-hole bilayers, strong light-matter coupling enables the formation of interlayer excitons (IXs), long-lived dipolar excitations that provide an ideal setting for emergent collective phenomena. Here, we engineer an atomically thin light-emitting diode (LED) that generates electroluminescence (EL) from electrically injected IXs that are confined near the sample edges by an edge-enhanced fringing electric field. By measuring Hanbury-Brown-Twiss photon-photon correlations, we find pronounced signatures of collective decay in the form of large photon bunching followed by finite delay antibunching and bunching revivals. These emitter correlation signatures disappear when free charge carriers are doped to form a degenerate Fermi sea but are enhanced by the introduction of localized electrons. The results are consistent with a many-body quantum master equation that models the steady-state superradiant photon statistics of incoherently injected IXs. Our work establishes steady-state cooperative emission in a 2D TMD LED as a platform for studying strong light-matter interactions in electrically driven, non-equilibrium phases of Bose-Fermi mixtures.",
+      "submitted": "2026-10-20T14:45:52Z",
+      "updated": "2026-10-20T14:45:52Z",
+      "categories": [
+        "cond-mat.mes-hall"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2610.28304v1",
+      "arxiv_url": "https://arxiv.org/abs/2610.28304",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [
+        "transition-metal dichalcogenides"
+      ],
+      "material_families": [
+        "TMDs / 2D chalcogenides"
+      ],
+      "exciton_properties": [
+        "Light-matter strong coupling"
+      ],
+      "applications": [
+        "Light–matter coupling"
+      ],
+      "methods": [],
+      "matched_keywords": [
+        "exciton"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [],
+        "experimental_methods": {},
+        "computational_methods": {},
+        "materials": {
+          "transition-metal dichalcogenides": [
+            "transition metal dichalcogenide"
+          ],
+          "TMDs / 2D chalcogenides": [
+            "transition metal dichalcogenide"
+          ]
+        },
+        "properties": {
+          "Light-matter strong coupling": [
+            "strong light-matter coupling"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2610.28158",
+      "version": "v1",
+      "versioned_id": "2610.28158v1",
+      "title": "Density Saturation and Autocorrelation Characteristics of Interlayer Exciton Ensembles in MoSe$_2$/WSe$_2$ Heterostructures",
+      "authors": [
+        "Mirco Troue",
+        "Johannes Figueiredo",
+        "Alina Scheuermann",
+        "Sebastian Loy",
+        "Jonas Kiemle",
+        "Takashi Taniguchi",
+        "Kenji Watanabe",
+        "Ursula Wurstbauer",
+        "Alexander W. Holleitner"
+      ],
+      "abstract": "We investigate interlayer excitons in MoSe$_2$/WSe$_2$ heterostructures using time-resolved photoluminescence and second-order autocorrelation measurements across a wide range of excitation powers and bath temperatures. By analyzing the photoluminescence amplitude and lifetime of the interlayer exciton state with the lowest emission energy, we extract a corresponding density-temperature diagram. The extracted exciton density exhibits a saturation at approximately $10^{13}$cm$^{-2}$, consistent with values predicted for a Mott transition of interlayer exciton ensembles in van der Waals heterostructures. Moreover, possible interpretations beyond the Mott transition are discussed. We further test whether the density limit is accompanied by a departure from classical photon statistics. The second-order autocorrelation measurements reveal that the photoluminescence maintains an emission characteristic of $g^{(2)}(0) \\approx 1$ from low exciton densities up to the maximum reachable density in the investigated exciton ensembles consistent with the lowest-energy exciton ensemble obeying Poissonian statistics.",
+      "submitted": "2026-10-20T13:01:53Z",
+      "updated": "2026-10-20T13:01:53Z",
+      "categories": [
+        "cond-mat.mes-hall"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2610.28158v1",
+      "arxiv_url": "https://arxiv.org/abs/2610.28158",
+      "study_type": "Experimental",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [
+        "2D materials"
+      ],
+      "material_families": [
+        "Other 2D / van der Waals materials"
+      ],
+      "exciton_properties": [],
+      "applications": [],
+      "methods": [
+        "Photoluminescence",
+        "Time-resolved spectroscopy"
+      ],
+      "matched_keywords": [
+        "exciton",
+        "photoluminescence",
+        "time-resolved"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [
+          "measurements reveal"
+        ],
+        "computational_actions": [
+          "using"
+        ],
+        "experimental_methods": {
+          "Photoluminescence": [
+            "photoluminescence"
+          ],
+          "Time-resolved spectroscopy": [
+            "time-resolved"
+          ]
+        },
+        "computational_methods": {},
+        "materials": {
+          "2D materials": [
+            "van der waals heterostructure"
+          ],
+          "Other 2D / van der Waals materials": [
+            "van der waals"
+          ]
+        },
+        "properties": {},
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": true,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2610.27798",
+      "version": "v1",
+      "versioned_id": "2610.27798v1",
+      "title": "Accelerating real-time hybrid-functional calculations with learned ACE and symmetry-based FFT reuse",
+      "authors": [
+        "Tomohito Otobe"
+      ],
+      "abstract": "Real-time hybrid-functional calculations require repeated reconstruction of nonlocal exchange, whose cost grows rapidly with Brillouin-zone sampling. We develop two methods to improve the efficiency of time evolution and spatial processing. The first learns the time evolution of adaptively compressed exchange (ACE) factors and predicts their updates, reducing the frequency of explicit reconstruction. The second uses crystal symmetry to reuse exchange fast Fourier transforms (FFTs) among equivalent real-space points. This symmetry-based FFT reuse (SBFR) reduces the number of FFTs while retaining the full $\\bm k$-point sum. The methods can be used with a variety of hybrid functionals, and we use HSE06 in this work. Relative to an ACE reference using full-row mesh FFTs, learned prediction provides more than fivefold acceleration, SBFR more than fourteenfold, and their combination more than sixty-threefold. The combined method shows efficient parallel scaling. After learning, propagation takes less than 0.5 s per step. The reduced computational cost allows us to study nonlinear and nonequilibrium electron dynamics with hybrid functionals and to examine the role of excitonic effects in semiconductors and insulators.",
+      "submitted": "2026-10-20T07:56:12Z",
+      "updated": "2026-10-20T07:56:12Z",
+      "categories": [
+        "cond-mat.mtrl-sci"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2610.27798v1",
+      "arxiv_url": "https://arxiv.org/abs/2610.27798",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [],
+      "material_families": [],
+      "exciton_properties": [],
+      "applications": [],
+      "methods": [],
+      "matched_keywords": [
+        "exciton",
+        "excitonic"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [
+          "we use"
+        ],
+        "computational_actions": [
+          "we use",
+          "using"
+        ],
+        "experimental_methods": {},
+        "computational_methods": {},
+        "materials": {},
+        "properties": {},
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2610.27486",
+      "version": "v1",
+      "versioned_id": "2610.27486v1",
+      "title": "Charge-conserving creation and annihilation of topological phase singularities in atomically thin semiconductors",
+      "authors": [
+        "Yongjing Wang",
+        "Yuhang Wang",
+        "Guoshuai Fan",
+        "Qingqing Luo",
+        "Yanning Li",
+        "Lidong Sun",
+        "Chunguang Hu",
+        "Wanfu Shen"
+      ],
+      "abstract": "Atomically thin transition metal dichalcogenides provide a promising material platform for optical phase manipulation, as rapid variations in their dielectric functions can give rise to topological phase singularities (PSs). However, PS evolution while preserving topological charge conservation has not yet been investigated in exciton enabled PS systems. Here, using atomically thin MoS2 films on sapphire as a model system, we theoretically and experimentally demonstrate that the evolution of dielectric dispersion determines the creation, trajectory, merging, and annihilation of optical PSs under topological charge conservation. By varying the MoS2 film thickness, we experimentally realize this evolution through the gradual shrinking of the high energy n-k dispersion loop, which modifies its intersection with the zero reflection condition. Our results provide a general strategy for exploring and manipulating topological optical states.",
+      "submitted": "2026-10-20T01:52:43Z",
+      "updated": "2026-10-20T01:52:43Z",
+      "categories": [
+        "cond-mat.mtrl-sci",
+        "physics.optics"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2610.27486v1",
+      "arxiv_url": "https://arxiv.org/abs/2610.27486",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [
+        "MoS2",
+        "transition-metal dichalcogenides"
+      ],
+      "material_families": [
+        "TMDs / 2D chalcogenides"
+      ],
+      "exciton_properties": [],
+      "applications": [],
+      "methods": [],
+      "matched_keywords": [
+        "exciton"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [
+          "experimentally"
+        ],
+        "computational_actions": [
+          "using"
+        ],
+        "experimental_methods": {},
+        "computational_methods": {},
+        "materials": {
+          "MoS2": [
+            "mos2"
+          ],
+          "transition-metal dichalcogenides": [
+            "transition metal dichalcogenide"
+          ],
+          "TMDs / 2D chalcogenides": [
+            "transition metal dichalcogenide",
+            "mos2"
+          ]
+        },
+        "properties": {},
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2610.27469",
+      "version": "v1",
+      "versioned_id": "2610.27469v1",
+      "title": "Magnetic-Field-Induced Darkening of Bright Excitons in a MoWSe$_2$ Monolayer Alloy",
+      "authors": [
+        "Katarzyna Olkowska-Pucko",
+        "Artur O. Slobodeniuk",
+        "Mehdi Arfaoui",
+        "Elena Blundo",
+        "Natalia Zawadzka",
+        "Łucja Kipczak",
+        "Jan Szpakowski",
+        "Diana Vaclavkova",
+        "Dipankar Jana",
+        "Piotr Kapuściński",
+        "Kenji Watanabe",
+        "Takashi Taniguchi",
+        "Clement Faugeras",
+        "Marek Potemski",
+        "Adam Babiński",
+        "Antonio Polimeni",
+        "Maciej R. Molas"
+      ],
+      "abstract": "Magnetic fields are widely used to brighten spin-forbidden dark excitons, but the inverse effect on an optically bright exciton has remained largely unexplored. We demonstrate the complementary phenomenon of magnetic-field-induced darkening of a bright exciton in Mo$_{0.68}$W$_{0.32}$Se$_2$. At 4.2 K, an in-plane magnetic field up to 25 T activates a dark-exciton line 14.2$\\pm$1.3 meV below the bright exciton while suppressing the bright-exciton emission by about 85\\%. A bright-dark mixing model quantitatively captures the coupled energy and intensity evolution with an effective in-plane $g$ factor of $|g_{\\parallel}|=5.2\\pm0.2$. Alloying is crucial to the effect, as it brings the system close to the bright-dark crossover, where a small bright-dark splitting is combined with unusually strong in-plane magnetic coupling. This places the system in a regime where field-induced level repulsion raises the bright-like branch and strongly depletes its thermal population. These results identify a general route to magnetic control of exciton populations through engineering of the bright-dark hierarchy.",
+      "submitted": "2026-10-20T01:40:01Z",
+      "updated": "2026-10-20T01:40:01Z",
+      "categories": [
+        "cond-mat.mes-hall",
+        "cond-mat.mtrl-sci"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2610.27469v1",
+      "arxiv_url": "https://arxiv.org/abs/2610.27469",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [],
+      "material_families": [
+        "Other 2D / van der Waals materials"
+      ],
+      "exciton_properties": [
+        "Fine structure / bright-dark splitting"
+      ],
+      "applications": [],
+      "methods": [],
+      "matched_keywords": [
+        "exciton"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [],
+        "experimental_methods": {},
+        "computational_methods": {},
+        "materials": {
+          "Other 2D / van der Waals materials": [
+            "monolayer"
+          ]
+        },
+        "properties": {
+          "Fine structure / bright-dark splitting": [
+            "bright-dark",
+            "dark exciton",
+            "bright exciton"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
     {
       "arxiv_id": "2610.26715",
       "version": "v1",
@@ -26730,11 +27097,20 @@
       "new": 2,
       "updated": 1,
       "total": 351
+    },
+    {
+      "scanned_at": "2026-10-21T08:50:08.330168+00:00",
+      "since": "2026-10-07",
+      "fetched": 33,
+      "classified": 33,
+      "new": 5,
+      "updated": 0,
+      "total": 356
     }
   ],
   "counts": {
-    "total": 351,
-    "new_this_scan": 2,
-    "updated_this_scan": 1
+    "total": 356,
+    "new_this_scan": 5,
+    "updated_this_scan": 0
   }
 }
