@@ -1,7 +1,378 @@
 {
   "schema_version": 2,
-  "last_scan": "2026-10-21T08:50:08.330168+00:00",
+  "last_scan": "2026-10-22T08:53:02.966686+00:00",
   "papers": [
+    {
+      "arxiv_id": "2610.29558",
+      "version": "v1",
+      "versioned_id": "2610.29558v1",
+      "title": "Synchronization-Induced Limit Cycles and Hysteresis in Spinor Exciton-Polaritons",
+      "authors": [
+        "Saeid Asgarnezhad-Zorgabad",
+        "Zahra Jalali-Mola",
+        "Vladimir V. Konotop",
+        "Daniel Leykam"
+      ],
+      "abstract": "We study the nonlinear dynamics of spinor exciton-polaritons in resonantly pumped microcavities. Using steady-state analysis and computing eigenfrequencies via Bogoliubov-like linearization, we show that multiple Hopf bifurcations beyond conventional bistability occur within specific power regimes and are not associated with stable solutions of the system. Owing to nonlinear excitonic interactions, these transitions occur at different pump powers during forward and backward pump sweeps, leading to pronounced hysteresis between fixed-point and limit-cycle states. In the spinor regime, multiple limit-cycle branches and associated dynamical hysteresis loops emerge due to the interplay of polarization coupling and spin-dependent nonlinearities. We show how the locations of the bifurcation points can be tuned by the pump frequency and other system parameters. Our results identify synchronization as the organizing principle underlying limit-cycle formation, dynamical hysteresis, and bifurcation cascades in driven spinor exciton-polariton microcavities.",
+      "submitted": "2026-10-21T10:44:19Z",
+      "updated": "2026-10-21T10:44:19Z",
+      "categories": [
+        "physics.optics"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2610.29558v1",
+      "arxiv_url": "https://arxiv.org/abs/2610.29558",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [],
+      "material_families": [],
+      "exciton_properties": [
+        "Light-matter strong coupling"
+      ],
+      "applications": [
+        "Exciton polaritons"
+      ],
+      "methods": [],
+      "matched_keywords": [
+        "exciton",
+        "excitonic",
+        "polariton"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [
+          "using"
+        ],
+        "experimental_methods": {},
+        "computational_methods": {},
+        "materials": {},
+        "properties": {
+          "Light-matter strong coupling": [
+            "exciton-polariton"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2610.29447",
+      "version": "v1",
+      "versioned_id": "2610.29447v1",
+      "title": "Room-temperature near-infrared optical readout of triplet spin states integrated in carbon nanotubes towards quantum sensing",
+      "authors": [
+        "J. Alejandro de Sousa",
+        "Ilias Vandevenne",
+        "Jana Nikolić",
+        "Tuur Boonen",
+        "Etienne Goovaerts",
+        "Sofie Cambré"
+      ],
+      "abstract": "Optically addressable electron spin qubits that function at room temperature and under ambient conditions are essential for advancing quantum sensing. Solid state defect platforms offer robust spin-photon interfaces but lack precise defect positioning and electronic tunability. Molecular spin qubits enable bottom up chemical design yet suffer from limited photostability. Here, we introduce para-halophenyl (-Cl, -Br and -I) quantum defects in (6,5) single wall carbon nanotubes that trap triplet excitons with a spin-photon interface that is operable under ambient, room temperature conditions. These defects were shown to emit in the near infrared within the biological transparency window, and their placement on the nanotube surface provides nanoscale proximity to target environments. The deep optical traps formed by the defects yield exceptional photostability. Here, we demonstrate optical initialization and readout of these triplet states at room temperature, provide proof of principle sensing of paramagnetic molecules, and highlight potential for on chip detection. Together, these results establish SWCNT defects as a promising new platform for future quantum sensing.",
+      "submitted": "2026-10-21T09:07:46Z",
+      "updated": "2026-10-21T09:07:46Z",
+      "categories": [
+        "cond-mat.mes-hall"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2610.29447v1",
+      "arxiv_url": "https://arxiv.org/abs/2610.29447",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [],
+      "material_families": [],
+      "exciton_properties": [],
+      "applications": [],
+      "methods": [],
+      "matched_keywords": [
+        "exciton"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [],
+        "experimental_methods": {},
+        "computational_methods": {},
+        "materials": {},
+        "properties": {},
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2610.29109",
+      "version": "v1",
+      "versioned_id": "2610.29109v1",
+      "title": "Coherent dynamics and ultrafast evolution of optical nonlinearity of self-hybridized exciton-polaritons in WSe2",
+      "authors": [
+        "Niu Xu",
+        "Jin Yang",
+        "Kaizhen Liu",
+        "Jianghao Shen",
+        "Weiming Song",
+        "Abbas Chimeh",
+        "Daniel Timmer",
+        "Jinhui Zhong"
+      ],
+      "abstract": "Exciton-polaritons (EPs) are valuable for investigating macroscopic quantum coherent phenomena. However, overcoming the rapid decoherence of EPs under ambient conditions is challenging, even using delicately fabricated optical cavities. Here, we show pronounced coherent dynamics in thin flakes of WSe2 supporting self-hybridized EPs. Ultrafast two-dimensional electronic spectroscopy (2DES) resolves two types of quantum beating: Rabi oscillation with a period of ~ 24 fs and a slower, ~ 50 fs period oscillation, revealing coherent coupling not only between excitons and cavity, but also between polaritons and dark states. Rapid evolution of 2DES line shape indicates a change of dominant optical nonlinearities from Rabi contraction of polaritons to many-body interactions of excitons in the first 100 fs, marking the transition from coherent to incoherent polariton excitations. The results are rationalized by a three-coupled oscillator model considering the inhomogeneous cavity field distribution. We also demonstrate coherent quantum beating between A exciton and its excited Rydberg state A* under ambient conditions. Our results shed light on the coherent control in readily accessible semiconductor thin flakes.",
+      "submitted": "2026-10-21T02:50:31Z",
+      "updated": "2026-10-21T02:50:31Z",
+      "categories": [
+        "physics.chem-ph"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2610.29109v1",
+      "arxiv_url": "https://arxiv.org/abs/2610.29109",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [
+        "WSe2"
+      ],
+      "material_families": [
+        "TMDs / 2D chalcogenides"
+      ],
+      "exciton_properties": [
+        "Light-matter strong coupling"
+      ],
+      "applications": [
+        "Exciton polaritons"
+      ],
+      "methods": [],
+      "matched_keywords": [
+        "exciton",
+        "polariton"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [
+          "using"
+        ],
+        "experimental_methods": {},
+        "computational_methods": {},
+        "materials": {
+          "WSe2": [
+            "wse2"
+          ],
+          "TMDs / 2D chalcogenides": [
+            "wse2"
+          ]
+        },
+        "properties": {
+          "Light-matter strong coupling": [
+            "exciton-polariton"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2610.29081",
+      "version": "v1",
+      "versioned_id": "2610.29081v1",
+      "title": "The Spectroscopic Atlas of Excitonic Complexes in hBN-Encapsulated S-TMD Monolayers: From Excitons to Oxcitons and Beyond",
+      "authors": [
+        "Maciej R. Molas"
+      ],
+      "abstract": "Hexagonal boron nitride (hBN) encapsulation has transformed the optical spectroscopy of semiconducting transition-metal dichalcogenide monolayers (MLs) by suppressing extrinsic disorder and enabling the resolution of an increasingly complex hierarchy of excitonic states. This Review provides a spectroscopy-oriented framework for understanding and identifying excitonic complexes in hBN-encapsulated Mo- and W-based MLs and their alloys. The discussion covers bright and dark excitons, Rydberg states, charged excitons, biexcitons, phonon-assisted replicas, and higher-order Fermi-sea many-body states, including hexcitons and oxcitons, with an emphasis on the experimental signatures that distinguish them. Particular attention is given to the combined use of photoluminescence and absorption-related spectroscopy, electrostatic gating, polarization analysis, excitation-power and temperature dependences, magnetic fields, and time-resolved measurements to establish microscopic assignments. The role of alloying as an additional degree of freedom for engineering the excitonic hierarchy, spin-valley configuration, and magneto-optical response is also highlighted. By organizing the rapidly expanding phenomenology around experimentally accessible fingerprints rather than individual material systems, this Review aims to provide a practical and broadly applicable guide for identifying, comparing, and engineering excitonic states in high-quality two-dimensional semiconductors.",
+      "submitted": "2026-10-21T02:09:58Z",
+      "updated": "2026-10-21T02:09:58Z",
+      "categories": [
+        "cond-mat.mes-hall",
+        "cond-mat.mtrl-sci"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2610.29081v1",
+      "arxiv_url": "https://arxiv.org/abs/2610.29081",
+      "study_type": "Experimental",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Review / perspective",
+      "materials": [
+        "hBN",
+        "transition-metal dichalcogenides"
+      ],
+      "material_families": [
+        "TMDs / 2D chalcogenides",
+        "Other 2D / van der Waals materials"
+      ],
+      "exciton_properties": [
+        "Fine structure / bright-dark splitting",
+        "Valley / spin physics",
+        "Exciton-phonon coupling",
+        "Many-exciton interactions"
+      ],
+      "applications": [],
+      "methods": [
+        "Photoluminescence",
+        "Time-resolved spectroscopy",
+        "Magneto-optical measurements"
+      ],
+      "matched_keywords": [
+        "exciton",
+        "excitonic",
+        "magneto-optical",
+        "photoluminescence",
+        "time-resolved"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [
+          "experimentally"
+        ],
+        "computational_actions": [],
+        "experimental_methods": {
+          "Photoluminescence": [
+            "photoluminescence"
+          ],
+          "Time-resolved spectroscopy": [
+            "time-resolved"
+          ],
+          "Magneto-optical measurements": [
+            "magneto-optical"
+          ]
+        },
+        "computational_methods": {},
+        "materials": {
+          "hBN": [
+            "hbn",
+            "hexagonal boron nitride"
+          ],
+          "transition-metal dichalcogenides": [
+            "transition-metal dichalcogenide",
+            "tmd monolayer"
+          ],
+          "TMDs / 2D chalcogenides": [
+            "transition-metal dichalcogenide"
+          ],
+          "Other 2D / van der Waals materials": [
+            "monolayer",
+            "hbn",
+            "hexagonal boron nitride"
+          ]
+        },
+        "properties": {
+          "Fine structure / bright-dark splitting": [
+            "dark exciton"
+          ],
+          "Valley / spin physics": [
+            "spin-valley"
+          ],
+          "Exciton-phonon coupling": [
+            "phonon-assisted"
+          ],
+          "Many-exciton interactions": [
+            "biexciton"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": true,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2610.28877",
+      "version": "v1",
+      "versioned_id": "2610.28877v1",
+      "title": "Ultrafast and Anisotropic Exciton Transport in Layered NbOI$_2$",
+      "authors": [
+        "Salman Ahsanullah",
+        "Neema Rafizadeh",
+        "Hui Zhao"
+      ],
+      "abstract": "Ferroelectric layered semiconductors provide a unique platform for exploring coupled excitonic and electronic phenomena in reduced dimensions. Here, exciton transport in layered NbOI$_2$ is investigated using transient absorption microscopy. Ultrafast and strongly anisotropic exciton diffusion is observed. The diffusion coefficient of about 160 cm$^2$ s$^{-1}$ along the nonpolar crystal axis is among the highest reported for van der Waals semiconductors. The transport exhibits an approximately twofold in-plane anisotropy between the polar and nonpolar directions, reflecting the intrinsic low-symmetry crystal structure of NbOI$_2$. The environmental stability of NbOI$_2$ is further investigated, and fabrication and encapsulation conditions required to achieve long-term sample stability are identified. These results establish NbOI$_2$ as a promising platform for studying anisotropic exciton transport and highlight the critical role of interface protection in air-sensitive van der Waals materials.",
+      "submitted": "2026-10-20T19:57:10Z",
+      "updated": "2026-10-20T19:57:10Z",
+      "categories": [
+        "cond-mat.mtrl-sci"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2610.28877v1",
+      "arxiv_url": "https://arxiv.org/abs/2610.28877",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [],
+      "material_families": [
+        "Other 2D / van der Waals materials"
+      ],
+      "exciton_properties": [
+        "Transport / diffusion"
+      ],
+      "applications": [],
+      "methods": [
+        "Pump–probe spectroscopy",
+        "Exciton lifetime / dynamics"
+      ],
+      "matched_keywords": [
+        "exciton",
+        "exciton diffusion",
+        "excitonic",
+        "transient absorption"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [
+          "using"
+        ],
+        "experimental_methods": {
+          "Pump–probe spectroscopy": [
+            "transient absorption"
+          ],
+          "Exciton lifetime / dynamics": [
+            "exciton diffusion"
+          ]
+        },
+        "computational_methods": {},
+        "materials": {
+          "Other 2D / van der Waals materials": [
+            "van der waals"
+          ]
+        },
+        "properties": {
+          "Transport / diffusion": [
+            "exciton transport",
+            "exciton diffusion"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
     {
       "arxiv_id": "2610.28304",
       "version": "v1",
@@ -27106,10 +27477,19 @@
       "new": 5,
       "updated": 0,
       "total": 356
+    },
+    {
+      "scanned_at": "2026-10-22T08:53:02.966686+00:00",
+      "since": "2026-10-08",
+      "fetched": 33,
+      "classified": 33,
+      "new": 5,
+      "updated": 0,
+      "total": 361
     }
   ],
   "counts": {
-    "total": 356,
+    "total": 361,
     "new_this_scan": 5,
     "updated_this_scan": 0
   }
