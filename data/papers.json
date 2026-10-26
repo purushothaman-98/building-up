@@ -1,7 +1,367 @@
 {
   "schema_version": 2,
-  "last_scan": "2026-10-25T08:41:03.782517+00:00",
+  "last_scan": "2026-10-26T09:18:43.774101+00:00",
   "papers": [
+    {
+      "arxiv_id": "2610.32847",
+      "version": "v1",
+      "versioned_id": "2610.32847v1",
+      "title": "Magnons and excitons from Bethe-Salpeter equation and its application to graphene-based magnets",
+      "authors": [
+        "Simran Chourasia",
+        "Maurício F. C. Martins Quintela",
+        "J. J. Palacios"
+      ],
+      "abstract": "With the recent isolation of two-dimensional semiconducting magnetic materials, the theoretical study of spin-flip collective excitations (magnons) along with spin-conserving electron-hole bound pairs (excitons) has become particularly relevant. Describing both types of quasiparticles within the same theoretical framework is possible, in principle, but the well-established many-body formalism for the calculation of excitons, based on the intertwined Bethe-Salpeter and Hedin's equations, is not satisfactory for magnons, since the usual approximations produce a spurious gapped Goldstone mode. Here, we show that excitons and magnons can be computed on the same footing under the same Bethe-Salpeter formalism, while respecting the gapless Goldstone mode for magnons. We demonstrate how this can be achieved through the evaluation of the full Bethe-Salpeter equation, beyond the Tamm-Dancoff approximation in model Hamiltonians. As an example, we apply it to ferromagnetic and antiferromagnetic graphene, faithfully represented by the extended Hubbard model. Our results clarify the roles of on-site and non-local interactions in exciton and magnon appearance and identify consistency requirements relevant to extending the approach to first-principles calculations.",
+      "submitted": "2026-10-23T16:21:33Z",
+      "updated": "2026-10-23T16:21:33Z",
+      "categories": [
+        "cond-mat.mes-hall"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2610.32847v1",
+      "arxiv_url": "https://arxiv.org/abs/2610.32847",
+      "study_type": "Computational",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [
+        "COFs"
+      ],
+      "material_families": [],
+      "exciton_properties": [],
+      "applications": [],
+      "methods": [
+        "DFT",
+        "Bethe–Salpeter equation",
+        "Model Hamiltonian"
+      ],
+      "matched_keywords": [
+        "bethe-salpeter",
+        "exciton",
+        "first-principles",
+        "model hamiltonian"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [
+          "first-principles calculations"
+        ],
+        "experimental_methods": {},
+        "computational_methods": {
+          "DFT": [
+            "first-principles"
+          ],
+          "Bethe–Salpeter equation": [
+            "bethe-salpeter"
+          ],
+          "Model Hamiltonian": [
+            "model hamiltonian"
+          ]
+        },
+        "materials": {
+          "COFs": [
+            "cof"
+          ]
+        },
+        "properties": {},
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": true
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2610.32532",
+      "version": "v1",
+      "versioned_id": "2610.32532v1",
+      "title": "Excitonic Stark Response Induced by Quantum Capacitance in van der Waals Heterostructures",
+      "authors": [
+        "Xiangzhi Hong",
+        "Yongkang Jian",
+        "Yang Chen",
+        "Rukai Cang",
+        "Yuanlong Guo",
+        "Takashi Taniguchi",
+        "Kenji Watanabe",
+        "Baigeng Wang",
+        "Erfu Liu"
+      ],
+      "abstract": "Precise electrostatic control in van der Waals heterostructures is commonly described by a geometric capacitor model, which assumes that the internal electric field is fully determined by external gate voltages. Here, we show that this description breaks down in the presence of interfacial charge transfer, where quantum capacitance modifies the internal electrostatics. Using interlayer excitons as local probes, we observe a dipole-dependent energy splitting that persists even when the gate-induced geometric field is nominally canceled. This splitting reflects incomplete cancellation between gate- and carrier-induced fields set by quantum capacitance, while many-body renormalization is largely symmetric with respect to the two opposite dipole orientations, allowing the splitting to provide a direct optical measure of the local chemical potential. Our results reveal the central role of quantum capacitance in interface electrostatics and provide a route to probe it in operando.",
+      "submitted": "2026-10-23T12:06:25Z",
+      "updated": "2026-10-23T12:06:25Z",
+      "categories": [
+        "cond-mat.mes-hall"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2610.32532v1",
+      "arxiv_url": "https://arxiv.org/abs/2610.32532",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [
+        "2D materials"
+      ],
+      "material_families": [
+        "Other 2D / van der Waals materials"
+      ],
+      "exciton_properties": [],
+      "applications": [],
+      "methods": [],
+      "matched_keywords": [
+        "exciton",
+        "excitonic"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [
+          "we observe"
+        ],
+        "computational_actions": [
+          "using"
+        ],
+        "experimental_methods": {},
+        "computational_methods": {},
+        "materials": {
+          "2D materials": [
+            "van der waals heterostructure"
+          ],
+          "Other 2D / van der Waals materials": [
+            "van der waals"
+          ]
+        },
+        "properties": {},
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2610.32456",
+      "version": "v1",
+      "versioned_id": "2610.32456v1",
+      "title": "Side-Chain Engineering Controls Molecular Packing and Vertical Electron Transport in Discrete n-Type NDI-T2 Oligomers",
+      "authors": [
+        "Zihao Liu",
+        "Hajar Komekoz",
+        "Nisarg Trivedi",
+        "Max Dorfner",
+        "Lokesh Rasabathina",
+        "Rico Ehrler",
+        "Mike Hambsch",
+        "Chen Wang",
+        "Dietrich R. T. Zahn",
+        "Jörg Matysik",
+        "Stefan C. B. Mannsfeld",
+        "Carsten Deibel",
+        "Olav Hellwig",
+        "Frank Ortmann",
+        "Michael Sommer",
+        "Georgeta Salvan"
+      ],
+      "abstract": "High-efficiency vertical charge transport in multilayer organic optoelectronic devices highly depends on molecular structure and arrangement. Using two T2-(NDI-T2)2 conjugated oligomers with ethylhexyl (EH) and octyldodecyl (OD) side chains as a model system, their effects on electron transport are investigated using, among other techniques, atomic force microscopy (AFM), conductive atomic force microscopy (C-AFM), grazing-incidence wide-angle X-ray scattering (GIWAXS), steady-state optical spectroscopy, and time-dependent density functional theory (TDDFT) calculations. The oligomers of both materials exhibit relatively disordered structures in the as-cast state, whereas annealing enhances structural order and leads to side-chain-dependent changes in molecular stacking. EH-based films show a smaller annealing-induced photoluminescence shift than OD-based films, suggesting less pronounced stacking and conformational rearrangements, consistent with TDDFT-supported exciton analysis. The current-voltage characteristics are analyzed using the space-charge-limited current (SCLC) model. After annealing, both materials exhibit improved vertical electron mobility. The EH-based films reach a maximum mobility of 1.2 x 10^-4 cm^2 V^-1 s^-1. The combined results suggest that the shorter EH side chains modify the out-of-plane packing environment and facilitate vertical electron transport. These results establish a structure-property relationship between side-chain structure, molecular order, exciton coupling and vertical mobility, providing a molecular design basis for optimising organic semiconductors through side-chain engineering.",
+      "submitted": "2026-10-23T10:20:38Z",
+      "updated": "2026-10-23T10:20:38Z",
+      "categories": [
+        "cond-mat.mtrl-sci"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2610.32456v1",
+      "arxiv_url": "https://arxiv.org/abs/2610.32456",
+      "study_type": "Computational",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [
+        "organic semiconductors"
+      ],
+      "material_families": [
+        "Organic / molecular materials"
+      ],
+      "exciton_properties": [],
+      "applications": [],
+      "methods": [
+        "Photoluminescence",
+        "DFT",
+        "TDDFT"
+      ],
+      "matched_keywords": [
+        "density functional theory",
+        "dft",
+        "exciton",
+        "photoluminescence",
+        "tddft",
+        "time-dependent density functional theory"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [
+          "using"
+        ],
+        "experimental_methods": {
+          "Photoluminescence": [
+            "photoluminescence"
+          ]
+        },
+        "computational_methods": {
+          "DFT": [
+            "density functional theory",
+            "dft"
+          ],
+          "TDDFT": [
+            "time-dependent density functional theory",
+            "tddft"
+          ]
+        },
+        "materials": {
+          "organic semiconductors": [
+            "organic semiconductor"
+          ],
+          "Organic / molecular materials": [
+            "organic semiconductor"
+          ]
+        },
+        "properties": {},
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": true
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2610.32392",
+      "version": "v1",
+      "versioned_id": "2610.32392v1",
+      "title": "PULSES: multi-agent AI for autonomous excited-state model building and dynamics",
+      "authors": [
+        "Fangning Ren",
+        "Lechen Dong",
+        "Xu Chen",
+        "Weilin Zou",
+        "Bushra Alam",
+        "Fang Liu"
+      ],
+      "abstract": "Simulating molecular excited-state processes requires resolving electronic and nuclear dynamics, but the cost of direct quantum-chemical calculations limits accessible system sizes and timescales. Machine-learning models can extend these simulations, yet they often need to be tailored to specific molecular systems and scientific objectives. Building and deploying such models requires coordinated decisions across conformational sampling, quantum-chemical labelling, model training, validation and dynamics. Here we introduce Paired agents for Unified Learning and Simulation of Excited States (PULSES), a multi-agent system that automates this workflow within expert-approved boundaries. A human expert and planner define the scientific objective, methods and decision boundaries, while an orchestrator coordinates domain agents and artifact-specific scientific assurance during execution. We evaluate PULSES on 15 computational chemistry tasks and demonstrate end-to-end applications to perylene exciton Hamiltonians, solvent-dependent biphenyl relaxation, and excited-state proton transfer in 10-hydroxybenzo[h]quinoline. These results demonstrate traceable, expert-bounded construction and deployment of specialized excited-state models, while retaining scientific validation as a requirement rather than assuming that successful execution establishes correctness.",
+      "submitted": "2026-10-23T09:17:05Z",
+      "updated": "2026-10-23T09:17:05Z",
+      "categories": [
+        "physics.chem-ph",
+        "cs.MA"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2610.32392v1",
+      "arxiv_url": "https://arxiv.org/abs/2610.32392",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Methods / software",
+      "materials": [],
+      "material_families": [],
+      "exciton_properties": [],
+      "applications": [],
+      "methods": [],
+      "matched_keywords": [
+        "exciton"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [],
+        "experimental_methods": {},
+        "computational_methods": {},
+        "materials": {},
+        "properties": {},
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2610.32287",
+      "version": "v1",
+      "versioned_id": "2610.32287v1",
+      "title": "Near-field maps of topological edge states of molecular aggregates",
+      "authors": [
+        "Aritra Mishra",
+        "Sidhartha Nayak",
+        "Alexander Eisfeld"
+      ],
+      "abstract": "Self-assembled two-dimensional molecular aggregates provide a versatile platform for engineering excitonic states, including topologically nontrivial edge states. However, these edge-states are difficult to probe optically: they have weak far-field transition strengths, and far-field spectra do not reveal whether an excitation is localized at the edge. For an aggregate consisting of two sublattices of molecules with genuinely complex transition dipoles, we show that spatially resolved near-field spectroscopy encodes the full spatial structure of these states. The resulting near-field maps do not mirror the site populations, but instead exhibit strongly nonuniform, interference-like features. We demonstrate that a convolutional neural network can reconstruct the complex expansion coefficients of the eigenstates from these maps, and that this reconstruction is robust against substantial random noise.",
+      "submitted": "2026-10-23T07:46:38Z",
+      "updated": "2026-10-23T07:46:38Z",
+      "categories": [
+        "quant-ph",
+        "cond-mat.mes-hall"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2610.32287v1",
+      "arxiv_url": "https://arxiv.org/abs/2610.32287",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [],
+      "material_families": [
+        "Organic / molecular materials"
+      ],
+      "exciton_properties": [
+        "Oscillator strength / optical activity"
+      ],
+      "applications": [],
+      "methods": [
+        "Oscillator strength"
+      ],
+      "matched_keywords": [
+        "exciton",
+        "excitonic",
+        "transition dipole"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [],
+        "experimental_methods": {},
+        "computational_methods": {
+          "Oscillator strength": [
+            "transition dipole"
+          ]
+        },
+        "materials": {
+          "Organic / molecular materials": [
+            "molecular aggregate"
+          ]
+        },
+        "properties": {
+          "Oscillator strength / optical activity": [
+            "transition dipole"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
     {
       "arxiv_id": "2610.30964",
       "version": "v1",
@@ -27667,11 +28027,20 @@
       "new": 0,
       "updated": 0,
       "total": 363
+    },
+    {
+      "scanned_at": "2026-10-26T09:18:43.774101+00:00",
+      "since": "2026-10-12",
+      "fetched": 34,
+      "classified": 34,
+      "new": 5,
+      "updated": 0,
+      "total": 368
     }
   ],
   "counts": {
-    "total": 363,
-    "new_this_scan": 0,
+    "total": 368,
+    "new_this_scan": 5,
     "updated_this_scan": 0
   }
 }
