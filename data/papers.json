@@ -1,7 +1,162 @@
 {
   "schema_version": 2,
-  "last_scan": "2026-10-26T09:18:43.774101+00:00",
+  "last_scan": "2026-10-27T09:18:05.717686+00:00",
   "papers": [
+    {
+      "arxiv_id": "2610.35214",
+      "version": "v1",
+      "versioned_id": "2610.35214v1",
+      "title": "Optical Thermometry in Monolayer WS2: Raman and Photoluminescence Spectroscopy from 5 K to 1273 K",
+      "authors": [
+        "Gyeongjun Lee",
+        "Antoine Borel",
+        "Takashi Taniguchi",
+        "Kenji Watanabe",
+        "Fausto Sirotti",
+        "Fabian Cadiz"
+      ],
+      "abstract": "Reliable temperature measurement is essential for characterizing and engineering two-dimensional (2D) semiconductor devices, yet optical thermometry of 2D materials has so far been demonstrated only over narrow temperature windows spanning a few hundred kelvin. Here, we establish a comprehensive optical thermometry framework for monolayer WS2 from 5~K to 1273~K. We show that: (i) the out-of-plane A1g Raman mode shifts linearly with temperature above 100~K, with a slope of -0.0138 cm^{-1}/K in non-encapsulated WS2 (fitted over 298-1223~K) and a measurably smaller slope of -0.0121 cm^{-1}/K in an hBN-encapsulated sample (fitted over 100-1273~K); (ii) photoluminescence spectra measured over the same 5--1273~K range provide an independent optical indicator of the temperature: the neutral-exciton emission redshifts continuously with temperature and is well described by the semi-empirical Pässler model. The two indicators probe distinct physical mechanisms, lattice anharmonicity and bandgap renormalization, and together provide contact-free thermometry for monolayer WS2 from 5~K to 1273~K, an approach applicable to 2D semiconductors more broadly.",
+      "submitted": "2026-10-26T11:07:01Z",
+      "updated": "2026-10-26T11:07:01Z",
+      "categories": [
+        "cond-mat.mtrl-sci"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2610.35214v1",
+      "arxiv_url": "https://arxiv.org/abs/2610.35214",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [
+        "WS2",
+        "hBN",
+        "2D materials"
+      ],
+      "material_families": [
+        "TMDs / 2D chalcogenides",
+        "Other 2D / van der Waals materials"
+      ],
+      "exciton_properties": [],
+      "applications": [],
+      "methods": [
+        "Photoluminescence"
+      ],
+      "matched_keywords": [
+        "exciton",
+        "photoluminescence"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [],
+        "experimental_methods": {
+          "Photoluminescence": [
+            "photoluminescence"
+          ]
+        },
+        "computational_methods": {},
+        "materials": {
+          "WS2": [
+            "ws2"
+          ],
+          "hBN": [
+            "hbn"
+          ],
+          "2D materials": [
+            "2d material"
+          ],
+          "TMDs / 2D chalcogenides": [
+            "ws2"
+          ],
+          "Other 2D / van der Waals materials": [
+            "2d material",
+            "monolayer",
+            "hbn"
+          ]
+        },
+        "properties": {},
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2610.33989",
+      "version": "v1",
+      "versioned_id": "2610.33989v1",
+      "title": "Momentum-selective graphene spectroscopy of moiré excitons",
+      "authors": [
+        "Katsunori Wakabayashi"
+      ],
+      "abstract": "Far-field photoluminescence probes only the light-cone corner of an exciton's momentum content, whereas energy transfer to nearby graphene integrates in-plane momenta up to the inverse spacer thickness $1/z$. For a WSe$_2$/MoSe$_2$ heterobilayer we build the transition polarization $\\bm{P}_n(\\qv)$ of each localized moiré exciton from the registry-dependent vector dipole texture and use each $\\bm{P}_n$ for both baths. The two baths rank the states differently: the graphene-rate ratios differ from the optical ones, their ordering inverts with spacer thickness, and the distance exponents at $z=10$\\,nm spread by more than two units. These ratios are independent of the transition-dipole prefactor. Within the $C_3$-symmetric leading-harmonic model the chiral $p_+$ and $d_-$ states are also dark at normal incidence yet transfer to graphene at rates comparable to the bright ground state. Their graphene rate depends on the sign of the texture phase, a quantity invisible in far-field emission, which we determine from first principles. In a device this prediction requires a splitting, larger than the symmetry-breaking mixing, that protects the chiral partners. Graphene proximity thus acts as a momentum-selective near-field probe of moiré excitons, and we propose its use as a practical spectroscopy.",
+      "submitted": "2026-10-25T02:01:00Z",
+      "updated": "2026-10-25T02:01:00Z",
+      "categories": [
+        "cond-mat.mes-hall",
+        "cond-mat.mtrl-sci"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2610.33989v1",
+      "arxiv_url": "https://arxiv.org/abs/2610.33989",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [],
+      "material_families": [
+        "Other 2D / van der Waals materials"
+      ],
+      "exciton_properties": [
+        "Transport / diffusion"
+      ],
+      "applications": [],
+      "methods": [
+        "Photoluminescence",
+        "DFT"
+      ],
+      "matched_keywords": [
+        "exciton",
+        "first principles",
+        "photoluminescence"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [],
+        "experimental_methods": {
+          "Photoluminescence": [
+            "photoluminescence"
+          ]
+        },
+        "computational_methods": {
+          "DFT": [
+            "first principles"
+          ]
+        },
+        "materials": {
+          "Other 2D / van der Waals materials": [
+            "heterobilayer"
+          ]
+        },
+        "properties": {
+          "Transport / diffusion": [
+            "energy transfer"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
     {
       "arxiv_id": "2610.32847",
       "version": "v1",
@@ -28036,11 +28191,20 @@
       "new": 5,
       "updated": 0,
       "total": 368
+    },
+    {
+      "scanned_at": "2026-10-27T09:18:05.717686+00:00",
+      "since": "2026-10-13",
+      "fetched": 35,
+      "classified": 35,
+      "new": 2,
+      "updated": 0,
+      "total": 370
     }
   ],
   "counts": {
-    "total": 368,
-    "new_this_scan": 5,
+    "total": 370,
+    "new_this_scan": 2,
     "updated_this_scan": 0
   }
 }
