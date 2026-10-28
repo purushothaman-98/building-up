@@ -1,7 +1,187 @@
 {
   "schema_version": 2,
-  "last_scan": "2026-10-27T09:18:05.717686+00:00",
+  "last_scan": "2026-10-28T09:58:37.851797+00:00",
   "papers": [
+    {
+      "arxiv_id": "2610.36782",
+      "version": "v1",
+      "versioned_id": "2610.36782v1",
+      "title": "Real-Space Selection Rule for Moiré Exciton-Phonon Coupling",
+      "authors": [
+        "Yixuan Liu",
+        "Shiyu Peng",
+        "Yifan Wang",
+        "Peiyao Qin",
+        "Wang Yao",
+        "Chen Hu"
+      ],
+      "abstract": "Exciton-phonon coupling (ExPC) governs energy relaxation and exciton dynamics in photoexcited quantum materials. Recent advances have revealed rich and tunable excitonic phenomena in moiré superlattices, yet the microscopic mechanisms underlying the coupling between moiré excitons and moiré phonons remain elusive. Here, we develop a real-space representation for moiré ExPC based on a unified theoretical framework combining the many-body Bethe-Salpeter equation with phonon perturbation theory. Furthermore, we uncover a general real-space selection rule: the spatial matching of a moiré exciton's electron and hole densities with the moiré-phonon-induced potential perturbations determines their individual coupling contributions, while coherent interference between the electron and hole contributions controls the total ExPC. We demonstrate this rule in prototypical WSe2/WS2 moiré heterobilayers, revealing pronounced exciton- and phonon-mode-dependent coupling, including nearly complete suppression of ExPC through destructive electron-hole interference. These findings establish the internal electron-hole spatial configuration of moiré excitons as a key degree of freedom governing the strength and mode selectivity of their coupling to moiré phonons, opening opportunities to engineer ExPC through spatially tailored moiré potentials.",
+      "submitted": "2026-10-27T07:48:30Z",
+      "updated": "2026-10-27T07:48:30Z",
+      "categories": [
+        "cond-mat.mtrl-sci"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2610.36782v1",
+      "arxiv_url": "https://arxiv.org/abs/2610.36782",
+      "study_type": "Computational",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [
+        "WS2",
+        "WSe2"
+      ],
+      "material_families": [
+        "TMDs / 2D chalcogenides",
+        "Other 2D / van der Waals materials"
+      ],
+      "exciton_properties": [
+        "Exciton-phonon coupling"
+      ],
+      "applications": [],
+      "methods": [
+        "Exciton lifetime / dynamics",
+        "Bethe–Salpeter equation"
+      ],
+      "matched_keywords": [
+        "bethe-salpeter",
+        "exciton",
+        "exciton dynamics",
+        "excitonic"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [],
+        "experimental_methods": {
+          "Exciton lifetime / dynamics": [
+            "exciton dynamics"
+          ]
+        },
+        "computational_methods": {
+          "Bethe–Salpeter equation": [
+            "bethe-salpeter"
+          ]
+        },
+        "materials": {
+          "WS2": [
+            "ws2"
+          ],
+          "WSe2": [
+            "wse2"
+          ],
+          "TMDs / 2D chalcogenides": [
+            "ws2",
+            "wse2"
+          ],
+          "Other 2D / van der Waals materials": [
+            "heterobilayer"
+          ]
+        },
+        "properties": {
+          "Exciton-phonon coupling": [
+            "exciton-phonon"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": true
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2610.36263",
+      "version": "v1",
+      "versioned_id": "2610.36263v1",
+      "title": "Exciton-driven coherent dressing in transient absorption",
+      "authors": [
+        "Jinyuan Wu",
+        "Chang Shu",
+        "Yang-hao Chan",
+        "Diana Y. Qiu"
+      ],
+      "abstract": "While coherent excitons have recently been observed to dress electronic states in time- and angle-resolved photoemission spectroscopy (tr-ARPES), exciton-driven dressing in optical spectroscopy remains largely unexplored. This work develops a theoretical and computational approach to exciton-driven dressing effects in transient absorption spectroscopy in the time-dependent adiabatic GW formalism and derives two symmetry- and band topology-protected selections rules for exciton-dressed transient absorption, unique from tr-ARPES. We then numerically calculate exciton-dressed transient absorption spectra of monolayer MoS2 and demonstrate the selection rules and their lifting after symmetry breaking.",
+      "submitted": "2026-10-26T20:39:09Z",
+      "updated": "2026-10-26T20:39:09Z",
+      "categories": [
+        "cond-mat.mtrl-sci"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2610.36263v1",
+      "arxiv_url": "https://arxiv.org/abs/2610.36263",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [
+        "MoS2"
+      ],
+      "material_families": [
+        "TMDs / 2D chalcogenides",
+        "Other 2D / van der Waals materials"
+      ],
+      "exciton_properties": [
+        "Coherence"
+      ],
+      "applications": [],
+      "methods": [
+        "Absorption / reflectance",
+        "Pump–probe spectroscopy",
+        "Photoemission / photocurrent"
+      ],
+      "matched_keywords": [
+        "absorption spectra",
+        "arpes",
+        "exciton",
+        "photoemission spectroscopy",
+        "transient absorption"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [],
+        "experimental_methods": {
+          "Absorption / reflectance": [
+            "absorption spectra"
+          ],
+          "Pump–probe spectroscopy": [
+            "transient absorption"
+          ],
+          "Photoemission / photocurrent": [
+            "arpes",
+            "photoemission spectroscopy"
+          ]
+        },
+        "computational_methods": {},
+        "materials": {
+          "MoS2": [
+            "mos2"
+          ],
+          "TMDs / 2D chalcogenides": [
+            "mos2"
+          ],
+          "Other 2D / van der Waals materials": [
+            "monolayer"
+          ]
+        },
+        "properties": {
+          "Coherence": [
+            "coherent exciton"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
     {
       "arxiv_id": "2610.35214",
       "version": "v1",
@@ -28200,10 +28380,19 @@
       "new": 2,
       "updated": 0,
       "total": 370
+    },
+    {
+      "scanned_at": "2026-10-28T09:58:37.851797+00:00",
+      "since": "2026-10-14",
+      "fetched": 33,
+      "classified": 33,
+      "new": 2,
+      "updated": 0,
+      "total": 372
     }
   ],
   "counts": {
-    "total": 370,
+    "total": 372,
     "new_this_scan": 2,
     "updated_this_scan": 0
   }
