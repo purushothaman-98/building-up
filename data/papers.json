@@ -1,7 +1,477 @@
 {
   "schema_version": 2,
-  "last_scan": "2026-10-29T10:21:28.410080+00:00",
+  "last_scan": "2026-10-30T10:24:18.698712+00:00",
   "papers": [
+    {
+      "arxiv_id": "2610.40479",
+      "version": "v1",
+      "versioned_id": "2610.40479v1",
+      "title": "Nonlinear Jackiw-Rebbi exciton-polaritons at van der Waals topological interfaces",
+      "authors": [
+        "Oscar J. Palma Chaundler",
+        "Paul Bouteyre",
+        "Xuerong Hu",
+        "Sam A. Randerson",
+        "Daniel J. Gillard",
+        "Owen R. Wolley",
+        "Yue Wang",
+        "Kenji Watanabe",
+        "Takashi Taniguchi",
+        "Helgi Sigurðsson",
+        "Alexander I. Tartakovskii"
+      ],
+      "abstract": "Topological photonic structures provide a powerful means of confining and directing light through interface states formed between photonic phases with distinct topological properties. Van der Waals (vdW) materials offer complementary opportunities for nanophotonics: their optical properties can be selected from a wide family of layered crystals, while their atomically smooth surfaces and lack of lattice-matching constraints enable complex photonic heterostructures to be assembled layer by layer. This flexibility allows topological photonic confinement and strong excitonic coupling to be engineered separately within the same structure. Here, patterned low-loss dielectric hexagonal boron nitride (hBN) defines the photonic modes, while an encapsulated WSe2 monolayer provides the excitonic resonance that couples directly to the confined optical field. We use this approach to realise Jackiw-Rebbi exciton-polaritons in a one-dimensional hBN double-grating heterostructure. Strong coupling between the WSe2 exciton and a photonic Jackiw-Rebbi state localised at the interface between two topologically distinct gratings produces upper and lower Jackiw-Rebbi polariton branches. By varying the temperature from 4.7 to 300 K, we tune the exciton across the photonic bandgap and trace the evolution and anticrossing of these branches using angle-resolved reflectance and photoluminescence spectroscopy. Power-dependent photoluminescence further reveals a pronounced nonlinear response of the confined Jackiw-Rebbi polariton, including a blueshift of up to 5 meV and correlated changes in its intensity scaling and linewidth. These results establish vdW photonic heterostructures as a versatile platform for engineering tunable and nonlinear polaritons localised at topological interfaces.",
+      "submitted": "2026-10-29T17:11:24Z",
+      "updated": "2026-10-29T17:11:24Z",
+      "categories": [
+        "physics.optics"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2610.40479v1",
+      "arxiv_url": "https://arxiv.org/abs/2610.40479",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [
+        "WSe2",
+        "hBN"
+      ],
+      "material_families": [
+        "TMDs / 2D chalcogenides",
+        "Other 2D / van der Waals materials"
+      ],
+      "exciton_properties": [
+        "Linewidth / dephasing",
+        "Light-matter strong coupling"
+      ],
+      "applications": [
+        "Exciton polaritons",
+        "Light–matter coupling"
+      ],
+      "methods": [
+        "Photoluminescence",
+        "Absorption / reflectance",
+        "Linewidth / fine structure"
+      ],
+      "matched_keywords": [
+        "exciton",
+        "excitonic",
+        "linewidth",
+        "photoluminescence",
+        "polariton",
+        "reflectance"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [
+          "we use"
+        ],
+        "computational_actions": [
+          "we use",
+          "using"
+        ],
+        "experimental_methods": {
+          "Photoluminescence": [
+            "photoluminescence"
+          ],
+          "Absorption / reflectance": [
+            "reflectance"
+          ],
+          "Linewidth / fine structure": [
+            "linewidth"
+          ]
+        },
+        "computational_methods": {},
+        "materials": {
+          "WSe2": [
+            "wse2"
+          ],
+          "hBN": [
+            "hbn",
+            "hexagonal boron nitride"
+          ],
+          "TMDs / 2D chalcogenides": [
+            "wse2"
+          ],
+          "Other 2D / van der Waals materials": [
+            "van der waals",
+            "monolayer",
+            "hbn",
+            "hexagonal boron nitride"
+          ]
+        },
+        "properties": {
+          "Linewidth / dephasing": [
+            "linewidth"
+          ],
+          "Light-matter strong coupling": [
+            "exciton-polariton"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2610.39894",
+      "version": "v1",
+      "versioned_id": "2610.39894v1",
+      "title": "Excitons in solid molecular hydrogen from quantum Monte Carlo",
+      "authors": [
+        "Edgar Josué Landinez Borda",
+        "Ravindra Shinde",
+        "Claudia Filippi",
+        "Markus Holzmann",
+        "Saverio Moroni"
+      ],
+      "abstract": "We use quantum Monte Carlo (QMC) methods to investigate the lowest neutral excitation of solid molecular hydrogen in phase-I under increasing compression, with emphasis on structural and response properties. We employ QMC wave functions for the excited state that feature only a single orbital substitution, or a multideterminant expansion including every single particle-hole transition, and compare the results with the Bethe-Salpeter equation (BSE) and time-dependent density-functional theory (TDDFT). We examine a number of nuclear configurations representing thermal and quantum fluctuations. The effect of the multideterminant expansion is marginal on the QMC excitation energies but crucial on the exciton localization and related quantities, irrespective of full optimization and imaginary time projection. In the strong insulating regime at low density, multideterminant QMC results match and in some cases surpass the degree of localization afforded by BSE. A similar trend is observed for transition dipole moments and excitation-induced forces, with generally good agreement between QMC and BSE but marked discrepancies for nuclear configurations where localization differs significantly. TDDFT generally gives a more extended exciton with correspondingly weaker transition dipole moments. These differences decrease upon compression, as the system approaches a semiconducting regime where multiple particle-hole transitions are less important.",
+      "submitted": "2026-10-29T12:06:43Z",
+      "updated": "2026-10-29T12:06:43Z",
+      "categories": [
+        "cond-mat.mtrl-sci",
+        "cond-mat.str-el",
+        "physics.comp-ph"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2610.39894v1",
+      "arxiv_url": "https://arxiv.org/abs/2610.39894",
+      "study_type": "Computational",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [],
+      "material_families": [],
+      "exciton_properties": [
+        "Oscillator strength / optical activity"
+      ],
+      "applications": [],
+      "methods": [
+        "DFT",
+        "Bethe–Salpeter equation",
+        "TDDFT",
+        "Quantum Monte Carlo",
+        "Oscillator strength"
+      ],
+      "matched_keywords": [
+        "bethe-salpeter",
+        "dft",
+        "exciton",
+        "quantum monte carlo",
+        "tddft",
+        "transition dipole"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [
+          "we use",
+          "we employ"
+        ],
+        "computational_actions": [
+          "we employ",
+          "we use"
+        ],
+        "experimental_methods": {},
+        "computational_methods": {
+          "DFT": [
+            "dft"
+          ],
+          "Bethe–Salpeter equation": [
+            "bethe-salpeter"
+          ],
+          "TDDFT": [
+            "tddft"
+          ],
+          "Quantum Monte Carlo": [
+            "quantum monte carlo"
+          ],
+          "Oscillator strength": [
+            "transition dipole"
+          ]
+        },
+        "materials": {},
+        "properties": {
+          "Oscillator strength / optical activity": [
+            "transition dipole"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": true
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2610.38251",
+      "version": "v1",
+      "versioned_id": "2610.38251v1",
+      "title": "Charge Filling-Dependent Valley Polarization and its Dynamics Driven by Correlated Interlayer Exciton States in WSe2/WS2 Heterobilayer",
+      "authors": [
+        "Zhiwei Li",
+        "Haonan Wang",
+        "Yubei Xiang",
+        "Wataru Idehara",
+        "Hailin Liu",
+        "Shinichiro Matano",
+        "Kenji Watanabe",
+        "Takashi Taniguchi",
+        "Kazunari Matsuda"
+      ],
+      "abstract": "Moiré heterostructures of transition metal dichalcogenides provide an emerging platform for studying the strongly correlated electronic and excitonic states. The valley degree of freedom and its dynamics in the strongly correlated electronic and excitonic states in the moiré system are crucial for fundamental understanding and applications of valleytronics. Although the strongly correlated states in moiré systems have been extensively investigated, their impact on valley degrees of freedom and its dynamics remains unexplored. Here, we study the charge filling-dependent valley relaxation dynamics of interlayer excitons (IXs) in WSe2/WS2 moiré heterobilayer system. The evolution of moiré IXs dynamics across the Mott transition is elucidated by combining time-resolved optical spectroscopy with Monte Carlo simulation. Our results show that the radiative decay and recombination rate of IXs are enhanced at the integer filling factors n (=-1). Moreover, the valley relaxation rate of IXs at n=$\\pm$1 is significantly decreased. The resulting reduction in wavefunction overlap and phonon scattering process suppresses the nonradiative recombination and intervalley scattering of IXs. These anomalous behaviors are attributed to the modification of IXs recombination pathways and enhance excitonic coherence due to the localization of introduced charge carriers at integer filling of moiré site. Our results explore exciton and valley dynamics as sensitive probes of strongly correlated states in moiré systems and highlight possible ways to control excitonic coherence and valleytronic properties in two-dimensional quantum materials.",
+      "submitted": "2026-10-28T04:04:14Z",
+      "updated": "2026-10-28T04:04:14Z",
+      "categories": [
+        "cond-mat.mes-hall"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2610.38251v1",
+      "arxiv_url": "https://arxiv.org/abs/2610.38251",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [
+        "WS2",
+        "WSe2",
+        "transition-metal dichalcogenides"
+      ],
+      "material_families": [
+        "TMDs / 2D chalcogenides",
+        "Other 2D / van der Waals materials"
+      ],
+      "exciton_properties": [
+        "Lifetime / relaxation",
+        "g-factor / Zeeman splitting",
+        "Coherence",
+        "Valley / spin physics"
+      ],
+      "applications": [],
+      "methods": [
+        "Time-resolved spectroscopy",
+        "Exciton g-factor"
+      ],
+      "matched_keywords": [
+        "exciton",
+        "excitonic",
+        "g factor",
+        "time-resolved"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [],
+        "experimental_methods": {
+          "Time-resolved spectroscopy": [
+            "time-resolved"
+          ],
+          "Exciton g-factor": [
+            "g factor"
+          ]
+        },
+        "computational_methods": {},
+        "materials": {
+          "WS2": [
+            "ws2"
+          ],
+          "WSe2": [
+            "wse2"
+          ],
+          "transition-metal dichalcogenides": [
+            "transition metal dichalcogenide"
+          ],
+          "TMDs / 2D chalcogenides": [
+            "transition metal dichalcogenide",
+            "ws2",
+            "wse2"
+          ],
+          "Other 2D / van der Waals materials": [
+            "heterobilayer"
+          ]
+        },
+        "properties": {
+          "Lifetime / relaxation": [
+            "relaxation dynamics"
+          ],
+          "g-factor / Zeeman splitting": [
+            "g factor"
+          ],
+          "Coherence": [
+            "excitonic coherence"
+          ],
+          "Valley / spin physics": [
+            "valley polarization"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2610.38156",
+      "version": "v1",
+      "versioned_id": "2610.38156v1",
+      "title": "Incoherent dark excitons extend Floquet-like physics across time and momentum",
+      "authors": [
+        "Xing Zhu",
+        "Jacques Hawecker",
+        "Enrico Perfetto",
+        "Vivek Pareek",
+        "David R. Bacon",
+        "Harley Suchiang",
+        "Nanami Tomoda",
+        "Amrita Mitra",
+        "Takumi Fukuda",
+        "Sebastien Roux",
+        "Ouri Karni",
+        "Jack Featherstone",
+        "Kenji Watanabe",
+        "Takashi Taniguchi",
+        "Michael K. L. Man",
+        "Julien Madéo",
+        "Felipe H. da Jornada",
+        "Gianluca Stefanucci",
+        "Keshav M. Dani"
+      ],
+      "abstract": "Floquet phenomena - where a coherent, time-periodic drive hybridizes the conduction band with energy-replicated copies of the valence band - have been demonstrated with intense optical fields and, more recently, other bosonic excitations. However, within mean-field approximations and the current understanding of Floquet phenomena, these effects survive only for the coherence time of the drive, limiting practical use and current demonstrations to the sub-picosecond regime. Here, consistent with recent theoretical predictions beyond the mean-field picture, using time- and angle-resolved photoemission spectroscopy in WSe$_2$/MoS$_2$ heterostructures, we show that incoherent, dense populations of dark interlayer excitons hybridize the conduction band with energy-replicated copies of the valence band, mimicking Floquet-like phenomena - now persisting for nearly a nanosecond. With increasing interlayer exciton density, the valence band and its replica evolve from an inverted-parabolic to a Mexican-hat dispersion, a signature of the predicted non-zero static coupling that hybridizes the bands and scales linearly with the exciton density. By tuning twist angle, we further show that dark excitons with net momentum create replicas that hybridize with bands offset not just in energy but also in momentum, providing another powerful degree of freedom beyond conventional Floquet engineering. These results establish a robust, long-lived route to engineering electronic states, beyond a coherent, zero-momentum drive.",
+      "submitted": "2026-10-28T01:50:47Z",
+      "updated": "2026-10-28T01:50:47Z",
+      "categories": [
+        "cond-mat.mes-hall",
+        "cond-mat.mtrl-sci",
+        "cond-mat.other"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2610.38156v1",
+      "arxiv_url": "https://arxiv.org/abs/2610.38156",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [],
+      "material_families": [],
+      "exciton_properties": [
+        "Fine structure / bright-dark splitting",
+        "Coherence"
+      ],
+      "applications": [],
+      "methods": [
+        "Photoemission / photocurrent"
+      ],
+      "matched_keywords": [
+        "exciton",
+        "photoemission spectroscopy"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [
+          "using"
+        ],
+        "experimental_methods": {
+          "Photoemission / photocurrent": [
+            "photoemission spectroscopy"
+          ]
+        },
+        "computational_methods": {},
+        "materials": {},
+        "properties": {
+          "Fine structure / bright-dark splitting": [
+            "dark exciton"
+          ],
+          "Coherence": [
+            "coherence time"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2610.37781",
+      "version": "v1",
+      "versioned_id": "2610.37781v1",
+      "title": "Evidence for a charged vortex lattice in an exciton superfluid",
+      "authors": [
+        "Ryan L. Lee",
+        "Jungwoo Lee",
+        "Viliam Vaňo",
+        "Bo Zou",
+        "Cheng-Li Chiu",
+        "Kenji Watanabe",
+        "Takashi Taniguchi",
+        "Allan MacDonald",
+        "Ali Yazdani"
+      ],
+      "abstract": "Lattices of quantized vortices are a defining property of rotating superfluids and of type-II superconductors in magnetic fields. Realizing an analogous vortex lattice in an exciton superfluid-formed from bound electron-hole pairs-has remained challenging because excitons are electrically neutral. Building on previous theoretical studies of the low-energy excitations in an exciton superfluid, recent theory has predicted that in a strong magnetic field, a weakly charged exciton superfluid can stabilize a vortex-antivortex lattice arising from the mutual repulsion of fractionally charged vortex cores. Here we report evidence for this predicted vortex lattice in a bilayer exciton condensate by imaging its charged vortices with the scanning tunnelling microscope. The condensate forms between Landau levels of two graphene layers separated by a thin hexagonal boron nitride barrier in a perpendicular magnetic field. We find that the vortex lattice periodicity scales with the total excess charge and is insensitive to its distribution between the two layers, in quantitative agreement with theoretical predictions. Our observations provide evidence for phase coherence in an exciton superfluid system.",
+      "submitted": "2026-10-27T18:02:45Z",
+      "updated": "2026-10-27T18:02:45Z",
+      "categories": [
+        "cond-mat.str-el",
+        "cond-mat.mes-hall"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2610.37781v1",
+      "arxiv_url": "https://arxiv.org/abs/2610.37781",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [
+        "hBN"
+      ],
+      "material_families": [
+        "Other 2D / van der Waals materials"
+      ],
+      "exciton_properties": [],
+      "applications": [],
+      "methods": [],
+      "matched_keywords": [
+        "exciton"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [
+          "we report"
+        ],
+        "computational_actions": [],
+        "experimental_methods": {},
+        "computational_methods": {},
+        "materials": {
+          "hBN": [
+            "hexagonal boron nitride"
+          ],
+          "Other 2D / van der Waals materials": [
+            "hexagonal boron nitride"
+          ]
+        },
+        "properties": {},
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
     {
       "arxiv_id": "2610.36782",
       "version": "v1",
@@ -28398,11 +28868,20 @@
       "new": 0,
       "updated": 0,
       "total": 372
+    },
+    {
+      "scanned_at": "2026-10-30T10:24:18.698712+00:00",
+      "since": "2026-10-16",
+      "fetched": 29,
+      "classified": 29,
+      "new": 5,
+      "updated": 0,
+      "total": 377
     }
   ],
   "counts": {
-    "total": 372,
-    "new_this_scan": 0,
+    "total": 377,
+    "new_this_scan": 5,
     "updated_this_scan": 0
   }
 }
