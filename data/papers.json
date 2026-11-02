@@ -1,7 +1,143 @@
 {
   "schema_version": 2,
-  "last_scan": "2026-11-01T10:46:02.006830+00:00",
+  "last_scan": "2026-11-02T11:38:01.878419+00:00",
   "papers": [
+    {
+      "arxiv_id": "2610.41730",
+      "version": "v1",
+      "versioned_id": "2610.41730v1",
+      "title": "Dipolar Exciton Polarons in a van der Waals Homobilayer",
+      "authors": [
+        "Yuxin Duan",
+        "Hongming Zhang",
+        "Yaofeng Zhu",
+        "Hang Zhou",
+        "Xinyue Zhang",
+        "Yan Liu",
+        "Song Luo",
+        "Long Zhang",
+        "Zhanghai Chen"
+      ],
+      "abstract": "Fermi polarons exemplify how many-body interactions give rise to emergent quasiparticles, providing a fundamental framework for understanding interacting quantum matter. In electron-doped two-dimensional semiconductors, exciton polarons offer optical access to Fermi-polaron physics and electrical tunability, yet achieving stronger and more controllable exciton-electron interactions remains a key challenge. Here, we realize dipolar exciton polarons in an electrically tunable van der Waals homobilayer, where interlayer excitons with spatially separated electrons and holes act as quantum impurities carrying permanent electric dipole moments. These dipolar polarons exhibit substantially enhanced exciton-electron interactions, with binding energies more than four times those of conventional intralayer exciton polarons. We further demonstrate that Fermi-sea layer polarization provides an additional degree of freedom for controlling many-body interactions. In particular, the presence of a Fermi sea induces hybridization between oppositely oriented dipolar polarons, whereas confining the Fermi sea to a single layer suppresses this hybridization and produces orientation-selective many-body dressing. Our findings establish an experimental platform for dipolar-polaron physics in which dipole orientation and Fermi-sea layer polarization jointly govern many-body interactions, opening a route towards electrically tunable interactions and dipolar-polaron-mediated attraction between itinerant electrons.",
+      "submitted": "2026-10-30T13:38:26Z",
+      "updated": "2026-10-30T13:38:26Z",
+      "categories": [
+        "cond-mat.mes-hall",
+        "physics.optics"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2610.41730v1",
+      "arxiv_url": "https://arxiv.org/abs/2610.41730",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [],
+      "material_families": [
+        "Other 2D / van der Waals materials"
+      ],
+      "exciton_properties": [
+        "Binding energy"
+      ],
+      "applications": [],
+      "methods": [],
+      "matched_keywords": [
+        "exciton"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [],
+        "experimental_methods": {},
+        "computational_methods": {},
+        "materials": {
+          "Other 2D / van der Waals materials": [
+            "van der waals"
+          ]
+        },
+        "properties": {
+          "Binding energy": [
+            "binding energies"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2610.37781",
+      "version": "v2",
+      "versioned_id": "2610.37781v2",
+      "title": "Evidence for a charged vortex lattice in an exciton superfluid",
+      "authors": [
+        "Ryan L. Lee",
+        "Jungwoo Lee",
+        "Viliam Vaňo",
+        "Bo Zou",
+        "Cheng-Li Chiu",
+        "Kenji Watanabe",
+        "Takashi Taniguchi",
+        "Allan MacDonald",
+        "Ali Yazdani"
+      ],
+      "abstract": "Lattices of quantized vortices are a defining property of rotating superfluids and of type-II superconductors in magnetic fields. Realizing an analogous vortex lattice in an exciton superfluid-formed from bound electron-hole pairs-has remained challenging because excitons are electrically neutral. Building on previous theoretical studies of the low-energy excitations in an exciton superfluid, recent theory has predicted that in a strong magnetic field, a weakly charged exciton superfluid can stabilize a vortex-antivortex lattice arising from the mutual repulsion of fractionally charged vortex cores. Here we report evidence for this predicted vortex lattice in a bilayer exciton condensate by imaging its charged vortices with the scanning tunnelling microscope. The condensate forms between Landau levels of two graphene layers separated by a thin hexagonal boron nitride barrier in a perpendicular magnetic field. We find that the vortex lattice periodicity scales with the total excess charge and is insensitive to its distribution between the two layers, in quantitative agreement with theoretical predictions. Our observations provide evidence for phase coherence in an exciton superfluid system.",
+      "submitted": "2026-10-27T18:02:45Z",
+      "updated": "2026-10-30T05:58:50Z",
+      "categories": [
+        "cond-mat.str-el",
+        "cond-mat.mes-hall"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2610.37781v2",
+      "arxiv_url": "https://arxiv.org/abs/2610.37781",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [
+        "hBN"
+      ],
+      "material_families": [
+        "Other 2D / van der Waals materials"
+      ],
+      "exciton_properties": [],
+      "applications": [],
+      "methods": [],
+      "matched_keywords": [
+        "exciton"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [
+          "we report"
+        ],
+        "computational_actions": [],
+        "experimental_methods": {},
+        "computational_methods": {},
+        "materials": {
+          "hBN": [
+            "hexagonal boron nitride"
+          ],
+          "Other 2D / van der Waals materials": [
+            "hexagonal boron nitride"
+          ]
+        },
+        "properties": {},
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1",
+        "v2"
+      ]
+    },
     {
       "arxiv_id": "2610.40479",
       "version": "v1",
@@ -392,74 +528,6 @@
             "coherence time"
           ]
         },
-        "relevance": [
-          "exciton/excitonic stated in title or abstract"
-        ]
-      },
-      "evidence": {
-        "experimental": false,
-        "computational": false
-      },
-      "versions_seen": [
-        "v1"
-      ]
-    },
-    {
-      "arxiv_id": "2610.37781",
-      "version": "v1",
-      "versioned_id": "2610.37781v1",
-      "title": "Evidence for a charged vortex lattice in an exciton superfluid",
-      "authors": [
-        "Ryan L. Lee",
-        "Jungwoo Lee",
-        "Viliam Vaňo",
-        "Bo Zou",
-        "Cheng-Li Chiu",
-        "Kenji Watanabe",
-        "Takashi Taniguchi",
-        "Allan MacDonald",
-        "Ali Yazdani"
-      ],
-      "abstract": "Lattices of quantized vortices are a defining property of rotating superfluids and of type-II superconductors in magnetic fields. Realizing an analogous vortex lattice in an exciton superfluid-formed from bound electron-hole pairs-has remained challenging because excitons are electrically neutral. Building on previous theoretical studies of the low-energy excitations in an exciton superfluid, recent theory has predicted that in a strong magnetic field, a weakly charged exciton superfluid can stabilize a vortex-antivortex lattice arising from the mutual repulsion of fractionally charged vortex cores. Here we report evidence for this predicted vortex lattice in a bilayer exciton condensate by imaging its charged vortices with the scanning tunnelling microscope. The condensate forms between Landau levels of two graphene layers separated by a thin hexagonal boron nitride barrier in a perpendicular magnetic field. We find that the vortex lattice periodicity scales with the total excess charge and is insensitive to its distribution between the two layers, in quantitative agreement with theoretical predictions. Our observations provide evidence for phase coherence in an exciton superfluid system.",
-      "submitted": "2026-10-27T18:02:45Z",
-      "updated": "2026-10-27T18:02:45Z",
-      "categories": [
-        "cond-mat.str-el",
-        "cond-mat.mes-hall"
-      ],
-      "pdf_url": "https://arxiv.org/pdf/2610.37781v1",
-      "arxiv_url": "https://arxiv.org/abs/2610.37781",
-      "study_type": "Unclassified",
-      "relevance": "Core exciton paper",
-      "paper_nature": "Original research",
-      "materials": [
-        "hBN"
-      ],
-      "material_families": [
-        "Other 2D / van der Waals materials"
-      ],
-      "exciton_properties": [],
-      "applications": [],
-      "methods": [],
-      "matched_keywords": [
-        "exciton"
-      ],
-      "classification_evidence": {
-        "experimental_actions": [
-          "we report"
-        ],
-        "computational_actions": [],
-        "experimental_methods": {},
-        "computational_methods": {},
-        "materials": {
-          "hBN": [
-            "hexagonal boron nitride"
-          ],
-          "Other 2D / van der Waals materials": [
-            "hexagonal boron nitride"
-          ]
-        },
-        "properties": {},
         "relevance": [
           "exciton/excitonic stated in title or abstract"
         ]
@@ -28895,11 +28963,20 @@
       "new": 0,
       "updated": 0,
       "total": 377
+    },
+    {
+      "scanned_at": "2026-11-02T11:38:01.878419+00:00",
+      "since": "2026-10-19",
+      "fetched": 29,
+      "classified": 29,
+      "new": 1,
+      "updated": 1,
+      "total": 378
     }
   ],
   "counts": {
-    "total": 377,
-    "new_this_scan": 0,
-    "updated_this_scan": 0
+    "total": 378,
+    "new_this_scan": 1,
+    "updated_this_scan": 1
   }
 }
