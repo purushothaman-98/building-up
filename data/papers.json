@@ -1,7 +1,600 @@
 {
   "schema_version": 2,
-  "last_scan": "2026-11-02T11:38:01.878419+00:00",
+  "last_scan": "2026-11-03T11:16:27.738169+00:00",
   "papers": [
+    {
+      "arxiv_id": "2611.03506",
+      "version": "v1",
+      "versioned_id": "2611.03506v1",
+      "title": "Polariton tweezers",
+      "authors": [
+        "Nika Gribova",
+        "Evgeny Sedov",
+        "Alexey Kavokin"
+      ],
+      "abstract": "The non-invasive, deterministic manipulation of charge carriers remains a fundamental challenge in solid-state quantum technologies. Here, we demonstrate the concept of dynamic polariton tweezers capable of trapping and transporting electrons across a two-dimensional electron system via the long-range electrostatic potential of dipolar (d-) exciton-polaritons. By driving a semiconductor microcavity with a specifically engineered, non-collinear three-beam optical pump with TE-polarization, we synthesize a macroscopic polariton lattice with hexagonal symmetry. The spatially periodic field of this d-polariton condensate acts as a reconfigurable trapping landscape for the electrons. We show that introducing targeted frequency detunings between the continuous-wave pumps strictly breaks the spatiotemporal symmetry of the system, converting the stationary macroscopic interference pattern into a dynamically moving conveyor belt. By precisely customizing these frequency detunings, the entire lattice - along with the electrostatically trapped electrons - can be rigidly driven in any arbitrary in-plane direction. This precise phase-matching mechanism bypasses the need for a net kinetic momentum transfer, establishing a robust, optically controlled platform for the long-range routing of charged particles and topological defects in driven-dissipative quantum fluids.",
+      "submitted": "2026-11-02T17:42:58Z",
+      "updated": "2026-11-02T17:42:58Z",
+      "categories": [
+        "cond-mat.mes-hall",
+        "cond-mat.other"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2611.03506v1",
+      "arxiv_url": "https://arxiv.org/abs/2611.03506",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [],
+      "material_families": [],
+      "exciton_properties": [
+        "Light-matter strong coupling"
+      ],
+      "applications": [
+        "Exciton polaritons",
+        "Light–matter coupling"
+      ],
+      "methods": [],
+      "matched_keywords": [
+        "exciton",
+        "polariton"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [],
+        "experimental_methods": {},
+        "computational_methods": {},
+        "materials": {},
+        "properties": {
+          "Light-matter strong coupling": [
+            "exciton-polariton"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2611.02351",
+      "version": "v1",
+      "versioned_id": "2611.02351v1",
+      "title": "Amplification of valley polarization in an hBN-separated MoSe2-WSe2 heterostructure",
+      "authors": [
+        "Fateme Mahdikhany",
+        "Jacob Cutshall",
+        "Daniel Shanks",
+        "Garett Reichenbach",
+        "Davoud Adinehloo",
+        "Michael R. Koehler",
+        "David G. Mandrus",
+        "Takashi Taniguchi",
+        "Kenji Watanabe",
+        "Vasili Perebeinos",
+        "Brian J. LeRoy",
+        "John R. Schaibley"
+      ],
+      "abstract": "Transition metal dichalcogenide heterostructures host long-lived interlayer excitons in the +K and -K valleys that can encode long-lived valley polarization. We investigated the low-temperature valley polarization dynamics in an MoSe2-bilayer hBN-WSe2 heterostructure. The bilayer hBN spacer results in an interlayer exciton lifetime exceeding 2 μs and an anomalous valley polarization amplification effect. Our theoretical model shows that this amplification results from the long exciton lifetime and exciton-exciton interactions. This work sets the stage for long-lived interlayer excitons to be used in nonlinear valleytronic transistors and amplifiers.",
+      "submitted": "2026-11-02T00:56:25Z",
+      "updated": "2026-11-02T00:56:25Z",
+      "categories": [
+        "cond-mat.mes-hall",
+        "cond-mat.other"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2611.02351v1",
+      "arxiv_url": "https://arxiv.org/abs/2611.02351",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [
+        "MoSe2",
+        "WSe2",
+        "hBN",
+        "transition-metal dichalcogenides"
+      ],
+      "material_families": [
+        "TMDs / 2D chalcogenides",
+        "Other 2D / van der Waals materials"
+      ],
+      "exciton_properties": [
+        "Lifetime / relaxation",
+        "Valley / spin physics",
+        "Many-exciton interactions"
+      ],
+      "applications": [],
+      "methods": [
+        "Exciton lifetime / dynamics"
+      ],
+      "matched_keywords": [
+        "exciton",
+        "exciton lifetime"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [
+          "theoretical model"
+        ],
+        "experimental_methods": {
+          "Exciton lifetime / dynamics": [
+            "exciton lifetime"
+          ]
+        },
+        "computational_methods": {},
+        "materials": {
+          "MoSe2": [
+            "mose2"
+          ],
+          "WSe2": [
+            "wse2"
+          ],
+          "hBN": [
+            "hbn"
+          ],
+          "transition-metal dichalcogenides": [
+            "transition metal dichalcogenide"
+          ],
+          "TMDs / 2D chalcogenides": [
+            "transition metal dichalcogenide",
+            "mose2",
+            "wse2"
+          ],
+          "Other 2D / van der Waals materials": [
+            "hbn"
+          ]
+        },
+        "properties": {
+          "Lifetime / relaxation": [
+            "exciton lifetime"
+          ],
+          "Valley / spin physics": [
+            "valley polarization"
+          ],
+          "Many-exciton interactions": [
+            "exciton-exciton"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2611.01570",
+      "version": "v1",
+      "versioned_id": "2611.01570v1",
+      "title": "Fredholm approximations to the Bethe-Salpeter equation with spherical-Bessel kernels for Wannier-Mott excitons",
+      "authors": [
+        "Christian Tantardini",
+        "Benedikt Maurer",
+        "Claudia Draxl"
+      ],
+      "abstract": "We develop a deterministic radial approximation to the static Bethe-Salpeter equation (BSE), designed for rapid preliminary screening of Wannier-Mott exciton binding across direct-gap bulk materials. The approximation replaces the electron-hole transition problem by small radial eigenvalue problems that require no stochastic sampling. Starting from the four-point BSE and its matrix representation in a Bloch electron-hole basis, we retain one valence and one conduction band in the effective-mass limit within the Tamm-Dancoff approximation. We introduce a central projection of the screened direct interaction and omit bare electron-hole exchange. The resulting model applies to spatially extended excitons whose envelopes vary slowly on the scale of the unit cell, provided that the effective-mass description and central screened interaction adequately represent the exciton of interest. A partial-wave decomposition separates the angular-momentum channels and expresses their interaction kernels as spherical-Bessel transforms of the real-space screened Coulomb interaction. Nyström discretization produces real symmetric radial matrices suitable for standard eigensolvers. Their dimension is set by the radial grid independently of the Brillouin-zone sampling used to calculate screening. We implement the formulation in the all-electron, full-potential code $\\texttt{exciting}$. For bulk GaAs, the compact radial problem reproduces the corresponding conventional matrix-BSE binding energy within $(1~\\mathrm{meV})$ at matched sampling. Further refinement achieves finite-mesh stability within the same tolerance on denser screening meshes without increasing the radial matrix size.",
+      "submitted": "2026-11-01T04:52:02Z",
+      "updated": "2026-11-01T04:52:02Z",
+      "categories": [
+        "cond-mat.mtrl-sci"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2611.01570v1",
+      "arxiv_url": "https://arxiv.org/abs/2611.01570",
+      "study_type": "Computational",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [
+        "COFs"
+      ],
+      "material_families": [],
+      "exciton_properties": [],
+      "applications": [],
+      "methods": [
+        "Bethe–Salpeter equation"
+      ],
+      "matched_keywords": [
+        "bethe-salpeter",
+        "exciton"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [],
+        "experimental_methods": {},
+        "computational_methods": {
+          "Bethe–Salpeter equation": [
+            "bethe-salpeter"
+          ]
+        },
+        "materials": {
+          "COFs": [
+            "cof"
+          ]
+        },
+        "properties": {},
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": true
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2611.01515",
+      "version": "v1",
+      "versioned_id": "2611.01515v1",
+      "title": "Superradiance fingerprints of moiré exciton-biexciton condensates: path-entangled biphoton vs. supercurrent-enabled one-photon channel",
+      "authors": [
+        "Haochen Wang",
+        "Shengxian Li",
+        "Hongyu Lu",
+        "Mingxing Chen",
+        "Wang Yao"
+      ],
+      "abstract": "Hybrid moiré excitons form a dense array of electrically tunable single-photon emitters, entailing cooperative optical responses with intriguing consequences. With the strong dipole-dipole interaction, they also realize Bose-Hubbard quantum simulators of emergent correlated matter such as Bose-Einstein condensates (BEC). Here we reveal the characteristic cooperative radiation from condensates of hybrid moiré excitons in twisted MoTe$_2$ bilayers. In each individual moiré trap, the layer hybridization selection rule dictates that the ground-state exciton is a quantum emitter of orbital-angular-momentum photons, with an exceptionally long radiative lifetime. Ground-state emission becomes pronounced only upon forming condensates, where inter-sublattice dipole attraction and intra-sublattice repulsion together lead to the coexistence of exciton and biexciton BEC with comparable weights. The biexciton (molecular-type) BEC decays through superradiance of path-entangled biphotons, whereas the exciton (atomic-type) BEC is dark at rest and becomes superradiant when it carries a supercurrent. Our findings not only uncover a novel source of entangled light but also establish unique fingerprints for exploring the cold chemistry of atomic-molecular condensates with moiré excitons.",
+      "submitted": "2026-11-01T03:48:10Z",
+      "updated": "2026-11-01T03:48:10Z",
+      "categories": [
+        "cond-mat.mes-hall",
+        "cond-mat.quant-gas",
+        "quant-ph"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2611.01515v1",
+      "arxiv_url": "https://arxiv.org/abs/2611.01515",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [],
+      "material_families": [],
+      "exciton_properties": [
+        "Lifetime / relaxation",
+        "Many-exciton interactions"
+      ],
+      "applications": [],
+      "methods": [],
+      "matched_keywords": [
+        "exciton"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [],
+        "experimental_methods": {},
+        "computational_methods": {},
+        "materials": {},
+        "properties": {
+          "Lifetime / relaxation": [
+            "radiative lifetime"
+          ],
+          "Many-exciton interactions": [
+            "biexciton"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2611.01410",
+      "version": "v1",
+      "versioned_id": "2611.01410v1",
+      "title": "Energy Transfer and Strong Coupling in Plasmonic Systems",
+      "authors": [
+        "Janak Bhandari",
+        "Ajinkya Shingote",
+        "Guangming Liu",
+        "Bikram Ghosh",
+        "Hsing-Ta Chen",
+        "Gregory V. Hartland"
+      ],
+      "abstract": "The coupling between plasmon resonances of metal nanostructures and electronic excitations of molecular/semiconductor systems is important in a number of applications, including surface enhanced spectroscopy, hot-electron catalysis, plasmon-induced resonance energy transfer and the creation of hybrid light-matter states. The past several decades has seen a large number of experimental studies of these effects, as well as the development of theory to explain the results. In this Perspectives article we use classical electromagnetic (EM) simulations to examine how the localized surface plasmon resonances (LSPRs) of metal nanoparticles and propagating surface plasmon polaritons (SPPs) in extended metal nanostructures (wires/plates/films) are affected by interactions with a molecular/semiconductor system. The classical EM simulations are complemented by a quantum model for plasmon-exciton coupling based on the macroscopic quantum electrodynamics (MQED) framework, along with Holstein vibrations. The goals are to show how LSPR spectra and SPP dispersion curves/attenuation constants changes as the strength of the molecular/semiconductor electronic transition increases and the system evolves from an energy transfer limit to strong coupling, and to provide an understanding of the decay processes from both classical EM and MQED perspectives.",
+      "submitted": "2026-11-01T01:44:15Z",
+      "updated": "2026-11-01T01:44:15Z",
+      "categories": [
+        "physics.chem-ph"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2611.01410v1",
+      "arxiv_url": "https://arxiv.org/abs/2611.01410",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [],
+      "material_families": [],
+      "exciton_properties": [
+        "Transport / diffusion"
+      ],
+      "applications": [
+        "Light–matter coupling"
+      ],
+      "methods": [],
+      "matched_keywords": [
+        "exciton",
+        "polariton"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [
+          "we use"
+        ],
+        "computational_actions": [
+          "we use"
+        ],
+        "experimental_methods": {},
+        "computational_methods": {},
+        "materials": {},
+        "properties": {
+          "Transport / diffusion": [
+            "energy transfer"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2611.01349",
+      "version": "v1",
+      "versioned_id": "2611.01349v1",
+      "title": "Graph-Covariant Bottom-Up Scale-Bridging Reconstruction of Ground and Excited States of Extended Systems",
+      "authors": [
+        "Bartosz Błasiak",
+        "Irene Burghardt"
+      ],
+      "abstract": "We propose a hierarchical scale-bridging construction for building first principles electronic structure models of extended molecular aggregates with disorder, and its practical realization in exciton systems. The general construction, referred here as to the encapsulation, is based on a recursive operator-valued hierarchy cast in a dual graph-theoretic (discrete) and configuration-space (continuous) structure, in which variables associated with a coarser level parameterize operators governing the degrees of freedom at the next finer level in a graph-covariant, geometry-preserving fashion. In an exemplary application of this scheme, aggregate-level ground- and excited-state operators are constructed through a many-body expansion (MBE), with matrix elements evaluated in a basis comprising the aggregate ground state and local Frenkel excitations. The required monomer and dimer building blocks are obtained from DFT and TDDFT calculations, yielding aggregate-level 1-particle transition density matrices as well as Hamiltonian, dipole moment and other operators that can be evaluated at the level of the building blocks. Starting from structural models obtained from experiment or molecular dynamics, this approach generates aggregate-level operators in a bottom-up fashion without fitting parameters to spectroscopic data or performing calculations on larger system cutouts. A numerical demonstration is given for an excitonic manifold in crystalline quaterthiophene. In particular, through its intrinsic configuration-dependence encoded in the encapsulations, it will provide a bridge between static electronic structure calculations for realistic, structurally disordered aggregates and quantum or quantum-classical simulations of exciton-vibrational dynamics.",
+      "submitted": "2026-10-31T23:35:51Z",
+      "updated": "2026-10-31T23:35:51Z",
+      "categories": [
+        "physics.chem-ph",
+        "cond-mat.mtrl-sci",
+        "quant-ph"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2611.01349v1",
+      "arxiv_url": "https://arxiv.org/abs/2611.01349",
+      "study_type": "Computational",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [],
+      "material_families": [
+        "Organic / molecular materials"
+      ],
+      "exciton_properties": [],
+      "applications": [],
+      "methods": [
+        "DFT",
+        "TDDFT"
+      ],
+      "matched_keywords": [
+        "dft",
+        "exciton",
+        "excitonic",
+        "first principles",
+        "tddft"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [],
+        "experimental_methods": {},
+        "computational_methods": {
+          "DFT": [
+            "first principles",
+            "dft"
+          ],
+          "TDDFT": [
+            "tddft"
+          ]
+        },
+        "materials": {
+          "Organic / molecular materials": [
+            "molecular aggregate"
+          ]
+        },
+        "properties": {},
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": true
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2611.00928",
+      "version": "v1",
+      "versioned_id": "2611.00928v1",
+      "title": "Efficient Interpolation of the Bethe-Salpeter Hamiltonian at Arbitrary Momenta",
+      "authors": [
+        "Stefano Mocatti",
+        "Xiangzhou Zhu",
+        "Giulio Volpato",
+        "Pierluigi Cudazzo",
+        "Matteo Calandra",
+        "Giovanni Marini"
+      ],
+      "abstract": "We develop an efficient reciprocal-space method to reconstruct the static Bethe-Salpeter (BSE) Hamiltonian at arbitrary crystal momenta from coarse first-principles grids. Bloch states are interpolated within an optimally smooth Wannier subspace, while the screened Coulomb interaction is reconstructed from the dielectric response. This decouples the electron-hole transition momenta and transferred momentum from the underlying ab initio sampling. We benchmark the method on monolayer hBN, monolayer MoS$_2$, and bulk GaAs against explicit ab initio calculations, finding excellent agreement for dense-grid Bloch states, dielectric screening, and BSE optical spectra. Furthermore, our cost analysis estimates speedups of up to $22\\times$ on the grids considered here. Arbitrary transferred-momentum sampling gives direct access to the long-wavelength exciton dispersion: in hBN and MoS$_2$, we resolve the nonanalytic behaviour induced by long-range electron-hole exchange at momenta well below the spacing of practical uniform grids. For bulk GaAs, locally refined transition-momentum sampling yields a converged binding energy for the threefold-degenerate lowest exciton, in close agreement with experiment and reference calculations, using far fewer BSE points than conventional uniform meshes. As the present framework provides exciton energies and amplitudes at arbitrary crystal momenta, it opens the way to incorporating ab initio excitonic effects into nonlocal electron-phonon vertices and to extensions towards exciton-phonon interactions and nonequilibrium exciton dynamics.",
+      "submitted": "2026-10-31T13:25:19Z",
+      "updated": "2026-10-31T13:25:19Z",
+      "categories": [
+        "cond-mat.mtrl-sci",
+        "physics.comp-ph"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2611.00928v1",
+      "arxiv_url": "https://arxiv.org/abs/2611.00928",
+      "study_type": "Computational",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Dataset / benchmark",
+      "materials": [
+        "hBN"
+      ],
+      "material_families": [
+        "Other 2D / van der Waals materials"
+      ],
+      "exciton_properties": [
+        "Exciton-phonon coupling"
+      ],
+      "applications": [],
+      "methods": [
+        "Exciton lifetime / dynamics",
+        "DFT",
+        "Bethe–Salpeter equation"
+      ],
+      "matched_keywords": [
+        "ab initio",
+        "bethe-salpeter",
+        "exciton",
+        "exciton dynamics",
+        "excitonic",
+        "first-principles"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [
+          "using",
+          "ab initio calculations"
+        ],
+        "experimental_methods": {
+          "Exciton lifetime / dynamics": [
+            "exciton dynamics"
+          ]
+        },
+        "computational_methods": {
+          "DFT": [
+            "first-principles",
+            "ab initio"
+          ],
+          "Bethe–Salpeter equation": [
+            "bethe-salpeter"
+          ]
+        },
+        "materials": {
+          "hBN": [
+            "hbn"
+          ],
+          "Other 2D / van der Waals materials": [
+            "monolayer",
+            "hbn"
+          ]
+        },
+        "properties": {
+          "Exciton-phonon coupling": [
+            "exciton-phonon"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": true
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2610.33989",
+      "version": "v2",
+      "versioned_id": "2610.33989v2",
+      "title": "Momentum-selective graphene spectroscopy of moiré excitons",
+      "authors": [
+        "Katsunori Wakabayashi"
+      ],
+      "abstract": "Far-field photoluminescence probes only the light-cone corner of an exciton's momentum content, whereas energy transfer to nearby graphene integrates in-plane momenta up to the inverse spacer thickness $1/z$. For a WSe$_2$/MoSe$_2$ heterobilayer we build the transition polarization $\\bm{P}_n(\\qv)$ of each localized moiré exciton from the registry-dependent vector dipole texture and use each $\\bm{P}_n$ for both baths. The two baths rank the states differently: the graphene-rate ratios differ from the optical ones, their ordering inverts with spacer thickness, and the distance exponents at $z=10$\\,nm spread by more than two units. These ratios are independent of the transition-dipole prefactor. Within the $C_3$-symmetric leading-harmonic model the chiral $p_+$ and $d_-$ states are also dark at normal incidence yet transfer to graphene at rates comparable to the bright ground state. Their graphene rate depends on the sign of the texture phase, a quantity invisible in far-field emission, which we determine from first principles. In a device this prediction requires a splitting, larger than the symmetry-breaking mixing, that protects the chiral partners. Graphene proximity thus acts as a momentum-selective near-field probe of moiré excitons, and we propose its use as a practical spectroscopy.",
+      "submitted": "2026-10-25T02:01:00Z",
+      "updated": "2026-10-31T13:14:01Z",
+      "categories": [
+        "cond-mat.mes-hall",
+        "cond-mat.mtrl-sci"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2610.33989v2",
+      "arxiv_url": "https://arxiv.org/abs/2610.33989",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [],
+      "material_families": [
+        "Other 2D / van der Waals materials"
+      ],
+      "exciton_properties": [
+        "Transport / diffusion"
+      ],
+      "applications": [],
+      "methods": [
+        "Photoluminescence",
+        "DFT"
+      ],
+      "matched_keywords": [
+        "exciton",
+        "first principles",
+        "photoluminescence"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [],
+        "experimental_methods": {
+          "Photoluminescence": [
+            "photoluminescence"
+          ]
+        },
+        "computational_methods": {
+          "DFT": [
+            "first principles"
+          ]
+        },
+        "materials": {
+          "Other 2D / van der Waals materials": [
+            "heterobilayer"
+          ]
+        },
+        "properties": {
+          "Transport / diffusion": [
+            "energy transfer"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1",
+        "v2"
+      ]
+    },
     {
       "arxiv_id": "2610.41730",
       "version": "v1",
@@ -791,78 +1384,6 @@
           ]
         },
         "properties": {},
-        "relevance": [
-          "exciton/excitonic stated in title or abstract"
-        ]
-      },
-      "evidence": {
-        "experimental": false,
-        "computational": false
-      },
-      "versions_seen": [
-        "v1"
-      ]
-    },
-    {
-      "arxiv_id": "2610.33989",
-      "version": "v1",
-      "versioned_id": "2610.33989v1",
-      "title": "Momentum-selective graphene spectroscopy of moiré excitons",
-      "authors": [
-        "Katsunori Wakabayashi"
-      ],
-      "abstract": "Far-field photoluminescence probes only the light-cone corner of an exciton's momentum content, whereas energy transfer to nearby graphene integrates in-plane momenta up to the inverse spacer thickness $1/z$. For a WSe$_2$/MoSe$_2$ heterobilayer we build the transition polarization $\\bm{P}_n(\\qv)$ of each localized moiré exciton from the registry-dependent vector dipole texture and use each $\\bm{P}_n$ for both baths. The two baths rank the states differently: the graphene-rate ratios differ from the optical ones, their ordering inverts with spacer thickness, and the distance exponents at $z=10$\\,nm spread by more than two units. These ratios are independent of the transition-dipole prefactor. Within the $C_3$-symmetric leading-harmonic model the chiral $p_+$ and $d_-$ states are also dark at normal incidence yet transfer to graphene at rates comparable to the bright ground state. Their graphene rate depends on the sign of the texture phase, a quantity invisible in far-field emission, which we determine from first principles. In a device this prediction requires a splitting, larger than the symmetry-breaking mixing, that protects the chiral partners. Graphene proximity thus acts as a momentum-selective near-field probe of moiré excitons, and we propose its use as a practical spectroscopy.",
-      "submitted": "2026-10-25T02:01:00Z",
-      "updated": "2026-10-25T02:01:00Z",
-      "categories": [
-        "cond-mat.mes-hall",
-        "cond-mat.mtrl-sci"
-      ],
-      "pdf_url": "https://arxiv.org/pdf/2610.33989v1",
-      "arxiv_url": "https://arxiv.org/abs/2610.33989",
-      "study_type": "Unclassified",
-      "relevance": "Core exciton paper",
-      "paper_nature": "Original research",
-      "materials": [],
-      "material_families": [
-        "Other 2D / van der Waals materials"
-      ],
-      "exciton_properties": [
-        "Transport / diffusion"
-      ],
-      "applications": [],
-      "methods": [
-        "Photoluminescence",
-        "DFT"
-      ],
-      "matched_keywords": [
-        "exciton",
-        "first principles",
-        "photoluminescence"
-      ],
-      "classification_evidence": {
-        "experimental_actions": [],
-        "computational_actions": [],
-        "experimental_methods": {
-          "Photoluminescence": [
-            "photoluminescence"
-          ]
-        },
-        "computational_methods": {
-          "DFT": [
-            "first principles"
-          ]
-        },
-        "materials": {
-          "Other 2D / van der Waals materials": [
-            "heterobilayer"
-          ]
-        },
-        "properties": {
-          "Transport / diffusion": [
-            "energy transfer"
-          ]
-        },
         "relevance": [
           "exciton/excitonic stated in title or abstract"
         ]
@@ -28972,11 +29493,20 @@
       "new": 1,
       "updated": 1,
       "total": 378
+    },
+    {
+      "scanned_at": "2026-11-03T11:16:27.738169+00:00",
+      "since": "2026-10-20",
+      "fetched": 34,
+      "classified": 34,
+      "new": 7,
+      "updated": 1,
+      "total": 385
     }
   ],
   "counts": {
-    "total": 378,
-    "new_this_scan": 1,
+    "total": 385,
+    "new_this_scan": 7,
     "updated_this_scan": 1
   }
 }
