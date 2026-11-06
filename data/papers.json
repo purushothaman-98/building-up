@@ -1,7 +1,309 @@
 {
   "schema_version": 2,
-  "last_scan": "2026-11-05T11:26:33.484236+00:00",
+  "last_scan": "2026-11-06T11:25:00.743246+00:00",
   "papers": [
+    {
+      "arxiv_id": "2611.08019",
+      "version": "v1",
+      "versioned_id": "2611.08019v1",
+      "title": "Zero-Point Renormalization Reshapes the Shift Current: The Role of Electron-Phonon Coupling",
+      "authors": [
+        "Yang Li",
+        "Zuzhang Lin",
+        "Zhikuan Wang",
+        "Chengzhi Wu",
+        "Zeyu Jiang",
+        "Bing Huang"
+      ],
+      "abstract": "Shift current (SC) drives the bulk photovoltaic effect, holding promise for near-instantaneous, low-dissipation photodetection and energy conversion. The current understanding of SC relies primarily on a single-particle picture, in which the SC is determined purely by band dispersion. While many-body effects from directly excited quasiparticles, such as excitons, magnons and phonons, have been explored, the renormalization of electronic states by quantum virtual-phonon coupling --- inherent in essentially all solids and particularly decisive for transport --- remains unaddressed. Here, using first-principles calculations, we identify this missing channel --- band-renormalized shift current (BRSC) --- in monolayer MoS2. We find that the zero-point renormalization alone, without any polarization-carrying photoexcited phonons and with barely any alteration of the band dispersion, dramatically reshapes the SC spectrum: emergent low-energy peaks arise from phonon-assisted optical transitions between momentum-distinct states, with a pronounced redshift of higher-energy features. A mere 1.0% strain sharply tunes the BRSC, whereas raising the temperature enhances it. Our findings overturn the band-structure-only paradigm, establishing electron-phonon coupling as an indispensable ingredient for nonlinear photocurrent and opening a strain-thermal route for engineering next-generation optoelectronic responses.",
+      "submitted": "2026-11-05T13:40:28Z",
+      "updated": "2026-11-05T13:40:28Z",
+      "categories": [
+        "cond-mat.mtrl-sci",
+        "cond-mat.mes-hall",
+        "physics.app-ph"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2611.08019v1",
+      "arxiv_url": "https://arxiv.org/abs/2611.08019",
+      "study_type": "Computational",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [
+        "MoS2"
+      ],
+      "material_families": [
+        "TMDs / 2D chalcogenides",
+        "Other 2D / van der Waals materials"
+      ],
+      "exciton_properties": [
+        "Exciton-phonon coupling"
+      ],
+      "applications": [
+        "Photovoltaics"
+      ],
+      "methods": [
+        "DFT"
+      ],
+      "matched_keywords": [
+        "exciton",
+        "first-principles"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [
+          "using",
+          "first-principles calculations"
+        ],
+        "experimental_methods": {},
+        "computational_methods": {
+          "DFT": [
+            "first-principles"
+          ]
+        },
+        "materials": {
+          "MoS2": [
+            "mos2"
+          ],
+          "TMDs / 2D chalcogenides": [
+            "mos2"
+          ],
+          "Other 2D / van der Waals materials": [
+            "monolayer"
+          ]
+        },
+        "properties": {
+          "Exciton-phonon coupling": [
+            "electron-phonon coupling",
+            "phonon-assisted"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": true
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2611.07539",
+      "version": "v1",
+      "versioned_id": "2611.07539v1",
+      "title": "Ultrafast Moiré Exciton Dynamics Revealed by Two-Dimensional Coherent Spectroscopy",
+      "authors": [
+        "Deran Zhang",
+        "Zhexue Chen",
+        "Dongxue Chen",
+        "Tengfei Yan",
+        "Jianhua Jiang",
+        "Hui Dong"
+      ],
+      "abstract": "Moiré superlattices of van der Waals heterostructures confine excitons into discrete energy levels in finite-sized samples, yet their internal relaxation pathways remain obscured by inhomogeneous broadening. Here, using two-dimensional coherent spectroscopy (2DCS), we directly resolve seven discrete energy levels of the moiré-confined intralayer $\\mathrm{WS}_{2}$ A exciton in an hBN-encapsulated $\\mathrm{WS}_{2}/\\mathrm{WSe}_{2}$ heterostructure, corresponding to a confinement depth of 57.02 meV. By tracking the population of these levels over picosecond delays, we uncover a two-stage thermalization process: an effective exciton temperature drops from 171.8 to 99.3 K within 1.2 ps through rapid intra-manifold population redistribution, followed by a slower recovery toward quasi-equilibrium mediated by exciton--environment interactions. Kullback--Leibler divergence analysis confirms the progressive transition from a non-equilibrium to a Boltzmann-distributed population. Our results establish state-resolved access to moiré exciton dynamics and provide a foundation for exploring nonequilibrium many-body phenomena in moiré quantum materials.",
+      "submitted": "2026-11-05T06:48:36Z",
+      "updated": "2026-11-05T06:48:36Z",
+      "categories": [
+        "cond-mat.mes-hall",
+        "physics.optics"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2611.07539v1",
+      "arxiv_url": "https://arxiv.org/abs/2611.07539",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [
+        "hBN",
+        "2D materials"
+      ],
+      "material_families": [
+        "Other 2D / van der Waals materials"
+      ],
+      "exciton_properties": [
+        "Linewidth / dephasing"
+      ],
+      "applications": [],
+      "methods": [
+        "Coherent / THz spectroscopy",
+        "Exciton lifetime / dynamics"
+      ],
+      "matched_keywords": [
+        "exciton",
+        "exciton dynamics",
+        "two-dimensional coherent spectroscopy"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [
+          "using"
+        ],
+        "experimental_methods": {
+          "Coherent / THz spectroscopy": [
+            "two-dimensional coherent spectroscopy"
+          ],
+          "Exciton lifetime / dynamics": [
+            "exciton dynamics"
+          ]
+        },
+        "computational_methods": {},
+        "materials": {
+          "hBN": [
+            "hbn"
+          ],
+          "2D materials": [
+            "van der waals heterostructure"
+          ],
+          "Other 2D / van der Waals materials": [
+            "van der waals",
+            "hbn"
+          ]
+        },
+        "properties": {
+          "Linewidth / dephasing": [
+            "homogeneous broadening"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2611.07315",
+      "version": "v1",
+      "versioned_id": "2611.07315v1",
+      "title": "Dark-State Coherent Control of Excitons in TMD Monolayers: A Reduced Intravalley Lindblad Framework for WSe$_2$",
+      "authors": [
+        "Mauricio Martinez",
+        "Martin A. Mosquera"
+      ],
+      "abstract": "Dark-state coherence in driven three-level systems underlies electromagnetically induced transparency (EIT) and stimulated Raman adiabatic passage (STIRAP). Their performance depends on the coupling topology: in a ladder ($Ξ$) scheme the coherence can bypass a lossy intermediate state, whereas in a $V$ scheme it is carried by two excited states that both decay. We develop a topology-resolved Lindblad framework for driven three-level excitonic manifolds at fixed center-of-mass momentum, in which a single exciton couples to phonons, the radiation field and a dilute exciton gas. The $Ξ$ and $V$ manifolds are selected from the exciton spectrum by systematically screening optical brightness, intra-excitonic dipole strength and state compactness, making the selection reproducible and transferable to other materials. Within this framework, in the $Ξ$ manifold of hBN-encapsulated WSe$_2$, a weak optical pulse, preceded by a terahertz pulse in the counterintuitive STIRAP order, converts the excitation it creates into an optically dark exciton by dark-state following, while the lossy bright intermediate exciton stays nearly empty. The conversion is limited by emission from that intermediate state rather than by non-adiabatic coupling, and is controlled by a single adiabaticity parameter of the terahertz leg. The exchange mean field of the exciton gas shifts the two-photon resonance by more than the conversion tolerates at moderate densities; the center of the cascade transparency window provides an in situ calibration, and we identify the control strengths at which it is true EIT rather than Autler--Townes splitting. The $V$ manifold loses its coherence on the radiative timescale and serves as the unprotected reference. These results provide a minimal, material-specific baseline for dark-state coherent control of excitons in two-dimensional semiconductors in the radiative limit.",
+      "submitted": "2026-11-05T02:00:47Z",
+      "updated": "2026-11-05T02:00:47Z",
+      "categories": [
+        "cond-mat.mtrl-sci",
+        "cond-mat.mes-hall",
+        "physics.optics"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2611.07315v1",
+      "arxiv_url": "https://arxiv.org/abs/2611.07315",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [
+        "hBN",
+        "transition-metal dichalcogenides"
+      ],
+      "material_families": [
+        "Other 2D / van der Waals materials"
+      ],
+      "exciton_properties": [
+        "Fine structure / bright-dark splitting"
+      ],
+      "applications": [],
+      "methods": [],
+      "matched_keywords": [
+        "exciton",
+        "excitonic"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [],
+        "experimental_methods": {},
+        "computational_methods": {},
+        "materials": {
+          "hBN": [
+            "hbn"
+          ],
+          "transition-metal dichalcogenides": [
+            "tmd monolayer"
+          ],
+          "Other 2D / van der Waals materials": [
+            "monolayer",
+            "hbn"
+          ]
+        },
+        "properties": {
+          "Fine structure / bright-dark splitting": [
+            "dark exciton"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2611.07097",
+      "version": "v1",
+      "versioned_id": "2611.07097v1",
+      "title": "Sudden disappearance of a bright exciton in solid helium",
+      "authors": [
+        "Fatema Mohamed",
+        "Lucia Reining",
+        "Matteo Gatti"
+      ],
+      "abstract": "Excitons, bound electron-hole pairs, are investigated extensively in optical spectra, where their wave vector is considered to be vanishing. Excitonic spectra as a function of wave vector are much less explored, both theoretically and with measurements of the loss function. Here, we uncover a striking angular dependence of excitonic spectra for the prototypical case of solid helium, where a prominent excitonic peak is completely suppressed for a momentum transfer in certain directions. The effect is entirely due to the electron-hole exchange interaction. This phenomenon leads to a counter-intuitive effect close to Bragg points, where an infinitesimal change of direction of wave vector is sufficient to change the spectrum dramatically. We explain in which way the nature of excitons makes such a scenario possible. We discuss the pressure dependence, point to experimental evidence for our findings, and predict under which circumstances dramatic angular dependencies may also be found in other materials.",
+      "submitted": "2026-11-04T20:03:59Z",
+      "updated": "2026-11-04T20:03:59Z",
+      "categories": [
+        "cond-mat.mtrl-sci"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2611.07097v1",
+      "arxiv_url": "https://arxiv.org/abs/2611.07097",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [],
+      "material_families": [],
+      "exciton_properties": [
+        "Fine structure / bright-dark splitting"
+      ],
+      "applications": [],
+      "methods": [],
+      "matched_keywords": [
+        "exciton",
+        "excitonic"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [],
+        "experimental_methods": {},
+        "computational_methods": {},
+        "materials": {},
+        "properties": {
+          "Fine structure / bright-dark splitting": [
+            "bright exciton"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
     {
       "arxiv_id": "2611.06351",
       "version": "v1",
@@ -29716,11 +30018,20 @@
       "new": 3,
       "updated": 0,
       "total": 388
+    },
+    {
+      "scanned_at": "2026-11-06T11:25:00.743246+00:00",
+      "since": "2026-10-23",
+      "fetched": 29,
+      "classified": 29,
+      "new": 4,
+      "updated": 0,
+      "total": 392
     }
   ],
   "counts": {
-    "total": 388,
-    "new_this_scan": 3,
+    "total": 392,
+    "new_this_scan": 4,
     "updated_this_scan": 0
   }
 }
