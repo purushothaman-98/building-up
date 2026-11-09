@@ -1,7 +1,602 @@
 {
   "schema_version": 2,
-  "last_scan": "2026-11-08T10:43:00.190880+00:00",
+  "last_scan": "2026-11-09T12:01:22.759450+00:00",
   "papers": [
+    {
+      "arxiv_id": "2611.09819",
+      "version": "v1",
+      "versioned_id": "2611.09819v1",
+      "title": "Microscopic theory of exciton polarons in transition metal dichalcogenides",
+      "authors": [
+        "Carlos Maciel-Escudero",
+        "Giuseppe Meneghini",
+        "Jamie M. Fitzgerald",
+        "Ermin Malic"
+      ],
+      "abstract": "Polarons are composite quasiparticles formed when charge carriers strongly couple to lattice vibrations, manifesting as carriers dressed by a surrounding cloud of phonons. Although this dressing fundamentally renormalizes the effective mass and mobility of carriers, its impact on electrically neutral exciton polarons in 2D semiconductors has received limited attention. In particular, despite the growing interest in polaronic effects in atomically thin semiconductors, only a few theoretical studies have addressed spectral signatures and renormalized properties of exciton polarons in these materials. Here, we develop a microscopic model to describe exciton polarons in transition metal dichalcogenides. Applying this model to $1s$ acoustic polarons in an MoSe$_2$ monolayer, we reveal a distinct kink in the polaron dispersion, accompanied by a pronounced broadening of its spectral function. These spectral signatures mark a critical transition from a regime of well-defined bound exciton polarons, characterized by a renormalized energy, reduced group velocity, and enhanced effective mass, to a regime dominated by exciton-phonon scattering. Furthermore, by incorporating intervalley exciton-phonon interaction, we demonstrate that the energetic position of momentum-dark excitons strongly modifies the exciton-polaron lifetime. Overall, our work provides a microscopic framework for determining renormalized properties of exciton polarons and establishes experimentally accessible polaron signatures in 2D semiconductors.",
+      "submitted": "2026-11-06T18:07:12Z",
+      "updated": "2026-11-06T18:07:12Z",
+      "categories": [
+        "cond-mat.mes-hall"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2611.09819v1",
+      "arxiv_url": "https://arxiv.org/abs/2611.09819",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [
+        "transition-metal dichalcogenides"
+      ],
+      "material_families": [
+        "TMDs / 2D chalcogenides",
+        "Other 2D / van der Waals materials"
+      ],
+      "exciton_properties": [
+        "Fine structure / bright-dark splitting",
+        "Valley / spin physics",
+        "Exciton-phonon coupling"
+      ],
+      "applications": [],
+      "methods": [],
+      "matched_keywords": [
+        "exciton"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [
+          "experimentally"
+        ],
+        "computational_actions": [],
+        "experimental_methods": {},
+        "computational_methods": {},
+        "materials": {
+          "transition-metal dichalcogenides": [
+            "transition metal dichalcogenide"
+          ],
+          "TMDs / 2D chalcogenides": [
+            "transition metal dichalcogenide"
+          ],
+          "Other 2D / van der Waals materials": [
+            "monolayer"
+          ]
+        },
+        "properties": {
+          "Fine structure / bright-dark splitting": [
+            "dark exciton"
+          ],
+          "Valley / spin physics": [
+            "valley exciton"
+          ],
+          "Exciton-phonon coupling": [
+            "exciton-phonon"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2611.09800",
+      "version": "v1",
+      "versioned_id": "2611.09800v1",
+      "title": "Exciton design via topological spin textures",
+      "authors": [
+        "Karim Rezouali",
+        "Selcuk Sözeri",
+        "Samir Lounis"
+      ],
+      "abstract": "Excitons carry energy and information through a semiconductor without carrying charge. This makes them attractive for optoelectronics, but also hard to guide. Magnetic skyrmions, on the other hand, are moved by small electrical currents. Here we develop a theory of excitons interacting with a skyrmion in which the electron and the hole are treated as distinct constituents, each with its own spin--orbit coupling. We find that the topology of the skyrmion is transferred to the exciton only when the exchange coupling exceeds the relevant spin--orbit splitting. The exciton then experiences a full flux quantum, with opposite signs in the two valleys. The quantum metric of the spin texture creates a ring-shaped barrier that traps excitons, whereas the topological charge fixes the angular momentum of the trapped states and hence their optical selection rules. Because the trap moves with the skyrmion, excitons can be transported by current pulses, and small skyrmions accommodate a single exciton, which opens the door for potential hybrid applications in future information technology intertwining topological magnetic bits with optical excitations.",
+      "submitted": "2026-11-06T17:53:33Z",
+      "updated": "2026-11-06T17:53:33Z",
+      "categories": [
+        "cond-mat.mes-hall",
+        "cond-mat.mtrl-sci"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2611.09800v1",
+      "arxiv_url": "https://arxiv.org/abs/2611.09800",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [],
+      "material_families": [],
+      "exciton_properties": [],
+      "applications": [],
+      "methods": [],
+      "matched_keywords": [
+        "exciton"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [],
+        "experimental_methods": {},
+        "computational_methods": {},
+        "materials": {},
+        "properties": {},
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2611.09705",
+      "version": "v1",
+      "versioned_id": "2611.09705v1",
+      "title": "Cavity-enhanced second harmonic generation from Rydberg excitons in Cu$_2$O",
+      "authors": [
+        "Horatio Q. X Wong",
+        "Krzysztof Sawicki",
+        "Madeleine Fisher",
+        "Stephen A. Lynch",
+        "Wolfgang Langbein",
+        "Sai Kiran Rajendran",
+        "Hamid Ohadi",
+        "Matthew P. A. Jones",
+        "Liam A. P. Gallagher"
+      ],
+      "abstract": "Rydberg excitons in Cu$_2$O provide a solid-state setting for creating giant optical nonlinearities. Here, we use second-harmonic generation (SHG) to study Rydberg excitons in a doubly resonant optical microcavity designed to enhance both the pump and second-harmonic fields. We observe even-parity exciton states in an optical cavity and extend cavity-based measurements of Rydberg excitons up to $n=10$. The SHG intensity depends strongly on pump cavity detuning, showing the dominant role of the microcavity is the enhancement of the intra-cavity pump field. Analysis reveals an additional enhancement from the resonant second-harmonic cavity giving an overall SHG enhancement factor of $21 \\pm 2$ inside the microcavity. These results establish cavity-enhanced SHG spectroscopy as a valuable tool for studying Rydberg excitons in microcavities and provide a pathway towards exploiting optical nonlinearities in Rydberg exciton polariton systems.",
+      "submitted": "2026-11-06T16:48:38Z",
+      "updated": "2026-11-06T16:48:38Z",
+      "categories": [
+        "cond-mat.mes-hall",
+        "physics.optics"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2611.09705v1",
+      "arxiv_url": "https://arxiv.org/abs/2611.09705",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [],
+      "material_families": [],
+      "exciton_properties": [
+        "Light-matter strong coupling"
+      ],
+      "applications": [
+        "Exciton polaritons",
+        "Light–matter coupling"
+      ],
+      "methods": [],
+      "matched_keywords": [
+        "exciton",
+        "polariton"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [
+          "we observe",
+          "we use"
+        ],
+        "computational_actions": [
+          "we use"
+        ],
+        "experimental_methods": {},
+        "computational_methods": {},
+        "materials": {},
+        "properties": {
+          "Light-matter strong coupling": [
+            "exciton polariton"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2611.09704",
+      "version": "v1",
+      "versioned_id": "2611.09704v1",
+      "title": "Theory of Optical and Magneto-Optical Properties of [111]-Oriented Site-Controlled Quantum Dots",
+      "authors": [
+        "N. D. O'Connor",
+        "G. Juska",
+        "E. Pelucchi",
+        "S. Schulz"
+      ],
+      "abstract": "Site-controlled [111]-oriented quantum dots (QDs) are promising sources of non-classical light, yet their optical spectra exhibit apparently conflicting symmetry signatures. At zero magnetic field, excitonic spectra are commonly interpreted as $C_{2v}$-like, whereas measurements in Faraday geometry display selection rules characteristic of $C_{3v}$-like symmetry. Here, we show that both regimes can be described consistently without invoking any change in the underlying structural symmetry. Combining 8-band $\\mathbf{k}\\cdot\\mathbf{p}$ theory, a self-consistent Hartree-informed configuration interaction scheme, and group theoretical analysis, we introduce a controlled symmetry reducing perturbation that lowers the QD symmetry to $C_s$. At zero field, the optical response remains predominantly $C_{2v}$-like because the additional low-symmetry transitions carry only weak oscillator strengths. In Faraday geometry, the same reduced-symmetry structure produces four dominant, nearly circularly polarised trion transitions, reproducing the experimentally observed $C_{3v}$-like response. By contrast, an exact $C_{2v}$ description inferred from the zero-field spectrum permits only two such trion transitions and therefore fails at finite field. Our results thus provide a unified description of the zero and finite magnetic field optical response without any restoration or enhancement of the underlying structural symmetry. More generally, we demonstrate that a higher-symmetry-like optical spectrum does not uniquely identify the exact symmetry of a QD, therefore also providing useful guidance for other QD and nanostructure systems that lie beyond the ones studied here.",
+      "submitted": "2026-11-06T16:48:24Z",
+      "updated": "2026-11-06T16:48:24Z",
+      "categories": [
+        "cond-mat.mtrl-sci"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2611.09704v1",
+      "arxiv_url": "https://arxiv.org/abs/2611.09704",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [
+        "quantum dots"
+      ],
+      "material_families": [
+        "Quantum-confined structures"
+      ],
+      "exciton_properties": [
+        "Oscillator strength / optical activity"
+      ],
+      "applications": [],
+      "methods": [
+        "Magneto-optical measurements",
+        "Oscillator strength"
+      ],
+      "matched_keywords": [
+        "exciton",
+        "excitonic",
+        "magneto-optical",
+        "oscillator strength"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [
+          "experimentally"
+        ],
+        "computational_actions": [],
+        "experimental_methods": {
+          "Magneto-optical measurements": [
+            "magneto-optical"
+          ]
+        },
+        "computational_methods": {
+          "Oscillator strength": [
+            "oscillator strength"
+          ]
+        },
+        "materials": {
+          "quantum dots": [
+            "quantum dot"
+          ],
+          "Quantum-confined structures": [
+            "quantum dot"
+          ]
+        },
+        "properties": {
+          "Oscillator strength / optical activity": [
+            "oscillator strength"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2611.09669",
+      "version": "v1",
+      "versioned_id": "2611.09669v1",
+      "title": "Inversion symmetry breaking by interlayer hybridization in a tetralayer van der Waals heterostructure",
+      "authors": [
+        "Juan C. Arias-Muñoz",
+        "Cuiju Yu",
+        "Nianze Shang",
+        "Christopher P. Edwards",
+        "Zixuan Ning",
+        "Farzaneh Bouzari",
+        "Rodolfo Canet-Albiach",
+        "Seyed Hossein Hosseini-Shokouh",
+        "Ruihuan Fang",
+        "Hanlin Fang",
+        "Sanshui Xiao",
+        "Jose L. Lado",
+        "Zhipei Sun"
+      ],
+      "abstract": "Inversion symmetry breaking unlocks a broad range of physical phenomena fundamental for modern technologies, motivating efforts to engineer noncentrosymmetric materials. In this context, monolayer transition metal dichalcogenides, which naturally lack inversion symmetry, have emerged as a versatile platform for valley physics, strong excitonic effects, and nonlinear optics. However, in their hexagonal stacking phase, inversion symmetry is restored in even-layer stacks and bulk form, suppressing these effects and limiting applications. In this work, inversion symmetry breaking is demonstrated in a vertically stacked tetralayer heterostructure assembled from two intrinsically centrosymmetric bilayer flakes, as evidenced by second harmonic generation measurements with an intensity comparable to that of their constituent monolayer. Spectroscopic measurements and theoretical estimations indicate that effective symmetry breaking in the tetralayer heterostructure is driven by interlayer hybridization, giving rise to pronounced electronic and phononic signatures. This symmetry breaking further induces polar anisotropy, with an intensity ratio reaching 2.36. We propose that asymmetric contributions from excitons to the second harmonic optical dipole may influence this behavior. These findings establish interlayer coupling as a critical mechanism for introducing inversion symmetry breaking and tuning the optical response of van der Waals heterostructures, providing a powerful strategy for photonics and optoelectronics in two-dimensional materials.",
+      "submitted": "2026-11-06T16:21:45Z",
+      "updated": "2026-11-06T16:21:45Z",
+      "categories": [
+        "cond-mat.mtrl-sci",
+        "physics.app-ph",
+        "physics.optics"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2611.09669v1",
+      "arxiv_url": "https://arxiv.org/abs/2611.09669",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [
+        "transition-metal dichalcogenides",
+        "2D materials"
+      ],
+      "material_families": [
+        "TMDs / 2D chalcogenides",
+        "Other 2D / van der Waals materials"
+      ],
+      "exciton_properties": [],
+      "applications": [],
+      "methods": [],
+      "matched_keywords": [
+        "exciton",
+        "excitonic"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [],
+        "experimental_methods": {},
+        "computational_methods": {},
+        "materials": {
+          "transition-metal dichalcogenides": [
+            "transition metal dichalcogenide"
+          ],
+          "2D materials": [
+            "two-dimensional material",
+            "van der waals heterostructure"
+          ],
+          "TMDs / 2D chalcogenides": [
+            "transition metal dichalcogenide"
+          ],
+          "Other 2D / van der Waals materials": [
+            "two-dimensional material",
+            "van der waals",
+            "monolayer"
+          ]
+        },
+        "properties": {},
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2611.09509",
+      "version": "v1",
+      "versioned_id": "2611.09509v1",
+      "title": "High-Volume Wurtzite MnSe in MnSe/CdSe Superlattices: Structure, Magnetism and Optical Response",
+      "authors": [
+        "Michał J. Grzybowski",
+        "Katarzyna Gas",
+        "Jaroslaw Z. Domagala",
+        "Serhii Kryvyi",
+        "Łukasz Gondek",
+        "Soumik Das",
+        "Jan Suffczyński",
+        "Oleksii Liubchenko",
+        "Anna Kaleta",
+        "Sławomir Kret",
+        "Maciej Sawicki",
+        "Wojciech Pacuski"
+      ],
+      "abstract": "Polymorphism in Mn-based chalcogenides offers access to magnetic semiconductors with distinct crystal symmetries, polar structures, and different magnetic orders. In particular, wurtzite MnSe exhibits an appealing interplay of electric polarization and several competing magnetic phases including altermagnetic order. However, stabilizing metastable polymorphs, such as wurtzite MnSe, in experimentally useful volumes remains challenging. Here, we show that a nanoscale-period MnSe/CdSe superlattice stabilizes wurtzite MnSe over micrometer-scale total thickness while suppressing the formation of the thermodynamically favored rock-salt phase. The increased magnetic volume enables bulk-sensitive characterization of this polar polymorph. The room-temperature lattice parameters of wurtzite MnSe are studied by independent experimental techniques and determined to be $a = (4.18 \\pm 0.03)\\,\\mathring{A}$ and $c = (6.78 \\pm 0.03)\\, \\mathring{A}$. SQUID magnetometry reveals antiferromagnetic ordering with $T_N = 62\\,\\text{K}$, which is accompanied by an anomaly of the MnSe lattice parameter, as oberved by temperature-dependent X-ray diffraction. Optical measurements reveal excitonic transitions pointing to the band gap at around 3.4 eV. These results highlight the utility and importance of heterostructure engineering for detailed studies of metastable phases of magnetic semiconductors, in particular wurtzite MnSe.",
+      "submitted": "2026-11-06T14:26:59Z",
+      "updated": "2026-11-06T14:26:59Z",
+      "categories": [
+        "cond-mat.mtrl-sci"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2611.09509v1",
+      "arxiv_url": "https://arxiv.org/abs/2611.09509",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [],
+      "material_families": [],
+      "exciton_properties": [],
+      "applications": [],
+      "methods": [],
+      "matched_keywords": [
+        "exciton",
+        "excitonic"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [
+          "experimentally",
+          "measurements reveal"
+        ],
+        "computational_actions": [],
+        "experimental_methods": {},
+        "computational_methods": {},
+        "materials": {},
+        "properties": {},
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2611.09473",
+      "version": "v1",
+      "versioned_id": "2611.09473v1",
+      "title": "Stacking, symmetry and exciton fine structure in boron nitride bilayers",
+      "authors": [
+        "Mehdi Arfaoui",
+        "Sylvain Latil",
+        "Lorenzo Sponza"
+      ],
+      "abstract": "Engineering of two-dimensional material heterostructures offers a broad range of degrees of freedom through the selection of type and number of layers and their relative stacking configurations. In these compound materials, the stacking sequence plays a central role in determining electronic, mechanical, and optical properties. Here, we present a theoretical study of its signature on the excitons of hexagonal boron nitride bilayers based on first-principle calculations within the GW approximation and the Bethe-Salpeter equation. We explain how stacking-dependent symmetry variations lead to distinct electronic structures, particularly near the band edge around the K high-symmetry point, and consequently to markedly different excitonic landscapes. Indeed, we analyze the symmetry-governed character of the low-lying excitonic states, identifying their bright or dark nature for each stacking configuration and performing a systematic comparison. Our results clarify how van der Waals interlayer coupling reshapes excitons in hexagonal boron nitride bilayers and outline prospects for twist-controlled exciton engineering in this material.",
+      "submitted": "2026-11-06T13:53:51Z",
+      "updated": "2026-11-06T13:53:51Z",
+      "categories": [
+        "cond-mat.mtrl-sci"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2611.09473v1",
+      "arxiv_url": "https://arxiv.org/abs/2611.09473",
+      "study_type": "Computational",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [
+        "hBN",
+        "2D materials"
+      ],
+      "material_families": [
+        "Other 2D / van der Waals materials"
+      ],
+      "exciton_properties": [],
+      "applications": [],
+      "methods": [
+        "GW",
+        "Bethe–Salpeter equation"
+      ],
+      "matched_keywords": [
+        "bethe-salpeter",
+        "exciton",
+        "excitonic",
+        "gw approximation"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [],
+        "experimental_methods": {},
+        "computational_methods": {
+          "GW": [
+            "gw approximation"
+          ],
+          "Bethe–Salpeter equation": [
+            "bethe-salpeter"
+          ]
+        },
+        "materials": {
+          "hBN": [
+            "hexagonal boron nitride"
+          ],
+          "2D materials": [
+            "two-dimensional material"
+          ],
+          "Other 2D / van der Waals materials": [
+            "two-dimensional material",
+            "van der waals",
+            "hexagonal boron nitride"
+          ]
+        },
+        "properties": {},
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": true
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2611.09103",
+      "version": "v1",
+      "versioned_id": "2611.09103v1",
+      "title": "Spontaneous Formation of Lateral Defect-Density Gradient in CVD-Grown MoS2 Monolayers",
+      "authors": [
+        "M. Kostka",
+        "H. -S. Chen",
+        "C. -Y. Hsiao",
+        "Y. -R. Chu",
+        "J. Mach",
+        "M. Bartošík",
+        "J. Šťastný",
+        "T. Šikola",
+        "W. -C. Lin"
+      ],
+      "abstract": "Defect engineering in two-dimensional materials is a powerful strategy for tuning electronic, optical, and catalytic properties. While pristine molybdenum disulfide (MoS2) has been thoroughly studied, defective MoS2 remains poorly understood due to the complexity and inconsistency of controlled defect creation. Here, we report a defect-density gradient that forms spontaneously in MoS2 flakes during chemical vapor deposition (CVD) growth. Photoluminescence and Raman spectroscopy mapping reveal the lateral arrangement of this gradient across a single flake. Deconvolution of the excitonic photoluminescence emission identifies electron doping as the key factor governing the spatial variation in optical response. This doping likely originates from sulfur vacancies formed during CVD growth, as further supported by the observed Raman mode shifts. We propose that this gradient arises from precursor depletion near the nucleation center during growth, resulting in a gradual variation in defect density. This lateral defect structure provides a convenient platform for systematically characterizing defective MoS2 across a continuous range of defect densities within a single sample. The sulfur-vacancy-driven surface activation identified here can also be important for future catalytic applications.",
+      "submitted": "2026-11-06T07:33:56Z",
+      "updated": "2026-11-06T07:33:56Z",
+      "categories": [
+        "cond-mat.mtrl-sci",
+        "cond-mat.mes-hall"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2611.09103v1",
+      "arxiv_url": "https://arxiv.org/abs/2611.09103",
+      "study_type": "Experimental",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [
+        "MoS2",
+        "2D materials"
+      ],
+      "material_families": [
+        "TMDs / 2D chalcogenides",
+        "Other 2D / van der Waals materials"
+      ],
+      "exciton_properties": [],
+      "applications": [],
+      "methods": [
+        "Photoluminescence",
+        "Raman spectroscopy"
+      ],
+      "matched_keywords": [
+        "exciton",
+        "excitonic",
+        "photoluminescence",
+        "raman spectroscopy"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [
+          "we report"
+        ],
+        "computational_actions": [],
+        "experimental_methods": {
+          "Photoluminescence": [
+            "photoluminescence"
+          ],
+          "Raman spectroscopy": [
+            "raman spectroscopy"
+          ]
+        },
+        "computational_methods": {},
+        "materials": {
+          "MoS2": [
+            "mos2",
+            "molybdenum disulfide"
+          ],
+          "2D materials": [
+            "two-dimensional material"
+          ],
+          "TMDs / 2D chalcogenides": [
+            "mos2",
+            "molybdenum disulfide"
+          ],
+          "Other 2D / van der Waals materials": [
+            "two-dimensional material",
+            "monolayer"
+          ]
+        },
+        "properties": {},
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": true,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
     {
       "arxiv_id": "2611.08019",
       "version": "v1",
@@ -30045,11 +30640,20 @@
       "new": 0,
       "updated": 0,
       "total": 392
+    },
+    {
+      "scanned_at": "2026-11-09T12:01:22.759450+00:00",
+      "since": "2026-10-26",
+      "fetched": 31,
+      "classified": 31,
+      "new": 8,
+      "updated": 0,
+      "total": 400
     }
   ],
   "counts": {
-    "total": 392,
-    "new_this_scan": 0,
+    "total": 400,
+    "new_this_scan": 8,
     "updated_this_scan": 0
   }
 }
