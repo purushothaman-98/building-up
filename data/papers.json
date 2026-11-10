@@ -1,7 +1,345 @@
 {
   "schema_version": 2,
-  "last_scan": "2026-11-09T12:01:22.759450+00:00",
+  "last_scan": "2026-11-10T11:40:20.632749+00:00",
   "papers": [
+    {
+      "arxiv_id": "2611.12322",
+      "version": "v1",
+      "versioned_id": "2611.12322v1",
+      "title": "Ultrafast Inter-Aggregate Energy Transfer Drives Efficient Charge Generation in Organic Homojunctions",
+      "authors": [
+        "Shanchao Ouyang",
+        "Hang Yuen Ho",
+        "Sudhi Mahadevan",
+        "Ziyao Yue",
+        "Haochen Liu",
+        "Zhiqiang Guan",
+        "Chun-Sing Lee",
+        "Shu Kong So",
+        "Sai-Wing Tsang"
+      ],
+      "abstract": "Y6-based homojunction organic photovoltaic devices have recently achieved exceptional power conversion efficiencies, surpassing those of conventional organic photovoltaic materials. Although unusually long exciton diffusion lengths and efficient exciton dissociation have been reported, the fundamental mechanism underlying this outstanding performance remains under debate. Here, we report that structurally distinct aggregates in Y6 thin films exhibit complementary charge-transfer (CT) characters that enable directional energy transfer and enhanced exciton delocalization. Using ultrafast spectroscopy, we identify highly efficient Förster resonance energy transfer (FRET) between Y6 aggregates, with an ensemble-averaged efficiency of 65% occurring on a sub-picosecond timescale (<1 ps). This aggregate-mediated energy-transfer pathway drives long-range energy migration in Y6 thin films and accounts for the remarkable external quantum efficiencies observed in homojunction devices, even in the absence of conventional donor-acceptor bulk heterojunction morphologies and despite substantial fractions of weak-CT components. Here, using Y6 as a model non-fullerene acceptor (NFA) system, we show that structurally distinct aggregates coexisting in NFA thin films possess complementary CT characters, which are expected to enable directional energy transfer and enhanced exciton delocalization. We establish a general multi-component FRET framework that quantitatively links molecular aggregation, CT character, and excited-state dynamics in systems with multiple packing motifs. This work provides insight into the development of next-generation high-performance organic electronic materials and devices.",
+      "submitted": "2026-11-09T12:43:56Z",
+      "updated": "2026-11-09T12:43:56Z",
+      "categories": [
+        "cond-mat.mtrl-sci"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2611.12322v1",
+      "arxiv_url": "https://arxiv.org/abs/2611.12322",
+      "study_type": "Experimental",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [],
+      "material_families": [],
+      "exciton_properties": [
+        "Transport / diffusion"
+      ],
+      "applications": [
+        "Photovoltaics"
+      ],
+      "methods": [
+        "Time-resolved spectroscopy",
+        "Exciton lifetime / dynamics"
+      ],
+      "matched_keywords": [
+        "exciton",
+        "exciton diffusion",
+        "ultrafast spectroscopy"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [
+          "we report"
+        ],
+        "computational_actions": [
+          "using"
+        ],
+        "experimental_methods": {
+          "Time-resolved spectroscopy": [
+            "ultrafast spectroscopy"
+          ],
+          "Exciton lifetime / dynamics": [
+            "exciton diffusion"
+          ]
+        },
+        "computational_methods": {},
+        "materials": {},
+        "properties": {
+          "Transport / diffusion": [
+            "exciton diffusion",
+            "diffusion length",
+            "energy transfer"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": true,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2611.12224",
+      "version": "v1",
+      "versioned_id": "2611.12224v1",
+      "title": "Tunable Near-Unity Light Absorption via Surface Exciton-Polaritons in Periodic Gratings of Anisotropic Polarizable Materials",
+      "authors": [
+        "M. V. Rodrigues",
+        "M. S. Barreiro",
+        "M. I. Vasilevskiy",
+        "N. M. R. Peres"
+      ],
+      "abstract": "Near-perfect light absorption in ultrathin films is hindered by two fundamental obstacles: the momentum mismatch that prevents resonant excitation of surface exciton-polaritons (SEPs) under ordinary illumination, and the 50% absorption ceiling imposed on free-standing conductive sheets by geometric symmetry. Here we show that both obstacles can be overcome simultaneously in a simple, planar geometry. A one-dimensional periodic grating of anisotropic polarizable ribbons composed of J-aggregates supporting bright molecular excitons provides the reciprocal lattice momentum needed to excite SEPs without employing an attenuated total reflection configuration, while a metallic mirror beneath a dielectric spacer folds the reflected field back onto the absorber, breaking the $50\\%$ limit through interference between the incident and reflected waves. We develop a semi-analytical matrix formulation to compute the full optical response of such structure, and demonstrate that the absorptance at the first-order SEP resonance can be continuously tuned from near-unity to near-zero by varying the spacer thickness alone. The grating period and filling factor offer additional spectral control, and oblique incidence unlocks a second, out-of-plane polariton branch. These results establish periodic gratings of excitonic media as a versatile, practical and integrable platform for spectrally selective, near-perfect light absorption.",
+      "submitted": "2026-11-09T11:17:50Z",
+      "updated": "2026-11-09T11:17:50Z",
+      "categories": [
+        "physics.optics",
+        "cond-mat.mes-hall",
+        "cond-mat.mtrl-sci"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2611.12224v1",
+      "arxiv_url": "https://arxiv.org/abs/2611.12224",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [],
+      "material_families": [
+        "Organic / molecular materials"
+      ],
+      "exciton_properties": [
+        "g-factor / Zeeman splitting",
+        "Light-matter strong coupling"
+      ],
+      "applications": [
+        "Exciton polaritons"
+      ],
+      "methods": [
+        "Exciton g-factor"
+      ],
+      "matched_keywords": [
+        "exciton",
+        "excitonic",
+        "g factor",
+        "polariton"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [],
+        "experimental_methods": {
+          "Exciton g-factor": [
+            "g factor"
+          ]
+        },
+        "computational_methods": {},
+        "materials": {
+          "Organic / molecular materials": [
+            "j-aggregate"
+          ]
+        },
+        "properties": {
+          "g-factor / Zeeman splitting": [
+            "g factor"
+          ],
+          "Light-matter strong coupling": [
+            "exciton-polariton"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2611.12018",
+      "version": "v1",
+      "versioned_id": "2611.12018v1",
+      "title": "Extending the reach of real-space real-time TDDFT: new developments in the Octopus code",
+      "authors": [
+        "Nicolas Tancogne-Dejean",
+        "Martin Lüders",
+        "Esra Ilke Albar",
+        "Heiko Appel",
+        "Franco P Bonafé",
+        "Alexander Buccheri",
+        "Alessandro Casalino",
+        "Benshu Fan",
+        "Hans Fangohr",
+        "Umberto De Giovannini",
+        "Henning Glawe",
+        "Hannes Hübener",
+        "Simon V. B. Jensen",
+        "Christian Jöns",
+        "Lukas Konecny",
+        "Martin Lang",
+        "Ruipeng Li",
+        "I-Te Lu",
+        "Jehferson Mello",
+        "Henri Menke",
+        "Sumit Naskar",
+        "Zhengwei Nie",
+        "Sebastian T. Ohlmann",
+        "Micael J. T. Oliveira",
+        "Subhojit Pal",
+        "Jonas Reimann",
+        "Rajarshi Sinha-Roy",
+        "Jiuyu Sun",
+        "Francesco Troisi",
+        "Angel Rubio"
+      ],
+      "abstract": "Octopus is an open-source package implementing time-dependent density functional theory in a real-space, real-time formulation. Here we report on the developments since our previous contribution to the Special Topic Issue on Electronic Structure Software [J. Chem. Phys. 152, 124119 (2020)]. New exchange-correlation functionals extend the range of systems that can be treated, while advances in relativistic and all-electron methods open the door to core-electron spectroscopy. New capabilities for lattice dynamics - stress-tensor calculation, geometry optimization, support for machine-learned force fields, and phonon calculations - enable a fully ab initio description of light-induced lattice dynamics in real time. We also present developments that move beyond the dipole approximation, capturing light-matter interaction more faithfully. Improved methods for exciton dynamics complement a set of algorithmic advances - new propagation schemes, imaginary-time evolution, and a refactored grid handling more than a billion points - that together substantially improve performance and scalability. Combined with technical improvements such as AMD GPU support and a modernized build system, these developments consolidate Octopus as a versatile, high-performance platform for exploring electronic excitations, light-matter interaction, and nonequilibrium dynamics in molecules, nanostructures, and extended systems.",
+      "submitted": "2026-11-09T07:55:50Z",
+      "updated": "2026-11-09T07:55:50Z",
+      "categories": [
+        "physics.chem-ph",
+        "cond-mat.other"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2611.12018v1",
+      "arxiv_url": "https://arxiv.org/abs/2611.12018",
+      "study_type": "Computational",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [],
+      "material_families": [],
+      "exciton_properties": [],
+      "applications": [],
+      "methods": [
+        "Exciton lifetime / dynamics",
+        "DFT",
+        "TDDFT"
+      ],
+      "matched_keywords": [
+        "ab initio",
+        "density functional theory",
+        "dft",
+        "exciton",
+        "exciton dynamics",
+        "tddft",
+        "time-dependent density functional theory"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [
+          "we report"
+        ],
+        "computational_actions": [],
+        "experimental_methods": {
+          "Exciton lifetime / dynamics": [
+            "exciton dynamics"
+          ]
+        },
+        "computational_methods": {
+          "DFT": [
+            "density functional theory",
+            "ab initio",
+            "dft"
+          ],
+          "TDDFT": [
+            "time-dependent density functional theory",
+            "tddft"
+          ]
+        },
+        "materials": {},
+        "properties": {},
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": true
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2611.11000",
+      "version": "v1",
+      "versioned_id": "2611.11000v1",
+      "title": "Efficient Plane-to-Point Energy Transfer from Supramolecular Excitonic Systems to Molecular Acceptors",
+      "authors": [
+        "Dimuthu H. Thanippuli Arachchi",
+        "Oliver M. Nix",
+        "Jianshu Cao",
+        "Moungi G. Bawendi"
+      ],
+      "abstract": "Collective excitonic interactions in supramolecular assemblies offer opportunities for efficient light harvesting and directed energy transport. Here, we demonstrate efficient energy transfer from two-dimensional silica-encapsulated TDBC J-aggregate sheets to covalently attached ATTO 590 molecular acceptors. Silica encapsulation preserves the J-aggregate excitonic properties while enabling acceptor functionalization at a defined separation from the donor plane. Steady-state donor quenching and acceptor sensitization yield energy-transfer efficiencies of 75-81% in solution, while time-resolved photoluminescence measurements reveal donor lifetime shortening. We develop a generalized Forster resonance energy-transfer model for an extended planar donor coupled to localized molecular acceptors, predicting an inverse fourth-power dependence of the transfer rate on donor-acceptor separation. Using experimental spectroscopic data and estimated structural parameters, the model predicts an energy-transfer rate of 4.77 x 10^10 s^-1, approximately ten times faster than the intrinsic donor decay rate, corresponding to a theoretical energy-transfer efficiency of approximately 91%. These findings provide a framework for developing hybrid excitonic architectures for light harvesting.",
+      "submitted": "2026-11-07T22:49:59Z",
+      "updated": "2026-11-07T22:49:59Z",
+      "categories": [
+        "cond-mat.mtrl-sci"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2611.11000v1",
+      "arxiv_url": "https://arxiv.org/abs/2611.11000",
+      "study_type": "Experimental",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [],
+      "material_families": [
+        "Organic / molecular materials"
+      ],
+      "exciton_properties": [
+        "Transport / diffusion"
+      ],
+      "applications": [],
+      "methods": [
+        "Photoluminescence",
+        "Time-resolved spectroscopy"
+      ],
+      "matched_keywords": [
+        "exciton",
+        "excitonic",
+        "photoluminescence",
+        "time-resolved"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [
+          "measurements reveal"
+        ],
+        "computational_actions": [
+          "using"
+        ],
+        "experimental_methods": {
+          "Photoluminescence": [
+            "photoluminescence"
+          ],
+          "Time-resolved spectroscopy": [
+            "time-resolved"
+          ]
+        },
+        "computational_methods": {},
+        "materials": {
+          "Organic / molecular materials": [
+            "j-aggregate"
+          ]
+        },
+        "properties": {
+          "Transport / diffusion": [
+            "energy transfer"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": true,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
     {
       "arxiv_id": "2611.09819",
       "version": "v1",
@@ -30649,11 +30987,20 @@
       "new": 8,
       "updated": 0,
       "total": 400
+    },
+    {
+      "scanned_at": "2026-11-10T11:40:20.632749+00:00",
+      "since": "2026-10-27",
+      "fetched": 33,
+      "classified": 33,
+      "new": 4,
+      "updated": 0,
+      "total": 404
     }
   ],
   "counts": {
-    "total": 400,
-    "new_this_scan": 8,
+    "total": 404,
+    "new_this_scan": 4,
     "updated_this_scan": 0
   }
 }
