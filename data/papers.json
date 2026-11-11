@@ -1,7 +1,161 @@
 {
   "schema_version": 2,
-  "last_scan": "2026-11-10T11:40:20.632749+00:00",
+  "last_scan": "2026-11-11T11:24:07.170377+00:00",
   "papers": [
+    {
+      "arxiv_id": "2611.13817",
+      "version": "v1",
+      "versioned_id": "2611.13817v1",
+      "title": "Structural and electronic properties of (Hf,Zr)O$_2$ phases from first principles",
+      "authors": [
+        "Sibghatullah Khan",
+        "Hannu-Pekka Komsa"
+      ],
+      "abstract": "(Hf,Zr)O$_2$ material system is promising for ferroelectric devices, owing to their compatibility with the existing electronics manufacturing processes. Technology computer-aided design (TCAD) simulations can be used for the device design and optimization, but the predictive power of TCAD device simulations depends on the quality of the material parameters. These are still surprisingly poorly understood, also for the metastable ferroelectric phase, largely owing to the difficulties in synthesizing phase-pure samples. Here, we carry out high-quality first-principles calculations to extract reliable lattice parameters, dielectric constants, and band gaps for six of the most common phases of HfO$_2$, Hf$_{0.5}$Zr$_{0.5}$O$_2$, and ZrO$_2$. We compare results from GGA, meta-GGA, and hybrid functionals to shed light on the sensitivity of the results on the level of theory and to connect the results to earlier literature. In the case of band structures, we also consider $GW$ corrections as well as the effects of temperature-induced band gap renormalization and excitonic effects. Finally, we use these results in TCAD simulations for (Hf,Zr)O$_2$ FeCAP to demonstrate the effect that non-ferroelectric interlayers could have on the hysteresis curves and band diagrams.",
+      "submitted": "2026-11-10T09:45:51Z",
+      "updated": "2026-11-10T09:45:51Z",
+      "categories": [
+        "cond-mat.mtrl-sci"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2611.13817v1",
+      "arxiv_url": "https://arxiv.org/abs/2611.13817",
+      "study_type": "Computational",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [],
+      "material_families": [],
+      "exciton_properties": [],
+      "applications": [],
+      "methods": [
+        "DFT"
+      ],
+      "matched_keywords": [
+        "exciton",
+        "excitonic",
+        "first principles",
+        "first-principles"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [
+          "we use"
+        ],
+        "computational_actions": [
+          "we use",
+          "first-principles calculations"
+        ],
+        "experimental_methods": {},
+        "computational_methods": {
+          "DFT": [
+            "first-principles",
+            "first principles"
+          ]
+        },
+        "materials": {},
+        "properties": {},
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": true
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2611.13264",
+      "version": "v1",
+      "versioned_id": "2611.13264v1",
+      "title": "Hybridization-brightened interlayer excitons in multilayer WSe2 controlled by sliding ferroelectricity",
+      "authors": [
+        "Youngki Yeo",
+        "Idan Kizel",
+        "Dror Hershkovitz",
+        "Omri Meron",
+        "Iva Plutnarova",
+        "Zdenek Sofer",
+        "Watanabe Kenji",
+        "Takashi Taniguchi",
+        "Elad Katash",
+        "Dan Oron",
+        "Haim Suchowski",
+        "Jing-Yang You",
+        "Moshe Ben Shalom"
+      ],
+      "abstract": "Interlayer excitons (IXs) combine spatially separated electron and hole wavefunctions with electrically tunable dipole moments, but their reduced wavefunction overlap generally limits optical emission, particularly for high-energy states. Here we report a bright, spectrally narrow high-energy interlayer exciton (h-IX) near 2.23 eV in few-layer WSe2 and investigate how its optical activity evolves with layer number and sliding-ferroelectric polarization. In pristine 2H-WSe2, we observe thickness-dependent brightening of high-energy exciton emission. GW-BSE calculations reveal mixed intralayer and interlayer configurations with enhanced optical weight, suggesting that multilayer hybridization contributes to the observed brightening. In parallel-stacked 3L/3L WSe2 containing a sliding-ferroelectric interface, the h-IX exhibits polarization-dependent energies and Stark responses that distinguish Pup and Pdown domains. Electric-field-driven domain-wall motion produces hysteretic transfer of spectral weight between the two h-IX branches, enabling optical tracking of ferroelectric switching. These results establish multilayer hybridization as a route to optically active high-energy interlayer excitons and sliding ferroelectricity as a complementary degree of freedom for controlling their energy, dipole and emission.",
+      "submitted": "2026-11-09T21:32:33Z",
+      "updated": "2026-11-09T21:32:33Z",
+      "categories": [
+        "cond-mat.mtrl-sci"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2611.13264v1",
+      "arxiv_url": "https://arxiv.org/abs/2611.13264",
+      "study_type": "Computational",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [
+        "WSe2"
+      ],
+      "material_families": [
+        "TMDs / 2D chalcogenides"
+      ],
+      "exciton_properties": [
+        "Oscillator strength / optical activity"
+      ],
+      "applications": [],
+      "methods": [
+        "GW",
+        "Bethe–Salpeter equation"
+      ],
+      "matched_keywords": [
+        "bse calculation",
+        "bse calculations",
+        "exciton",
+        "gw-bse"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [
+          "we observe",
+          "we report"
+        ],
+        "computational_actions": [],
+        "experimental_methods": {},
+        "computational_methods": {
+          "GW": [
+            "gw-bse"
+          ],
+          "Bethe–Salpeter equation": [
+            "bse calculation",
+            "bse calculations"
+          ]
+        },
+        "materials": {
+          "WSe2": [
+            "wse2"
+          ],
+          "TMDs / 2D chalcogenides": [
+            "wse2"
+          ]
+        },
+        "properties": {
+          "Oscillator strength / optical activity": [
+            "optical activity"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": true
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
     {
       "arxiv_id": "2611.12322",
       "version": "v1",
@@ -30996,11 +31150,20 @@
       "new": 4,
       "updated": 0,
       "total": 404
+    },
+    {
+      "scanned_at": "2026-11-11T11:24:07.170377+00:00",
+      "since": "2026-10-28",
+      "fetched": 33,
+      "classified": 33,
+      "new": 2,
+      "updated": 0,
+      "total": 406
     }
   ],
   "counts": {
-    "total": 404,
-    "new_this_scan": 4,
+    "total": 406,
+    "new_this_scan": 2,
     "updated_this_scan": 0
   }
 }
