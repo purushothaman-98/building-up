@@ -1,7 +1,69 @@
 {
   "schema_version": 2,
-  "last_scan": "2026-11-12T11:44:56.221274+00:00",
+  "last_scan": "2026-11-13T11:28:02.767448+00:00",
   "papers": [
+    {
+      "arxiv_id": "2611.16475",
+      "version": "v1",
+      "versioned_id": "2611.16475v1",
+      "title": "Ferroelectric control of exciton photoluminescence in rhombohedrally stacked bilayer WSe$_2$",
+      "authors": [
+        "Wenlong Zhong",
+        "Kenji Watanabe",
+        "Takashi Taniguchi",
+        "Xiaoxiang Xi"
+      ],
+      "abstract": "Sliding ferroelectricity offers a non-volatile route to electrically programmable electronic and optical functionality, but deterministic control of excitonic photoluminescence is often obscured by moiré reconstruction and domain averaging. Here we study an artificially assembled WSe$_2$ bilayer with near-zero twist in rhombohedral stacking and observe reversible, hysteretic electrical switching through excitonic photoluminescence. Under an out-of-plane electric field, momentum-indirect QK exciton emission exhibits Stark-slope reversals and abrupt energy jumps, resolving a four-stage sequence separated by two band realignments and one ferroelectric switching event. Polarization reversal also selects the momentum-direct KK interlayer-exciton branch that hybridizes with an intralayer exciton, producing history-dependent photoluminescence. Ferroelectric modulation of resonant Raman scattering provides a complementary readout, with hysteretic intensities correlated with the polarization-dependent interlayer field. These results establish an exciton-based quantification of the electronic structure in ferroelectric WSe$_2$ and open a route to electrically programmable optoelectronic functionality.",
+      "submitted": "2026-11-12T08:34:30Z",
+      "updated": "2026-11-12T08:34:30Z",
+      "categories": [
+        "cond-mat.mes-hall"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2611.16475v1",
+      "arxiv_url": "https://arxiv.org/abs/2611.16475",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [],
+      "material_families": [],
+      "exciton_properties": [],
+      "applications": [],
+      "methods": [
+        "Photoluminescence",
+        "Raman spectroscopy"
+      ],
+      "matched_keywords": [
+        "exciton",
+        "excitonic",
+        "photoluminescence",
+        "raman scattering"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [],
+        "experimental_methods": {
+          "Photoluminescence": [
+            "photoluminescence"
+          ],
+          "Raman spectroscopy": [
+            "raman scattering"
+          ]
+        },
+        "computational_methods": {},
+        "materials": {},
+        "properties": {},
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
     {
       "arxiv_id": "2611.13817",
       "version": "v1",
@@ -31168,11 +31230,20 @@
       "new": 0,
       "updated": 0,
       "total": 406
+    },
+    {
+      "scanned_at": "2026-11-13T11:28:02.767448+00:00",
+      "since": "2026-10-30",
+      "fetched": 30,
+      "classified": 30,
+      "new": 1,
+      "updated": 0,
+      "total": 407
     }
   ],
   "counts": {
-    "total": 406,
-    "new_this_scan": 0,
+    "total": 407,
+    "new_this_scan": 1,
     "updated_this_scan": 0
   }
 }
