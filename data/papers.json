@@ -1,7 +1,402 @@
 {
   "schema_version": 2,
-  "last_scan": "2026-11-15T11:25:49.212005+00:00",
+  "last_scan": "2026-11-16T11:58:07.718652+00:00",
   "papers": [
+    {
+      "arxiv_id": "2611.18456",
+      "version": "v1",
+      "versioned_id": "2611.18456v1",
+      "title": "Topological phase diagram of an extended Su-Schrieffer-Heeger model with negative coupling",
+      "authors": [
+        "P. A. Grizzi",
+        "P. Roura-Bas",
+        "A. A. Aligia"
+      ],
+      "abstract": "Recently, an extended Su-Schrieffer-Heeger model with three atoms per unit cell has been experimentally realized in perovskite exciton-polariton micropillars. A distinctive feature of this system is that the second and third bands undergo a topological transition through a band crossing at the wave vector $k=0$, associated with a negative coupling. In this work, we analytically determine the phase diagram of the model as a function of the on-site energy splitting and the ratio of intercell to intracell hopping amplitudes. We identify seven regions in this lane, with four distinct topological phases, characterized by different Zak phases of the three bands. Our results provide a useful theoretical framework for interpreting existing experiments and serve as a guide for future experimental investigations of this system.",
+      "submitted": "2026-11-13T17:28:02Z",
+      "updated": "2026-11-13T17:28:02Z",
+      "categories": [
+        "cond-mat.mes-hall",
+        "physics.optics"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2611.18456v1",
+      "arxiv_url": "https://arxiv.org/abs/2611.18456",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [
+        "perovskites"
+      ],
+      "material_families": [
+        "Perovskites / halide semiconductors"
+      ],
+      "exciton_properties": [
+        "Light-matter strong coupling"
+      ],
+      "applications": [
+        "Exciton polaritons"
+      ],
+      "methods": [],
+      "matched_keywords": [
+        "exciton",
+        "polariton"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [
+          "experimentally"
+        ],
+        "computational_actions": [],
+        "experimental_methods": {},
+        "computational_methods": {},
+        "materials": {
+          "perovskites": [
+            "perovskite"
+          ],
+          "Perovskites / halide semiconductors": [
+            "perovskite"
+          ]
+        },
+        "properties": {
+          "Light-matter strong coupling": [
+            "exciton-polariton"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2611.18187",
+      "version": "v1",
+      "versioned_id": "2611.18187v1",
+      "title": "Tunable coupling between valley and magnetic excitons in WS2/CrSBr heterostructures",
+      "authors": [
+        "Jianchen Dang",
+        "Liza Godziashvili",
+        "Kaichen Xie",
+        "Arun Ramanathan",
+        "Vadym Kulichenko",
+        "Alejandro Busto",
+        "Jia-Yi Ji",
+        "Robert Boyd",
+        "Kenji Watanabe",
+        "Takashi Taniguchi",
+        "Sina Najmaei",
+        "Daniel Rhodes",
+        "Luis Balicas",
+        "Xavier Roy",
+        "Ting Cao",
+        "Xiao-Xiao Zhang"
+      ],
+      "abstract": "Interfacial coupling in van der Waals two-dimensional (2D) heterostructures offers an effective route to tailor the electronic, optical, and magnetic properties of materials. Versatile control and precise engineering of such interlayer interactions can be further achieved through external parameters, like electric field, magnetic field, optical excitation, as well as layer stacking geometries. Here, we examined the magneto-optical properties of 2D semiconductor heterostructures made of antiferromagnetic CrSBr and a monolayer WS2, both of which host intriguing excitonic properties. We identified a type-II band alignment between these two layers and the magnetic proximity effects from CrSBr, manifested by an enhanced Zeeman valley splitting in the WS2 layer. The interlayer charge transfer shows strong spin selectivity and is governed by the relative alignment between the valley-spin polarization of photoexcited carriers in WS2 and the magnetization in CrSBr, giving rise to spin-sensitive circularly polarized photoluminescence (PL) from WS2. Furthermore, the highly anisotropic electronic dispersion in CrSBr enables stacking-dependent control of interlayer interactions, as inferred from a twist-angle dependence of PL quenching. Our work establishes a highly tunable 2D system that integrates valleytronics and magnetic excitons through multiple coupling channels, opening up new opportunities in all-optical manipulation of spin and magnon states and for the development of flexible spin-optoelectronic devices.",
+      "submitted": "2026-11-13T13:56:26Z",
+      "updated": "2026-11-13T13:56:26Z",
+      "categories": [
+        "cond-mat.mtrl-sci",
+        "cond-mat.mes-hall"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2611.18187v1",
+      "arxiv_url": "https://arxiv.org/abs/2611.18187",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [
+        "WS2"
+      ],
+      "material_families": [
+        "TMDs / 2D chalcogenides",
+        "Other 2D / van der Waals materials"
+      ],
+      "exciton_properties": [],
+      "applications": [],
+      "methods": [
+        "Photoluminescence",
+        "Magneto-optical measurements"
+      ],
+      "matched_keywords": [
+        "exciton",
+        "excitonic",
+        "magneto-optical",
+        "photoluminescence"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [],
+        "experimental_methods": {
+          "Photoluminescence": [
+            "photoluminescence"
+          ],
+          "Magneto-optical measurements": [
+            "magneto-optical"
+          ]
+        },
+        "computational_methods": {},
+        "materials": {
+          "WS2": [
+            "ws2"
+          ],
+          "TMDs / 2D chalcogenides": [
+            "ws2"
+          ],
+          "Other 2D / van der Waals materials": [
+            "van der waals",
+            "monolayer"
+          ]
+        },
+        "properties": {},
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2611.17731",
+      "version": "v1",
+      "versioned_id": "2611.17731v1",
+      "title": "Ultrafast Imaging Reveals Energy Transport Anisotropy Grows from Bulk to Monolayer Black Phosphorus",
+      "authors": [
+        "Stephanie M. Hart",
+        "Siddhartha Sohoni",
+        "Amal Mathew",
+        "Aidan L. O'Beirne",
+        "Bowen Hou",
+        "Reef Sweeney Ethan J. Dunsworth",
+        "Diana Y. Qiu",
+        "Tony F. Heinz",
+        "Naomi S. Ginsberg"
+      ],
+      "abstract": "Black phosphorus is an emerging low-dimensional semiconductor whose tunable band gap, high carrier mobility, and anisotropic transport make it attractive for directional energy transport in electronics and thermoelectrics. Using ultrafast stroboscopic optical scattering microscopy (stroboSCAT), we image spatiotemporal evolution of energy carriers with picosecond resolution, simultaneously resolving heat and charge transport in bulk black phosphorus and exciton transport in the monolayer. The in-plane armchair:zigzag anisotropy increases from 5.3:1 in the bulk to 6.7:1 in the monolayer, driven by enhanced armchair exciton diffusivity (45.5 cm$^2$/s) relative to bulk armchair charge carriers (16.5 cm$^2$/s). The monolayer anisotropy is smaller than the calculated exciton dispersion alone would suggest, which first-principles calculations attribute to preferential exciton-phonon scattering to large momenta along the zigzag direction. These directly measured, layer-resolved diffusivities identify armchair-aligned monolayers as the optimal geometry for directional transport and show that transport anisotropy cannot be inferred from band dispersion alone.",
+      "submitted": "2026-11-13T04:22:46Z",
+      "updated": "2026-11-13T04:22:46Z",
+      "categories": [
+        "cond-mat.mtrl-sci",
+        "physics.app-ph"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2611.17731v1",
+      "arxiv_url": "https://arxiv.org/abs/2611.17731",
+      "study_type": "Computational",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [
+        "black phosphorus"
+      ],
+      "material_families": [
+        "Other 2D / van der Waals materials"
+      ],
+      "exciton_properties": [
+        "Transport / diffusion",
+        "Exciton-phonon coupling"
+      ],
+      "applications": [],
+      "methods": [
+        "DFT"
+      ],
+      "matched_keywords": [
+        "exciton",
+        "first-principles"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [
+          "using",
+          "first-principles calculations"
+        ],
+        "experimental_methods": {},
+        "computational_methods": {
+          "DFT": [
+            "first-principles"
+          ]
+        },
+        "materials": {
+          "black phosphorus": [
+            "black phosphorus"
+          ],
+          "Other 2D / van der Waals materials": [
+            "monolayer",
+            "black phosphorus"
+          ]
+        },
+        "properties": {
+          "Transport / diffusion": [
+            "exciton transport"
+          ],
+          "Exciton-phonon coupling": [
+            "exciton-phonon"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": true
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2611.17698",
+      "version": "v1",
+      "versioned_id": "2611.17698v1",
+      "title": "Pressure-driven evolution of crystal and molecular structures reshapes excited-state competition in coronene",
+      "authors": [
+        "Wenju Zhou",
+        "Shuhua Yuan",
+        "Dominique Laniel",
+        "Yoshifumi Hashikawa",
+        "Philip Dalladay-Simpson",
+        "Jun Deng",
+        "Jianbo Zhang",
+        "Xinyu Wang",
+        "Kejun Bu",
+        "Akun Liang",
+        "Simon Parsons",
+        "Dominik Daisenberger",
+        "Egor Koemets",
+        "Hirofumi Ishii",
+        "Weiwei Dong",
+        "Huiyang Gou",
+        "Qingyang Hu",
+        "Yang Ding",
+        "Martina Vrankić",
+        "Takeshi Nakagawa"
+      ],
+      "abstract": "Molecular nanocarbons exhibit unique optoelectronic properties and considered as promising candidates for organic device applications, however, understanding how molecular geometry and crystal packing jointly govern physical properties remains a fundamental challenge in π-conjugated molecular materials. Here, we demonstrate how these structural factors modulate the photoluminescence of coronene under high pressure. Combining high-pressure single-crystal X-ray diffraction, Raman spectroscopy, optical spectroscopy, and density functional theory calculations, we establish a relationship between distinct structural changes and the evolution of competing emissive states. Our results reveal that crystal polymorphism modifies the balance between free-exciton (FE) and self-trapped-exciton (STE) emission, while pressure-induced molecular bending is associated with a nonmonotonic evolution of STE emission. As intermolecular distances shorten, enhanced intermolecular electronic interactions give rise to excimer-related emission, introducing an additional emissive pathway. Although pressure-dependent optical properties of coronene have been linked to changes in crystal packing, our findings highlight that the optical response of a molecular solid is not governed by molecular deformation or crystal packing alone, but emerges from their interplay with intermolecular electronic coupling. By directly resolving molecular bending alongside changes in excited-state emission, this work provides insight into how distinct structural degrees of freedom can reshape the photophysical behavior of π-conjugated molecular solids.",
+      "submitted": "2026-11-13T03:24:47Z",
+      "updated": "2026-11-13T03:24:47Z",
+      "categories": [
+        "cond-mat.mtrl-sci"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2611.17698v1",
+      "arxiv_url": "https://arxiv.org/abs/2611.17698",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [],
+      "material_families": [],
+      "exciton_properties": [],
+      "applications": [],
+      "methods": [
+        "Photoluminescence",
+        "Raman spectroscopy",
+        "DFT"
+      ],
+      "matched_keywords": [
+        "density functional theory",
+        "exciton",
+        "photoluminescence",
+        "raman spectroscopy"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [],
+        "experimental_methods": {
+          "Photoluminescence": [
+            "photoluminescence"
+          ],
+          "Raman spectroscopy": [
+            "raman spectroscopy"
+          ]
+        },
+        "computational_methods": {
+          "DFT": [
+            "density functional theory"
+          ]
+        },
+        "materials": {},
+        "properties": {},
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2611.17474",
+      "version": "v1",
+      "versioned_id": "2611.17474v1",
+      "title": "Roton softening and crystallization in a mass-asymmetric electron-hole bilayer",
+      "authors": [
+        "Ambuj Jain",
+        "Mu-Yang Chen",
+        "Chao-Xing Liu",
+        "Binghai Yan",
+        "Wangqian Miao"
+      ],
+      "abstract": "Whether roton softening drives a continuous transition into a density-ordered or supersolid state is a longstanding question in interacting quantum fluids. Here, we address this microscopically in a mass-asymmetric electron--hole bilayer in which exciton condensation competes with interaction-driven crystallization. Using self-consistent Hartree--Fock--Bogoliubov theory and its time-dependent extension, we show that increasing the carrier-mass ratio or interlayer distance induces a pronounced roton minimum in the homogeneous exciton condensate liquid. The system undergoes a first-order transition to a crystalline state, preempting the roton instability. In this metastable regime, strongly interacting holes first drive the crystallization of the itinerant electrons, and the system then evolves into a hole-crystal--electron-metal phase at larger interlayer distance. Supersolid solutions with coexisting interlayer coherence and charge density order are also found to be energetically competitive near the crystallization boundary. We further discuss our findings based on recent experimental setups in two-dimensional material heterostructures.",
+      "submitted": "2026-11-12T20:00:48Z",
+      "updated": "2026-11-12T20:00:48Z",
+      "categories": [
+        "cond-mat.mes-hall"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2611.17474v1",
+      "arxiv_url": "https://arxiv.org/abs/2611.17474",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [
+        "2D materials"
+      ],
+      "material_families": [
+        "Other 2D / van der Waals materials"
+      ],
+      "exciton_properties": [],
+      "applications": [],
+      "methods": [],
+      "matched_keywords": [
+        "exciton"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [
+          "using"
+        ],
+        "experimental_methods": {},
+        "computational_methods": {},
+        "materials": {
+          "2D materials": [
+            "two-dimensional material"
+          ],
+          "Other 2D / van der Waals materials": [
+            "two-dimensional material"
+          ]
+        },
+        "properties": {},
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
     {
       "arxiv_id": "2611.16475",
       "version": "v1",
@@ -31257,11 +31652,20 @@
       "new": 0,
       "updated": 0,
       "total": 407
+    },
+    {
+      "scanned_at": "2026-11-16T11:58:07.718652+00:00",
+      "since": "2026-11-02",
+      "fetched": 29,
+      "classified": 29,
+      "new": 5,
+      "updated": 0,
+      "total": 412
     }
   ],
   "counts": {
-    "total": 407,
-    "new_this_scan": 0,
+    "total": 412,
+    "new_this_scan": 5,
     "updated_this_scan": 0
   }
 }
