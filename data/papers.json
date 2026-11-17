@@ -1,7 +1,485 @@
 {
   "schema_version": 2,
-  "last_scan": "2026-11-16T11:58:07.718652+00:00",
+  "last_scan": "2026-11-17T18:43:51.851069+00:00",
   "papers": [
+    {
+      "arxiv_id": "2611.21224",
+      "version": "v1",
+      "versioned_id": "2611.21224v1",
+      "title": "Moiré Excitons in a Chern Ferromagnet",
+      "authors": [
+        "Shiyu Peng",
+        "Yifan Wang",
+        "Peiyao Qin",
+        "Yixuan Liu",
+        "Xi Dai",
+        "Chen Hu"
+      ],
+      "abstract": "Recent experiments have established excitonic optical resonances as powerful probes and control knobs of moiré Chern ferromagnets. However, the microscopic nature of excitons formed on such interaction-driven, time-reversal-symmetry-broken ground states remains largely unexplored. In this paper, using a Gutzwiller plus Bethe-Salpeter equation framework, we investigate twisted bilayer MoTe2 at hole filling ν_h=1 and identify two near-infrared Chern-ferromagnet excitons (CFEs) selectively coupled to opposite circular polarizations. Strong electron-hole interactions markedly enhance their energy separation and drive a pronounced momentum-space reconstruction of the emergent X- state, beyond the quasiparticle-transition picture. We further find that this reconstruction enhances the interlayer electron-hole character of X-, giving rise to a giant quadratic Stark response. These findings reveal the nontrivial interplay between electron-electron correlations and electron-hole interactions underlying CFE formation, providing optical fingerprints of moiré Chern-ferromagnetic order and a microscopic basis for its optical control.",
+      "submitted": "2026-11-16T15:11:38Z",
+      "updated": "2026-11-16T15:11:38Z",
+      "categories": [
+        "cond-mat.mtrl-sci"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2611.21224v1",
+      "arxiv_url": "https://arxiv.org/abs/2611.21224",
+      "study_type": "Computational",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [],
+      "material_families": [],
+      "exciton_properties": [],
+      "applications": [],
+      "methods": [
+        "Bethe–Salpeter equation"
+      ],
+      "matched_keywords": [
+        "bethe-salpeter",
+        "exciton",
+        "excitonic"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [
+          "using"
+        ],
+        "experimental_methods": {},
+        "computational_methods": {
+          "Bethe–Salpeter equation": [
+            "bethe-salpeter"
+          ]
+        },
+        "materials": {},
+        "properties": {},
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": true
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2611.20198",
+      "version": "v1",
+      "versioned_id": "2611.20198v1",
+      "title": "Interface-Selective Extreme Ultraviolet Second Harmonic Generation Away from Linear Absorption Edges",
+      "authors": [
+        "Bailey R. Nebgen",
+        "Shane W. Devlin",
+        "Franky Bernal",
+        "Aga Ridhova",
+        "James Bullock",
+        "Daniel R. Schacher",
+        "Jake D. Koralek",
+        "Yuya Kubota",
+        "Shigeki Owada",
+        "Toshihide Sumi",
+        "XingYu Su",
+        "Iwao Matsuda",
+        "Keith V. Lawler",
+        "Walter S. Drisdell",
+        "Michael W. Zuerch",
+        "Craig P. Schwartz"
+      ],
+      "abstract": "Extreme ultraviolet (XUV) second harmonic generation (SHG) combines interface selectivity with core-level element specificity but has so far been limited to linear absorption edges. Here, we measure XUVSHG from an indium tin oxide capped MoO$_3$/SiO$_2$/Si photovoltaic heterojunction for fundamental energies of 60--76\\,eV, below the Si L$_{2,3}$-edge. Where linear absorption is a featureless valence background, we observe a strong, structured XUVSHG response with maxima near 70 and 76\\,eV. Layer-resolved first-principles calculations reproduce both maxima and assign them to the Si/SiO$_2$ interface, the 76\\,eV peak to the bridging Si monolayer and the 70\\,eV peak to the near-interface substrate. Bethe--Salpeter calculations for bulk Si connect the signal to Si 2$p$ excitons at 140--160\\,eV. At the Si L$_{2,3}$-edge, the calculated response is instead governed by MoO$_3$-induced asymmetry at the oxide interface. These findings establish off-edge XUV SHG as a powerful approach for selectively probing distinct buried interfaces within complex material heterostructures.",
+      "submitted": "2026-11-15T18:50:36Z",
+      "updated": "2026-11-15T18:50:36Z",
+      "categories": [
+        "cond-mat.mtrl-sci"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2611.20198v1",
+      "arxiv_url": "https://arxiv.org/abs/2611.20198",
+      "study_type": "Computational",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [],
+      "material_families": [
+        "Other 2D / van der Waals materials"
+      ],
+      "exciton_properties": [],
+      "applications": [
+        "Photovoltaics"
+      ],
+      "methods": [
+        "DFT"
+      ],
+      "matched_keywords": [
+        "exciton",
+        "first-principles"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [
+          "we measure",
+          "we observe"
+        ],
+        "computational_actions": [
+          "first-principles calculations"
+        ],
+        "experimental_methods": {},
+        "computational_methods": {
+          "DFT": [
+            "first-principles"
+          ]
+        },
+        "materials": {
+          "Other 2D / van der Waals materials": [
+            "monolayer"
+          ]
+        },
+        "properties": {},
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": true
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2611.19879",
+      "version": "v1",
+      "versioned_id": "2611.19879v1",
+      "title": "Exciton-polarons in monolayer semiconductors with drifting electrons",
+      "authors": [
+        "Shadman Iqbal",
+        "Jesper Levinsen",
+        "Meera M. Parish",
+        "Dmitry K. Efimkin"
+      ],
+      "abstract": "Recent work has demonstrated that the optical absorption of moderately doped two-dimensional semiconductors can be described in terms of exciton-polarons. In this picture, interactions between a photoexcited exciton and a Fermi sea of excess charge carriers split the exciton spectrum into a lower-energy attractive polaron branch and a higher-energy repulsive polaron branch. Due to the negligible in-plane momentum of photons, however, optical measurements probe only exciton-polarons near zero momentum, leaving their finite-momentum physics largely unexplored. Here we propose accessing this regime by measuring the absorption in the presence of an electric bias current. In effect, this displaces the electronic Fermi sea in momentum space, such that an optically active exciton-polaron at rest acquires finite momentum relative to the charge carriers. Using a diagrammatic formulation of the exciton-polaron problem, we derive exact relations between the spectral and quasiparticle properties of current-biased exciton-polarons and their finite-momentum counterparts in an equilibrium Fermi sea. These relations show that absorption measurements with drifting electrons can reconstruct the momentum dependence of the quasiparticle properties for both branches. We estimate that experimentally accessible currents can probe a broad momentum range while remaining within the linear-response regime.",
+      "submitted": "2026-11-15T08:45:55Z",
+      "updated": "2026-11-15T08:45:55Z",
+      "categories": [
+        "cond-mat.mes-hall"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2611.19879v1",
+      "arxiv_url": "https://arxiv.org/abs/2611.19879",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [],
+      "material_families": [
+        "Other 2D / van der Waals materials"
+      ],
+      "exciton_properties": [],
+      "applications": [],
+      "methods": [],
+      "matched_keywords": [
+        "exciton"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [
+          "experimentally"
+        ],
+        "computational_actions": [
+          "using"
+        ],
+        "experimental_methods": {},
+        "computational_methods": {},
+        "materials": {
+          "Other 2D / van der Waals materials": [
+            "monolayer"
+          ]
+        },
+        "properties": {},
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2611.19483",
+      "version": "v1",
+      "versioned_id": "2611.19483v1",
+      "title": "Bright-Dark State Interplay Governs Vibronic Decoherence in Molecular Aggregates",
+      "authors": [
+        "Sreeja Loho Choudhury",
+        "Abhradeep Sarkar",
+        "Raja Ghosh"
+      ],
+      "abstract": "In this study, we establish a spectroscopy-driven framework that connects optically bright vibronic eigenstates to their subsequent decoherence dynamics in excitonic molecular aggregates. Combining the Multiparticle Holstein Formalism with explicit system--bath interactions, we demonstrate that relaxation-induced purity loss is governed by three interconnected factors: (i) the bath spectral window, which determines the accessibility of intra- and interband relaxation pathways; (ii) the local network of dark vibronic states surrounding the optically prepared bright state; and (iii) the energetic placement of the bright state, which controls downhill relaxation. Remarkably, states with different excitation energies exhibit nearly identical purity dynamics when their local relaxation networks are similar. The resulting H--J asymmetry further reveals the importance of energetic directionality. These findings establish a reliable connection between optical spectroscopy, vibronic band structure, and state-selective loss in purity.",
+      "submitted": "2026-11-14T16:06:34Z",
+      "updated": "2026-11-14T16:06:34Z",
+      "categories": [
+        "cond-mat.stat-mech",
+        "cond-mat.mtrl-sci",
+        "quant-ph"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2611.19483v1",
+      "arxiv_url": "https://arxiv.org/abs/2611.19483",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [],
+      "material_families": [
+        "Organic / molecular materials"
+      ],
+      "exciton_properties": [
+        "Fine structure / bright-dark splitting"
+      ],
+      "applications": [],
+      "methods": [],
+      "matched_keywords": [
+        "exciton",
+        "excitonic"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [],
+        "experimental_methods": {},
+        "computational_methods": {},
+        "materials": {
+          "Organic / molecular materials": [
+            "molecular aggregate"
+          ]
+        },
+        "properties": {
+          "Fine structure / bright-dark splitting": [
+            "bright-dark"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2611.19415",
+      "version": "v1",
+      "versioned_id": "2611.19415v1",
+      "title": "Universal Analytical Description of Magnetoexcitons in Two-Dimensional Semiconducting Materials",
+      "authors": [
+        "Dang-Khoa D. Le",
+        "Dai-Nam Le",
+        "Ngoc-Loan Phan",
+        "Van-Hoang Le"
+      ],
+      "abstract": "Matching the Coulomb and logarithmic limits of the Rytova--Keldysh model gives a universal zero-field spectrum for monolayer exciton $s$ states, $E_n\\simeq-\\mathrm{Ry}^*/[n-1/2+f_n(ξ)]^2$, where $ξ$ is the screening parameter. Analytical radii determine diamagnetic coefficients and the magnetic crossover scale. Zero-field deviations peak near $1\\%$ across the full screening range $0\\leqξ\\leq100$. For the sampled hBN-encapsulated monolayers, magnetoexciton energies agree with numerical spectra to sub-meV rms up to $100\\T$ and capture the measured orbital shifts. Shared parameters link optical and magneto-optical spectra.",
+      "submitted": "2026-11-14T13:56:34Z",
+      "updated": "2026-11-14T13:56:34Z",
+      "categories": [
+        "cond-mat.mes-hall",
+        "cond-mat.mtrl-sci",
+        "cond-mat.str-el"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2611.19415v1",
+      "arxiv_url": "https://arxiv.org/abs/2611.19415",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [
+        "hBN"
+      ],
+      "material_families": [
+        "Other 2D / van der Waals materials"
+      ],
+      "exciton_properties": [],
+      "applications": [],
+      "methods": [
+        "Magneto-optical measurements"
+      ],
+      "matched_keywords": [
+        "exciton",
+        "magneto-optical"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [],
+        "experimental_methods": {
+          "Magneto-optical measurements": [
+            "magneto-optical"
+          ]
+        },
+        "computational_methods": {},
+        "materials": {
+          "hBN": [
+            "hbn"
+          ],
+          "Other 2D / van der Waals materials": [
+            "monolayer",
+            "hbn"
+          ]
+        },
+        "properties": {},
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2611.19296",
+      "version": "v1",
+      "versioned_id": "2611.19296v1",
+      "title": "Predicting local electric field in Al$_x$Ga$_{1-x}$N p-i-n photodiodes using exciton Franz-Keldysh photocurrent spectroscopy",
+      "authors": [
+        "Himel Kundu Utsha",
+        "Manjur Muntasir",
+        "Md. Mohsinur Rahman Adnan"
+      ],
+      "abstract": "In AlGaN p-i-n photodiodes, reverse bias redshifts and broadens the sub-bandgap photocurrent responsivity through the eXciton Franz-Keldysh (XFK) effect, and this spectral line shape encodes the local electric field inside the device. Fitting the photocurrent spectra of two such photodiodes, with 5% and 40% Al, to an XFK absorption model at each bias yields the local voltage, $V_l$, a single parameter that sets the line shape and uniquely determines the electric-field profile inside the device. In both devices, $V_l$ varies linearly with the applied bias ($R^2 = 0.994$ and $0.998$) but changes far more slowly than the bias itself, revealing a strong local reduction of the electric field that points to non-uniform electrostatics. The slopes show that only 12.4% of the applied bias in the 5% Al device, and 45.8% in the 40% Al device, drops across the junction at the probed location. Extrapolated to zero bias, $V_l$ gives built-in voltages of 3.39 and 4.29 V, within 0.02 V of the 3.41 and 4.28 V obtained from technology computer-aided design (TCAD) simulation, which validates the extracted local voltages at equilibrium. These results extend sub-bandgap photocurrent spectroscopy to AlGaN devices as an optical probe of local electrostatics, relevant to ultraviolet photodetectors and high-voltage electronics.",
+      "submitted": "2026-11-14T09:48:04Z",
+      "updated": "2026-11-14T09:48:04Z",
+      "categories": [
+        "physics.optics",
+        "physics.app-ph"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2611.19296v1",
+      "arxiv_url": "https://arxiv.org/abs/2611.19296",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [],
+      "material_families": [],
+      "exciton_properties": [],
+      "applications": [],
+      "methods": [
+        "Photoemission / photocurrent"
+      ],
+      "matched_keywords": [
+        "exciton",
+        "photocurrent spectroscopy"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [
+          "using"
+        ],
+        "experimental_methods": {
+          "Photoemission / photocurrent": [
+            "photocurrent spectroscopy"
+          ]
+        },
+        "computational_methods": {},
+        "materials": {},
+        "properties": {},
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2611.18906",
+      "version": "v1",
+      "versioned_id": "2611.18906v1",
+      "title": "On-demand valley control in a WSe2/CrPS4 heterostructure via optically programmed magnetic order",
+      "authors": [
+        "Muhammad Hassan Shaikh",
+        "Daria Blach",
+        "Harishankar Jayakumar",
+        "Brayan Eraso Solarte",
+        "Kenji Watanabe",
+        "Takashi Taniguchi",
+        "Yafei Ren",
+        "Archana Raja",
+        "Chitraleema Chakraborty"
+      ],
+      "abstract": "The ability to optically control the valley degree of freedom in two-dimensional semiconductors is critical for scalable valleytronics. While magnetic proximity effects can lift valley degeneracy, static interfaces lack the dynamic control needed for devices. Here, we demonstrate on-demand optical switching of valley symmetry breaking in a WSe2/CrPS4 heterostructure by exploiting light-tunable magnetic order. Using polarization- and time-resolved photoluminescence, we show that excitation below the ligand-to-metal charge transfer (LMCT) gap preserves an out-of-plane Néel vector in CrPS4, generating a net out-of-plane spin at the interface and enabling spin-polarized charge transfer. This yields a robust polarization gap in the WSe2 A-exciton decay dynamics without an external magnetic field. Excitation above the LMCT gap extinguishes the polarization gap, indicating a rotation of the Néel vector to in-plane. This reversible switching provides direct evidence of spin-polarized charge transfer. Furthermore, the same optical excitation enables optical control of the decay dynamics of the low-energy excitons (XLE) by ~42%, which is potentially attributed to the modification of interfacial couplings. Our work establishes a first unique multifunctional platform where magnetic symmetry, valley polarization, and exciton relaxation are integrated and dynamically controlled by light.",
+      "submitted": "2026-11-13T20:07:35Z",
+      "updated": "2026-11-13T20:07:35Z",
+      "categories": [
+        "cond-mat.mtrl-sci",
+        "physics.optics"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2611.18906v1",
+      "arxiv_url": "https://arxiv.org/abs/2611.18906",
+      "study_type": "Experimental",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [
+        "WSe2"
+      ],
+      "material_families": [
+        "TMDs / 2D chalcogenides"
+      ],
+      "exciton_properties": [
+        "Valley / spin physics"
+      ],
+      "applications": [],
+      "methods": [
+        "Photoluminescence",
+        "Time-resolved spectroscopy"
+      ],
+      "matched_keywords": [
+        "exciton",
+        "photoluminescence",
+        "time-resolved"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [
+          "using"
+        ],
+        "experimental_methods": {
+          "Photoluminescence": [
+            "photoluminescence"
+          ],
+          "Time-resolved spectroscopy": [
+            "time-resolved"
+          ]
+        },
+        "computational_methods": {},
+        "materials": {
+          "WSe2": [
+            "wse2"
+          ],
+          "TMDs / 2D chalcogenides": [
+            "wse2"
+          ]
+        },
+        "properties": {
+          "Valley / spin physics": [
+            "valley polarization"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": true,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
     {
       "arxiv_id": "2611.18456",
       "version": "v1",
@@ -31661,11 +32139,20 @@
       "new": 5,
       "updated": 0,
       "total": 412
+    },
+    {
+      "scanned_at": "2026-11-17T18:43:51.851069+00:00",
+      "since": "2026-11-03",
+      "fetched": 34,
+      "classified": 34,
+      "new": 7,
+      "updated": 0,
+      "total": 419
     }
   ],
   "counts": {
-    "total": 412,
-    "new_this_scan": 5,
+    "total": 419,
+    "new_this_scan": 7,
     "updated_this_scan": 0
   }
 }
