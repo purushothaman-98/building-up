@@ -1,7 +1,426 @@
 {
   "schema_version": 2,
-  "last_scan": "2026-11-17T18:43:51.851069+00:00",
+  "last_scan": "2026-11-18T12:09:41.810302+00:00",
   "papers": [
+    {
+      "arxiv_id": "2611.20198",
+      "version": "v2",
+      "versioned_id": "2611.20198v2",
+      "title": "Interface-Selective Extreme Ultraviolet Second Harmonic Generation Away from Linear Absorption Edges",
+      "authors": [
+        "Bailey R. Nebgen",
+        "Shane W. Devlin",
+        "Franky Bernal",
+        "Aga Ridhova",
+        "James Bullock",
+        "Daniel R. Schacher",
+        "Jake D. Koralek",
+        "Yuya Kubota",
+        "Gota Yamaguchi",
+        "Shigeki Owada",
+        "Toshihide Sumi",
+        "XingYu Su",
+        "Iwao Matsuda",
+        "Keith V. Lawler",
+        "Walter S. Drisdell",
+        "Michael W. Zuerch",
+        "Craig P. Schwartz"
+      ],
+      "abstract": "Extreme ultraviolet (XUV) second harmonic generation (SHG) combines interface selectivity with core-level element specificity but has so far been limited to linear absorption edges. Here, we measure XUVSHG from an indium tin oxide capped MoO$_3$/SiO$_2$/Si photovoltaic heterojunction for fundamental energies of 60--76\\,eV, below the Si L$_{2,3}$-edge. Where linear absorption is a featureless valence background, we observe a strong, structured XUVSHG response with maxima near 70 and 76\\,eV. Layer-resolved first-principles calculations reproduce both maxima and assign them to the Si/SiO$_2$ interface, the 76\\,eV peak to the bridging Si monolayer and the 70\\,eV peak to the near-interface substrate. Bethe--Salpeter calculations for bulk Si connect the signal to Si 2$p$ excitons at 140--160\\,eV. At the Si L$_{2,3}$-edge, the calculated response is instead governed by MoO$_3$-induced asymmetry at the oxide interface. These findings establish off-edge XUV SHG as a powerful approach for selectively probing distinct buried interfaces within complex material heterostructures.",
+      "submitted": "2026-11-15T18:50:36Z",
+      "updated": "2026-11-17T17:56:46Z",
+      "categories": [
+        "cond-mat.mtrl-sci"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2611.20198v2",
+      "arxiv_url": "https://arxiv.org/abs/2611.20198",
+      "study_type": "Computational",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [],
+      "material_families": [
+        "Other 2D / van der Waals materials"
+      ],
+      "exciton_properties": [],
+      "applications": [
+        "Photovoltaics"
+      ],
+      "methods": [
+        "DFT"
+      ],
+      "matched_keywords": [
+        "exciton",
+        "first-principles"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [
+          "we measure",
+          "we observe"
+        ],
+        "computational_actions": [
+          "first-principles calculations"
+        ],
+        "experimental_methods": {},
+        "computational_methods": {
+          "DFT": [
+            "first-principles"
+          ]
+        },
+        "materials": {
+          "Other 2D / van der Waals materials": [
+            "monolayer"
+          ]
+        },
+        "properties": {},
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": true
+      },
+      "versions_seen": [
+        "v1",
+        "v2"
+      ]
+    },
+    {
+      "arxiv_id": "2611.23131",
+      "version": "v1",
+      "versioned_id": "2611.23131v1",
+      "title": "Charge-transfer excitation drives cooperative phonon-assisted exciton self-trapping in NiPS$_3$",
+      "authors": [
+        "Long Cheng",
+        "Alexander Holm Ohrt",
+        "Oliver Nagy",
+        "Yu Zhao",
+        "Chenyu Wang",
+        "Yaxian Wang",
+        "Sheng Meng",
+        "Guohui Li",
+        "Qinying Pan",
+        "Xingyu Huang",
+        "Sanshui Xiao",
+        "Sijie Zhang",
+        "Guoqian Liao",
+        "Yutong Li",
+        "Xuan Luo",
+        "Yuping Sun",
+        "Kaibo Zheng",
+        "Peter Uhd Jepsen",
+        "Binbin Zhou"
+      ],
+      "abstract": "Carrier self-trapping is a fundamental relaxation pathway in strongly correlated quantum materials, yet the microscopic lattice motions that drive it have remained largely inaccessible to direct observation. Here we investigate the van der Waals antiferromagnet NiPS$_3$ upon excitation across its ligand-to-metal charge-transfer gap, and reveal a nonequilibrium pathway that initially generates unbound carriers before they evolve into correlated excitonic states. Using ultrabroadband optical-pump terahertz-probe spectroscopy, we simultaneously track carrier localization and the associated lattice dynamics in real time. The transient conductive response quenches with a time constant of $\\sim$109 fs and evolves into a localized exciton state, accompanied by pronounced renormalization of Ni-S optical phonons and the emergence of a transient 2.7 THz vibrational mode. Temperature-dependent measurements, together with mode-resolved dielectric dynamics and symmetry analysis, identify the 2.7 and 8.0 THz responses as spectroscopic indicators of exciton self-trapping and point to a cooperative two-phonon mechanism. These findings establish the excitation pathway as a key parameter controlling carrier localization and many-body relaxation in strongly coupled quantum materials.",
+      "submitted": "2026-11-17T17:49:43Z",
+      "updated": "2026-11-17T17:49:43Z",
+      "categories": [
+        "cond-mat.mtrl-sci"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2611.23131v1",
+      "arxiv_url": "https://arxiv.org/abs/2611.23131",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [],
+      "material_families": [
+        "Other 2D / van der Waals materials"
+      ],
+      "exciton_properties": [
+        "Exciton-phonon coupling"
+      ],
+      "applications": [],
+      "methods": [],
+      "matched_keywords": [
+        "exciton",
+        "excitonic"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [
+          "using"
+        ],
+        "experimental_methods": {},
+        "computational_methods": {},
+        "materials": {
+          "Other 2D / van der Waals materials": [
+            "van der waals"
+          ]
+        },
+        "properties": {
+          "Exciton-phonon coupling": [
+            "phonon-assisted"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2611.22524",
+      "version": "v1",
+      "versioned_id": "2611.22524v1",
+      "title": "Koopmans spectral functionals for excitons in materials",
+      "authors": [
+        "Miki Bonacci",
+        "Edward Linscott",
+        "Julian Geiger",
+        "Nicola Marzari",
+        "Nicola Colonna"
+      ],
+      "abstract": "Accurate first-principles characterization of excitons typically relies on the Bethe-Salpeter equation (BSE) combined with quasiparticle energies from computationally demanding GW calculations. Here, we replace the GW step with quasiparticle energies from Koopmans-compliant spectral functionals, an approach we call BSE@qKI, and implement it in an automated, reproducible AiiDA workflow. For a set of benchmark semiconductors, BSE@qKI reproduces experimental band gaps and first exciton energies with mean absolute relative errors of 13% and 4%, respectively, comparable to BSE@G0W0 for the gaps and markedly better for the excitation energies. We also apply the method to the layered magnetic semiconductor CrI3, obtaining an absorption spectrum that reproduces the main experimental features. These results establish BSE@qKI as a GW-free alternative to BSE@G0W0 for systematic studies of excitonic properties in complex materials.",
+      "submitted": "2026-11-17T10:17:02Z",
+      "updated": "2026-11-17T10:17:02Z",
+      "categories": [
+        "cond-mat.mtrl-sci"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2611.22524v1",
+      "arxiv_url": "https://arxiv.org/abs/2611.22524",
+      "study_type": "Computational",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Methods / software",
+      "materials": [],
+      "material_families": [],
+      "exciton_properties": [],
+      "applications": [],
+      "methods": [
+        "Absorption / reflectance",
+        "DFT",
+        "GW",
+        "Bethe–Salpeter equation"
+      ],
+      "matched_keywords": [
+        "absorption spectrum",
+        "bethe-salpeter",
+        "exciton",
+        "excitonic",
+        "first-principles",
+        "g0w0",
+        "gw calculation",
+        "gw calculations"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [],
+        "experimental_methods": {
+          "Absorption / reflectance": [
+            "absorption spectrum"
+          ]
+        },
+        "computational_methods": {
+          "DFT": [
+            "first-principles"
+          ],
+          "GW": [
+            "g0w0",
+            "gw calculation",
+            "gw calculations"
+          ],
+          "Bethe–Salpeter equation": [
+            "bethe-salpeter"
+          ]
+        },
+        "materials": {},
+        "properties": {},
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": true
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2611.21931",
+      "version": "v1",
+      "versioned_id": "2611.21931v1",
+      "title": "Optical characterization of Fermi polarons in monolayer MoSe$_2$ encapsulated in amorphous silicon nitride",
+      "authors": [
+        "Christos Paspalides",
+        "Brendan C. Mulkerin",
+        "Rafael Luque Merino",
+        "Alvaro Castilla Lamas",
+        "Samuel Palacios Valdepeñas",
+        "Kenji Watanabe",
+        "Takashi Taniguchi",
+        "Jesper Levinsen",
+        "Meera M. Parish",
+        "Luis Viña",
+        "Maria Dolores Martín",
+        "Francesca Maria Marchetti",
+        "Andres Castellanos-Gomez",
+        "Carlos Antón-Solanas"
+      ],
+      "abstract": "Amorphous silicon nitride is the leading low-loss, CMOS-compatible platform for wafer-scale integrated photonics. Encapsulating transition-metal dichalcogenide (TMD) monolayers within this platform offers a promising route towards scalable TMD-photonic circuits. Yet the effect of this amorphous dielectric on the optical response of the monolayer remains poorly understood. Here, we compare monolayer MoSe$_2$ encapsulated in amorphous silicon nitride with a hexagonal boron nitride-encapsulated reference, using differential reflectivity and photoluminescence. Whereas the reference is dominated by the neutral exciton, the nitride-encapsulated monolayer shows attractive and repulsive polaron resonances separated by ${\\sim}31$~meV, with emission dominated by the attractive branch. A quantitative comparison of temperature-dependent reflectance with a microscopic finite-temperature Fermi-polaron theory shows that the nitride induces substantial electron doping in the monolayer, with an electron density of $(0.8$--$0.9)\\times10^{12}$~cm$^{-2}$. Using the extracted density and trion binding energy as the only input parameters, the theory reproduces the photoluminescence spectra up to ${\\sim}80$ K in excellent quantitative agreement with experiments, thus corroborating the Fermi-polaron description of the observed excitonic response.",
+      "submitted": "2026-11-16T21:45:34Z",
+      "updated": "2026-11-16T21:45:34Z",
+      "categories": [
+        "cond-mat.mes-hall",
+        "cond-mat.mtrl-sci"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2611.21931v1",
+      "arxiv_url": "https://arxiv.org/abs/2611.21931",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [
+        "hBN",
+        "transition-metal dichalcogenides"
+      ],
+      "material_families": [
+        "TMDs / 2D chalcogenides",
+        "Other 2D / van der Waals materials"
+      ],
+      "exciton_properties": [],
+      "applications": [],
+      "methods": [
+        "Photoluminescence",
+        "Absorption / reflectance"
+      ],
+      "matched_keywords": [
+        "exciton",
+        "excitonic",
+        "photoluminescence",
+        "reflectance",
+        "reflectivity"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [
+          "using"
+        ],
+        "experimental_methods": {
+          "Photoluminescence": [
+            "photoluminescence"
+          ],
+          "Absorption / reflectance": [
+            "reflectance",
+            "reflectivity"
+          ]
+        },
+        "computational_methods": {},
+        "materials": {
+          "hBN": [
+            "hexagonal boron nitride"
+          ],
+          "transition-metal dichalcogenides": [
+            "transition-metal dichalcogenide"
+          ],
+          "TMDs / 2D chalcogenides": [
+            "transition-metal dichalcogenide"
+          ],
+          "Other 2D / van der Waals materials": [
+            "monolayer",
+            "hexagonal boron nitride"
+          ]
+        },
+        "properties": {},
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2611.21869",
+      "version": "v1",
+      "versioned_id": "2611.21869v1",
+      "title": "Magnon-Phonon-Polariton Optomechanics in a van der Waals Magnet",
+      "authors": [
+        "Jens-Christian Drawer",
+        "Vladislav Yu. Shishkov",
+        "Bo Han",
+        "Vita Solovyeva",
+        "Iva Plutnarová",
+        "Zdeněk Sofer",
+        "Christian Schneider",
+        "Anton V. Zasedatelev",
+        "Martin Esmann"
+      ],
+      "abstract": "The layered anti-ferromagnet CrSBr hosts self-hybridized exciton-polaritons that couple parametrically to coherent magnons and phonons. In this work, we explore the tripartite optomechanical interaction between these quasiparticles in suspended CrSBr membranes supporting high-$Q$ breathing-type acoustic phonon modes. Using resonant pump-probe spectroscopy on the polariton state, we resolve the coupled dynamics in the $\\simeq 20$ GHz range while sweeping the magnon mode across the phonon resonance with an external magnetic field. We observe an attractive magnon-phonon interaction of strength $V/2π= -43$ MHz, which primarily leads to phonon amplification. At the magnon-phonon resonance, we find predominantly unidirectional energy flow from magnons to phonons while the possible back-action is limited by kinetic losses of coherent magnons. Our study enables direct interfacing of collective magnetic excitations with sound and light in layered van der Waals materials, paving the way for quantum-coherent transduction in the GHz range with optical readout.",
+      "submitted": "2026-11-16T20:35:12Z",
+      "updated": "2026-11-16T20:35:12Z",
+      "categories": [
+        "cond-mat.mes-hall",
+        "cond-mat.mtrl-sci",
+        "physics.optics"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2611.21869v1",
+      "arxiv_url": "https://arxiv.org/abs/2611.21869",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [],
+      "material_families": [
+        "Other 2D / van der Waals materials"
+      ],
+      "exciton_properties": [
+        "Light-matter strong coupling"
+      ],
+      "applications": [
+        "Exciton polaritons"
+      ],
+      "methods": [
+        "Pump–probe spectroscopy"
+      ],
+      "matched_keywords": [
+        "exciton",
+        "polariton",
+        "pump-probe"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [
+          "we observe"
+        ],
+        "computational_actions": [
+          "using"
+        ],
+        "experimental_methods": {
+          "Pump–probe spectroscopy": [
+            "pump-probe"
+          ]
+        },
+        "computational_methods": {},
+        "materials": {
+          "Other 2D / van der Waals materials": [
+            "van der waals"
+          ]
+        },
+        "properties": {
+          "Light-matter strong coupling": [
+            "exciton-polariton"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
     {
       "arxiv_id": "2611.21224",
       "version": "v1",
@@ -50,87 +469,6 @@
           ]
         },
         "materials": {},
-        "properties": {},
-        "relevance": [
-          "exciton/excitonic stated in title or abstract"
-        ]
-      },
-      "evidence": {
-        "experimental": false,
-        "computational": true
-      },
-      "versions_seen": [
-        "v1"
-      ]
-    },
-    {
-      "arxiv_id": "2611.20198",
-      "version": "v1",
-      "versioned_id": "2611.20198v1",
-      "title": "Interface-Selective Extreme Ultraviolet Second Harmonic Generation Away from Linear Absorption Edges",
-      "authors": [
-        "Bailey R. Nebgen",
-        "Shane W. Devlin",
-        "Franky Bernal",
-        "Aga Ridhova",
-        "James Bullock",
-        "Daniel R. Schacher",
-        "Jake D. Koralek",
-        "Yuya Kubota",
-        "Shigeki Owada",
-        "Toshihide Sumi",
-        "XingYu Su",
-        "Iwao Matsuda",
-        "Keith V. Lawler",
-        "Walter S. Drisdell",
-        "Michael W. Zuerch",
-        "Craig P. Schwartz"
-      ],
-      "abstract": "Extreme ultraviolet (XUV) second harmonic generation (SHG) combines interface selectivity with core-level element specificity but has so far been limited to linear absorption edges. Here, we measure XUVSHG from an indium tin oxide capped MoO$_3$/SiO$_2$/Si photovoltaic heterojunction for fundamental energies of 60--76\\,eV, below the Si L$_{2,3}$-edge. Where linear absorption is a featureless valence background, we observe a strong, structured XUVSHG response with maxima near 70 and 76\\,eV. Layer-resolved first-principles calculations reproduce both maxima and assign them to the Si/SiO$_2$ interface, the 76\\,eV peak to the bridging Si monolayer and the 70\\,eV peak to the near-interface substrate. Bethe--Salpeter calculations for bulk Si connect the signal to Si 2$p$ excitons at 140--160\\,eV. At the Si L$_{2,3}$-edge, the calculated response is instead governed by MoO$_3$-induced asymmetry at the oxide interface. These findings establish off-edge XUV SHG as a powerful approach for selectively probing distinct buried interfaces within complex material heterostructures.",
-      "submitted": "2026-11-15T18:50:36Z",
-      "updated": "2026-11-15T18:50:36Z",
-      "categories": [
-        "cond-mat.mtrl-sci"
-      ],
-      "pdf_url": "https://arxiv.org/pdf/2611.20198v1",
-      "arxiv_url": "https://arxiv.org/abs/2611.20198",
-      "study_type": "Computational",
-      "relevance": "Core exciton paper",
-      "paper_nature": "Original research",
-      "materials": [],
-      "material_families": [
-        "Other 2D / van der Waals materials"
-      ],
-      "exciton_properties": [],
-      "applications": [
-        "Photovoltaics"
-      ],
-      "methods": [
-        "DFT"
-      ],
-      "matched_keywords": [
-        "exciton",
-        "first-principles"
-      ],
-      "classification_evidence": {
-        "experimental_actions": [
-          "we measure",
-          "we observe"
-        ],
-        "computational_actions": [
-          "first-principles calculations"
-        ],
-        "experimental_methods": {},
-        "computational_methods": {
-          "DFT": [
-            "first-principles"
-          ]
-        },
-        "materials": {
-          "Other 2D / van der Waals materials": [
-            "monolayer"
-          ]
-        },
         "properties": {},
         "relevance": [
           "exciton/excitonic stated in title or abstract"
@@ -32148,11 +32486,20 @@
       "new": 7,
       "updated": 0,
       "total": 419
+    },
+    {
+      "scanned_at": "2026-11-18T12:09:41.810302+00:00",
+      "since": "2026-11-04",
+      "fetched": 38,
+      "classified": 38,
+      "new": 4,
+      "updated": 1,
+      "total": 423
     }
   ],
   "counts": {
-    "total": 419,
-    "new_this_scan": 7,
-    "updated_this_scan": 0
+    "total": 423,
+    "new_this_scan": 4,
+    "updated_this_scan": 1
   }
 }
