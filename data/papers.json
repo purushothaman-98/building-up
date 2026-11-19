@@ -1,7 +1,78 @@
 {
   "schema_version": 2,
-  "last_scan": "2026-11-18T12:09:41.810302+00:00",
+  "last_scan": "2026-11-19T12:03:53.995276+00:00",
   "papers": [
+    {
+      "arxiv_id": "2611.24096",
+      "version": "v1",
+      "versioned_id": "2611.24096v1",
+      "title": "Gas-induced reversible spectral tuning of bound states in the continuum in perovskite metasurfaces",
+      "authors": [
+        "Nikita Glebov",
+        "Yuliya Kenzhebayeva",
+        "Pavel Pankin",
+        "Mikhail Masharin",
+        "Martin Rojas Bustamante",
+        "Xiuzhen Liu",
+        "Shixiong Li",
+        "Ruslan Azizov",
+        "Dmitrii Maksimov",
+        "Hatice Altug",
+        "Andrey Bogdanov",
+        "Sergey Makarov"
+      ],
+      "abstract": "Bound states in the continuum (BICs) provide a powerful route to engineering optical resonances in compact photonic structures, enabling enhanced light--matter interaction for sensing, nonlinear optics, optical modulation, and lasing. The next step towards practical BIC-based meta-optics is dynamic and reversible spectral control after fabrication. However, optical and electro-optical tuning typically produces limited refractive-index changes, thermo-optical approaches require continuous external actuation, and phase-change materials often provide discrete switching rather than continuous spectral reconfiguration. Here we demonstrate giant, fully reversible, and continuous spectral tuning of BIC resonances in halide-perovskite metasurfaces. Using nanoimprint lithography, we fabricate MAPbBr$_3$ metasurfaces, that support BIC-derived resonances in the visible spectral range. Exposure to HCl vapor initiates an anion-exchange reaction in which Cl$^-$ ions diffuse into the perovskite crystalline lattice and partially replace Br$^-$ ions, producing a monotonic increase of the electronic bandgap and blueshift of the excitonic resonance on a minute timescale. This leads to a decrease in the refractive index and tunes the BIC resonance by more than 40~nm in the visible range. Subsequent exposure to HBr vapor reverses the exchange process and restores the resonance to its initial spectral position. As a functional demonstration, we show continuous reversible spectral tuning of BIC-mediated lasing from the same metasurface. Our results establish gas-phase anion exchange as a non-destructive mechanism for continuous, reversible, and large-range post-fabrication control of perovskite metasurfaces, opening opportunities for chemically programmable lasers, adaptive meta-optics, and active nanophotonic devices.",
+      "submitted": "2026-11-18T09:20:51Z",
+      "updated": "2026-11-18T09:20:51Z",
+      "categories": [
+        "physics.optics"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2611.24096v1",
+      "arxiv_url": "https://arxiv.org/abs/2611.24096",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [
+        "perovskites"
+      ],
+      "material_families": [
+        "Perovskites / halide semiconductors"
+      ],
+      "exciton_properties": [],
+      "applications": [],
+      "methods": [],
+      "matched_keywords": [
+        "exciton",
+        "excitonic"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [
+          "using"
+        ],
+        "experimental_methods": {},
+        "computational_methods": {},
+        "materials": {
+          "perovskites": [
+            "perovskite"
+          ],
+          "Perovskites / halide semiconductors": [
+            "perovskite"
+          ]
+        },
+        "properties": {},
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
     {
       "arxiv_id": "2611.20198",
       "version": "v2",
@@ -32495,11 +32566,20 @@
       "new": 4,
       "updated": 1,
       "total": 423
+    },
+    {
+      "scanned_at": "2026-11-19T12:03:53.995276+00:00",
+      "since": "2026-11-05",
+      "fetched": 35,
+      "classified": 35,
+      "new": 1,
+      "updated": 0,
+      "total": 424
     }
   ],
   "counts": {
-    "total": 423,
-    "new_this_scan": 4,
-    "updated_this_scan": 1
+    "total": 424,
+    "new_this_scan": 1,
+    "updated_this_scan": 0
   }
 }
