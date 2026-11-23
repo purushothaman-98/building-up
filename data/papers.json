@@ -1,7 +1,74 @@
 {
   "schema_version": 2,
-  "last_scan": "2026-11-22T11:54:50.843597+00:00",
+  "last_scan": "2026-11-23T13:34:13.597349+00:00",
   "papers": [
+    {
+      "arxiv_id": "2611.27440",
+      "version": "v1",
+      "versioned_id": "2611.27440v1",
+      "title": "Decoupling Exciton Energetics from Wavefunction Geometry in Imide-Based Defect Double Antiperovskites",
+      "authors": [
+        "Dhriti Mandal",
+        "Saswata Bhattacharya"
+      ],
+      "abstract": "The excited-state properties of imide-based defect double antiperovskites AE$_5$AsPn(NH)$_2$ (AE = Ca, Sr; Pn = Sb, Bi) are investigated using spin--orbit-coupled quasiparticle calculations, the model Bethe--Salpeter equation (mBSE), and analytical descriptions of lattice-polarization effects. Across five tetragonal ($P4/mmm$) and monoclinic ($Cm$) structural models, the calculated exciton binding energies range from 140 to 210 meV. Chemical substitution modifies both the binding energies and the hydrogenic estimates of exciton spatial extent. By contrast, the structural distortion from tetragonal $P4/mmm$ ($D_{4h}$) to monoclinic $Cm$ ($C_s$), which removes inversion and fourfold rotational symmetry, produces comparatively modest changes in binding energy but appreciably reshapes the real- and momentum-space exciton distributions. This contrast reveals a partial decoupling between exciton energetics and wavefunction geometry, and identifies a symmetry-associated sensitivity of exciton geometry to structural distortion. The changes are understood to occur together with modifications of local coordination and electronic dispersion, rather than as an isolated effect of symmetry alone. Lattice polarization provides an additional screening channel, reducing the estimated exciton binding energies by approximately 9--16\\%. Complementary Fröhlich-polaron calculations yield moderate mass enhancement and model-estimated electron-polaron mobilities of 39--99 cm$^2$ V$^{-1}$ s$^{-1}$, with comparatively modest differences between the two polymorphs. These results highlight the distinct responses of exciton energetics, exciton wavefunction geometry, and carrier transport to chemical and structural modifications.",
+      "submitted": "2026-11-20T10:37:15Z",
+      "updated": "2026-11-20T10:37:15Z",
+      "categories": [
+        "cond-mat.mtrl-sci",
+        "cond-mat.other"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2611.27440v1",
+      "arxiv_url": "https://arxiv.org/abs/2611.27440",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [
+        "perovskites"
+      ],
+      "material_families": [
+        "Perovskites / halide semiconductors"
+      ],
+      "exciton_properties": [
+        "Binding energy"
+      ],
+      "applications": [],
+      "methods": [],
+      "matched_keywords": [
+        "exciton"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [
+          "using"
+        ],
+        "experimental_methods": {},
+        "computational_methods": {},
+        "materials": {
+          "perovskites": [
+            "perovskite"
+          ],
+          "Perovskites / halide semiconductors": [
+            "perovskite"
+          ]
+        },
+        "properties": {
+          "Binding energy": [
+            "binding energies"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
     {
       "arxiv_id": "2611.26589",
       "version": "v1",
@@ -32866,11 +32933,20 @@
       "new": 0,
       "updated": 0,
       "total": 428
+    },
+    {
+      "scanned_at": "2026-11-23T13:34:13.597349+00:00",
+      "since": "2026-11-09",
+      "fetched": 28,
+      "classified": 28,
+      "new": 1,
+      "updated": 0,
+      "total": 429
     }
   ],
   "counts": {
-    "total": 428,
-    "new_this_scan": 0,
+    "total": 429,
+    "new_this_scan": 1,
     "updated_this_scan": 0
   }
 }
