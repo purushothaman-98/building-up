@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_scan": "2026-11-23T13:34:13.597349+00:00",
+  "last_scan": "2026-11-24T02:37:06.867388+00:00",
   "papers": [
     {
       "arxiv_id": "2611.27440",
@@ -57,6 +57,64 @@
             "binding energies"
           ]
         },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2611.28181",
+      "version": "v1",
+      "versioned_id": "2611.28181v1",
+      "title": "Adaptive Multiset Tree Tensor Networks for Large-Scale Exciton Dynamics",
+      "authors": [
+        "Lachlan P Lindoy",
+        "Ivan Rungger"
+      ],
+      "abstract": "Electronic excitations coupled to vibrational environments play an important role in charge and energy transport in molecular materials. Multiset tree tensor networks provide an efficient ansatz for the dynamics of such systems by allowing different electronic configurations to develop independent environmental correlations. However, typical implementations use fixed bond dimensions, significantly limiting the accessible system size and hence their predictive capabilities for large scale systems. To overcome these limitations, we introduce the adaptive multiset tree tensor network (AMTTN) approach, in which the bond dimensions of each configuration are adapted independently using a local energy variance based expansion scheme. Additionally, configurations can be temporarily frozen whenever they are predicted to remain weakly populated throughout a timestep. For the one-dimensional Holstein model, AMTTN reproduces converged exciton dynamics one to two orders of magnitude faster than fixed bond dimension multiset methods, with the dominant cost determined by the dynamically active region with only weak residual dependence on the lattice size. For a P3HT:PCBM heterojunction, it enables simulations of a model containing 52 oligothiophene units avoiding finite size effects occurring on dynamically relevant time scales, which lead to the previously studied 13 unit model substantially overestimating long time populations of bound charge separated states. Our results show that AMTTN provides a practical method for obtaining converged quantum dynamics simulations of challenging excitonic and non-adiabatic systems for which conventional multiset approaches are prohibitively expensive.",
+      "submitted": "2026-11-20T09:37:32Z",
+      "updated": "2026-11-20T09:37:32Z",
+      "categories": [
+        "physics.chem-ph",
+        "quant-ph"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2611.28181v1",
+      "arxiv_url": "https://arxiv.org/abs/2611.28181",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [],
+      "material_families": [],
+      "exciton_properties": [],
+      "applications": [],
+      "methods": [
+        "Exciton lifetime / dynamics"
+      ],
+      "matched_keywords": [
+        "exciton",
+        "exciton dynamics",
+        "excitonic"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [
+          "using"
+        ],
+        "experimental_methods": {
+          "Exciton lifetime / dynamics": [
+            "exciton dynamics"
+          ]
+        },
+        "computational_methods": {},
+        "materials": {},
+        "properties": {},
         "relevance": [
           "exciton/excitonic stated in title or abstract"
         ]
@@ -32942,10 +33000,19 @@
       "new": 1,
       "updated": 0,
       "total": 429
+    },
+    {
+      "scanned_at": "2026-11-24T02:37:06.867388+00:00",
+      "since": "2026-11-10",
+      "fetched": 25,
+      "classified": 25,
+      "new": 1,
+      "updated": 0,
+      "total": 430
     }
   ],
   "counts": {
-    "total": 429,
+    "total": 430,
     "new_this_scan": 1,
     "updated_this_scan": 0
   }
