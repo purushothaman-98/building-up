@@ -1,7 +1,275 @@
 {
   "schema_version": 2,
-  "last_scan": "2026-11-24T02:37:06.867388+00:00",
+  "last_scan": "2026-11-25T00:10:14.044843+00:00",
   "papers": [
+    {
+      "arxiv_id": "2611.30865",
+      "version": "v1",
+      "versioned_id": "2611.30865v1",
+      "title": "Altermagnetism of MnSiN2 and MnGeN2 in a wurtzite-based crystal structure",
+      "authors": [
+        "Ilteris K. Turan",
+        "Jonathan Agrinya",
+        "Walter R. L. Lambrecht"
+      ],
+      "abstract": "Based on symmetry analysis, the Pna2_1 wurtzite-based crystal structure with Mn as a magnetic group-II element, MnSiN2 and MnGeN2 belong to the class of altermagnets because spin-up and spin-down Mn in the unit cell are related by rotation or mirror plane type operations rather than inversion or translation. Spin polarized density functional theory calculations and quasiparticle self-consistent (QS) GW calculations support the symmetry analysis and identify the lowest-energy spin configuration as Pna'2_1' in agreement with neutron diffraction data. The altermagnetic band splittings allowed for the three different antiferromagnetic ordering patterns are reported and symmetry analyzed. Additionally, spin wave dispersions, chiral magnon spltting, and Neel temperature estimates from the mean-field and random-phase approximations are provided, as well as calculations of the optical dielectric function using the Bethe-Salpeter Equation method. MnSiN2 exhibits both Wannier-type excitons with N-p to Si-s transition character and charge-transfer Frenkel-type excitons with hole on N-p and electron on Mn-d orbital character.",
+      "submitted": "2026-11-23T15:39:17Z",
+      "updated": "2026-11-23T15:39:17Z",
+      "categories": [
+        "cond-mat.mtrl-sci",
+        "cond-mat.other"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2611.30865v1",
+      "arxiv_url": "https://arxiv.org/abs/2611.30865",
+      "study_type": "Computational",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [],
+      "material_families": [],
+      "exciton_properties": [
+        "Valley / spin physics"
+      ],
+      "applications": [],
+      "methods": [
+        "DFT",
+        "GW",
+        "Bethe–Salpeter equation"
+      ],
+      "matched_keywords": [
+        "bethe-salpeter",
+        "density functional theory",
+        "exciton",
+        "gw calculation",
+        "gw calculations"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [
+          "using"
+        ],
+        "experimental_methods": {},
+        "computational_methods": {
+          "DFT": [
+            "density functional theory"
+          ],
+          "GW": [
+            "gw calculation",
+            "gw calculations"
+          ],
+          "Bethe–Salpeter equation": [
+            "bethe-salpeter"
+          ]
+        },
+        "materials": {},
+        "properties": {
+          "Valley / spin physics": [
+            "spin polarized"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": true
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2611.25888",
+      "version": "v2",
+      "versioned_id": "2611.25888v2",
+      "title": "momipy: A time-resolved momentum microscopy data analysis workflow",
+      "authors": [
+        "Paul Werner",
+        "Wiebke Bennecke",
+        "Jan Philipp Bange",
+        "Junde Liu",
+        "Daniel Steil",
+        "Marcel Reutzel",
+        "G. S. Matthijs Jansen",
+        "Stefan Mathias"
+      ],
+      "abstract": "Photoemission momentum microscopy is an emerging approach to photoelectron spectroscopy that is transforming electronic band structure mapping at both laboratory-based and large-scale facilities. Its extension to time-resolved measurements has recently enabled major advances, ranging from the femtosecond imaging of exciton wavefunctions to dark-field photoelectron microscopy of light-induced dynamics and strong light-matter interactions. However, the rapid acquisition of high-dimensional data sets (including electron in-plane momenta $k_x$ and $k_y$, kinetic energy $E_\\mathrm{kin}$, time $Δt$, and more) poses substantial challenges for data handling and analysis. A typical workflow encompasses data acquisition, exploratory visualization, calibration and targeted feature extraction, with data management ideally guided by FAIR principles. Here, we present momipy, a Python package that streamlines the momentum microscopy data analysis workflow efficiently and at low computational cost. Among other features, momipy provides interactive 4D data visualization, energy and momentum calibration, space-charge correction, and a broad selection of multidimensional data analysis routines, including binning, momentum-map extraction and time-, energy- and momentum-resolved model fitting. momipy is accompanied by a selection of interactive example scripts, supporting adoption of momipy by both experienced researchers and users new to momentum microscopy.",
+      "submitted": "2026-11-19T10:42:54Z",
+      "updated": "2026-11-23T09:25:25Z",
+      "categories": [
+        "cond-mat.mtrl-sci",
+        "physics.ins-det"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2611.25888v2",
+      "arxiv_url": "https://arxiv.org/abs/2611.25888",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Methods / software",
+      "materials": [],
+      "material_families": [],
+      "exciton_properties": [],
+      "applications": [],
+      "methods": [
+        "Time-resolved spectroscopy"
+      ],
+      "matched_keywords": [
+        "exciton",
+        "time-resolved"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [],
+        "experimental_methods": {
+          "Time-resolved spectroscopy": [
+            "time-resolved"
+          ]
+        },
+        "computational_methods": {},
+        "materials": {},
+        "properties": {},
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1",
+        "v2"
+      ]
+    },
+    {
+      "arxiv_id": "2611.29204",
+      "version": "v1",
+      "versioned_id": "2611.29204v1",
+      "title": "Polarization-independent self-hybridized strong coupling by Brillouin zone folding induced quasi-bound states in the continuum in bulk WS2 metasurfaces",
+      "authors": [
+        "Xiongwei Guo",
+        "Fu Liu",
+        "Jinhai Si",
+        "Xun Hou",
+        "Kuidong Wang"
+      ],
+      "abstract": "High-refractive-index dielectric metasurfaces supporting optical modes are ideal candidates for achieving strong coupling with transition-metal dichalcogenides (TMDCs) materials. However, optical illumination with a specific polarization is always required to estimate the maximal coupling strength in such coupled systems due to the polarization-dependent optical modes. Here, we propose a self-hybridized strong coupling between Brillouin zone folding induced quasi-bound states in the continuum (BZF-QBICs) mode and A excitons in the same bulk WS2 metasurface. By changing the thickness of the bulk WS2 metasurfaces, a typical anticrossing behavior with Rabi splitting of 165.9 meV is observed. Such Rabi splitting is unchanged when changing the polarization of the incident light from linearly to circularly polarizations, demonstrating the polarization-independent self-hybridized strong coupling. This work provides a novel method for realizing robust polarization-independent polaritons in bulk TMDCs metasurface and offers new insights for expanding the applications of polaritonic devices with arbitrary polarizations.",
+      "submitted": "2026-11-22T04:03:52Z",
+      "updated": "2026-11-22T04:03:52Z",
+      "categories": [
+        "physics.optics",
+        "cond-mat.mtrl-sci",
+        "physics.app-ph"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2611.29204v1",
+      "arxiv_url": "https://arxiv.org/abs/2611.29204",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Methods / software",
+      "materials": [
+        "WS2",
+        "transition-metal dichalcogenides"
+      ],
+      "material_families": [
+        "TMDs / 2D chalcogenides"
+      ],
+      "exciton_properties": [
+        "Light-matter strong coupling"
+      ],
+      "applications": [
+        "Light–matter coupling"
+      ],
+      "methods": [],
+      "matched_keywords": [
+        "exciton",
+        "polariton"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [],
+        "experimental_methods": {},
+        "computational_methods": {},
+        "materials": {
+          "WS2": [
+            "ws2"
+          ],
+          "transition-metal dichalcogenides": [
+            "transition-metal dichalcogenide"
+          ],
+          "TMDs / 2D chalcogenides": [
+            "transition-metal dichalcogenide",
+            "ws2"
+          ]
+        },
+        "properties": {
+          "Light-matter strong coupling": [
+            "rabi splitting"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2611.28973",
+      "version": "v1",
+      "versioned_id": "2611.28973v1",
+      "title": "Handed Ultrafast Dynamics in Chiral Cyanine Nanotubes",
+      "authors": [
+        "Indranil Ghosh",
+        "Keerthi Vaasan Mani",
+        "Caitlin C. Bellora",
+        "Gregory S. Engel"
+      ],
+      "abstract": "We detect helicity-dependent excited state relaxation in a chiral exciton system. Using L-histidine as a chiral inducer, we prepared unbundled, double-walled J-aggregrate nanotubes of an amphiphilic cyanine dye with a net handedness, which gives a large circular dichroism dissymmetry factor ($g_{abs} = 3.6 \\times 10^{-2}$). With two-dimensional electronic spectroscopy and circularly polarized pump pulses, we find that the relaxation rates of longitudinal excitons depend on pump helicity (4.5 $ps^{-1}$ for $\\langle \\textit{RRXX} \\rangle$ vs 6 $ps^{-1}$ for $\\langle \\textit{LLXX} \\rangle$, a difference of about 30%) and is the same in the inner and outer tubes. Transverse excitons show no significant dependence. Chirality and pump helicity therefore bias exciton relaxation on the femtosecond timescale for excitons delocalized along the helical structure.",
+      "submitted": "2026-11-21T18:16:49Z",
+      "updated": "2026-11-21T18:16:49Z",
+      "categories": [
+        "physics.chem-ph",
+        "physics.optics",
+        "quant-ph"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2611.28973v1",
+      "arxiv_url": "https://arxiv.org/abs/2611.28973",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [],
+      "material_families": [],
+      "exciton_properties": [],
+      "applications": [],
+      "methods": [],
+      "matched_keywords": [
+        "exciton"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [
+          "using"
+        ],
+        "experimental_methods": {},
+        "computational_methods": {},
+        "materials": {},
+        "properties": {},
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
     {
       "arxiv_id": "2611.27440",
       "version": "v1",
@@ -261,67 +529,6 @@
       },
       "evidence": {
         "experimental": true,
-        "computational": false
-      },
-      "versions_seen": [
-        "v1"
-      ]
-    },
-    {
-      "arxiv_id": "2611.25888",
-      "version": "v1",
-      "versioned_id": "2611.25888v1",
-      "title": "momipy: A time-resolved momentum microscopy data analysis workflow",
-      "authors": [
-        "Paul Werner",
-        "Wiebke Bennecke",
-        "Jan Philipp Bange",
-        "Junde Liu",
-        "Daniel Steil",
-        "Marcel Reutzel",
-        "G. S. Matthijs Jansen",
-        "Stefan Mathias"
-      ],
-      "abstract": "Photoemission momentum microscopy is an emerging approach to photoelectron spectroscopy that is transforming electronic band structure mapping at both laboratory-based and large-scale facilities. Its extension to time-resolved measurements has recently enabled major advances, ranging from the femtosecond imaging of exciton wavefunctions to dark-field photoelectron microscopy of light-induced dynamics and strong light-matter interactions. However, the rapid acquisition of high-dimensional data sets (including electron in-plane momenta $k_x$ and $k_y$, kinetic energy $E_\\mathrm{kin}$, time $Δt$, and more) poses substantial challenges for data handling and analysis. A typical workflow encompasses data acquisition, exploratory visualization, calibration and targeted feature extraction, with data management ideally guided by FAIR principles. Here, we present momipy, a Python package that streamlines the momentum microscopy data analysis workflow efficiently and at low computational cost. Among other features, momipy provides interactive 4D data visualization, energy and momentum calibration, space-charge correction, and a broad selection of multidimensional data analysis routines, including binning, momentum-map extraction and time-, energy- and momentum-resolved model fitting. momipy is accompanied by a selection of interactive example scripts, supporting adoption of momipy by both experienced researchers and users new to momentum microscopy.",
-      "submitted": "2026-11-19T10:42:54Z",
-      "updated": "2026-11-19T10:42:54Z",
-      "categories": [
-        "cond-mat.mtrl-sci",
-        "physics.ins-det"
-      ],
-      "pdf_url": "https://arxiv.org/pdf/2611.25888v1",
-      "arxiv_url": "https://arxiv.org/abs/2611.25888",
-      "study_type": "Unclassified",
-      "relevance": "Core exciton paper",
-      "paper_nature": "Methods / software",
-      "materials": [],
-      "material_families": [],
-      "exciton_properties": [],
-      "applications": [],
-      "methods": [
-        "Time-resolved spectroscopy"
-      ],
-      "matched_keywords": [
-        "exciton",
-        "time-resolved"
-      ],
-      "classification_evidence": {
-        "experimental_actions": [],
-        "computational_actions": [],
-        "experimental_methods": {
-          "Time-resolved spectroscopy": [
-            "time-resolved"
-          ]
-        },
-        "computational_methods": {},
-        "materials": {},
-        "properties": {},
-        "relevance": [
-          "exciton/excitonic stated in title or abstract"
-        ]
-      },
-      "evidence": {
-        "experimental": false,
         "computational": false
       },
       "versions_seen": [
@@ -33009,11 +33216,20 @@
       "new": 1,
       "updated": 0,
       "total": 430
+    },
+    {
+      "scanned_at": "2026-11-25T00:10:14.044843+00:00",
+      "since": "2026-11-11",
+      "fetched": 27,
+      "classified": 27,
+      "new": 3,
+      "updated": 1,
+      "total": 433
     }
   ],
   "counts": {
-    "total": 430,
-    "new_this_scan": 1,
-    "updated_this_scan": 0
+    "total": 433,
+    "new_this_scan": 3,
+    "updated_this_scan": 1
   }
 }
