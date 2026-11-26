@@ -1,7 +1,353 @@
 {
   "schema_version": 2,
-  "last_scan": "2026-11-25T00:10:14.044843+00:00",
+  "last_scan": "2026-11-26T13:03:17.965475+00:00",
   "papers": [
+    {
+      "arxiv_id": "2611.34900",
+      "version": "v1",
+      "versioned_id": "2611.34900v1",
+      "title": "Brightening spin- and parity-forbidden interlayer excitons through rhombohedral stacking",
+      "authors": [
+        "Haodong Hu",
+        "Chih-En Hsu",
+        "Kenji Watanabe",
+        "Takashi Taniguchi",
+        "Hung-Chung Hsueh",
+        "Zhenglu Li",
+        "Ziliang Ye"
+      ],
+      "abstract": "Brightened symmetry-forbidden excitons can provide critical information about the electronic structure and many-body interactions in semiconductors. Recently, interlayer atomic registry has emerged as a new way to control atomically thin layered materials in both ground and excited states. Here we show that the rhombohedral stacking in a 3R-MoS_2 homobilayer can brighten two symmetry-forbidden interlayer excitons: one is a spin-unlike 1s exciton and the other is a parity-odd 2p exciton. The nature of these interlayer excitons is revealed by their gfactors as well as the hybridization patterns observed when they are tuned to resonate with intralayer excitons. Surprisingly, the hybridized 2p exciton exhibits a constructive quantum interference between the acquired transition dipoles, revealing a hidden gauge-invariant phase contrast between the constituent electronic states. Our results establish stacking control as a powerful approach for modulating quantum phases of excitons in 2D semiconductors.",
+      "submitted": "2026-11-25T18:52:12Z",
+      "updated": "2026-11-25T18:52:12Z",
+      "categories": [
+        "cond-mat.mes-hall",
+        "cond-mat.mtrl-sci"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2611.34900v1",
+      "arxiv_url": "https://arxiv.org/abs/2611.34900",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [],
+      "material_families": [],
+      "exciton_properties": [
+        "Oscillator strength / optical activity"
+      ],
+      "applications": [],
+      "methods": [
+        "Oscillator strength"
+      ],
+      "matched_keywords": [
+        "exciton",
+        "transition dipole"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [],
+        "experimental_methods": {},
+        "computational_methods": {
+          "Oscillator strength": [
+            "transition dipole"
+          ]
+        },
+        "materials": {},
+        "properties": {
+          "Oscillator strength / optical activity": [
+            "transition dipole"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2611.34500",
+      "version": "v1",
+      "versioned_id": "2611.34500v1",
+      "title": "LetzElPhC: an electron-phonon code for efficient exciton-phonon workflows",
+      "authors": [
+        "Muralidhar Nalabothula",
+        "Ludger Wirtz"
+      ],
+      "abstract": "We present \\texttt{LetzElPhC}, an open-source software package that computes electron-phonon matrix elements from the output of density functional perturbation theory calculations performed with the \\texttt{Quantum ESPRESSO} code. By interfacing directly with the \\texttt{Yambo} code and exploiting crystal symmetries, \\texttt{LetzElPhC} enables a scalable workflow for evaluating exciton-phonon matrix elements while enforcing strict gauge consistency between one-electron Bloch states and Bethe-Salpeter excitonic wave functions across the full Brillouin zone. This symmetry-preserving approach avoids phase ambiguities and significantly reduces both computational costs and memory requirements. To support large-scale simulations on dense momentum grids, the package incorporates Fourier interpolation of dynamical matrices and perturbed Kohn-Sham potentials, accounting for long-range dipole and quadrupole interactions in both two- and three-dimensional materials, combined with multi-level parallelization and efficient parallel I/O. Together, these capabilities seamlessly complement the \\texttt{Yambo} code to enable first-principles simulations of phonon-assisted optical spectroscopies, which we demonstrate through applications to resonant Raman scattering in monolayer $\\text{WSe}_2$ and phonon-assisted luminescence in cubic AgBr.",
+      "submitted": "2026-11-25T14:54:09Z",
+      "updated": "2026-11-25T14:54:09Z",
+      "categories": [
+        "cond-mat.mtrl-sci",
+        "cond-mat.mes-hall"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2611.34500v1",
+      "arxiv_url": "https://arxiv.org/abs/2611.34500",
+      "study_type": "Computational",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Methods / software",
+      "materials": [],
+      "material_families": [
+        "Other 2D / van der Waals materials"
+      ],
+      "exciton_properties": [
+        "Exciton-phonon coupling"
+      ],
+      "applications": [],
+      "methods": [
+        "Raman spectroscopy",
+        "DFT",
+        "Bethe–Salpeter equation"
+      ],
+      "matched_keywords": [
+        "bethe-salpeter",
+        "exciton",
+        "excitonic",
+        "first-principles",
+        "raman scattering"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [],
+        "computational_actions": [],
+        "experimental_methods": {
+          "Raman spectroscopy": [
+            "raman scattering"
+          ]
+        },
+        "computational_methods": {
+          "DFT": [
+            "first-principles"
+          ],
+          "Bethe–Salpeter equation": [
+            "bethe-salpeter"
+          ]
+        },
+        "materials": {
+          "Other 2D / van der Waals materials": [
+            "monolayer"
+          ]
+        },
+        "properties": {
+          "Exciton-phonon coupling": [
+            "exciton-phonon",
+            "phonon-assisted"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": true
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2611.33933",
+      "version": "v1",
+      "versioned_id": "2611.33933v1",
+      "title": "Transport Layer-Driven Optimization of Color and Efficiency in TADF OLEDs for Large-Area Applications",
+      "authors": [
+        "Manish Kumar",
+        "Jawid Nikan",
+        "Luiz Pereira"
+      ],
+      "abstract": "Balancing structural simplicity with high efficiency is crucial for practical applications of organic light-emitting diodes (OLEDs), especially in large-area lighting devices. Optimizing the charge-transport layers in multilayer OLEDs controls the recombination zone within the emissive layer, thereby enhancing the device's performance. Herein, we experimentally and computationally investigate how the thicknesses of the electron and hole transport layers affect the performance of orange-red thermally activated delayed fluorescence (TADF) OLEDs. Using a TADF emitter, 2-[4-(diphenylamino)phenyl]-10,10-dioxide-9H-thioxanthen-9-one (TXO-TPA), at 10 wt\\% concentration in 4,4-Bis(N-carbazolyl)-1,1-biphenyl (CBP) host, we achieve a maximum external quantum efficiency ($η_{EQE}$) of 20.86\\% and a peak luminance of 32,800 cd m$^{-2}$. Using a combination of drift-diffusion and optical simulations, we reveal how variations in hole- and electron-transport-layer thicknesses modulate the charge-carrier balance and shift the recombination zone within the emissive layer. This tuning not only optimizes exciton formation but also enables color tuning from green to red without altering the emissive material. Our findings highlight the critical role of transport layer engineering in achieving efficient, color-controlled OLEDs with simplified architectures. Furthermore, we successfully demonstrate a large-area OLED device (~20 cm$^{2}$), achieving an impressive $η_{EQE}$ of 17\\%, underscoring the scalability and practicality of our approach for general lighting applications.",
+      "submitted": "2026-11-25T07:52:20Z",
+      "updated": "2026-11-25T07:52:20Z",
+      "categories": [
+        "physics.optics",
+        "cond-mat.mtrl-sci"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2611.33933v1",
+      "arxiv_url": "https://arxiv.org/abs/2611.33933",
+      "study_type": "Unclassified",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [],
+      "material_families": [],
+      "exciton_properties": [],
+      "applications": [],
+      "methods": [],
+      "matched_keywords": [
+        "exciton"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [
+          "experimentally"
+        ],
+        "computational_actions": [
+          "using"
+        ],
+        "experimental_methods": {},
+        "computational_methods": {},
+        "materials": {},
+        "properties": {},
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2611.33891",
+      "version": "v1",
+      "versioned_id": "2611.33891v1",
+      "title": "Cascading LO-phonon-mediated resonant energy transfer from excitons to Eu3+ for ultrahigh color purity red luminescence in europium-doped GaN",
+      "authors": [
+        "Shizhao Fan",
+        "Yue Xu",
+        "Yuhao Yin",
+        "Shitao Dong",
+        "Shaoqiang Chen",
+        "Xueyuan Chen",
+        "Zhan Su",
+        "Datao Tu",
+        "Qian Sun",
+        "Hui Yang"
+      ],
+      "abstract": "High-efficiency, wavelength-stable red micro-LEDs with ultrahigh color purity remain a critical bottleneck for monolithic III-nitride full-color displays. Europium-doped GaN (GaN:Eu) offers a compelling solution, yet the microscopic energy transfer mechanism from the GaN host to Eu3+ ions has remained unresolved for three decades, impeding rational performance optimization. Here we report polaron-mediated resonant energy transfer in high-crystalline-quality GaN:Eu epilayers grown by plasma-assisted molecular beam epitaxy. Eu3+ doping stabilizes a distinct bound exciton (BX3) state at 3.478 eV, which couples strongly with longitudinal optical (LO) phonons via the Frohlich interaction to form cascading polarons with up to seven phonon replicas at a uniform energy spacing of 92.0+/-0.7 meV. The BX3 polaron coupled with 5LO phonons matches precisely the 7F0-->5D3 intra-4f transition energy of Eu3+ at 3.019 eV. Temperature-dependent photoluminescence reveals non-equilibrium phonon emission, evidencing directional resonant energy transfer. After rapid nonradiative relaxation from the 5D3 excited state to the 5D0 metastable state, the hypersensitive 5D0-->7F2 transition yields sharp 622 nm red emission. Time-resolved spectroscopy confirms a single dominant Eu3+ luminescent site with reduced local symmetry, attributed to off-axis EuGa-VN complexes. This work identifies a key energy transfer channel and provides a clear framework for designing high-efficiency GaN:Eu red emitter.",
+      "submitted": "2026-11-25T07:07:10Z",
+      "updated": "2026-11-25T07:07:10Z",
+      "categories": [
+        "cond-mat.mtrl-sci"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2611.33891v1",
+      "arxiv_url": "https://arxiv.org/abs/2611.33891",
+      "study_type": "Experimental",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Original research",
+      "materials": [],
+      "material_families": [],
+      "exciton_properties": [
+        "Transport / diffusion"
+      ],
+      "applications": [],
+      "methods": [
+        "Photoluminescence",
+        "Time-resolved spectroscopy"
+      ],
+      "matched_keywords": [
+        "exciton",
+        "photoluminescence",
+        "time-resolved"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [
+          "we report"
+        ],
+        "computational_actions": [],
+        "experimental_methods": {
+          "Photoluminescence": [
+            "photoluminescence"
+          ],
+          "Time-resolved spectroscopy": [
+            "time-resolved"
+          ]
+        },
+        "computational_methods": {},
+        "materials": {},
+        "properties": {
+          "Transport / diffusion": [
+            "energy transfer"
+          ]
+        },
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": true,
+        "computational": false
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
+    {
+      "arxiv_id": "2611.33289",
+      "version": "v1",
+      "versioned_id": "2611.33289v1",
+      "title": "Can the chemical potential and the many-body correlated phases of a two-dimensional dipolar fluid be approximated analytically? A Quantum Monte-Carlo study of a universal behavior of dipolar excitons",
+      "authors": [
+        "Yotam Mazuz-Harpaz",
+        "Michal Zimmerman",
+        "Snir Gazit",
+        "Ronen Rapaport"
+      ],
+      "abstract": "A central challenge in quantum many-body physics is to connect microscopic interactions to experimentally accessible macroscopic states of matter, where correlations extend across multiple length scales. Using quantum Monte Carlo (QMC) simulations of two-dimensional repulsive dipolar bosons, recently realized across various experimental platforms, we show that correlations within the dipolar fluid lead to an unexpected simplification. Specifically, we find that these correlations induce a pronounced depletion region around each particle that suppresses short-range physics and yields an emergent universality, where the fluid is governed by dipolar interactions rather than material-specific details. Exploiting this universality, we establish a unified, quantitatively validated analytical framework for the dipolar fluid, taking indirect (interlayer) excitons as a model system. We show that analytical interaction energies derived in an earlier study agree with exact QMC results across three correlation regimes: a classical gas, a quantum gas, and a high-density liquid. In contrast, the widely used uncorrelated plate capacitor formula severely overestimates the numerical values. Building on these expressions, we show that the chemical potential is accurately captured by a three-component decomposition: an ideal Bose-gas kinetic term, a regime-dependent dipolar interaction term, and a high-density quantum confinement term. Finally, we address a key experimental challenge: extracting exciton densities from measured energy shifts. Our QMC-benchmarked calibration curves for typical gallium arsenide (GaAs) and transition metal dichalcogenide (TMD) heterostructures offer a reliable tool for experimentalists to determine both the fluid's density and collective state. This universal framework extends to other two-dimensional systems, including ultracold dipolar atoms and polar molecules.",
+      "submitted": "2026-11-24T19:00:04Z",
+      "updated": "2026-11-24T19:00:04Z",
+      "categories": [
+        "cond-mat.quant-gas",
+        "cond-mat.mes-hall"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2611.33289v1",
+      "arxiv_url": "https://arxiv.org/abs/2611.33289",
+      "study_type": "Computational",
+      "relevance": "Core exciton paper",
+      "paper_nature": "Dataset / benchmark",
+      "materials": [
+        "transition-metal dichalcogenides"
+      ],
+      "material_families": [
+        "TMDs / 2D chalcogenides"
+      ],
+      "exciton_properties": [],
+      "applications": [],
+      "methods": [
+        "Quantum Monte Carlo"
+      ],
+      "matched_keywords": [
+        "exciton",
+        "quantum monte carlo"
+      ],
+      "classification_evidence": {
+        "experimental_actions": [
+          "experimentally"
+        ],
+        "computational_actions": [
+          "using"
+        ],
+        "experimental_methods": {},
+        "computational_methods": {
+          "Quantum Monte Carlo": [
+            "quantum monte carlo"
+          ]
+        },
+        "materials": {
+          "transition-metal dichalcogenides": [
+            "transition metal dichalcogenide"
+          ],
+          "TMDs / 2D chalcogenides": [
+            "transition metal dichalcogenide"
+          ]
+        },
+        "properties": {},
+        "relevance": [
+          "exciton/excitonic stated in title or abstract"
+        ]
+      },
+      "evidence": {
+        "experimental": false,
+        "computational": true
+      },
+      "versions_seen": [
+        "v1"
+      ]
+    },
     {
       "arxiv_id": "2611.30865",
       "version": "v1",
@@ -33225,11 +33571,20 @@
       "new": 3,
       "updated": 1,
       "total": 433
+    },
+    {
+      "scanned_at": "2026-11-26T13:03:17.965475+00:00",
+      "since": "2026-11-12",
+      "fetched": 32,
+      "classified": 32,
+      "new": 5,
+      "updated": 0,
+      "total": 438
     }
   ],
   "counts": {
-    "total": 433,
-    "new_this_scan": 3,
-    "updated_this_scan": 1
+    "total": 438,
+    "new_this_scan": 5,
+    "updated_this_scan": 0
   }
 }
